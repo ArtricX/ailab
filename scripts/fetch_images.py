@@ -15,8 +15,23 @@ IMG = ROOT / "assets" / "img"
 URL_RE = re.compile(r"https://d8j0ntlcm91z4\.cloudfront\.net/[^\s\"'<>)]+\.(?:png|jpe?g|webp)")
 
 
+MAX_W = {"thumb": 900, "full": 1600}
+
+
 def local_name(url):
-    return url.rsplit("/", 1)[-1]
+    """저장 이름: 원본은 .webp로 바꾸고, 미리보기(_min)는 그대로 webp."""
+    name = url.rsplit("/", 1)[-1]
+    return name.rsplit(".", 1)[0] + ".webp"
+
+
+def shrink(raw, dest, max_w):
+    """휴대폰에서도 빠르게 열리도록 너비를 줄이고 WebP로 저장합니다."""
+    from io import BytesIO
+    from PIL import Image
+    im = Image.open(BytesIO(raw)).convert("RGB")
+    if im.width > max_w:
+        im = im.resize((max_w, round(im.height * max_w / im.width)), Image.LANCZOS)
+    im.save(dest, "WEBP", quality=82, method=6)
 
 
 def download(url):
@@ -27,8 +42,8 @@ def download(url):
             data = r.read()
         if len(data) < 1000:
             raise SystemExit(f"내려받은 파일이 너무 작아요: {url}")
-        dest.write_bytes(data)
-        print(f"저장: assets/img/{dest.name} ({len(data) // 1024}KB)")
+        shrink(data, dest, MAX_W["thumb" if "_min." in url else "full"])
+        print(f"저장: assets/img/{dest.name} ({dest.stat().st_size // 1024}KB)")
     return dest.name
 
 
