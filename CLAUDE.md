@@ -28,7 +28,8 @@
    - 막대와 크기는 실제 눈금에 맞춰 계산하고, 모든 숫자는 출처의 실제 값입니다.
    - `<title>`과 `<desc>`로 그림 내용을 글로 적습니다.
 6. **목록 갱신**: `posts.json` 맨 앞에 그날 항목(date, title, summary, minutes, stories[tag, color, anchor, title, dek, illust], keywords[word, meaning])을 추가하고 `python3 scripts/build.py`를 실행해 `index.html`을 다시 만듭니다.
-7. **올리기**: `main`에 바로 올리지 않습니다. `daily/YYYY-MM-DD` 브랜치에 커밋하고 Pull Request를 엽니다. PR 설명에 소식 3개 제목과 출처를 적습니다. 사람이 PR을 병합하면 발행됩니다.
+7. **줄내림 검사**: `python3 scripts/check_lines.py`를 돌려 문제 0개가 될 때까지 구절을 다시 나눕니다. 문제가 남아 있으면 올리지 않습니다.
+8. **올리기**: `main`에 바로 올리지 않습니다. `daily/YYYY-MM-DD` 브랜치에 커밋하고 Pull Request를 엽니다. PR 설명에 소식 3개 제목과 출처를 적습니다. 사람이 PR을 병합하면 발행됩니다.
 
 ## 디자인 규칙
 - 스타일은 `assets/style.css` 하나만 씁니다. 글 페이지에 새 CSS를 넣지 않습니다.
