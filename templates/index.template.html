@@ -21,6 +21,7 @@
       <a href="#today">오늘 소식</a>
       <a href="#words">오늘의 말</a>
       <a href="#archive">지난 소식</a>
+      <a href="#subscribe">구독</a>
     </nav>
     <button class="text-toggle" type="button" id="text-toggle" aria-pressed="false">글자 크게</button>
   </header>
@@ -74,6 +75,22 @@
       </div>
     </section>
 
+    <section class="subscribe gutter" id="subscribe" aria-labelledby="subscribe-title">
+      <div class="subscribe-box">
+        <div class="subscribe-head">
+          <span class="bracket">구독</span>
+          <h2 id="subscribe-title"><span class="line">AI 소식을</span><span class="line">메일함으로</span></h2>
+        </div>
+        <div class="subscribe-body">
+          <p><span class="ph">매일 아침 7시,</span> <span class="ph">오늘의 AI 소식 세 가지를</span> <span class="ph">메일 한 통으로 보내 드려요.</span></p>
+          <div class="subscribe-slot" data-subscribe>
+            <a class="pill pill-ink" href="https://ailab-news.beehiiv.com/subscribe">이메일로 받아보기</a>
+          </div>
+          <p class="subscribe-note"><span class="ph">하루 한 통만 보내요.</span> <span class="ph">그만 받고 싶으면</span> <span class="ph">메일 맨 아래에서</span> <span class="ph">언제든 끊을 수 있어요.</span></p>
+        </div>
+      </div>
+    </section>
+
     <section class="section gutter" id="archive" aria-labelledby="archive-title">
       <h2 class="bracket" id="archive-title">지난 소식</h2>
 {{ARCHIVE}}
@@ -85,7 +102,7 @@
       <strong>AILAB</strong>
       <p>글은 AI가 쓰고 사람이 확인한 뒤 올려요. 숫자와 내용은 출처의 보도를 바탕으로 해요.</p>
     </div>
-    <div class="footer-cta">내일 아침 7시에 만나요</div>
+    <a class="footer-cta" href="#subscribe">아침 소식 메일로 받기</a>
   </footer>
 </div>
 </body>

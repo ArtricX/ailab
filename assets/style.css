@@ -279,3 +279,27 @@ p { margin: 0; text-wrap: pretty; }
 @media (min-width: 1240px) {
   .page { margin-block: 2rem; box-shadow: 0 0 0 1px var(--rule); }
 }
+
+/* 구독: 노란 지면 한 장. 왼쪽 큰 글자, 오른쪽 폼 */
+.subscribe { padding-block: 4rem 0; }
+.subscribe-box {
+  background: var(--yellow); border: 2px solid var(--ink);
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 1.6rem 3rem;
+  padding: clamp(1.6rem, 4vw, 3rem); align-items: end;
+}
+.subscribe-head { display: grid; gap: 0.8rem; container-type: inline-size; }
+.subscribe-head h2 { font-size: min(4.2rem, 17cqi); font-weight: 900; line-height: 1.02; letter-spacing: -0.055em; }
+.subscribe-head h2 .line { display: block; white-space: nowrap; }
+.subscribe-body { display: grid; gap: 1rem; min-width: 0; }
+.subscribe-body > p { font-size: 1.05rem; font-weight: 500; line-height: 1.6; }
+.subscribe-note { font-size: 0.82rem; line-height: 1.6; }
+.subscribe-slot { min-height: 52px; }
+.subscribe-slot iframe { width: 100%; border: 0; display: block; }
+.pill-ink { background: var(--ink); color: var(--paper); font-size: 1rem; padding: 0.75rem 1.5rem; }
+.pill-ink:hover { background: var(--paper); color: var(--ink); }
+.subscribe-post { padding-block: 3.4rem 0; }
+a.footer-cta { text-decoration: none; }
+a.footer-cta:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+@media (max-width: 860px) {
+  .subscribe-box { grid-template-columns: minmax(0, 1fr); }
+}

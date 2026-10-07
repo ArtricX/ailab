@@ -19,3 +19,28 @@
     });
   });
 })();
+
+// 구독 폼: beehiiv '구독 폼 > Get embed code'에서 받은 코드를 아래 EMBED에 붙여 넣으면
+// 모든 페이지의 [구독] 칸이 그 폼으로 바뀝니다. 비어 있으면 beehiiv 구독 페이지로 가는 버튼이 그대로 보여요.
+(function () {
+  var EMBED = "";
+  if (!EMBED) return;
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("[data-subscribe]").forEach(function (slot) {
+      var box = document.createElement("div");
+      box.innerHTML = EMBED;
+      slot.innerHTML = "";
+      // innerHTML로 넣은 <script>는 실행되지 않아서 새로 만들어 붙입니다.
+      Array.prototype.forEach.call(box.childNodes, function (node) {
+        if (node.nodeName === "SCRIPT") {
+          var s = document.createElement("script");
+          Array.prototype.forEach.call(node.attributes, function (a) { s.setAttribute(a.name, a.value); });
+          s.text = node.text;
+          slot.appendChild(s);
+        } else {
+          slot.appendChild(node.cloneNode(true));
+        }
+      });
+    });
+  });
+})();
