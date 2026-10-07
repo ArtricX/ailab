@@ -19,11 +19,13 @@
    - 구조: 머리(날짜 대괄호 라벨, 큰 제목, 소식 3개 칩) → 소식 3개(각각 일러스트, 태그, 제목, 한 줄 요약, 인포그래픽, 쉽게 알아보기: 무슨 일이에요? / 왜 그래요? / 나한테는요?, 출처) → 곧 만날지도 몰라요(선택) → 오늘의 말(꼬리표 3~5개) → 끝.
    - 소식마다 색을 하나 정합니다: `blue`, `yellow`, `pink`, `green`, `red` 중 겹치지 않게. 그 색을 칩(`c-`), 태그(`pill-tag c-`), 섹션(`a-`), 일러스트 배경에 똑같이 씁니다.
    - 제목, `<title>`, `description`, `og:*`, 날짜를 그날에 맞게 바꿉니다.
-5. **일러스트**: 소식마다 `assets/illust/YYYY-MM-DD-이름.svg` 하나(viewBox 800×600, 가운데 3:4 영역 안에 핵심이 오도록).
-   - 플랫 벡터, 검정 외곽선(4~6px), 팔레트 색만: #FF3D14 빨강, #1F3DFF 파랑, #FFD21F 노랑, #12A150 초록, #FF8FC8 분홍, #FFFFFF, #000000. 배경은 그 소식의 색으로 꽉 채웁니다.
-   - 소식의 핵심을 한눈에 보여 주는 장면 하나(비유 환영: 외줄 타는 로봇, 칩을 빨아들이는 서버). 표정과 움직임 표시로 생동감을 줍니다.
-   - 실제 인물·로고·브랜드 캐릭터·실제 작품은 그리지 않습니다. 글자는 최소한으로.
-   **인포그래픽**: 글 안에 인라인 SVG 하나(viewBox 너비 800). 기존 글의 클래스만 씁니다(`num` 큰 숫자, `grey`, `white`, `red`, `f-red/blue/yellow/green/pink/ink/paper/ground`, `line`, `line-grey`, `line-red`).
+5. **일러스트**: 소식마다 힉스필드(Higgsfield) 커넥터로 한 장씩 만듭니다. 세 장을 `generate_image_batch` 한 번으로 보내고 `jobs_wait`로 기다립니다.
+   - 모델과 설정(고정): `recraft_v4_1`, `model_type: standard`, `resolution: 2k`, `aspect_ratio: 4:3`, `colors: ["#FF3D14", "#1F3DFF", "#FFD21F", "#000000", "#FFFFFF"]`. 장당 약 8크레딧, 하루 약 24크레딧.
+   - 프롬프트 형식(고정): `Flat modern editorial magazine illustration with risograph grain texture and limited palette. <장면 한 문장>. Bold simple shapes, dramatic close cropping, slight halftone noise, no outlines, strong negative space. No text, no letters.`
+   - 장면은 소식의 핵심을 비유 하나로(예: 서버에서 나온 손이 폰에서 칩을 따 감, 외줄 타는 로봇과 구멍 난 안전 그물). 실제 인물·로고·브랜드 캐릭터·실제 작품은 넣지 않습니다.
+   - 결과의 원본 주소(`.png`)를 글 페이지의 `story-art` 이미지에, `_min.webp` 주소를 `posts.json`의 `thumb`에, 원본 주소를 `illust`에 넣습니다. 이미지 설명(alt)은 장면을 한국어로 적습니다.
+   - 크레딧이 부족하거나 생성이 실패하면 올리지 말고 PR 설명에 그 사실을 적습니다.
+   **인포그래픽**: 글 안에 인라인 SVG 하나(viewBox 너비 800). 외곽선 없이 평면 색 도형과 큰 숫자로 그립니다(`line` 클래스는 선과 화살표에만). 기존 글의 클래스만 씁니다(`num` 큰 숫자, `grey`, `white`, `red`, `f-red/blue/yellow/green/pink/ink/paper/ground`, `line`, `line-grey`, `line-red`).
    - 큰 숫자 하나를 주인공으로, 막대·말풍선·순서도 같은 구조는 사실 그대로. 빨강 강조는 그림마다 한 곳만.
    - 막대와 크기는 실제 눈금에 맞춰 계산하고, 모든 숫자는 출처의 실제 값입니다.
    - `<title>`과 `<desc>`로 그림 내용을 글로 적습니다.
@@ -33,7 +35,7 @@
 
 ## 디자인 규칙
 - 스타일은 `assets/style.css` 하나만 씁니다. 글 페이지에 새 CSS를 넣지 않습니다.
-- 콘셉트: 흰 지면 위 잡지·진(zine). 화면 밖으로 넘치는 빨간 AILAB 워드마크, 대괄호 라벨, 원색 다섯 가지, 꼬리표 스티커, 세로 날짜 라벨.
+- 콘셉트: 흰 지면 위 잡지·진(zine). 그림은 리소그래프 질감의 에디토리얼 일러스트. 화면 밖으로 넘치는 빨간 AILAB 워드마크, 대괄호 라벨, 원색 다섯 가지, 꼬리표 스티커, 세로 날짜 라벨.
 - 글자는 검정과 회색만. 색은 일러스트, 인포그래픽, 칩과 스티커가 담당합니다.
 - 밝은 지면 하나로만 디자인했습니다(다크 모드 없음).
 - 이모지와 01/02 같은 번호 매기기는 쓰지 않습니다(순서도처럼 진짜 순서일 때만 화살표로).

@@ -40,10 +40,14 @@ def check(posts):
         if len(p["stories"]) != 3:
             raise SystemExit(f"{p['date']}: 소식은 3개여야 해요")
         for s in p["stories"]:
-            if not (ROOT / s["illust"]).exists():
+            if not s["illust"].startswith("https://") and not (ROOT / s["illust"]).exists():
                 raise SystemExit(f"일러스트 파일이 없어요: {s['illust']}")
             if s["color"] not in COLORS:
                 raise SystemExit(f"색 이름이 잘못됐어요: {s['color']}")
+
+
+def thumb(s):
+    return s.get("thumb") or s["illust"]
 
 
 def feature(p, s, lead=False):
@@ -52,7 +56,7 @@ def feature(p, s, lead=False):
     dek = f'\n          <p class="feature-dek">{ph(s["dek"])}</p>' if lead else ""
     return (
         f'        <a class="{cls}" href="posts/{p["date"]}.html#{esc(s["anchor"])}">\n'
-        f'          <div class="feature-art"><img src="{esc(s["illust"])}" alt="">'
+        f'          <div class="feature-art"><img src="{esc(thumb(s))}" alt="" loading="lazy">'
         f'<span class="side-label">{d.month:02d}.{d.day:02d} {esc(s["tag"])}</span></div>\n'
         f'          <span class="feature-tag">{esc(s["tag"])}</span>\n'
         f'          <h3>{ph(s["title"])}</h3>{dek}\n'
@@ -88,7 +92,7 @@ def main():
             pd = dt.date.fromisoformat(p["date"])
             items.append(
                 f'        <a class="archive-item" href="posts/{p["date"]}.html">'
-                f'<img src="{esc(p["stories"][0]["illust"])}" alt="">'
+                f'<img src="{esc(thumb(p["stories"][0]))}" alt="" loading="lazy">'
                 f'<span class="archive-date">{pd.year}.{pd.month:02d}.{pd.day:02d} {WEEKDAYS[pd.weekday()]}</span>'
                 f'<span class="archive-title">{ph(p["title"])}</span></a>'
             )
@@ -102,8 +106,8 @@ def main():
         .replace("{{WEEKDAY}}", WEEKDAYS[d.weekday()])
         .replace("{{HREF}}", href)
         .replace("{{SUMMARY}}", ph(today["summary"]))
-        .replace("{{A0}}", esc(st[0]["anchor"])).replace("{{I0}}", esc(st[0]["illust"]))
-        .replace("{{A1}}", esc(st[1]["anchor"])).replace("{{I1}}", esc(st[1]["illust"]))
+        .replace("{{A0}}", esc(st[0]["anchor"])).replace("{{I0}}", esc(thumb(st[0])))
+        .replace("{{A1}}", esc(st[1]["anchor"])).replace("{{I1}}", esc(thumb(st[1])))
         .replace("{{FEATURES}}", features)
         .replace("{{TICKETS}}", tickets)
         .replace("{{ARCHIVE}}", archive)

@@ -82,7 +82,7 @@ p { margin: 0; text-wrap: pretty; }
 
 /* ---------- 홈 ---------- */
 .hero { display: grid; grid-template-columns: 1fr 1fr 1.25fr; gap: 1rem; padding-block: 2.2rem 0; align-items: end; }
-.hero-tile { position: relative; aspect-ratio: 1 / 1; overflow: hidden; border: 2px solid var(--ink); }
+.hero-tile { position: relative; aspect-ratio: 1 / 1; overflow: hidden; background: var(--ground); }
 .hero-tile img { width: 100%; height: 100%; object-fit: cover; }
 .hero-text { display: grid; gap: 0.9rem; align-content: end; padding-bottom: 0.2rem; min-width: 0; container-type: inline-size; }
 /* 첫 화면 제목: 두 줄 고정. 한 줄씩 줄바꿈 없이 두고, 글자 크기를 칸 너비에 맞춰 키웁니다. */
@@ -116,7 +116,7 @@ p { margin: 0; text-wrap: pretty; }
 .section { padding-block: 3.6rem 0; display: grid; gap: 1.2rem; }
 .features { display: grid; grid-template-columns: 1.35fr 1fr; gap: 1.6rem; }
 .feature { position: relative; display: grid; gap: 0.9rem; text-decoration: none; align-content: start; }
-.feature-art { position: relative; overflow: hidden; border: 2px solid var(--ink); }
+.feature-art { position: relative; overflow: hidden; background: var(--ground); }
 .feature-art img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform 400ms ease; }
 .feature:hover .feature-art img { transform: scale(1.03); }
 .side-label {
@@ -163,7 +163,7 @@ p { margin: 0; text-wrap: pretty; }
 /* 지난 소식 */
 .archive { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 1.6rem 1rem; }
 .archive-item { display: grid; gap: 0.5rem; text-decoration: none; }
-.archive-item img { aspect-ratio: 1; object-fit: cover; border: 2px solid var(--ink); }
+.archive-item img { aspect-ratio: 1; object-fit: cover; background: var(--ground); }
 .archive-date { font-family: var(--font-display); font-weight: 800; font-size: 0.78rem; }
 .archive-title { font-weight: 700; line-height: 1.45; }
 .archive-item:hover .archive-title { text-decoration: underline; }
@@ -196,7 +196,7 @@ p { margin: 0; text-wrap: pretty; }
 
 .story { padding-block: 3.4rem 3rem; border-bottom: 2px solid var(--ink); display: grid; gap: 2.2rem; scroll-margin-top: 1rem; }
 .story-top { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 2rem; align-items: end; }
-.story-art { position: relative; border: 2px solid var(--ink); overflow: hidden; }
+.story-art { position: relative; overflow: hidden; background: var(--ground); }
 .story-art img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .story-head { display: grid; gap: 1rem; align-content: end; min-width: 0; }
 .story-kicker { display: flex; gap: 0.8rem; align-items: center; }
@@ -223,7 +223,12 @@ p { margin: 0; text-wrap: pretty; }
 
 /* 인포그래픽 */
 .figure { margin: 0; display: grid; gap: 0.6rem; }
-.figure-frame { overflow-x: auto; border: 2px solid var(--ink); background: var(--paper); }
+/* 인포그래픽 지면: 외곽선 없이 옅은 바탕 + 일러스트와 같은 리소그래프 질감 */
+.figure-frame { position: relative; overflow-x: auto; background: var(--ground); isolation: isolate; }
+.figure-frame::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply; opacity: 0.2;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
 .figure svg { display: block; width: 100%; height: auto; min-width: 560px; }
 .figure figcaption { font-size: 0.8rem; color: var(--grey); }
 .figure svg text { font-family: var(--font-ko); fill: var(--ink); }
@@ -238,7 +243,7 @@ p { margin: 0; text-wrap: pretty; }
 .figure svg .f-pink { fill: var(--pink); }
 .figure svg .f-ink { fill: var(--ink); }
 .figure svg .f-paper { fill: var(--paper); }
-.figure svg .f-ground { fill: var(--ground); }
+.figure svg .f-ground { fill: var(--rule); }
 .figure svg .line { stroke: var(--ink); }
 .figure svg .line-grey { stroke: var(--rule); }
 .figure svg .line-red { stroke: var(--red); }
