@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="로봇이 외줄 위에서 균형을 잡고, 아래 안전 그물에는 구멍이 하나 뚫려 있는 그림">
+  <rect width="800" height="600" fill="#FFD21F"/>
+
+  <!-- 기둥 -->
+  <rect x="70" y="200" width="26" height="400" fill="#000"/>
+  <rect x="704" y="200" width="26" height="400" fill="#000"/>
+  <rect x="56" y="188" width="54" height="18" rx="4" fill="#000"/>
+  <rect x="690" y="188" width="54" height="18" rx="4" fill="#000"/>
+
+  <!-- 안전 그물 -->
+  <path d="M96 430 Q400 540 704 430" fill="none" stroke="#000" stroke-width="5"/>
+  <path d="M96 470 Q400 590 704 470" fill="none" stroke="#000" stroke-width="5"/>
+  <g stroke="#000" stroke-width="3">
+    <line x1="140" y1="446" x2="140" y2="488"/><line x1="190" y1="463" x2="190" y2="506"/>
+    <line x1="240" y1="476" x2="240" y2="520"/><line x1="290" y1="485" x2="290" y2="530"/>
+    <line x1="340" y1="491" x2="340" y2="536"/>
+    <line x1="460" y1="491" x2="460" y2="536"/><line x1="510" y1="485" x2="510" y2="530"/>
+    <line x1="560" y1="476" x2="560" y2="520"/><line x1="610" y1="463" x2="610" y2="506"/>
+    <line x1="660" y1="446" x2="660" y2="488"/>
+  </g>
+  <path d="M96 450 Q400 562 704 450" fill="none" stroke="#000" stroke-width="2.5"/>
+  <!-- 그물의 구멍 -->
+  <ellipse cx="400" cy="512" rx="52" ry="22" fill="#FFD21F" stroke="#FF3D14" stroke-width="5" stroke-dasharray="10 8"/>
+
+  <!-- 외줄 -->
+  <path d="M96 205 Q400 262 704 205" fill="none" stroke="#000" stroke-width="5"/>
+
+  <!-- 로봇 -->
+  <g stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 다리 -->
+    <line x1="386" y1="196" x2="378" y2="232"/>
+    <line x1="414" y1="196" x2="430" y2="228"/>
+    <!-- 균형봉 -->
+    <line x1="200" y1="136" x2="600" y2="156"/>
+    <circle cx="200" cy="136" r="18" fill="#FF3D14"/>
+    <circle cx="600" cy="156" r="18" fill="#1F3DFF"/>
+    <!-- 몸 -->
+    <rect x="355" y="112" width="90" height="88" rx="14" fill="#FFFFFF"/>
+    <circle cx="400" cy="156" r="14" fill="#12A150"/>
+    <!-- 팔 -->
+    <path d="M355 132 L320 140" />
+    <path d="M445 136 L480 146" />
+    <!-- 머리 -->
+    <rect x="360" y="40" width="80" height="64" rx="16" fill="#1F3DFF"/>
+    <line x1="400" y1="40" x2="400" y2="18"/>
+    <circle cx="400" cy="14" r="8" fill="#FF3D14"/>
+  </g>
+  <circle cx="384" cy="70" r="9" fill="#FFFFFF" stroke="#000" stroke-width="3"/>
+  <circle cx="418" cy="70" r="9" fill="#FFFFFF" stroke="#000" stroke-width="3"/>
+  <circle cx="386" cy="72" r="3.5" fill="#000"/>
+  <circle cx="420" cy="72" r="3.5" fill="#000"/>
+  <path d="M388 90 L412 90" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+  <!-- 땀방울 -->
+  <path d="M452 58 q8 12 0 18 q-8 -6 0 -18z" fill="#FFFFFF" stroke="#000" stroke-width="3"/>
+
+  <!-- 말풍선 -->
+  <g>
+    <path d="M520 40 h170 q14 0 14 14 v64 q0 14 -14 14 h-120 l-30 26 l4 -26 h-24 q-14 0 -14 -14 v-64 q0 -14 14 -14z" fill="#FFFFFF" stroke="#000" stroke-width="5" stroke-linejoin="round"/>
+    <text x="606" y="104" font-family="Archivo, 'Arial Black', Arial, sans-serif" font-weight="900" font-size="46" text-anchor="middle" fill="#000">100%?</text>
+  </g>
+
+  <!-- 흔들림 표시 -->
+  <g stroke="#000" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M330 60 q-12 14 0 28"/>
+    <path d="M312 52 q-18 22 0 44"/>
+  </g>
+</svg>

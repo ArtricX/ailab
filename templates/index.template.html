@@ -3,53 +3,89 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AI 일력</title>
-<meta name="description" content="매일 아침 7시, 그날의 AI 소식을 초등학생부터 어르신까지 누구나 읽기 쉽게 그림과 함께 한 장으로 정리해요.">
-<meta property="og:title" content="AI 일력">
-<meta property="og:description" content="매일 아침 7시, 한 장으로 읽는 AI 소식">
+<title>AILAB 아침 AI 소식</title>
+<meta name="description" content="매일 아침 7시, 그날의 AI 소식을 초등학생부터 어르신까지 누구나 읽기 쉽게 그림과 함께 정리해요.">
+<meta property="og:title" content="AILAB 아침 AI 소식">
+<meta property="og:description" content="매일 아침 7시, 누구나 읽는 AI 소식">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;600;700;800;900&family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Gothic+A1:wght@400;500;700;800;900&display=swap">
 <link rel="stylesheet" href="assets/style.css">
 <script src="assets/site.js"></script>
 </head>
 <body>
-<div class="wrap">
-  <header class="topbar">
-    <a class="brand" href="index.html">AI 일력<small>매일 아침 7시, 한 장</small></a>
+<div class="page">
+  <header class="nav gutter">
+    <a class="logo" href="index.html"><span class="logo-dot" aria-hidden="true"></span>AILAB</a>
+    <nav class="nav-links" aria-label="바로 가기">
+      <a href="#today">오늘 소식</a>
+      <a href="#words">오늘의 말</a>
+      <a href="#archive">지난 소식</a>
+    </nav>
     <button class="text-toggle" type="button" id="text-toggle" aria-pressed="false">글자 크게</button>
   </header>
 
   <main>
-    <section class="sheet arrive" aria-labelledby="today-title">
-      <div class="today">
-        <div class="date-block">
-          <span class="date-month">{{MONTH}}</span>
-          <span class="date-num{{DAY_CLASS}}">{{DAY}}</span>
-          <span class="date-day">{{WEEKDAY}}</span>
-          <span class="date-note">읽는 데 약 {{MINUTES}}분</span>
-        </div>
-        <div class="today-body">
-          <p class="today-label">오늘의 장</p>
-          <h1 class="today-title" id="today-title"><a href="{{HREF}}">{{TITLE}}</a></h1>
-          <p>{{SUMMARY}}</p>
-          <ul class="story-list">
-{{STORIES}}
-          </ul>
-          <a class="read-link" href="{{HREF}}">오늘 장 읽기</a>
-        </div>
+    <section class="hero gutter" aria-labelledby="hero-title">
+      <a class="hero-tile" href="{{HREF}}#{{A0}}"><img src="{{I0}}" alt=""></a>
+      <a class="hero-tile" href="{{HREF}}#{{A1}}"><img src="{{I1}}" alt=""></a>
+      <div class="hero-text">
+        <span class="bracket">{{DATE_DOTS}} {{WEEKDAY}}</span>
+        <h1 id="hero-title">오늘 아침<br>AI 소식 세 가지</h1>
+        <p class="hero-sub">{{SUMMARY}}</p>
+        <a class="pill" href="{{HREF}}">오늘 소식 읽기</a>
       </div>
     </section>
 
-    <section class="archive" aria-labelledby="archive-title">
-      <h2 id="archive-title">지난 장</h2>
+    <div class="wordmark" aria-hidden="true">
+      <span class="wordmark-type">AILAB</span>
+      <p class="wordmark-note">매일 아침 7시,<br>초등학생도 어르신도<br>읽을 수 있는 AI 소식</p>
+    </div>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>생활</span><span>안전</span><span>창작</span><span>일</span><span>학교</span><span>돈</span><span>건강</span>
+        <span>생활</span><span>안전</span><span>창작</span><span>일</span><span>학교</span><span>돈</span><span>건강</span>
+      </div>
+    </div>
+
+    <section class="section gutter" id="today" aria-labelledby="today-title">
+      <h2 class="bracket" id="today-title">오늘의 소식</h2>
+      <div class="features">
+{{FEATURES}}
+      </div>
+    </section>
+
+    <section class="manifesto gutter" aria-label="AILAB이 하는 일">
+      <span class="bracket">우리가 하는 일</span>
+      <p class="manifesto-lines">
+        <span>어려운 AI 소식을</span>
+        <span>아침 먹기 전 5분 안에,</span>
+        <span>초등학생도 할머니도</span>
+        <span>그림 한 장으로 알 수 있게.</span>
+      </p>
+      <p class="manifesto-sign">AILAB 편집실</p>
+    </section>
+
+    <section class="section gutter" id="words" aria-labelledby="words-title">
+      <h2 class="bracket" id="words-title">오늘의 말</h2>
+      <div class="tags">
+{{TICKETS}}
+      </div>
+    </section>
+
+    <section class="section gutter" id="archive" aria-labelledby="archive-title">
+      <h2 class="bracket" id="archive-title">지난 소식</h2>
 {{ARCHIVE}}
     </section>
   </main>
 
-  <footer class="site-footer">
-    <p>AI 일력은 매일 아침 7시, 그날의 AI 소식을 누구나 읽기 쉽게 한 장으로 정리해요.</p>
-    <p>글은 AI가 쓰고 사람이 확인한 뒤 올려요. 숫자와 내용은 출처의 보도를 바탕으로 해요.</p>
+  <footer class="footer">
+    <div class="footer-main">
+      <strong>AILAB</strong>
+      <p>글은 AI가 쓰고 사람이 확인한 뒤 올려요. 숫자와 내용은 출처의 보도를 바탕으로 해요.</p>
+    </div>
+    <div class="footer-cta">내일 아침 7시에 만나요</div>
   </footer>
 </div>
 </body>
