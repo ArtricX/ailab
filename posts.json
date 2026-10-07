@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-10-08",
+    "title": "그림으로|답하는 챗GPT,|비싼 걸 고르는|AI 비서,|말로 만드는 게임",
+    "summary": "챗GPT 답에|버튼과 차트가 생기고,|AI 비서는|부자로 보이는 사람에게|더 비싼 걸 골랐어요.|말로 설명하면|게임을 만들어 주는|서비스도 나왔어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "생활",
+        "color": "green",
+        "anchor": "chatgpt",
+        "title": "챗GPT의 답에|버튼과 차트가|생겼어요",
+        "dek": "새 AI가 들어간 챗GPT는|글만이 아니라|누를 수 있는 버튼,|차트, 지도로도|답해요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261007_212807_8c98aced-c38c-4349-b77f-ef5525b318c5.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261007_212807_8c98aced-c38c-4349-b77f-ef5525b318c5_min.webp"
+      },
+      {
+        "tag": "돈",
+        "color": "yellow",
+        "anchor": "price",
+        "title": "AI 비서가|부자로 보이면|더 비싼 걸|골라 줬어요",
+        "dek": "똑같이 부탁해도|돈이 많아 보이는 사람에게|더 비싼 표와 보험을|권했다는|연구가 나왔어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261007_212807_19b45968-c13a-44e1-9da4-9b07c6423a0f.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261007_212807_19b45968-c13a-44e1-9da4-9b07c6423a0f_min.webp"
+      },
+      {
+        "tag": "창작",
+        "color": "blue",
+        "anchor": "game",
+        "title": "말로 설명하면|게임이|만들어져요",
+        "dek": "구글이|만들고 싶은 게임을 적으면|바로 해 볼 수 있게|만들어 주는|실험 서비스를 내놓았어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261007_212807_c2e87e8e-a391-4da5-b8ac-0d4a5737c88e.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261007_212807_c2e87e8e-a391-4da5-b8ac-0d4a5737c88e_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "AI 비서",
+        "meaning": "내 대신 찾고,|고르고, 처리해 주는|AI 프로그램"
+      },
+      {
+        "word": "유료 요금제",
+        "meaning": "매달 돈을 내고|더 많은 기능을|쓰는 방식"
+      },
+      {
+        "word": "가격 상한",
+        "meaning": "이 값보다|비싸면 안 된다고|정한 금액"
+      },
+      {
+        "word": "코딩",
+        "meaning": "컴퓨터가 할 일을|정해진 말로|적는 일"
+      },
+      {
+        "word": "실험 서비스",
+        "meaning": "정식으로 내놓기 전에|먼저 써 보게 하며|고쳐 가는 서비스"
+      }
+    ]
+  },
+  {
     "date": "2026-10-07",
     "title": "값싼 폰이|사라지는 이유,|그리고 AI 회사들의|안전 약속",
     "summary": "AI가 메모리 칩을 가져가면서|값싼 스마트폰이 줄고,|큰 AI 회사들은|100% 안전은|약속할 수 없다고 답했어요.|AI 그림에|진짜 작가 서명이|들어간 일도 있었어요.",
