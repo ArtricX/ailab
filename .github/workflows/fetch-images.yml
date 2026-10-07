@@ -1,0 +1,40 @@
+name: 그림 내려받기
+
+# 글에 들어간 외부 그림(힉스필드)을 사이트 안(assets/img/)에 저장하고 주소를 바꿉니다.
+on:
+  push:
+    paths:
+      - "posts/**"
+      - "posts.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-images-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 그림 내려받기
+        run: python3 scripts/fetch_images.py
+      - name: 홈 화면 다시 만들기
+        run: python3 scripts/build.py
+      - name: 바뀐 내용 저장
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "ailab-bot"
+            git config user.email "ailab-bot@users.noreply.github.com"
+            git add assets/img posts posts.json index.html
+            git commit -m "그림을 사이트 안에 저장"
+            git push
+          else
+            echo "바꿀 것 없음"
+          fi
