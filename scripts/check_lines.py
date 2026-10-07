@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """줄내림 검사: 홈과 모든 글을 휴대폰~큰 모니터 11가지 폭, 보통·큰 글씨에서 열어
-제목이 두 줄을 넘는지, 구절(.ph)이 안에서 다시 끊기는지, 페이지가 옆으로 밀리는지 확인합니다.
+제목이 두 줄을 넘는지, 구절(.ph)이 안에서 다시 끊기는지, 페이지가 옆으로 밀리는지, 그림 칸 비율이 맞는지 확인합니다.
 
 사용법: python3 scripts/check_lines.py   (playwright 필요: pip install playwright --break-system-packages && playwright install chromium)
 실제 사이트 글꼴(Gothic A1, Archivo)은 npm 레지스트리에서 받아 씁니다. 문제가 하나라도 있으면 종료 코드 1.
@@ -40,6 +40,10 @@ JS = '''() => {
  document.querySelectorAll('.ph').forEach(el=>{ const cs=getComputedStyle(el.parentElement); const lh=parseFloat(cs.lineHeight)||parseFloat(cs.fontSize)*1.3;
    if(el.getBoundingClientRect().height>lh*1.5) out.push('phrase wraps inside: "'+el.textContent+'" in <'+el.parentElement.tagName.toLowerCase()+' class='+el.parentElement.className+'>');});
  document.querySelectorAll('.nw').forEach(el=>{ if(el.getBoundingClientRect().right>vw) out.push('nowrap overflow: '+el.textContent)});
+ document.querySelectorAll('.story-art img, .feature-art img').forEach(im=>{ const b=im.getBoundingClientRect(); const r=b.width/b.height;
+   if(b.width>0 && (r<1.30||r>1.37)) out.push('그림 비율이 4:3이 아님: '+Math.round(b.width)+'x'+Math.round(b.height)+' '+im.getAttribute('src'));});
+ document.querySelectorAll('.hero-tile img').forEach(im=>{ const b=im.getBoundingClientRect(); const r=b.width/b.height;
+   if(b.width>0 && Math.abs(r-1)>0.03) out.push('첫 화면 그림이 정사각형이 아님: '+Math.round(b.width)+'x'+Math.round(b.height));});
  return out;}'''
 
 

@@ -197,7 +197,7 @@ p { margin: 0; text-wrap: pretty; }
 .story { padding-block: 3.4rem 3rem; border-bottom: 2px solid var(--ink); display: grid; gap: 2.2rem; scroll-margin-top: 1rem; }
 .story-top { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 2rem; align-items: end; }
 .story-art { position: relative; overflow: hidden; background: var(--ground); }
-.story-art img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.story-art img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
 .story-head { display: grid; gap: 1rem; align-content: end; min-width: 0; }
 .story-kicker { display: flex; gap: 0.8rem; align-items: center; }
 .story-kicker .pill-tag { border: 2px solid var(--ink); border-radius: 999px; padding: 0.1rem 0.8rem; font-size: 0.8rem; font-weight: 900; }
