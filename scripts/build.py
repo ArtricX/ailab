@@ -21,6 +21,18 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
+def ph(s):
+    """'|'로 나눈 구절을 <span class="ph">로 감쌉니다. 줄은 구절 사이에서만 바뀝니다."""
+    parts = [p.strip() for p in str(s).split("|") if p.strip()]
+    if len(parts) <= 1:
+        return esc(str(s).replace("|", " "))
+    return " ".join(f'<span class="ph">{esc(p)}</span>' for p in parts)
+
+
+def plain(s):
+    return " ".join(p.strip() for p in str(s).split("|") if p.strip())
+
+
 def check(posts):
     for p in posts:
         if not (ROOT / "posts" / f"{p['date']}.html").exists():
@@ -37,13 +49,13 @@ def check(posts):
 def feature(p, s, lead=False):
     d = dt.date.fromisoformat(p["date"])
     cls = "feature lead" if lead else "feature"
-    dek = f'\n          <p class="feature-dek">{esc(s["dek"])}</p>' if lead else ""
+    dek = f'\n          <p class="feature-dek">{ph(s["dek"])}</p>' if lead else ""
     return (
         f'        <a class="{cls}" href="posts/{p["date"]}.html#{esc(s["anchor"])}">\n'
         f'          <div class="feature-art"><img src="{esc(s["illust"])}" alt="">'
         f'<span class="side-label">{d.month:02d}.{d.day:02d} {esc(s["tag"])}</span></div>\n'
         f'          <span class="feature-tag">{esc(s["tag"])}</span>\n'
-        f'          <h3>{esc(s["title"])}</h3>{dek}\n'
+        f'          <h3>{ph(s["title"])}</h3>{dek}\n'
         f'        </a>'
     )
 
@@ -65,7 +77,7 @@ def main():
         + "\n        </div>"
     )
     tickets = "\n".join(
-        f'        <div class="ticket {TICKET_COLORS[i % len(TICKET_COLORS)]}"><b>{esc(k["word"])}</b><span>{esc(k["meaning"])}</span></div>'
+        f'        <div class="ticket {TICKET_COLORS[i % len(TICKET_COLORS)]}"><b>{esc(k["word"])}</b><span>{ph(k["meaning"])}</span></div>'
         for i, k in enumerate(today.get("keywords", []))
     )
 
@@ -78,7 +90,7 @@ def main():
                 f'        <a class="archive-item" href="posts/{p["date"]}.html">'
                 f'<img src="{esc(p["stories"][0]["illust"])}" alt="">'
                 f'<span class="archive-date">{pd.year}.{pd.month:02d}.{pd.day:02d} {WEEKDAYS[pd.weekday()]}</span>'
-                f'<span class="archive-title">{esc(p["title"])}</span></a>'
+                f'<span class="archive-title">{ph(p["title"])}</span></a>'
             )
         archive = '      <div class="archive">\n' + "\n".join(items) + "\n      </div>"
     else:
@@ -89,7 +101,7 @@ def main():
         tpl.replace("{{DATE_DOTS}}", f"{d.year}.{d.month:02d}.{d.day:02d}")
         .replace("{{WEEKDAY}}", WEEKDAYS[d.weekday()])
         .replace("{{HREF}}", href)
-        .replace("{{SUMMARY}}", esc(today["summary"]))
+        .replace("{{SUMMARY}}", ph(today["summary"]))
         .replace("{{A0}}", esc(st[0]["anchor"])).replace("{{I0}}", esc(st[0]["illust"]))
         .replace("{{A1}}", esc(st[1]["anchor"])).replace("{{I1}}", esc(st[1]["illust"]))
         .replace("{{FEATURES}}", features)
