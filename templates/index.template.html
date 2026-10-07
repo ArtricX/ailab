@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI 일력</title>
+<meta name="description" content="매일 아침 7시, 그날의 AI 소식을 초등학생부터 어르신까지 누구나 읽기 쉽게 그림과 함께 한 장으로 정리해요.">
+<meta property="og:title" content="AI 일력">
+<meta property="og:description" content="매일 아침 7시, 한 장으로 읽는 AI 소식">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;600;700;800;900&family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/site.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <a class="brand" href="index.html">AI 일력<small>매일 아침 7시, 한 장</small></a>
+    <button class="text-toggle" type="button" id="text-toggle" aria-pressed="false">글자 크게</button>
+  </header>
+
+  <main>
+    <section class="sheet arrive" aria-labelledby="today-title">
+      <div class="today">
+        <div class="date-block">
+          <span class="date-month">{{MONTH}}</span>
+          <span class="date-num{{DAY_CLASS}}">{{DAY}}</span>
+          <span class="date-day">{{WEEKDAY}}</span>
+          <span class="date-note">읽는 데 약 {{MINUTES}}분</span>
+        </div>
+        <div class="today-body">
+          <p class="today-label">오늘의 장</p>
+          <h1 class="today-title" id="today-title"><a href="{{HREF}}">{{TITLE}}</a></h1>
+          <p>{{SUMMARY}}</p>
+          <ul class="story-list">
+{{STORIES}}
+          </ul>
+          <a class="read-link" href="{{HREF}}">오늘 장 읽기</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="archive" aria-labelledby="archive-title">
+      <h2 id="archive-title">지난 장</h2>
+{{ARCHIVE}}
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>AI 일력은 매일 아침 7시, 그날의 AI 소식을 누구나 읽기 쉽게 한 장으로 정리해요.</p>
+    <p>글은 AI가 쓰고 사람이 확인한 뒤 올려요. 숫자와 내용은 출처의 보도를 바탕으로 해요.</p>
+  </footer>
+</div>
+</body>
+</html>
