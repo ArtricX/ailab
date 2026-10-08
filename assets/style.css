@@ -224,9 +224,11 @@ p { margin: 0; text-wrap: pretty; }
 /* 인포그래픽 */
 .figure { margin: 0; display: grid; gap: 0.6rem; }
 /* 인포그래픽 지면: 외곽선 없이 옅은 바탕 + 일러스트와 같은 리소그래프 질감 */
-.figure-frame { position: relative; overflow-x: auto; background: var(--ground); isolation: isolate; }
+.figure-frame { position: relative; overflow-x: auto; background: var(--ground); isolation: isolate; display: grid; }
+/* 질감은 그림과 같은 칸에 겹쳐 놓아, 가로로 밀어도 그림 전체 폭을 함께 덮게 합니다 */
+.figure-frame > * { grid-area: 1 / 1; }
 .figure-frame::after {
-  content: ""; position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply; opacity: 0.2;
+  content: ""; grid-area: 1 / 1; position: relative; z-index: 1; pointer-events: none; mix-blend-mode: multiply; opacity: 0.2;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 .figure svg { display: block; width: 100%; height: auto; min-width: 560px; }
