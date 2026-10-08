@@ -32,13 +32,36 @@
    - `<title>`과 `<desc>`로 그림 내용을 글로 적습니다.
 6. **목록 갱신**: `posts.json` 맨 앞에 그날 항목(date, title, summary, minutes, stories[tag, color, anchor, title, dek, illust], keywords[word, meaning])을 추가하고 `python3 scripts/build.py`를 실행해 `index.html`을 다시 만듭니다.
 7. **줄내림 검사**: `python3 scripts/check_lines.py`를 돌려 문제 0개가 될 때까지 구절을 다시 나눕니다. 문제가 남아 있으면 올리지 않습니다.
-8. **올리기**: `main`에 바로 올리지 않습니다. `daily/YYYY-MM-DD` 브랜치에 커밋하고 Pull Request를 엽니다. PR 설명에 소식 3개 제목과 출처, 뉴스레터 초안 링크를 적습니다. 사람이 PR을 병합하면 발행됩니다.
-9. **뉴스레터 초안(beehiiv)**: 출판물 `pub_24fff7ac-12bd-4f24-9339-9ef1dc54d733`(AILAB)에 그날 메일 초안을 만듭니다. 발송은 사람이 beehiiv에서 직접 누릅니다(도구로는 초안까지만 가능).
+8. **뉴스레터 초안(beehiiv)**: PR보다 먼저 만듭니다(PR 설명에 초안 링크를 넣어야 하니까요). 출판물 `pub_24fff7ac-12bd-4f24-9339-9ef1dc54d733`(AILAB)에 그날 메일 초안을 만듭니다. 발송은 사람이 beehiiv에서 직접 누릅니다(도구로는 초안까지만 가능). 예약 발송도 걸지 않습니다.
    - 그림: 힉스필드 원본 주소(`.png`) 3개를 `save_image`로 올리고, 돌려받은 `url`만 메일에 씁니다(webp는 일부 메일 앱에서 안 보여요).
    - `save_post`: `title`은 그날 제목(구절 표시 `|` 없이), `subtitle`은 "M월 D일 X요일 아침, 오늘의 AI 소식 세 가지", `content_tags: ["아침 소식"]`, `thumbnail_image_url`은 첫 그림.
    - 본문 순서: 인사 한 줄 → 소식마다 [그림(`imageBlock`, `data-url`은 글 페이지 앵커) → 굵은 `[태그]` → `h2` 제목 → 한 줄 요약 → **나한테는요?** 문단 → 검정 버튼 "그림과 함께 자세히 읽기"(글 페이지 앵커)] 사이에 가로줄 → `h3` 오늘의 말(3개, 목록) → 맺음말 "내일 아침 7시에 또 만나요. …전달해 주세요."
    - 이어서 `edit_post`로 `email_settings`의 `email_subject_line`("[AILAB] " + 가장 궁금증을 끄는 소식 한 구절 + " 오늘의 AI 소식 3가지"), `email_preview_text`(나머지 두 소식 한 문장), `display_byline_in_email: false`를 정합니다.
-   - 글 페이지 주소는 `https://artricx.github.io/ailab/posts/YYYY-MM-DD.html#앵커`입니다. PR이 병합되기 전에는 아직 열리지 않으니, 메일은 병합 뒤에 보내도록 PR 설명에 적습니다.
+   - 글 페이지 주소는 `https://artricx.github.io/ailab/posts/YYYY-MM-DD.html#앵커`입니다(PR 병합 뒤 1~2분이면 열려요).
+   - **보내기 전 점검**: `get_post`와 `get_post_content`로 다시 읽어 확인합니다. 제목·부제·메일 제목·미리보기 글·썸네일이 채워졌는지, 받는 사람이 무료 구독자 전체(`recipients.email.tier_ids: ["free"]`)인지, 그림 3장이 모두 beehiiv 주소인지, 버튼과 그림 링크가 모두 오늘 날짜 글 페이지를 가리키는지 봅니다. 고칠 것이 있으면 고친 뒤 다시 확인합니다. 사람은 '발행' 버튼만 누르면 되도록 완성된 상태로 둡니다.
+9. **올리기**: `main`에 바로 올리지 않습니다. `daily/YYYY-MM-DD` 브랜치에 커밋하고 Pull Request를 엽니다. 사람이 PR을 병합하면 사이트에 발행되고, 이어서 beehiiv에서 '발행'을 누르면 메일이 나갑니다. PR 설명은 아래 틀을 그대로 씁니다(맨 위에 발행 순서).
+
+   ```
+   ## 오늘 발행하는 법 (두 번 누르면 끝)
+   1. 이 PR 아래 **Merge pull request** → **Confirm merge** (1~2분 뒤 사이트에 올라가요)
+   2. 뉴스레터 초안 열기 → 오른쪽 위 **Continue** → **Publish now**
+      <beehiiv editor_url>
+      (먼저 내 메일로만 보고 싶으면: 같은 화면 Preview → Send test email)
+
+   - 메일 제목: <email_subject_line>
+   - 미리보기 글: <email_preview_text>
+   - 사이트 글: https://artricx.github.io/ailab/posts/YYYY-MM-DD.html
+
+   ## 오늘의 소식
+   - [태그] 제목 — 출처 링크들 (3개)
+
+   ## 점검 결과
+   - 줄내림 검사: 문제 0개
+   - 힉스필드: 그림 3장, 약 N크레딧
+   - 뉴스레터 점검: 통과 (또는 무엇이 안 됐는지)
+   ```
+   - 뉴스레터를 만들지 못했으면 2번 대신 그 사실과 이유를 적습니다.
+   - 마지막 알림에도 같은 두 링크(PR, 뉴스레터 초안)를 순서대로 적습니다.
 
 ## 디자인 규칙
 - 스타일은 `assets/style.css` 하나만 씁니다. 글 페이지에 새 CSS를 넣지 않습니다.
