@@ -20,27 +20,24 @@
   });
 })();
 
-// 구독 폼: beehiiv '구독 폼 > Get embed code'에서 받은 코드를 아래 EMBED에 붙여 넣으면
-// 모든 페이지의 [구독] 칸이 그 폼으로 바뀝니다. 비어 있으면 beehiiv 구독 페이지로 가는 버튼이 그대로 보여요.
+// 구독 폼: beehiiv 구독 폼(AILAB 블로그 인라인 구독)을 [구독] 칸에 넣습니다.
+// 폼이 뜨기 전이나 불러오지 못하면 beehiiv 구독 페이지로 가는 버튼이 그대로 보여요.
 (function () {
-  var EMBED = "";
-  if (!EMBED) return;
+  var FORM_ID = "7397c447-a3ee-4ca3-8342-74634c246e54";
+  var LOADER = "https://subscribe-forms.beehiiv.com/v3/loader.js";
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll("[data-subscribe]").forEach(function (slot) {
-      var box = document.createElement("div");
-      box.innerHTML = EMBED;
-      slot.innerHTML = "";
-      // innerHTML로 넣은 <script>는 실행되지 않아서 새로 만들어 붙입니다.
-      Array.prototype.forEach.call(box.childNodes, function (node) {
-        if (node.nodeName === "SCRIPT") {
-          var s = document.createElement("script");
-          Array.prototype.forEach.call(node.attributes, function (a) { s.setAttribute(a.name, a.value); });
-          s.text = node.text;
-          slot.appendChild(s);
-        } else {
-          slot.appendChild(node.cloneNode(true));
-        }
+      var fallback = slot.querySelector("a");
+      var s = document.createElement("script");
+      s.async = true;
+      s.src = LOADER;
+      s.setAttribute("data-beehiiv-form", FORM_ID);
+      slot.appendChild(s);
+      if (!fallback || !window.MutationObserver) return;
+      var mo = new MutationObserver(function () {
+        if (slot.querySelector("iframe")) { fallback.hidden = true; mo.disconnect(); }
       });
+      mo.observe(slot, { childList: true, subtree: true });
     });
   });
 })();
