@@ -61,6 +61,18 @@ def main():
             page.write_text(s, encoding="utf-8")
             changed = True
 
+    # 최상위 페이지(구독 페이지 등): assets/img/ 로
+    for page in sorted(ROOT.glob("*.html")):
+        if page.name == "index.html":
+            continue
+        t = page.read_text(encoding="utf-8")
+        urls = set(URL_RE.findall(t))
+        for u in urls:
+            t = t.replace(u, f"assets/img/{download(u)}")
+        if urls:
+            page.write_text(t, encoding="utf-8")
+            changed = True
+
     # 목록: 홈 기준 assets/img/ 로
     pj = ROOT / "posts.json"
     raw = pj.read_text(encoding="utf-8")

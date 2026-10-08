@@ -41,3 +41,26 @@
     });
   });
 })();
+
+// 구독 페이지의 "취소하고 돌아가기": 우리 사이트에서 왔으면 보던 화면으로, 아니면 홈으로. Esc 키도 같아요.
+(function () {
+  function goBack(e) {
+    var link = document.querySelector("[data-back]");
+    var sameSite = false;
+    try { sameSite = !!document.referrer && new URL(document.referrer).origin === location.origin; } catch (err) {}
+    if (sameSite && history.length > 1) {
+      if (e) e.preventDefault();
+      history.back();
+    } else if (!e && link) {
+      location.href = link.href;
+    }
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    var link = document.querySelector("[data-back]");
+    if (!link) return;
+    link.addEventListener("click", goBack);
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !e.defaultPrevented) goBack(null);
+    });
+  });
+})();

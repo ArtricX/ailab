@@ -49,7 +49,7 @@ JS = '''() => {
 
 async def main():
     css = fonts_css()
-    pages = ["index.html"] + sorted(f"posts/{p.name}" for p in (ROOT / "posts").glob("*.html"))
+    pages = sorted(p.name for p in ROOT.glob("*.html")) + sorted(f"posts/{p.name}" for p in (ROOT / "posts").glob("*.html"))
     bad = 0
     async with async_playwright() as p:
         b = await p.chromium.launch()
