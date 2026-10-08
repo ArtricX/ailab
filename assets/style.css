@@ -346,3 +346,13 @@ a.footer-cta:hover { text-decoration: underline; text-underline-offset: 0.2em; }
   .sub { grid-template-columns: minmax(0, 1fr); padding-block: 1.6rem 3.5rem; gap: 1.8rem; }
   .sub-art { border-radius: 2rem 2rem 0.8rem 0.8rem; }
 }
+
+/* 구독 입력 칸 정렬: beehiiv 폼이 카드 폭을 꽉 채우고, 제목과 같은 왼쪽 선에서 시작 */
+.sub-form { scroll-margin-block: 6rem; }
+.sub-form:focus { outline: none; }
+.sub-form:focus-visible { outline: none; }
+.sub-form .subscribe-slot { min-height: 64px; width: 100%; display: grid; }
+.sub-form .subscribe-slot > * { width: 100% !important; max-width: 100%; margin: 0 !important; }
+.sub-form .subscribe-slot iframe { width: 100% !important; border: 0; display: block; }
+.sub-fallback { font-size: 0.9rem; }
+.sub-fallback a { font-weight: 700; }
