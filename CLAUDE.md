@@ -32,6 +32,7 @@
    - `<title>`과 `<desc>`로 그림 내용을 글로 적습니다.
 6. **목록 갱신**: `posts.json` 맨 앞에 그날 항목(date, title, summary, minutes, stories[tag, color, anchor, title, dek, illust], keywords[word, meaning])을 추가하고 `python3 scripts/build.py`를 실행해 `index.html`을 다시 만듭니다.
 7. **줄내림 검사**: `python3 scripts/check_lines.py`를 돌려 문제 0개가 될 때까지 구절을 다시 나눕니다. 문제가 남아 있으면 올리지 않습니다.
+   이어서 `python3 scripts/extract_content.py`(필요하면 `pip install beautifulsoup4 --break-system-packages`)를 돌려 "멈춘 글"이 없는지 확인합니다. 멈춘 글이 있으면 글 구조가 틀과 다르다는 뜻이니 틀에 맞게 고칩니다. 만들어진 `content/` 파일은 함께 올려도 되고, 올리지 않아도 GitHub Actions가 다시 만듭니다.
 8. **뉴스레터 초안(beehiiv)**: PR보다 먼저 만듭니다(PR 설명에 초안 링크를 넣어야 하니까요). 출판물 `pub_24fff7ac-12bd-4f24-9339-9ef1dc54d733`(AILAB)에 그날 메일 초안을 만듭니다. 발송은 사람이 beehiiv에서 직접 누릅니다(도구로는 초안까지만 가능). 예약 발송도 걸지 않습니다.
    - 그림: 힉스필드 원본 주소(`.png`) 3개를 `save_image`로 올리고, 돌려받은 `url`만 메일에 씁니다(webp는 일부 메일 앱에서 안 보여요).
    - `save_post`: `title`은 그날 제목(구절 표시 `|` 없이), `subtitle`은 "M월 D일 X요일 아침, 오늘의 AI 소식 세 가지", `content_tags: ["아침 소식"]`, `thumbnail_image_url`은 첫 그림.
@@ -62,6 +63,10 @@
    ```
    - 뉴스레터를 만들지 못했으면 2번 대신 그 사실과 이유를 적습니다.
    - 마지막 알림에도 같은 두 링크(PR, 뉴스레터 초안)를 순서대로 적습니다.
+
+## 데이터 (앱으로 옮길 때를 위해)
+- 글 페이지가 원본이고, `content/`의 데이터는 거기서 자동으로 만들어집니다(`content/README.md`에 구조 설명). 손으로 고치지 않습니다.
+- 그래서 **글 구조를 틀과 똑같이 지킵니다**: 소식은 `section.story`(id = 앵커) 3개, 각 소식에 `story-head`(태그·h2·dek), `figure.figure` 안 인라인 SVG 하나, `.qa` 안에 질문 3개(h3+p), `p.source` 출처. 오늘의 말은 `section#words`의 `.ticket`. 새 구획을 만들고 싶으면 먼저 `extract_content.py`도 함께 고칩니다.
 
 ## 디자인 규칙
 - 스타일은 `assets/style.css` 하나만 씁니다. 글 페이지에 새 CSS를 넣지 않습니다.

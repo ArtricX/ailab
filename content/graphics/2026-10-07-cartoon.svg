@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="400" fill="#EDEEF0"/>
+            <title id="g3t">가짜 서명이 붙은 AI 그림이 퍼진 과정</title>
+            <desc id="g3d">작가가 서명을 남긴 그림을 그리고, AI가 수많은 그림을 보고 배운 뒤, 그림을 따라 그리며 서명까지 넣었고, 그 그림이 SNS에서 좋아요 약 2만 5천 개를 받았다. 작가는 그 그림을 그린 적이 없다.</desc>
+            <g>
+              <line class="line" x1="176" y1="122" x2="226" y2="122" stroke-width="3"/>
+              <path class="f-ink" d="M236 122 l-14 -8 v16z"/>
+              <line class="line" x1="366" y1="122" x2="416" y2="122" stroke-width="3"/>
+              <path class="f-ink" d="M426 122 l-14 -8 v16z"/>
+              <line class="line" x1="556" y1="122" x2="606" y2="122" stroke-width="3"/>
+              <path class="f-ink" d="M616 122 l-14 -8 v16z"/>
+            </g>
+            <circle class="f-paper" cx="110" cy="122" r="62"/>
+            <circle class="f-blue" cx="300" cy="122" r="62"/>
+            <circle class="f-pink" cx="490" cy="122" r="62"/>
+            <circle class="f-yellow" cx="680" cy="122" r="62"/>
+            <text x="110" y="129" font-size="20" font-weight="900" text-anchor="middle">작가 그림</text>
+            <text class="white" x="300" y="129" font-size="20" font-weight="900" text-anchor="middle">AI 학습</text>
+            <text x="490" y="129" font-size="20" font-weight="900" text-anchor="middle">서명 복사</text>
+            <text x="680" y="129" font-size="20" font-weight="900" text-anchor="middle">SNS 공유</text>
+
+            <text x="110" y="218" font-size="14" text-anchor="middle">그림을 그리고</text>
+            <text x="110" y="240" font-size="14" text-anchor="middle">서명을 남겨요</text>
+            <text x="300" y="218" font-size="14" text-anchor="middle">수많은 그림을</text>
+            <text x="300" y="240" font-size="14" text-anchor="middle">보고 배워요</text>
+            <text x="490" y="218" font-size="14" text-anchor="middle">비슷하게 그리며</text>
+            <text class="red" x="490" y="240" font-size="14" font-weight="800" text-anchor="middle">서명까지 넣어요</text>
+            <text x="680" y="218" font-size="14" text-anchor="middle">사람들이 보고</text>
+            <text x="680" y="240" font-size="14" text-anchor="middle">좋아요를 눌러요</text>
+
+            <line class="line-grey" x1="40" y1="282" x2="760" y2="282" stroke-width="2"/>
+            <text class="num" x="40" y="368" font-size="76" letter-spacing="-3">25,000</text>
+            <text x="352" y="334" font-size="17" font-weight="900">좋아요 수 (약)</text>
+            <text x="352" y="362" font-size="15">그런데 그 작가는 이 그림을 그린 적이 없어요.</text>
+          </svg>

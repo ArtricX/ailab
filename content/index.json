@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "posts": [
+    {
+      "date": "2026-10-11",
+      "title": "전화를 대신 거는 우리 AI, 쉬는 시간을 알려 주는 공부 AI, 진료 전에 이야기를 듣는 AI",
+      "file": "content/2026-10-11.json",
+      "stories": [
+        {
+          "anchor": "modu",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "무료 '모두의 AI' 이달부터 시험해요"
+        },
+        {
+          "anchor": "teens",
+          "tag": "학교",
+          "color": "pink",
+          "title": "챗GPT가 공부할 때 쉬는 시간도 알려 줘요"
+        },
+        {
+          "anchor": "amie",
+          "tag": "건강",
+          "color": "green",
+          "title": "진료 전에 AI가 먼저 이야기를 들었어요"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "title": "카나나 앱 백업은 14일까지, AI가 쓰는 여드름 처방전, 인터넷 없이 정리하는 회의 메모",
+      "file": "content/2026-10-10.json",
+      "stories": [
+        {
+          "anchor": "kanana",
+          "tag": "생활",
+          "color": "pink",
+          "title": "카나나 앱이 15일에 문을 닫아요"
+        },
+        {
+          "anchor": "acne",
+          "tag": "건강",
+          "color": "green",
+          "title": "AI가 여드름 약 처방전을 쓰기 시작했어요"
+        },
+        {
+          "anchor": "notes",
+          "tag": "일",
+          "color": "blue",
+          "title": "인터넷 없이도 AI가 회의 메모를 정리해요"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "title": "AI가 만든 사진 확인하기, AI 상담 안전 수칙, AI 쓰는 작은 회사의 채용 계획",
+      "file": "content/2026-10-09.json",
+      "stories": [
+        {
+          "anchor": "synthid",
+          "tag": "안전",
+          "color": "blue",
+          "title": "AI가 만든 사진인지 누구나 확인할 수 있어요"
+        },
+        {
+          "anchor": "mind",
+          "tag": "건강",
+          "color": "green",
+          "title": "AI에게 마음 고민을 털어놓을 땐 이렇게 하세요"
+        },
+        {
+          "anchor": "work",
+          "tag": "일",
+          "color": "yellow",
+          "title": "AI를 쓰는 작은 회사가 사람을 더 뽑을 계획이었어요"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "title": "그림으로 답하는 챗GPT, 비싼 걸 고르는 AI 비서, 말로 만드는 게임",
+      "file": "content/2026-10-08.json",
+      "stories": [
+        {
+          "anchor": "chatgpt",
+          "tag": "생활",
+          "color": "green",
+          "title": "챗GPT의 답에 버튼과 차트가 생겼어요"
+        },
+        {
+          "anchor": "price",
+          "tag": "돈",
+          "color": "yellow",
+          "title": "AI 비서가 부자로 보이면 더 비싼 걸 골라 줬어요"
+        },
+        {
+          "anchor": "game",
+          "tag": "창작",
+          "color": "blue",
+          "title": "말로 설명하면 게임이 만들어져요"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "title": "값싼 폰이 사라지는 이유, 그리고 AI 회사들의 안전 약속",
+      "file": "content/2026-10-07.json",
+      "stories": [
+        {
+          "anchor": "phone",
+          "tag": "생활",
+          "color": "blue",
+          "title": "AI 때문에 값싼 스마트폰이 사라지고 있어요"
+        },
+        {
+          "anchor": "safety",
+          "tag": "안전",
+          "color": "yellow",
+          "title": "AI 회사들, 100% 안전은 약속하지 못한다고 답했어요"
+        },
+        {
+          "anchor": "cartoon",
+          "tag": "창작",
+          "color": "pink",
+          "title": "AI가 만든 그림에 진짜 만화가의 서명이 들어갔어요"
+        }
+      ]
+    }
+  ]
+}

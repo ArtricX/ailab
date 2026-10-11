@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="480" fill="#EDEEF0"/>
+            <title id="g2t">AI를 마음 고민에 쓰는 사람의 비율과 정부가 정리한 안전 수칙</title>
+            <desc id="g2d">AI를 써 본 15~79세 1,019명 중 79.9%가 AI의 답으로 도움을 받았고, 68.8%가 위로나 고민 상담 같은 마음 쓰임에도 AI를 썼고, 16.3%는 AI와 대화를 멈추기 어려웠다. 정부 수칙은 내 정보를 넣지 않기, 끝낼 때를 미리 정하기, 중요한 일은 사람과 상의하기다.</desc>
+            <text class="num" x="30" y="112" font-size="70" letter-spacing="-3">10명 중 7명</text>
+            <text x="34" y="150" font-size="16" font-weight="800">위로나 고민 상담에도 AI를 썼어요</text>
+            <text class="grey" x="34" y="174" font-size="13.5">AI를 써 본 15~79세 1,019명에게 물었어요</text>
+
+            <text x="34" y="226" font-size="14" font-weight="700">AI의 답으로 도움을 받았어요</text>
+            <rect class="f-green" x="34" y="236" width="320" height="30" rx="6"/>
+            <text class="num" x="364" y="259" font-size="20">79.9%</text>
+            <text x="34" y="296" font-size="14" font-weight="700">위로, 고민 상담에도 썼어요</text>
+            <rect class="f-green" x="34" y="306" width="275" height="30" rx="6"/>
+            <text class="num" x="319" y="329" font-size="20">68.8%</text>
+            <text x="34" y="366" font-size="14" font-weight="700">대화를 멈추기 어려웠어요</text>
+            <rect class="f-red" x="34" y="376" width="65" height="30" rx="6"/>
+            <text class="num red" x="109" y="399" font-size="20">16.3%</text>
+            <text class="grey" x="34" y="450" font-size="12">막대 길이는 비율에 맞춘 같은 눈금이에요</text>
+
+            <line class="line-grey" x1="460" y1="30" x2="460" y2="450" stroke-width="2"/>
+
+            <text x="490" y="62" font-size="16" font-weight="800">정부가 정리한 수칙</text>
+            <rect class="f-paper" x="490" y="84" width="280" height="100" rx="18"/>
+            <text x="512" y="124" font-size="18" font-weight="900">내 정보는 넣지 않기</text>
+            <text class="grey" x="512" y="152" font-size="13.5">이름, 주소, 진단서, 처방전</text>
+            <rect class="f-paper" x="490" y="200" width="280" height="100" rx="18"/>
+            <text x="512" y="240" font-size="18" font-weight="900">끝낼 때를 미리 정하기</text>
+            <text class="grey" x="512" y="268" font-size="13.5">얼마나, 어디까지 이야기할지</text>
+            <rect class="f-green" x="490" y="316" width="280" height="100" rx="18"/>
+            <text x="512" y="356" font-size="18" font-weight="900">중요한 일은 사람과</text>
+            <text x="512" y="384" font-size="13.5">가족, 친구, 전문가와 상의하기</text>
+          </svg>

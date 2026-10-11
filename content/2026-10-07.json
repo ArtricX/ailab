@@ -1,0 +1,371 @@
+{
+  "schema": 1,
+  "date": "2026-10-07",
+  "weekday": "수",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-07.html",
+  "minutes": 5,
+  "title": {
+    "text": "값싼 폰이 사라지는 이유, 그리고 AI 회사들의 안전 약속",
+    "phrases": [
+      "값싼 폰이",
+      "사라지는 이유,",
+      "그리고 AI 회사들의",
+      "안전 약속"
+    ]
+  },
+  "share": {
+    "title": "값싼 폰이 사라지는 이유 외 2건 · AILAB 10월 7일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 7일 수요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-07.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "phone",
+      "tag": "생활",
+      "color": "blue",
+      "label": "값싼 스마트폰이 줄고 있어요"
+    },
+    {
+      "anchor": "safety",
+      "tag": "안전",
+      "color": "yellow",
+      "label": "100% 안전은 약속 못 한대요"
+    },
+    {
+      "anchor": "cartoon",
+      "tag": "창작",
+      "color": "pink",
+      "label": "AI 그림에 진짜 작가 서명이"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "phone",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-07.html#phone",
+      "tag": "생활",
+      "color": "blue",
+      "title": {
+        "text": "AI 때문에 값싼 스마트폰이 사라지고 있어요",
+        "phrases": [
+          "AI 때문에",
+          "값싼 스마트폰이",
+          "사라지고 있어요"
+        ]
+      },
+      "dek": {
+        "text": "AI를 돌리는 데이터센터가 메모리 칩을 대량으로 사 가면서, 싼 폰일수록 값이 크게 올랐어요.",
+        "phrases": [
+          "AI를 돌리는 데이터센터가",
+          "메모리 칩을 대량으로 사 가면서,",
+          "싼 폰일수록",
+          "값이 크게 올랐어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261007_123435_65c85935-7db0-4b1c-94c3-5cf1222512f1.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261007_123435_65c85935-7db0-4b1c-94c3-5cf1222512f1.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "단발머리 사람이 텅 빈 작은 스마트폰을 시무룩하게 내려다보고, 옆에서 얼굴이 있는 커다란 서버가 메모리 칩을 한가득 끌어안고 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-07-phone.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-07-phone.svg",
+        "viewBox": "0 0 800 480",
+        "title": "값싼 폰 제작비, 판매량 변화, 지역별 가격 상승",
+        "desc": "값싼 폰 한 대 제작비는 약 50달러에서 약 120달러로 올랐다. 100달러 아래 폰 판매량은 올해 2분기에 지난해보다 약 60% 줄었다. 새 폰 값은 인도 21%, 아시아·태평양 19%, 중동·아프리카 18%, 미국 5% 올랐다.",
+        "caption": {
+          "text": "출처의 보도 수치를 그대로 옮겼어요. 제작비는 분석 기관의 추정치예요.",
+          "phrases": [
+            "출처의 보도 수치를 그대로 옮겼어요.",
+            "제작비는 분석 기관의 추정치예요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "100달러(우리 돈 10만 원대)보다 싼 스마트폰이 올해 2분기에 지난해보다 60% 가까이 덜 팔렸어요. 새로 나온 폰의 값은 평균 25%쯤 올랐고요.",
+            "nobreak": [
+              "100달러",
+              "10만 원대",
+              "올해 2분기에",
+              "60% 가까이",
+              "25%쯤"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "스마트폰 안에는 사진과 앱을 담아 두는 메모리 칩이 들어가요. 그런데 AI를 돌리는 거대한 컴퓨터 건물인 데이터센터가 이 칩을 엄청나게 사 가고 있어요. 폰에 넣을 칩이 모자라니 값이 올랐고, 예전엔 50달러쯤이면 만들던 값싼 폰이 이제 120달러 가까이 든다는 분석도 나왔어요.",
+            "nobreak": [
+              "50달러쯤이면",
+              "120달러 가까이"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "아이의 첫 폰이나 부모님 폰처럼 저렴한 폰을 사려면 전보다 돈이 더 들 수 있어요. 지금 쓰는 폰을 조금 더 오래 쓰거나, 검사를 마친 중고폰(리퍼폰)을 알아보는 것도 방법이에요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "AI Weekly",
+          "date": "10월 6일",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-10-06"
+        },
+        {
+          "name": "YourStory",
+          "date": "",
+          "url": "https://yourstory.com/ai-story/ai-boom-cheap-smartphones-disappearing"
+        }
+      ]
+    },
+    {
+      "anchor": "safety",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-07.html#safety",
+      "tag": "안전",
+      "color": "yellow",
+      "title": {
+        "text": "AI 회사들, 100% 안전은 약속하지 못한다고 답했어요",
+        "phrases": [
+          "AI 회사들,",
+          "100% 안전은",
+          "약속하지 못한다고",
+          "답했어요"
+        ]
+      },
+      "dek": {
+        "text": "미국 뉴욕 시의회에 나온 AI 회사 네 곳은 AI가 언제나 규칙을 지킨다고 보장할 수는 없다고 했어요.",
+        "phrases": [
+          "미국 뉴욕 시의회에 나온",
+          "AI 회사 네 곳은",
+          "AI가 언제나",
+          "규칙을 지킨다고",
+          "보장할 수는 없다고 했어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261007_123435_63aadd54-d023-4ea5-81bd-f67260f2e1b0.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261007_123435_63aadd54-d023-4ea5-81bd-f67260f2e1b0.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작고 동그란 로봇이 긴 막대를 들고 외줄을 조심조심 건너고, 아래에서 두 사람이 구멍 난 안전 그물을 들고 걱정스레 올려다보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-07-safety.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-07-safety.svg",
+        "viewBox": "0 0 800 400",
+        "title": "시의회와 AI 회사 네 곳의 입장",
+        "desc": "뉴욕 시의회는 완벽이 아니라 책임, 투명성, 안전을 바랐고, 오픈AI, 앤트로픽, 구글, 메타는 위험이 전혀 없다는 100% 약속은 할 수 없다고 답했다.",
+        "caption": {
+          "text": "양쪽 모두 안전이 중요하다는 데는 같았지만, 어디까지 약속할 수 있는지에서 생각이 달랐어요.",
+          "phrases": [
+            "양쪽 모두",
+            "안전이 중요하다는 데는 같았지만,",
+            "어디까지 약속할 수 있는지에서",
+            "생각이 달랐어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "10월 5일(미국 시간) 뉴욕 시의회 회의에 오픈AI, 앤트로픽, 구글, 메타의 담당자들이 나왔어요. AI 비서가 언제나 안전 규칙을 지킨다고 보장할 수 있느냐는 질문에, 네 회사 모두 그렇게까지는 약속할 수 없다고 답했어요.",
+            "nobreak": [
+              "10월 5일",
+              "뉴욕 시의회"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "회사들은 AI를 완벽하게 다루는 방법이 아직 다 풀리지 않은 어려운 과제라고 설명했어요. 시의회 의장은 완벽을 바라는 게 아니라 책임지고, 투명하게 알리고, 안전하게 만들라는 뜻이라고 답했어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "AI는 편리하지만 가끔 틀리거나 엉뚱하게 행동할 수 있어요. 돈을 보내거나 개인정보를 넣는 것처럼 중요한 일은, AI에게 맡기더라도 마지막 확인은 꼭 사람이 직접 하세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Fox News",
+          "date": "10월 6일",
+          "url": "https://www.foxnews.com/live-news/ai-super-intelligence-safety-10-06"
+        }
+      ]
+    },
+    {
+      "anchor": "cartoon",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-07.html#cartoon",
+      "tag": "창작",
+      "color": "pink",
+      "title": {
+        "text": "AI가 만든 그림에 진짜 만화가의 서명이 들어갔어요",
+        "phrases": [
+          "AI가 만든 그림에",
+          "진짜 만화가의",
+          "서명이 들어갔어요"
+        ]
+      },
+      "dek": {
+        "text": "작가가 허락하지 않은 서명이 붙은 AI 그림이 SNS에서 좋아요 약 2만 5천 개를 받았어요.",
+        "phrases": [
+          "작가가 허락하지 않은",
+          "서명이 붙은 AI 그림이",
+          "SNS에서 좋아요",
+          "약 2만 5천 개를 받았어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261007_123435_949cb29c-a352-4fbb-8a41-25fac98ddbad.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261007_123435_949cb29c-a352-4fbb-8a41-25fac98ddbad.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 로봇이 이젤 위 그림 구석에 몰래 서명을 끄적이고, 빨간 베레모를 쓴 작가가 이젤 뒤에서 놀라 내다보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-07-cartoon.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-07-cartoon.svg",
+        "viewBox": "0 0 800 400",
+        "title": "가짜 서명이 붙은 AI 그림이 퍼진 과정",
+        "desc": "작가가 서명을 남긴 그림을 그리고, AI가 수많은 그림을 보고 배운 뒤, 그림을 따라 그리며 서명까지 넣었고, 그 그림이 SNS에서 좋아요 약 2만 5천 개를 받았다. 작가는 그 그림을 그린 적이 없다.",
+        "caption": {
+          "text": "왼쪽부터 순서대로 일어난 일이에요.",
+          "phrases": [
+            "왼쪽부터 순서대로 일어난 일이에요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "챗GPT로 미국 잡지 「뉴요커」의 만화처럼 그림을 만들면, 실제 뉴요커 만화가의 서명이 그림 구석에 들어가는 일이 확인됐어요. 작가는 허락한 적이 없어요. 이렇게 만든 그림 하나는 SNS에서 좋아요를 약 2만 5천 개나 받았어요.",
+            "nobreak": [
+              "「뉴요커」의",
+              "약 2만 5천 개"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI는 아주 많은 그림을 보고 그리는 법을 배워요. 그러다 그림 구석의 서명까지 그림의 일부라고 여기고 그대로 따라 그린 거예요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "인터넷에서 본 그림의 서명이 진짜인지 한 번 더 살펴보세요. 직접 AI로 그림을 만든다면, 다른 사람의 이름이나 서명이 들어가지 않았는지 확인하고 지워 주세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "AI Weekly",
+          "date": "10월 6일",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-10-06"
+        }
+      ]
+    }
+  ],
+  "soon": {
+    "title": {
+      "text": "아이폰 시리, 한국어로 더 똑똑해질 수도",
+      "phrases": [
+        "아이폰 시리,",
+        "한국어로",
+        "더 똑똑해질 수도"
+      ]
+    },
+    "paragraphs": [
+      {
+        "text": "애플이 시리의 새 AI 기능을 한국어를 포함한 다섯 개 언어로 넓히는 업데이트를 시험하고 있고, 10월 안에 나올 수 있다는 보도가 있어요. 아직 애플의 공식 발표는 없어요.",
+        "nobreak": [
+          "다섯 개",
+          "10월 안에"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The Hans India",
+        "date": "9월 29일",
+        "url": "https://www.thehansindia.com/tech/upcoming-ai-updates-in-october-2026-major-developments-to-watch-1127036"
+      }
+    ]
+  },
+  "words": [
+    {
+      "word": "메모리 칩",
+      "meaning": {
+        "text": "폰과 컴퓨터가 사진, 앱, 하던 일을 기억해 두는 부품",
+        "phrases": [
+          "폰과 컴퓨터가",
+          "사진, 앱, 하던 일을",
+          "기억해 두는 부품"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "데이터센터",
+      "meaning": {
+        "text": "컴퓨터 수만 대를 모아 둔 큰 건물. AI는 대부분 여기서 돌아가요",
+        "phrases": [
+          "컴퓨터 수만 대를",
+          "모아 둔 큰 건물.",
+          "AI는 대부분",
+          "여기서 돌아가요"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "출하",
+      "meaning": {
+        "text": "공장에서 만든 물건을 가게로 내보내는 일",
+        "phrases": [
+          "공장에서 만든 물건을",
+          "가게로 내보내는 일"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "안전장치",
+      "meaning": {
+        "text": "AI가 위험한 말이나 행동을 못 하게 막는 규칙",
+        "phrases": [
+          "AI가 위험한",
+          "말이나 행동을",
+          "못 하게 막는 규칙"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "서명",
+      "meaning": {
+        "text": "작가가 자기 그림이라는 표시로 남기는 이름",
+        "phrases": [
+          "작가가",
+          "자기 그림이라는 표시로",
+          "남기는 이름"
+        ]
+      },
+      "color": "red"
+    }
+  ]
+}
