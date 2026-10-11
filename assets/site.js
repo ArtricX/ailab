@@ -198,13 +198,38 @@ function ailabEvent(name) {
       var i = posts.findIndex(function (p) { return p.date === today; });
       if (i < 0) return;
       var older = posts[i + 1], newer = posts[i - 1];
-      if (!older && !newer) return;
       var nav = document.createElement("nav");
       nav.className = "post-nav gutter";
       nav.setAttribute("aria-label", "다른 날 소식");
       [[older, "prev", "이전 소식"], [newer, "next", "다음 소식"]].forEach(function (x) {
         var p = x[0];
-        if (!p) return;
+        if (!p) {
+          // 빈 칸 대신 안내 카드: 다음 소식이 없으면 내일 아침 안내와 메일 받기, 이전 소식이 없으면 첫 소식 안내
+          var e = document.createElement("a");
+          e.className = "post-nav-link is-empty " + x[1];
+          var eb = document.createElement("span");
+          eb.className = "bracket";
+          var et = document.createElement("strong");
+          var em = document.createElement("span");
+          em.className = "post-nav-more";
+          if (x[1] === "next") {
+            e.href = "../subscribe.html";
+            eb.textContent = "다음 소식 · 내일 아침 7시";
+            phrases(et, "다음 소식은|내일 아침 7시에|올라와요");
+            em.textContent = "아침마다 메일로 받아보기";
+          } else {
+            e.href = "../index.html";
+            eb.textContent = "이전 소식";
+            phrases(et, "AILAB의|첫 소식이에요");
+            em.textContent = "처음 화면으로 가기";
+          }
+          e.appendChild(eb);
+          e.appendChild(et);
+          e.appendChild(em);
+          e.addEventListener("click", function () { ailabEvent("post-nav-" + x[1] + "-empty"); });
+          nav.appendChild(e);
+          return;
+        }
         var a = document.createElement("a");
         a.className = "post-nav-link " + x[1];
         a.href = p.date + ".html";

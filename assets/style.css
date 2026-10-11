@@ -478,8 +478,6 @@ html { scroll-padding-top: 5.5rem; }
   .story-top { grid-template-columns: minmax(0, 29rem) minmax(0, 1fr); gap: 3rem; }
   .archive { grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); }
   .story-head .dek { max-width: 34rem; }
-  .qa { max-width: none; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.6rem 2.6rem; }
-  .qa .source { grid-column: 1 / -1; }
   .figure { max-width: 64rem; }
   .soon-box { max-width: 52rem; }
 }
@@ -498,7 +496,8 @@ html { scroll-padding-top: 5.5rem; }
 }
 
 /* ───────── 글 페이지 정렬 ─────────
-   읽는 글(제목 아래 요약, 쉽게 알아보기, 출처)은 왼쪽 정렬로 둡니다. 한국어는 왼쪽부터 읽고, 줄 시작이 같아야 편해요.
+   읽는 글(제목 아래 요약, 쉽게 알아보기, 출처)은 왼쪽 정렬로 둡니다.
+   쉽게 알아보기는 세 물음을 한 줄로 아래로 이어 읽도록, 가운데에 놓인 읽기 좋은 폭의 한 단에 담아요. 한국어는 왼쪽부터 읽고, 줄 시작이 같아야 편해요.
    한눈에 보는 것(글의 첫머리, 인포그래픽, 글 끝의 버튼과 인사)은 가운데에 놓아 지면의 중심을 잡아요. */
 .figure { justify-self: center; width: 100%; }
 .figure figcaption { text-align: center; }
@@ -511,11 +510,6 @@ html { scroll-padding-top: 5.5rem; }
   .post-hero h1 { max-width: 22ch; }
   .post-meta, .post-hero .chips { justify-content: center; }
 }
-@media (min-width: 1200px) {
-  /* 쉽게 알아보기: 세 물음을 나란히 놓아 오른쪽이 비지 않게 */
-  .qa { max-width: none; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.6rem 2.4rem; }
-  .qa .source { grid-column: 1 / -1; }
-}
 @media (min-width: 1600px) {
   .post-hero h1 { max-width: 26ch; }  /* 큰 모니터에서는 제목 줄 수를 줄여요 */
 }
@@ -527,6 +521,18 @@ html { scroll-padding-top: 5.5rem; }
 }
 @media (min-width: 1600px) {
   .story-top { grid-template-columns: minmax(0, 29rem) fit-content(32rem); gap: 3rem; }
-  /* 큰 모니터: 쉽게 알아보기도 인포그래픽과 같은 폭(64rem)으로 가운데에 모아요. 라벨은 위로 올려요 */
-  .story-body { grid-template-columns: minmax(0, 1fr); gap: 0.9rem; width: 100%; max-width: 64rem; justify-self: center; }
 }
+
+/* 쉽게 알아보기: 세 물음을 위에서 아래로 한 단에. 단은 가운데에, 글은 왼쪽 정렬로 읽기 좋은 폭(한 줄 40자 안팎)이에요 */
+@media (min-width: 861px) {
+  .story-body { grid-template-columns: minmax(0, 1fr); gap: 1rem; width: 100%; max-width: 42rem; justify-self: center; }
+  .story-body .bracket { padding-top: 0; }
+  .qa { max-width: none; gap: 2rem; }
+  .qa p { font-size: 1.06rem; line-height: 1.85; }
+}
+
+/* 이전·다음 소식: 두 칸을 늘 채워요. 다음 소식이 아직 없으면(오늘 글) 내일 아침 안내와 메일 받기로,
+   이전 소식이 없으면(첫 글) 첫 소식이라는 안내로 채워요. 안내 칸은 점선 테두리와 옅은 바탕으로 구분해요 */
+.post-nav-link.is-empty { border-style: dashed; background: var(--ground); }
+.post-nav-link.is-empty:hover { background: var(--rule); }
+.post-nav-link .post-nav-more { font-size: 0.85rem; font-weight: 800; text-decoration: underline; text-underline-offset: 0.25em; }
