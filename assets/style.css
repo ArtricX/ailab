@@ -487,3 +487,12 @@ html { scroll-padding-top: 5.5rem; }
   html { font-size: 125%; }            /* 20px */
   html.large-text { font-size: 145%; }
 }
+
+/* 첫 화면 그림 두 장: 옆 글 묶음(날짜 위 ~ '오늘 소식 읽기' 버튼 아래)과 높이를 똑같이 맞춥니다.
+   글 묶음의 높이는 그날 요약 길이에 따라 달라서, site.js가 높이를 재어 --hero-tile에 넣어요.
+   그림은 늘 정사각형이고, 스크립트가 없으면 위의 원래 배치 그대로 보여요.
+   1200px보다 좁으면 글 칸이 좁아져 높이를 맞출 수 없어서 원래 배치를 써요. */
+@media (min-width: 1200px) {
+  .hero.is-fit { grid-template-columns: var(--hero-tile) var(--hero-tile) minmax(0, 1fr); align-items: start; }
+  .hero.is-fit .hero-text { align-content: start; padding-bottom: 0; }
+}
