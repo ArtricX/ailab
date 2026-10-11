@@ -536,3 +536,7 @@ html { scroll-padding-top: 5.5rem; }
 .post-nav-link.is-empty { border-style: dashed; background: var(--ground); }
 .post-nav-link.is-empty:hover { background: var(--rule); }
 .post-nav-link .post-nav-more { font-size: 0.85rem; font-weight: 800; text-decoration: underline; text-underline-offset: 0.25em; }
+
+/* 구독 칸: 설명 → 안심 문구 → 버튼 순서로. 다 읽고 나서 누르도록 버튼을 맨 아래에 둡니다(HTML 순서는 그대로) */
+.subscribe-body .subscribe-note { order: 1; }
+.subscribe-body .subscribe-cta { order: 2; margin-top: 0.4rem; }
