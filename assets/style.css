@@ -519,3 +519,14 @@ html { scroll-padding-top: 5.5rem; }
 @media (min-width: 1600px) {
   .post-hero h1 { max-width: 26ch; }  /* 큰 모니터에서는 제목 줄 수를 줄여요 */
 }
+
+/* 소식 머리(그림 + 태그·제목·요약): 한 덩어리로 묶어 가운데에 놓습니다.
+   그림과 글 사이를 붙이고, 글은 그림 높이의 가운데에 맞춰요. 글 자체는 읽기 편하게 왼쪽 정렬이에요. */
+@media (min-width: 861px) {
+  .story-top { grid-template-columns: minmax(0, 34rem) fit-content(30rem); justify-content: center; align-items: center; gap: 2.6rem; }
+}
+@media (min-width: 1600px) {
+  .story-top { grid-template-columns: minmax(0, 29rem) fit-content(32rem); gap: 3rem; }
+  /* 큰 모니터: 쉽게 알아보기도 인포그래픽과 같은 폭(64rem)으로 가운데에 모아요. 라벨은 위로 올려요 */
+  .story-body { grid-template-columns: minmax(0, 1fr); gap: 0.9rem; width: 100%; max-width: 64rem; justify-self: center; }
+}
