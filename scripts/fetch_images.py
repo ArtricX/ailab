@@ -88,8 +88,69 @@ def main():
         pj.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         changed = True
 
+    changed = make_og() or changed
     print("바뀐 파일 있음" if changed else "바꿀 외부 그림 없음")
     return 0
+
+
+SITE = "https://artricx.github.io/ailab/"
+OG = ROOT / "assets" / "og"
+IMG_SRC_RE = re.compile(r'(?:\.\./)?(assets/img/[^"\s]+\.webp)')
+
+
+def og_tags(url):
+    return (
+        f'<meta property="og:image" content="{url}">\n'
+        '<meta property="og:image:width" content="1200">\n'
+        '<meta property="og:image:height" content="630">\n'
+        '<meta name="twitter:card" content="summary_large_image">\n'
+    )
+
+
+def og_jpg(src, dest):
+    """공유 미리보기용 1200×630 JPG(카톡·문자·SNS가 잘 읽는 형식). 가운데를 잘라 씁니다."""
+    from PIL import Image
+    im = Image.open(src).convert("RGB")
+    w, h = 1200, 630
+    scale = max(w / im.width, h / im.height)
+    im = im.resize((round(im.width * scale), round(im.height * scale)), Image.LANCZOS)
+    left, top = (im.width - w) // 2, (im.height - h) // 2
+    im.crop((left, top, left + w, top + h)).save(dest, "JPEG", quality=85, optimize=True, progressive=True)
+    print(f"공유 그림: assets/og/{dest.name}")
+
+
+def add_og(page, url):
+    """페이지 head에 공유 미리보기 그림 태그가 없으면 og:description 바로 아래에 넣습니다."""
+    t = page.read_text(encoding="utf-8")
+    if 'property="og:image"' in t:
+        return False
+    i = t.find('<meta property="og:description"')
+    if i < 0:
+        return False
+    j = t.index("\n", i) + 1
+    page.write_text(t[:j] + og_tags(url) + t[j:], encoding="utf-8")
+    return True
+
+
+def make_og():
+    """글마다 첫 그림으로 assets/og/날짜.jpg를 만들고 글 페이지에 연결합니다. 구독 페이지도 같은 방식."""
+    OG.mkdir(parents=True, exist_ok=True)
+    changed = False
+    pages = [(p, p.stem) for p in sorted((ROOT / "posts").glob("*.html"))]
+    pages.append((ROOT / "subscribe.html", "subscribe"))
+    for page, name in pages:
+        if not page.exists():
+            continue
+        dest = OG / f"{name}.jpg"
+        if not dest.exists():
+            t = page.read_text(encoding="utf-8")
+            m = IMG_SRC_RE.search(t[t.find("<main"):])
+            if not m or not (ROOT / m.group(1)).exists():
+                continue  # 아직 사이트 안 그림이 없으면 다음 실행 때 만들어요
+            og_jpg(ROOT / m.group(1), dest)
+            changed = True
+        changed = add_og(page, f"{SITE}assets/og/{name}.jpg") or changed
+    return changed
 
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@
 <meta name="description" content="매일 아침 7시, 그날의 AI 소식을 초등학생부터 어르신까지 누구나 읽기 쉽게 그림과 함께 정리해요.">
 <meta property="og:title" content="AILAB 아침 AI 소식">
 <meta property="og:description" content="매일 아침 7시, 누구나 읽는 AI 소식">
+{{OG_META}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Gothic+A1:wght@400;500;700;800;900&display=swap">
@@ -28,8 +29,7 @@
 
   <main>
     <section class="hero gutter" aria-labelledby="hero-title">
-      <a class="hero-tile" href="{{HREF}}#{{A0}}"><img src="{{I0}}" alt=""></a>
-      <a class="hero-tile" href="{{HREF}}#{{A1}}"><img src="{{I1}}" alt=""></a>
+{{HERO_TILES}}
       <div class="hero-text">
         <span class="bracket">{{DATE_DOTS}} {{WEEKDAY}}</span>
         <h1 id="hero-title"><span class="line">오늘 아침</span><span class="line">AI 소식 세 가지</span></h1>
