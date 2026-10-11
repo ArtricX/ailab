@@ -457,10 +457,14 @@ html { scroll-padding-top: 5.5rem; }
    읽는 글줄은 너무 길어지지 않게, 남는 폭은 '쉽게 알아보기'를 세 칸으로 나눠 씁니다.
    그림(썸네일, 일러스트)과 인포그래픽은 지나치게 커지지 않도록 크기를 정해 둡니다. */
 @media (min-width: 1600px) {
-  :root { --page: min(90vw, 120rem); }
+  :root { --page: min(90vw, 120rem); --col: 76rem; }
   html { font-size: 112.5%; }          /* 18px */
   html.large-text { font-size: 132%; }
-  .gutter { padding-inline: clamp(56px, 3.5vw, 96px); }
+  /* 정렬: 지면은 넓게 두되, 내용은 가운데에 놓인 한 단(--col) 안에 모아 왼쪽 선을 하나로 맞춥니다.
+     단 안의 글과 그림은 모두 왼쪽 정렬(한국어 읽는 방향)이고, 남는 폭은 양옆에 똑같이 나눠요.
+     구분선, 워드마크, 분야 띠, 꼬리말은 지금처럼 지면 끝까지 닿아요. */
+  .gutter { padding-inline: max(clamp(56px, 3.5vw, 96px), calc((100% - var(--col)) / 2)); }
+  /* 워드마크 옆 설명은 워드마크와 겹치지 않게 지면 오른쪽 끝에 둡니다 */
   .wordmark-note { right: clamp(56px, 3.5vw, 96px); }
   /* 워드마크는 지면 폭에 맞춰 커져서, 큰 화면에서도 지면을 꽉 채워요 */
   .wordmark-type { font-size: calc(min(100vw, var(--page)) * 0.3); }
@@ -468,7 +472,7 @@ html { scroll-padding-top: 5.5rem; }
   .post-hero h1 { font-size: 5.2rem; max-width: 26ch; }
   /* 그림은 지면이 넓어져도 크게 늘어나지 않게, 1440px 화면 때보다 조금 작게 둡니다 */
   .hero { grid-template-columns: 17rem 17rem minmax(0, 1fr); gap: 1.2rem; }
-  .features { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 72rem; }
+  .features { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.4rem; }
   .feature-stack { display: contents; }
   .feature.lead h3 { font-size: 1.9rem; }
   .story-top { grid-template-columns: minmax(0, 29rem) minmax(0, 1fr); gap: 3rem; }
