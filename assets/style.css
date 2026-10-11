@@ -119,13 +119,12 @@ p { margin: 0; text-wrap: pretty; }
 .feature-art { position: relative; overflow: hidden; background: var(--ground); }
 .feature-art img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform 400ms ease; }
 .feature:hover .feature-art img { transform: scale(1.03); }
-/* 그림 위 날짜·분야 스티커: 가로로 한 줄, 흰 바탕에 검은 글자로 또렷하게 */
+/* 그림 위 날짜·분야 태그: 검은 바탕 흰 글자의 각진 태그. 글자는 가로 한 줄로 또렷하게 */
 .side-label {
   position: absolute; top: 0.75rem; left: 0.75rem;
-  font-family: var(--font-ko); font-weight: 800; font-size: 0.8rem; line-height: 1; letter-spacing: -0.01em;
+  font-family: var(--font-ko); font-weight: 800; font-size: 0.8rem; line-height: 1; letter-spacing: 0;
   font-variant-numeric: tabular-nums; white-space: nowrap;
-  background: var(--paper); color: var(--ink); border: 2px solid var(--ink); border-radius: 999px;
-  padding: 0.38rem 0.7rem 0.34rem;
+  background: var(--ink); color: var(--paper); padding: 0.42rem 0.6rem 0.38rem;
 }
 .feature-tag { font-size: 0.8rem; font-weight: 700; }
 .feature h3 { font-size: clamp(1.25rem, 2.2vw, 1.6rem); line-height: 1.3; }
