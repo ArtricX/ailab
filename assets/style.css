@@ -496,3 +496,26 @@ html { scroll-padding-top: 5.5rem; }
   .hero.is-fit { grid-template-columns: var(--hero-tile) var(--hero-tile) minmax(0, 1fr); align-items: start; }
   .hero.is-fit .hero-text { align-content: start; padding-bottom: 0; }
 }
+
+/* ───────── 글 페이지 정렬 ─────────
+   읽는 글(제목 아래 요약, 쉽게 알아보기, 출처)은 왼쪽 정렬로 둡니다. 한국어는 왼쪽부터 읽고, 줄 시작이 같아야 편해요.
+   한눈에 보는 것(글의 첫머리, 인포그래픽, 글 끝의 버튼과 인사)은 가운데에 놓아 지면의 중심을 잡아요. */
+.figure { justify-self: center; width: 100%; }
+.figure figcaption { text-align: center; }
+.glossary h2 { text-align: center; }
+.share-row { justify-content: center; }
+.post-end { justify-content: center; column-gap: 1.6rem; }
+@media (min-width: 861px) {
+  /* 글의 첫머리: 날짜, 큰 제목, 소식 칩을 가운데로. 휴대폰에서는 긴 제목이 들쭉날쭉해지지 않게 왼쪽 그대로예요 */
+  .post-hero { justify-items: center; text-align: center; }
+  .post-hero h1 { max-width: 22ch; }
+  .post-meta, .post-hero .chips { justify-content: center; }
+}
+@media (min-width: 1200px) {
+  /* 쉽게 알아보기: 세 물음을 나란히 놓아 오른쪽이 비지 않게 */
+  .qa { max-width: none; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.6rem 2.4rem; }
+  .qa .source { grid-column: 1 / -1; }
+}
+@media (min-width: 1600px) {
+  .post-hero h1 { max-width: 26ch; }  /* 큰 모니터에서는 제목 줄 수를 줄여요 */
+}
