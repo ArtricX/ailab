@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""줄내림 검사: 홈과 모든 글을 휴대폰~큰 모니터 11가지 폭, 보통·큰 글씨에서 열어
+"""줄내림 검사: 홈과 모든 글을 휴대폰~큰 모니터 13가지 폭, 보통·큰 글씨에서 열어
 제목이 두 줄을 넘는지, 구절(.ph)이 안에서 다시 끊기는지, 페이지가 옆으로 밀리는지, 그림 칸 비율이 맞는지 확인합니다.
 
 사용법: python3 scripts/check_lines.py   (playwright 필요: pip install playwright --break-system-packages && playwright install chromium)
@@ -9,7 +9,7 @@ import asyncio, pathlib, subprocess, sys, tempfile
 from playwright.async_api import async_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-WIDTHS = [360, 390, 430, 600, 768, 860, 1024, 1180, 1280, 1440, 1920]
+WIDTHS = [360, 390, 430, 600, 768, 860, 1024, 1180, 1280, 1440, 1600, 1920, 2560]
 
 
 def fonts_css():

@@ -451,3 +451,29 @@ html { scroll-padding-top: 5.5rem; }
 .no-art.c-pink { background: var(--pink); }
 .no-art.c-green { background: var(--green); }
 .no-art.c-red { background: var(--red); }
+
+/* ───────── 큰 모니터: 1600px 넘는 화면에서는 지면을 넓혀 씁니다 ─────────
+   지면은 화면의 90%까지(최대 120rem) 넓어지고, 글자도 조금 커져요.
+   읽는 글줄은 너무 길어지지 않게, 남는 폭은 '쉽게 알아보기'를 세 칸으로 나눠 씁니다.
+   인포그래픽은 지나치게 커지지 않도록 폭을 정해 둡니다. */
+@media (min-width: 1600px) {
+  :root { --page: min(90vw, 120rem); }
+  html { font-size: 112.5%; }          /* 18px */
+  html.large-text { font-size: 132%; }
+  .gutter { padding-inline: clamp(56px, 3.5vw, 96px); }
+  .wordmark-note { right: clamp(56px, 3.5vw, 96px); }
+  /* 워드마크는 지면 폭에 맞춰 커져서, 큰 화면에서도 지면을 꽉 채워요 */
+  .wordmark-type { font-size: calc(min(100vw, var(--page)) * 0.3); }
+  .ticker-track { font-size: 2.8rem; }
+  .post-hero h1 { font-size: 5.2rem; max-width: 26ch; }
+  .story-top { gap: 3rem; }
+  .story-head .dek { max-width: 34rem; }
+  .qa { max-width: none; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.6rem 2.6rem; }
+  .qa .source { grid-column: 1 / -1; }
+  .figure { max-width: 64rem; }
+  .soon-box { max-width: 52rem; }
+}
+@media (min-width: 2400px) {
+  html { font-size: 125%; }            /* 20px */
+  html.large-text { font-size: 145%; }
+}
