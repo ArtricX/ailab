@@ -11,8 +11,8 @@
         "anchor": "persist",
         "title": "AI에게|답만 받으면|끈기가 줄어요",
         "dek": "AI를 10분쯤 쓰다|끊었더니|어려운 문제를|더 쉽게 포기했어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213438_fa535928-09c1-4c26-a8fc-f396bb1ccaa8.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213438_fa535928-09c1-4c26-a8fc-f396bb1ccaa8_min.webp"
+        "illust": "assets/img/hf_20261011_213438_fa535928-09c1-4c26-a8fc-f396bb1ccaa8.webp",
+        "thumb": "assets/img/hf_20261011_213438_fa535928-09c1-4c26-a8fc-f396bb1ccaa8_min.webp"
       },
       {
         "tag": "안전",
@@ -20,8 +20,8 @@
         "anchor": "driving",
         "title": "테슬라가|'완전 자율 주행'|이름을 뺐어요",
         "dek": "유럽에서는|'테슬라 보조 주행'으로|부르기로 했어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213439_a6e6361a-795b-4f92-98f3-7dc71890b8cd.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213439_a6e6361a-795b-4f92-98f3-7dc71890b8cd_min.webp"
+        "illust": "assets/img/hf_20261011_213439_a6e6361a-795b-4f92-98f3-7dc71890b8cd.webp",
+        "thumb": "assets/img/hf_20261011_213439_a6e6361a-795b-4f92-98f3-7dc71890b8cd_min.webp"
       },
       {
         "tag": "창작",
@@ -29,8 +29,8 @@
         "anchor": "music",
         "title": "새 노래|10곡 중 4곡은|AI가 만들어요",
         "dek": "그래도 사람들은|사람이 만든 음악인지|알고 싶어 해요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213438_adb87483-6d6d-4b52-a049-9ff6b78b45d2.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213438_adb87483-6d6d-4b52-a049-9ff6b78b45d2_min.webp"
+        "illust": "assets/img/hf_20261011_213438_adb87483-6d6d-4b52-a049-9ff6b78b45d2.webp",
+        "thumb": "assets/img/hf_20261011_213438_adb87483-6d6d-4b52-a049-9ff6b78b45d2_min.webp"
       }
     ],
     "keywords": [
