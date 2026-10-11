@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="480" fill="#EDEEF0"/>
+            <title id="g1t">값싼 폰 제작비, 판매량 변화, 지역별 가격 상승</title>
+            <desc id="g1d">값싼 폰 한 대 제작비는 약 50달러에서 약 120달러로 올랐다. 100달러 아래 폰 판매량은 올해 2분기에 지난해보다 약 60% 줄었다. 새 폰 값은 인도 21%, 아시아·태평양 19%, 중동·아프리카 18%, 미국 5% 올랐다.</desc>
+            <text x="32" y="52" font-size="18" font-weight="800">폰 한 대 만드는 데 드는 돈</text>
+            <line class="line" x1="30" y1="400" x2="350" y2="400" stroke-width="3"/>
+            <rect class="f-paper" x="50" y="300" width="90" height="100" rx="14"/>
+            <rect class="f-yellow" x="200" y="160" width="90" height="240" rx="14"/>
+            <rect class="f-ink" x="80" y="310" width="30" height="5" rx="2.5"/>
+            <rect class="f-ink" x="230" y="170" width="30" height="5" rx="2.5"/>
+            <text class="num" x="95" y="286" font-size="30" text-anchor="middle">$50</text>
+            <text class="num red" x="245" y="146" font-size="34" text-anchor="middle">$120</text>
+            <text x="95" y="430" font-size="15" font-weight="700" text-anchor="middle">예전</text>
+            <text x="245" y="430" font-size="15" font-weight="700" text-anchor="middle">지금</text>
+            <text class="grey" x="32" y="462" font-size="12">높이는 금액에 맞춘 같은 눈금이고, 금액은 어림값이에요</text>
+
+            <line class="line-grey" x1="396" y1="30" x2="396" y2="450" stroke-width="2"/>
+
+            <text class="num" x="424" y="150" font-size="104" letter-spacing="-4">−60%</text>
+            <text x="426" y="186" font-size="16" font-weight="800">100달러 아래 폰 판매량</text>
+            <text class="grey" x="426" y="210" font-size="13.5">올해 2분기, 지난해 같은 때보다</text>
+
+            <text x="426" y="268" font-size="16" font-weight="800">새 폰 값이 오른 정도</text>
+            <text x="426" y="311" font-size="13.5" font-weight="700">인도</text>
+            <rect class="f-blue" x="530" y="294" width="210" height="24"/>
+            <text class="num" x="748" y="312" font-size="16">21%</text>
+            <text x="426" y="351" font-size="13.5" font-weight="700">아시아·태평양</text>
+            <rect class="f-blue" x="530" y="334" width="190" height="24"/>
+            <text class="num" x="728" y="352" font-size="16">19%</text>
+            <text x="426" y="391" font-size="13.5" font-weight="700">중동·아프리카</text>
+            <rect class="f-blue" x="530" y="374" width="180" height="24"/>
+            <text class="num" x="718" y="392" font-size="16">18%</text>
+            <text x="426" y="431" font-size="13.5" font-weight="700">미국</text>
+            <rect class="f-ground" x="530" y="414" width="50" height="24"/>
+            <text class="num" x="588" y="432" font-size="16">5%</text>
+            <text class="grey" x="426" y="466" font-size="12">막대는 0~25% 같은 눈금이에요</text>
+          </svg>
