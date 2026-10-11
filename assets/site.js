@@ -238,3 +238,61 @@ function ailabEvent(name) {
     update();
   });
 })();
+
+// 첫 화면 그림 두 장을 옆 글 묶음 높이(날짜 위 ~ 버튼 아래)에 맞춰 정사각형으로 맞춥니다.
+// 글 칸 너비가 바뀌면 제목 크기도 바뀌므로, 크기가 멈출 때까지 몇 번 다시 잽니다.
+(function () {
+  var WIDE = window.matchMedia("(min-width: 1200px)");
+  var MIN_TEXT = 420; // 글 칸이 이보다 좁아지지 않게(px)
+  function fit() {
+    var hero = document.querySelector(".hero");
+    if (!hero) return;
+    var date = hero.querySelector(".hero-text .bracket");
+    var pill = hero.querySelector(".hero-text .pill");
+    if (!date || !pill || !WIDE.matches) {
+      hero.classList.remove("is-fit");
+      hero.style.removeProperty("--hero-tile");
+      return;
+    }
+    var cs = getComputedStyle(hero);
+    var gap = parseFloat(cs.columnGap) || 0;
+    var inner = hero.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    var max = Math.floor((inner - MIN_TEXT - 2 * gap) / 2);
+    var size = parseFloat(hero.style.getPropertyValue("--hero-tile")) || 0;
+    hero.classList.add("is-fit");
+    for (var i = 0; i < 8; i++) {
+      var h = Math.round(pill.getBoundingClientRect().bottom - date.getBoundingClientRect().top);
+      var next = Math.max(0, Math.min(h, max));
+      if (Math.abs(next - size) < 1) break;
+      size = next;
+      hero.style.setProperty("--hero-tile", size + "px");
+    }
+    // 글 칸이 너무 좁아져 높이를 맞출 수 없으면(창이 좁고 글자를 크게 했을 때) 원래 배치로 돌아가요
+    var left = Math.round(pill.getBoundingClientRect().bottom - date.getBoundingClientRect().top);
+    if (Math.abs(left - size) > 2) {
+      hero.classList.remove("is-fit");
+      hero.style.removeProperty("--hero-tile");
+    }
+  }
+  function start() {
+    fit();
+    var hero = document.querySelector(".hero");
+    if (hero && "ResizeObserver" in window) {
+      var text = hero.querySelector(".hero-text");
+      var busy = false;
+      var ro = new ResizeObserver(function () {
+        if (busy) return;
+        busy = true;
+        requestAnimationFrame(function () { fit(); busy = false; });
+      });
+      ro.observe(hero);
+      if (text) ro.observe(text);
+    } else {
+      window.addEventListener("resize", fit);
+    }
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+    if (WIDE.addEventListener) WIDE.addEventListener("change", fit);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
+  else start();
+})();
