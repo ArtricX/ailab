@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""posts.json을 읽어 홈 화면(index.html)을 다시 만듭니다.
+"""posts.json을 읽어 홈 화면(index.html)을 다시 만들고, CSS·JS 주소에 바뀜 꼬리표를 붙입니다.
 
 사용법: python3 scripts/build.py
 - posts.json의 가장 최근 글이 홈의 '오늘의 소식'이 되고, 나머지는 '지난 소식'에 쌓입니다.
@@ -141,5 +141,31 @@ def main():
     print(f"index.html 생성 완료: 오늘 {today['date']}, 지난 소식 {len(rest)}개")
 
 
+def bust_cache():
+    """style.css와 site.js 주소 뒤에 파일 내용으로 만든 꼬리표(?v=…)를 붙입니다.
+    파일이 바뀌면 꼬리표도 바뀌어서, 방문자 브라우저가 예전 파일을 쓰지 않고 새 파일을 바로 받아요."""
+    import hashlib
+    import re
+    tags = {}
+    for name in ("style.css", "site.js"):
+        data = (ROOT / "assets" / name).read_bytes()
+        tags[name] = hashlib.sha256(data).hexdigest()[:10]
+    pages = [ROOT / "templates" / "index.template.html", ROOT / "index.html"]
+    pages += sorted(ROOT.glob("*.html")) + sorted((ROOT / "posts").glob("*.html"))
+    changed = 0
+    for page in dict.fromkeys(pages):
+        if not page.exists():
+            continue
+        s = page.read_text(encoding="utf-8")
+        t = s
+        for name, tag in tags.items():
+            t = re.sub(r'(assets/' + re.escape(name) + r')(\?v=[0-9a-f]+)?"', r'\1?v=' + tag + '"', t)
+        if t != s:
+            page.write_text(t, encoding="utf-8")
+            changed += 1
+    print(f"꼬리표 갱신: style.css?v={tags['style.css']}, site.js?v={tags['site.js']} (파일 {changed}개)")
+
+
 if __name__ == "__main__":
+    bust_cache()
     main()
