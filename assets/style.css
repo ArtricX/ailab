@@ -358,3 +358,98 @@ a.footer-cta:hover { text-decoration: underline; text-underline-offset: 0.2em; }
 .sub-form .subscribe-slot iframe { width: 100% !important; border: 0; display: block; }
 .sub-fallback { font-size: 0.9rem; }
 .sub-fallback a { font-weight: 700; }
+
+/* ───────── 사용성: 누구나 쉽게 움직이도록 ─────────
+   고정 메뉴, 지금 읽는 소식 표시, 맨 위로 버튼, 글 끝 이어보기·공유, 크게 누르는 출처 링크, 그림이 없을 때 빈자리. */
+
+/* 지면이 넘치는 워드마크는 자르되, 메뉴는 화면 위에 붙어 있도록(hidden은 고정을 막아요) */
+@supports (overflow: clip) { .page { overflow: clip; } }
+
+/* 상단 메뉴: 스크롤해도 늘 위에 */
+.nav { position: sticky; top: 0; z-index: 20; background: var(--paper); }
+html { scroll-padding-top: 5.5rem; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+.logo { min-height: 2.75rem; }
+.text-toggle { min-height: 2.75rem; padding-inline: 1rem; }
+.nav-links { font-size: 0.92rem; }
+.nav-links a { padding-block: 0.5rem; }
+.nav-links a[aria-current="true"] { font-weight: 800; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.35em; }
+
+/* 좁은 화면: 숨기지 않고, 글자 메뉴를 한 줄로(옆으로 밀어서 더 보기) */
+@media (max-width: 860px) {
+  .nav { flex-wrap: wrap; column-gap: 1rem; row-gap: 0.55rem; padding-block: 0.55rem 0.65rem; }
+  .nav-links {
+    display: flex; order: 3; flex: 1 0 100%; margin-left: 0; gap: 0.5rem;
+    overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
+    margin-inline: calc(-1 * clamp(16px, 4vw, 56px)); padding-inline: clamp(16px, 4vw, 56px);
+  }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a {
+    flex: none; display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 1.05rem;
+    border: 2px solid var(--ink); border-radius: 999px; background: var(--paper);
+    font-size: 0.9rem; font-weight: 700; white-space: nowrap;
+  }
+  .nav-links a:hover { text-decoration: none; }
+  .nav-links a[aria-current="true"] { background: var(--ink); color: var(--paper); text-decoration: none; }
+  html { scroll-padding-top: 8.5rem; }
+}
+
+/* 맨 위로: 한 화면쯤 내려가면 오른쪽 아래에 나타나요. 화살표만이 아니라 글자로도 알려 줘요 */
+.to-top {
+  position: fixed; z-index: 30;
+  right: max(16px, env(safe-area-inset-right)); bottom: max(16px, calc(env(safe-area-inset-bottom) + 10px));
+  display: inline-flex; align-items: center; gap: 0.4rem; min-height: 3rem; padding: 0 1.15rem 0 0.95rem;
+  font: inherit; font-size: 0.9rem; font-weight: 800; color: var(--ink); background: var(--yellow);
+  border: 2px solid var(--ink); border-radius: 999px; box-shadow: 0 3px 0 var(--ink); cursor: pointer;
+  opacity: 0; visibility: hidden; transform: translateY(0.8rem);
+  transition: opacity 180ms ease, transform 180ms ease, visibility 0s linear 180ms;
+}
+.to-top.is-shown { opacity: 1; visibility: visible; transform: none; transition: opacity 180ms ease, transform 180ms ease; }
+.to-top:hover { background: var(--ink); color: var(--paper); }
+.to-top:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--ink); }
+.to-top svg { width: 1.05rem; height: 1.05rem; flex: none; }
+@media (prefers-reduced-motion: reduce) { .to-top, .to-top.is-shown { transition: none; } }
+
+/* 글 끝: 공유하기와 다른 날 소식 */
+.share-row { padding-block: 3rem 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem 1rem; }
+.share-row .pill { min-height: 3rem; font: inherit; font-weight: 800; font-size: 1rem; cursor: pointer; }
+.share-msg { font-size: 0.9rem; font-weight: 700; }
+.post-nav { padding-block: 2.4rem 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; }
+.post-nav-link {
+  display: grid; align-content: start; gap: 0.35rem; min-height: 5.5rem; padding: 1rem 1.15rem;
+  border: 2px solid var(--ink); border-radius: 1.1rem; text-decoration: none; background: var(--paper);
+}
+.post-nav-link:hover { background: var(--ground); }
+.post-nav-link strong { font-size: 1rem; line-height: 1.45; letter-spacing: -0.02em; }
+.post-nav-link.next { grid-column: 2; text-align: right; }
+.post-nav-link .bracket { color: var(--grey); }
+@media (max-width: 560px) {
+  .post-nav { grid-template-columns: minmax(0, 1fr); }
+  .post-nav-link.next { grid-column: 1; }
+}
+
+/* 출처: 손가락으로 누르기 쉬운 크기(높이 44px 가까이) */
+.source { font-size: 0.85rem; line-height: 1.5; }
+.source a { display: inline-block; padding-block: 0.6rem; text-underline-offset: 0.2em; }
+
+/* 그림이 없을 때: 빈 회색 칸 대신 소식 색의 지면 */
+.story-art:not(:has(img)) { aspect-ratio: 4 / 3; background: var(--accent, var(--ground)); }
+.story-art:not(:has(img))::after, .no-art::after {
+  content: ""; position: absolute; inset: 0; margin: auto; width: 22%; aspect-ratio: 1;
+  border-radius: 50%; background: var(--paper); border: 3px solid var(--ink);
+}
+.no-art { aspect-ratio: 4 / 3; }
+.hero-tile.no-art { aspect-ratio: 1 / 1; }
+.no-art.c-blue { background: var(--blue); }
+.no-art.c-yellow { background: var(--yellow); }
+.no-art.c-pink { background: var(--pink); }
+.no-art.c-green { background: var(--green); }
+.no-art.c-red { background: var(--red); }
+
+/* 좁은 화면에서 아래로 읽는 중에는 로고 줄을 위로 밀어 올리고 메뉴 줄만 남겨요. 위로 올리면 다시 보여요.
+   높이는 그대로 두고 위치만 옮겨서, 글이 덜컥 움직이지 않아요. */
+@media (max-width: 860px) {
+  .nav { transition: top 200ms ease; }
+  .nav.is-compact { top: calc(-1 * var(--nav-hide, 0px)); }
+}
+@media (prefers-reduced-motion: reduce) { .nav { transition: none; } }

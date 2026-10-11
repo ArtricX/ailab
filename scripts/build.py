@@ -40,7 +40,7 @@ def check(posts):
         if len(p["stories"]) != 3:
             raise SystemExit(f"{p['date']}: 소식은 3개여야 해요")
         for s in p["stories"]:
-            if not s["illust"].startswith("https://") and not (ROOT / s["illust"]).exists():
+            if s["illust"] and not s["illust"].startswith("https://") and not (ROOT / s["illust"]).exists():
                 raise SystemExit(f"일러스트 파일이 없어요: {s['illust']}")
             if s["color"] not in COLORS:
                 raise SystemExit(f"색 이름이 잘못됐어요: {s['color']}")
@@ -50,13 +50,37 @@ def thumb(s):
     return s.get("thumb") or s["illust"]
 
 
+SITE = "https://artricx.github.io/ailab/"
+
+
+def art_open(s, tag, cls, attrs="", lazy=False):
+    """그림 칸 여는 태그와 그림. 그림이 없는 날(생성 실패 등)은 빈 회색 대신 소식 색 지면을 둡니다."""
+    if thumb(s):
+        load = ' loading="lazy"' if lazy else ""
+        return f'<{tag} class="{cls}"{attrs}><img src="{esc(thumb(s))}" alt=""{load}>'
+    return f'<{tag} class="{cls} no-art c-{esc(s["color"])}"{attrs}>'
+
+
+def og_meta(posts):
+    """카톡·문자 공유 미리보기 그림: 가장 최근에 만들어진 assets/og/날짜.jpg를 홈에도 씁니다."""
+    for p in posts:
+        if (ROOT / "assets" / "og" / f"{p['date']}.jpg").exists():
+            return (
+                f'<meta property="og:image" content="{SITE}assets/og/{p["date"]}.jpg">\n'
+                '<meta property="og:image:width" content="1200">\n'
+                '<meta property="og:image:height" content="630">\n'
+                '<meta name="twitter:card" content="summary_large_image">'
+            )
+    return ""
+
+
 def feature(p, s, lead=False):
     d = dt.date.fromisoformat(p["date"])
     cls = "feature lead" if lead else "feature"
     dek = f'\n          <p class="feature-dek">{ph(s["dek"])}</p>' if lead else ""
     return (
         f'        <a class="{cls}" href="posts/{p["date"]}.html#{esc(s["anchor"])}">\n'
-        f'          <div class="feature-art"><img src="{esc(thumb(s))}" alt="" loading="lazy">'
+        f'          {art_open(s, "div", "feature-art", lazy=True)}'
         f'<span class="side-label">{d.month:02d}.{d.day:02d} {esc(s["tag"])}</span></div>\n'
         f'          <span class="feature-tag">{esc(s["tag"])}</span>\n'
         f'          <h3>{ph(s["title"])}</h3>{dek}\n'
@@ -106,8 +130,9 @@ def main():
         .replace("{{WEEKDAY}}", WEEKDAYS[d.weekday()])
         .replace("{{HREF}}", href)
         .replace("{{SUMMARY}}", ph(today["summary"]))
-        .replace("{{A0}}", esc(st[0]["anchor"])).replace("{{I0}}", esc(thumb(st[0])))
-        .replace("{{A1}}", esc(st[1]["anchor"])).replace("{{I1}}", esc(thumb(st[1])))
+        .replace("{{HERO_TILES}}", "\n".join(
+            "      " + art_open(s, "a", "hero-tile", f' href="{href}#{esc(s["anchor"])}"') + "</a>" for s in st[:2]))
+        .replace("{{OG_META}}", og_meta(posts))
         .replace("{{FEATURES}}", features)
         .replace("{{TICKETS}}", tickets)
         .replace("{{ARCHIVE}}", archive)
