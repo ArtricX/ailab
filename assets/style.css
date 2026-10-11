@@ -375,23 +375,29 @@ html { scroll-padding-top: 5.5rem; }
 .nav-links a { padding-block: 0.5rem; }
 .nav-links a[aria-current="true"] { font-weight: 800; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.35em; }
 
-/* 좁은 화면: 숨기지 않고, 글자 메뉴를 한 줄로(옆으로 밀어서 더 보기) */
+/* 글자 크게: 메뉴와 헷갈리지 않게 테두리 없는 회색 버튼 */
+.text-toggle { border: 0; background: var(--ground); font-size: 0.82rem; min-height: 2.5rem; padding-inline: 0.95rem; flex: none; }
+.text-toggle:hover { background: var(--rule); }
+.text-toggle[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+
+/* 좁은 화면: 로고 · 글자 메뉴 · 글자 크게를 한 줄에. 메뉴가 넘치면 옆으로 밀어 보고, 오른쪽 끝이 흐려져 더 있다는 걸 알려요 */
 @media (max-width: 860px) {
-  .nav { flex-wrap: wrap; column-gap: 1rem; row-gap: 0.55rem; padding-block: 0.55rem 0.65rem; }
+  .nav { flex-wrap: nowrap; column-gap: 0.9rem; padding-block: 0.45rem; }
+  .logo { font-size: 0.95rem; flex: none; }
   .nav-links {
-    display: flex; order: 3; flex: 1 0 100%; margin-left: 0; gap: 0.5rem;
+    display: flex; flex: 1 1 auto; min-width: 0; margin-left: 0; gap: 1.05rem;
     overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
-    margin-inline: calc(-1 * clamp(16px, 4vw, 56px)); padding-inline: clamp(16px, 4vw, 56px);
   }
+  .nav-links.is-more { -webkit-mask-image: linear-gradient(90deg, #000 80%, transparent); mask-image: linear-gradient(90deg, #000 80%, transparent); }
+  .nav-links.is-less { -webkit-mask-image: linear-gradient(90deg, transparent, #000 20%); mask-image: linear-gradient(90deg, transparent, #000 20%); }
+  .nav-links.is-more.is-less { -webkit-mask-image: linear-gradient(90deg, transparent, #000 18%, #000 82%, transparent); mask-image: linear-gradient(90deg, transparent, #000 18%, #000 82%, transparent); }
   .nav-links::-webkit-scrollbar { display: none; }
   .nav-links a {
-    flex: none; display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 1.05rem;
-    border: 2px solid var(--ink); border-radius: 999px; background: var(--paper);
-    font-size: 0.9rem; font-weight: 700; white-space: nowrap;
+    flex: none; display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0;
+    font-size: 0.92rem; font-weight: 700; color: var(--grey); white-space: nowrap; text-decoration: none;
   }
-  .nav-links a:hover { text-decoration: none; }
-  .nav-links a[aria-current="true"] { background: var(--ink); color: var(--paper); text-decoration: none; }
-  html { scroll-padding-top: 8.5rem; }
+  .nav-links a[aria-current="true"] { color: var(--ink); text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 0.45em; }
+  html { scroll-padding-top: 4.8rem; }
 }
 
 /* 맨 위로: 한 화면쯤 내려가면 오른쪽 아래에 나타나요. 화살표만이 아니라 글자로도 알려 줘요 */
@@ -445,11 +451,3 @@ html { scroll-padding-top: 5.5rem; }
 .no-art.c-pink { background: var(--pink); }
 .no-art.c-green { background: var(--green); }
 .no-art.c-red { background: var(--red); }
-
-/* 좁은 화면에서 아래로 읽는 중에는 로고 줄을 위로 밀어 올리고 메뉴 줄만 남겨요. 위로 올리면 다시 보여요.
-   높이는 그대로 두고 위치만 옮겨서, 글이 덜컥 움직이지 않아요. */
-@media (max-width: 860px) {
-  .nav { transition: top 200ms ease; }
-  .nav.is-compact { top: calc(-1 * var(--nav-hide, 0px)); }
-}
-@media (prefers-reduced-motion: reduce) { .nav { transition: none; } }
