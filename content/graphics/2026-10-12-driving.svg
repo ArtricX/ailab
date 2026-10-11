@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">테슬라 운전 보조 기능의 바뀐 이름과 차와 사람이 하는 일</title>
+            <desc id="g2d">새 이름의 핵심은 '보조'로, 운전은 사람이 하고 차는 돕는다는 뜻이다. 유럽에서 예전 이름 '완전 자율 주행(감독형)'이 '테슬라 보조 주행'으로 바뀌었다. 독일 정부와 이야기한 뒤 바꾼 이름이다. 차는 운전을 돕기만 하고, 사람은 늘 앞을 보고 있다가 필요하면 바로 운전을 넘겨받아야 한다. 유럽 전체의 허가 여부는 연말쯤 정해질 수 있다. 차 혼자서는 운전하지 못한다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">보조</text>
+            <text x="34" y="170" font-size="16" font-weight="800">새 이름의 핵심 낱말이에요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">운전은 사람이 하고, 차는 돕는다는 뜻</text>
+
+            <rect class="f-paper" x="34" y="226" width="320" height="70" rx="16"/>
+            <text class="grey" x="54" y="254" font-size="12.5">예전 이름</text>
+            <text class="grey" x="54" y="280" font-size="16" font-weight="800">완전 자율 주행(감독형)</text>
+            <line class="line" x1="194" y1="302" x2="194" y2="318" stroke-width="3"/>
+            <path class="f-ink" d="M194 328 l-8 -13 h16z"/>
+            <rect class="f-yellow" x="34" y="334" width="320" height="70" rx="16"/>
+            <text x="54" y="362" font-size="12.5" font-weight="700">유럽의 새 이름</text>
+            <text x="54" y="388" font-size="18" font-weight="900">테슬라 보조 주행</text>
+            <text class="grey" x="34" y="442" font-size="12">독일 정부와 이야기한 뒤 바꿨어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">차가 하는 일</text>
+            <rect class="f-paper" x="440" y="72" width="320" height="64" rx="16"/>
+            <text x="600" y="110" font-size="16" font-weight="900" text-anchor="middle">운전을 도와줘요</text>
+
+            <text x="440" y="176" font-size="15" font-weight="800">사람이 할 일</text>
+            <rect class="f-yellow" x="440" y="192" width="320" height="84" rx="16"/>
+            <text x="600" y="228" font-size="17" font-weight="900" text-anchor="middle">늘 앞을 보고 있다가</text>
+            <text x="600" y="256" font-size="14" text-anchor="middle">필요하면 바로 운전을 넘겨받기</text>
+
+            <rect class="f-paper" x="440" y="294" width="320" height="84" rx="16"/>
+            <text x="600" y="330" font-size="17" font-weight="900" text-anchor="middle">유럽 전체 허가</text>
+            <text class="grey" x="600" y="358" font-size="13.5" text-anchor="middle">연말쯤 정해질 수 있어요</text>
+            <text class="red" x="600" y="420" font-size="14" font-weight="800" text-anchor="middle">차 혼자서는 운전하지 못해요</text>
+          </svg>

@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-12",
+      "title": "답만 받으면 줄어드는 끈기, 이름을 바꾼 운전 보조 AI, 사람이 만든 노래의 값",
+      "file": "content/2026-10-12.json",
+      "stories": [
+        {
+          "anchor": "persist",
+          "tag": "학교",
+          "color": "blue",
+          "title": "AI에게 답만 받으면 끈기가 줄어요"
+        },
+        {
+          "anchor": "driving",
+          "tag": "안전",
+          "color": "yellow",
+          "title": "테슬라가 '완전 자율 주행' 이름을 뺐어요"
+        },
+        {
+          "anchor": "music",
+          "tag": "창작",
+          "color": "pink",
+          "title": "새 노래 10곡 중 4곡은 AI가 만들어요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-11",
       "title": "전화를 대신 거는 우리 AI, 쉬는 시간을 알려 주는 공부 AI, 진료 전에 이야기를 듣는 AI",
       "file": "content/2026-10-11.json",

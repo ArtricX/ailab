@@ -1,0 +1,374 @@
+{
+  "schema": 1,
+  "date": "2026-10-12",
+  "weekday": "월",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-12.html",
+  "minutes": 5,
+  "title": {
+    "text": "답만 받으면 줄어드는 끈기, 이름을 바꾼 운전 보조 AI, 사람이 만든 노래의 값",
+    "phrases": [
+      "답만 받으면",
+      "줄어드는 끈기,",
+      "이름을 바꾼",
+      "운전 보조 AI,",
+      "사람이 만든",
+      "노래의 값"
+    ]
+  },
+  "share": {
+    "title": "AI에게 답만 받으면 끈기가 줄어요 외 2건 · AILAB 10월 12일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 12일 월요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-12.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "persist",
+      "tag": "학교",
+      "color": "blue",
+      "label": "답만 받으면 줄어드는 끈기"
+    },
+    {
+      "anchor": "driving",
+      "tag": "안전",
+      "color": "yellow",
+      "label": "'완전 자율 주행' 이름 뺀 테슬라"
+    },
+    {
+      "anchor": "music",
+      "tag": "창작",
+      "color": "pink",
+      "label": "새 노래 10곡 중 4곡은 AI"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "persist",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-12.html#persist",
+      "tag": "학교",
+      "color": "blue",
+      "title": {
+        "text": "AI에게 답만 받으면 끈기가 줄어요",
+        "phrases": [
+          "AI에게",
+          "답만 받으면",
+          "끈기가 줄어요"
+        ]
+      },
+      "dek": {
+        "text": "AI를 10분쯤 쓰다 끊었더니 어려운 문제를 더 쉽게 포기했어요.",
+        "phrases": [
+          "AI를 10분쯤 쓰다",
+          "끊었더니",
+          "어려운 문제를",
+          "더 쉽게 포기했어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261011_213438_fa535928-09c1-4c26-a8fc-f396bb1ccaa8.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261011_213438_fa535928-09c1-4c26-a8fc-f396bb1ccaa8.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 학생이 작은 책상에서 문제지를 풀다가 작은 흰 깃발을 슬며시 들고 있고, 도와주던 작은 흰 로봇은 커다란 정답 카드를 등에 지고 살금살금 떠나는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-12-persist.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-12-persist.svg",
+        "viewBox": "0 0 800 470",
+        "title": "AI를 치운 뒤 혼자 문제를 맞힌 비율과 쓰는 방법에 따라 건너뛴 문제 비율",
+        "desc": "사람들은 약 10분 동안 AI의 도움을 받다가, AI를 치운 뒤 혼자 문제를 풀었다. 첫 번째 실험(354명)의 분수 문제에서 처음부터 혼자 푼 사람은 73%를 맞혔고, AI를 쓰다가 멈춘 사람은 57%를 맞혔다. 두 번째 실험에서 건너뛴 문제 비율은 AI에게 답을 그대로 받은 사람이 13%, 힌트만 받은 사람이 5%, AI 없이 푼 사람이 7%였다. 세 번의 실험에 모두 1,222명이 참여했다.",
+        "caption": {
+          "text": "답을 받는 쪽과 힌트를 받는 쪽은 스스로 고른 거라 더 연구가 필요해요.",
+          "phrases": [
+            "답을 받는 쪽과",
+            "힌트를 받는 쪽은",
+            "스스로 고른 거라",
+            "더 연구가 필요해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국 UC 버클리 등 다섯 대학 연구팀이 10월 9일 실험 결과를 알렸어요. 모두 1,222명이 분수 문제와 읽기 문제를 풀었어요. 한쪽은 챗GPT를 쓸 수 있었고, 12번째 문제가 끝나자 AI를 치웠어요. 그러자 AI를 쓰던 사람들은 더 많이 틀리고, 더 많이 건너뛰었어요.",
+            "nobreak": [
+              "10월 9일",
+              "1,222명",
+              "12번째 문제"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "답을 바로 받으면 끙끙 고민하는 시간이 아깝게 느껴져요. 연구팀은 이렇게 애쓰는 시간이 실력을 키운다고 봐요. 특히 AI에게 답을 그대로 받아 쓴 사람이 쉽게 포기했어요. 힌트나 설명만 받은 사람은 그렇지 않았어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "AI로 공부할 때는 \"답 말고 힌트만 줘\"라고 말해 보세요. 숙제는 먼저 혼자 풀어 보고, 막힐 때 물어보는 순서가 좋아요. 일할 때도 마찬가지예요. 다만 짧은 실험이라, 오래 쓰면 어떻게 되는지는 아직 몰라요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "유레카얼럿",
+          "date": "10월 9일",
+          "url": "https://www.eurekalert.org/news-releases/1147258"
+        },
+        {
+          "name": "연구 논문",
+          "date": "arXiv",
+          "url": "https://arxiv.org/html/2604.04721v2"
+        },
+        {
+          "name": "AI Weekly",
+          "date": "10월 10일",
+          "url": "https://aiweekly.co/alerts/berkeley-study-10-minutes-of-ai-use-erodes-persistence"
+        }
+      ]
+    },
+    {
+      "anchor": "driving",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-12.html#driving",
+      "tag": "안전",
+      "color": "yellow",
+      "title": {
+        "text": "테슬라가 '완전 자율 주행' 이름을 뺐어요",
+        "phrases": [
+          "테슬라가",
+          "'완전 자율 주행'",
+          "이름을 뺐어요"
+        ]
+      },
+      "dek": {
+        "text": "유럽에서는 '테슬라 보조 주행'으로 부르기로 했어요.",
+        "phrases": [
+          "유럽에서는",
+          "'테슬라 보조 주행'으로",
+          "부르기로 했어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261011_213439_a6e6361a-795b-4f92-98f3-7dc71890b8cd.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261011_213439_a6e6361a-795b-4f92-98f3-7dc71890b8cd.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 작고 둥근 자동차 운전석에서 두 손으로 운전대를 꼭 잡고 앞을 보고 있고, 계기판 위에 앉은 작은 흰 로봇이 앞쪽 길을 손으로 가리키며 돕는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-12-driving.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-12-driving.svg",
+        "viewBox": "0 0 800 460",
+        "title": "테슬라 운전 보조 기능의 바뀐 이름과 차와 사람이 하는 일",
+        "desc": "새 이름의 핵심은 '보조'로, 운전은 사람이 하고 차는 돕는다는 뜻이다. 유럽에서 예전 이름 '완전 자율 주행(감독형)'이 '테슬라 보조 주행'으로 바뀌었다. 독일 정부와 이야기한 뒤 바꾼 이름이다. 차는 운전을 돕기만 하고, 사람은 늘 앞을 보고 있다가 필요하면 바로 운전을 넘겨받아야 한다. 유럽 전체의 허가 여부는 연말쯤 정해질 수 있다. 차 혼자서는 운전하지 못한다.",
+        "caption": {
+          "text": "이름만 바뀌었고 기능이 달라진 건 아니에요.",
+          "phrases": [
+            "이름만 바뀌었고",
+            "기능이 달라진 건",
+            "아니에요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "테슬라가 유럽에서 운전을 돕는 AI 기능의 이름을 바꿨어요. 원래 이름은 '완전 자율 주행(감독형)'이었어요. 새 이름은 '테슬라 보조 주행'이에요. 10월 9일 해외 언론이 이 소식을 전했어요.",
+            "nobreak": [
+              "'완전 자율 주행(감독형)'",
+              "'테슬라 보조 주행'",
+              "10월 9일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "독일 교통부 장관은 옛 이름이 오해를 부를 수 있다고 했어요. 이 기능은 차가 혼자 운전하는 게 아니기 때문이에요. 운전자는 늘 앞을 보다가 필요하면 바로 운전을 넘겨받아야 해요. 테슬라는 독일과 이야기한 뒤 새 이름을 내놓았어요. 유럽 전체의 허가 여부는 연말쯤 정해질 수 있어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "요즘 차에는 차선을 지켜 주거나 앞차를 따라가는 기능이 많아요. 이름이 멋져도 대부분은 운전을 '돕는' 기능이에요. 이런 기능을 켰더라도 운전대에서 손을 떼거나 휴대폰을 보면 안 돼요. 내 차 기능이 무엇을 하고 못 하는지, 설명서를 한 번 읽어 보세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "테크크런치",
+          "date": "10월 9일",
+          "url": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/"
+        },
+        {
+          "name": "디지털데일리",
+          "date": "10월 10일",
+          "url": "https://www.ddaily.co.kr/page/view/2026101005353586626"
+        },
+        {
+          "name": "gHacks",
+          "date": "10월 11일",
+          "url": "https://www.ghacks.net/2026/10/11/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe-after-german-regulator-talks/"
+        },
+        {
+          "name": "SBS Biz",
+          "date": "10월 12일",
+          "url": "https://biz.sbs.co.kr/article/20000339217"
+        }
+      ]
+    },
+    {
+      "anchor": "music",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-12.html#music",
+      "tag": "창작",
+      "color": "pink",
+      "title": {
+        "text": "새 노래 10곡 중 4곡은 AI가 만들어요",
+        "phrases": [
+          "새 노래",
+          "10곡 중 4곡은",
+          "AI가 만들어요"
+        ]
+      },
+      "dek": {
+        "text": "그래도 사람들은 사람이 만든 음악인지 알고 싶어 해요.",
+        "phrases": [
+          "그래도 사람들은",
+          "사람이 만든 음악인지",
+          "알고 싶어 해요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261011_213438_adb87483-6d6d-4b52-a049-9ff6b78b45d2.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261011_213438_adb87483-6d6d-4b52-a049-9ff6b78b45d2.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 흰 로봇 옆에 똑같은 음반이 아슬아슬하게 높이 쌓여 있고, 큰 헤드폰을 쓴 동그란 사람이 손자국이 찍힌 손으로 그린 음반 한 장을 소중하게 들어 보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-12-music.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-12-music.svg",
+        "viewBox": "0 0 800 460",
+        "title": "음악 앱 디저에 올라오는 AI 노래 비율과 듣는 사람들의 생각",
+        "desc": "음악 앱 디저에 새로 올라오는 노래 가운데 44%가 AI 곡으로, 하루 약 7만 5천 곡이다. 하지만 실제로 재생되는 노래 가운데 AI 곡은 1~3%에 그친다. 디저가 맡긴 조사에서 97%는 AI 노래와 사람 노래를 구별하지 못했고, 80%는 AI 노래에 표시를 해야 한다고 답했으며, 절반 넘게는 AI가 만들었는지 신경 쓴다고 했다.",
+        "caption": {
+          "text": "많이 올라와도 실제로 듣는 노래는 대부분 사람이 만든 곡이에요.",
+          "phrases": [
+            "많이 올라와도",
+            "실제로 듣는 노래는",
+            "대부분 사람이 만든 곡이에요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "영국 BBC가 10월 11일 AI 때문에 사람이 만든 작품의 값이 오르고 있다는 기사를 냈어요. 프랑스 음악 앱 '디저'에는 새 노래 10곡 중 4곡꼴로 AI 곡이 올라와요. 하루에 약 7만 5천 곡이에요.",
+            "nobreak": [
+              "10월 11일",
+              "'디저'",
+              "10곡 중 4곡",
+              "약 7만 5천 곡"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI를 쓰면 누구나 쉽고 빠르게 노래를 만들 수 있어요. 디저 조사에서는 100명 중 97명이 AI 노래와 사람 노래를 구별하지 못했어요. 그래서 책, 영화, 음반에 'AI 없이 만들었다'는 표시가 생기고 있어요. 공정무역 표시처럼 '사람이 만든' 표시를 만들자는 학자들도 있어요.",
+            "nobreak": [
+              "100명 중 97명"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "AI 노래가 많이 올라와도, 실제로 듣는 노래 가운데 AI 곡은 1~3%뿐이에요. 조사에 답한 사람 10명 중 8명은 AI 노래에 표시를 해야 한다고 했어요. 음반이나 책을 고를 때 'AI 없이 만들었다'는 표시도 눈여겨보세요.",
+            "nobreak": [
+              "1~3%",
+              "10명 중 8명"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "BBC",
+          "date": "야후 게재, 10월 11일",
+          "url": "https://www.yahoo.com/lifestyle/articles/ai-creating-human-premium-art-231823334.html"
+        },
+        {
+          "name": "AI Weekly",
+          "date": "10월 11일",
+          "url": "https://aiweekly.co/alerts/deezer-44-of-uploads-are-ai-fueling-human-premium-push"
+        },
+        {
+          "name": "테크크런치",
+          "date": "4월 20일",
+          "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/"
+        },
+        {
+          "name": "디크립트",
+          "date": "",
+          "url": "https://decrypt.co/364937/nearly-half-streaming-music-ai-generated-deezer-nobodys-listening"
+        }
+      ]
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "끈기",
+      "meaning": {
+        "text": "어려워도 쉽게 그만두지 않고 계속하는 힘",
+        "phrases": [
+          "어려워도",
+          "쉽게 그만두지 않고",
+          "계속하는 힘"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "자율 주행",
+      "meaning": {
+        "text": "사람 대신 차가 스스로 운전하는 것",
+        "phrases": [
+          "사람 대신",
+          "차가 스스로",
+          "운전하는 것"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "운전 보조",
+      "meaning": {
+        "text": "운전은 사람이 하고 차가 일부를 돕는 기능",
+        "phrases": [
+          "운전은 사람이 하고",
+          "차가 일부를",
+          "돕는 기능"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "공정무역 표시",
+      "meaning": {
+        "text": "만든 사람에게 정당한 값을 치른 물건에 붙이는 표시",
+        "phrases": [
+          "만든 사람에게",
+          "정당한 값을 치른",
+          "물건에 붙이는 표시"
+        ]
+      },
+      "color": "pink"
+    }
+  ]
+}
