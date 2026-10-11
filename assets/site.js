@@ -9,7 +9,7 @@
     function sync() {
       var on = root.classList.contains("large-text");
       btn.setAttribute("aria-pressed", on ? "true" : "false");
-      btn.textContent = on ? "글자 보통으로" : "글자 크게";
+      btn.textContent = on ? "글자 작게" : "글자 크게";
     }
     sync();
     btn.addEventListener("click", function () {
@@ -103,7 +103,8 @@ function ailabEvent(name) {
       if (!a) return;
       a.setAttribute("aria-current", "true");
       if (bar.scrollWidth > bar.clientWidth) {
-        var left = a.offsetLeft - (bar.clientWidth - a.offsetWidth) / 2;
+        var ar = a.getBoundingClientRect(), br = bar.getBoundingClientRect();
+        var left = bar.scrollLeft + (ar.left - br.left) - (bar.clientWidth - ar.width) / 2;
         bar.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
       }
     }
@@ -222,25 +223,18 @@ function ailabEvent(name) {
   });
 })();
 
-// 좁은 화면: 아래로 읽을 때는 로고 줄을 숨기고 메뉴 줄만 남겨요. 위로 조금만 올려도 다시 나타나요.
+// 메뉴가 화면보다 길면 오른쪽 끝을 흐리게 해서 옆으로 더 있다는 걸 알려요. 끝까지 밀면 흐림을 없애요.
 (function () {
   document.addEventListener("DOMContentLoaded", function () {
-    var nav = document.querySelector(".nav");
-    var bar = nav && nav.querySelector(".nav-links");
+    var bar = document.querySelector(".nav-links");
     if (!bar) return;
-    var mq = window.matchMedia("(max-width: 860px)");
-    var lastY = window.scrollY, compact = false;
-    function measure() { nav.style.setProperty("--nav-hide", Math.max(0, bar.offsetTop - 6) + "px"); }
-    function set(on) { if (on !== compact) { compact = on; nav.classList.toggle("is-compact", on); } }
-    window.addEventListener("scroll", function () {
-      var y = window.scrollY;
-      if (!mq.matches || y < nav.offsetHeight * 2) set(false);
-      else if (y > lastY + 6) set(true);
-      else if (y < lastY - 6) set(false);
-      lastY = y;
-    }, { passive: true });
-    measure();
-    window.addEventListener("resize", measure);
-    document.addEventListener("click", function (e) { if (e.target.closest && e.target.closest(".text-toggle")) setTimeout(measure, 50); });
+    function update() {
+      bar.classList.toggle("is-more", bar.scrollLeft + bar.clientWidth < bar.scrollWidth - 4);
+      bar.classList.toggle("is-less", bar.scrollLeft > 4);
+    }
+    bar.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    document.addEventListener("click", function (e) { if (e.target.closest && e.target.closest(".text-toggle")) setTimeout(update, 50); });
+    update();
   });
 })();
