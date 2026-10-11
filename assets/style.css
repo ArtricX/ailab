@@ -466,12 +466,13 @@ html { scroll-padding-top: 5.5rem; }
   .wordmark-type { font-size: calc(min(100vw, var(--page)) * 0.3); }
   .ticker-track { font-size: 2.8rem; }
   .post-hero h1 { font-size: 5.2rem; max-width: 26ch; }
-  /* 그림은 지면이 넓어져도 1440px 화면 때와 비슷한 크기로 둡니다 */
-  .hero { grid-template-columns: 20rem 20rem minmax(0, 1fr); gap: 1.2rem; }
-  .features { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 84rem; }
+  /* 그림은 지면이 넓어져도 크게 늘어나지 않게, 1440px 화면 때보다 조금 작게 둡니다 */
+  .hero { grid-template-columns: 17rem 17rem minmax(0, 1fr); gap: 1.2rem; }
+  .features { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 72rem; }
   .feature-stack { display: contents; }
   .feature.lead h3 { font-size: 1.9rem; }
-  .story-top { grid-template-columns: minmax(0, 34rem) minmax(0, 1fr); gap: 3rem; }
+  .story-top { grid-template-columns: minmax(0, 29rem) minmax(0, 1fr); gap: 3rem; }
+  .archive { grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); }
   .story-head .dek { max-width: 34rem; }
   .qa { max-width: none; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.6rem 2.6rem; }
   .qa .source { grid-column: 1 / -1; }
