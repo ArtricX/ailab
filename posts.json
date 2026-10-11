@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-12",
+    "title": "답만 받으면|줄어드는 끈기,|이름을 바꾼|운전 보조 AI,|사람이 만든|노래의 값",
+    "summary": "AI에게 답만 받아 쓰면|어려운 문제를|더 쉽게 포기한다는|연구가 나왔어요.|테슬라는 유럽에서|'완전 자율 주행'|이름을 뺐고,|새 노래 10곡 중 4곡은|AI가 만들어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "학교",
+        "color": "blue",
+        "anchor": "persist",
+        "title": "AI에게|답만 받으면|끈기가 줄어요",
+        "dek": "AI를 10분쯤 쓰다|끊었더니|어려운 문제를|더 쉽게 포기했어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213438_fa535928-09c1-4c26-a8fc-f396bb1ccaa8.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213438_fa535928-09c1-4c26-a8fc-f396bb1ccaa8_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "yellow",
+        "anchor": "driving",
+        "title": "테슬라가|'완전 자율 주행'|이름을 뺐어요",
+        "dek": "유럽에서는|'테슬라 보조 주행'으로|부르기로 했어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213439_a6e6361a-795b-4f92-98f3-7dc71890b8cd.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213439_a6e6361a-795b-4f92-98f3-7dc71890b8cd_min.webp"
+      },
+      {
+        "tag": "창작",
+        "color": "pink",
+        "anchor": "music",
+        "title": "새 노래|10곡 중 4곡은|AI가 만들어요",
+        "dek": "그래도 사람들은|사람이 만든 음악인지|알고 싶어 해요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213438_adb87483-6d6d-4b52-a049-9ff6b78b45d2.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261011_213438_adb87483-6d6d-4b52-a049-9ff6b78b45d2_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "끈기",
+        "meaning": "어려워도|쉽게 그만두지 않고|계속하는 힘"
+      },
+      {
+        "word": "자율 주행",
+        "meaning": "사람 대신|차가 스스로|운전하는 것"
+      },
+      {
+        "word": "운전 보조",
+        "meaning": "운전은 사람이 하고|차가 일부를|돕는 기능"
+      },
+      {
+        "word": "공정무역 표시",
+        "meaning": "만든 사람에게|정당한 값을 치른|물건에 붙이는 표시"
+      }
+    ]
+  },
+  {
     "date": "2026-10-11",
     "title": "전화를 대신 거는|우리 AI,|쉬는 시간을|알려 주는|공부 AI,|진료 전에|이야기를 듣는 AI",
     "summary": "SK텔레콤, 카카오, KT가|무료 '모두의 AI'를|이달부터 시험하고,|청소년용 챗GPT에는|공부 도구가 늘었어요.|구글 AI가 진료 전에|환자 이야기를 먼저 들은|연구도 나왔어요.",
