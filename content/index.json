@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-13",
+      "title": "폰 없이 길 찾는 안경, 가벼워진 무료 제미나이, 세탁기보다 느슨한 AI 규칙",
+      "file": "content/2026-10-13.json",
+      "stories": [
+        {
+          "anchor": "glasses",
+          "tag": "생활",
+          "color": "green",
+          "title": "네이버지도가 AI 안경으로 길을 알려 줘요"
+        },
+        {
+          "anchor": "gemini",
+          "tag": "돈",
+          "color": "blue",
+          "title": "무료 제미나이는 가장 가벼운 AI만 쓸 수 있어요"
+        },
+        {
+          "anchor": "rules",
+          "tag": "안전",
+          "color": "yellow",
+          "title": "AI는 세탁기보다 안전 규칙이 적대요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-12",
       "title": "답만 받으면 줄어드는 끈기, 이름을 바꾼 운전 보조 AI, 사람이 만든 노래의 값",
       "file": "content/2026-10-12.json",

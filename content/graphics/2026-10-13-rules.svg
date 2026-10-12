@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">브래드 스미스 사장이 견준 물건들과 AI 안전을 위한 세 가지 제안</title>
+            <desc id="g3d">마이크로소프트의 브래드 스미스 사장은 세탁기와 우유에는 지켜야 할 안전 규칙과 검사가 있지만 AI는 그보다 규칙이 적다고 말했다. 그는 세 가지를 제안했다. 첫째, AI를 내놓기 전에 바깥 전문가에게 검사받기. 둘째, AI 때문에 사고가 나면 피해를 본 곳에 알리기. 셋째, AI가 말을 듣지 않으면 멈추거나 늦출 수 있는 비상 브레이크를 달기.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">3가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">AI를 안전하게 만들 제안</text>
+            <text class="grey" x="34" y="194" font-size="13.5">마이크로소프트 브래드 스미스 사장</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">그가 견준 것</text>
+            <rect class="f-paper" x="34" y="258" width="320" height="52" rx="16"/>
+            <text x="54" y="290" font-size="15" font-weight="900">세탁기</text>
+            <text class="grey" x="334" y="290" font-size="13" text-anchor="end">안전 규칙이 있어요</text>
+            <rect class="f-paper" x="34" y="320" width="320" height="52" rx="16"/>
+            <text x="54" y="352" font-size="15" font-weight="900">우유</text>
+            <text class="grey" x="334" y="352" font-size="13" text-anchor="end">규칙과 검사가 있어요</text>
+            <rect class="f-yellow" x="34" y="382" width="320" height="52" rx="16"/>
+            <text x="54" y="414" font-size="15" font-weight="900">AI</text>
+            <text class="red" x="334" y="414" font-size="13" font-weight="800" text-anchor="end">그보다 규칙이 적어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">세 가지 제안</text>
+            <rect class="f-yellow" x="440" y="72" width="320" height="84" rx="16"/>
+            <text x="600" y="108" font-size="17" font-weight="900" text-anchor="middle">내놓기 전 검사</text>
+            <text class="grey" x="600" y="136" font-size="13.5" text-anchor="middle">바깥 전문가가 먼저 살펴보기</text>
+            <rect class="f-paper" x="440" y="166" width="320" height="84" rx="16"/>
+            <text x="600" y="202" font-size="17" font-weight="900" text-anchor="middle">사고가 나면 알리기</text>
+            <text class="grey" x="600" y="230" font-size="13.5" text-anchor="middle">피해를 본 곳에 꼭 알려 주기</text>
+            <rect class="f-paper" x="440" y="260" width="320" height="84" rx="16"/>
+            <text x="600" y="296" font-size="17" font-weight="900" text-anchor="middle">비상 브레이크</text>
+            <text class="grey" x="600" y="324" font-size="13.5" text-anchor="middle">말을 안 들으면 멈추거나 늦추기</text>
+            <text class="grey" x="440" y="388" font-size="12">영국 BBC와의 인터뷰에서 한 말이에요</text>
+          </svg>
