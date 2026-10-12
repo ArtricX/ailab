@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">제미나이 요금제별로 쓸 수 있는 AI 모델</title>
+            <desc id="g2d">10월 9일부터 제미나이 앱의 무료 이용자는 세 가지 모델 가운데 가장 가벼운 플래시 라이트 하나만 쓸 수 있다. AI 플러스 요금제는 플래시 라이트와 플래시를 쓰고 프로는 빠진다. 바뀌는 날짜는 메일로 따로 알려 준다. AI 프로 요금제는 세 가지를 모두 쓴다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">1개</text>
+            <text x="34" y="170" font-size="16" font-weight="800">무료로 쓰는 모델, 3개 중에서</text>
+            <text class="grey" x="34" y="194" font-size="13.5">10월 9일부터 바뀌었어요</text>
+
+            <rect class="f-paper" x="34" y="232" width="320" height="168" rx="16"/>
+            <text x="194" y="276" font-size="15" font-weight="800" text-anchor="middle">제미나이의 세 모델</text>
+            <text class="grey" x="194" y="312" font-size="13.5" text-anchor="middle">플래시 라이트: 가장 가볍고 빨라요</text>
+            <text class="grey" x="194" y="340" font-size="13.5" text-anchor="middle">플래시: 그 중간이에요</text>
+            <text class="grey" x="194" y="368" font-size="13.5" text-anchor="middle">프로: 깊게 생각해요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">요금제마다 쓸 수 있는 모델</text>
+            <text class="grey" x="594" y="92" font-size="12" text-anchor="middle">라이트</text>
+            <text class="grey" x="658" y="92" font-size="12" text-anchor="middle">플래시</text>
+            <text class="grey" x="722" y="92" font-size="12" text-anchor="middle">프로</text>
+
+            <text x="440" y="146" font-size="15" font-weight="900">무료</text>
+            <circle class="f-blue" cx="594" cy="140" r="20"/>
+            <circle class="f-paper" cx="658" cy="140" r="20"/>
+            <circle class="f-paper" cx="722" cy="140" r="20"/>
+
+            <text x="440" y="226" font-size="15" font-weight="900">AI 플러스</text>
+            <circle class="f-blue" cx="594" cy="220" r="20"/>
+            <circle class="f-blue" cx="658" cy="220" r="20"/>
+            <circle class="f-paper" cx="722" cy="220" r="20"/>
+
+            <text x="440" y="306" font-size="15" font-weight="900">AI 프로</text>
+            <circle class="f-blue" cx="594" cy="300" r="20"/>
+            <circle class="f-blue" cx="658" cy="300" r="20"/>
+            <circle class="f-blue" cx="722" cy="300" r="20"/>
+
+            <text class="red" x="440" y="368" font-size="13.5" font-weight="800">무료는 가장 가벼운 모델 하나만 남았어요</text>
+            <text class="grey" x="440" y="396" font-size="12">AI 플러스가 바뀌는 날은 메일로 알려 줘요</text>
+            <text class="grey" x="440" y="440" font-size="12">채운 동그라미 = 쓸 수 있어요</text>
+          </svg>

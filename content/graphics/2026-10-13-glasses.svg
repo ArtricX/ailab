@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">네이버지도 AI 안경 길 안내가 들어가는 안경과 알려 주는 것</title>
+            <desc id="g1d">네이버지도는 구글, 삼성, 메타 세 회사와 손잡고 AI 안경에서 걷는 길을 안내한다. 메타의 안경에 먼저 들어가고, 구글과 삼성이 함께 만든 안경은 올해 안에 나온다. 안드로이드 휴대폰부터 되고 아이폰은 차례로 지원한다. 안경은 가는 방향, 계단이나 에스컬레이터가 있는지를 말로 알려 주고, 도착 예정 시간이나 가까운 편의점을 말로 물어볼 수 있다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">3곳</text>
+            <text x="34" y="170" font-size="16" font-weight="800">구글 · 삼성 · 메타와 손잡았어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">국내 지도 앱으로는 처음이에요</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">들어가는 순서</text>
+            <rect class="f-green" x="34" y="258" width="320" height="64" rx="16"/>
+            <text x="54" y="285" font-size="12.5" font-weight="700">먼저</text>
+            <text x="54" y="308" font-size="16" font-weight="900">메타의 AI 안경</text>
+            <line class="line" x1="194" y1="328" x2="194" y2="342" stroke-width="3"/>
+            <path class="f-ink" d="M194 352 l-8 -13 h16z"/>
+            <rect class="f-paper" x="34" y="358" width="320" height="64" rx="16"/>
+            <text class="grey" x="54" y="385" font-size="12.5">올해 안에</text>
+            <text x="54" y="408" font-size="16" font-weight="900">구글 · 삼성이 함께 만든 안경</text>
+            <text class="red" x="34" y="448" font-size="12.5" font-weight="800">안드로이드 폰부터, 아이폰은 나중에 돼요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">안경이 말로 알려 줘요</text>
+            <rect class="f-paper" x="440" y="72" width="320" height="64" rx="16"/>
+            <text x="600" y="110" font-size="16" font-weight="900" text-anchor="middle">어느 쪽으로 갈지</text>
+            <rect class="f-paper" x="440" y="146" width="320" height="64" rx="16"/>
+            <text x="600" y="184" font-size="16" font-weight="900" text-anchor="middle">계단 · 에스컬레이터가 있는지</text>
+
+            <text x="440" y="252" font-size="15" font-weight="800">이렇게 물어볼 수 있어요</text>
+            <rect class="f-green" x="440" y="268" width="320" height="64" rx="16"/>
+            <text x="600" y="306" font-size="16" font-weight="900" text-anchor="middle">"언제 도착해?"</text>
+            <rect class="f-green" x="440" y="342" width="320" height="64" rx="16"/>
+            <text x="600" y="380" font-size="16" font-weight="900" text-anchor="middle">"가까운 편의점 찾아 줘"</text>
+          </svg>
