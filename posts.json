@@ -11,8 +11,8 @@
         "anchor": "kanana",
         "title": "카카오톡에|말로 부르는|AI 비서가 와요",
         "dek": "두 손가락으로|화면을 쓸어내리면|나타나요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212607_9dfcff8e-e24b-45ce-b961-83735828e3b5.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212607_9dfcff8e-e24b-45ce-b961-83735828e3b5_min.webp"
+        "illust": "assets/img/hf_20261013_212607_9dfcff8e-e24b-45ce-b961-83735828e3b5.webp",
+        "thumb": "assets/img/hf_20261013_212607_9dfcff8e-e24b-45ce-b961-83735828e3b5_min.webp"
       },
       {
         "tag": "생활",
@@ -20,8 +20,8 @@
         "anchor": "feed",
         "title": "페이스북에|보고 싶은 것을|말로 알려요",
         "dek": "AI가 내 말을 읽고|추천 글을|바로 바꿔 줘요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212606_951e7a63-a75c-4e7d-b85a-4123de66234b.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212606_951e7a63-a75c-4e7d-b85a-4123de66234b_min.webp"
+        "illust": "assets/img/hf_20261013_212606_951e7a63-a75c-4e7d-b85a-4123de66234b.webp",
+        "thumb": "assets/img/hf_20261013_212606_951e7a63-a75c-4e7d-b85a-4123de66234b_min.webp"
       },
       {
         "tag": "안전",
@@ -29,8 +29,8 @@
         "anchor": "photo",
         "title": "집 안 사진 한 장으로|어느 집인지|찾는 AI가 나왔어요",
         "dek": "미국 경찰이|쓰기 시작했어요.|사진을 올릴 때|한 번 더 살펴보세요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212605_1816b255-7a7e-494e-9058-8f796e184f34.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212605_1816b255-7a7e-494e-9058-8f796e184f34_min.webp"
+        "illust": "assets/img/hf_20261013_212605_1816b255-7a7e-494e-9058-8f796e184f34.webp",
+        "thumb": "assets/img/hf_20261013_212605_1816b255-7a7e-494e-9058-8f796e184f34_min.webp"
       }
     ],
     "keywords": [
