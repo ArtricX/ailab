@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">집 안 사진 한 장으로 집을 찾는 AI 레이븐이 일하는 순서</title>
+            <desc id="g3d">미국 회사 그레이라크의 AI 레이븐은 집 안 사진 한 장으로 어느 집인지 찾는다. 사진 속 가구, 가전, 방 모양을 보고, 숙박 공유와 부동산 사이트에 올라온 집 사진과 견준 뒤, 어느 집인지 찾아낸다. 사진의 위치 정보는 쓰지 않는다. 회사 대표는 직접 시험해 보니 10번 가운데 9번 도시를 맞혔다고 말했다. 독립적으로 확인된 정확도는 아니다. 미국 로스앤젤레스 경찰과 마이애미데이드 보안관실 두 곳이 이 도구를 샀다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">1장</text>
+            <text x="34" y="170" font-size="16" font-weight="800">집 안 사진 한 장이면 찾아요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">세탁기와 건조기 사진으로도 찾았대요</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">AI가 찾는 순서</text>
+            <rect class="f-paper" x="34" y="258" width="320" height="48" rx="16"/>
+            <text x="54" y="288" font-size="15" font-weight="900">가구 · 가전 · 방 모양 보기</text>
+            <path class="f-ink" d="M194 322 l-8 -12 h16z"/>
+            <rect class="f-paper" x="34" y="326" width="320" height="48" rx="16"/>
+            <text x="54" y="356" font-size="15" font-weight="900">숙소 · 부동산 사이트 사진과 견주기</text>
+            <path class="f-ink" d="M194 390 l-8 -12 h16z"/>
+            <rect class="f-blue" x="34" y="394" width="320" height="48" rx="16"/>
+            <text class="white" x="54" y="424" font-size="15" font-weight="900">어느 집인지 찾기</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">도시를 맞힌 횟수</text>
+            <text class="grey" x="440" y="80" font-size="12.5">회사 대표가 직접 시험해 본 결과예요</text>
+            <circle class="f-blue" cx="460" cy="122" r="20"/>
+            <circle class="f-blue" cx="510" cy="122" r="20"/>
+            <circle class="f-blue" cx="560" cy="122" r="20"/>
+            <circle class="f-blue" cx="610" cy="122" r="20"/>
+            <circle class="f-blue" cx="660" cy="122" r="20"/>
+            <circle class="f-blue" cx="460" cy="172" r="20"/>
+            <circle class="f-blue" cx="510" cy="172" r="20"/>
+            <circle class="f-blue" cx="560" cy="172" r="20"/>
+            <circle class="f-blue" cx="610" cy="172" r="20"/>
+            <circle class="f-paper" cx="660" cy="172" r="20"/>
+            <text x="700" y="156" font-size="26" font-weight="900">9/10</text>
+
+            <rect class="f-paper" x="440" y="222" width="320" height="64" rx="16"/>
+            <text x="600" y="260" font-size="16" font-weight="900" text-anchor="middle">미국 경찰 기관 두 곳이 샀어요</text>
+            <rect class="f-paper" x="440" y="296" width="320" height="64" rx="16"/>
+            <text x="600" y="334" font-size="16" font-weight="900" text-anchor="middle">지금은 정부 · 기업만 써요</text>
+            <text class="red" x="440" y="404" font-size="13.5" font-weight="800">사진의 위치 정보 없이도 찾아요</text>
+          </svg>

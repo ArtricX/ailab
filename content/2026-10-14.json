@@ -1,0 +1,357 @@
+{
+  "schema": 1,
+  "date": "2026-10-14",
+  "weekday": "수",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-14.html",
+  "minutes": 5,
+  "title": {
+    "text": "말로 부르는 카톡 AI 비서, 말로 고치는 페이스북 피드, 사진 한 장으로 집 찾는 AI",
+    "phrases": [
+      "말로 부르는",
+      "카톡 AI 비서,",
+      "말로 고치는",
+      "페이스북 피드,",
+      "사진 한 장으로",
+      "집 찾는 AI"
+    ]
+  },
+  "share": {
+    "title": "카카오톡에 말로 부르는 AI 비서가 와요 외 2건 · AILAB 10월 14일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 14일 수요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-14.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "kanana",
+      "tag": "생활",
+      "color": "yellow",
+      "label": "말로 부르는 카톡 AI 비서"
+    },
+    {
+      "anchor": "feed",
+      "tag": "생활",
+      "color": "pink",
+      "label": "말로 고치는 페이스북 피드"
+    },
+    {
+      "anchor": "photo",
+      "tag": "안전",
+      "color": "blue",
+      "label": "사진 한 장으로 집 찾는 AI"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "kanana",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-14.html#kanana",
+      "tag": "생활",
+      "color": "yellow",
+      "title": {
+        "text": "카카오톡에 말로 부르는 AI 비서가 와요",
+        "phrases": [
+          "카카오톡에",
+          "말로 부르는",
+          "AI 비서가 와요"
+        ]
+      },
+      "dek": {
+        "text": "두 손가락으로 화면을 쓸어내리면 나타나요.",
+        "phrases": [
+          "두 손가락으로",
+          "화면을 쓸어내리면",
+          "나타나요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212607_9dfcff8e-e24b-45ce-b961-83735828e3b5.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212607_9dfcff8e-e24b-45ce-b961-83735828e3b5.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 커다란 휴대폰 화면을 두 손가락으로 쓸어내리자, 말풍선 사이에서 작은 흰 로봇이 생수병과 달력 한 장을 들고 나와 사람만 누를 수 있는 커다란 확인 버튼 옆에서 기다리는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-14-kanana.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-14-kanana.svg",
+        "viewBox": "0 0 800 460",
+        "title": "카카오톡 AI 비서 카나나 스페이스를 쓰는 순서와 보여 준 일",
+        "desc": "카카오는 카카오톡 AI 비서 카나나 스페이스의 사전 신청을 10월 13일부터 받고, 신청자 가운데 일부가 12월부터 차례로 써 본다. 쓰는 순서는 두 손가락으로 화면 쓸어내리기, 말로 부탁하기, 내가 확인하고 누르기다. 메시지 보내기와 결제는 이용자가 마지막에 직접 확인해야 한다. 행사에서는 가족 단톡방에서 어린이집에 데리러 갈 시간을 찾아 알려 주고, 생수 주문을 부탁하면 전에 산 생수를 고르고 쿠폰을 붙여 결제 직전까지 준비하는 모습을 보였다. 앞으로 주문, 선물, 예약, 송금까지 넓힐 계획이다.",
+        "caption": {
+          "text": "말하기 어려운 곳에서는 글자로 써서 부탁할 수도 있어요.",
+          "phrases": [
+            "말하기 어려운 곳에서는",
+            "글자로 써서",
+            "부탁할 수도 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "카카오가 10월 13일 개발자 행사 '이프 카카오'에서 카카오톡 AI 비서 '카나나 스페이스'를 보여 줬어요. 카톡 화면을 두 손가락으로 쓸어내리면 비서가 나타나요. 말로 부탁하면 목소리로 답해요. 말하기 어려운 곳에서는 글자로 바꿔 쓸 수 있어요.",
+            "nobreak": [
+              "10월 13일",
+              "'이프 카카오'",
+              "'카나나 스페이스'"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "지금 AI는 물어보면 답을 해 주는 데서 그칠 때가 많아요. 카카오는 AI가 할 일을 직접 처리해 주는 쪽으로 가려고 해요. 행사에서는 가족 단톡방에 있던 어린이집 데리러 갈 시간을 찾아 알려 줬어요. \"생수 주문해 줘\" 한마디에 전에 산 생수를 고르고 쿠폰도 붙였어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "10월 13일부터 미리 신청을 받아요. 신청한 사람 가운데 일부가 12월부터 차례로 써 볼 수 있어요. 메시지를 보내거나 돈을 낼 때는 내가 직접 확인하고 눌러야 해요. AI에게 어떤 일을 맡길지도 처음에 내가 골라요. 값을 받을지는 아직 알려지지 않았어요.",
+            "nobreak": [
+              "10월 13일",
+              "12월"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "아이뉴스24",
+          "date": "10월 13일",
+          "url": "https://m.inews24.com/v/2014552"
+        },
+        {
+          "name": "뉴스핌",
+          "date": "10월 13일",
+          "url": "https://www.newspim.com/news/view/20261013000547"
+        },
+        {
+          "name": "SBS Biz",
+          "date": "10월 13일",
+          "url": "https://biz.sbs.co.kr/article/20000339602"
+        }
+      ]
+    },
+    {
+      "anchor": "feed",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-14.html#feed",
+      "tag": "생활",
+      "color": "pink",
+      "title": {
+        "text": "페이스북에 보고 싶은 것을 말로 알려요",
+        "phrases": [
+          "페이스북에",
+          "보고 싶은 것을",
+          "말로 알려요"
+        ]
+      },
+      "dek": {
+        "text": "AI가 내 말을 읽고 추천 글을 바로 바꿔 줘요.",
+        "phrases": [
+          "AI가 내 말을 읽고",
+          "추천 글을",
+          "바로 바꿔 줘요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212606_951e7a63-a75c-4e7d-b85a-4123de66234b.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212606_951e7a63-a75c-4e7d-b85a-4123de66234b.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 종이 고깔에 대고 말하자, 사다리에 올라선 작은 흰 로봇이 높이 쌓인 그림 카드를 다시 늘어놓으며 꽃과 냄비 카드는 맨 위로 올리고 몇 장은 바구니에 넣는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-14-feed.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-14-feed.svg",
+        "viewBox": "0 0 800 460",
+        "title": "페이스북 내 알고리즘 기능을 여는 순서와 할 수 있는 일",
+        "desc": "메타는 10월 13일 페이스북의 피드와 짧은 영상 릴스 두 곳에 내 알고리즘 기능을 넣는다고 알렸다. 게시물의 점 세 개 메뉴를 누르고 내 알고리즘을 열면, 보고 싶은 주제를 넣거나 보고 싶지 않은 주제를 넣거나 바라는 것을 내 말로 쓸 수 있다. 거대 언어 모델이 이 말을 읽고 추천을 바로 바꾼다. 기능은 차례로 퍼지고 있고 어느 나라에 언제 들어오는지는 발표되지 않았다.",
+        "caption": {
+          "text": "추천 순서를 정할 때 거대 언어 모델이 내 말을 함께 읽어요.",
+          "phrases": [
+            "추천 순서를 정할 때",
+            "거대 언어 모델이",
+            "내 말을 함께 읽어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "메타가 10월 13일 페이스북에 '내 알고리즘' 기능을 넣는다고 알렸어요. 피드와 짧은 영상인 릴스에서 쓸 수 있어요. 보고 싶은 주제와 보고 싶지 않은 주제를 넣을 수 있어요. 글칸에 바라는 것을 내 말로 써도 돼요.",
+            "nobreak": [
+              "10월 13일",
+              "'내 알고리즘'"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "지금까지 페이스북은 내가 무엇을 오래 보고 눌렀는지로 다음 글을 골랐어요. 이제는 추천 순서를 정할 때 거대 언어 모델도 함께 써요. 그래서 사람이 쓴 문장을 알아듣고 추천을 바로 바꿀 수 있대요. 인스타그램에는 비슷한 기능이 먼저 들어갔어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "게시물의 점 세 개 메뉴에서 찾을 수 있어요. 기능이 차례로 퍼지는 중이라 아직 내 앱에는 없을 수 있어요. 어느 나라에 언제 들어오는지는 발표되지 않았어요. 광고까지 줄여 주는지도 아직 분명하지 않아요. 피드가 마음에 들지 않을 때 한번 써 보세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "엔가젯",
+          "date": "10월 13일",
+          "url": "https://www.engadget.com/2285674/dont-like-your-facebook-feed-meta-wants-to-know-what-you-want-to-see-instead/"
+        },
+        {
+          "name": "PPC 랜드",
+          "date": "10월 13일",
+          "url": "https://ppc.land/facebook-feed-now-takes-typed-requests-as-meta-adds-llms-to-ranking/"
+        },
+        {
+          "name": "메타 발표",
+          "date": "",
+          "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/"
+        }
+      ]
+    },
+    {
+      "anchor": "photo",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-14.html#photo",
+      "tag": "안전",
+      "color": "blue",
+      "title": {
+        "text": "집 안 사진 한 장으로 어느 집인지 찾는 AI가 나왔어요",
+        "phrases": [
+          "집 안 사진 한 장으로",
+          "어느 집인지",
+          "찾는 AI가 나왔어요"
+        ]
+      },
+      "dek": {
+        "text": "미국 경찰이 쓰기 시작했어요. 사진을 올릴 때 한 번 더 살펴보세요.",
+        "phrases": [
+          "미국 경찰이",
+          "쓰기 시작했어요.",
+          "사진을 올릴 때",
+          "한 번 더 살펴보세요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212605_1816b255-7a7e-494e-9058-8f796e184f34.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261013_212605_1816b255-7a7e-494e-9058-8f796e184f34.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 전등과 세탁기가 찍힌 방 사진 한 장을 들고 있고, 커다란 돋보기를 든 작은 흰 로봇이 벽을 가득 채운 작은 집 그림들과 견주자 그중 한 집이 빛나는 그림. 사람은 창문 커튼을 반쯤 치고 있어요"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-14-photo.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-14-photo.svg",
+        "viewBox": "0 0 800 460",
+        "title": "집 안 사진 한 장으로 집을 찾는 AI 레이븐이 일하는 순서",
+        "desc": "미국 회사 그레이라크의 AI 레이븐은 집 안 사진 한 장으로 어느 집인지 찾는다. 사진 속 가구, 가전, 방 모양을 보고, 숙박 공유와 부동산 사이트에 올라온 집 사진과 견준 뒤, 어느 집인지 찾아낸다. 사진의 위치 정보는 쓰지 않는다. 회사 대표는 직접 시험해 보니 10번 가운데 9번 도시를 맞혔다고 말했다. 독립적으로 확인된 정확도는 아니다. 미국 로스앤젤레스 경찰과 마이애미데이드 보안관실 두 곳이 이 도구를 샀다.",
+        "caption": {
+          "text": "한 경찰 기관은 아직 큰 성과는 없었다고 했어요.",
+          "phrases": [
+            "한 경찰 기관은",
+            "아직 큰 성과는",
+            "없었다고 했어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국 회사 그레이라크의 AI '레이븐'이 집 안 사진 한 장으로 어느 집인지 찾아낸다는 보도가 10월 12일 나왔어요. 세탁기와 건조기만 찍힌 사진으로 미국의 한 숙소를 찾는 시연도 있었어요. 미국 로스앤젤레스 경찰 등 경찰 기관 두 곳이 이 도구를 샀어요.",
+            "nobreak": [
+              "'레이븐'",
+              "10월 12일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "이 AI는 사진에 담긴 위치 정보를 보지 않아요. 대신 가구, 가전, 방 모양 같은 생김새를 봐요. 그리고 숙박 공유 사이트나 부동산 사이트에 올라온 수많은 집 사진과 견줘요. 회사는 사람을 사고파는 범죄 수사에 도움이 된다고 해요. 하지만 이 도구를 쓴 한 경찰 기관은 아직 큰 성과가 없었다고 했어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "지금은 정부 기관과 기업만 쓸 수 있어요. 처음에는 누구나 쓸 수 있었는데, 나쁜 목적으로 쓰려는 사람이 있어 막았대요. 집 안 사진을 SNS에 올릴 때는 창밖 풍경이나 눈에 띄는 물건이 보이지 않는지 살펴보세요. 위치 정보를 지우는 것만으로는 충분하지 않을 수 있어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "404 미디어",
+          "date": "10월 12일",
+          "url": "https://www.404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo/"
+        },
+        {
+          "name": "노트북체크",
+          "date": "10월 13일",
+          "url": "https://www.notebookcheck.net/Police-use-AI-to-identify-homes-from-a-single-interior-photo.1423328.0.html"
+        },
+        {
+          "name": "IB타임스",
+          "date": "10월 13일",
+          "url": "https://www.ibtimes.sg/police-use-ai-pinpoint-homes-interior-photos-even-washing-machine-picture-enough-95071"
+        }
+      ]
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "AI 비서",
+      "meaning": {
+        "text": "말로 부탁하면 할 일을 대신 처리해 주는 AI",
+        "phrases": [
+          "말로 부탁하면",
+          "할 일을 대신",
+          "처리해 주는 AI"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "알고리즘",
+      "meaning": {
+        "text": "앱이 나에게 무엇을 보여 줄지 고르는 규칙",
+        "phrases": [
+          "앱이 나에게",
+          "무엇을 보여 줄지",
+          "고르는 규칙"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "거대 언어 모델",
+      "meaning": {
+        "text": "아주 많은 글을 배워 사람 말을 알아듣는 AI의 두뇌",
+        "phrases": [
+          "아주 많은 글을 배워",
+          "사람 말을 알아듣는",
+          "AI의 두뇌"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "위치 정보",
+      "meaning": {
+        "text": "사진을 찍은 곳이 어디인지 파일 안에 적혀 있는 정보",
+        "phrases": [
+          "사진을 찍은 곳이",
+          "어디인지 파일 안에",
+          "적혀 있는 정보"
+        ]
+      },
+      "color": "blue"
+    }
+  ]
+}

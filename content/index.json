@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-14",
+      "title": "말로 부르는 카톡 AI 비서, 말로 고치는 페이스북 피드, 사진 한 장으로 집 찾는 AI",
+      "file": "content/2026-10-14.json",
+      "stories": [
+        {
+          "anchor": "kanana",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "카카오톡에 말로 부르는 AI 비서가 와요"
+        },
+        {
+          "anchor": "feed",
+          "tag": "생활",
+          "color": "pink",
+          "title": "페이스북에 보고 싶은 것을 말로 알려요"
+        },
+        {
+          "anchor": "photo",
+          "tag": "안전",
+          "color": "blue",
+          "title": "집 안 사진 한 장으로 어느 집인지 찾는 AI가 나왔어요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-13",
       "title": "폰 없이 길 찾는 안경, 가벼워진 무료 제미나이, 세탁기보다 느슨한 AI 규칙",
       "file": "content/2026-10-13.json",

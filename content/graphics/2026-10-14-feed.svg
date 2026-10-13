@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">페이스북 내 알고리즘 기능을 여는 순서와 할 수 있는 일</title>
+            <desc id="g2d">메타는 10월 13일 페이스북의 피드와 짧은 영상 릴스 두 곳에 내 알고리즘 기능을 넣는다고 알렸다. 게시물의 점 세 개 메뉴를 누르고 내 알고리즘을 열면, 보고 싶은 주제를 넣거나 보고 싶지 않은 주제를 넣거나 바라는 것을 내 말로 쓸 수 있다. 거대 언어 모델이 이 말을 읽고 추천을 바로 바꾼다. 기능은 차례로 퍼지고 있고 어느 나라에 언제 들어오는지는 발표되지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">2곳</text>
+            <text x="34" y="170" font-size="16" font-weight="800">피드와 짧은 영상(릴스)에서 써요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">메타가 10월 13일 알렸어요</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">여는 순서</text>
+            <rect class="f-paper" x="34" y="258" width="320" height="48" rx="16"/>
+            <text x="54" y="288" font-size="15" font-weight="900">게시물의 점 세 개(…) 메뉴</text>
+            <path class="f-ink" d="M194 322 l-8 -12 h16z"/>
+            <rect class="f-pink" x="34" y="326" width="320" height="48" rx="16"/>
+            <text x="54" y="356" font-size="15" font-weight="900">'내 알고리즘' 열기</text>
+            <text class="red" x="34" y="420" font-size="13.5" font-weight="800">우리나라에 언제 오는지는 아직 몰라요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">여기서 할 수 있는 일</text>
+            <rect class="f-pink" x="440" y="72" width="320" height="64" rx="16"/>
+            <text x="600" y="110" font-size="16" font-weight="900" text-anchor="middle">보고 싶은 주제 넣기</text>
+            <rect class="f-paper" x="440" y="146" width="320" height="64" rx="16"/>
+            <text x="600" y="184" font-size="16" font-weight="900" text-anchor="middle">보고 싶지 않은 주제 넣기</text>
+            <rect class="f-pink" x="440" y="220" width="320" height="64" rx="16"/>
+            <text x="600" y="258" font-size="16" font-weight="900" text-anchor="middle">바라는 것을 내 말로 쓰기</text>
+
+            <text x="440" y="330" font-size="15" font-weight="800">이렇게 써 볼 수 있어요</text>
+            <rect class="f-paper" x="440" y="346" width="320" height="48" rx="16"/>
+            <text x="600" y="376" font-size="15" font-weight="900" text-anchor="middle">"요리 영상은 그만 보여 줘"</text>
+            <text class="grey" x="440" y="430" font-size="12">예시 문장이에요</text>
+          </svg>
