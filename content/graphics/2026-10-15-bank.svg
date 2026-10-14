@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">해킹으로 개인정보가 빠져나간 금융회사 수와 금융권 보안 점검 결과</title>
+            <desc id="g1d">10월 14일 기준으로 은행, 저축은행, 카드사, 코인 거래소 등 금융회사 16곳에서 개인정보 약 10만 건이 빠져나갔다. 빠져나간 정보는 이름, 연락처, 주민등록번호, 이메일 주소다. 카드 번호나 비밀번호가 빠져나갔다는 확인은 아직 없다. 금융 당국이 금융회사 555곳의 보안을 점검했더니 130곳, 약 4곳 중 1곳이 허점이 있다고 답했다. AI를 쓴 해킹으로 추정되며 당국이 조사하고 있다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">16곳</text>
+            <text x="34" y="170" font-size="16" font-weight="800">개인정보가 빠져나간 금융회사</text>
+            <text class="grey" x="34" y="194" font-size="13.5">약 10만 건이에요 · 10월 14일 기준</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">빠져나간 정보</text>
+            <rect class="f-blue" x="34" y="258" width="155" height="48" rx="16"/>
+            <text class="white" x="111" y="288" font-size="15" font-weight="900" text-anchor="middle">이름</text>
+            <rect class="f-blue" x="199" y="258" width="155" height="48" rx="16"/>
+            <text class="white" x="276" y="288" font-size="15" font-weight="900" text-anchor="middle">연락처</text>
+            <rect class="f-blue" x="34" y="316" width="155" height="48" rx="16"/>
+            <text class="white" x="111" y="346" font-size="15" font-weight="900" text-anchor="middle">주민등록번호</text>
+            <rect class="f-blue" x="199" y="316" width="155" height="48" rx="16"/>
+            <text class="white" x="276" y="346" font-size="15" font-weight="900" text-anchor="middle">이메일</text>
+            <rect class="f-paper" x="34" y="374" width="320" height="48" rx="16"/>
+            <text x="194" y="404" font-size="14" font-weight="800" text-anchor="middle">카드 번호 · 비밀번호는 확인 안 됐어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">금융회사 보안 점검 결과</text>
+            <text class="grey" x="440" y="80" font-size="12.5">금융 당국이 10월 8일까지 모은 답이에요</text>
+            <text x="440" y="122" font-size="14" font-weight="800">점검한 곳</text>
+            <rect class="f-blue" x="440" y="132" width="320" height="40" rx="12"/>
+            <text class="white" x="744" y="158" font-size="16" font-weight="900" text-anchor="end">555곳</text>
+            <text x="440" y="208" font-size="14" font-weight="800">허점이 있다고 답한 곳</text>
+            <rect class="f-paper" x="440" y="218" width="320" height="40" rx="12"/>
+            <rect class="f-ink" x="440" y="218" width="75" height="40" rx="12"/>
+            <text class="red" x="527" y="244" font-size="16" font-weight="900">130곳 (4곳 중 1곳 꼴)</text>
+
+            <text x="440" y="306" font-size="15" font-weight="800">아직 조사 중인 것</text>
+            <rect class="f-paper" x="440" y="320" width="320" height="48" rx="16"/>
+            <text x="600" y="350" font-size="15" font-weight="900" text-anchor="middle">정말 AI를 썼는지</text>
+            <rect class="f-paper" x="440" y="378" width="320" height="48" rx="16"/>
+            <text x="600" y="408" font-size="15" font-weight="900" text-anchor="middle">피해 회사가 더 있는지</text>
+          </svg>
