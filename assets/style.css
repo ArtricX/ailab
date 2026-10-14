@@ -63,8 +63,8 @@ p { margin: 0; text-wrap: pretty; }
 .nav { display: flex; align-items: center; gap: 1.5rem; padding-block: 1.1rem; border-bottom: 1px solid var(--rule); }
 .logo { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; font-family: var(--font-display); font-weight: 900; font-size: 1.05rem; letter-spacing: -0.01em; }
 .logo { font-family: var(--font-ko); font-size: 1.15rem; letter-spacing: -0.04em; gap: 0.35rem; }
-/* 로고 심볼: 안테나 달린 까치(assets/brand/symbol.png). 글자와 높이를 맞춰요 */
-.logo-mark { height: 2.2rem; width: auto; flex: none; }
+/* 로고: 외치는 까치 + 손글씨 '아이고!'(assets/brand/lockup.png) 한 장 */
+.logo-lockup { height: 3.1rem; width: auto; flex: none; }
 .nav-links { display: flex; gap: 1.2rem; margin-left: auto; font-size: 0.82rem; }
 .nav-links a { text-decoration: none; }
 .nav-links a:hover { text-decoration: underline; text-underline-offset: 0.25em; }
@@ -387,7 +387,7 @@ html { scroll-padding-top: 5.5rem; }
 @media (max-width: 860px) {
   .nav { flex-wrap: nowrap; column-gap: 0.9rem; padding-block: 0.45rem; }
   .logo { font-size: 1.02rem; flex: none; }
-  .logo-mark { height: 1.9rem; }
+  .logo-lockup { height: 2.6rem; }
   .nav-links {
     display: flex; flex: 1 1 auto; min-width: 0; margin-left: 0; gap: 1.05rem;
     overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;

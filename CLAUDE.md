@@ -79,7 +79,7 @@
 ## 로고
 - 이름은 **아이고**(AI + go, 놀랄 때 쓰는 말 '아이고'). 영문으로 쓸 때는 중국 전자 브랜드 aigo와 헷갈리지 않게 `AI-go`로 씁니다.
 - 마스코트는 안테나 달린 까치. 로고는 외치는 포즈(부리를 벌리고 날개를 입가에 댄 모습)입니다. 원본 주소는 `assets/brand/sources.json`, 파일은 GitHub Actions(`brand.yml`, `scripts/make_brand.py`)가 만듭니다. 손으로 고치지 않습니다.
-- 쓰는 곳: 상단 메뉴 로고(`assets/brand/symbol.png` + 글자 '아이고'), 홈 마스코트 띠(`symbol-512.png` + 말풍선), 파비콘·홈 화면 아이콘(`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`), 메일 머리(`email-header.png`), beehiiv 출판물 로고(`icon-1024.png`).
+- 쓰는 곳: 상단 메뉴 로고(`assets/brand/lockup.png`: 까치 + 손글씨 '아이고!', 한 장 이미지), 홈 마스코트 띠(`symbol-512.png` + 말풍선), 파비콘·홈 화면 아이콘(`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`), 메일 머리(`email-header.png`), beehiiv 출판물 로고(`icon-1024.png`).
 - 새 페이지를 만들 때도 틀 글의 `<head>` 아이콘 줄(`rel="icon"`, `apple-touch-icon`)과 `header.nav`의 로고를 그대로 둡니다.
 - 꼬리말(검은 바탕)에는 까치가 묻히므로 글자 '아이고'만 씁니다.
 
