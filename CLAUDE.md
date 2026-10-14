@@ -1,6 +1,6 @@
-# AILAB — 매일 발행 작업 지침
+# 아이고 — 매일 발행 작업 지침
 
-이 저장소는 GitHub Pages로 운영하는 블로그 **AILAB**(누구나 읽는 아침 AI 소식)입니다.
+이 저장소는 GitHub Pages로 운영하는 블로그 **아이고**(누구나 읽는 아침 AI 소식, 예전 이름 AILAB)입니다. 저장소와 주소(`ailab`)는 그대로 씁니다.
 매일 오전 7시(한국 시간)에 그날의 AI 소식을 한 장으로 정리해 올립니다.
 
 ## 독자와 톤
@@ -33,11 +33,12 @@
 6. **목록 갱신**: `posts.json` 맨 앞에 그날 항목(date, title, summary, minutes, stories[tag, color, anchor, title, dek, illust], keywords[word, meaning])을 추가하고 `python3 scripts/build.py`를 실행해 `index.html`을 다시 만듭니다.
 7. **줄내림 검사**: `python3 scripts/check_lines.py`를 돌려 문제 0개가 될 때까지 구절을 다시 나눕니다. 문제가 남아 있으면 올리지 않습니다.
    이어서 `python3 scripts/extract_content.py`(필요하면 `pip install beautifulsoup4 --break-system-packages`)를 돌려 "멈춘 글"이 없는지 확인합니다. 멈춘 글이 있으면 글 구조가 틀과 다르다는 뜻이니 틀에 맞게 고칩니다. 만들어진 `content/` 파일은 함께 올려도 되고, 올리지 않아도 GitHub Actions가 다시 만듭니다.
-8. **뉴스레터 초안(beehiiv)**: PR보다 먼저 만듭니다(PR 설명에 초안 링크를 넣어야 하니까요). 출판물 `pub_24fff7ac-12bd-4f24-9339-9ef1dc54d733`(AILAB)에 그날 메일 초안을 만듭니다. 발송은 사람이 beehiiv에서 직접 누릅니다(도구로는 초안까지만 가능). 예약 발송도 걸지 않습니다.
+8. **뉴스레터 초안(beehiiv)**: PR보다 먼저 만듭니다(PR 설명에 초안 링크를 넣어야 하니까요). 출판물 `pub_24fff7ac-12bd-4f24-9339-9ef1dc54d733`(아이고, 예전 이름 AILAB)에 그날 메일 초안을 만듭니다. 발송은 사람이 beehiiv에서 직접 누릅니다(도구로는 초안까지만 가능). 예약 발송도 걸지 않습니다.
    - 그림: 힉스필드 원본 주소(`.png`) 3개를 `save_image`로 올리고, 돌려받은 `url`만 메일에 씁니다(webp는 일부 메일 앱에서 안 보여요).
    - `save_post`: `title`은 그날 제목(구절 표시 `|` 없이), `subtitle`은 "M월 D일 X요일 아침, 오늘의 AI 소식 세 가지", `content_tags: ["아침 소식"]`, `thumbnail_image_url`은 첫 그림.
-   - 본문 순서: 인사 한 줄 → 소식마다 [그림(`imageBlock`, `data-url`은 글 페이지 앵커) → 굵은 `[태그]` → `h2` 제목 → 한 줄 요약 → **나한테는요?** 문단 → 검정 버튼 "그림과 함께 자세히 읽기"(글 페이지 앵커)] 사이에 가로줄 → `h3` 오늘의 말(3개, 목록) → 맺음말 "내일 아침 7시에 또 만나요. …전달해 주세요."
-   - 이어서 `edit_post`로 `email_settings`의 `email_subject_line`("[AILAB] " + 가장 궁금증을 끄는 소식 한 구절 + " 오늘의 AI 소식 3가지"), `email_preview_text`(나머지 두 소식 한 문장), `display_byline_in_email: false`를 정합니다.
+   - 본문 맨 위에는 로고 머리 그림을 넣습니다: `imageBlock`, 주소 `https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3e1f0aa6-1f1d-4441-9429-6e1ef166b1d1/email-header.png?t=1791969965`(이미 beehiiv에 올라가 있어 다시 올리지 않아요), `data-url`은 `https://artricx.github.io/ailab/`, alt는 `아이고`.
+   - 본문 순서: 로고 머리 그림 → 인사 한 줄 → 소식마다 [그림(`imageBlock`, `data-url`은 글 페이지 앵커) → 굵은 `[태그]` → `h2` 제목 → 한 줄 요약 → **나한테는요?** 문단 → 검정 버튼 "그림과 함께 자세히 읽기"(글 페이지 앵커)] 사이에 가로줄 → `h3` 오늘의 말(3개, 목록) → 맺음말 "내일 아침 7시에 또 만나요. …전달해 주세요."
+   - 이어서 `edit_post`로 `email_settings`의 `email_subject_line`("[아이고] " + 가장 궁금증을 끄는 소식 한 구절 + " 오늘의 AI 소식 3가지"), `email_preview_text`(나머지 두 소식 한 문장), `display_byline_in_email: false`를 정합니다.
    - 글 페이지 주소는 `https://artricx.github.io/ailab/posts/YYYY-MM-DD.html#앵커`입니다(PR 병합 뒤 1~2분이면 열려요).
    - **보내기 전 점검**: `get_post`와 `get_post_content`로 다시 읽어 확인합니다. 제목·부제·메일 제목·미리보기 글·썸네일이 채워졌는지, 받는 사람이 무료 구독자 전체(`recipients.email.tier_ids: ["free"]`)인지, 그림 3장이 모두 beehiiv 주소인지, 버튼과 그림 링크가 모두 오늘 날짜 글 페이지를 가리키는지 봅니다. 고칠 것이 있으면 고친 뒤 다시 확인합니다. 사람은 '발행' 버튼만 누르면 되도록 완성된 상태로 둡니다.
 9. **올리기**: `main`에 바로 올리지 않습니다. `daily/YYYY-MM-DD` 브랜치에 커밋하고 Pull Request를 엽니다. 사람이 PR을 병합하면 사이트에 발행되고, 이어서 beehiiv에서 '발행'을 누르면 메일이 나갑니다. PR 설명은 아래 틀을 그대로 씁니다(맨 위에 발행 순서).
@@ -70,10 +71,17 @@
 
 ## 디자인 규칙
 - 스타일은 `assets/style.css` 하나만 씁니다. 글 페이지에 새 CSS를 넣지 않습니다.
-- 콘셉트: 흰 지면 위 잡지·진(zine). 그림은 손으로 그린 듯한 친근한 캐릭터 일러스트(굵게 떨리는 선, 동그란 얼굴, 단색 배경, 종이 질감). 화면 밖으로 넘치는 빨간 AILAB 워드마크, 대괄호 라벨, 원색 다섯 가지, 꼬리표 스티커, 그림 왼쪽 위의 날짜·분야 태그(검은 바탕 흰 글자, 가로 한 줄).
+- 콘셉트: 흰 지면 위 잡지·진(zine). 그림은 손으로 그린 듯한 친근한 캐릭터 일러스트(굵게 떨리는 선, 동그란 얼굴, 단색 배경, 종이 질감). 화면 밖으로 넘치는 빨간 '아이고!' 워드마크(외치는 까치 심볼과 함께), 대괄호 라벨, 원색 다섯 가지, 꼬리표 스티커, 그림 왼쪽 위의 날짜·분야 태그(검은 바탕 흰 글자, 가로 한 줄).
 - 글자는 검정과 회색만. 색은 일러스트, 인포그래픽, 칩과 스티커가 담당합니다.
 - 밝은 지면 하나로만 디자인했습니다(다크 모드 없음).
 - 이모지와 01/02 같은 번호 매기기는 쓰지 않습니다(순서도처럼 진짜 순서일 때만 화살표로).
+
+## 로고
+- 이름은 **아이고**(AI + go, 놀랄 때 쓰는 말 '아이고'). 영문으로 쓸 때는 중국 전자 브랜드 aigo와 헷갈리지 않게 `AI-go`로 씁니다.
+- 마스코트는 안테나 달린 까치. 로고는 외치는 포즈(부리를 벌리고 날개를 입가에 댄 모습)입니다. 원본 주소는 `assets/brand/sources.json`, 파일은 GitHub Actions(`brand.yml`, `scripts/make_brand.py`)가 만듭니다. 손으로 고치지 않습니다.
+- 쓰는 곳: 상단 메뉴 로고(`assets/brand/symbol.png` + 글자 '아이고'), 홈 워드마크(`symbol-512.png` + 빨간 '아이고!'), 파비콘·홈 화면 아이콘(`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`), 메일 머리(`email-header.png`), beehiiv 출판물 로고(`icon-1024.png`).
+- 새 페이지를 만들 때도 틀 글의 `<head>` 아이콘 줄(`rel="icon"`, `apple-touch-icon`)과 `header.nav`의 로고를 그대로 둡니다.
+- 꼬리말(검은 바탕)에는 까치가 묻히므로 글자 '아이고'만 씁니다.
 
 ## 사용성 규칙 (예쁜 것보다 먼저)
 누구나 편하게 쓰는 것이 가장 중요합니다. 아래 기능은 `assets/site.js`와 `assets/style.css`가 모든 페이지에 자동으로 붙이므로, 글 페이지에 따로 넣지 않습니다. 틀 글의 머리(`header.nav`)와 끝(`.post-end`, `#subscribe`)만 그대로 두면 됩니다.
