@@ -10,8 +10,8 @@ GitHub Actions(.github/workflows/brand.yml)가 sources.json이나 이 파일이 
 - icon-1024.png       노란 정사각 앱 아이콘(모서리 채움). beehiiv 로고, 앱 출시용.
 - icon-512.png, icon-192.png, apple-touch-icon.png(180)
 - favicon-32.png, favicon.ico(16·32·48)  둥근 모서리 바깥은 투명.
-- email-header.png    메일 맨 위 머리 그림(가로 1200, 흰 바탕, 심볼 + '아이고').
-- lockup-draft.png    AI가 그린 글자 조합 시안(참고용, 사이트에는 안 씀).
+- lockup.png          심볼 + 손글씨 '아이고!' 조합(투명 배경, 가로 1200).
+- email-header.png    메일 맨 위 머리 그림(1200×400, 흰 바탕, 글자 조합). 조합이 없으면 심볼 + Gothic A1 글자.
 """
 import json
 import pathlib
@@ -126,13 +126,32 @@ def main():
     filled.resize((512, 512), Image.LANCZOS).save(BRAND / "icon-512.png", optimize=True)
     filled.resize((192, 192), Image.LANCZOS).save(BRAND / "icon-192.png", optimize=True)
     filled.resize((180, 180), Image.LANCZOS).save(BRAND / "apple-touch-icon.png", optimize=True)
-    sq.resize((32, 32), Image.LANCZOS).save(BRAND / "favicon-32.png", optimize=True)
-    sq.resize((256, 256), Image.LANCZOS).save(BRAND / "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
+    # 파비콘: 아주 작게 보이므로 머리와 부리만 크게 잘라 씁니다(노란 정사각, 모서리 둥글게)
+    c = round(side * 0.80)
+    x0, y0 = round(side * 0.16), round(side * 0.04)
+    head = filled.crop((x0, y0, min(side, x0 + c), y0 + c)).resize((256, 256), Image.LANCZOS).convert("RGBA")
+    mask = Image.new("L", head.size, 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, 255, 255), radius=56, fill=255)
+    head.putalpha(mask)
+    head.resize((32, 32), Image.LANCZOS).save(BRAND / "favicon-32.png", optimize=True)
+    head.save(BRAND / "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
 
-    email_header(sym).save(BRAND / "email-header.png", optimize=True)
-
-    if src.get("lockup_draft"):
-        fetch(src["lockup_draft"]).convert("RGB").save(BRAND / "lockup-draft.png", optimize=True)
+    # 글자 조합(심볼 + 손글씨 '아이고!'): AI 시안의 손글씨가 그림체와 잘 맞아 메일 머리에 씁니다
+    lock = None
+    if src.get("lockup"):
+        lock = crop_alpha(clear_background(fetch(src["lockup"])), pad=0.02)
+        lw = 1200
+        lock = lock.resize((lw, round(lock.height * lw / lock.width)), Image.LANCZOS)
+        lock.save(BRAND / "lockup.png", optimize=True)
+    if lock is not None:
+        W, H = 1200, 400
+        head_img = Image.new("RGB", (W, H), "white")
+        k = min(960 / lock.width, 300 / lock.height)
+        l2 = lock.resize((round(lock.width * k), round(lock.height * k)), Image.LANCZOS)
+        head_img.paste(l2, ((W - l2.width) // 2, (H - l2.height) // 2), l2)
+        head_img.save(BRAND / "email-header.png", optimize=True)
+    else:
+        email_header(sym).save(BRAND / "email-header.png", optimize=True)
 
     for f in sorted(BRAND.glob("*.png")) + sorted(BRAND.glob("*.ico")):
         print(f"로고 파일: assets/brand/{f.name} ({f.stat().st_size // 1024}KB)")
