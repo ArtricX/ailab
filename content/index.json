@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-15",
+      "title": "금융회사 16곳 개인정보 유출, 다시 봐야 하는 AI 채점, 병상을 지키는 AI",
+      "file": "content/2026-10-15.json",
+      "stories": [
+        {
+          "anchor": "bank",
+          "tag": "안전",
+          "color": "blue",
+          "title": "금융회사 16곳에서 개인정보 10만 건이 빠져나갔어요"
+        },
+        {
+          "anchor": "grading",
+          "tag": "학교",
+          "color": "yellow",
+          "title": "AI가 채점해도 선생님이 다시 봐야 해요"
+        },
+        {
+          "anchor": "ward",
+          "tag": "건강",
+          "color": "green",
+          "title": "입원 환자 곁에서 AI가 몸 신호를 지켜봐요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-14",
       "title": "말로 부르는 카톡 AI 비서, 말로 고치는 페이스북 피드, 사진 한 장으로 집 찾는 AI",
       "file": "content/2026-10-14.json",

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">서술형 평가에 AI 채점을 써 본 중고등학교 교사들의 생각</title>
+            <desc id="g2d">전국중등교사노동조합이 9월 7일부터 30일까지 중고등학교 교사 2,427명에게 물었다. 이 가운데 734명이 서술형 평가에 AI 채점이나 평가 도움을 써 봤다. 써 본 교사 가운데 64.1%는 AI 결과를 다시 확인하느라 일이 늘었다고 답했다. 77.4%는 AI와 교사의 판단이 다른 적이 있다고 했고, 36.3%는 채점 시간이 줄었다고 했다. AI 채점 결과를 믿을 수 있다는 답은 14.6%였다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">64%</text>
+            <text x="34" y="170" font-size="16" font-weight="800">다시 확인하느라 일이 늘었어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">AI 채점을 써 본 교사 734명에게 물었어요</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">누구에게 물었나요</text>
+            <rect class="f-paper" x="34" y="258" width="320" height="48" rx="16"/>
+            <text x="54" y="288" font-size="15" font-weight="900">중고등학교 교사 2,427명</text>
+            <path class="f-ink" d="M194 322 l-8 -12 h16z"/>
+            <rect class="f-yellow" x="34" y="326" width="320" height="48" rx="16"/>
+            <text x="54" y="356" font-size="15" font-weight="900">그중 AI 채점을 써 본 734명</text>
+            <text class="grey" x="34" y="410" font-size="12.5">전국중등교사노동조합 설문 · 9월 7일~30일</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">AI 채점을 써 본 교사의 답</text>
+            <text x="440" y="96" font-size="14" font-weight="800">AI와 내 판단이 달랐던 적 있어요</text>
+            <rect class="f-paper" x="440" y="106" width="320" height="34" rx="10"/>
+            <rect class="f-yellow" x="440" y="106" width="248" height="34" rx="10"/>
+            <text x="700" y="129" font-size="15" font-weight="900">77.4%</text>
+            <text x="440" y="180" font-size="14" font-weight="800">일이 늘었어요</text>
+            <rect class="f-paper" x="440" y="190" width="320" height="34" rx="10"/>
+            <rect class="f-yellow" x="440" y="190" width="205" height="34" rx="10"/>
+            <text x="657" y="213" font-size="15" font-weight="900">64.1%</text>
+            <text x="440" y="264" font-size="14" font-weight="800">채점 시간이 줄었어요</text>
+            <rect class="f-paper" x="440" y="274" width="320" height="34" rx="10"/>
+            <rect class="f-yellow" x="440" y="274" width="116" height="34" rx="10"/>
+            <text x="568" y="297" font-size="15" font-weight="900">36.3%</text>
+            <text x="440" y="348" font-size="14" font-weight="800">AI 결과를 믿을 수 있어요</text>
+            <rect class="f-paper" x="440" y="358" width="320" height="34" rx="10"/>
+            <rect class="f-ink" x="440" y="358" width="47" height="34" rx="10"/>
+            <text class="red" x="499" y="381" font-size="15" font-weight="900">14.6%</text>
+            <text class="grey" x="440" y="428" font-size="12">막대 끝은 100%예요</text>
+          </svg>

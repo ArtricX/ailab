@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">아주대병원 입원 환자 몸 신호 지켜보기 시스템이 일하는 순서</title>
+            <desc id="g3d">아주대병원은 7개 병동, 342개 병상에서 입원 환자의 몸 신호를 실시간으로 지켜보는 시스템을 쓰고 있다. 심박수, 맥박, 산소포화도, 호흡수, 심전도를 잰다. 의료 기기와 의료 AI가 넘어짐이나 위험한 부정맥 같은 이상을 찾으면 화면 알림과 소리로 의료진에게 알린다. 측정값은 60초마다 전자 의무 기록에 자동으로 들어간다. 9월 흉부외과와 심장내과 병동에서 시작해 10월 응급 병동 등으로 넓혔다. 실제로 환자에게 얼마나 도움이 되는지는 앞으로 확인해야 한다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">342</text>
+            <text x="34" y="170" font-size="16" font-weight="800">병상을 AI가 함께 지켜봐요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">아주대병원 7개 병동이에요</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">재는 몸 신호</text>
+            <rect class="f-green" x="34" y="258" width="100" height="44" rx="14"/>
+            <text class="white" x="84" y="286" font-size="14" font-weight="900" text-anchor="middle">심박수</text>
+            <rect class="f-green" x="144" y="258" width="100" height="44" rx="14"/>
+            <text class="white" x="194" y="286" font-size="14" font-weight="900" text-anchor="middle">맥박</text>
+            <rect class="f-green" x="254" y="258" width="100" height="44" rx="14"/>
+            <text class="white" x="304" y="286" font-size="14" font-weight="900" text-anchor="middle">호흡수</text>
+            <rect class="f-green" x="34" y="312" width="155" height="44" rx="14"/>
+            <text class="white" x="111" y="340" font-size="14" font-weight="900" text-anchor="middle">산소포화도</text>
+            <rect class="f-green" x="199" y="312" width="155" height="44" rx="14"/>
+            <text class="white" x="276" y="340" font-size="14" font-weight="900" text-anchor="middle">심전도</text>
+            <text class="grey" x="34" y="396" font-size="12.5">재는 값은 60초마다 진료 기록에 들어가요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">알림이 울리는 순서</text>
+            <rect class="f-paper" x="440" y="72" width="320" height="48" rx="16"/>
+            <text x="460" y="102" font-size="15" font-weight="900">몸에 단 기기로 신호 재기</text>
+            <path class="f-ink" d="M600 136 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="140" width="320" height="48" rx="16"/>
+            <text x="460" y="170" font-size="15" font-weight="900">AI가 넘어짐 · 부정맥 찾기</text>
+            <path class="f-ink" d="M600 204 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="208" width="320" height="48" rx="16"/>
+            <text x="460" y="238" font-size="15" font-weight="900">화면 알림과 소리</text>
+            <path class="f-ink" d="M600 272 l-8 -12 h16z"/>
+            <rect class="f-green" x="440" y="276" width="320" height="48" rx="16"/>
+            <text class="white" x="460" y="306" font-size="15" font-weight="900">의료진이 바로 살펴보기</text>
+
+            <text x="440" y="364" font-size="14" font-weight="800">9월 흉부외과 · 심장내과</text>
+            <text x="440" y="390" font-size="14" font-weight="800">10월 응급 병동 등으로 넓혔어요</text>
+            <text class="red" x="440" y="426" font-size="13.5" font-weight="800">환자에게 얼마나 도움 되는지는 지켜봐야 해요</text>
+          </svg>

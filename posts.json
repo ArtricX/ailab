@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-15",
+    "title": "금융회사 16곳|개인정보 유출,|다시 봐야 하는|AI 채점,|병상을 지키는 AI",
+    "summary": "금융회사 16곳에서|개인정보 약 10만 건이|빠져나갔어요.|AI 채점을 써 본 교사|10명 중 6명은|일이 늘었다고 했고,|병원에서는 AI가|입원 환자의 몸 신호를|지켜보기 시작했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "안전",
+        "color": "blue",
+        "anchor": "bank",
+        "title": "금융회사 16곳에서|개인정보 10만 건이|빠져나갔어요",
+        "dek": "AI를 쓴 해킹으로|보고 있어요.|내 정보를 아는|전화와 문자를 조심하세요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261014_212553_5702b8f2-0446-4237-a391-43fa0a845d15.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261014_212553_5702b8f2-0446-4237-a391-43fa0a845d15_min.webp"
+      },
+      {
+        "tag": "학교",
+        "color": "yellow",
+        "anchor": "grading",
+        "title": "AI가 채점해도|선생님이|다시 봐야 해요",
+        "dek": "AI 채점을 써 본 교사|10명 중 6명은|일이 더 늘었대요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261014_212554_f5abe16a-b73e-4f87-88af-3c340e0fded9.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261014_212554_f5abe16a-b73e-4f87-88af-3c340e0fded9_min.webp"
+      },
+      {
+        "tag": "건강",
+        "color": "green",
+        "anchor": "ward",
+        "title": "입원 환자 곁에서|AI가 몸 신호를|지켜봐요",
+        "dek": "이상한 낌새가 보이면|바로 알림을|울려요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261014_212554_e9fa62db-2dc8-406c-8779-b68f67c76afb.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261014_212554_e9fa62db-2dc8-406c-8779-b68f67c76afb_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "개인정보",
+        "meaning": "이름, 연락처처럼|나를 알아볼 수 있는|정보"
+      },
+      {
+        "word": "해킹",
+        "meaning": "허락 없이|남의 컴퓨터에 들어가|정보를 빼내는 일"
+      },
+      {
+        "word": "서술형 평가",
+        "meaning": "답을 고르지 않고|글로 써서 내는|시험"
+      },
+      {
+        "word": "부정맥",
+        "meaning": "심장이 너무 빠르거나|느리게, 또는|들쭉날쭉 뛰는 것"
+      }
+    ]
+  },
+  {
     "date": "2026-10-14",
     "title": "말로 부르는|카톡 AI 비서,|말로 고치는|페이스북 피드,|사진 한 장으로|집 찾는 AI",
     "summary": "카카오톡에|두 손가락으로 불러|말로 부탁하는|AI 비서가 와요.|페이스북은|보고 싶은 것을|말로 알려 주게 됐고,|집 안 사진 한 장으로|어느 집인지 찾는 AI도|나왔어요.",
