@@ -81,7 +81,8 @@
 - 마스코트는 안테나 달린 까치. 로고는 외치는 포즈(부리를 벌리고 날개를 입가에 댄 모습)입니다. 원본 주소는 `assets/brand/sources.json`, 파일은 GitHub Actions(`brand.yml`, `scripts/make_brand.py`)가 만듭니다. 손으로 고치지 않습니다.
 - 쓰는 곳: 상단 메뉴 로고(`assets/brand/lockup.png`: 까치 + 손글씨 '아이고!', 한 장 이미지), 홈 마스코트 띠(`symbol-512.png` + 말풍선), 파비콘·홈 화면 아이콘(`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`), 메일 머리(`email-header.png`), beehiiv 출판물 로고(`icon-1024.png`).
 - 새 페이지를 만들 때도 틀 글의 `<head>` 아이콘 줄(`rel="icon"`, `apple-touch-icon`)과 `header.nav`의 로고를 그대로 둡니다.
-- 꼬리말(검은 바탕)에는 까치가 묻히므로 글자 '아이고'만 씁니다.
+- 이름 뜻(AI + go)이 전해지도록 '아이고' 옆에 `AI-go`를 함께 씁니다: 상단 로고 옆 작은 회색 `AI-go`(좁은 화면에서는 숨김), 홈 마스코트 띠의 'AI + go = 아이고' 이름 이야기, 꼬리말 '아이고 AI-go', 홈 제목. 로고 이미지의 alt도 '아이고 AI-go'.
+- 꼬리말(검은 바탕)에는 까치가 묻히므로 글자 '아이고 AI-go'만 씁니다.
 
 ## 사용성 규칙 (예쁜 것보다 먼저)
 누구나 편하게 쓰는 것이 가장 중요합니다. 아래 기능은 `assets/site.js`와 `assets/style.css`가 모든 페이지에 자동으로 붙이므로, 글 페이지에 따로 넣지 않습니다. 틀 글의 머리(`header.nav`)와 끝(`.post-end`, `#subscribe`)만 그대로 두면 됩니다.

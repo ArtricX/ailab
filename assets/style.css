@@ -65,6 +65,8 @@ p { margin: 0; text-wrap: pretty; }
 .logo { font-family: var(--font-ko); font-size: 1.15rem; letter-spacing: -0.04em; gap: 0.35rem; }
 /* 로고: 외치는 까치 + 손글씨 '아이고!'(assets/brand/lockup.png) 한 장 */
 .logo-lockup { height: 3.1rem; width: auto; flex: none; }
+/* 이름 뜻(AI + go)을 함께 보여 주는 작은 영문 표기. 좁은 화면에서는 숨겨요 */
+.logo-en { font-family: var(--font-display); font-weight: 800; font-size: 0.82rem; letter-spacing: 0; color: var(--grey); align-self: flex-end; margin-bottom: 0.55rem; }
 .nav-links { display: flex; gap: 1.2rem; margin-left: auto; font-size: 0.82rem; }
 .nav-links a { text-decoration: none; }
 .nav-links a:hover { text-decoration: underline; text-underline-offset: 0.25em; }
@@ -94,15 +96,20 @@ p { margin: 0; text-wrap: pretty; }
 .hero-text .pill { justify-self: start; }
 
 /* 마스코트 띠: 외치는 까치가 말풍선으로 소식을 알려요(큰 글자 워드마크 대신) */
-.mascot-band { display: flex; align-items: center; gap: clamp(0.6rem, 2vw, 1.4rem); padding-block: 2.6rem 1.8rem; }
+.mascot-band { display: flex; align-items: flex-start; gap: clamp(0.6rem, 2vw, 1.4rem); padding-block: 2.6rem 1.8rem; }
 .mascot-band .mascot { height: clamp(5.5rem, 13vw, 9rem); width: auto; flex: none; }
 .mascot-bubble {
   position: relative; background: var(--yellow); border: 2px solid var(--ink); border-radius: 1.4rem;
   padding: 0.8rem 1.2rem; font-weight: 800; font-size: clamp(1rem, 2.1vw, 1.35rem); line-height: 1.45; letter-spacing: -0.03em;
 }
+.mascot-talk { display: grid; gap: 0.75rem; justify-items: start; min-width: 0; }
+/* 이름 이야기: 아이고 = AI + go */
+.name-story { font-size: 0.86rem; line-height: 1.6; color: var(--ink); max-width: 34rem; padding-left: 0.3rem; }
+.name-mark { display: block; font-weight: 900; font-size: 1.1rem; letter-spacing: -0.02em; margin-bottom: 0.15rem; }
+.name-en { font-family: var(--font-display); font-weight: 900; padding-inline: 0.1em; background: linear-gradient(transparent 58%, var(--yellow) 58%); }
 /* 말풍선 꼬리: 까치 쪽(왼쪽)을 가리켜요 */
 .mascot-bubble::before {
-  content: ""; position: absolute; left: -0.62rem; top: 50%; width: 1rem; height: 1rem; background: var(--yellow);
+  content: ""; position: absolute; left: -0.62rem; top: 1.5rem; width: 1rem; height: 1rem; background: var(--yellow);
   border-left: 2px solid var(--ink); border-bottom: 2px solid var(--ink); transform: translateY(-50%) rotate(45deg);
 }
 /* 분야 띠: 천천히 흐르는 큰 글자 */
@@ -176,6 +183,7 @@ p { margin: 0; text-wrap: pretty; }
 /* 아래 띠 */
 .footer { margin-top: 4.5rem; display: grid; grid-template-columns: minmax(0, 1fr) auto; background: var(--ink); color: var(--paper); }
 .footer-main { padding: 1.4rem clamp(16px, 4vw, 56px); display: grid; gap: 0.35rem; font-size: 0.8rem; }
+.footer-en { font-family: var(--font-display); font-weight: 800; color: var(--grey); margin-left: 0.25rem; letter-spacing: 0; }
 .footer-main strong { font-family: var(--font-ko); font-weight: 900; font-size: 1.1rem; letter-spacing: -0.04em; }
 .footer-cta { background: var(--blue); color: var(--paper); padding: 1.4rem 2rem; font-weight: 900; font-size: 1rem; display: flex; align-items: center; letter-spacing: -0.02em; }
 
@@ -388,6 +396,7 @@ html { scroll-padding-top: 5.5rem; }
   .nav { flex-wrap: nowrap; column-gap: 0.9rem; padding-block: 0.45rem; }
   .logo { font-size: 1.02rem; flex: none; }
   .logo-lockup { height: 2.6rem; }
+  .logo-en { display: none; }
   .nav-links {
     display: flex; flex: 1 1 auto; min-width: 0; margin-left: 0; gap: 1.05rem;
     overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
