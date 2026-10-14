@@ -96,20 +96,17 @@ p { margin: 0; text-wrap: pretty; }
 .hero-text .pill { justify-self: start; }
 
 /* 마스코트 띠: 외치는 까치가 말풍선으로 소식을 알려요(큰 글자 워드마크 대신) */
-.mascot-band { display: flex; align-items: flex-start; gap: clamp(0.6rem, 2vw, 1.4rem); padding-block: 2.6rem 1.8rem; }
+.mascot-band { display: flex; align-items: center; gap: clamp(0.6rem, 2vw, 1.4rem); padding-block: 2.6rem 1.8rem; }
 .mascot-band .mascot { height: clamp(5.5rem, 13vw, 9rem); width: auto; flex: none; }
 .mascot-bubble {
   position: relative; background: var(--yellow); border: 2px solid var(--ink); border-radius: 1.4rem;
   padding: 0.8rem 1.2rem; font-weight: 800; font-size: clamp(1rem, 2.1vw, 1.35rem); line-height: 1.45; letter-spacing: -0.03em;
 }
-.mascot-talk { display: grid; gap: 0.75rem; justify-items: start; min-width: 0; }
-/* 이름 이야기: 아이고 = AI + go */
-.name-story { font-size: 0.86rem; line-height: 1.6; color: var(--ink); max-width: 34rem; padding-left: 0.3rem; }
-.name-mark { display: block; font-weight: 900; font-size: 1.1rem; letter-spacing: -0.02em; margin-bottom: 0.15rem; }
-.name-en { font-family: var(--font-display); font-weight: 900; padding-inline: 0.1em; background: linear-gradient(transparent 58%, var(--yellow) 58%); }
+/* 말풍선 첫 줄: 이름 뜻을 크게 */
+.bubble-big { display: block; font-size: 1.35em; font-weight: 900; letter-spacing: -0.02em; }
 /* 말풍선 꼬리: 까치 쪽(왼쪽)을 가리켜요 */
 .mascot-bubble::before {
-  content: ""; position: absolute; left: -0.62rem; top: 1.5rem; width: 1rem; height: 1rem; background: var(--yellow);
+  content: ""; position: absolute; left: -0.62rem; top: 50%; width: 1rem; height: 1rem; background: var(--yellow);
   border-left: 2px solid var(--ink); border-bottom: 2px solid var(--ink); transform: translateY(-50%) rotate(45deg);
 }
 /* 분야 띠: 천천히 흐르는 큰 글자 */
