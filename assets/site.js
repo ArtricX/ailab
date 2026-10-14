@@ -220,7 +220,7 @@ function ailabEvent(name) {
           } else {
             e.href = "../index.html";
             eb.textContent = "이전 소식";
-            phrases(et, "AILAB의|첫 소식이에요");
+            phrases(et, "아이고의|첫 소식이에요");
             em.textContent = "처음 화면으로 가기";
           }
           e.appendChild(eb);
