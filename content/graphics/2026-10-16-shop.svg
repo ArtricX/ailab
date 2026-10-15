@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">AI로 물건을 찾아본 미국 어른 550명의 쇼핑 습관</title>
+            <desc id="g3d">쇼핑 AI 회사 프로덕트AI가 8월 27일부터 9월 1일까지 AI로 물건을 찾아본 미국 어른 550명에게 물었다. 89.9%는 AI의 추천을 다른 곳에서 한 번 더 확인했다. AI에게 결제까지 맡긴 사람은 21.6%였다. 돈을 받은 추천인데 광고 표시가 없을 때 AI를 덜 믿게 됐다는 사람은 50.4%, 광고라고 밝혔을 때는 39.8%였다. 막대 끝은 100%다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">90%</text>
+            <text x="34" y="170" font-size="16" font-weight="800">AI 추천을 한 번 더 확인했어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">AI로 물건을 찾아본 미국 어른 550명</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">다른 곳에서 한 번 더 확인했어요</text>
+            <rect class="f-paper" x="34" y="254" width="320" height="36" rx="10"/>
+            <rect class="f-yellow" x="34" y="254" width="288" height="36" rx="10"/>
+            <text x="306" y="278" font-size="15" font-weight="900" text-anchor="end">89.9%</text>
+            <text x="34" y="330" font-size="14" font-weight="800">AI에게 결제까지 맡겼어요</text>
+            <rect class="f-paper" x="34" y="340" width="320" height="36" rx="10"/>
+            <rect class="f-yellow" x="34" y="340" width="69" height="36" rx="10"/>
+            <text x="115" y="364" font-size="15" font-weight="900">21.6%</text>
+            <text class="grey" x="34" y="410" font-size="12.5">프로덕트AI 설문 · 8월 27일~9월 1일</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">AI를 덜 믿게 됐어요</text>
+            <text class="grey" x="440" y="80" font-size="12.5">돈을 받고 추천한 물건을 봤을 때</text>
+            <text x="440" y="122" font-size="14" font-weight="800">광고 표시가 없었을 때</text>
+            <rect class="f-paper" x="440" y="132" width="320" height="36" rx="10"/>
+            <rect class="f-ink" x="440" y="132" width="161" height="36" rx="10"/>
+            <text class="red" x="613" y="156" font-size="15" font-weight="900">50.4%</text>
+            <text x="440" y="208" font-size="14" font-weight="800">광고라고 밝혔을 때</text>
+            <rect class="f-paper" x="440" y="218" width="320" height="36" rx="10"/>
+            <rect class="f-yellow" x="440" y="218" width="127" height="36" rx="10"/>
+            <text x="579" y="242" font-size="15" font-weight="900">39.8%</text>
+            <text class="grey" x="440" y="276" font-size="12">막대 끝은 100%예요</text>
+
+            <text x="440" y="324" font-size="15" font-weight="800">사기 전에 이렇게</text>
+            <rect class="f-paper" x="440" y="338" width="320" height="44" rx="14"/>
+            <text x="600" y="366" font-size="14.5" font-weight="900" text-anchor="middle">값과 후기는 판매처에서 직접</text>
+            <rect class="f-paper" x="440" y="390" width="320" height="44" rx="14"/>
+            <text x="600" y="418" font-size="14.5" font-weight="900" text-anchor="middle">'광고' 표시가 있는지 살피기</text>
+          </svg>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">2026 대한민국 AI 콘텐츠 어워즈 출품작과 수상작</title>
+            <desc id="g2d">경기도가 연 2026 대한민국 AI 콘텐츠 어워즈에 87개 나라와 지역에서 생성형 AI로 만든 영화와 영상 1,528편이 들어왔다. 역대 가장 많다. 이 가운데 20편이 본선에 올랐고 11편이 상을 받았다. 막대 길이는 실제 비율이다. 상은 30분에서 60분짜리 중편 부문(올해 새로 생김), 30분이 안 되는 단편 부문, 백남준 특별상 3가지이고 상금은 모두 7천만 원이다. 본선작은 10월 28일까지 롯데시네마 31곳에서 상영한다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">1,528</text>
+            <text x="34" y="170" font-size="16" font-weight="800">편이 들어왔어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">87개 나라와 지역 · 역대 가장 많아요</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">들어온 작품</text>
+            <rect class="f-pink" x="34" y="254" width="320" height="36" rx="10"/>
+            <text class="white" x="338" y="278" font-size="15" font-weight="900" text-anchor="end">1,528편</text>
+            <text x="34" y="318" font-size="14" font-weight="800">본선에 오른 작품</text>
+            <rect class="f-pink" x="34" y="328" width="5" height="36" rx="2"/>
+            <text x="50" y="352" font-size="15" font-weight="900">20편</text>
+            <text x="34" y="392" font-size="14" font-weight="800">상을 받은 작품</text>
+            <rect class="f-ink" x="34" y="402" width="3" height="36" rx="1"/>
+            <text class="red" x="48" y="426" font-size="15" font-weight="900">11편</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">상은 세 가지</text>
+            <rect class="f-pink" x="440" y="72" width="320" height="56" rx="16"/>
+            <text class="white" x="460" y="97" font-size="15" font-weight="900">중편 · 30~60분</text>
+            <text class="white" x="460" y="117" font-size="12.5">올해 새로 생겼어요</text>
+            <rect class="f-paper" x="440" y="138" width="320" height="48" rx="16"/>
+            <text x="460" y="168" font-size="15" font-weight="900">단편 · 30분 미만</text>
+            <rect class="f-paper" x="440" y="196" width="320" height="56" rx="16"/>
+            <text x="460" y="221" font-size="15" font-weight="900">백남준 특별상</text>
+            <text class="grey" x="460" y="241" font-size="12.5">백남준 작가 20주기를 기려요</text>
+
+            <text x="440" y="300" font-size="14" font-weight="800">상금은 모두</text>
+            <text class="num" x="440" y="352" font-size="44" letter-spacing="-1">7천만 원</text>
+            <text x="440" y="396" font-size="14" font-weight="800">본선작은 10월 28일까지</text>
+            <text x="440" y="420" font-size="14" font-weight="800">롯데시네마 31곳에서 상영해요</text>
+          </svg>

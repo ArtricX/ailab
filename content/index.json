@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-16",
+      "title": "AI 가짜를 가려내는 경찰, AI로 만든 영화 1,528편, 한 번 더 보는 AI 쇼핑",
+      "file": "content/2026-10-16.json",
+      "stories": [
+        {
+          "anchor": "fake",
+          "tag": "안전",
+          "color": "blue",
+          "title": "경찰이 AI로 만든 가짜 영상과 목소리를 가려내요"
+        },
+        {
+          "anchor": "film",
+          "tag": "창작",
+          "color": "pink",
+          "title": "87개 나라에서 AI로 만든 영화 1,528편이 모였어요"
+        },
+        {
+          "anchor": "shop",
+          "tag": "돈",
+          "color": "yellow",
+          "title": "AI가 골라 준 물건, 10명 중 9명은 한 번 더 확인해요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-15",
       "title": "금융회사 16곳 개인정보 유출, 다시 봐야 하는 AI 채점, 병상을 지키는 AI",
       "file": "content/2026-10-15.json",

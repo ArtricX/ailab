@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-16",
+    "title": "AI 가짜를|가려내는 경찰,|AI로 만든|영화 1,528편,|한 번 더 보는|AI 쇼핑",
+    "summary": "경찰이 AI로 만든|가짜 영상과 목소리를|가려내기로 했어요.|AI 영화 대회에는|87개 나라에서|1,528편이 모였고,|AI로 물건을 찾아본 사람|10명 중 9명은|추천을 한 번 더|확인했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "안전",
+        "color": "blue",
+        "anchor": "fake",
+        "title": "경찰이|AI로 만든|가짜 영상과|목소리를 가려내요",
+        "dek": "영상, 목소리, 글을|함께 맞춰 보며|가짜를 찾아요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261015_213737_4ec5bbb5-3060-47fa-8b80-a7eab55cb2fd.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261015_213737_4ec5bbb5-3060-47fa-8b80-a7eab55cb2fd_min.webp"
+      },
+      {
+        "tag": "창작",
+        "color": "pink",
+        "anchor": "film",
+        "title": "87개 나라에서|AI로 만든 영화|1,528편이 모였어요",
+        "dek": "AI와 함께 만든|작품 11편이|상을 받았어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261015_213737_5984d54b-dcbe-4016-9eed-d0d560ff11a3.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261015_213737_5984d54b-dcbe-4016-9eed-d0d560ff11a3_min.webp"
+      },
+      {
+        "tag": "돈",
+        "color": "yellow",
+        "anchor": "shop",
+        "title": "AI가 골라 준 물건,|10명 중 9명은|한 번 더 확인해요",
+        "dek": "AI에게 결제까지|맡긴 사람은|5명 중 1명꼴이에요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261015_213737_4b1fcd24-9a77-46f1-8658-c2d9c27ed8b7.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261015_213737_4b1fcd24-9a77-46f1-8658-c2d9c27ed8b7_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "딥페이크",
+        "meaning": "AI로 진짜처럼 꾸며 낸|가짜 사진이나|영상"
+      },
+      {
+        "word": "보이스피싱",
+        "meaning": "전화로 남을 속여|돈을 빼앗는|사기"
+      },
+      {
+        "word": "생성형 AI",
+        "meaning": "글, 그림, 영상을|새로 만들어 내는|AI"
+      },
+      {
+        "word": "광고 표시",
+        "meaning": "돈을 받고 보여 주는|내용이라고|알리는 표시"
+      }
+    ]
+  },
+  {
     "date": "2026-10-15",
     "title": "금융회사 16곳|개인정보 유출,|다시 봐야 하는|AI 채점,|병상을 지키는 AI",
     "summary": "금융회사 16곳에서|개인정보 약 10만 건이|빠져나갔어요.|AI 채점을 써 본 교사|10명 중 6명은|일이 늘었다고 했고,|병원에서는 AI가|입원 환자의 몸 신호를|지켜보기 시작했어요.",
