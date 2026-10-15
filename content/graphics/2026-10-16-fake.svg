@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">경찰의 AI 조작물 가려내기 계획</title>
+            <desc id="g1d">경찰청 국가수사본부가 10월 15일 AI로 조작한 콘텐츠를 가려내는 계획을 내놨다. 영상과 사진만 보던 것에서 영상, 목소리, 글 3가지를 함께 살핀다. 말하는 입 모양과 목소리가 맞는지, 목소리와 자막이 맞는지 맞춰 본다. 가짜를 찾는 기술 개발에 2025년부터 2027년까지 91억 원, 만든 과정부터 퍼뜨린 과정까지 따라가는 증거 추적 도구에 2026년부터 2029년까지 100억 원을 쓴다. 전국 시도경찰청에 AI 분석관을 둔다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">3가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">영상 · 목소리 · 글을 함께 봐요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">경찰청 발표 · 10월 15일</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">이렇게 맞춰 봐요</text>
+            <rect class="f-blue" x="34" y="258" width="145" height="48" rx="16"/>
+            <text class="white" x="106" y="288" font-size="15" font-weight="900" text-anchor="middle">입 모양</text>
+            <text x="194" y="289" font-size="18" font-weight="900" text-anchor="middle">=?</text>
+            <rect class="f-blue" x="209" y="258" width="145" height="48" rx="16"/>
+            <text class="white" x="281" y="288" font-size="15" font-weight="900" text-anchor="middle">목소리</text>
+            <rect class="f-blue" x="34" y="316" width="145" height="48" rx="16"/>
+            <text class="white" x="106" y="346" font-size="15" font-weight="900" text-anchor="middle">목소리</text>
+            <text x="194" y="347" font-size="18" font-weight="900" text-anchor="middle">=?</text>
+            <rect class="f-blue" x="209" y="316" width="145" height="48" rx="16"/>
+            <text class="white" x="281" y="346" font-size="15" font-weight="900" text-anchor="middle">자막</text>
+            <text class="grey" x="34" y="400" font-size="12.5">서로 어긋나면 가짜일 수 있어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">들이는 돈</text>
+            <text x="440" y="96" font-size="14" font-weight="800">가짜 찾는 기술 · 2025~2027년</text>
+            <rect class="f-paper" x="440" y="106" width="320" height="40" rx="12"/>
+            <rect class="f-blue" x="440" y="106" width="291" height="40" rx="12"/>
+            <text class="white" x="716" y="132" font-size="16" font-weight="900" text-anchor="end">91억 원</text>
+            <text x="440" y="186" font-size="14" font-weight="800">증거 추적 도구 · 2026~2029년</text>
+            <rect class="f-blue" x="440" y="196" width="320" height="40" rx="12"/>
+            <text class="white" x="744" y="222" font-size="16" font-weight="900" text-anchor="end">100억 원</text>
+            <text class="grey" x="440" y="258" font-size="12">막대 끝은 100억 원이에요</text>
+
+            <text x="440" y="306" font-size="15" font-weight="800">사람도 늘려요</text>
+            <rect class="f-paper" x="440" y="320" width="320" height="48" rx="16"/>
+            <text x="600" y="350" font-size="15" font-weight="900" text-anchor="middle">전국 시도경찰청에 AI 분석관</text>
+            <text class="red" x="440" y="408" font-size="14" font-weight="800">만든 곳부터 퍼진 곳까지 따라가요</text>
+          </svg>
