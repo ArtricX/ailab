@@ -214,6 +214,7 @@ p { margin: 0; text-wrap: pretty; }
 .pill-tag.c-yellow { background: var(--yellow); }
 .pill-tag.c-pink { background: var(--pink); }
 .pill-tag.c-green { background: var(--green); color: var(--paper); }
+.pill-tag.c-red { background: var(--red); color: var(--paper); }
 .story-head h2 { font-size: clamp(1.9rem, 4vw, 3rem); font-weight: 900; line-height: 1.12; letter-spacing: -0.05em; }
 .story-head .dek { font-size: 1.02rem; line-height: 1.65; }
 
@@ -229,6 +230,7 @@ p { margin: 0; text-wrap: pretty; }
 .story.a-yellow { --accent: var(--yellow); }
 .story.a-pink { --accent: var(--pink); }
 .story.a-green { --accent: var(--green); }
+.story.a-red { --accent: var(--red); }
 
 /* 인포그래픽 */
 .figure { margin: 0; display: grid; gap: 0.6rem; }

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">구글 딥 리뷰의 무료 사용 횟수와 하는 일</title>
+            <desc id="g3d">구글 리서치가 10월 14일 문서 검사 AI '딥 리뷰'를 누구나 쓸 수 있게 열었다. 무료로는 일주일에 두 번 쓸 수 있다. 일주일 7칸 가운데 2칸을 칠했다. 딥 리뷰는 계산 실수, 앞뒤가 안 맞는 논리, 근거 없는 주장을 찾고, 계약서나 재무 문서는 조항과 표가 서로 맞는지, 뜻이 애매한 말이 있는지 살핀다. 처음에는 논문을 검토하려고 만들었고, 시범 운영에서 1만 5천 편이 넘는 논문을 살폈다. 올린 문서는 AI 학습에 쓰지 않지만 1년 동안 보관한다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">2번</text>
+            <text x="34" y="170" font-size="16" font-weight="800">일주일에 무료로 쓸 수 있어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">구글 리서치 · 10월 14일 공개</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">일주일 7일 가운데</text>
+            <rect class="f-blue" x="34" y="258" width="38" height="48" rx="10"/>
+            <rect class="f-blue" x="81" y="258" width="38" height="48" rx="10"/>
+            <rect class="f-paper" x="128" y="258" width="38" height="48" rx="10"/>
+            <rect class="f-paper" x="175" y="258" width="38" height="48" rx="10"/>
+            <rect class="f-paper" x="222" y="258" width="38" height="48" rx="10"/>
+            <rect class="f-paper" x="269" y="258" width="38" height="48" rx="10"/>
+            <rect class="f-paper" x="316" y="258" width="38" height="48" rx="10"/>
+            <text class="grey" x="34" y="334" font-size="12.5">더 쓰려면 제미나이 이용 열쇠(API 키)를 연결해요</text>
+
+            <text x="34" y="384" font-size="14" font-weight="800">처음엔 논문 검사용이었어요</text>
+            <text x="34" y="420" font-size="15" font-weight="900">시범으로 1만 5천 편 넘게 살폈어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이런 것을 찾아요</text>
+            <rect class="f-blue" x="440" y="72" width="320" height="48" rx="16"/>
+            <text class="white" x="600" y="102" font-size="15" font-weight="900" text-anchor="middle">계산 실수</text>
+            <rect class="f-paper" x="440" y="130" width="320" height="48" rx="16"/>
+            <text x="600" y="160" font-size="15" font-weight="900" text-anchor="middle">앞뒤가 안 맞는 논리</text>
+            <rect class="f-paper" x="440" y="188" width="320" height="48" rx="16"/>
+            <text x="600" y="218" font-size="15" font-weight="900" text-anchor="middle">근거 없는 주장</text>
+            <rect class="f-paper" x="440" y="246" width="320" height="48" rx="16"/>
+            <text x="600" y="276" font-size="15" font-weight="900" text-anchor="middle">계약서 조항과 표가 맞는지</text>
+
+            <text x="440" y="344" font-size="15" font-weight="800">올린 문서는</text>
+            <text x="440" y="378" font-size="14" font-weight="800">AI 학습에는 쓰지 않아요</text>
+            <text class="red" x="440" y="410" font-size="15" font-weight="900">하지만 1년 동안 보관해요</text>
+          </svg>
