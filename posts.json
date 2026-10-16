@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-17",
+    "title": "시험을 시작한|모두의 AI,|나를 찾아오는|챗GPT 광고,|문서를 검사하는|구글 AI",
+    "summary": "전 국민 무료|'모두의 AI'가|시험을 시작했어요.|챗GPT 광고는|이메일과 전화번호 명단으로도|보는 사람을 고른다는|보도가 나왔고,|구글은 문서 속 실수를|찾아 주는 AI를|무료로 열었어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "생활",
+        "color": "green",
+        "anchor": "modu",
+        "title": "전 국민 무료|'모두의 AI',|시험이 시작됐어요",
+        "dek": "시험을 거쳐|12월에 모두에게|열 계획이에요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261016_212013_29773cdc-c28c-4200-bb49-df293628d503.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261016_212013_29773cdc-c28c-4200-bb49-df293628d503_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "red",
+        "anchor": "ads",
+        "title": "챗GPT 광고가|이메일과|전화번호로|나를 찾아와요",
+        "dek": "맞춤 광고를 꺼도|지금 나누는 대화에 맞춘|광고는 나올 수 있어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261016_212012_1e48e36f-fe0f-4625-84e8-fdc197a46035.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261016_212012_1e48e36f-fe0f-4625-84e8-fdc197a46035_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "blue",
+        "anchor": "review",
+        "title": "긴 문서 속|실수를 찾아 주는|구글 AI가 나왔어요",
+        "dek": "누구나 일주일에|두 번까지|무료로 쓸 수 있어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261016_212013_2c1d9ee6-6b86-4a83-b0b7-b70194f5c528.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261016_212013_2c1d9ee6-6b86-4a83-b0b7-b70194f5c528_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "베타 시험",
+        "meaning": "정식으로 내놓기 전에|미리 써 보며|고칠 곳을 찾는 일"
+      },
+      {
+        "word": "맞춤 광고",
+        "meaning": "내 정보와 관심사에 맞춰|골라 보여 주는|광고"
+      },
+      {
+        "word": "광고주",
+        "meaning": "돈을 내고|광고를 거는|회사나 사람"
+      },
+      {
+        "word": "논문",
+        "meaning": "연구한 내용을|정해진 형식으로|정리한 글"
+      }
+    ]
+  },
+  {
     "date": "2026-10-16",
     "title": "AI 가짜를|가려내는 경찰,|AI로 만든|영화 1,528편,|한 번 더 보는|AI 쇼핑",
     "summary": "경찰이 AI로 만든|가짜 영상과 목소리를|가려내기로 했어요.|AI 영화 대회에는|87개 나라에서|1,528편이 모였고,|AI로 물건을 찾아본 사람|10명 중 9명은|추천을 한 번 더|확인했어요.",

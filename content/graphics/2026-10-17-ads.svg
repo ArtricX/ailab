@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">챗GPT 광고가 보는 사람을 고르는 방법</title>
+            <desc id="g2d">미국 언론 404미디어가 직접 광고를 걸어 시험해 보고 10월 15일 보도했다. 광고주가 이메일, 전화번호, 휴대폰 광고 번호 명단을 올리면 오픈AI가 챗GPT 사용자와 맞춰 보고, 맞는 사람이 광고를 볼 수 있는 대상이 된다. 명단은 2만 5천 개가 넘어야 쓸 수 있어 한 사람만 골라낼 수는 없다. 오픈AI는 올린 명단을 24시간 안에 지운다고 했다. 맞춤 광고를 끄면 지난 대화와 활동에 맞춘 광고는 꺼지지만, 지금 나누는 대화에 맞춘 광고는 나올 수 있다.</desc>
+            <text class="num" x="30" y="128" font-size="92" letter-spacing="-3">2만 5천</text>
+            <text x="34" y="170" font-size="16" font-weight="800">개가 넘는 명단만 쓸 수 있어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">한 사람만 콕 집어 고를 수는 없대요</text>
+
+            <rect class="f-paper" x="34" y="226" width="320" height="52" rx="16"/>
+            <text x="194" y="258" font-size="14.5" font-weight="900" text-anchor="middle">광고주가 이메일 · 전화번호 명단을 올려요</text>
+            <line class="line" x1="194" y1="284" x2="194" y2="296" stroke-width="3"/>
+            <path class="f-ink" d="M194 306 l-8 -12 h16z"/>
+            <rect class="f-red" x="34" y="310" width="320" height="52" rx="16"/>
+            <text class="white" x="194" y="342" font-size="14.5" font-weight="900" text-anchor="middle">오픈AI가 챗GPT 사용자와 맞춰 봐요</text>
+            <line class="line" x1="194" y1="368" x2="194" y2="380" stroke-width="3"/>
+            <path class="f-ink" d="M194 390 l-8 -12 h16z"/>
+            <rect class="f-paper" x="34" y="394" width="320" height="52" rx="16"/>
+            <text x="194" y="426" font-size="14.5" font-weight="900" text-anchor="middle">맞는 사람에게 광고가 나갈 수 있어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">맞춤 광고를 끄면</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="64" rx="16"/>
+            <text x="460" y="102" font-size="15" font-weight="900">지난 대화와 활동에 맞춘 광고</text>
+            <text class="grey" x="460" y="124" font-size="13">꺼져요</text>
+            <rect class="f-ink" x="440" y="148" width="320" height="64" rx="16"/>
+            <text class="white" x="460" y="176" font-size="15" font-weight="900">지금 나누는 대화에 맞춘 광고</text>
+            <text class="white" x="460" y="198" font-size="13">그래도 나올 수 있어요</text>
+
+            <text x="440" y="262" font-size="15" font-weight="800">오픈AI의 설명</text>
+            <rect class="f-paper" x="440" y="278" width="320" height="52" rx="16"/>
+            <text x="600" y="310" font-size="14.5" font-weight="900" text-anchor="middle">올린 명단은 24시간 안에 지워요</text>
+            <rect class="f-paper" x="440" y="340" width="320" height="52" rx="16"/>
+            <text x="600" y="372" font-size="14.5" font-weight="900" text-anchor="middle">누가 맞았는지 광고주에게 안 알려요</text>
+            <text class="grey" x="440" y="424" font-size="12.5">404미디어 보도 · 미국에서 시험한 결과</text>
+          </svg>

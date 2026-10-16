@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">'모두의 AI' 일정과 세 가지 쓰는 길</title>
+            <desc id="g1d">과학기술정보통신부가 8월에 고른 세 팀이 10월 16일 '모두의 AI' 비공개 시험을 시작했다. 지금은 참여 회사와 공공기관 직원만 써 본다. 12월에 전 국민에게 무료로 정식으로 여는 것이 목표다. 쓰는 길은 세 가지다. SK텔레콤 팀은 전화와 문자, KT 팀은 다음 검색, 카카오 팀은 카카오톡으로 쓴다. 세 팀 모두 우리나라에서 만든 AI 모델을 쓴다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">12월</text>
+            <text x="34" y="170" font-size="16" font-weight="800">모두에게 무료로 열 계획이에요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">과학기술정보통신부 사업 · 세 팀 참여</text>
+
+            <rect class="f-paper" x="34" y="226" width="320" height="52" rx="16"/>
+            <text x="54" y="258" font-size="15" font-weight="900">8월</text>
+            <text class="grey" x="110" y="258" font-size="13.5">정부가 세 팀을 골랐어요</text>
+            <line class="line" x1="194" y1="284" x2="194" y2="296" stroke-width="3"/>
+            <path class="f-ink" d="M194 306 l-8 -12 h16z"/>
+            <rect class="f-green" x="34" y="310" width="320" height="52" rx="16"/>
+            <text class="white" x="54" y="342" font-size="15" font-weight="900">10월 16일</text>
+            <text class="white" x="146" y="342" font-size="13.5" font-weight="700">비공개 시험 시작</text>
+            <line class="line" x1="194" y1="368" x2="194" y2="380" stroke-width="3"/>
+            <path class="f-ink" d="M194 390 l-8 -12 h16z"/>
+            <rect class="f-paper" x="34" y="394" width="320" height="52" rx="16"/>
+            <text x="54" y="426" font-size="15" font-weight="900">12월</text>
+            <text class="grey" x="110" y="426" font-size="13.5">정식으로 여는 것이 목표</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">쓰는 길은 세 가지</text>
+            <rect class="f-green" x="440" y="74" width="320" height="64" rx="16"/>
+            <text class="white" x="460" y="102" font-size="16" font-weight="900">전화 · 문자</text>
+            <text class="white" x="460" y="124" font-size="12.5">SK텔레콤 팀 · 대신 전화해 예약해요</text>
+            <rect class="f-paper" x="440" y="148" width="320" height="64" rx="16"/>
+            <text x="460" y="176" font-size="16" font-weight="900">검색</text>
+            <text class="grey" x="460" y="198" font-size="12.5">KT 팀 · 다음 검색에서 예약까지</text>
+            <rect class="f-paper" x="440" y="222" width="320" height="64" rx="16"/>
+            <text x="460" y="250" font-size="16" font-weight="900">카카오톡</text>
+            <text class="grey" x="460" y="272" font-size="12.5">카카오 팀 · 앱을 따로 깔지 않아요</text>
+
+            <text x="440" y="330" font-size="15" font-weight="800">지금 써 보는 사람</text>
+            <rect class="f-paper" x="440" y="344" width="320" height="52" rx="16"/>
+            <text class="red" x="600" y="376" font-size="15" font-weight="900" text-anchor="middle">참여 회사와 공공기관 직원만</text>
+            <text class="grey" x="440" y="424" font-size="12.5">일반인 참여는 아직 검토 중이에요</text>
+          </svg>
