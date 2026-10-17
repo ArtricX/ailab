@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">AI 답과 의사가 확인한 답 가운데 환자들이 고른 것</title>
+            <desc id="g1d">미국 컬럼비아대 간호대학 연구팀이 미국 성인 1,185명에게 물었다. 병원 앱으로 질문을 보내면 5분 안에 오는 AI 답과, 의사나 간호사가 고쳐 48시간 안에 오는 답 가운데 하나를 고르게 했다. 진료 질문에는 63%가 기다리겠다고 했고 37%가 빠른 AI 답을 골랐다. 진료 예약이나 약 처방을 다시 받는 일에는 57%가 빠른 AI 답을, 43%가 기다리는 쪽을 골랐다. 마음 상담은 3달 기다리는 사람 상담사를 64%, 상담사가 지켜보는 AI를 1달 안에 쓰는 것을 50%, AI만 바로 쓰는 것을 44%가 쓸 마음이 있다고 했다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">63%</text>
+            <text x="34" y="170" font-size="16" font-weight="800">진료 질문엔 사람 확인을 기다릴래요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">AI 답 5분 · 사람이 고친 답 48시간</text>
+
+            <text x="34" y="244" font-size="14" font-weight="800">진료 질문</text>
+            <rect class="f-green" x="34" y="256" width="202" height="44" rx="10"/>
+            <rect class="f-paper" x="236" y="256" width="118" height="44" rx="10"/>
+            <text class="white" x="48" y="284" font-size="13.5" font-weight="800">기다릴래요 63%</text>
+            <text class="grey" x="342" y="284" font-size="12.5" font-weight="700" text-anchor="end">빠른 AI 37%</text>
+
+            <text x="34" y="336" font-size="14" font-weight="800">진료 예약 · 약 처방 다시 받기</text>
+            <rect class="f-green" x="34" y="348" width="136" height="44" rx="10"/>
+            <rect class="f-paper" x="170" y="348" width="184" height="44" rx="10"/>
+            <text class="white" x="48" y="376" font-size="13.5" font-weight="800">기다릴래요 43%</text>
+            <text class="grey" x="342" y="376" font-size="12.5" font-weight="700" text-anchor="end">빠른 AI 57%</text>
+            <text class="grey" x="34" y="428" font-size="12.5">미국 성인 1,185명 · 2024년 조사</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="50" font-size="15" font-weight="800">마음 상담은 무엇을 쓸까요</text>
+            <text class="grey" x="440" y="72" font-size="12.5">쓸 마음이 있다고 답한 사람</text>
+
+            <text x="440" y="106" font-size="13.5" font-weight="800">사람 상담사 · 3달 기다림</text>
+            <rect class="f-green" x="440" y="116" width="204" height="36" rx="10"/>
+            <text x="656" y="141" font-size="15" font-weight="900">64%</text>
+
+            <text x="440" y="186" font-size="13.5" font-weight="800">상담사가 지켜보는 AI · 1달 안</text>
+            <rect class="f-paper" x="440" y="196" width="161" height="36" rx="10"/>
+            <text x="613" y="221" font-size="15" font-weight="900">50%</text>
+
+            <text x="440" y="266" font-size="13.5" font-weight="800">AI만 · 바로</text>
+            <rect class="f-paper" x="440" y="276" width="142" height="36" rx="10"/>
+            <text class="red" x="594" y="301" font-size="15" font-weight="900">44%</text>
+
+            <text x="440" y="364" font-size="14.5" font-weight="800">급하지 않은 일은 빠른 AI도 좋대요</text>
+            <text class="grey" x="440" y="392" font-size="12.5">미국 의학 학술지 · 10월 14일 발표</text>
+            <text class="grey" x="440" y="414" font-size="12.5">막대 길이는 100%를 기준으로 그렸어요</text>
+          </svg>

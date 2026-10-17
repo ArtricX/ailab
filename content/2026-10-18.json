@@ -1,0 +1,376 @@
+{
+  "schema": 1,
+  "date": "2026-10-18",
+  "weekday": "일",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-18.html",
+  "minutes": 5,
+  "title": {
+    "text": "의사 확인을 기다리는 환자, 통째로 사라진 TV 프로그램, 의심받는 진짜 영상",
+    "phrases": [
+      "의사 확인을",
+      "기다리는 환자,",
+      "통째로 사라진",
+      "TV 프로그램,",
+      "의심받는",
+      "진짜 영상"
+    ]
+  },
+  "share": {
+    "title": "환자 3명 중 2명은 의사 확인을 기다려요 외 2건 · 아이고 10월 18일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 18일 일요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-18.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "wait",
+      "tag": "건강",
+      "color": "green",
+      "label": "의사 확인을 기다리는 환자"
+    },
+    {
+      "anchor": "backup",
+      "tag": "일",
+      "color": "blue",
+      "label": "통째로 사라진 TV 프로그램"
+    },
+    {
+      "anchor": "proof",
+      "tag": "안전",
+      "color": "yellow",
+      "label": "의심받는 진짜 영상"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "wait",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-18.html#wait",
+      "tag": "건강",
+      "color": "green",
+      "title": {
+        "text": "환자 3명 중 2명은 AI 답보다 의사 확인을 기다려요",
+        "phrases": [
+          "환자 3명 중 2명은",
+          "AI 답보다",
+          "의사 확인을",
+          "기다려요"
+        ]
+      },
+      "dek": {
+        "text": "진료 예약 같은 일은 빠른 AI 답을 더 많이 골랐어요.",
+        "phrases": [
+          "진료 예약 같은 일은",
+          "빠른 AI 답을",
+          "더 많이 골랐어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_f6f626d3-1c46-46c3-bdee-f43049681892.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_f6f626d3-1c46-46c3-bdee-f43049681892.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 작은 대기실 의자에 앉아 편지를 들고 차분히 기다리고, 작은 흰 로봇이 종이비행기 답장을 들고 휙 날아오지만, 의자 옆에서 이마에 둥근 거울을 단 의사가 로봇의 종이를 연필로 꼼꼼히 살피는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-18-wait.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-18-wait.svg",
+        "viewBox": "0 0 800 460",
+        "title": "AI 답과 의사가 확인한 답 가운데 환자들이 고른 것",
+        "desc": "미국 컬럼비아대 간호대학 연구팀이 미국 성인 1,185명에게 물었다. 병원 앱으로 질문을 보내면 5분 안에 오는 AI 답과, 의사나 간호사가 고쳐 48시간 안에 오는 답 가운데 하나를 고르게 했다. 진료 질문에는 63%가 기다리겠다고 했고 37%가 빠른 AI 답을 골랐다. 진료 예약이나 약 처방을 다시 받는 일에는 57%가 빠른 AI 답을, 43%가 기다리는 쪽을 골랐다. 마음 상담은 3달 기다리는 사람 상담사를 64%, 상담사가 지켜보는 AI를 1달 안에 쓰는 것을 50%, AI만 바로 쓰는 것을 44%가 쓸 마음이 있다고 했다.",
+        "caption": {
+          "text": "이번 조사는 미국에서 한 것이라 우리와 다를 수 있어요.",
+          "phrases": [
+            "이번 조사는",
+            "미국에서 한 것이라",
+            "우리와 다를 수 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국 컬럼비아대 간호대학 연구팀이 성인 1,185명에게 물어본 결과를 10월 14일 발표했어요. 병원 앱으로 질문을 보내면 두 가지 답 가운데 하나를 고르게 했어요. 하나는 AI가 5분 안에 주는 답이에요. 다른 하나는 의사나 간호사가 AI 답을 살펴 고친 뒤 48시간 안에 주는 답이에요. 진료 질문에는 63%가 기다리는 쪽을 골랐어요.",
+            "nobreak": [
+              "1,185명",
+              "10월 14일",
+              "5분",
+              "48시간",
+              "63%"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "몸에 관한 일은 틀리면 크게 다칠 수 있어요. 그래서 조금 늦더라도 사람이 확인한 답을 더 믿었어요. 반대로 진료 예약이나 약 처방을 다시 받는 일은 57%가 빠른 AI 답을 골랐어요. 마음 상담도 3달을 기다려야 하는 사람 상담사를 가장 많이 골랐어요. 연구팀은 AI를 언제 쓸지 환자도 함께 정해야 한다고 했어요.",
+            "nobreak": [
+              "57%",
+              "3달"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "병원에서 AI가 쓴 답을 받으면 의사가 확인했는지 물어봐도 괜찮아요. 예약처럼 간단한 일은 AI의 도움을 받으면 편해요. 몸이 아프거나 약을 바꾸는 일은 꼭 의사, 약사와 이야기해 주세요. 이번 조사는 미국에서 한 것이라 우리와 다를 수 있어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "유레카얼럿·컬럼비아대 간호대학",
+          "date": "10월 14일",
+          "url": "https://www.eurekalert.org/news-releases/1147764"
+        },
+        {
+          "name": "메디컬 이코노믹스",
+          "date": "10월 15일",
+          "url": "https://www.medicaleconomics.com/view/patients-would-rather-wait-for-a-clinician-s-review-than-get-an-instant-ai-answer-to-medical-questions"
+        },
+        {
+          "name": "너싱 타임스",
+          "date": "10월 16일",
+          "url": "https://www.nursingtimes.net/digital-and-technology/patients-prefer-human-medical-advice-over-immediate-ai-16-10-2026/"
+        }
+      ]
+    },
+    {
+      "anchor": "backup",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-18.html#backup",
+      "tag": "일",
+      "color": "blue",
+      "title": {
+        "text": "AI에게 맡겼더니 다 만든 방송이 사라졌대요",
+        "phrases": [
+          "AI에게 맡겼더니",
+          "다 만든 방송이",
+          "사라졌대요"
+        ]
+      },
+      "dek": {
+        "text": "방송사는 AI가 아니라 사람의 실수라고 했어요.",
+        "phrases": [
+          "방송사는",
+          "AI가 아니라",
+          "사람의 실수라고 했어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_27d4be94-c809-4ffd-8fc2-072b643d8749.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_27d4be94-c809-4ffd-8fc2-072b643d8749.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "큰 분홍 지우개를 든 작은 흰 로봇이 필름 통이 있던 텅 빈 선반 옆에 앉아 있고, 동그란 사람이 바닥에 구멍 난 금고를 열어 들여다보며, 바닥에 필름 조각 몇 개가 흩어진 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-18-backup.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-18-backup.svg",
+        "viewBox": "0 0 800 460",
+        "title": "스웨덴 TV 프로그램 편집본이 사라진 과정",
+        "desc": "스웨덴 신문 아프톤블라데트가 10월 15일 보도했다. 제작사가 다 만든 편집본을 서버에 두고 AI 에이전트에게 서버를 다룰 수 있게 해 줬는데, 편집본이 지워졌고 백업도 되지 않았다고 한다. 원래 11월 22일이던 첫 방송은 2027년으로 미뤄졌다. 찍어 둔 원본 영상은 남아 있어 편집을 처음부터 다시 해야 한다. 방송사 TV4는 기술적 문제라고 했다가, 조사해 보니 AI가 아니라 제작사 사람의 실수였다고 밝혔다.",
+        "caption": {
+          "text": "정확히 무슨 일이 있었는지는 아직 자세히 밝혀지지 않았어요.",
+          "phrases": [
+            "정확히 무슨 일이 있었는지는",
+            "아직 자세히",
+            "밝혀지지 않았어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "스웨덴 TV 프로그램 '더 챌린지' 새 시즌의 다 만든 편집본이 통째로 사라졌어요. 스웨덴 신문이 10월 15일 처음 보도했어요. 제작사가 AI 에이전트에게 서버를 다룰 수 있게 해 줬는데, 그 AI가 편집본을 지웠다는 내용이에요. 11월 22일이던 첫 방송은 2027년으로 미뤄졌어요.",
+            "nobreak": [
+              "'더 챌린지'",
+              "10월 15일",
+              "11월 22일",
+              "2027년"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "백업도 제대로 되지 않아 지워진 파일을 되살리지 못했어요. 찍어 둔 원본 영상은 남아 있어서 편집을 처음부터 다시 해야 해요. 그런데 방송사 TV4는 조사해 보니 AI가 아니라 제작사 사람의 실수였다고 했어요. 정확히 무슨 일이 있었는지는 아직 자세히 밝혀지지 않았어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "AI에게 내 컴퓨터나 파일을 맡기는 서비스가 늘고 있어요. AI가 할 수 있는 일은 꼭 필요한 만큼만 허락해 주세요. 지우기처럼 되돌리기 어려운 일은 AI가 하기 전에 한 번 더 묻게 해 두면 좋아요. 중요한 사진과 문서는 다른 곳에도 하나 더 저장해 두세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "기즈모도",
+          "date": "10월 15일",
+          "url": "https://gizmodo.com/ai-agent-reportedly-deletes-an-entire-season-of-reality-tv-show-2000826600"
+        },
+        {
+          "name": "톰스하드웨어",
+          "date": "10월 15일",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-deletes-tv-shows-entire-edit-weeks-before-release-backup-failure-means-production-team-needs-to-re-edit"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "date": "10월 16일",
+          "url": "https://www.fnnews.com/news/202610160740023711"
+        }
+      ]
+    },
+    {
+      "anchor": "proof",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-18.html#proof",
+      "tag": "안전",
+      "color": "yellow",
+      "title": {
+        "text": "AI 가짜가 늘면 블랙박스 영상도 의심받을 수 있어요",
+        "phrases": [
+          "AI 가짜가 늘면",
+          "블랙박스 영상도",
+          "의심받을 수 있어요"
+        ]
+      },
+      "dek": {
+        "text": "오픈AI와 메타는 사람 눈으로 가려내기 어렵다고 했어요.",
+        "phrases": [
+          "오픈AI와 메타는",
+          "사람 눈으로 가려내기",
+          "어렵다고 했어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_33834095-7ed2-4dd7-a693-302495007447.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_33834095-7ed2-4dd7-a693-302495007447.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 작은 장난감 자동차 두 대가 부딪친 그림 액자를 들어 보이고, 작은 흰 로봇이 커다란 돋보기로 액자를 들여다보며 머리를 긁적이며, 옆의 다른 동그란 사람은 두 손을 들고 어깨를 으쓱하는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-18-proof.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-18-proof.svg",
+        "viewBox": "0 0 800 460",
+        "title": "법정에서 가짜 영상 다툼을 겪어 본 판사와 AI 회사들의 말",
+        "desc": "미국 연방사법센터가 판사들에게 물었더니, 답한 931명 가운데 상대가 증거를 AI로 만든 가짜라고 다툰 일을 겪어 본 판사는 15명이었다. 막대는 실제 비율대로 그렸다. 10월 15일 미국 법원 증거 규칙 위원회 회의에서 메타는 최신 AI가 만든 것은 사람 눈으로 구별하기 어렵고 만드는 데 돈과 시간도 적게 든다고 했다. 오픈AI는 워터마크가 회사마다 달라서 모두 찾아내는 방법이 없다고 했다. 위원회는 가짜라고 하려면 먼저 근거를 내고, 그러면 영상을 낸 쪽이 진짜일 가능성이 더 높다는 것을 보이게 하는 규칙을 검토하고 있다.",
+        "caption": {
+          "text": "무엇이 찍혔는지만큼 누가 언제 찍었는지가 중요해졌어요.",
+          "phrases": [
+            "무엇이 찍혔는지만큼",
+            "누가 언제 찍었는지가",
+            "중요해졌어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국 법원의 증거 규칙을 다루는 위원회가 10월 15일 보스턴에서 회의를 열었어요. 이 자리에서 오픈AI와 메타가 AI로 만든 가짜 사진과 영상에 대해 이야기했어요. 오픈AI는 AI 그림이 계속 좋아져서 앞으로 과학적으로 가려낼 방법이 없을 것 같다고 했어요. 메타는 최신 AI가 만든 것은 사람 눈으로 진짜와 구별하기 어렵다고 했어요.",
+            "nobreak": [
+              "10월 15일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "가짜를 진짜로 믿는 것만 문제가 아니에요. 진짜 영상을 보여 줘도 상대가 AI로 만든 가짜라고 우길 수 있어요. 그래서 위원회는 가짜라고 하려면 먼저 근거를 내게 하는 규칙을 검토하고 있어요. 아직 정해진 것은 아니에요. 판사 931명에게 물어보니 이런 다툼을 겪어 본 판사는 15명이었어요.",
+            "nobreak": [
+              "931명",
+              "15명"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "우리나라에서도 블랙박스나 CCTV 영상이 진짜인지 다툴 수 있다는 걱정이 나와요. 블랙박스 영상은 자르거나 고치지 말고 원본 파일 그대로 보관해 두세요. 영상이 찍힌 날짜와 시간도 함께 적어 두면 좋아요. 낯선 영상을 볼 때는 누가 언제 찍었는지 먼저 따져 보세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "인베스팅닷컴",
+          "date": "10월 15일",
+          "url": "https://ca.investing.com/news/stock-market-news/openai-and-meta-warn-us-judicial-panel-about-deepfake-evidence-4883667"
+        },
+        {
+          "name": "IB타임스",
+          "date": "10월 16일",
+          "url": "https://www.ibtimes.co.uk/openai-ai-deepfake-evidence-courts-1826007"
+        },
+        {
+          "name": "머니투데이·서플",
+          "date": "10월 17일",
+          "url": "https://supple.kr/news/cmvbf0vtz0018yecq5g7y9qwc"
+        }
+      ]
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "AI 에이전트",
+      "meaning": {
+        "text": "사람 대신 컴퓨터에서 일을 직접 해 주는 AI",
+        "phrases": [
+          "사람 대신",
+          "컴퓨터에서 일을",
+          "직접 해 주는 AI"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "서버",
+      "meaning": {
+        "text": "여러 사람이 파일을 함께 두고 쓰는 큰 컴퓨터",
+        "phrases": [
+          "여러 사람이 파일을",
+          "함께 두고 쓰는",
+          "큰 컴퓨터"
+        ]
+      },
+      "color": "red"
+    },
+    {
+      "word": "백업",
+      "meaning": {
+        "text": "잃어버릴 때를 대비해 똑같이 하나 더 저장해 두는 일",
+        "phrases": [
+          "잃어버릴 때를 대비해",
+          "똑같이 하나 더",
+          "저장해 두는 일"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "원본 파일",
+      "meaning": {
+        "text": "자르거나 고치지 않은 처음 그대로의 파일",
+        "phrases": [
+          "자르거나 고치지 않은",
+          "처음 그대로의",
+          "파일"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "워터마크",
+      "meaning": {
+        "text": "누가 만들었는지 알리려고 넣는 숨은 표시",
+        "phrases": [
+          "누가 만들었는지",
+          "알리려고 넣는",
+          "숨은 표시"
+        ]
+      },
+      "color": "pink"
+    }
+  ]
+}
