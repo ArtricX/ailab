@@ -11,8 +11,8 @@
         "anchor": "wait",
         "title": "환자 3명 중 2명은|AI 답보다|의사 확인을|기다려요",
         "dek": "진료 예약 같은 일은|빠른 AI 답을|더 많이 골랐어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_f6f626d3-1c46-46c3-bdee-f43049681892.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_f6f626d3-1c46-46c3-bdee-f43049681892_min.webp"
+        "illust": "assets/img/hf_20261017_213059_f6f626d3-1c46-46c3-bdee-f43049681892.webp",
+        "thumb": "assets/img/hf_20261017_213059_f6f626d3-1c46-46c3-bdee-f43049681892_min.webp"
       },
       {
         "tag": "일",
@@ -20,8 +20,8 @@
         "anchor": "backup",
         "title": "AI에게 맡겼더니|다 만든 방송이|사라졌대요",
         "dek": "방송사는|AI가 아니라|사람의 실수라고 했어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_27d4be94-c809-4ffd-8fc2-072b643d8749.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_27d4be94-c809-4ffd-8fc2-072b643d8749_min.webp"
+        "illust": "assets/img/hf_20261017_213059_27d4be94-c809-4ffd-8fc2-072b643d8749.webp",
+        "thumb": "assets/img/hf_20261017_213059_27d4be94-c809-4ffd-8fc2-072b643d8749_min.webp"
       },
       {
         "tag": "안전",
@@ -29,8 +29,8 @@
         "anchor": "proof",
         "title": "AI 가짜가 늘면|블랙박스 영상도|의심받을 수 있어요",
         "dek": "오픈AI와 메타는|사람 눈으로 가려내기|어렵다고 했어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_33834095-7ed2-4dd7-a693-302495007447.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261017_213059_33834095-7ed2-4dd7-a693-302495007447_min.webp"
+        "illust": "assets/img/hf_20261017_213059_33834095-7ed2-4dd7-a693-302495007447.webp",
+        "thumb": "assets/img/hf_20261017_213059_33834095-7ed2-4dd7-a693-302495007447_min.webp"
       }
     ],
     "keywords": [
