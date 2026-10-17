@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-18",
+      "title": "의사 확인을 기다리는 환자, 통째로 사라진 TV 프로그램, 의심받는 진짜 영상",
+      "file": "content/2026-10-18.json",
+      "stories": [
+        {
+          "anchor": "wait",
+          "tag": "건강",
+          "color": "green",
+          "title": "환자 3명 중 2명은 AI 답보다 의사 확인을 기다려요"
+        },
+        {
+          "anchor": "backup",
+          "tag": "일",
+          "color": "blue",
+          "title": "AI에게 맡겼더니 다 만든 방송이 사라졌대요"
+        },
+        {
+          "anchor": "proof",
+          "tag": "안전",
+          "color": "yellow",
+          "title": "AI 가짜가 늘면 블랙박스 영상도 의심받을 수 있어요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-17",
       "title": "시험을 시작한 모두의 AI, 나를 찾아오는 챗GPT 광고, 문서를 검사하는 구글 AI",
       "file": "content/2026-10-17.json",
