@@ -33,7 +33,7 @@
 6. **목록 갱신**: `posts.json` 맨 앞에 그날 항목(date, title, summary, minutes, stories[tag, color, anchor, title, dek, illust], keywords[word, meaning])을 추가하고 `python3 scripts/build.py`를 실행해 `index.html`을 다시 만듭니다.
 7. **줄내림 검사**: `python3 scripts/check_lines.py`를 돌려 문제 0개가 될 때까지 구절을 다시 나눕니다. 문제가 남아 있으면 올리지 않습니다.
    이어서 `python3 scripts/extract_content.py`(필요하면 `pip install beautifulsoup4 --break-system-packages`)를 돌려 "멈춘 글"이 없는지 확인합니다. 멈춘 글이 있으면 글 구조가 틀과 다르다는 뜻이니 틀에 맞게 고칩니다. 만들어진 `content/` 파일은 함께 올려도 되고, 올리지 않아도 GitHub Actions가 다시 만듭니다.
-8. **뉴스레터 초안(beehiiv)**: PR보다 먼저 만듭니다(PR 설명에 초안 링크를 넣어야 하니까요). 출판물 `pub_24fff7ac-12bd-4f24-9339-9ef1dc54d733`(아이고, 예전 이름 AILAB)에 그날 메일 초안을 만듭니다. 발송은 사람이 beehiiv에서 직접 누릅니다(도구로는 초안까지만 가능). 예약 발송도 걸지 않습니다.
+8. **뉴스레터 초안(beehiiv)**: PR보다 먼저 만듭니다(PR 설명에 초안 링크를 넣어야 하니까요). 출판물 `pub_24fff7ac-12bd-4f24-9339-9ef1dc54d733`(아이고, 예전 이름 AILAB)에 그날 메일 초안을 만듭니다. 발송은 사람이 beehiiv에서 **오전 7시 정각 예약**으로 겁니다(도구로는 초안까지만 가능하므로, Claude는 발송이나 예약을 걸지 않습니다). 작업은 오전 5시쯤 시작해 7시 전에 확인하고 예약할 여유를 둡니다.
    - 그림: 힉스필드 원본 주소(`.png`) 3개를 `save_image`로 올리고, 돌려받은 `url`만 메일에 씁니다(webp는 일부 메일 앱에서 안 보여요).
    - `save_post`: `title`은 그날 제목(구절 표시 `|` 없이), `subtitle`은 "M월 D일 X요일 아침, 오늘의 AI 소식 세 가지", `content_tags: ["아침 소식"]`, `thumbnail_image_url`은 첫 그림.
    - 본문 맨 위에는 로고 머리 그림을 넣습니다: `imageBlock`, 주소 `https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3e1f0aa6-1f1d-4441-9429-6e1ef166b1d1/email-header.png?t=1791969965`(이미 beehiiv에 올라가 있어 다시 올리지 않아요), `data-url`은 `https://artricx.github.io/ailab/`, alt는 `아이고`.
@@ -41,14 +41,15 @@
    - 이어서 `edit_post`로 `email_settings`의 `email_subject_line`("[아이고] " + 가장 궁금증을 끄는 소식 한 구절 + " 오늘의 AI 소식 3가지"), `email_preview_text`(나머지 두 소식 한 문장), `display_byline_in_email: false`를 정합니다.
    - 글 페이지 주소는 `https://artricx.github.io/ailab/posts/YYYY-MM-DD.html#앵커`입니다(PR 병합 뒤 1~2분이면 열려요).
    - **보내기 전 점검**: `get_post`와 `get_post_content`로 다시 읽어 확인합니다. 제목·부제·메일 제목·미리보기 글·썸네일이 채워졌는지, 받는 사람이 무료 구독자 전체(`recipients.email.tier_ids: ["free"]`)인지, 그림 3장이 모두 beehiiv 주소인지, 버튼과 그림 링크가 모두 오늘 날짜 글 페이지를 가리키는지 봅니다. 고칠 것이 있으면 고친 뒤 다시 확인합니다. 사람은 '발행' 버튼만 누르면 되도록 완성된 상태로 둡니다.
-9. **올리기**: `main`에 바로 올리지 않습니다. `daily/YYYY-MM-DD` 브랜치에 커밋하고 Pull Request를 엽니다. 사람이 PR을 병합하면 사이트에 발행되고, 이어서 beehiiv에서 '발행'을 누르면 메일이 나갑니다. PR 설명은 아래 틀을 그대로 씁니다(맨 위에 발행 순서).
+9. **올리기**: `main`에 바로 올리지 않습니다. `daily/YYYY-MM-DD` 브랜치에 커밋하고 Pull Request를 엽니다. 사람이 PR을 병합하면 사이트에 발행되고, 이어서 beehiiv에서 오전 7시로 예약하면 그 시각에 메일이 나갑니다. 메일 속 링크가 열리도록 PR 병합이 먼저입니다. PR 설명은 아래 틀을 그대로 씁니다(맨 위에 발행 순서).
 
    ```
    ## 오늘 발행하는 법 (두 번 누르면 끝)
    1. 이 PR 아래 **Merge pull request** → **Confirm merge** (1~2분 뒤 사이트에 올라가요)
-   2. 뉴스레터 초안 열기 → 오른쪽 위 **Continue** → **Publish now**
+   2. 뉴스레터 초안 열기 → 오른쪽 위 **Continue** → 마지막 화면에서 **Schedule**(예약) → **오전 7:00** 선택 → 확인
       <beehiiv editor_url>
-      (먼저 내 메일로만 보고 싶으면: 같은 화면 Preview → Send test email)
+      (7시가 이미 지났으면 **Publish now**로 바로 보내요. 먼저 내 메일로만 보고 싶으면: 같은 화면 Preview → Send test email)
+   - 7시 전에 1번과 2번을 모두 마쳐 주세요. PR을 먼저 병합해야 메일 속 링크가 열려요.
 
    - 메일 제목: <email_subject_line>
    - 미리보기 글: <email_preview_text>
