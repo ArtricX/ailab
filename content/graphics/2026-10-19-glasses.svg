@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">영국항공에서 직원을 몰래 찍으면 받을 수 있는 조치</title>
+            <desc id="g3d">10월 16일 보도에 따르면 영국항공은 메타 AI 안경처럼 카메라가 달린 안경으로 공항과 비행기 안에서 직원을 몰래 찍는 일을 막도록 규칙을 고쳤다. 어기면 세 가지 조치를 받을 수 있다. 비행기가 내린 뒤 내리게 하고, 돌아오는 표를 포함해 남은 비행을 취소하고, 경찰 같은 당국에 알릴 수 있다. 안경을 쓰는 것과 허락받고 찍는 것은 괜찮지만, 직원을 몰래 찍거나 허락 없이 생방송으로 내보내는 것은 안 된다. 승무원을 허락 없이 찍지 못하게 하는 규칙은 지난 4월에 먼저 생겼다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">3가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">몰래 찍으면 받을 수 있는 조치</text>
+            <text class="grey" x="34" y="194" font-size="13.5">영국항공 운송 약관</text>
+
+            <rect class="f-paper" x="34" y="226" width="320" height="52" rx="16"/>
+            <text x="194" y="258" font-size="14.5" font-weight="900" text-anchor="middle">비행기에서 내리게 해요</text>
+            <line class="line" x1="194" y1="284" x2="194" y2="296" stroke-width="3"/>
+            <path class="f-ink" d="M194 306 l-8 -12 h16z"/>
+            <rect class="f-blue" x="34" y="310" width="320" height="52" rx="16"/>
+            <text class="white" x="194" y="342" font-size="14.5" font-weight="900" text-anchor="middle">돌아오는 표까지 취소해요</text>
+            <line class="line" x1="194" y1="368" x2="194" y2="380" stroke-width="3"/>
+            <path class="f-ink" d="M194 390 l-8 -12 h16z"/>
+            <rect class="f-paper" x="34" y="394" width="320" height="52" rx="16"/>
+            <text x="194" y="426" font-size="14.5" font-weight="900" text-anchor="middle">경찰 같은 곳에 알릴 수 있어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">괜찮아요</text>
+            <rect class="f-blue" x="440" y="74" width="155" height="56" rx="16"/>
+            <text class="white" x="517" y="108" font-size="14.5" font-weight="900" text-anchor="middle">AI 안경 쓰기</text>
+            <rect class="f-blue" x="605" y="74" width="155" height="56" rx="16"/>
+            <text class="white" x="682" y="108" font-size="14.5" font-weight="900" text-anchor="middle">허락받고 찍기</text>
+
+            <text x="440" y="180" font-size="15" font-weight="800">안 돼요</text>
+            <rect class="f-paper" x="440" y="198" width="155" height="56" rx="16"/>
+            <text class="red" x="517" y="232" font-size="14.5" font-weight="900" text-anchor="middle">직원 몰래 찍기</text>
+            <rect class="f-paper" x="605" y="198" width="155" height="56" rx="16"/>
+            <text x="682" y="232" font-size="14.5" font-weight="900" text-anchor="middle">허락 없이 생방송</text>
+
+            <text x="440" y="306" font-size="15" font-weight="800">왜 안경을 콕 집었을까요</text>
+            <text x="440" y="334" font-size="13.5" font-weight="700">겉보기엔 평범한 안경이라</text>
+            <text x="440" y="356" font-size="13.5" font-weight="700">찍히는 사람이 알아채기 어려워요</text>
+            <text class="grey" x="440" y="396" font-size="12.5">승무원 촬영 규칙은 4월에 먼저 생겼고</text>
+            <text class="grey" x="440" y="418" font-size="12.5">이번에 공항과 AI 안경을 분명히 했대요</text>
+          </svg>

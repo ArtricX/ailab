@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-19",
+      "title": "책값을 달라는 출판계, 돈은 못 옮기는 AI 비서, 몰래 찍으면 안 되는 AI 안경",
+      "file": "content/2026-10-19.json",
+      "stories": [
+        {
+          "anchor": "books",
+          "tag": "창작",
+          "color": "pink",
+          "title": "출판사 172곳이 AI 회사에 책값을 달라고 해요"
+        },
+        {
+          "anchor": "bank",
+          "tag": "돈",
+          "color": "green",
+          "title": "미국 큰 은행들은 AI 비서에게 돈을 맡기지 않아요"
+        },
+        {
+          "anchor": "glasses",
+          "tag": "생활",
+          "color": "blue",
+          "title": "AI 안경으로 직원을 몰래 찍으면 비행기에서 내려야 해요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-18",
       "title": "의사 확인을 기다리는 환자, 통째로 사라진 TV 프로그램, 의심받는 진짜 영상",
       "file": "content/2026-10-18.json",

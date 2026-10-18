@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">미국 금융회사들이 바깥 AI에게 열어 준 일과 막은 일</title>
+            <desc id="g2d">미국 증권회사 찰스 슈왑의 대표는 10월 16일 방송에서 고객 대신 들어오려는 허락받지 않은 바깥 AI를 일주일에 수십 번 막는다고 했다. 슈왑은 허락된 연결로 들어온 AI에게 잔액과 투자 정보를 보는 일은 열어 주지만, 고객 비밀번호로 대신 들어오는 것과 돈을 옮기는 것은 막는다. 슈왑 대표는 문제가 생기면 누가 책임질지 모른다고 했고, JP모건 대표는 아무 AI나 들이지 않겠다며 고객이 AI에게 계좌를 맡기면 책임도 고객에게 넘어간다고 했다. 슈왑은 10월부터 자기 회사 AI 비서 찰리를 차례로 내놓고 있다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">수십 번</text>
+            <text x="34" y="170" font-size="16" font-weight="800">슈왑이 일주일에 막는 바깥 AI</text>
+            <text class="grey" x="34" y="194" font-size="13.5">대표가 10월 16일 방송에서 한 말</text>
+
+            <text x="34" y="240" font-size="15" font-weight="800">바깥 AI가 할 수 있는 일</text>
+            <rect class="f-green" x="34" y="256" width="320" height="52" rx="16"/>
+            <text class="white" x="54" y="288" font-size="14.5" font-weight="900">잔액·투자 정보 보기</text>
+            <text class="white" x="334" y="288" font-size="13.5" font-weight="800" text-anchor="end">열어 줘요</text>
+            <rect class="f-paper" x="34" y="318" width="320" height="52" rx="16"/>
+            <text x="54" y="350" font-size="14.5" font-weight="900">비밀번호로 대신 로그인</text>
+            <text x="334" y="350" font-size="13.5" font-weight="800" text-anchor="end">막아요</text>
+            <rect class="f-paper" x="34" y="380" width="320" height="52" rx="16"/>
+            <text x="54" y="412" font-size="14.5" font-weight="900">돈 옮기기</text>
+            <text class="red" x="334" y="412" font-size="13.5" font-weight="800" text-anchor="end">막아요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">회사 대표들의 말</text>
+            <rect class="f-green" x="440" y="74" width="320" height="64" rx="16"/>
+            <text class="white" x="460" y="102" font-size="15" font-weight="900">누가 책임질지 몰라요</text>
+            <text class="white" x="460" y="124" font-size="12.5">찰스 슈왑 · 회사도 고객도 못 막아요</text>
+            <rect class="f-paper" x="440" y="148" width="320" height="64" rx="16"/>
+            <text x="460" y="176" font-size="15" font-weight="900">아무 AI나 들이지 않아요</text>
+            <text class="grey" x="460" y="198" font-size="12.5">JP모건 · 맡기면 책임은 고객에게</text>
+
+            <text x="440" y="262" font-size="15" font-weight="800">대신 내놓은 것</text>
+            <rect class="f-paper" x="440" y="278" width="320" height="64" rx="16"/>
+            <text x="460" y="306" font-size="15" font-weight="900">회사가 직접 만든 AI 비서</text>
+            <text class="grey" x="460" y="328" font-size="12.5">슈왑 '찰리' · 10월부터 차례로</text>
+            <text class="grey" x="440" y="392" font-size="12.5">미국 이야기예요</text>
+            <text class="grey" x="440" y="414" font-size="12.5">우리나라 은행 규칙과는 달라요</text>
+          </svg>
