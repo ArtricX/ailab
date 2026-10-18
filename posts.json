@@ -11,8 +11,8 @@
         "anchor": "books",
         "title": "출판사 172곳이|AI 회사에|책값을 달라고 해요",
         "dek": "어떤 책으로|AI를 가르쳤는지|밝히라고도 했어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212805_8d556000-7a45-4a5c-a51d-46f51904aba2.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212805_8d556000-7a45-4a5c-a51d-46f51904aba2_min.webp"
+        "illust": "assets/img/hf_20261018_212805_8d556000-7a45-4a5c-a51d-46f51904aba2.webp",
+        "thumb": "assets/img/hf_20261018_212805_8d556000-7a45-4a5c-a51d-46f51904aba2_min.webp"
       },
       {
         "tag": "돈",
@@ -20,8 +20,8 @@
         "anchor": "bank",
         "title": "미국 큰 은행들은|AI 비서에게|돈을 맡기지 않아요",
         "dek": "잔액을 보는 건 되지만|돈을 옮기는 건|막았어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212804_f4b8f472-3538-4f40-a168-56c91745cc7b.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212804_f4b8f472-3538-4f40-a168-56c91745cc7b_min.webp"
+        "illust": "assets/img/hf_20261018_212804_f4b8f472-3538-4f40-a168-56c91745cc7b.webp",
+        "thumb": "assets/img/hf_20261018_212804_f4b8f472-3538-4f40-a168-56c91745cc7b_min.webp"
       },
       {
         "tag": "생활",
@@ -29,8 +29,8 @@
         "anchor": "glasses",
         "title": "AI 안경으로|직원을 몰래 찍으면|비행기에서|내려야 해요",
         "dek": "영국항공이|공항과 비행기 안|규칙을 고쳤대요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212804_33d61d10-6fff-4bfa-9523-3098eb23b4c8.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212804_33d61d10-6fff-4bfa-9523-3098eb23b4c8_min.webp"
+        "illust": "assets/img/hf_20261018_212804_33d61d10-6fff-4bfa-9523-3098eb23b4c8.webp",
+        "thumb": "assets/img/hf_20261018_212804_33d61d10-6fff-4bfa-9523-3098eb23b4c8_min.webp"
       }
     ],
     "keywords": [
