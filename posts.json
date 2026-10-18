@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-10-19",
+    "title": "책값을 달라는|출판계,|돈은 못 옮기는|AI 비서,|몰래 찍으면|안 되는 AI 안경",
+    "summary": "한국 출판사와 단체 172곳이|AI 회사에|어떤 책으로 가르쳤는지 밝히고|정당한 대가를 내라고 했어요.|미국 큰 은행들은|바깥 AI 비서가|고객 돈을 옮기지 못하게 막았고,|영국항공은|AI 안경으로 직원을|몰래 찍지 못하게 했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "창작",
+        "color": "pink",
+        "anchor": "books",
+        "title": "출판사 172곳이|AI 회사에|책값을 달라고 해요",
+        "dek": "어떤 책으로|AI를 가르쳤는지|밝히라고도 했어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212805_8d556000-7a45-4a5c-a51d-46f51904aba2.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212805_8d556000-7a45-4a5c-a51d-46f51904aba2_min.webp"
+      },
+      {
+        "tag": "돈",
+        "color": "green",
+        "anchor": "bank",
+        "title": "미국 큰 은행들은|AI 비서에게|돈을 맡기지 않아요",
+        "dek": "잔액을 보는 건 되지만|돈을 옮기는 건|막았어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212804_f4b8f472-3538-4f40-a168-56c91745cc7b.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212804_f4b8f472-3538-4f40-a168-56c91745cc7b_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "blue",
+        "anchor": "glasses",
+        "title": "AI 안경으로|직원을 몰래 찍으면|비행기에서|내려야 해요",
+        "dek": "영국항공이|공항과 비행기 안|규칙을 고쳤대요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212804_33d61d10-6fff-4bfa-9523-3098eb23b4c8.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261018_212804_33d61d10-6fff-4bfa-9523-3098eb23b4c8_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "호소문",
+        "meaning": "사정을 알리고|도와 달라고|부탁하는 글"
+      },
+      {
+        "word": "AI 학습",
+        "meaning": "AI가 많은 글과 그림을|읽으며|배우는 일"
+      },
+      {
+        "word": "잔액",
+        "meaning": "통장에|지금 남아 있는|돈"
+      },
+      {
+        "word": "운송 약관",
+        "meaning": "항공사와 손님이|지키기로 한 약속을|적은 글"
+      },
+      {
+        "word": "생방송",
+        "meaning": "찍는 모습을|그 자리에서 바로|내보내는 것"
+      }
+    ]
+  },
+  {
     "date": "2026-10-18",
     "title": "의사 확인을|기다리는 환자,|통째로 사라진|TV 프로그램,|의심받는|진짜 영상",
     "summary": "미국 조사에서|환자 3명 중 2명은|빠른 AI 답보다|의사가 확인한 답을|기다리겠다고 했어요.|스웨덴에서는|AI에게 맡긴 서버에서|TV 프로그램이|사라졌다는 보도가 나왔고,|오픈AI와 메타는|AI 가짜 영상을|눈으로 가려내기|어렵다고 했어요.",
