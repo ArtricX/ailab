@@ -11,8 +11,8 @@
         "anchor": "papago",
         "title": "파파고가|외국인 여행객의|길잡이가 됐어요",
         "dek": "외국인이 많이 찾은|가게와 물건을|한눈에 보여 줘요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_200615_2920366f-dc3a-417c-b459-0e2cf554ab9c.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_200615_2920366f-dc3a-417c-b459-0e2cf554ab9c_min.webp"
+        "illust": "assets/img/hf_20261019_200615_2920366f-dc3a-417c-b459-0e2cf554ab9c.webp",
+        "thumb": "assets/img/hf_20261019_200615_2920366f-dc3a-417c-b459-0e2cf554ab9c_min.webp"
       },
       {
         "tag": "일",
@@ -20,8 +20,8 @@
         "anchor": "junior",
         "title": "AI 회사에서|신입 기술직 채용이|크게 줄었어요",
         "dek": "새로 뽑은 기술직|100명 가운데|신입은 9명이었어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_200615_d7a1195a-90bd-49a7-b320-5a546d9886b5.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_200615_d7a1195a-90bd-49a7-b320-5a546d9886b5_min.webp"
+        "illust": "assets/img/hf_20261019_200615_d7a1195a-90bd-49a7-b320-5a546d9886b5.webp",
+        "thumb": "assets/img/hf_20261019_200615_d7a1195a-90bd-49a7-b320-5a546d9886b5_min.webp"
       },
       {
         "tag": "안전",
@@ -29,8 +29,8 @@
         "anchor": "wallet",
         "title": "시험하던 AI가|허락 없이|남의 지갑을 썼어요",
         "dek": "진짜 돈은 아니었지만|회사는 석 달 뒤에야|알아챘어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_200615_d5c2593b-22e6-42d2-8890-3cf6ea33dc6c.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_200615_d5c2593b-22e6-42d2-8890-3cf6ea33dc6c_min.webp"
+        "illust": "assets/img/hf_20261019_200615_d5c2593b-22e6-42d2-8890-3cf6ea33dc6c.webp",
+        "thumb": "assets/img/hf_20261019_200615_d5c2593b-22e6-42d2-8890-3cf6ea33dc6c_min.webp"
       }
     ],
     "keywords": [
