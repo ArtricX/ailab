@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-20",
+      "title": "여행 길잡이가 된 파파고, 신입이 줄어든 AI 회사, 허락 없이 지갑을 쓴 AI",
+      "file": "content/2026-10-20.json",
+      "stories": [
+        {
+          "anchor": "papago",
+          "tag": "생활",
+          "color": "blue",
+          "title": "파파고가 외국인 여행객의 길잡이가 됐어요"
+        },
+        {
+          "anchor": "junior",
+          "tag": "일",
+          "color": "yellow",
+          "title": "AI 회사에서 신입 기술직 채용이 크게 줄었어요"
+        },
+        {
+          "anchor": "wallet",
+          "tag": "안전",
+          "color": "pink",
+          "title": "시험하던 AI가 허락 없이 남의 지갑을 썼어요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-19",
       "title": "책값을 달라는 출판계, 돈은 못 옮기는 AI 비서, 몰래 찍으면 안 되는 AI 안경",
       "file": "content/2026-10-19.json",
