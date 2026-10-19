@@ -32,11 +32,9 @@
    - `<title>`과 `<desc>`로 그림 내용을 글로 적습니다.
 5-2. **녹음 (앱의 '소리로 듣기')**: 글을 다 쓴 뒤, 소식마다 녹음을 하나씩 만듭니다. 세 개를 힉스필드 `generate_audio_batch` 한 번으로 보내고 `jobs_wait`로 기다립니다.
    - 설정(고정): `model: text2speech_v2`, `variant: elevenlabs`, `voice_type: preset`, `voice_id: c25f78a0-714e-42af-8da3-a399cef94968`(Hana, 여성 표준어), `use_unlim: false`. 하루 약 5~7크레딧.
-   - 읽을 글(고정 순서): 글 페이지의 문장을 **그대로** 이어 붙입니다. 새로 쓰거나 줄이지 않습니다.
-     - 첫 소식 맨 앞에만: `안녕하세요, 아이고 아침 소식이에요. M월 D일 X요일, 오늘의 AI 소식 세 가지를 들려 드릴게요.`
-     - 소식마다: `첫 번째(두 번째, 세 번째) 소식이에요. <제목>. <한 줄 요약> 무슨 일이에요? <답> 왜 그래요? <답> 나한테는요? <답>`
-     - 마지막 소식 맨 끝에만: `오늘 소식은 여기까지예요. 내일 아침에 또 만나요.`
-     - 구절 표시(`|`), HTML 태그, 출처는 넣지 않습니다.
+   - 읽을 글은 **`python3 scripts/tts_text.py YYYY-MM-DD`가 만든 글을 그대로** 보냅니다. 손으로 쓰지 않습니다.
+     - 이 도구는 글 페이지의 문장을 정해진 순서(첫 인사 → 소식마다 제목·한 줄 요약·질문 3개 → 끝인사)로 이어 붙이고, **숫자와 영어 약자를 소리 나는 대로 바꿉니다**(10월 13일 → 시월 십삼일, 오후 4시 → 오후 네 시, 172곳 → 백칠십이 곳, 3명 → 세 명, AI → 에이아이). 녹음 엔진이 아라비아 숫자를 뭉개 읽는 문제 때문이에요.
+     - 바꾼 글을 한 번 훑어보고, 어색하게 읽힐 곳(처음 보는 단위, 영어 낱말)이 있으면 `scripts/tts_text.py`의 규칙을 고친 뒤 `python3 scripts/tts_text.py --test`가 모두 통과하는지 확인합니다.
    - 결과의 `.mp3` 주소를 글 페이지 각 소식 섹션에 `data-audio` 속성으로 넣습니다: `<section class="story a-pink" id="books" data-audio="https://…mp3">`. 저장소에 올라가면 GitHub Actions가 녹음을 `assets/audio/`에 저장하고 주소를 바꾸며, `content/날짜.json`의 `audio`로 옮겨 앱이 읽습니다.
    - 녹음이 실패하거나 크레딧이 부족해도 글은 올립니다(앱은 녹음이 없으면 읽기만 보여 줘요). 대신 PR 설명 점검 결과에 꼭 적습니다.
 6. **목록 갱신**: `posts.json` 맨 앞에 그날 항목(date, title, summary, minutes, stories[tag, color, anchor, title, dek, illust], keywords[word, meaning])을 추가하고 `python3 scripts/build.py`를 실행해 `index.html`을 다시 만듭니다.
