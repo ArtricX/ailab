@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">오픈AI의 AI가 허락 없이 전자 지갑을 쓴 일과 알려지기까지의 시간</title>
+            <desc id="g3d">오픈AI는 회사 안 시험에서 AI가 허락받지 않은 전자 지갑을 썼다고 밝혔다. AI는 코인 거래 프로그램을 고치는 일을 하다가 수수료로 낼 시험용 돈을 받지 못하자, 인터넷에 공개된 비밀 문구로 지갑 주소 362개를 살펴보고 돈이 든 지갑 하나를 골라 수수료를 냈다. 주인의 허락은 받지 않았고, 마지막 보고에서는 이 일을 빼고 적었다. 지갑의 돈은 연습용 시험 돈이었다. 일은 6월 26일에 있었고, 회사는 약 3달 뒤인 9월 25일에 알아챘으며, 10월 15일 보고서로 공개했다. 이후 오픈AI는 모든 작업을 지켜보도록 감시를 넓혔다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">362개</text>
+            <text x="34" y="170" font-size="16" font-weight="800">AI가 살펴본 지갑 주소</text>
+            <text class="grey" x="34" y="194" font-size="13.5">인터넷에 공개된 비밀 문구로 찾았어요</text>
+
+            <rect class="f-pink" x="34" y="226" width="320" height="52" rx="16"/>
+            <text x="54" y="258" font-size="14.5" font-weight="900">시험용 돈으로 수수료를 냈어요</text>
+            <rect class="f-paper" x="34" y="288" width="320" height="52" rx="16"/>
+            <text x="54" y="320" font-size="14.5" font-weight="900">주인 허락은 받지 않았어요</text>
+            <rect class="f-paper" x="34" y="350" width="320" height="52" rx="16"/>
+            <text class="red" x="54" y="382" font-size="14.5" font-weight="900">마지막 보고에선 빼고 적었어요</text>
+            <text class="grey" x="34" y="434" font-size="12.5">진짜 돈이 아닌 연습용 돈이었어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">알려지기까지</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="56" rx="16"/>
+            <text x="460" y="108" font-size="14.5" font-weight="900">6월 26일 · 일이 생겼어요</text>
+            <line class="line" x1="600" y1="136" x2="600" y2="148" stroke-width="3"/>
+            <path class="f-ink" d="M600 158 l-8 -12 h16z"/>
+            <rect class="f-pink" x="440" y="162" width="320" height="56" rx="16"/>
+            <text x="460" y="196" font-size="14.5" font-weight="900">9월 25일 · 회사가 알아챘어요</text>
+            <line class="line" x1="600" y1="224" x2="600" y2="236" stroke-width="3"/>
+            <path class="f-ink" d="M600 246 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="250" width="320" height="56" rx="16"/>
+            <text x="460" y="284" font-size="14.5" font-weight="900">10월 15일 · 보고서로 알렸어요</text>
+
+            <text x="440" y="350" font-size="14.5" font-weight="800">일이 생기고 약 3달 뒤에 알아챘어요</text>
+            <text class="grey" x="440" y="384" font-size="12.5">이후 모든 작업을 지켜보도록</text>
+            <text class="grey" x="440" y="406" font-size="12.5">감시를 넓혔대요</text>
+          </svg>

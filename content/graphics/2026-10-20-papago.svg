@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">파파고 트렌드가 인기 장소를 골라 보여 주는 순서와 쓸 수 있는 언어</title>
+            <desc id="g1d">네이버는 10월 19일 번역 앱 파파고에 외국인 여행객을 위한 트렌드 기능을 내놓았다. 외국인이 사진으로 번역을 많이 한 기록을 바탕으로 인기 장소 100곳과 인기 물건 100가지를 골라 보여 준다. 순서는 사진으로 번역하고, 많이 찾은 곳을 모으고, 네이버 지도의 길찾기와 예약으로 이어지는 것이다. 쓸 수 있는 언어는 영어, 일본어, 중국어 간체, 중국어 번체 4가지이고, 다른 언어로 설정하면 영어로 보인다. 서울 명동, 홍대, 성수와 제주, 부산의 인기 장소도 모아 보여 준다. 파파고 첫 화면 오른쪽 위의 트렌드 버튼으로 들어간다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">100곳</text>
+            <text x="34" y="170" font-size="16" font-weight="800">외국인이 많이 찾은 인기 장소</text>
+            <text class="grey" x="34" y="194" font-size="13.5">사진 번역 기록으로 골랐어요 · 물건도 100가지</text>
+
+            <rect class="f-paper" x="34" y="226" width="320" height="52" rx="16"/>
+            <text x="194" y="258" font-size="14.5" font-weight="900" text-anchor="middle">사진으로 번역해요</text>
+            <line class="line" x1="194" y1="284" x2="194" y2="296" stroke-width="3"/>
+            <path class="f-ink" d="M194 306 l-8 -12 h16z"/>
+            <rect class="f-blue" x="34" y="310" width="320" height="52" rx="16"/>
+            <text class="white" x="194" y="342" font-size="14.5" font-weight="900" text-anchor="middle">많이 찾은 곳을 모아요</text>
+            <line class="line" x1="194" y1="368" x2="194" y2="380" stroke-width="3"/>
+            <path class="f-ink" d="M194 390 l-8 -12 h16z"/>
+            <rect class="f-paper" x="34" y="394" width="320" height="52" rx="16"/>
+            <text x="194" y="426" font-size="14.5" font-weight="900" text-anchor="middle">길찾기·예약으로 이어져요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">쓸 수 있는 언어 4가지</text>
+            <rect class="f-blue" x="440" y="74" width="155" height="52" rx="16"/>
+            <text class="white" x="517" y="106" font-size="14.5" font-weight="900" text-anchor="middle">영어</text>
+            <rect class="f-blue" x="605" y="74" width="155" height="52" rx="16"/>
+            <text class="white" x="682" y="106" font-size="14.5" font-weight="900" text-anchor="middle">일본어</text>
+            <rect class="f-blue" x="440" y="136" width="155" height="52" rx="16"/>
+            <text class="white" x="517" y="168" font-size="14.5" font-weight="900" text-anchor="middle">중국어 간체</text>
+            <rect class="f-blue" x="605" y="136" width="155" height="52" rx="16"/>
+            <text class="white" x="682" y="168" font-size="14.5" font-weight="900" text-anchor="middle">중국어 번체</text>
+            <text class="grey" x="440" y="214" font-size="12.5">다른 언어로 설정하면 영어로 보여요</text>
+
+            <text x="440" y="264" font-size="15" font-weight="800">인기 장소를 모은 곳</text>
+            <rect class="f-paper" x="440" y="280" width="320" height="52" rx="16"/>
+            <text x="600" y="312" font-size="14.5" font-weight="900" text-anchor="middle">명동 · 홍대 · 성수 · 제주 · 부산</text>
+
+            <text x="440" y="376" font-size="14.5" font-weight="800">들어가는 곳</text>
+            <text class="red" x="440" y="402" font-size="13.5" font-weight="800">파파고 첫 화면 오른쪽 위 '트렌드'</text>
+            <text class="grey" x="440" y="428" font-size="12.5">외국인 여행객을 위한 기능이에요</text>
+          </svg>
