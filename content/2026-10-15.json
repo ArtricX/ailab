@@ -129,7 +129,8 @@
           "date": "10월 14일",
           "url": "https://www.ddaily.co.kr/page/view/2026101416342345784"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "grading",
@@ -223,7 +224,8 @@
           "date": "10월 13일",
           "url": "https://www.news1.kr/society/education/6318425"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "ward",
@@ -317,7 +319,8 @@
           "date": "",
           "url": "https://www.medipana.com/news/articleView.html?idxno=419170"
         }
-      ]
+      ],
+      "audio": null
     }
   ],
   "soon": null,

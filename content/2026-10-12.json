@@ -127,7 +127,8 @@
           "date": "10월 10일",
           "url": "https://aiweekly.co/alerts/berkeley-study-10-minutes-of-ai-use-erodes-persistence"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "driving",
@@ -218,7 +219,8 @@
           "date": "10월 12일",
           "url": "https://biz.sbs.co.kr/article/20000339217"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "music",
@@ -317,7 +319,8 @@
           "date": "",
           "url": "https://decrypt.co/364937/nearly-half-streaming-music-ai-generated-deezer-nobodys-listening"
         }
-      ]
+      ],
+      "audio": null
     }
   ],
   "soon": null,

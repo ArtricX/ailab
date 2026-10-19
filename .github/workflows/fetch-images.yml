@@ -1,6 +1,6 @@
-name: 그림 내려받기
+name: 그림·녹음 내려받기
 
-# 글에 들어간 외부 그림(힉스필드)을 사이트 안(assets/img/)에 저장하고 주소를 바꿉니다.
+# 글에 들어간 외부 그림과 녹음(힉스필드)을 사이트 안(assets/img/, assets/audio/)에 저장하고 주소를 바꿉니다.
 on:
   push:
     paths:
@@ -42,8 +42,8 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "ailab-bot"
             git config user.email "ailab-bot@users.noreply.github.com"
-            git add assets/img assets/og content posts posts.json index.html *.html templates
-            git commit -m "그림을 사이트 안에 저장"
+            git add assets/img assets/audio assets/og content posts posts.json index.html *.html templates
+            git commit -m "그림·녹음을 사이트 안에 저장"
             git push
           else
             echo "바꿀 것 없음"
