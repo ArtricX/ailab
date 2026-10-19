@@ -125,7 +125,8 @@
           "date": "10월 15일",
           "url": "https://m.sedaily.com/article/20101999"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "film",
@@ -226,7 +227,8 @@
           "date": "9월 27일",
           "url": "https://ajunews.com/view/20260927115628736"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "shop",
@@ -312,7 +314,8 @@
           "date": "10월 15일",
           "url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-october-15-2026/"
         }
-      ]
+      ],
+      "audio": null
     }
   ],
   "soon": null,

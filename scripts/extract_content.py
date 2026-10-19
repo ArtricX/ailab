@@ -4,6 +4,7 @@
 만드는 것
 - content/날짜.json        : 제목, 소식 3개(그림, 쉽게 알아보기, 출처), 곧 만날지도 몰라요, 오늘의 말
 - content/graphics/날짜-앵커.svg : 인포그래픽을 사이트 스타일 없이도 똑같이 보이는 독립 SVG로
+- 소식마다 녹음이 있으면(section.story의 data-audio) audio 필드로
 
 규칙
 - 글 페이지가 원본이고, 이 파일들은 거기서 자동으로 만들어집니다. 손으로 고치지 않습니다.
@@ -204,6 +205,13 @@ def extract(page, style):
                 "caption": phrased(fig.find("figcaption")),
             }
 
+        # 녹음(앱의 '소리로 듣기'): 소식 섹션의 data-audio. 없으면 null
+        audio = None
+        if sec.get("data-audio"):
+            a = sec["data-audio"]
+            rel = a[3:] if a.startswith("../") else a
+            audio = {"src": rel, "url": rel if rel.startswith("http") else SITE + rel}
+
         qa = []
         for block in sec.select(".qa > div"):
             h3, p = block.find("h3"), block.find("p")
@@ -222,6 +230,7 @@ def extract(page, style):
             "infographic": graphic,
             "qa": qa,
             "sources": sources(sec.find(class_="source")),
+            "audio": audio,
         })
     need(len(stories) == 3, f"소식이 3개가 아니에요({len(stories)}개)")
 

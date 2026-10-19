@@ -131,7 +131,11 @@
           "date": "10월 16일",
           "url": "https://www.news1.kr/life-culture/book/6322565"
         }
-      ]
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_040900_1468aacd-33ac-4376-ad4e-7e7797d4c7f1.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_040900_1468aacd-33ac-4376-ad4e-7e7797d4c7f1.mp3"
+      }
     },
     {
       "anchor": "bank",
@@ -215,7 +219,11 @@
           "date": "10월 18일",
           "url": "https://www.beri.net/article/schwab-jpmorgan-block-outside-ai-agents-credentials-browser-automation-read-only-mcp-money-movement"
         }
-      ]
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_040900_1e82dcab-3d57-44df-94fa-bad8f0f6a298.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_040900_1e82dcab-3d57-44df-94fa-bad8f0f6a298.mp3"
+      }
     },
     {
       "anchor": "glasses",
@@ -303,7 +311,11 @@
           "date": "5월 1일, 4월 규칙",
           "url": "https://www.dexerto.com/entertainment/major-airline-bans-passengers-from-secretly-filming-staff-without-consent-3359767/"
         }
-      ]
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_040900_26555105-facd-4171-a25f-85aa06838f8c.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261019_040900_26555105-facd-4171-a25f-85aa06838f8c.mp3"
+      }
     }
   ],
   "soon": null,

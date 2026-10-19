@@ -548,3 +548,14 @@ html { scroll-padding-top: 5.5rem; }
 /* 구독 칸: 설명 → 안심 문구 → 버튼 순서로. 다 읽고 나서 누르도록 버튼을 맨 아래에 둡니다(HTML 순서는 그대로) */
 .subscribe-body .subscribe-note { order: 1; }
 .subscribe-body .subscribe-cta { order: 2; margin-top: 0.4rem; }
+
+/* ---------- 안내 문서(개인정보처리방침 등) ---------- */
+.legal { padding-block: 2.6rem 4rem; display: grid; gap: 1.6rem; max-width: var(--measure); }
+.legal h1 { font-size: clamp(2rem, 7vw, 2.8rem); font-weight: 900; line-height: 1.15; letter-spacing: -0.04em; text-wrap: balance; }
+.legal .legal-meta { color: var(--grey); font-size: 0.92rem; }
+.legal section { display: grid; gap: 0.55rem; }
+.legal h2 { font-size: 1.15rem; font-weight: 900; letter-spacing: -0.02em; }
+.legal p, .legal li { font-size: 1rem; line-height: 1.75; word-break: keep-all; }
+.legal ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.3rem; }
+.legal a { text-underline-offset: 0.2em; }
+.legal .legal-sum { background: var(--ground); border-radius: 1rem; padding: 1rem 1.2rem; font-weight: 700; }

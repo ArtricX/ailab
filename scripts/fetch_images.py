@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""힉스필드 등 외부 주소에 있는 그림을 내려받아 assets/img/ 에 저장하고, 글과 목록의 주소를 사이트 안 경로로 바꿉니다.
+"""힉스필드 등 외부 주소에 있는 그림과 녹음을 내려받아 사이트 안에 저장하고, 글과 목록의 주소를 사이트 안 경로로 바꿉니다.
+- 그림: assets/img/ (WebP로 줄여서)
+- 녹음: assets/audio/ (소식 섹션의 data-audio, 받은 그대로)
 
 GitHub Actions(.github/workflows/fetch-images.yml)가 저장소에 올라올 때마다 실행합니다.
 직접 실행: python3 scripts/fetch_images.py
@@ -13,6 +15,8 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 IMG = ROOT / "assets" / "img"
 URL_RE = re.compile(r"https://d8j0ntlcm91z4\.cloudfront\.net/[^\s\"'<>)]+\.(?:png|jpe?g|webp)")
+AUDIO = ROOT / "assets" / "audio"
+AUDIO_RE = re.compile(r"https://d8j0ntlcm91z4\.cloudfront\.net/[^\s\"'<>)]+\.(?:mp3|m4a|wav)")
 
 
 MAX_W = {"thumb": 900, "full": 1600}
@@ -47,9 +51,34 @@ def download(url):
     return dest.name
 
 
+def download_audio(url):
+    """녹음은 줄이지 않고 받은 그대로 저장합니다."""
+    dest = AUDIO / url.rsplit("/", 1)[-1]
+    if not dest.exists():
+        req = urllib.request.Request(url, headers={"User-Agent": "ailab-audio-fetch"})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            data = r.read()
+        if len(data) < 5000:
+            raise SystemExit(f"내려받은 녹음이 너무 작아요: {url}")
+        dest.write_bytes(data)
+        print(f"저장: assets/audio/{dest.name} ({len(data) // 1024}KB)")
+    return dest.name
+
+
 def main():
     IMG.mkdir(parents=True, exist_ok=True)
+    AUDIO.mkdir(parents=True, exist_ok=True)
     changed = False
+
+    # 녹음: 글 페이지의 data-audio 주소를 ../assets/audio/ 로
+    for page in sorted((ROOT / "posts").glob("*.html")):
+        s = page.read_text(encoding="utf-8")
+        urls = set(AUDIO_RE.findall(s))
+        for u in urls:
+            s = s.replace(u, f"../assets/audio/{download_audio(u)}")
+        if urls:
+            page.write_text(s, encoding="utf-8")
+            changed = True
 
     # 글 페이지: posts/ 안에서는 ../assets/img/ 로
     for page in sorted((ROOT / "posts").glob("*.html")):

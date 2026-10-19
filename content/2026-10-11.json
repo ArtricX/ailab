@@ -135,7 +135,8 @@
           "date": "9월 27일",
           "url": "https://www.dailian.co.kr/news/view/1694083"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "teens",
@@ -216,7 +217,8 @@
           "date": "10월 7일",
           "url": "https://www.foxbusiness.com/technology/openai-launches-college-planner-chatgpt-teens-track-application-financial-aid"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "amie",
@@ -309,7 +311,8 @@
           "date": "10월 9일",
           "url": "https://dailycaller.com/2026/10/09/amie-ai-chatbot-urgent-care-clinics-study-lancet/"
         }
-      ]
+      ],
+      "audio": null
     }
   ],
   "soon": null,

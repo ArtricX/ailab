@@ -30,6 +30,15 @@
    - 큰 숫자 하나를 주인공으로, 막대·말풍선·순서도 같은 구조는 사실 그대로. 빨강 강조는 그림마다 한 곳만.
    - 막대와 크기는 실제 눈금에 맞춰 계산하고, 모든 숫자는 출처의 실제 값입니다.
    - `<title>`과 `<desc>`로 그림 내용을 글로 적습니다.
+5-2. **녹음 (앱의 '소리로 듣기')**: 글을 다 쓴 뒤, 소식마다 녹음을 하나씩 만듭니다. 세 개를 힉스필드 `generate_audio_batch` 한 번으로 보내고 `jobs_wait`로 기다립니다.
+   - 설정(고정): `model: text2speech_v2`, `variant: elevenlabs`, `voice_type: preset`, `voice_id: c25f78a0-714e-42af-8da3-a399cef94968`(Hana, 여성 표준어), `use_unlim: false`. 하루 약 5~7크레딧.
+   - 읽을 글(고정 순서): 글 페이지의 문장을 **그대로** 이어 붙입니다. 새로 쓰거나 줄이지 않습니다.
+     - 첫 소식 맨 앞에만: `안녕하세요, 아이고 아침 소식이에요. M월 D일 X요일, 오늘의 AI 소식 세 가지를 들려 드릴게요.`
+     - 소식마다: `첫 번째(두 번째, 세 번째) 소식이에요. <제목>. <한 줄 요약> 무슨 일이에요? <답> 왜 그래요? <답> 나한테는요? <답>`
+     - 마지막 소식 맨 끝에만: `오늘 소식은 여기까지예요. 내일 아침에 또 만나요.`
+     - 구절 표시(`|`), HTML 태그, 출처는 넣지 않습니다.
+   - 결과의 `.mp3` 주소를 글 페이지 각 소식 섹션에 `data-audio` 속성으로 넣습니다: `<section class="story a-pink" id="books" data-audio="https://…mp3">`. 저장소에 올라가면 GitHub Actions가 녹음을 `assets/audio/`에 저장하고 주소를 바꾸며, `content/날짜.json`의 `audio`로 옮겨 앱이 읽습니다.
+   - 녹음이 실패하거나 크레딧이 부족해도 글은 올립니다(앱은 녹음이 없으면 읽기만 보여 줘요). 대신 PR 설명 점검 결과에 꼭 적습니다.
 6. **목록 갱신**: `posts.json` 맨 앞에 그날 항목(date, title, summary, minutes, stories[tag, color, anchor, title, dek, illust], keywords[word, meaning])을 추가하고 `python3 scripts/build.py`를 실행해 `index.html`을 다시 만듭니다.
 7. **줄내림 검사**: `python3 scripts/check_lines.py`를 돌려 문제 0개가 될 때까지 구절을 다시 나눕니다. 문제가 남아 있으면 올리지 않습니다.
    이어서 `python3 scripts/extract_content.py`(필요하면 `pip install beautifulsoup4 --break-system-packages`)를 돌려 "멈춘 글"이 없는지 확인합니다. 멈춘 글이 있으면 글 구조가 틀과 다르다는 뜻이니 틀에 맞게 고칩니다. 만들어진 `content/` 파일은 함께 올려도 되고, 올리지 않아도 GitHub Actions가 다시 만듭니다.
@@ -61,6 +70,7 @@
    ## 점검 결과
    - 줄내림 검사: 문제 0개
    - 힉스필드: 그림 3장, 약 N크레딧
+   - 녹음: 3개, 약 N크레딧 (또는 실패한 이유)
    - 뉴스레터 점검: 통과 (또는 무엇이 안 됐는지)
    ```
    - 뉴스레터를 만들지 못했으면 2번 대신 그 사실과 이유를 적습니다.
@@ -68,7 +78,8 @@
 
 ## 데이터 (앱으로 옮길 때를 위해)
 - 글 페이지가 원본이고, `content/`의 데이터는 거기서 자동으로 만들어집니다(`content/README.md`에 구조 설명). 손으로 고치지 않습니다.
-- 그래서 **글 구조를 틀과 똑같이 지킵니다**: 소식은 `section.story`(id = 앵커) 3개, 각 소식에 `story-head`(태그·h2·dek), `figure.figure` 안 인라인 SVG 하나, `.qa` 안에 질문 3개(h3+p), `p.source` 출처. 오늘의 말은 `section#words`의 `.ticket`. 새 구획을 만들고 싶으면 먼저 `extract_content.py`도 함께 고칩니다.
+- 앱 '아이고'(저장소 ArtricX/aigo-app)는 `posts.json`과 `content/날짜.json`을 그대로 읽습니다. 앱 개인정보처리방침은 `privacy.html`입니다.
+- 그래서 **글 구조를 틀과 똑같이 지킵니다**: 소식은 `section.story`(id = 앵커, 녹음이 있으면 `data-audio`) 3개, 각 소식에 `story-head`(태그·h2·dek), `figure.figure` 안 인라인 SVG 하나, `.qa` 안에 질문 3개(h3+p), `p.source` 출처. 오늘의 말은 `section#words`의 `.ticket`. 새 구획을 만들고 싶으면 먼저 `extract_content.py`도 함께 고칩니다.
 
 ## 디자인 규칙
 - 스타일은 `assets/style.css` 하나만 씁니다. 글 페이지에 새 CSS를 넣지 않습니다.

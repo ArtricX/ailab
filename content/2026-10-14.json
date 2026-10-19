@@ -129,7 +129,8 @@
           "date": "10월 13일",
           "url": "https://biz.sbs.co.kr/article/20000339602"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "feed",
@@ -214,7 +215,8 @@
           "date": "",
           "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "photo",
@@ -300,7 +302,8 @@
           "date": "10월 13일",
           "url": "https://www.ibtimes.sg/police-use-ai-pinpoint-homes-interior-photos-even-washing-machine-picture-enough-95071"
         }
-      ]
+      ],
+      "audio": null
     }
   ],
   "soon": null,

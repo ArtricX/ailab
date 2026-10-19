@@ -130,7 +130,8 @@
           "date": "",
           "url": "https://meeco.kr/news/42061458"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "acne",
@@ -218,7 +219,8 @@
           "date": "10월 6일",
           "url": "https://www.utahbusiness.com/industry/2026/10/06/utah-becomes-first-state-to-authorize-ai-to-issue-initial-prescriptions/"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "notes",
@@ -300,7 +302,8 @@
           "date": "10월 6일",
           "url": "https://www.ithinkdiff.com/google-ai-edge-foresight-mac-offline-meeting-notes/"
         }
-      ]
+      ],
+      "audio": null
     }
   ],
   "soon": null,

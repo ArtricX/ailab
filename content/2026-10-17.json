@@ -130,7 +130,8 @@
           "date": "10월 15일",
           "url": "https://newsway.co.kr/news/view?ud=2026101515080970946"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "ads",
@@ -219,7 +220,8 @@
           "date": "10월 16일",
           "url": "https://mobilesyrup.com/2026/10/16/chatgpt-openai-targeted-ads-personal-data"
         }
-      ]
+      ],
+      "audio": null
     },
     {
       "anchor": "review",
@@ -306,7 +308,8 @@
           "date": "10월 14일",
           "url": "https://www.rdworldonline.com/?p=83562"
         }
-      ]
+      ],
+      "audio": null
     }
   ],
   "soon": null,
