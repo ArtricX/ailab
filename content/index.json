@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-21",
+      "title": "AI 게임이 쏟아진 게임 축제, AI 회사를 산 세일즈포스, 1천만 번 받은 AI 비서 앱",
+      "file": "content/2026-10-21.json",
+      "stories": [
+        {
+          "anchor": "steam",
+          "tag": "창작",
+          "color": "yellow",
+          "title": "게임 축제에 AI로 만든 게임이 쏟아졌어요"
+        },
+        {
+          "anchor": "braze",
+          "tag": "일",
+          "color": "blue",
+          "title": "메시지를 골라 주는 AI 회사가 팔리게 됐어요"
+        },
+        {
+          "anchor": "muse",
+          "tag": "생활",
+          "color": "pink",
+          "title": "메타의 AI 비서 앱이 1천만 번 넘게 내려받아졌어요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-20",
       "title": "여행 길잡이가 된 파파고, 신입이 줄어든 AI 회사, 허락 없이 지갑을 쓴 AI",
       "file": "content/2026-10-20.json",

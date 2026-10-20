@@ -114,6 +114,8 @@ def read_numbers(t):
 
     # 고유어 단위: 3명 → 세 명, 172곳 → 백칠십이 곳, 3개월 → 삼 개월(한자어)
     t = re.sub(r"(\d+)\s?개월", lambda m: sino(int(m.group(1))) + " 개월", t)
+    # 배: 2배 → 두 배, 10배 → 열 배 (소수 1.5배는 한자어 그대로)
+    t = re.sub(r"(?<![\d.,])(\d+)\s?배", lambda m: (native(int(m.group(1))) if 1 <= int(m.group(1)) <= 10 else sino(int(m.group(1)))) + " 배", t)
     pat = r"(\d{1,3}(?:,\d{3})+|\d+)\s?(" + "|".join(NATIVE_COUNTERS) + ")"
 
     def counter(m):
@@ -196,6 +198,8 @@ TESTS = [
     ("SNS에", "에스엔에스에"),
     ("일주일에 수십 번", "일주일에 수십 번"),
     ("3~4개", "삼에서 네 개"),
+    ("2배 넘게", "두 배 넘게"),
+    ("6배", "여섯 배"),
 ]
 
 
