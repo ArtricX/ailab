@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">브레이즈가 하는 일과 세일즈포스가 브레이즈를 사는 조건</title>
+            <desc id="g2d">세일즈포스는 10월 20일 브레이즈를 사기로 했다고 밝혔다. 브레이즈를 쓰는 회사는 약 2,770곳이고 캔바, 인스타카트, 벤모 등이 있다. 브레이즈는 손님이 앱을 쓰는 모습을 보고, AI가 무엇을 언제 어디로 보낼지 골라, 앱 알림, 이메일, 문자 등으로 메시지를 보낸다. 사는 값은 한 주에 현금 47.5달러, 모두 약 56억 6천만 달러로 우리 돈 약 7조 5천억 원이다. 브레이즈 주주와 정부의 허락을 받아야 하며 2027년 2월부터 2028년 1월 사이에 마무리할 계획이다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">2,770곳</text>
+            <text x="34" y="170" font-size="16" font-weight="800">브레이즈를 쓰는 회사</text>
+            <text class="grey" x="34" y="194" font-size="13.5">캔바 · 인스타카트 · 벤모 등</text>
+
+            <rect class="f-paper" x="34" y="226" width="320" height="52" rx="16"/>
+            <text x="194" y="258" font-size="14.5" font-weight="900" text-anchor="middle">손님이 앱을 써요</text>
+            <line class="line" x1="194" y1="284" x2="194" y2="296" stroke-width="3"/>
+            <path class="f-ink" d="M194 306 l-8 -12 h16z"/>
+            <rect class="f-blue" x="34" y="310" width="320" height="52" rx="16"/>
+            <text class="white" x="194" y="342" font-size="14.5" font-weight="900" text-anchor="middle">AI가 무엇을 언제 보낼지 골라요</text>
+            <line class="line" x1="194" y1="368" x2="194" y2="380" stroke-width="3"/>
+            <path class="f-ink" d="M194 390 l-8 -12 h16z"/>
+            <rect class="f-paper" x="34" y="394" width="320" height="52" rx="16"/>
+            <text x="194" y="426" font-size="14.5" font-weight="900" text-anchor="middle">알림 · 이메일 · 문자로 보내요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">사는 값</text>
+            <rect class="f-blue" x="440" y="74" width="320" height="52" rx="16"/>
+            <text class="white" x="460" y="106" font-size="14.5" font-weight="900">한 주에 현금 47.5달러</text>
+            <rect class="f-paper" x="440" y="136" width="320" height="52" rx="16"/>
+            <text x="460" y="168" font-size="14.5" font-weight="900">모두 약 56억 6천만 달러</text>
+            <text class="grey" x="440" y="212" font-size="12.5">우리 돈으로 약 7조 5천억 원이에요</text>
+
+            <text x="440" y="264" font-size="15" font-weight="800">마무리까지</text>
+            <rect class="f-paper" x="440" y="280" width="320" height="52" rx="16"/>
+            <text class="red" x="460" y="312" font-size="14.5" font-weight="900">주주와 정부의 허락이 필요해요</text>
+            <text x="440" y="376" font-size="14.5" font-weight="800">2027년 2월 ~ 2028년 1월</text>
+            <text class="grey" x="440" y="402" font-size="12.5">이 사이에 마무리할 계획이에요</text>
+          </svg>

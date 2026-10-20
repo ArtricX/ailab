@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">메타의 AI 비서 앱 뮤즈가 내려받아진 횟수와 다른 AI 앱과 견준 속도</title>
+            <desc id="g3d">메타가 9월 8일 내놓은 AI 비서 앱 뮤즈가 약 40일 만에 1천만 번 넘게 내려받아졌다. 뮤즈는 사용자가 허락한 메일, 달력, 결제, 쇼핑, 집 안 기기와 이어져 일을 돕고, 어떤 일은 하기 전에 허락을 묻는다. 500만 번까지 걸린 시간은 뮤즈가 약 3주, 챗GPT가 56일, 클로드가 103일이었다. 막대는 0부터 103일을 기준으로 그렸고 약 3주는 21일로 그렸다. 앱마다 나온 때와 나라가 달라 단순히 견주기는 어렵고, 내려받은 횟수는 실제로 쓰는 사람 수와 다르다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">1천만 번</text>
+            <text x="34" y="170" font-size="16" font-weight="800">뮤즈를 내려받은 횟수</text>
+            <text class="grey" x="34" y="194" font-size="13.5">9월 8일 나온 뒤 약 40일 만이에요</text>
+
+            <text x="34" y="240" font-size="15" font-weight="800">허락한 곳과 이어져요</text>
+            <rect class="f-pink" x="34" y="256" width="320" height="52" rx="16"/>
+            <text x="54" y="288" font-size="14.5" font-weight="900">메일 · 달력</text>
+            <rect class="f-paper" x="34" y="318" width="320" height="52" rx="16"/>
+            <text x="54" y="350" font-size="14.5" font-weight="900">결제 · 쇼핑</text>
+            <rect class="f-paper" x="34" y="380" width="320" height="52" rx="16"/>
+            <text x="54" y="412" font-size="14.5" font-weight="900">집 안 기기</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">500만 번까지 걸린 시간</text>
+            <text x="440" y="96" font-size="13.5" font-weight="800">뮤즈 · 약 3주</text>
+            <rect class="f-pink" x="440" y="106" width="65" height="28" rx="6"/>
+            <text x="440" y="166" font-size="13.5" font-weight="800">챗GPT · 56일</text>
+            <rect class="f-paper" x="440" y="176" width="174" height="28" rx="6"/>
+            <text x="440" y="236" font-size="13.5" font-weight="800">클로드 · 103일</text>
+            <rect class="f-paper" x="440" y="246" width="320" height="28" rx="6"/>
+            <text class="grey" x="440" y="300" font-size="12.5">막대는 0부터 103일, 약 3주는 21일로 그렸어요</text>
+
+            <text class="red" x="440" y="350" font-size="14.5" font-weight="900">내려받기 수는 쓰는 사람 수와 달라요</text>
+            <text class="grey" x="440" y="380" font-size="12.5">앱마다 나온 때와 나라가 달라서</text>
+            <text class="grey" x="440" y="402" font-size="12.5">단순히 견주기는 어려워요</text>
+          </svg>
