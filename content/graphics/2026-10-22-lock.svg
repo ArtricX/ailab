@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">챗GPT 채팅 잠금을 거는 순서와 잠근 대화가 보이지 않는 곳</title>
+            <desc id="g1d">오픈AI가 10월 20일(미국 시간) 챗GPT에 채팅 잠금 기능을 넣기 시작했다. 잠금은 숫자 4자리 비밀번호나 얼굴·지문 인식으로 연다. 거는 순서는 대화의 점 세 개 메뉴를 열고, 잠금을 고르고, 비밀번호 4자리를 정하는 것이다. 잠근 대화는 대화 목록, 고정한 대화, 검색 결과에 나오지 않는다. 비밀번호를 잊어 새로 만들면 잠근 대화가 모두 지워진다. 잠금은 완전한 암호화가 아니다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">4자리</text>
+            <text x="34" y="170" font-size="16" font-weight="800">잠금을 여는 비밀번호</text>
+            <text class="grey" x="34" y="194" font-size="13.5">얼굴이나 지문으로도 열 수 있어요</text>
+
+            <rect class="f-paper" x="34" y="226" width="320" height="52" rx="16"/>
+            <text x="194" y="258" font-size="14.5" font-weight="900" text-anchor="middle">대화의 점 세 개 메뉴를 열어요</text>
+            <line class="line" x1="194" y1="284" x2="194" y2="296" stroke-width="3"/>
+            <path class="f-ink" d="M194 306 l-8 -12 h16z"/>
+            <rect class="f-blue" x="34" y="310" width="320" height="52" rx="16"/>
+            <text class="white" x="194" y="342" font-size="14.5" font-weight="900" text-anchor="middle">잠금을 골라요</text>
+            <line class="line" x1="194" y1="368" x2="194" y2="380" stroke-width="3"/>
+            <path class="f-ink" d="M194 390 l-8 -12 h16z"/>
+            <rect class="f-paper" x="34" y="394" width="320" height="52" rx="16"/>
+            <text x="194" y="426" font-size="14.5" font-weight="900" text-anchor="middle">비밀번호 4자리를 정해요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">잠근 대화가 안 보이는 곳</text>
+            <rect class="f-blue" x="440" y="74" width="320" height="52" rx="16"/>
+            <text class="white" x="460" y="106" font-size="14.5" font-weight="900">대화 목록</text>
+            <rect class="f-paper" x="440" y="136" width="320" height="52" rx="16"/>
+            <text x="460" y="168" font-size="14.5" font-weight="900">고정해 둔 대화</text>
+            <rect class="f-paper" x="440" y="198" width="320" height="52" rx="16"/>
+            <text x="460" y="230" font-size="14.5" font-weight="900">검색 결과</text>
+            <text class="grey" x="440" y="274" font-size="12.5">따로 모인 잠금 칸에서만 볼 수 있어요</text>
+
+            <text x="440" y="320" font-size="15" font-weight="800">조심할 점</text>
+            <rect class="f-paper" x="440" y="336" width="320" height="52" rx="16"/>
+            <text class="red" x="460" y="368" font-size="14.5" font-weight="900">비밀번호를 잊으면 대화가 지워져요</text>
+            <text class="grey" x="440" y="412" font-size="12.5">잠금은 완전한 암호화가 아니에요</text>
+            <text class="grey" x="440" y="434" font-size="12.5">요금제마다 차례로 열리고 있어요</text>
+          </svg>

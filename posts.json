@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-22",
+    "title": "대화에 자물쇠 거는|챗GPT,|전화 받는|AI 상담원,|전갈 독을 붙잡는|AI 단백질",
+    "summary": "챗GPT에|대화마다 비밀번호를 거는|기능이 생겼어요.|채널톡은|고객센터 전화를 받고|먼저 걸기도 하는|AI 상담원을 내놓았고,|AI 클로드는|전갈 독에 달라붙는|단백질 17개를 찾아냈어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "안전",
+        "color": "blue",
+        "anchor": "lock",
+        "title": "챗GPT 대화에|자물쇠를|걸 수 있어요",
+        "dek": "숫자 4자리나|얼굴 인식으로|열어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "yellow",
+        "anchor": "voice",
+        "title": "고객센터 전화를|AI가 받고|먼저 걸기도 해요",
+        "dek": "채널톡이|AI 전화 상담원을|내놓았어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e_min.webp"
+      },
+      {
+        "tag": "건강",
+        "color": "green",
+        "anchor": "scorpion",
+        "title": "AI가|전갈 독에 달라붙는|단백질을 설계했어요",
+        "dek": "해독제가 되려면|아직 갈 길이|멀어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "생체 인식",
+        "meaning": "얼굴이나 지문으로|나인지|알아보는 것"
+      },
+      {
+        "word": "고객센터",
+        "meaning": "회사가 손님의|물음과 불편을|받아 주는 곳"
+      },
+      {
+        "word": "단백질",
+        "meaning": "몸과 독을 이루는|아주 작은|재료 덩어리"
+      },
+      {
+        "word": "해독제",
+        "meaning": "몸에 들어온 독의|힘을 없애는|약"
+      }
+    ]
+  },
+  {
     "date": "2026-10-21",
     "title": "AI 게임이 쏟아진|게임 축제,|AI 회사를 산|세일즈포스,|1천만 번 받은|AI 비서 앱",
     "summary": "스팀 게임 축제에 나온|시험판 게임 가운데|1,700개 넘게|AI를 썼다고 밝혔어요.|세일즈포스는|손님에게 보낼 메시지를|AI로 고르는 회사를 사기로 했고,|메타의 AI 비서 앱 뮤즈는|1천만 번 넘게|내려받아졌어요.",

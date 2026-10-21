@@ -1,0 +1,369 @@
+{
+  "schema": 1,
+  "date": "2026-10-22",
+  "weekday": "목",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-22.html",
+  "minutes": 5,
+  "title": {
+    "text": "대화에 자물쇠 거는 챗GPT, 전화 받는 AI 상담원, 전갈 독을 붙잡는 AI 단백질",
+    "phrases": [
+      "대화에 자물쇠 거는",
+      "챗GPT,",
+      "전화 받는",
+      "AI 상담원,",
+      "전갈 독을 붙잡는",
+      "AI 단백질"
+    ]
+  },
+  "share": {
+    "title": "챗GPT 대화에 자물쇠를 걸 수 있어요 외 2건 · 아이고 10월 22일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 22일 목요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-22.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "lock",
+      "tag": "안전",
+      "color": "blue",
+      "label": "대화에 자물쇠 거는 챗GPT"
+    },
+    {
+      "anchor": "voice",
+      "tag": "일",
+      "color": "yellow",
+      "label": "전화 받는 AI 상담원"
+    },
+    {
+      "anchor": "scorpion",
+      "tag": "건강",
+      "color": "green",
+      "label": "전갈 독을 붙잡는 AI 단백질"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "lock",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-22.html#lock",
+      "tag": "안전",
+      "color": "blue",
+      "title": {
+        "text": "챗GPT 대화에 자물쇠를 걸 수 있어요",
+        "phrases": [
+          "챗GPT 대화에",
+          "자물쇠를",
+          "걸 수 있어요"
+        ]
+      },
+      "dek": {
+        "text": "숫자 4자리나 얼굴 인식으로 열어요.",
+        "phrases": [
+          "숫자 4자리나",
+          "얼굴 인식으로",
+          "열어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 말풍선 모양의 커다란 흰 상자를 작은 금색 자물쇠로 닫고, 그 옆에서 작은 흰 로봇이 커다란 옛날 열쇠를 두 팔로 안고 경비원처럼 서 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-22-lock.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-22-lock.svg",
+        "viewBox": "0 0 800 460",
+        "title": "챗GPT 채팅 잠금을 거는 순서와 잠근 대화가 보이지 않는 곳",
+        "desc": "오픈AI가 10월 20일(미국 시간) 챗GPT에 채팅 잠금 기능을 넣기 시작했다. 잠금은 숫자 4자리 비밀번호나 얼굴·지문 인식으로 연다. 거는 순서는 대화의 점 세 개 메뉴를 열고, 잠금을 고르고, 비밀번호 4자리를 정하는 것이다. 잠근 대화는 대화 목록, 고정한 대화, 검색 결과에 나오지 않는다. 비밀번호를 잊어 새로 만들면 잠근 대화가 모두 지워진다. 잠금은 완전한 암호화가 아니다.",
+        "caption": {
+          "text": "남에게 보이기 싫은 대화는 따로 잠가 둘 수 있어요.",
+          "phrases": [
+            "남에게 보이기 싫은 대화는",
+            "따로 잠가",
+            "둘 수 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "오픈AI가 10월 20일(미국 시간) 챗GPT에 '채팅 잠금' 기능을 넣기 시작했어요. 대화 하나하나에 자물쇠를 걸 수 있어요. 열 때는 숫자 4자리 비밀번호나 얼굴·지문 인식을 써요. 무료부터 유료까지 대부분의 요금제에서 쓸 수 있고, 사람마다 차례로 열리고 있어요.",
+            "nobreak": [
+              "10월 20일",
+              "4자리"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "사람들은 챗GPT에 건강, 돈, 고민 같은 속 이야기를 많이 털어놓아요. 화면을 함께 보거나 가족과 기기를 나눠 쓰면 이런 대화가 남에게 보일 수 있어요. 잠근 대화는 대화 목록, 고정해 둔 대화, 검색 결과에 나오지 않아요. 따로 모인 칸에서만 볼 수 있어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "대화의 점 세 개 메뉴에서 잠금을 고르면 돼요. 비밀번호를 잊어 새로 만들면 잠근 대화는 모두 지워지고 되살릴 수 없어요. 잠금은 남의 눈을 가리는 것이지, 대화를 완전히 암호로 바꾸는 것은 아니에요. 정말 중요한 정보는 처음부터 적지 않는 것이 가장 안전해요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "테크크런치",
+          "date": "10월 20일",
+          "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/"
+        },
+        {
+          "name": "걸프뉴스",
+          "date": "10월 21일",
+          "url": "https://gulfnews.com/technology/companies/chatgpt-now-lets-you-lock-private-chats-with-a-pin-or-face-id-1.500718102"
+        },
+        {
+          "name": "인디아TV",
+          "date": "10월 21일",
+          "url": "https://www.indiatvnews.com/technology/news/chatgpt-introduces-locked-chats-with-pin-face-id-and-touch-id-how-to-use-2026-10-21-1057548"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200452_03eb7ec8-4c1b-47fc-b36b-0a970c3aa1c6.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200452_03eb7ec8-4c1b-47fc-b36b-0a970c3aa1c6.mp3"
+      }
+    },
+    {
+      "anchor": "voice",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-22.html#voice",
+      "tag": "일",
+      "color": "yellow",
+      "title": {
+        "text": "고객센터 전화를 AI가 받고 먼저 걸기도 해요",
+        "phrases": [
+          "고객센터 전화를",
+          "AI가 받고",
+          "먼저 걸기도 해요"
+        ]
+      },
+      "dek": {
+        "text": "채널톡이 AI 전화 상담원을 내놓았어요.",
+        "phrases": [
+          "채널톡이",
+          "AI 전화 상담원을",
+          "내놓았어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 헤드셋을 쓴 작은 흰 로봇이 작은 상담 책상에서 옛날 전화기로 이야기하고, 길게 꼬인 전화선 끝에서 소파에 앉은 동그란 사람이 수화기를 들고 있으며, 책상 위 다른 전화기가 따르릉 울리는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-22-voice.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-22-voice.svg",
+        "viewBox": "0 0 800 460",
+        "title": "채널톡 보이스 알프를 쓴 뒤 줄어든 상담 전화와 AI가 받는 전화, 거는 전화",
+        "desc": "채널코퍼레이션이 10월 21일 AI 전화 상담 보이스 알프를 정식으로 내놓았다. 음식물 처리기 회사 린클은 이 AI를 쓴 뒤 상담원이 받는 전화가 39% 줄고, 통화 시간이 약 42% 줄었다고 회사가 밝혔다. 막대는 쓰기 전을 100으로 그렸고 쓴 뒤는 61이다. 받는 전화는 AI가 먼저 받고 어려운 일은 사람에게 넘긴다. 거는 전화는 홈페이지에 상담을 신청한 손님에게 AI가 먼저 전화를 건다.",
+        "caption": {
+          "text": "고객센터 전화의 첫 목소리가 AI로 바뀌고 있어요.",
+          "phrases": [
+            "고객센터 전화의",
+            "첫 목소리가",
+            "AI로 바뀌고 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "상담 채팅 서비스 '채널톡'을 만드는 한국 회사 채널코퍼레이션이 10월 21일 AI 전화 상담 '보이스 알프'를 내놓았어요. 손님이 고객센터에 전화하면 AI가 먼저 받아요. 홈페이지에 상담을 신청한 손님에게는 AI가 먼저 전화를 걸 수도 있어요.",
+            "nobreak": [
+              "10월 21일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "전화 상담에는 사람이 많이 필요하고, 같은 질문이 자주 되풀이돼요. 음식물 처리기 회사 린클은 이 AI를 쓴 뒤 상담원이 받는 전화가 39% 줄고, 통화 시간도 약 42% 줄었다고 해요. 회사는 말투와 쉬는 틈을 보고 손님 말이 끝났는지 알아채, 말을 끊지 않게 만들었다고 밝혔어요.",
+            "nobreak": [
+              "39%",
+              "42%"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "앞으로 고객센터에 전화하면 AI 목소리가 먼저 받을 수 있어요. 아파트 생활 앱 아파트아이에서는 방문 차량 예약이나 관리비 내는 법 같은 쉬운 질문에 AI가 답해요. 어려운 일은 사람 상담원에게 넘겨요. AI가 상담 전화를 먼저 걸어올 수도 있으니, 개인정보를 말하기 전에 어느 회사인지 꼭 확인하세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "지디넷코리아",
+          "date": "10월 21일",
+          "url": "https://zdnet.co.kr/view/?no=20261021194514"
+        },
+        {
+          "name": "디지털투데이",
+          "date": "10월 21일",
+          "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=708699"
+        },
+        {
+          "name": "인공지능신문",
+          "date": "10월 21일",
+          "url": "https://www.aitimes.kr/news/articleView.html?idxno=42373"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200452_313daa77-4163-4c49-b89a-b4ec0fa7ef67.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200452_313daa77-4163-4c49-b89a-b4ec0fa7ef67.mp3"
+      }
+    },
+    {
+      "anchor": "scorpion",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-22.html#scorpion",
+      "tag": "건강",
+      "color": "green",
+      "title": {
+        "text": "AI가 전갈 독에 달라붙는 단백질을 설계했어요",
+        "phrases": [
+          "AI가",
+          "전갈 독에 달라붙는",
+          "단백질을 설계했어요"
+        ]
+      },
+      "dek": {
+        "text": "해독제가 되려면 아직 갈 길이 멀어요.",
+        "phrases": [
+          "해독제가 되려면",
+          "아직 갈 길이",
+          "멀어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 실험복을 입은 작은 흰 로봇이 알록달록한 퍼즐 조각 더미 속에서 조각 하나를 들어 작은 전갈의 꼬리 끝에 꼭 맞춰 보고, 실험복을 입은 동그란 사람이 돋보기로 시험관들을 자세히 들여다보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-22-scorpion.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-22-scorpion.svg",
+        "viewBox": "0 0 800 460",
+        "title": "AI 클로드가 설계한 전갈 독 단백질이 실험을 거쳐 남은 수와 약이 되기까지 남은 단계",
+        "desc": "앤트로픽이 10월 20일(미국 시간) 발표한 연구다. 클로드는 64시간 동안 전갈 독 5가지에 달라붙을 단백질을 30만 개 넘게 설계했다. 그중 211개를 실험실에서 시험했고 17개가 독에 잘 달라붙었다. 전갈에 쏘이는 사람은 한 해 약 120만 명이고 해독제는 비싸거나 모자랄 때가 많다. 독에 붙는 것은 확인했지만 세포 실험과 동물 실험은 아직이다. 아직 해독제는 아니다.",
+        "caption": {
+          "text": "AI가 수십만 개를 설계하고 실험으로 골라냈어요.",
+          "phrases": [
+            "AI가 수십만 개를",
+            "설계하고",
+            "실험으로 골라냈어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "AI 회사 앤트로픽이 10월 20일(미국 시간) AI 클로드로 전갈 독을 연구한 결과를 내놓았어요. 클로드는 64시간 동안 전갈 독 5가지에 달라붙을 단백질을 30만 개 넘게 설계했어요. 그중 211개를 실험실에서 만들어 시험했고, 17개가 독에 잘 달라붙었어요.",
+            "nobreak": [
+              "10월 20일",
+              "64시간",
+              "5가지",
+              "30만 개",
+              "211개",
+              "17개"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "전갈에 쏘이는 사람은 한 해 약 120만 명이에요. 그런데 해독제는 비싸거나 모자랄 때가 많아요. 독이 몸의 세포에 붙기 전에 단백질이 먼저 독을 붙잡으면, 언젠가 새 치료제가 될 수도 있어요. 앤트로픽은 시험한 211개의 정보를 모두 공개한다고 밝혔어요.",
+            "nobreak": [
+              "120만 명",
+              "211개"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "아직 해독제가 나온 것은 아니에요. 독에 붙는 것만 확인했고, 세포나 동물에서도 효과가 있는지는 아직 시험하지 않았어요. 약이 되려면 오랜 시험이 더 필요해요. 그래도 AI가 사흘이 안 되는 시간에 수십만 개의 설계를 해냈다는 점이 눈에 띄어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "앤트로픽 발표",
+          "date": "10월 20일",
+          "url": "https://x.com/AnthropicAI/status/2112579251555721573"
+        },
+        {
+          "name": "벤징가",
+          "date": "10월 20일",
+          "url": "https://www.benzinga.com/markets/private-markets/26/10/62483196/anthropics-claude-designed-hundreds-of-thousands-of-proteins-in-64-hours-to-target-scorpion-venom"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200452_7760e6d1-7713-4ea3-a9f8-4aeec8e85316.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200452_7760e6d1-7713-4ea3-a9f8-4aeec8e85316.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "생체 인식",
+      "meaning": {
+        "text": "얼굴이나 지문으로 나인지 알아보는 것",
+        "phrases": [
+          "얼굴이나 지문으로",
+          "나인지",
+          "알아보는 것"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "고객센터",
+      "meaning": {
+        "text": "회사가 손님의 물음과 불편을 받아 주는 곳",
+        "phrases": [
+          "회사가 손님의",
+          "물음과 불편을",
+          "받아 주는 곳"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "단백질",
+      "meaning": {
+        "text": "몸과 독을 이루는 아주 작은 재료 덩어리",
+        "phrases": [
+          "몸과 독을 이루는",
+          "아주 작은",
+          "재료 덩어리"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "해독제",
+      "meaning": {
+        "text": "몸에 들어온 독의 힘을 없애는 약",
+        "phrases": [
+          "몸에 들어온 독의",
+          "힘을 없애는",
+          "약"
+        ]
+      },
+      "color": "pink"
+    }
+  ]
+}
