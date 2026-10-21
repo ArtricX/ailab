@@ -11,8 +11,8 @@
         "anchor": "lock",
         "title": "챗GPT 대화에|자물쇠를|걸 수 있어요",
         "dek": "숫자 4자리나|얼굴 인식으로|열어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856_min.webp"
+        "illust": "assets/img/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856.webp",
+        "thumb": "assets/img/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856_min.webp"
       },
       {
         "tag": "일",
@@ -20,8 +20,8 @@
         "anchor": "voice",
         "title": "고객센터 전화를|AI가 받고|먼저 걸기도 해요",
         "dek": "채널톡이|AI 전화 상담원을|내놓았어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e_min.webp"
+        "illust": "assets/img/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e.webp",
+        "thumb": "assets/img/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e_min.webp"
       },
       {
         "tag": "건강",
@@ -29,8 +29,8 @@
         "anchor": "scorpion",
         "title": "AI가|전갈 독에 달라붙는|단백질을 설계했어요",
         "dek": "해독제가 되려면|아직 갈 길이|멀어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053_min.webp"
+        "illust": "assets/img/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053.webp",
+        "thumb": "assets/img/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053_min.webp"
       }
     ],
     "keywords": [
