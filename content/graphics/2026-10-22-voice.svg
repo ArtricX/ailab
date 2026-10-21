@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">채널톡 보이스 알프를 쓴 뒤 줄어든 상담 전화와 AI가 받는 전화, 거는 전화</title>
+            <desc id="g2d">채널코퍼레이션이 10월 21일 AI 전화 상담 보이스 알프를 정식으로 내놓았다. 음식물 처리기 회사 린클은 이 AI를 쓴 뒤 상담원이 받는 전화가 39% 줄고, 통화 시간이 약 42% 줄었다고 회사가 밝혔다. 막대는 쓰기 전을 100으로 그렸고 쓴 뒤는 61이다. 받는 전화는 AI가 먼저 받고 어려운 일은 사람에게 넘긴다. 거는 전화는 홈페이지에 상담을 신청한 손님에게 AI가 먼저 전화를 건다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">39%</text>
+            <text x="34" y="170" font-size="16" font-weight="800">상담원이 받는 전화가 줄었어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">린클이 쓴 뒤 회사가 밝힌 수치예요</text>
+
+            <text x="34" y="240" font-size="13.5" font-weight="800">쓰기 전 · 100</text>
+            <rect class="f-paper" x="34" y="250" width="320" height="30" rx="8"/>
+            <text x="34" y="314" font-size="13.5" font-weight="800">쓴 뒤 · 61</text>
+            <rect class="f-yellow" x="34" y="324" width="195" height="30" rx="8"/>
+            <text x="34" y="392" font-size="13.5" font-weight="700">통화 시간도</text>
+            <text x="34" y="414" font-size="13.5" font-weight="700">약 42% 줄었어요</text>
+            <text class="grey" x="34" y="444" font-size="12.5">막대는 쓰기 전을 100으로 그렸어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">받는 전화</text>
+            <rect class="f-yellow" x="440" y="74" width="320" height="52" rx="16"/>
+            <text x="460" y="106" font-size="14.5" font-weight="900">손님 전화를 AI가 먼저 받아요</text>
+            <rect class="f-paper" x="440" y="136" width="320" height="52" rx="16"/>
+            <text x="460" y="168" font-size="14.5" font-weight="900">어려운 일은 사람에게 넘겨요</text>
+
+            <text x="440" y="240" font-size="15" font-weight="800">거는 전화</text>
+            <rect class="f-paper" x="440" y="258" width="320" height="52" rx="16"/>
+            <text x="460" y="290" font-size="14.5" font-weight="900">홈페이지에 상담을 신청하면</text>
+            <line class="line" x1="600" y1="316" x2="600" y2="328" stroke-width="3"/>
+            <path class="f-ink" d="M600 338 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="342" width="320" height="52" rx="16"/>
+            <text class="red" x="460" y="374" font-size="14.5" font-weight="900">AI가 먼저 전화를 걸어요</text>
+            <text class="grey" x="440" y="430" font-size="12.5">10월 21일 정식으로 나왔어요</text>
+          </svg>

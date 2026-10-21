@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-22",
+      "title": "대화에 자물쇠 거는 챗GPT, 전화 받는 AI 상담원, 전갈 독을 붙잡는 AI 단백질",
+      "file": "content/2026-10-22.json",
+      "stories": [
+        {
+          "anchor": "lock",
+          "tag": "안전",
+          "color": "blue",
+          "title": "챗GPT 대화에 자물쇠를 걸 수 있어요"
+        },
+        {
+          "anchor": "voice",
+          "tag": "일",
+          "color": "yellow",
+          "title": "고객센터 전화를 AI가 받고 먼저 걸기도 해요"
+        },
+        {
+          "anchor": "scorpion",
+          "tag": "건강",
+          "color": "green",
+          "title": "AI가 전갈 독에 달라붙는 단백질을 설계했어요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-21",
       "title": "AI 게임이 쏟아진 게임 축제, AI 회사를 산 세일즈포스, 1천만 번 받은 AI 비서 앱",
       "file": "content/2026-10-21.json",
