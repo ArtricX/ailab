@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">베이즈 엔터프라이즈를 들인 대학 수와 학교에서 쓰는 방법</title>
+            <desc id="g3d">마인드로직이 10월 22일 밝힌 숫자다. 여러 AI를 한곳에서 쓰는 '베이즈 엔터프라이즈'(예전 이름 팩트챗)를 들인 대학이 지난해 10월 28곳에서 올해 100곳으로 늘었다. 약 3.6배다. 막대는 100곳을 끝으로 그렸다. 학교가 예산에 맞춰 이용권(크레딧)을 사고, 학생과 교직원에게 나눠 주면, 챗GPT, 클로드, 제미나이 등 80여 개 AI를 골라 쓴다. 숫자는 회사가 밝힌 것이다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">100곳</text>
+            <text x="34" y="170" font-size="16" font-weight="800">이 서비스를 들인 대학</text>
+            <text class="grey" x="34" y="194" font-size="13.5">회사가 밝힌 숫자예요</text>
+
+            <text x="34" y="240" font-size="13.5" font-weight="800">지난해 10월 · 28곳</text>
+            <rect class="f-paper" x="34" y="250" width="90" height="30" rx="8"/>
+            <text x="34" y="314" font-size="13.5" font-weight="800">올해 10월 · 100곳</text>
+            <rect class="f-green" x="34" y="324" width="320" height="30" rx="8"/>
+            <text x="34" y="396" font-size="13.5" font-weight="700">1년 사이 약 3.6배로 늘었어요</text>
+            <text class="grey" x="34" y="426" font-size="12.5">막대는 100곳을 끝으로 그렸어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">학교에서 쓰는 방법</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="52" rx="16"/>
+            <text x="600" y="106" font-size="14.5" font-weight="900" text-anchor="middle">학교가 이용권을 사요</text>
+            <line class="line" x1="600" y1="132" x2="600" y2="144" stroke-width="3"/>
+            <path class="f-ink" d="M600 154 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="158" width="320" height="52" rx="16"/>
+            <text x="600" y="190" font-size="14.5" font-weight="900" text-anchor="middle">학생과 교직원에게 나눠 줘요</text>
+            <line class="line" x1="600" y1="216" x2="600" y2="228" stroke-width="3"/>
+            <path class="f-ink" d="M600 238 l-8 -12 h16z"/>
+            <rect class="f-green" x="440" y="242" width="320" height="52" rx="16"/>
+            <text x="600" y="274" font-size="14.5" font-weight="900" text-anchor="middle">AI 80여 개를 골라 써요</text>
+            <text class="grey" x="440" y="324" font-size="12.5">챗GPT, 클로드, 제미나이 등</text>
+            <text class="grey" x="440" y="346" font-size="12.5">학교 계정으로 바로 들어가요</text>
+            <text class="red" x="440" y="400" font-size="14.5" font-weight="900">AI마다 따로 계약하지 않아도 돼요</text>
+          </svg>

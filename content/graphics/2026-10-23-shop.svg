@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">AI 비서가 월마트에서 장을 보는 순서와 내가 고르는 안전장치 2가지</title>
+            <desc id="g1d">미국 월마트가 10월 21일(미국 시간) 허락받은 AI 비서가 손님 대신 물건을 찾아 살 수 있는 '에이전트 게이트웨이'를 공개했다. 순서는 AI 비서에게 장보기를 부탁하고, AI가 월마트에서 물건을 찾고, 내가 정한 규칙 안에서 산다는 것이다. 손님은 안전장치 2가지 중에서 고른다. 살 때마다 허락받기, 쓸 돈의 한도 정하기. AI 비서는 카드 정보를 볼 수 없고 결제 수단을 바꿀 수 없다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">2가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">내가 고르는 안전장치</text>
+            <text class="grey" x="34" y="194" font-size="13.5">AI 비서마다 따로 정해요</text>
+
+            <rect class="f-yellow" x="34" y="226" width="320" height="52" rx="16"/>
+            <text x="194" y="258" font-size="14.5" font-weight="900" text-anchor="middle">살 때마다 허락받기</text>
+            <rect class="f-paper" x="34" y="290" width="320" height="52" rx="16"/>
+            <text x="194" y="322" font-size="14.5" font-weight="900" text-anchor="middle">쓸 돈의 한도 정하기</text>
+            <text class="grey" x="34" y="380" font-size="12.5">AI 비서가 산 물건은</text>
+            <text class="grey" x="34" y="402" font-size="12.5">내 주문과 따로 보여요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">장 보는 순서</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">AI 비서에게 장보기를 부탁해요</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">AI가 월마트에서 물건을 찾아요</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-yellow" x="440" y="226" width="320" height="48" rx="16"/>
+            <text x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">내가 정한 규칙 안에서 사요</text>
+
+            <text x="440" y="326" font-size="15" font-weight="800">AI 비서가 못 하는 것</text>
+            <rect class="f-paper" x="440" y="342" width="320" height="44" rx="16"/>
+            <text class="red" x="460" y="370" font-size="14.5" font-weight="900">카드 정보 보기</text>
+            <rect class="f-paper" x="440" y="394" width="320" height="44" rx="16"/>
+            <text x="460" y="422" font-size="14.5" font-weight="900">결제 수단 바꾸기</text>
+          </svg>

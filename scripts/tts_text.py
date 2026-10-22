@@ -126,6 +126,9 @@ def read_numbers(t):
         return f"{sino(n)} {unit}"
     t = re.sub(pat, counter, t)
 
+    # 점수와 소수 배: 9.2점 → 구 점 이 점, 10점 → 십 점, 3.6배 → 삼 점 육 배
+    t = re.sub(NUM + r"\s?배", lambda m: number_word(m.group(1)) + " 배", t)
+    t = re.sub(NUM + r"\s?점(?=[이을은과도만]|$|\s)", lambda m: number_word(m.group(1)) + " 점", t)
     # 남은 수는 모두 한자어(일, 년, 원, 분, 초, 배, 위, 층, 호 등)
     t = re.sub(NUM, lambda m: number_word(m.group(1)), t)
     return t
@@ -201,6 +204,8 @@ TESTS = [
     ("3~4개", "삼에서 네 개"),
     ("2배 넘게", "두 배 넘게"),
     ("6배", "여섯 배"),
+    ("3.6배로", "삼 점 육 배로"),
+    ("10점 만점에 9.2점이에요", "십 점 만점에 구 점 이 점이에요"),
 ]
 
 

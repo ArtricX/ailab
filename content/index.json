@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-23",
+      "title": "장보기를 맡기는 AI 비서, AI가 찾은 웹사이트 구멍, 대학 100곳에 들어간 AI",
+      "file": "content/2026-10-23.json",
+      "stories": [
+        {
+          "anchor": "shop",
+          "tag": "돈",
+          "color": "yellow",
+          "title": "AI 비서가 월마트에서 장을 볼 수 있어요"
+        },
+        {
+          "anchor": "hole",
+          "tag": "안전",
+          "color": "blue",
+          "title": "AI의 도움으로 웹사이트의 큰 구멍을 찾았어요"
+        },
+        {
+          "anchor": "campus",
+          "tag": "학교",
+          "color": "green",
+          "title": "대학 100곳이 여러 AI를 한곳에서 써요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-22",
       "title": "대화에 자물쇠 거는 챗GPT, 전화 받는 AI 상담원, 전갈 독을 붙잡는 AI 단백질",
       "file": "content/2026-10-22.json",
