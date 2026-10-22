@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-23",
+    "title": "장보기를 맡기는|AI 비서,|AI가 찾은|웹사이트 구멍,|대학 100곳에|들어간 AI",
+    "summary": "미국 월마트가|AI 비서에게|장보기를 맡길 수 있는|길을 열었어요.|AI의 도움으로|웹사이트 프로그램 PHP의|큰 보안 구멍이 드러나|서둘러 고쳐졌고,|여러 AI를 한곳에서 쓰는|서비스가|대학 100곳에 들어갔어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "돈",
+        "color": "yellow",
+        "anchor": "shop",
+        "title": "AI 비서가|월마트에서|장을 볼 수 있어요",
+        "dek": "얼마까지 쓸지는|내가 정해요.",
+        "illust": "assets/img/hf_20261022_200153_63f1278a-2c13-4cfc-8ef0-283020ba83b7.webp",
+        "thumb": "assets/img/hf_20261022_200153_63f1278a-2c13-4cfc-8ef0-283020ba83b7_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "blue",
+        "anchor": "hole",
+        "title": "AI의 도움으로|웹사이트의|큰 구멍을 찾았어요",
+        "dek": "PHP를 쓰는 사이트는|서둘러 고쳐야 해요.",
+        "illust": "assets/img/hf_20261022_200152_aad6500a-9692-4a08-a203-b3bfce150e5d.webp",
+        "thumb": "assets/img/hf_20261022_200152_aad6500a-9692-4a08-a203-b3bfce150e5d_min.webp"
+      },
+      {
+        "tag": "학교",
+        "color": "green",
+        "anchor": "campus",
+        "title": "대학 100곳이|여러 AI를|한곳에서 써요",
+        "dek": "1년 사이|3.6배로|늘었어요.",
+        "illust": "assets/img/hf_20261022_200152_f352a44d-b309-41dd-a5a7-55fcddc7e71f.webp",
+        "thumb": "assets/img/hf_20261022_200152_f352a44d-b309-41dd-a5a7-55fcddc7e71f_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "AI 비서",
+        "meaning": "사람 대신|일을 찾아서|해 주는 AI"
+      },
+      {
+        "word": "보안 구멍",
+        "meaning": "나쁜 사람이|몰래 들어올 수 있는|프로그램의 빈틈"
+      },
+      {
+        "word": "업데이트",
+        "meaning": "프로그램을|고친 새 판으로|바꾸는 것"
+      },
+      {
+        "word": "크레딧",
+        "meaning": "서비스를 쓸 때|돈처럼 내는|이용권"
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "title": "대화에 자물쇠 거는|챗GPT,|전화 받는|AI 상담원,|전갈 독을 붙잡는|AI 단백질",
     "summary": "챗GPT에|대화마다 비밀번호를 거는|기능이 생겼어요.|채널톡은|고객센터 전화를 받고|먼저 걸기도 하는|AI 상담원을 내놓았고,|AI 클로드는|전갈 독에 달라붙는|단백질 17개를 찾아냈어요.",

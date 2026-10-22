@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">PHP 보안 구멍의 위험 점수와 고친 판이 나오기까지</title>
+            <desc id="g2d">웹사이트를 움직이는 프로그램 PHP에서 큰 보안 구멍 두 개가 드러났다. 위험 점수는 10점 만점에 9.2점이다. 막대는 10점을 끝으로 그렸다. 10월 20일 소식이 미리 새어 나갔고, 10월 21일(미국 시간) 고친 판이 나왔다. 원래는 10월 22일에 알릴 예정이었다. 고친 판은 8.2, 8.3, 8.4, 8.5의 새 판이다. 8.1과 그보다 옛날 판은 공식 수리가 없다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">9.2점</text>
+            <text x="34" y="170" font-size="16" font-weight="800">보안 구멍의 위험 점수</text>
+            <text class="grey" x="34" y="194" font-size="13.5">10점 만점이에요</text>
+
+            <rect class="f-paper" x="34" y="232" width="320" height="30" rx="8"/>
+            <rect class="f-blue" x="34" y="232" width="294" height="30" rx="8"/>
+            <text x="34" y="290" font-size="13.5" font-weight="800">0점</text>
+            <text x="354" y="290" font-size="13.5" font-weight="800" text-anchor="end">10점</text>
+            <text class="grey" x="34" y="340" font-size="12.5">구멍은 두 개예요</text>
+            <text class="grey" x="34" y="362" font-size="12.5">로그인하지 않은 사람도</text>
+            <text class="grey" x="34" y="384" font-size="12.5">서버를 마음대로 움직일 수 있었어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">고친 판이 나오기까지</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="460" y="104" font-size="14.5" font-weight="900">10월 20일 · 소식이 미리 샜어요</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-blue" x="440" y="150" width="320" height="48" rx="16"/>
+            <text class="white" x="460" y="180" font-size="14.5" font-weight="900">10월 21일 · 고친 판이 나왔어요</text>
+            <text class="grey" x="440" y="222" font-size="12.5">원래는 10월 22일에 알릴 예정이었어요</text>
+
+            <text x="440" y="286" font-size="15" font-weight="800">내 사이트의 PHP는?</text>
+            <rect class="f-paper" x="440" y="302" width="320" height="48" rx="16"/>
+            <text x="460" y="332" font-size="14.5" font-weight="900">8.2 ~ 8.5 · 새 판으로 올려요</text>
+            <rect class="f-paper" x="440" y="360" width="320" height="48" rx="16"/>
+            <text class="red" x="460" y="390" font-size="14.5" font-weight="900">8.1 이하 · 공식 수리가 없어요</text>
+            <text class="grey" x="440" y="432" font-size="12.5">날짜는 미국 시간이에요</text>
+          </svg>
