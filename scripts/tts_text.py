@@ -129,6 +129,8 @@ def read_numbers(t):
     # 점수와 소수 배: 9.2점 → 구 점 이 점, 10점 → 십 점, 3.6배 → 삼 점 육 배
     t = re.sub(NUM + r"\s?배", lambda m: number_word(m.group(1)) + " 배", t)
     t = re.sub(NUM + r"\s?점(?=[이을은과도만]|$|\s)", lambda m: number_word(m.group(1)) + " 점", t)
+    # 순위: 4위 → 사 위 (붙여 읽으면 '사위'로 들려요)
+    t = re.sub(r"(\d+)\s?위(?=[로는가를이와에의도까]|\s|$)", lambda m: sino(int(m.group(1))) + " 위", t)
     # 남은 수는 모두 한자어(일, 년, 원, 분, 초, 배, 위, 층, 호 등)
     t = re.sub(NUM, lambda m: number_word(m.group(1)), t)
     return t
@@ -147,8 +149,16 @@ def read_letters(t):
     return re.sub(r"(?<![A-Za-z])[A-Z]{1,6}(?![a-z])", lambda m: "".join(LETTERS[c] for c in m.group(0)), t)
 
 
+# 소문자가 섞여 글자 규칙으로 못 읽는 이름은 여기에 읽는 법을 적어요.
+SPOKEN = {
+    "MAI-DxO": "엠에이아이 디엑스오",
+}
+
+
 def normalize(t):
     t = t.replace("|", " ")
+    for k, v in SPOKEN.items():
+        t = t.replace(k, v)
     t = read_numbers(t)
     t = read_letters(t)
     return re.sub(r"\s+", " ", t).strip()
@@ -206,6 +216,8 @@ TESTS = [
     ("6배", "여섯 배"),
     ("3.6배로", "삼 점 육 배로"),
     ("10점 만점에 9.2점이에요", "십 점 만점에 구 점 이 점이에요"),
+    ("4위로 시작했어요", "사 위로 시작했어요"),
+    ("진단 AI 'MAI-DxO'", "진단 에이아이 '엠에이아이 디엑스오'"),
 ]
 
 

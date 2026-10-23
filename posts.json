@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-24",
+    "title": "의사보다|더 많이 맞힌 AI,|캔바가 만든|그림 AI,|면접을|100만 번 본 AI",
+    "summary": "마이크로소프트의 진단 AI가|어려운 환자 사례 시험에서|의사보다 더 많이 맞혔어요.|캔바는 직접 만든|그림 AI를 내놓았고,|AI 면접관을 만드는 회사가|큰 인사 회사에|팔리게 됐어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "건강",
+        "color": "blue",
+        "anchor": "doctor",
+        "title": "진단 시험에서|AI가 의사보다|더 많이 맞혔어요",
+        "dek": "실제 병원에서 하는 시험은|이제 시작이에요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200608_ac20079d-84a9-4fa6-92a7-d2085bf1d171.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200608_ac20079d-84a9-4fa6-92a7-d2085bf1d171_min.webp"
+      },
+      {
+        "tag": "창작",
+        "color": "pink",
+        "anchor": "craft",
+        "title": "캔바가 직접 만든|그림 AI를|내놓았어요",
+        "dek": "사진 대신|디자인 틀을 보고|배웠대요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200607_a38e427d-d372-438a-8ad2-4f72d56dea00.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200607_a38e427d-d372-438a-8ad2-4f72d56dea00_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "yellow",
+        "anchor": "interview",
+        "title": "AI 면접관이|100만 번 넘게|면접을 봤어요",
+        "dek": "이 AI를 만든 회사가|큰 인사 회사에|팔리게 됐어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200607_94e9791d-1576-46e7-83a2-7064ae08c408.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200607_94e9791d-1576-46e7-83a2-7064ae08c408_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "진단",
+        "meaning": "어디가 왜 아픈지|찾아내는 일"
+      },
+      {
+        "word": "학술지",
+        "meaning": "연구 결과를|싣는|전문 잡지"
+      },
+      {
+        "word": "디자인 틀",
+        "meaning": "글자와 사진만|바꿔 쓰는|미리 만든 디자인"
+      },
+      {
+        "word": "AI 면접관",
+        "meaning": "말로 묻고|답을 듣고|점수를 매기는 AI"
+      }
+    ]
+  },
+  {
     "date": "2026-10-23",
     "title": "장보기를 맡기는|AI 비서,|AI가 찾은|웹사이트 구멍,|대학 100곳에|들어간 AI",
     "summary": "미국 월마트가|AI 비서에게|장보기를 맡길 수 있는|길을 열었어요.|AI의 도움으로|웹사이트 프로그램 PHP의|큰 보안 구멍이 드러나|서둘러 고쳐졌고,|여러 AI를 한곳에서 쓰는|서비스가|대학 100곳에 들어갔어요.",

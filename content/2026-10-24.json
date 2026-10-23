@@ -1,0 +1,363 @@
+{
+  "schema": 1,
+  "date": "2026-10-24",
+  "weekday": "토",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-24.html",
+  "minutes": 5,
+  "title": {
+    "text": "의사보다 더 많이 맞힌 AI, 캔바가 만든 그림 AI, 면접을 100만 번 본 AI",
+    "phrases": [
+      "의사보다",
+      "더 많이 맞힌 AI,",
+      "캔바가 만든",
+      "그림 AI,",
+      "면접을",
+      "100만 번 본 AI"
+    ]
+  },
+  "share": {
+    "title": "진단 시험에서 AI가 의사보다 더 많이 맞혔어요 외 2건 · 아이고 10월 24일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 24일 토요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-24.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "doctor",
+      "tag": "건강",
+      "color": "blue",
+      "label": "의사보다 더 많이 맞힌 AI"
+    },
+    {
+      "anchor": "craft",
+      "tag": "창작",
+      "color": "pink",
+      "label": "캔바가 만든 그림 AI"
+    },
+    {
+      "anchor": "interview",
+      "tag": "일",
+      "color": "yellow",
+      "label": "면접을 100만 번 본 AI"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "doctor",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-24.html#doctor",
+      "tag": "건강",
+      "color": "blue",
+      "title": {
+        "text": "진단 시험에서 AI가 의사보다 더 많이 맞혔어요",
+        "phrases": [
+          "진단 시험에서",
+          "AI가 의사보다",
+          "더 많이 맞혔어요"
+        ]
+      },
+      "dek": {
+        "text": "실제 병원에서 하는 시험은 이제 시작이에요.",
+        "phrases": [
+          "실제 병원에서 하는 시험은",
+          "이제 시작이에요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200608_ac20079d-84a9-4fa6-92a7-d2085bf1d171.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200608_ac20079d-84a9-4fa6-92a7-d2085bf1d171.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 청진기를 건 작은 흰 로봇과 흰 가운을 입은 동그란 사람이 작은 책상에 나란히 앉아 커다란 점검표 하나를 함께 들여다보고, 로봇이 연필로 다음 칸을 가리키며, 책상에 돋보기와 서류철이 놓인 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-24-doctor.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-24-doctor.svg",
+        "viewBox": "0 0 800 460",
+        "title": "어려운 환자 사례 시험에서 맞힌 비율과 AI가 진단하는 순서",
+        "desc": "마이크로소프트가 10월 22일(미국 시간) 학술지 사이언스에 실은 연구다. 의학 학술지의 어려운 환자 사례 시험에서 진단 AI 'MAI-DxO'는 83.2%를 맞혔다. 책과 인터넷을 찾아본 일반 의사는 36.1%, 아무것도 보지 않은 일반 의사는 22.3%를 맞혔다. 막대는 100%를 끝으로 그렸다. AI는 증상을 듣고, 물을 것과 검사를 고르고, 결과를 보고 다시 생각한 뒤 진단을 내린다. 글로 된 사례로 한 시험이고, 실제 병원 시험은 아직이다.",
+        "caption": {
+          "text": "한 단계씩 묻고 검사하는 의사의 방식을 따라 했어요.",
+          "phrases": [
+            "한 단계씩 묻고 검사하는",
+            "의사의 방식을",
+            "따라 했어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "마이크로소프트가 10월 22일(미국 시간) 과학 학술지 '사이언스'에 연구를 실었어요. 진단 AI 'MAI-DxO'를 시험한 결과예요. 의학 학술지에 실린 아주 어려운 환자 사례로 시험했더니, AI는 83.2%를 맞혔어요. 책과 인터넷을 찾아볼 수 있었던 일반 의사들은 36.1%를 맞혔어요.",
+            "nobreak": [
+              "10월 22일",
+              "83.2%",
+              "36.1%"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "이 AI는 의사처럼 한 단계씩 진단해요. 증상을 듣고, 무엇을 더 물을지와 어떤 검사를 할지 골라요. 결과를 보고 생각을 고치기도 해요. 안에서는 여러 AI가 의사 회의처럼 의견을 내고, 서로 반대 의견도 내요. 응급실 환자 사례 시험에서도 AI는 80.3%, 의사는 46.8%를 맞혔어요.",
+            "nobreak": [
+              "80.3%",
+              "46.8%"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "아직 병원에서 쓰는 도구가 아니에요. 시험은 글로 된 사례로만 했고, 전문의 팀과 견준 것도 아니에요. 연구한 사람도 모두 마이크로소프트 직원이에요. 미국 보스턴의 한 병원에서 곧 실제 환자와 시험을 시작한대요. 몸이 아플 때는 지금처럼 병원에 가는 것이 먼저예요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "기즈모도",
+          "date": "10월 22일",
+          "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562"
+        },
+        {
+          "name": "비즈니스 스탠더드·로이터",
+          "date": "10월 23일",
+          "url": "https://www.business-standard.com/amp/world-news/microsoft-develops-ai-tool-that-can-diagnose-sequentially-like-doctor-126102300098_1.html"
+        },
+        {
+          "name": "유나이트AI",
+          "date": "",
+          "url": "https://www.unite.ai/microsoft-diagnostic-ai-outperforms-generalist-physicians-in-science-study/"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_202511_12bdd35f-c697-4d5a-8b4c-7d7981fe1768.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_202511_12bdd35f-c697-4d5a-8b4c-7d7981fe1768.mp3"
+      }
+    },
+    {
+      "anchor": "craft",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-24.html#craft",
+      "tag": "창작",
+      "color": "pink",
+      "title": {
+        "text": "캔바가 직접 만든 그림 AI를 내놓았어요",
+        "phrases": [
+          "캔바가 직접 만든",
+          "그림 AI를",
+          "내놓았어요"
+        ]
+      },
+      "dek": {
+        "text": "사진 대신 디자인 틀을 보고 배웠대요.",
+        "phrases": [
+          "사진 대신",
+          "디자인 틀을 보고",
+          "배웠대요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200607_a38e427d-d372-438a-8ad2-4f72d56dea00.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200607_a38e427d-d372-438a-8ad2-4f72d56dea00.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 흰 로봇이 커다란 자를 들고 빈 포스터 종이 위에 동그라미, 네모, 세모 블록을 하나씩 놓으며 자리를 정하고, 옆에 선 동그란 사람이 큰 붓을 들고 칠할 준비를 하는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-24-craft.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-24-craft.svg",
+        "viewBox": "0 0 800 460",
+        "title": "캔바 크래프트가 처음 받은 순위와 그림을 그리는 순서",
+        "desc": "캔바가 10월 22일(미국 시간) 처음으로 직접 만든 그림 AI '캔바 크래프트'를 내놓았다. 디자인 그림 AI를 견주는 '디자인 아레나' 순위에서 4위로 시작했다고 회사가 밝혔다. 1위부터 3위는 모두 오픈AI의 모델이다. 그리는 순서는 글로 설명하면, 글자와 그림의 자리를 먼저 계획하고, 그다음 그림을 그린다. 그림은 최대 2K 크기, 30가지 비율로 만든다. 사람이 만든 디자인 틀 수백만 개로 배웠다고 회사가 밝혔다.",
+        "caption": {
+          "text": "자리부터 정하고 그다음에 그리는 것이 이 AI의 특징이에요.",
+          "phrases": [
+            "자리부터 정하고",
+            "그다음에 그리는 것이",
+            "이 AI의 특징이에요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "디자인 서비스 캔바가 10월 22일(미국 시간) 처음으로 직접 만든 그림 AI '캔바 크래프트'를 내놓았어요. 글로 설명하면 포스터, 메뉴판, 안내문 같은 디자인 그림을 만들어 줘요. 캔바 안의 '드림 랩'에서 쓸 수 있어요.",
+            "nobreak": [
+              "10월 22일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "보통 그림 AI는 사진을 많이 보고 배워요. 캔바 크래프트는 사람들이 만든 디자인 틀 수백만 개를 보고 배웠다고 회사가 밝혔어요. 그래서 글자와 그림을 어디에 놓을지 먼저 계획하고, 그다음에 그려요. 다른 회사의 AI를 빌려 쓰는 비용을 줄이려는 뜻도 있어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "가게 안내문이나 학교 행사 포스터를 만들 때 쓸 수 있어요. 디자인 그림 AI 순위에서 4위로 시작했다고 회사가 밝혔어요. 누구나 무료로 쓸 수 있는지는 보도마다 달라요. AI가 넣은 글자는 틀린 곳이 없는지 꼭 다시 읽어 보세요.",
+            "nobreak": [
+              "4위"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "테크크런치",
+          "date": "10월 22일",
+          "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+        },
+        {
+          "name": "AI 위클리",
+          "date": "10월 22일",
+          "url": "https://aiweekly.co/alerts/canva-launches-craft-its-first-in-house-image-generation-model"
+        },
+        {
+          "name": "테크 인사이더",
+          "date": "10월 23일",
+          "url": "https://tech-insider.org/canva-craft-first-image-model-designarena-2026/"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_202511_f98a602a-72cf-42d2-80e8-26f3fea394dd.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_202511_f98a602a-72cf-42d2-80e8-26f3fea394dd.mp3"
+      }
+    },
+    {
+      "anchor": "interview",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-24.html#interview",
+      "tag": "일",
+      "color": "yellow",
+      "title": {
+        "text": "AI 면접관이 100만 번 넘게 면접을 봤어요",
+        "phrases": [
+          "AI 면접관이",
+          "100만 번 넘게",
+          "면접을 봤어요"
+        ]
+      },
+      "dek": {
+        "text": "이 AI를 만든 회사가 큰 인사 회사에 팔리게 됐어요.",
+        "phrases": [
+          "이 AI를 만든 회사가",
+          "큰 인사 회사에",
+          "팔리게 됐어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200607_94e9791d-1576-46e7-83a2-7064ae08c408.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_200607_94e9791d-1576-46e7-83a2-7064ae08c408.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "밤에 집에서 셔츠와 잠옷 바지를 입은 동그란 사람이 의자에 앉아 휴대폰에 대고 말하고, 작은 탁자 건너편에서 큰 헤드폰과 작은 마이크를 쓴 작은 흰 로봇이 귀 기울이며 점검표에 적고, 작은 창밖에 초승달이 뜬 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-24-interview.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-24-interview.svg",
+        "viewBox": "0 0 800 460",
+        "title": "AI 면접관이 본 면접 수와 면접이 진행되는 순서",
+        "desc": "인사 프로그램 회사 데이포스가 10월 23일(미국 시간) AI 면접 회사 리본 AI를 사들이기로 했다. 리본 AI의 AI 면접관은 지금까지 100만 번 넘게 면접을 봤고, 고객 회사는 수백 곳이다. 사들이는 값은 밝히지 않았다. 면접 순서는 AI가 채용 공고를 읽고 질문과 채점 기준을 만들고, 지원자가 편한 시간에 말로 답하고, 답을 글로 바꿔 점수를 매긴다. AI는 목소리, 눈길, 답하는 속도도 살핀다. 사람이 어떻게 최종 결정을 하는지는 밝히지 않았다.",
+        "caption": {
+          "text": "밤이든 주말이든 AI 면접관은 기다려 줘요.",
+          "phrases": [
+            "밤이든 주말이든",
+            "AI 면접관은",
+            "기다려 줘요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "인사 프로그램 회사 데이포스가 10월 23일(미국 시간) AI 면접 회사 '리본 AI'를 사들이기로 했다고 밝혔어요. 리본 AI는 목소리로 묻고 답하는 AI 면접관을 만들어요. 지금까지 100만 번 넘게 면접을 봤대요. 사들이는 값은 밝히지 않았어요.",
+            "nobreak": [
+              "10월 23일",
+              "100만 번"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "지원자가 많으면 첫 면접에만 시간이 많이 들어요. AI 면접관은 채용 공고를 읽고 질문과 채점 기준을 만들어요. 지원자는 밤이든 주말이든 편한 시간에 면접을 볼 수 있어요. 지원자의 답은 글로 바뀌고, AI가 그 글을 보고 점수를 매겨요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "앞으로 일자리를 구할 때 AI 면접관을 만날 일이 늘 수 있어요. 이 AI는 목소리, 눈길, 답하는 속도가 이상하지 않은지도 살펴요. 사람이 어떻게 최종 결정을 하는지는 자세히 밝히지 않았어요. AI 면접을 보게 되면, 조용한 곳에서 짧고 분명하게 답하는 연습을 해 두면 좋아요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "데이포스 발표",
+          "date": "10월 23일",
+          "url": "https://www.globenewswire.com/news-release/2026/10/23/3387210/0/en/dayforce-to-acquire-ribbon-ai-inc-to-advance-agentic-recruiting.html"
+        },
+        {
+          "name": "베타킷",
+          "date": "10월 23일",
+          "url": "https://betakit.com/dayforce-to-acquire-ribbon-ai-to-bolster-ai-recruitment-capabilities/"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_202511_f6320424-061c-4c5e-a458-adf79016b019.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261023_202511_f6320424-061c-4c5e-a458-adf79016b019.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "진단",
+      "meaning": {
+        "text": "어디가 왜 아픈지 찾아내는 일",
+        "phrases": [
+          "어디가 왜 아픈지",
+          "찾아내는 일"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "학술지",
+      "meaning": {
+        "text": "연구 결과를 싣는 전문 잡지",
+        "phrases": [
+          "연구 결과를",
+          "싣는",
+          "전문 잡지"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "디자인 틀",
+      "meaning": {
+        "text": "글자와 사진만 바꿔 쓰는 미리 만든 디자인",
+        "phrases": [
+          "글자와 사진만",
+          "바꿔 쓰는",
+          "미리 만든 디자인"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "AI 면접관",
+      "meaning": {
+        "text": "말로 묻고 답을 듣고 점수를 매기는 AI",
+        "phrases": [
+          "말로 묻고",
+          "답을 듣고",
+          "점수를 매기는 AI"
+        ]
+      },
+      "color": "yellow"
+    }
+  ]
+}

@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-24",
+      "title": "의사보다 더 많이 맞힌 AI, 캔바가 만든 그림 AI, 면접을 100만 번 본 AI",
+      "file": "content/2026-10-24.json",
+      "stories": [
+        {
+          "anchor": "doctor",
+          "tag": "건강",
+          "color": "blue",
+          "title": "진단 시험에서 AI가 의사보다 더 많이 맞혔어요"
+        },
+        {
+          "anchor": "craft",
+          "tag": "창작",
+          "color": "pink",
+          "title": "캔바가 직접 만든 그림 AI를 내놓았어요"
+        },
+        {
+          "anchor": "interview",
+          "tag": "일",
+          "color": "yellow",
+          "title": "AI 면접관이 100만 번 넘게 면접을 봤어요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-23",
       "title": "장보기를 맡기는 AI 비서, AI가 찾은 웹사이트 구멍, 대학 100곳에 들어간 AI",
       "file": "content/2026-10-23.json",

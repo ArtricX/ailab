@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">AI 면접관이 본 면접 수와 면접이 진행되는 순서</title>
+            <desc id="g3d">인사 프로그램 회사 데이포스가 10월 23일(미국 시간) AI 면접 회사 리본 AI를 사들이기로 했다. 리본 AI의 AI 면접관은 지금까지 100만 번 넘게 면접을 봤고, 고객 회사는 수백 곳이다. 사들이는 값은 밝히지 않았다. 면접 순서는 AI가 채용 공고를 읽고 질문과 채점 기준을 만들고, 지원자가 편한 시간에 말로 답하고, 답을 글로 바꿔 점수를 매긴다. AI는 목소리, 눈길, 답하는 속도도 살핀다. 사람이 어떻게 최종 결정을 하는지는 밝히지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">100만</text>
+            <text x="34" y="170" font-size="16" font-weight="800">번 넘게 본 AI 면접</text>
+            <text class="grey" x="34" y="194" font-size="13.5">회사가 밝힌 숫자예요</text>
+
+            <rect class="f-yellow" x="34" y="226" width="320" height="52" rx="16"/>
+            <text x="194" y="258" font-size="14.5" font-weight="900" text-anchor="middle">고객 회사 · 수백 곳</text>
+            <rect class="f-paper" x="34" y="290" width="320" height="52" rx="16"/>
+            <text x="194" y="322" font-size="14.5" font-weight="900" text-anchor="middle">사들이는 값 · 밝히지 않았어요</text>
+            <text class="grey" x="34" y="380" font-size="12.5">리본 AI는 2022년에</text>
+            <text class="grey" x="34" y="402" font-size="12.5">캐나다 토론토에서 세운 회사예요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">AI 면접은 이렇게 해요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">공고를 읽고 질문을 만들어요</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">지원자가 편한 시간에 말로 답해요</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-yellow" x="440" y="226" width="320" height="48" rx="16"/>
+            <text x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">답을 글로 바꿔 점수를 매겨요</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">AI가 함께 살피는 것</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">목소리 · 눈길 · 답하는 속도</text>
+            <text class="red" x="440" y="396" font-size="14.5" font-weight="900">사람이 어떻게 정하는지는</text>
+            <text class="red" x="440" y="420" font-size="14.5" font-weight="900">밝히지 않았어요</text>
+          </svg>
