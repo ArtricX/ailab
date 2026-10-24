@@ -20,7 +20,7 @@ text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-se
 </style>
 <rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
             <title id="g3t">AI 영화 싼싱두이에 쓰인 그림 수와 영화를 만든 순서</title>
-            <desc id="g3d">중국 영화사 보나 필름이 만든 AI 영화 '싼싱두이: 미래의 과거'가 10월 23일 중국 전국 극장에서 개봉했다. 120만 장이 넘는 AI 그림을 썼다. 상영 시간은 100분, 만든 기간은 약 2년, 만든 사람은 약 100명이다. 제작비는 1천만 위안이 넘는다고 영화사가 밝혔다. 사람이 이야기와 연출을 정하고, AI가 장면 그림을 만들고, 사람이 표정을 한 장면씩 다듬었다. 첫날 상영은 1만 번 넘게 잡혔지만 관객 반응은 아직 미지근하다.</desc>
+            <desc id="g3d">중국 영화사 보나 필름이 만든 AI 영화 '싼싱두이: 미래의 과거'가 10월 23일 중국 전국 극장에서 개봉했다. 120만 장이 넘는 AI 그림을 썼다. 상영 시간은 100분, 만든 기간은 약 2년, 만든 사람은 약 100명이다. 사람이 이야기와 연출을 정하고, AI가 장면 그림을 만들고, 사람이 표정을 한 장면씩 다듬었다. 전체 흥행 수입은 15만 위안을 넘기 어렵다는 예상이 나와 관객 반응은 아직 미지근하다.</desc>
             <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">120만</text>
             <text x="34" y="170" font-size="16" font-weight="800">장 넘는 AI 그림으로 만들었어요</text>
             <text class="grey" x="34" y="194" font-size="13.5">싼싱두이: 미래의 과거 · 10월 23일 개봉</text>
@@ -35,9 +35,9 @@ text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-se
             <text class="grey" x="111" y="340" font-size="12.5" text-anchor="middle">만든 사람</text>
             <text x="111" y="368" font-size="17" font-weight="900" text-anchor="middle">약 100명</text>
             <rect class="f-yellow" x="200" y="312" width="154" height="74" rx="16"/>
-            <text x="277" y="340" font-size="12.5" font-weight="700" text-anchor="middle">제작비</text>
-            <text x="277" y="368" font-size="15" font-weight="900" text-anchor="middle">1천만 위안 넘게</text>
-            <text class="grey" x="34" y="430" font-size="12.5">영화사가 밝힌 숫자예요</text>
+            <text x="277" y="340" font-size="12.5" font-weight="700" text-anchor="middle">만든 곳</text>
+            <text x="277" y="368" font-size="17" font-weight="900" text-anchor="middle">보나 필름</text>
+            <text class="grey" x="34" y="430" font-size="12.5">중국 영화사 보나 필름이 밝혔어요</text>
 
             <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
 
@@ -54,7 +54,7 @@ text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-se
             <text x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">사람이 표정을 한 장면씩 다듬어요</text>
 
             <text x="440" y="318" font-size="15" font-weight="800">개봉 첫날</text>
-            <text x="440" y="346" font-size="14.5" font-weight="700">상영 1만 번 넘게 잡혔어요</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">흥행 예상 15만 위안 아래</text>
             <text class="grey" x="440" y="372" font-size="12.5">배우 얼굴과 목소리, 배경 모두 AI</text>
             <text class="red" x="440" y="412" font-size="14.5" font-weight="900">관객 반응은 아직 미지근해요</text>
           </svg>
