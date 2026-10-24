@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-25",
+      "title": "내 메일로 광고를 고르는 AI, 해고는 사람이 정하는 나라, AI로 만든 중국 영화",
+      "file": "content/2026-10-25.json",
+      "stories": [
+        {
+          "anchor": "gmail",
+          "tag": "안전",
+          "color": "blue",
+          "title": "AI에 연결한 메일이 광고에 쓰일 수 있어요"
+        },
+        {
+          "anchor": "italy",
+          "tag": "일",
+          "color": "green",
+          "title": "이탈리아에서는 해고를 AI가 혼자 못 정해요"
+        },
+        {
+          "anchor": "movie",
+          "tag": "창작",
+          "color": "yellow",
+          "title": "AI로 만든 중국 영화가 극장에 걸렸어요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-24",
       "title": "의사보다 더 많이 맞힌 AI, 캔바가 만든 그림 AI, 면접을 100만 번 본 AI",
       "file": "content/2026-10-24.json",

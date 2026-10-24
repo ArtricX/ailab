@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-25",
+    "title": "내 메일로|광고를 고르는 AI,|해고는|사람이|정하는 나라,|AI로 만든|중국 영화",
+    "summary": "구글은 AI에 연결한|메일과 사진이|광고에 쓰일 수 있다고|약속을 바꿨어요.|이탈리아에서는|해고 같은 결정을|AI가 혼자 못 하게 됐고,|중국에서는 AI로 만든 영화가|극장에 걸렸어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "안전",
+        "color": "blue",
+        "anchor": "gmail",
+        "title": "AI에 연결한 메일이|광고에 쓰일 수|있어요",
+        "dek": "구글이|개인정보 약속에|예외를 넣었어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261024_200312_e565891f-a4cb-450a-8956-4081b9361fab.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261024_200312_e565891f-a4cb-450a-8956-4081b9361fab_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "green",
+        "anchor": "italy",
+        "title": "이탈리아에서는|해고를 AI가|혼자 못 정해요",
+        "dek": "마지막 결정은|꼭 사람이|해야 해요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261024_200312_cf2b6e09-5513-4e34-b87c-f81d8e695f09.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261024_200312_cf2b6e09-5513-4e34-b87c-f81d8e695f09_min.webp"
+      },
+      {
+        "tag": "창작",
+        "color": "yellow",
+        "anchor": "movie",
+        "title": "AI로 만든|중국 영화가|극장에 걸렸어요",
+        "dek": "그림 120만 장으로|만들었지만|관객은 아직 적어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261024_200312_84a67c33-7010-4b3a-886f-877faace0a1e.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261024_200312_84a67c33-7010-4b3a-886f-877faace0a1e_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "개인정보 처리방침",
+        "meaning": "내 정보를 어떻게 쓰는지|회사가 적어 둔 약속"
+      },
+      {
+        "word": "맞춤 광고",
+        "meaning": "내 관심사를 보고|골라 보여 주는 광고"
+      },
+      {
+        "word": "무효",
+        "meaning": "효력이 없어서|없던 일이 되는 것"
+      },
+      {
+        "word": "흥행",
+        "meaning": "영화나 공연이|관객을 많이 모으는 것"
+      }
+    ]
+  },
+  {
     "date": "2026-10-24",
     "title": "의사보다|더 많이 맞힌 AI,|캔바가 만든|그림 AI,|면접을|100만 번 본 AI",
     "summary": "마이크로소프트의 진단 AI가|어려운 환자 사례 시험에서|의사보다 더 많이 맞혔어요.|캔바는 직접 만든|그림 AI를 내놓았고,|AI 면접관을 만드는 회사가|큰 인사 회사에|팔리게 됐어요.",
