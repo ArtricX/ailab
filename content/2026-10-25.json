@@ -1,0 +1,374 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "weekday": "일",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-25.html",
+  "minutes": 5,
+  "title": {
+    "text": "내 메일로 광고를 고르는 AI, 해고는 사람이 정하는 나라, AI로 만든 중국 영화",
+    "phrases": [
+      "내 메일로",
+      "광고를 고르는 AI,",
+      "해고는",
+      "사람이",
+      "정하는 나라,",
+      "AI로 만든",
+      "중국 영화"
+    ]
+  },
+  "share": {
+    "title": "AI에 연결한 메일이 광고에 쓰일 수 있어요 외 2건 · 아이고 10월 25일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 25일 일요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-25.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "gmail",
+      "tag": "안전",
+      "color": "blue",
+      "label": "메일로 광고를 고르는 AI"
+    },
+    {
+      "anchor": "italy",
+      "tag": "일",
+      "color": "green",
+      "label": "해고는 사람이 정해요"
+    },
+    {
+      "anchor": "movie",
+      "tag": "창작",
+      "color": "yellow",
+      "label": "AI로 만든 영화 개봉"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "gmail",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-25.html#gmail",
+      "tag": "안전",
+      "color": "blue",
+      "title": {
+        "text": "AI에 연결한 메일이 광고에 쓰일 수 있어요",
+        "phrases": [
+          "AI에 연결한 메일이",
+          "광고에 쓰일 수",
+          "있어요"
+        ]
+      },
+      "dek": {
+        "text": "구글이 개인정보 약속에 예외를 넣었어요.",
+        "phrases": [
+          "구글이",
+          "개인정보 약속에",
+          "예외를 넣었어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261024_200312_e565891f-a4cb-450a-8956-4081b9361fab.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261024_200312_e565891f-a4cb-450a-8956-4081b9361fab.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "편지와 작은 사진이 가득한 열린 우체통에서 작은 흰 로봇이 빼꼼 나와 빈 팻말을 들어 보이고, 옆에 선 동그란 사람이 커다란 둥근 켜고 끄는 스위치를 한 손에 든 채 생각하는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-25-gmail.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-25-gmail.svg",
+        "viewBox": "0 0 800 460",
+        "title": "구글 개인정보 약속에 생긴 예외와 메일 내용이 광고에 쓰일 수 있는 길",
+        "desc": "구글은 2021년 7월부터 개인정보 처리방침에 지메일, 구글 포토, 드라이브의 내용으로 맞춤 광고를 하지 않는다고 적어 왔다. 10월 16일부터 적용된 새 처리방침에는, 사용자가 이 내용을 다른 서비스에 연결하면 예외라는 말이 붙었다. 메일과 사진을 개인 맞춤 AI 기능에 연결하면, 검색이 그 내용을 살펴 맞춤 광고를 고르는 데 쓸 수 있다. 연결은 사용자가 직접 켜야 생기고, 원하지 않으면 끊을 수 있다.",
+        "caption": {
+          "text": "AI에 연결하는 순간 약속의 예외가 시작돼요.",
+          "phrases": [
+            "AI에 연결하는 순간",
+            "약속의 예외가",
+            "시작돼요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글이 개인정보 처리방침을 바꿨어요. 바뀐 내용은 10월 16일부터 적용됐고, 10월 23일(미국 시간) 언론 보도로 알려졌어요. 원래는 지메일, 구글 포토, 드라이브의 내용으로 맞춤 광고를 하지 않는다고 적혀 있었어요. 여기에 사용자가 이 내용을 다른 서비스에 연결하면 예외라는 말이 붙었어요.",
+            "nobreak": [
+              "10월 16일",
+              "10월 23일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "구글에는 '퍼스널 인텔리전스'라는 기능이 있어요. 메일과 사진을 제미나이와 AI 검색에 연결해서, 나에게 꼭 맞는 답을 주는 기능이에요. 이 기능으로 연결하면, 검색이 그 내용을 살펴 광고를 고르는 데도 쓸 수 있게 됐어요. 구글은 광고주가 내 이름이나 메일 주소를 볼 수는 없다고 밝혔어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "이 기능은 내가 직접 켜야 연결돼요. 만 18세 이상 개인 계정이 쓸 수 있고, 유럽과 영국 등 몇 곳에서는 쓸 수 없어요. 연결한 적이 있다면 구글 계정의 '데이터 및 개인 정보' 메뉴에서 앱 연결을 끊거나 맞춤 추천을 끌 수 있어요. 연결을 끊어도 이미 가져간 정보가 바로 지워지지는 않는다는 분석도 있어요.",
+            "nobreak": [
+              "18세"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "9투5구글",
+          "date": "10월 23일",
+          "url": "https://9to5google.com/2026/10/23/google-will-target-ads-based-on-gmail-photos-data-if-personal-intelligence-is-enabled/"
+        },
+        {
+          "name": "더 해커 뉴스",
+          "date": "10월 24일",
+          "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html"
+        },
+        {
+          "name": "PPC 랜드",
+          "date": "10월 23일",
+          "url": "https://ppc.land/google-lets-connected-gmail-and-photos-data-shape-ads-5-years-after-pledge/"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261024_200834_d50cd323-c1f9-4123-943c-cbc220b2ef27.mp3",
+        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261024_200834_d50cd323-c1f9-4123-943c-cbc220b2ef27.mp3"
+      }
+    },
+    {
+      "anchor": "italy",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-25.html#italy",
+      "tag": "일",
+      "color": "green",
+      "title": {
+        "text": "이탈리아에서는 해고를 AI가 혼자 못 정해요",
+        "phrases": [
+          "이탈리아에서는",
+          "해고를 AI가",
+          "혼자 못 정해요"
+        ]
+      },
+      "dek": {
+        "text": "마지막 결정은 꼭 사람이 해야 해요.",
+        "phrases": [
+          "마지막 결정은",
+          "꼭 사람이",
+          "해야 해요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261024_200312_cf2b6e09-5513-4e34-b87c-f81d8e695f09.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261024_200312_cf2b6e09-5513-4e34-b87c-f81d8e695f09.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 사무실 책상에서 작은 흰 로봇이 가지런한 종이 묶음을 공손히 건네고, 넥타이를 맨 동그란 사람이 커다란 둥근 도장을 들어 마지막 결정을 찍으려는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-25-italy.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-25-italy.svg",
+        "viewBox": "0 0 800 460",
+        "title": "이탈리아 새 법령에서 사람이 마지막에 정해야 하는 일과 직원이 물을 수 있는 것",
+        "desc": "이탈리아의 법령 179호가 10월 23일부터 시행됐다. 회사가 AI를 쓰더라도 직원을 뽑기, 평가, 징계, 해고의 마지막 결정은 진짜 판단할 힘이 있는 사람이 해야 한다. 이력서를 추리는 일에는 AI를 써도 된다. 직원은 결정에 대해 AI가 얼마나 영향을 줬는지, 무엇을 주로 봤는지, 사람은 무엇을 했는지 설명해 달라고 할 수 있다. 이 규칙을 어긴 결정은 무효가 된다.",
+        "caption": {
+          "text": "AI는 돕고, 책임지는 결정은 사람이 해요.",
+          "phrases": [
+            "AI는 돕고,",
+            "책임지는 결정은",
+            "사람이 해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "이탈리아에서 10월 23일부터 새 법령이 시행됐어요. 회사가 AI를 쓰더라도 직원을 뽑고, 평가하고, 징계하고, 해고하는 마지막 결정은 사람이 해야 해요. 도장만 찍는 사람이 아니라, 진짜로 판단할 힘이 있는 사람이어야 해요. 직원이 동의해도 이 규칙은 그대로예요.",
+            "nobreak": [
+              "10월 23일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "유럽연합에는 AI를 안전하게 쓰도록 정한 'AI법'이 있어요. 이탈리아는 이 법에 맞춰 나라 안 규칙을 만들었어요. 법령 번호는 179호이고, 10월 8일 나라의 공식 소식지인 관보에 실렸어요. 일자리 결정은 사람의 생활을 크게 흔드니까, AI에게만 맡기지 않겠다는 뜻이에요.",
+            "nobreak": [
+              "179호",
+              "10월 8일"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "이탈리아 직원은 회사가 AI를 쓰는지 미리 알 수 있어요. 결정의 이유도 물을 수 있어요. AI가 얼마나 영향을 줬는지, 무엇을 주로 봤는지, 사람이 무슨 일을 했는지를요. 이 규칙을 어긴 해고는 무효가 돼요. 이력서를 추리는 일에는 AI를 계속 쓸 수 있어요. AI가 일자리 결정을 돕는 일이 늘면, 다른 나라에서도 비슷한 고민이 생길 수 있어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "PwC 이탈리아",
+          "date": "",
+          "url": "https://blog.pwc.it/en/ai-what-changes-from-23-october/"
+        },
+        {
+          "name": "악튀IA",
+          "date": "",
+          "url": "https://www.actuia.com/en/news/italy-from-23-october-ai-hiring-or-firing-requires-a-human-decision-maker/"
+        },
+        {
+          "name": "테크 타임스",
+          "date": "10월 22일",
+          "url": "https://www.techtimes.com/articles/329377/20261022/italys-ai-workplace-safety-mandate-takes-effect-thursday-scheduling-tools-covered.htm"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261024_200835_53168519-bef7-45be-9cc4-e56050f600a8.mp3",
+        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261024_200835_53168519-bef7-45be-9cc4-e56050f600a8.mp3"
+      }
+    },
+    {
+      "anchor": "movie",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-25.html#movie",
+      "tag": "창작",
+      "color": "yellow",
+      "title": {
+        "text": "AI로 만든 중국 영화가 극장에 걸렸어요",
+        "phrases": [
+          "AI로 만든",
+          "중국 영화가",
+          "극장에 걸렸어요"
+        ]
+      },
+      "dek": {
+        "text": "그림 120만 장으로 만들었지만 관객은 아직 적어요.",
+        "phrases": [
+          "그림 120만 장으로",
+          "만들었지만",
+          "관객은 아직 적어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261024_200312_84a67c33-7010-4b3a-886f-877faace0a1e.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261024_200312_84a67c33-7010-4b3a-886f-877faace0a1e.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "자리가 몇 개뿐인 작은 극장에서 동그란 사람이 혼자 팝콘 통을 들고 빛나는 빈 화면을 보고, 뒤에서 작은 흰 로봇이 작은 그림 카드가 길게 이어진 띠를 넣으며 옛날 영사기 손잡이를 돌리는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-25-movie.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-25-movie.svg",
+        "viewBox": "0 0 800 460",
+        "title": "AI 영화 싼싱두이에 쓰인 그림 수와 영화를 만든 순서",
+        "desc": "중국 영화사 보나 필름이 만든 AI 영화 '싼싱두이: 미래의 과거'가 10월 23일 중국 전국 극장에서 개봉했다. 120만 장이 넘는 AI 그림을 썼다. 상영 시간은 100분, 만든 기간은 약 2년, 만든 사람은 약 100명이다. 사람이 이야기와 연출을 정하고, AI가 장면 그림을 만들고, 사람이 표정을 한 장면씩 다듬었다. 전체 흥행 수입은 15만 위안을 넘기 어렵다는 예상이 나와 관객 반응은 아직 미지근하다.",
+        "caption": {
+          "text": "그림은 AI가, 이야기와 마무리는 사람이 맡았어요.",
+          "phrases": [
+            "그림은 AI가,",
+            "이야기와 마무리는",
+            "사람이 맡았어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "중국에서 10월 23일 AI로 만든 영화 '싼싱두이: 미래의 과거'가 전국 극장에서 개봉했어요. 배우의 얼굴과 목소리, 배경까지 모두 AI가 만들었어요. 상영 시간은 100분이에요. 중국 영화사 보나 필름이 만들었고, 중국의 첫 AI 극장 영화라고 소개됐어요.",
+            "nobreak": [
+              "10월 23일",
+              "100분"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "사람 약 100명이 2년쯤 걸려 만들었어요. 이야기와 연출은 사람이 정하고, 장면 그림은 AI가 만들었어요. 쓰인 그림은 120만 장이 넘어요. 등장인물의 작은 표정은 사람이 한 장면씩 다듬었대요.",
+            "nobreak": [
+              "약 100명",
+              "2년쯤",
+              "120만 장"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "관객 반응은 아직 미지근해요. 전체 흥행 수입이 15만 위안을 넘기 어렵다는 예상이 나왔어요. AI로 만들었다는 것만으로 관객이 돈을 내지는 않는다는 뜻이에요. 그래도 영화를 만드는 방법은 빠르게 바뀌고 있어요.",
+            "nobreak": [
+              "15만 위안"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "말레이 메일·AFP",
+          "date": "10월 23일",
+          "url": "https://www.malaymail.com/news/showbiz/2026/10/23/lights-camera-algorithm-chinas-first-all-ai-movie-sanxingdui-future-past-opens-to-a-very-human-meh/240326"
+        },
+        {
+          "name": "CGTN",
+          "date": "10월 23일",
+          "url": "https://news.cgtn.com/news/2026-10-23/China-s-1st-AI-hyper-realistic-film-Sanxingdui-hits-theaters-1RtsLfSgfSM/share_amp.html"
+        },
+        {
+          "name": "테크노드",
+          "date": "",
+          "url": "https://technode.com/2026/09/28/chinas-first-ai-produced-theatrical-film-sets-october-23-release/"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261024_201857_363c122f-9c81-4ac7-87a1-810ad8109a3c.mp3",
+        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261024_201857_363c122f-9c81-4ac7-87a1-810ad8109a3c.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "개인정보 처리방침",
+      "meaning": {
+        "text": "내 정보를 어떻게 쓰는지 회사가 적어 둔 약속",
+        "phrases": [
+          "내 정보를 어떻게 쓰는지",
+          "회사가 적어 둔 약속"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "맞춤 광고",
+      "meaning": {
+        "text": "내 관심사를 보고 골라 보여 주는 광고",
+        "phrases": [
+          "내 관심사를 보고",
+          "골라 보여 주는 광고"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "무효",
+      "meaning": {
+        "text": "효력이 없어서 없던 일이 되는 것",
+        "phrases": [
+          "효력이 없어서",
+          "없던 일이 되는 것"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "흥행",
+      "meaning": {
+        "text": "영화나 공연이 관객을 많이 모으는 것",
+        "phrases": [
+          "영화나 공연이",
+          "관객을 많이 모으는 것"
+        ]
+      },
+      "color": "yellow"
+    }
+  ]
+}
