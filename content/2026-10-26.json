@@ -1,0 +1,356 @@
+{
+  "schema": 1,
+  "date": "2026-10-26",
+  "weekday": "월",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-26.html",
+  "minutes": 5,
+  "title": {
+    "text": "환자 정보가 AI로 들어간 병원, AI 작품을 막은 온라인 모임, AI가 고친 광고는 가게 책임",
+    "phrases": [
+      "환자 정보가",
+      "AI로 들어간 병원,",
+      "AI 작품을 막은",
+      "온라인 모임,",
+      "AI가 고친 광고는",
+      "가게 책임"
+    ]
+  },
+  "share": {
+    "title": "병원 직원이 환자 정보를 AI에 올렸어요 외 2건 · 아이고 10월 26일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 26일 월요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-26.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "hospital",
+      "tag": "안전",
+      "color": "blue",
+      "label": "환자 정보가 AI로"
+    },
+    {
+      "anchor": "opensource",
+      "tag": "창작",
+      "color": "yellow",
+      "label": "AI 작품은 안 받아요"
+    },
+    {
+      "anchor": "ads",
+      "tag": "일",
+      "color": "green",
+      "label": "AI가 고친 광고의 책임"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "hospital",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-26.html#hospital",
+      "tag": "안전",
+      "color": "blue",
+      "title": {
+        "text": "병원 직원이 환자 정보를 AI에 올렸어요",
+        "phrases": [
+          "병원 직원이",
+          "환자 정보를",
+          "AI에 올렸어요"
+        ]
+      },
+      "dek": {
+        "text": "허락받지 않은 AI 도구에 환자 기록이 들어갔어요.",
+        "phrases": [
+          "허락받지 않은",
+          "AI 도구에",
+          "환자 기록이 들어갔어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_200251_4bb213bf-805b-49e1-ac2b-6fc23a01f59e.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_200251_4bb213bf-805b-49e1-ac2b-6fc23a01f59e.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "병원 옷을 입은 동그란 사람이 작은 칸이 가득한 긴 종이를 커다란 말풍선 모양 상자에 무심코 밀어 넣고, 옆에서 작은 흰 로봇이 걱정스러운 얼굴로 커다란 자물쇠를 들어 올리는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-26-hospital.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-26-hospital.svg",
+        "viewBox": "0 0 800 460",
+        "title": "존스홉킨스 베이뷰 의료센터의 환자 정보가 AI 도구에 들어간 일의 순서와 들어간 정보",
+        "desc": "미국 존스홉킨스 베이뷰 의료센터의 직원이 환자 정보가 담긴 표를 병원이 허락하지 않은 공개 AI 도구에 올렸다. 2026년 5월부터 9월까지 진료받은 환자 약 3,182명의 정보다. 병원은 9월 21일 내부 점검에서 이 일을 찾았고, 10월 22일부터 환자들에게 편지로 알렸다. 들어간 정보는 이름, 입원과 진료 날짜, 의무기록 번호, 진료 계정 번호, 받은 약, 진료과, 의사 이름이다. 사회보장번호와 금융 계좌 정보는 들어가지 않았다. 병원은 대화 기록과 파일을 지우게 하고 AI 회사에 삭제를 부탁했다.",
+        "caption": {
+          "text": "한 번 올린 정보는 되돌리기 어려워요.",
+          "phrases": [
+            "한 번 올린 정보는",
+            "되돌리기",
+            "어려워요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국의 존스홉킨스 베이뷰 의료센터에서 생긴 일이에요. 한 직원이 환자 정보가 담긴 표를 공개 AI 도구에 올렸어요. 병원이 쓰라고 허락하지 않은 도구였어요. 5월부터 9월 사이에 진료받은 환자 약 3,182명의 정보예요. 병원은 이 일을 10월 23일(미국 시간) 알렸어요.",
+            "nobreak": [
+              "5월부터 9월",
+              "약 3,182명",
+              "10월 23일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "병원은 직원이 실수로 올렸다고 밝혔어요. 표에는 환자 이름, 입원 날짜, 받은 약, 의사 이름 같은 정보가 있었어요. 사회보장번호와 금융 계좌 정보는 없었대요. 병원은 9월 21일 내부 점검에서 이 일을 찾았어요. 직원에게 대화 기록과 파일을 지우게 하고, AI 회사에도 지워 달라고 부탁했어요.",
+            "nobreak": [
+              "9월 21일"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "AI 채팅창에 넣은 글과 파일은 그 회사로 보내져요. 그래서 다른 사람의 이름이나 건강 정보는 함부로 넣지 않는 게 좋아요. 회사나 학교의 자료라면, 쓰라고 허락한 AI 도구인지 먼저 확인해요. 병원은 해당 환자에게 편지를 보내고, 12개월 동안 무료로 신용 감시를 해 주기로 했어요.",
+            "nobreak": [
+              "12개월"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "WMAR 2 뉴스",
+          "date": "10월 23일",
+          "url": "https://www.wmar2news.com/local/patients-data-sent-to-ai-tool-johns-hopkins-bayview-medical-center-oct-23-2026"
+        },
+        {
+          "name": "볼티모어 선",
+          "date": "10월 24일",
+          "url": "https://www.baltimoresun.com/2026/10/24/johns-hopkins-bayview-medical-center-data-breach/"
+        },
+        {
+          "name": "더 배너",
+          "date": "10월 25일",
+          "url": "https://www.thebanner.com/community/public-health/johns-hopkins-data-exposure-unauthorized-ai-tool-3SO2HGS7XVDP7GMKSK7TP527NE/"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_201602_8fea8596-6b28-483c-82e4-50da2adeb9fd.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_201602_8fea8596-6b28-483c-82e4-50da2adeb9fd.mp3"
+      }
+    },
+    {
+      "anchor": "opensource",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-26.html#opensource",
+      "tag": "창작",
+      "color": "yellow",
+      "title": {
+        "text": "큰 온라인 모임이 AI로 만든 작품을 받지 않기로 했어요",
+        "phrases": [
+          "큰 온라인 모임이",
+          "AI로 만든 작품을",
+          "받지 않기로 했어요"
+        ]
+      },
+      "dek": {
+        "text": "무료 프로그램을 나누는 모임이에요.",
+        "phrases": [
+          "무료 프로그램을",
+          "나누는 모임이에요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_200252_37e7e775-093f-4287-9880-a3fc24019cf1.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_200252_37e7e775-093f-4287-9880-a3fc24019cf1.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 나무 모임방 문밖에서 작은 흰 로봇이 톱니바퀴로 만든 장난감을 들고 서 있고, 문간의 동그란 사람이 손바닥을 들어 멈추라고 하며, 창문 안에서는 다른 동그란 사람들이 연장으로 무언가를 만드는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-26-opensource.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-26-opensource.svg",
+        "viewBox": "0 0 800 460",
+        "title": "레딧 오픈소스 모임의 새 규칙으로 올릴 수 없게 된 것과 그 뒤의 반응",
+        "desc": "미국의 큰 온라인 게시판 레딧에 있는 오픈소스 모임이 10월 24일 새 규칙을 올렸다. AI가 만들었거나 AI를 눈에 띄게 쓴 작품, AI를 위해 만든 작품, 만든 지 1년이 안 된 작품과 1년이 안 된 계정의 글은 올릴 수 없다. 운영자는 AI에 들인 비용이 자랑거리가 아니라고 했다. 이용자들의 찬성과 반대가 엇갈렸고, AI 작품을 받아 주는 새 모임이 따로 생겼다.",
+        "caption": {
+          "text": "AI를 어디까지 받아들일지, 모임마다 고민이에요.",
+          "phrases": [
+            "AI를 어디까지",
+            "받아들일지,",
+            "모임마다 고민이에요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "레딧은 미국의 큰 온라인 게시판이에요. 이곳의 오픈소스 모임이 10월 24일(미국 시간) 새 규칙을 올렸어요. AI가 만들었거나, AI를 눈에 띄게 쓴 작품은 올릴 수 없어요. AI를 위해 만든 프로그램도 안 돼요. 만든 지 1년이 안 된 작품과 계정의 글도 막았어요.",
+            "nobreak": [
+              "10월 24일",
+              "1년"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "오픈소스는 누구나 보고 고쳐 쓸 수 있게 공개한 프로그램이에요. 요즘은 AI로 프로그램을 빠르게 만들어 올리는 사람이 많아졌어요. 모임 운영자는 지금의 AI가 이 모임과 맞지 않는다고 봤어요. AI에 들인 비용은 자랑거리가 아니라는 말도 남겼어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "이용자들의 생각은 엇갈렸어요. 반기는 사람도 있고, 너무 심하다는 사람도 있어요. AI 작품을 받아 주는 새 모임도 따로 생겼어요. 그림, 글, 프로그램을 온라인에 올린다면, 그 모임이 AI를 어떻게 보는지 규칙을 먼저 읽어 보세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "기즈모도",
+          "date": "10월 25일",
+          "url": "https://gizmodo.com/tokens-are-cheap-open-source-subreddit-bans-ai-2000830386"
+        },
+        {
+          "name": "코타쿠",
+          "date": "10월 25일",
+          "url": "https://kotaku.com/reddits-largest-open-source-community-dumbfounded-by-ai-ban-i-guess-linux-is-no-longer-allowed-here-2000749384"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_201601_d8b6de22-27ff-4329-8116-6a1dea1bec09.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_201601_d8b6de22-27ff-4329-8116-6a1dea1bec09.mp3"
+      }
+    },
+    {
+      "anchor": "ads",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-26.html#ads",
+      "tag": "일",
+      "color": "green",
+      "title": {
+        "text": "AI가 고친 광고, 책임은 광고주가 져요",
+        "phrases": [
+          "AI가 고친 광고,",
+          "책임은",
+          "광고주가 져요"
+        ]
+      },
+      "dek": {
+        "text": "메타가 10월 30일부터 광고 약관을 바꿔요.",
+        "phrases": [
+          "메타가",
+          "10월 30일부터",
+          "광고 약관을 바꿔요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_200252_f73d6388-6b9a-47aa-a4a8-15bb8a851694.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_200252_f73d6388-6b9a-47aa-a4a8-15bb8a851694.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 흰 로봇이 사다리에 올라 가게 벽의 빈 포스터에 반짝이와 별을 신나게 그려 넣고, 아래에서 앞치마를 두른 동그란 가게 주인이 아주 무거운 자루를 등에 진 채 덤덤하게 올려다보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-26-ads.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-26-ads.svg",
+        "viewBox": "0 0 800 460",
+        "title": "메타 광고 약관에서 AI 기능의 책임이 바뀌는 내용과 AI가 광고에 하는 일",
+        "desc": "페이스북과 인스타그램을 운영하는 메타가 10월 30일부터 새 광고 약관을 적용한다. 전에는 광고주가 AI 도구를 직접 골랐을 때만 책임을 졌다. 새 약관에서는 메타가 스스로 켠 AI 기능이 만든 결과까지 광고주가 혼자 책임진다. 메타의 AI는 광고에 링크를 더하고, 글을 번역하고, 사진으로 새 그림을 만든다. 한 서점은 사람이 그린 광고에 AI 그림이 붙자 AI 기능을 모두 껐다. 메타는 기능을 하나씩 끌 수 있다고 밝혔다.",
+        "caption": {
+          "text": "AI가 대신 고쳐도, 광고에 대한 책임은 광고주에게 남아요.",
+          "phrases": [
+            "AI가 대신 고쳐도,",
+            "광고에 대한 책임은",
+            "광고주에게 남아요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "페이스북과 인스타그램을 운영하는 메타가 광고 약관을 바꿔요. 새 약관은 10월 30일부터 적용돼요. 메타의 AI 기능이 광고를 만들거나 바꾼 결과는 광고주가 혼자 책임진다는 내용이 들어갔어요. 메타가 스스로 켠 기능도 마찬가지예요. 이 내용은 10월 22일(미국 시간) 보도로 알려졌어요.",
+            "nobreak": [
+              "10월 30일",
+              "10월 22일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "메타의 AI는 광고에 링크를 더하고, 글을 번역하고, 가게 사진으로 새 그림을 만들어요. 그런데 광고주가 켜지 않았는데 바뀐 광고도 있었다는 보도가 나왔어요. 한 서점은 사람이 그린 광고에 AI 그림이 붙자 AI 기능을 모두 껐어요. 메타는 AI가 실수할 수 있다고 적고, 그 위험을 광고주가 지도록 했어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "페이스북이나 인스타그램에 광고를 하는 가게라면 한 번 살펴보세요. 메타는 광고 관리자 화면에서 AI 기능을 하나씩 끌 수 있다고 밝혔어요. 광고가 나가기 전에 미리보기로 바뀐 곳이 없는지 확인하면 좋아요. 메타는 이번 변경이 흩어진 약관을 하나로 정리한 것이라고 설명했어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "애드위크",
+          "date": "10월 22일",
+          "url": "https://www.adweek.com/media/advertisers-pull-meta-ads-that-had-unwanted-ai-glow-ups/"
+        },
+        {
+          "name": "PPC 랜드",
+          "date": "10월 22일",
+          "url": "https://ppc.land/meta-makes-advertisers-solely-responsible-for-its-ai-ad-edits-from-oct-30/"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_201601_aded362a-b846-421c-8064-e1d8797b2c0a.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261025_201601_aded362a-b846-421c-8064-e1d8797b2c0a.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "의무기록",
+      "meaning": {
+        "text": "병원이 적어 두는 환자의 진료 기록",
+        "phrases": [
+          "병원이 적어 두는",
+          "환자의 진료 기록"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "오픈소스",
+      "meaning": {
+        "text": "누구나 보고 고쳐 쓸 수 있게 공개한 프로그램",
+        "phrases": [
+          "누구나 보고",
+          "고쳐 쓸 수 있게",
+          "공개한 프로그램"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "약관",
+      "meaning": {
+        "text": "서비스를 쓸 때 지키기로 한 약속",
+        "phrases": [
+          "서비스를 쓸 때",
+          "지키기로 한 약속"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "광고주",
+      "meaning": {
+        "text": "돈을 내고 광고를 하는 사람이나 회사",
+        "phrases": [
+          "돈을 내고",
+          "광고를 하는 사람이나 회사"
+        ]
+      },
+      "color": "pink"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">존스홉킨스 베이뷰 의료센터의 환자 정보가 AI 도구에 들어간 일의 순서와 들어간 정보</title>
+            <desc id="g1d">미국 존스홉킨스 베이뷰 의료센터의 직원이 환자 정보가 담긴 표를 병원이 허락하지 않은 공개 AI 도구에 올렸다. 2026년 5월부터 9월까지 진료받은 환자 약 3,182명의 정보다. 병원은 9월 21일 내부 점검에서 이 일을 찾았고, 10월 22일부터 환자들에게 편지로 알렸다. 들어간 정보는 이름, 입원과 진료 날짜, 의무기록 번호, 진료 계정 번호, 받은 약, 진료과, 의사 이름이다. 사회보장번호와 금융 계좌 정보는 들어가지 않았다. 병원은 대화 기록과 파일을 지우게 하고 AI 회사에 삭제를 부탁했다.</desc>
+            <text class="num" x="30" y="132" font-size="96" letter-spacing="-4">3,182명</text>
+            <text x="34" y="170" font-size="16" font-weight="800">환자 기록이 AI 도구에 들어갔어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">미국 존스홉킨스 베이뷰 의료센터</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="52" rx="16"/>
+            <text x="194" y="254" font-size="14.5" font-weight="900" text-anchor="middle">5월~9월에 진료한 환자</text>
+            <line class="line" x1="194" y1="278" x2="194" y2="284" stroke-width="3"/>
+            <path class="f-ink" d="M194 294 l-8 -12 h16z"/>
+            <rect class="f-paper" x="34" y="298" width="320" height="52" rx="16"/>
+            <text x="194" y="330" font-size="14.5" font-weight="900" text-anchor="middle">9월 21일 병원이 찾아냈어요</text>
+            <line class="line" x1="194" y1="354" x2="194" y2="360" stroke-width="3"/>
+            <path class="f-ink" d="M194 370 l-8 -12 h16z"/>
+            <rect class="f-blue" x="34" y="374" width="320" height="52" rx="16"/>
+            <text class="white" x="194" y="406" font-size="14.5" font-weight="900" text-anchor="middle">10월 22일부터 편지로 알려요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">들어간 정보</text>
+            <rect class="f-paper" x="440" y="72" width="320" height="112" rx="16"/>
+            <text x="460" y="106" font-size="14" font-weight="800">이름 · 입원과 진료 날짜</text>
+            <text x="460" y="134" font-size="14" font-weight="800">의무기록 번호 · 진료 계정 번호</text>
+            <text x="460" y="162" font-size="14" font-weight="800">받은 약 · 진료과 · 의사 이름</text>
+            <text x="440" y="222" font-size="15" font-weight="800">빠진 정보</text>
+            <rect class="f-paper" x="440" y="238" width="320" height="52" rx="16"/>
+            <text x="600" y="270" font-size="14" font-weight="800" text-anchor="middle">사회보장번호 · 금융 계좌 정보</text>
+            <text x="440" y="328" font-size="15" font-weight="800">병원이 한 일</text>
+            <text x="440" y="354" font-size="14" font-weight="700">대화 기록과 파일을 지우고</text>
+            <text x="440" y="378" font-size="14" font-weight="700">AI 회사에 삭제를 부탁했어요</text>
+            <text class="red" x="440" y="424" font-size="14.5" font-weight="900">남의 정보는 AI에 넣지 않아요</text>
+          </svg>

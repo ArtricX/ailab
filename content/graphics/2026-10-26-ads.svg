@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">메타 광고 약관에서 AI 기능의 책임이 바뀌는 내용과 AI가 광고에 하는 일</title>
+            <desc id="g3d">페이스북과 인스타그램을 운영하는 메타가 10월 30일부터 새 광고 약관을 적용한다. 전에는 광고주가 AI 도구를 직접 골랐을 때만 책임을 졌다. 새 약관에서는 메타가 스스로 켠 AI 기능이 만든 결과까지 광고주가 혼자 책임진다. 메타의 AI는 광고에 링크를 더하고, 글을 번역하고, 사진으로 새 그림을 만든다. 한 서점은 사람이 그린 광고에 AI 그림이 붙자 AI 기능을 모두 껐다. 메타는 기능을 하나씩 끌 수 있다고 밝혔다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">30일</text>
+            <text x="34" y="170" font-size="16" font-weight="800">10월 30일부터 광고 약관이 바뀌어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">메타 · 페이스북과 인스타그램 광고</text>
+
+            <rect class="f-paper" x="34" y="226" width="320" height="84" rx="16"/>
+            <text x="54" y="256" font-size="13.5" font-weight="800">전에는</text>
+            <text x="54" y="284" font-size="14.5" font-weight="900">AI를 직접 고른 광고만 책임져요</text>
+            <rect class="f-green" x="34" y="322" width="320" height="84" rx="16"/>
+            <text x="54" y="352" font-size="13.5" font-weight="800">10월 30일부터</text>
+            <text x="54" y="380" font-size="14.5" font-weight="900">메타가 켠 AI 기능도 광고주 책임</text>
+            <text class="grey" x="34" y="436" font-size="12.5">메타는 약관을 정리했을 뿐이라고 해요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">메타의 AI가 광고에 하는 일</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">링크를 더해요</text>
+            <rect class="f-paper" x="440" y="132" width="320" height="48" rx="16"/>
+            <text x="600" y="162" font-size="14.5" font-weight="900" text-anchor="middle">광고 글을 번역해요</text>
+            <rect class="f-green" x="440" y="190" width="320" height="48" rx="16"/>
+            <text x="600" y="220" font-size="14.5" font-weight="900" text-anchor="middle">사진으로 새 그림을 만들어요</text>
+
+            <text x="440" y="284" font-size="15" font-weight="800">한 서점은</text>
+            <text x="440" y="312" font-size="14.5" font-weight="700">사람이 그린 광고에 AI 그림이 붙자</text>
+            <text x="440" y="336" font-size="14.5" font-weight="700">AI 기능을 모두 껐어요</text>
+            <text class="red" x="440" y="392" font-size="14.5" font-weight="900">원하지 않는 기능은 하나씩 꺼요</text>
+          </svg>

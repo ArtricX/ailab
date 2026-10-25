@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">레딧 오픈소스 모임의 새 규칙으로 올릴 수 없게 된 것과 그 뒤의 반응</title>
+            <desc id="g2d">미국의 큰 온라인 게시판 레딧에 있는 오픈소스 모임이 10월 24일 새 규칙을 올렸다. AI가 만들었거나 AI를 눈에 띄게 쓴 작품, AI를 위해 만든 작품, 만든 지 1년이 안 된 작품과 1년이 안 된 계정의 글은 올릴 수 없다. 운영자는 AI에 들인 비용이 자랑거리가 아니라고 했다. 이용자들의 찬성과 반대가 엇갈렸고, AI 작품을 받아 주는 새 모임이 따로 생겼다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">1년</text>
+            <text x="34" y="170" font-size="16" font-weight="800">안 된 작품과 계정도 못 올려요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">레딧 오픈소스 모임 · 10월 24일 새 규칙</text>
+
+            <text x="34" y="236" font-size="15" font-weight="800">올릴 수 없게 된 것</text>
+            <rect class="f-paper" x="34" y="252" width="320" height="52" rx="16"/>
+            <text x="194" y="284" font-size="14.5" font-weight="900" text-anchor="middle">AI가 만든 작품</text>
+            <rect class="f-paper" x="34" y="314" width="320" height="52" rx="16"/>
+            <text x="194" y="346" font-size="14.5" font-weight="900" text-anchor="middle">AI를 위해 만든 작품</text>
+            <rect class="f-yellow" x="34" y="376" width="320" height="52" rx="16"/>
+            <text x="194" y="408" font-size="14.5" font-weight="900" text-anchor="middle">만든 지 1년 안 된 작품</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">새 규칙이 나온 뒤</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">운영자가 새 규칙을 올려요</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">찬성과 반대가 엇갈려요</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-yellow" x="440" y="226" width="320" height="48" rx="16"/>
+            <text x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">AI 작품을 받는 새 모임이 생겨요</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">운영자의 생각</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">AI에 들인 비용은</text>
+            <text x="440" y="370" font-size="14.5" font-weight="700">자랑거리가 아니래요</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">모임마다 규칙이 달라요</text>
+          </svg>
