@@ -305,8 +305,6 @@ p { margin: 0; text-wrap: pretty; }
 .subscribe-body { display: grid; gap: 1rem; min-width: 0; }
 .subscribe-body > p { font-size: 1.05rem; font-weight: 500; line-height: 1.6; }
 .subscribe-note { font-size: 0.82rem; line-height: 1.6; }
-.subscribe-slot { min-height: 52px; }
-.subscribe-slot iframe { width: 100%; border: 0; display: block; }
 .pill-ink { background: var(--ink); color: var(--paper); font-size: 1rem; padding: 0.75rem 1.5rem; }
 .pill-ink:hover { background: var(--paper); color: var(--ink); }
 .subscribe-post { padding-block: 3.4rem 0; }
@@ -363,11 +361,21 @@ a.footer-cta:hover { text-decoration: underline; text-underline-offset: 0.2em; }
 .sub-form { scroll-margin-block: 6rem; }
 .sub-form:focus { outline: none; }
 .sub-form:focus-visible { outline: none; }
-.sub-form .subscribe-slot { min-height: 56px; width: 100%; display: grid; }
-.sub-form .subscribe-slot > * { width: 100% !important; max-width: 100%; margin: 0 !important; }
-.sub-form .subscribe-slot iframe { width: 100% !important; border: 0; display: block; }
-.sub-fallback { font-size: 0.9rem; }
-.sub-fallback a { font-weight: 700; }
+.sub-entry { display: grid; gap: 0.5rem; width: 100%; }
+.sub-label { font-size: 0.9rem; font-weight: 800; }
+.sub-row { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.sub-input {
+  flex: 1 1 14rem; min-width: 0; min-height: 3rem; padding: 0 1rem;
+  font: inherit; font-size: 1rem; color: var(--ink); background: var(--paper);
+  border: 2px solid var(--ink); border-radius: 999px;
+}
+.sub-input::placeholder { color: var(--grey); }
+.sub-input:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+.sub-submit { min-height: 3rem; justify-content: center; font: inherit; font-weight: 800; cursor: pointer; }
+.sub-submit:disabled { opacity: 0.5; cursor: wait; }
+.sub-trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.sub-status { font-size: 0.9rem; line-height: 1.6; margin: 0; }
+.sub-status.is-error { font-weight: 800; }
 
 /* ───────── 사용성: 누구나 쉽게 움직이도록 ─────────
    고정 메뉴, 지금 읽는 소식 표시, 맨 위로 버튼, 글 끝 이어보기·공유, 크게 누르는 출처 링크, 그림이 없을 때 빈자리. */

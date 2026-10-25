@@ -20,23 +20,48 @@
   });
 })();
 
-// 구독 폼: beehiiv 구독 폼(AILAB 블로그 인라인 구독)을 구독 페이지의 입력 칸에 넣습니다.
-// 8초가 지나도 폼이 뜨지 않으면 beehiiv 구독 페이지로 가는 안내 문구를 보여 줘요.
+// 구독 폼: 구독 페이지의 입력 칸에서 신청을 받아 아이고 메일(구글 앱스 스크립트)로 보냅니다.
+// 신청하면 확인 메일이 가고, 메일 속 버튼을 눌러야 구독이 확정돼요.
 (function () {
-  var FORM_ID = "7397c447-a3ee-4ca3-8342-74634c246e54";
-  var LOADER = "https://subscribe-forms.beehiiv.com/v3/loader.js";
   document.addEventListener("DOMContentLoaded", function () {
-    var slot = document.querySelector("[data-subscribe]");
-    if (!slot) return;
-    var s = document.createElement("script");
-    s.async = true;
-    s.src = LOADER;
-    s.setAttribute("data-beehiiv-form", FORM_ID);
-    slot.appendChild(s);
-    var fallback = document.querySelector(".sub-fallback");
-    setTimeout(function () {
-      if (fallback && !slot.querySelector("iframe")) fallback.hidden = false;
-    }, 8000);
+    var form = document.querySelector("form[data-subscribe]");
+    if (form) {
+      var input = form.querySelector("input[name=email]");
+      var button = form.querySelector("button[type=submit]");
+      var status = form.querySelector(".sub-status");
+      var say = function (msg, bad) {
+        status.textContent = msg;
+        status.hidden = false;
+        status.classList.toggle("is-error", !!bad);
+      };
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var email = (input.value || "").trim();
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+          say("이메일 주소를 다시 확인해 주세요.", true);
+          input.focus();
+          return;
+        }
+        button.disabled = true;
+        say("신청하고 있어요…");
+        var body = new URLSearchParams();
+        body.set("email", email);
+        body.set("website", (form.querySelector("input[name=website]") || {}).value || "");
+        fetch(form.action, { method: "POST", body: body })
+          .then(function (r) { return r.json(); })
+          .then(function (res) {
+            if (!res || !res.ok) throw new Error("bad");
+            if (res.state === "active") say("이미 구독하고 계세요. 내일 아침 7시에 만나요.");
+            else say("확인 메일을 보냈어요. 메일 속 '구독 확인하기'를 눌러야 구독이 끝나요. 메일이 안 보이면 스팸함도 봐 주세요.");
+            form.reset();
+            if (typeof ailabEvent === "function") ailabEvent("subscribe");
+          })
+          .catch(function () {
+            say("지금은 신청이 되지 않아요. 잠시 뒤에 다시 해 주세요.", true);
+          })
+          .then(function () { button.disabled = false; });
+      });
+    }
     // 구독 메뉴로 들어오면 입력 칸으로 바로 이동
     if (location.hash === "#sub-form") {
       var box = document.getElementById("sub-form");

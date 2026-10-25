@@ -19,8 +19,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Gothic+A1:wght@400;500;700;800;900&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=0cce8c1377">
-<script src="assets/site.js?v=9cf26d6b6d"></script>
+<link rel="stylesheet" href="assets/style.css?v=79259c8a24">
+<script src="assets/site.js?v=23c149932b"></script>
 </head>
 <body class="sub-body">
 <div class="page">
@@ -46,8 +46,15 @@
       </ul>
 
       <div class="sub-form" id="sub-form" tabindex="-1" role="group" aria-label="이메일 주소를 적고 구독하기를 눌러 주세요">
-        <div class="subscribe-slot" data-subscribe></div>
-        <p class="sub-fallback" hidden><span class="ph">입력칸이 보이지 않으면</span> <a href="https://ailab-news.beehiiv.com/subscribe">여기를 눌러 구독해 주세요.</a></p>
+        <form class="sub-entry" data-subscribe action="https://script.google.com/macros/s/AKfycbyc_u3T2GEcNBGEfeAwY3-cbZbt_elce0o2VArU8sa4T90yMM4NQ6n1ygtkiRhtTffN5w/exec" method="post" novalidate>
+          <label class="sub-label" for="sub-email">이메일 주소</label>
+          <div class="sub-row">
+            <input class="sub-input" id="sub-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required>
+            <button class="pill pill-ink sub-submit" type="submit">구독하기</button>
+          </div>
+          <input class="sub-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <p class="sub-status" role="status" aria-live="polite" hidden></p>
+        </form>
       </div>
 
       <div class="sub-actions">
