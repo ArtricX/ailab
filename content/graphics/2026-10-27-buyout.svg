@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">마이크로소프트 희망퇴직 제안의 규모와 대상</title>
+            <desc id="g3d">마이크로소프트가 직원 약 6만 명에게 희망퇴직을 제안했다는 보도가 10월 26일 나왔다. 전체 직원 약 22만 명 가운데 4명 중 1명이 넘는 규모다. 대상은 미국, 캐나다, 인도, 영국의 일부 팀이며, 데이터센터와 영업, 마케팅 팀은 빠진다. 올해 초 나이 많은 직원 약 8,750명에게 같은 제안을 했을 때는 30% 넘게 받아들였다. 떠날지는 직원이 스스로 정한다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">6만 명</text>
+            <text x="34" y="170" font-size="16" font-weight="800">희망퇴직을 제안받았어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">마이크로소프트 · 10월 26일 보도</text>
+
+            <text x="34" y="236" font-size="14" font-weight="800">전체 직원 약 22만 명</text>
+            <rect class="f-paper" x="34" y="248" width="320" height="40" rx="12"/>
+            <text x="34" y="324" font-size="14" font-weight="800">제안받은 직원 약 6만 명</text>
+            <rect class="f-green" x="34" y="336" width="87" height="40" rx="12"/>
+            <text x="34" y="414" font-size="15" font-weight="900">4명 중 1명이 넘어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">대상 나라</text>
+            <rect class="f-paper" x="440" y="72" width="152" height="48" rx="16"/>
+            <text x="516" y="102" font-size="14.5" font-weight="900" text-anchor="middle">미국</text>
+            <rect class="f-paper" x="608" y="72" width="152" height="48" rx="16"/>
+            <text x="684" y="102" font-size="14.5" font-weight="900" text-anchor="middle">캐나다</text>
+            <rect class="f-paper" x="440" y="130" width="152" height="48" rx="16"/>
+            <text x="516" y="160" font-size="14.5" font-weight="900" text-anchor="middle">인도</text>
+            <rect class="f-paper" x="608" y="130" width="152" height="48" rx="16"/>
+            <text x="684" y="160" font-size="14.5" font-weight="900" text-anchor="middle">영국</text>
+
+            <text x="440" y="220" font-size="15" font-weight="800">빠지는 팀</text>
+            <rect class="f-green" x="440" y="236" width="320" height="48" rx="16"/>
+            <text x="600" y="266" font-size="14.5" font-weight="900" text-anchor="middle">데이터센터 · 영업 · 마케팅</text>
+
+            <text x="440" y="322" font-size="15" font-weight="800">올해 초에는</text>
+            <text x="440" y="350" font-size="14.5" font-weight="700">약 8,750명 중</text>
+            <text x="440" y="374" font-size="14.5" font-weight="700">30% 넘게 받아들였어요</text>
+            <text class="red" x="440" y="418" font-size="14.5" font-weight="900">떠날지는 직원이 스스로 정해요</text>
+          </svg>

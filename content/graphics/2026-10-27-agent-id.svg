@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">SK텔레콤이 회사 안 AI 에이전트를 관리하는 순서와 2028년까지의 계획</title>
+            <desc id="g2d">SK텔레콤이 10월 26일 첫 AI 거버넌스 보고서를 냈다. 회사 안에서 일하는 AI 에이전트 가운데 심사를 통과한 것에 사번을 준다. AI마다 책임자를 두고 일과 성과를 살피며, 정기 평가에 따라 맡은 일을 바꾸거나 운영을 끝낸다. 계획은 2026년에 관리의 바탕을 만들고, 2027년에 위험에 따라 다르게 점검하며, 2028년까지 AI의 시작부터 끝까지 관리하는 체계를 자리 잡게 하는 것이다. 중요한 일을 맡은 AI는 팀장이나 임원이 살피고, 이상한 일이 생기면 바로 멈출 수 있다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">2028년</text>
+            <text x="34" y="170" font-size="16" font-weight="800">AI 직원을 처음부터 끝까지 관리해요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">SK텔레콤 · AI 거버넌스 보고서 (10월 26일)</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="52" rx="16"/>
+            <text x="194" y="254" font-size="14.5" font-weight="900" text-anchor="middle">심사를 통과하면 사번을 줘요</text>
+            <line class="line" x1="194" y1="278" x2="194" y2="284" stroke-width="3"/>
+            <path class="f-ink" d="M194 294 l-8 -12 h16z"/>
+            <rect class="f-paper" x="34" y="298" width="320" height="52" rx="16"/>
+            <text x="194" y="330" font-size="14.5" font-weight="900" text-anchor="middle">책임자가 일과 성과를 봐요</text>
+            <line class="line" x1="194" y1="354" x2="194" y2="360" stroke-width="3"/>
+            <path class="f-ink" d="M194 370 l-8 -12 h16z"/>
+            <rect class="f-blue" x="34" y="374" width="320" height="52" rx="16"/>
+            <text class="white" x="194" y="406" font-size="14.5" font-weight="900" text-anchor="middle">평가로 일을 바꾸거나 멈춰요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">앞으로의 계획</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">2026년 관리의 바탕 만들기</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">2027년 위험에 따라 다르게 점검</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-blue" x="440" y="226" width="320" height="48" rx="16"/>
+            <text class="white" x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">2028년 회사 전체에 자리 잡기</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">중요한 일을 맡은 AI는</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">팀장이나 임원이</text>
+            <text x="440" y="370" font-size="14.5" font-weight="700">직접 살펴요</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">이상하면 바로 멈출 수 있어요</text>
+          </svg>

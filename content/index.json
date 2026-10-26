@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-27",
+      "title": "국민 AI의 이름 짓기, AI 직원에게 주는 사번, 6만 명에게 묻는 희망퇴직",
+      "file": "content/2026-10-27.json",
+      "stories": [
+        {
+          "anchor": "naming",
+          "tag": "생활",
+          "color": "pink",
+          "title": "무료 국민 AI의 이름을 지어 주세요"
+        },
+        {
+          "anchor": "agent-id",
+          "tag": "안전",
+          "color": "blue",
+          "title": "AI 직원에게도 사번을 줘요"
+        },
+        {
+          "anchor": "buyout",
+          "tag": "일",
+          "color": "green",
+          "title": "마이크로소프트가 직원 6만 명에게 희망퇴직을 권해요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-26",
       "title": "환자 정보가 AI로 들어간 병원, AI 작품을 막은 온라인 모임, AI가 고친 광고는 가게 책임",
       "file": "content/2026-10-26.json",
