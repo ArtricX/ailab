@@ -157,6 +157,7 @@ function checkPost_(post) {
 /** 블로그 구독 칸에서 보내는 신청 */
 function doPost(e) {
   var p = (e && e.parameter) || {};
+  if (p.a === 'confirm' || p.a === 'unsubscribe') return json_(handleToken_(p.a, String(p.t || '')));
   if (p.website) return json_({ ok: true, state: 'pending' });          // 자동 프로그램이 채우는 숨은 칸
   var email = String(p.email || '').trim().toLowerCase();
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email) || email.length > 200) return json_({ ok: false, error: 'invalid' });
@@ -186,34 +187,48 @@ function doPost(e) {
   }
 }
 
-/** 확인 링크와 그만 받기 링크 */
-function doGet(e) {
-  var p = (e && e.parameter) || {};
-  var sh = getSpreadsheet_().getSheetByName(SUB_SHEET);
-  var row = p.t ? findRowByToken_(sh, String(p.t)) : null;
-  if (!row) return page_('링크를 확인할 수 없어요', '링크가 잘못되었거나 오래되었어요. 블로그에서 다시 신청해 주세요.');
-
-  if (p.a === 'confirm') {
-    if (row.status !== 'active') {
-      sh.getRange(row.index, 2).setValue('active');
-      sh.getRange(row.index, 5).setValue(nowIso_());
-      sh.getRange(row.index, 6).setValue('');
-      alert_('새 구독자가 생겼어요', row.email + ' 님이 구독을 확인했어요.');
+/** 확인·그만 받기 처리 (블로그 구독 페이지가 부르는 곳). 결과: { ok, state } */
+function handleToken_(action, token) {
+  if (!token) return { ok: false, error: 'notfound' };
+  var lock = LockService.getScriptLock();
+  lock.waitLock(10000);
+  try {
+    var sh = getSpreadsheet_().getSheetByName(SUB_SHEET);
+    var row = findRowByToken_(sh, token);
+    if (!row) return { ok: false, error: 'notfound' };
+    if (action === 'confirm') {
+      if (row.status !== 'active') {
+        sh.getRange(row.index, 2).setValue('active');
+        sh.getRange(row.index, 5).setValue(nowIso_());
+        sh.getRange(row.index, 6).setValue('');
+        alert_('새 구독자가 생겼어요', row.email + ' 님이 구독을 확인했어요.');
+      }
+      return { ok: true, state: 'active' };
     }
-    return page_('구독이 확인됐어요', '내일 아침 7시부터 오늘의 AI 소식 세 가지를 보내 드릴게요.');
-  }
-  if (p.a === 'unsubscribe') {
     if (row.status !== 'unsubscribed') {
       sh.getRange(row.index, 2).setValue('unsubscribed');
       sh.getRange(row.index, 6).setValue(nowIso_());
     }
+    return { ok: true, state: 'unsubscribed' };
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+/** 예전 메일 속 링크(웹 앱 주소로 바로 연결)를 위한 화면 */
+function doGet(e) {
+  var p = (e && e.parameter) || {};
+  if (p.a === 'confirm' || p.a === 'unsubscribe') {
+    var r = handleToken_(p.a, String(p.t || ''));
+    if (!r.ok) return page_('링크를 확인할 수 없어요', '링크가 잘못되었거나 오래되었어요. 블로그에서 다시 신청해 주세요.');
+    if (r.state === 'active') return page_('구독이 확인됐어요', '내일 아침 7시부터 오늘의 AI 소식 세 가지를 보내 드릴게요.');
     return page_('구독을 그만두었어요', '이제 메일을 보내지 않아요. 그동안 읽어 주셔서 고마워요. 다시 받고 싶으면 블로그에서 언제든 신청해 주세요.');
   }
   return page_('아이고', '오늘의 AI 소식은 블로그에서 볼 수 있어요.');
 }
 
 function sendConfirmMail_(email, token) {
-  var url = webAppUrl_() + '?a=confirm&t=' + encodeURIComponent(token);
+  var url = SITE + 'subscribe.html?a=confirm&t=' + encodeURIComponent(token);
   var font = "font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif;";
   var html = '<div style="max-width:560px;margin:0 auto;padding:24px 20px;' + font + 'color:#111111;word-break:keep-all;">' +
     '<img src="' + HEADER_IMG + '" alt="아이고" width="560" style="display:block;width:100%;max-width:560px;height:auto;border:0;">' +
@@ -287,13 +302,10 @@ function activeSubscribers_() {
   });
 }
 
-function webAppUrl_() {
-  var url = ScriptApp.getService().getUrl();
-  if (!url) throw new Error('아직 웹 앱으로 배포하지 않았어요. 배포 > 새 배포 > 웹 앱 으로 배포해 주세요.');
-  return url;
-}
+// 확인·그만 받기 링크는 블로그 구독 페이지로 보내요. 페이지가 웹 앱을 대신 불러 줘서,
+// 브라우저에 구글 계정이 여러 개 로그인돼 있어도 '파일을 열 수 없습니다' 화면이 뜨지 않아요.
 function unsubscribeUrl_(token) {
-  return webAppUrl_() + '?a=unsubscribe&t=' + encodeURIComponent(token);
+  return SITE + 'subscribe.html?a=unsubscribe&t=' + encodeURIComponent(token);
 }
 function newToken_() { return Utilities.getUuid().replace(/-/g, ''); }
 function nowIso_() { return new Date().toISOString(); }

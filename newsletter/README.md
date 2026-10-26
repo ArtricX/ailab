@@ -4,8 +4,9 @@
 실제로 돌아가는 것은 aigo.artricx@gmail.com 계정의 앱스 스크립트 프로젝트 '아이고 메일'이에요. 고칠 때는 여기와 그쪽을 함께 고쳐요.
 
 - **발송**: 7시부터 5분마다 `content/오늘날짜.json`이 사이트에 있는지 보고, 있으면 '아이고 구독자' 시트의 구독자(`active`)에게 한 통씩 보내요. 하루 한 번, 낮 12시까지.
-- **구독**: `subscribe.html`의 신청 칸 → 웹 앱(`doPost`) → 확인 메일 → 확인 링크(`doGet ?a=confirm`) → `active`.
-- **그만 받기**: 메일 맨 아래 링크(`doGet ?a=unsubscribe`) → `unsubscribed`.
+- **구독**: `subscribe.html`의 신청 칸 → 웹 앱(`doPost`) → 확인 메일 → 확인 링크(`subscribe.html?a=confirm&t=…`, 페이지가 웹 앱에 대신 알려 줘요) → `active`.
+- **그만 받기**: 메일 맨 아래 링크(`subscribe.html?a=unsubscribe&t=…`) → `unsubscribed`.
+- 확인·그만 받기 링크를 웹 앱 주소로 바로 걸지 않는 까닭: 브라우저에 구글 계정이 여러 개 로그인돼 있으면 구글이 "현재 파일을 열 수 없습니다" 화면을 띄워요.
 - **알림**: 특이사항은 `OWNER_EMAIL`로 '[아이고 알림]' 메일.
 - **한도**: 일반 Gmail 계정은 하루 100명까지 보낼 수 있어요.
 - 구독자 주소는 저장소에 넣지 않아요(구글 시트에만 있어요).
