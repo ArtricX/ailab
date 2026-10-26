@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">모두의 AI 이름 공모에서 낼 것과 일정, 상금</title>
+            <desc id="g1d">과학기술정보통신부가 국민 누구나 돈 걱정 없이 쓰게 하려는 정부 AI 서비스 '모두의 AI'의 이름과 슬로건을 모은다. 이름은 5글자 안으로, 슬로건은 20글자 안으로 짓고, 지은 까닭을 300자 안으로 함께 낸다. 공모는 10월 26일에 시작해 11월 6일 오후 6시에 끝나고, 결과는 11월 16일에 나온다. 대상 1편은 200만 원을 받고, 모두 6편을 뽑으며 상금은 모두 550만 원이다. 누구나 온라인으로 낼 수 있다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">5글자</text>
+            <text x="34" y="170" font-size="16" font-weight="800">이름은 5글자 안으로 지어요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">과학기술정보통신부 · 모두의 AI 이름 공모</text>
+
+            <rect class="f-pink" x="34" y="222" width="56" height="56" rx="12"/>
+            <rect class="f-pink" x="100" y="222" width="56" height="56" rx="12"/>
+            <rect class="f-pink" x="166" y="222" width="56" height="56" rx="12"/>
+            <rect class="f-pink" x="232" y="222" width="56" height="56" rx="12"/>
+            <rect class="f-pink" x="298" y="222" width="56" height="56" rx="12"/>
+
+            <rect class="f-paper" x="34" y="300" width="320" height="52" rx="16"/>
+            <text x="194" y="332" font-size="14.5" font-weight="900" text-anchor="middle">슬로건은 20글자 안으로</text>
+            <rect class="f-paper" x="34" y="362" width="320" height="52" rx="16"/>
+            <text x="194" y="394" font-size="14.5" font-weight="900" text-anchor="middle">지은 까닭은 300자 안으로</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">공모 일정</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">10월 26일 공모 시작</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">11월 6일 오후 6시 마감</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-pink" x="440" y="226" width="320" height="48" rx="16"/>
+            <text x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">11월 16일 결과 발표</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">상금</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">대상 1편 200만 원</text>
+            <text x="440" y="370" font-size="14.5" font-weight="700">모두 6편, 합해서 550만 원</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">누구나 온라인으로 낼 수 있어요</text>
+          </svg>

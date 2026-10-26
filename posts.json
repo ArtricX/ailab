@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-27",
+    "title": "국민 AI의|이름 짓기,|AI 직원에게|주는 사번,|6만 명에게 묻는|희망퇴직",
+    "summary": "정부가 무료 국민 AI의|이름을 모아요.|SK텔레콤은|AI 직원에게 사번을 주고,|마이크로소프트는|직원 약 6만 명에게|희망퇴직을 권했다는|보도가 나왔어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "생활",
+        "color": "pink",
+        "anchor": "naming",
+        "title": "무료 국민 AI의|이름을|지어 주세요",
+        "dek": "정부가|11월 6일까지|이름을 모아요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200209_d472a7ce-598d-42ab-a188-103b31dafd2d.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200209_d472a7ce-598d-42ab-a188-103b31dafd2d_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "blue",
+        "anchor": "agent-id",
+        "title": "AI 직원에게도|사번을|줘요",
+        "dek": "SK텔레콤이|AI 관리 규칙을|공개했어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200208_26b3b52d-0e5a-4d28-811b-27e00ec7f168.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200208_26b3b52d-0e5a-4d28-811b-27e00ec7f168_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "green",
+        "anchor": "buyout",
+        "title": "마이크로소프트가|직원 6만 명에게|희망퇴직을 권해요",
+        "dek": "AI에 맞춰|회사를|다시 짜고 있어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200209_753f6978-78e3-44ac-afa9-5221b62f9cdf.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200209_753f6978-78e3-44ac-afa9-5221b62f9cdf_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "공모",
+        "meaning": "여러 사람에게|생각이나 작품을|널리 모으는 일"
+      },
+      {
+        "word": "AI 에이전트",
+        "meaning": "맡긴 일을|스스로 판단해|해내는 AI"
+      },
+      {
+        "word": "사번",
+        "meaning": "회사가 직원마다|붙이는 번호"
+      },
+      {
+        "word": "희망퇴직",
+        "meaning": "회사가 조건을 내걸고,|원하는 직원만|스스로 그만두는 것"
+      }
+    ]
+  },
+  {
     "date": "2026-10-26",
     "title": "환자 정보가|AI로 들어간 병원,|AI 작품을 막은|온라인 모임,|AI가 고친 광고는|가게 책임",
     "summary": "미국의 한 병원에서|직원이 환자 정보를|허락받지 않은|AI 도구에 올렸어요.|큰 온라인 모임은|AI로 만든 작품을|받지 않기로 했고,|메타는 AI가 고친 광고의 책임을|광고주에게 넘겨요.",

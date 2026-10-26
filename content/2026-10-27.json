@@ -1,0 +1,373 @@
+{
+  "schema": 1,
+  "date": "2026-10-27",
+  "weekday": "화",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-27.html",
+  "minutes": 5,
+  "title": {
+    "text": "국민 AI의 이름 짓기, AI 직원에게 주는 사번, 6만 명에게 묻는 희망퇴직",
+    "phrases": [
+      "국민 AI의",
+      "이름 짓기,",
+      "AI 직원에게",
+      "주는 사번,",
+      "6만 명에게 묻는",
+      "희망퇴직"
+    ]
+  },
+  "share": {
+    "title": "무료 국민 AI의 이름을 지어 주세요 외 2건 · 아이고 10월 27일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 27일 화요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-27.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "naming",
+      "tag": "생활",
+      "color": "pink",
+      "label": "국민 AI 이름 짓기"
+    },
+    {
+      "anchor": "agent-id",
+      "tag": "안전",
+      "color": "blue",
+      "label": "AI 직원의 사번"
+    },
+    {
+      "anchor": "buyout",
+      "tag": "일",
+      "color": "green",
+      "label": "6만 명 희망퇴직"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "naming",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-27.html#naming",
+      "tag": "생활",
+      "color": "pink",
+      "title": {
+        "text": "무료 국민 AI의 이름을 지어 주세요",
+        "phrases": [
+          "무료 국민 AI의",
+          "이름을",
+          "지어 주세요"
+        ]
+      },
+      "dek": {
+        "text": "정부가 11월 6일까지 이름을 모아요.",
+        "phrases": [
+          "정부가",
+          "11월 6일까지",
+          "이름을 모아요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200209_d472a7ce-598d-42ab-a188-103b31dafd2d.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200209_d472a7ce-598d-42ab-a188-103b31dafd2d.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 연필을 들고 작은 나무 의견함에 접은 쪽지를 넣고, 그 옆에서 가슴에 빈 이름표를 단 작은 흰 로봇이 이름을 받기를 얌전히 기다리는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-27-naming.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-27-naming.svg",
+        "viewBox": "0 0 800 460",
+        "title": "모두의 AI 이름 공모에서 낼 것과 일정, 상금",
+        "desc": "과학기술정보통신부가 국민 누구나 돈 걱정 없이 쓰게 하려는 정부 AI 서비스 '모두의 AI'의 이름과 슬로건을 모은다. 이름은 5글자 안으로, 슬로건은 20글자 안으로 짓고, 지은 까닭을 300자 안으로 함께 낸다. 공모는 10월 26일에 시작해 11월 6일 오후 6시에 끝나고, 결과는 11월 16일에 나온다. 대상 1편은 200만 원을 받고, 모두 6편을 뽑으며 상금은 모두 550만 원이다. 누구나 온라인으로 낼 수 있다.",
+        "caption": {
+          "text": "부르기 쉬운 이름이 서비스를 더 가깝게 해요.",
+          "phrases": [
+            "부르기 쉬운 이름이",
+            "서비스를",
+            "더 가깝게 해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "과학기술정보통신부가 '모두의 AI'의 새 이름을 모아요. 모두의 AI는 국민 누구나 돈 걱정 없이 쓰게 하려는 정부의 AI 서비스예요. 공모는 10월 26일부터 11월 6일 오후 6시까지예요. 이름은 5글자 안으로, 슬로건은 20글자 안으로 지어요.",
+            "nobreak": [
+              "10월 26일",
+              "11월 6일",
+              "6시",
+              "5글자",
+              "20글자"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "정부는 지난 8월 SK텔레콤, 카카오, KT를 이 서비스를 만들 곳으로 골랐어요. 지금은 일부 사람만 먼저 써 보고 있어요. 정부는 올해 안에 모두가 쓸 수 있게 내놓으려고 해요. 그 전에 부르기 쉬운 이름을 국민과 함께 정하려는 거예요.",
+            "nobreak": [
+              "8월"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "누구나 온라인 신청서로 낼 수 있어요. 이름과 슬로건, 그리고 그렇게 지은 까닭을 300자 안으로 적어요. 결과는 11월 16일에 나와요. 대상 1편은 200만 원을 받고, 모두 6편을 뽑아요. 이 서비스는 앞으로 복지 신청이나 공공시설 예약도 돕는 것을 목표로 해요.",
+            "nobreak": [
+              "300자",
+              "11월 16일",
+              "1편",
+              "200만 원",
+              "6편"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "데일리안",
+          "date": "10월 26일",
+          "url": "https://www.dailian.co.kr/news/view/1706275/%EA%B3%BC%EA%B8%B0%EC%A0%95%ED%86%B5%EB%B6%80-%E2%80%98%EB%AA%A8%EB%91%90-AI%E2%80%99-%EB%B8%8C%EB%9E%9C%EB%93%9C%EB%AA%85-%EB%8C%80-2026"
+        },
+        {
+          "name": "더브리프",
+          "date": "10월 26일",
+          "url": "https://www.thebriefai.kr/news/articleView.html?idxno=13729"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200533_6abffe84-2637-4790-acd3-a54369e03dd6.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200533_6abffe84-2637-4790-acd3-a54369e03dd6.mp3"
+      }
+    },
+    {
+      "anchor": "agent-id",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-27.html#agent-id",
+      "tag": "안전",
+      "color": "blue",
+      "title": {
+        "text": "AI 직원에게도 사번을 줘요",
+        "phrases": [
+          "AI 직원에게도",
+          "사번을",
+          "줘요"
+        ]
+      },
+      "dek": {
+        "text": "SK텔레콤이 AI 관리 규칙을 공개했어요.",
+        "phrases": [
+          "SK텔레콤이",
+          "AI 관리 규칙을",
+          "공개했어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200208_26b3b52d-0e5a-4d28-811b-27e00ec7f168.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200208_26b3b52d-0e5a-4d28-811b-27e00ec7f168.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "목에 빈 사원증을 건 작은 흰 로봇이 작은 책상에 앉아 노트북을 두드리고, 뒤에서 동그란 사람이 서류판을 들고 일을 살피며, 책상 위에는 커다란 동그란 멈춤 버튼이 놓인 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-27-agent-id.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-27-agent-id.svg",
+        "viewBox": "0 0 800 460",
+        "title": "SK텔레콤이 회사 안 AI 에이전트를 관리하는 순서와 2028년까지의 계획",
+        "desc": "SK텔레콤이 10월 26일 첫 AI 거버넌스 보고서를 냈다. 회사 안에서 일하는 AI 에이전트 가운데 심사를 통과한 것에 사번을 준다. AI마다 책임자를 두고 일과 성과를 살피며, 정기 평가에 따라 맡은 일을 바꾸거나 운영을 끝낸다. 계획은 2026년에 관리의 바탕을 만들고, 2027년에 위험에 따라 다르게 점검하며, 2028년까지 AI의 시작부터 끝까지 관리하는 체계를 자리 잡게 하는 것이다. 중요한 일을 맡은 AI는 팀장이나 임원이 살피고, 이상한 일이 생기면 바로 멈출 수 있다.",
+        "caption": {
+          "text": "AI가 일을 맡을수록, 맡기는 사람의 책임도 커져요.",
+          "phrases": [
+            "AI가 일을 맡을수록,",
+            "맡기는 사람의 책임도",
+            "커져요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "SK텔레콤이 10월 26일 첫 'AI 거버넌스 보고서'를 냈어요. AI를 안전하게 쓰기 위한 회사의 규칙을 모은 보고서예요. 회사 안에서 일하는 AI 에이전트를 어떻게 관리하는지가 담겼어요. 정해진 심사를 통과한 AI에게는 사번을 줘요.",
+            "nobreak": [
+              "10월 26일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI 에이전트는 사람이 맡긴 일을 스스로 판단해 해내는 AI예요. 맡는 일이 많아질수록 잘못 쓰이거나 정보가 새는 일도 막아야 해요. 그래서 AI마다 책임자를 두고 정기적으로 평가해요. 평가에 따라 맡은 일을 늘리거나 줄이고, 운영을 끝내기도 해요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "회사에서 AI를 동료처럼 쓰는 날이 가까워지고 있어요. 그만큼 누가 AI를 맡고 책임지는지가 중요해져요. SK텔레콤은 이상한 일이 생기면 AI를 바로 멈출 수 있게 했어요. 다만 이런 규칙이 실제로 사고를 잘 막는지는 더 지켜봐야 해요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "S저널",
+          "date": "10월 26일",
+          "url": "https://www.s-journal.co.kr/news/articleView.html?idxno=44798"
+        },
+        {
+          "name": "서울경제TV",
+          "date": "10월 26일",
+          "url": "https://www.sentv.co.kr/article/view/sentv202610260085"
+        },
+        {
+          "name": "마이데일리",
+          "date": "10월 26일",
+          "url": "https://www.mydaily.co.kr/page/view/2026102612160351880"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200533_b149733a-d71c-4da2-842c-dbe5d170d34a.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200533_b149733a-d71c-4da2-842c-dbe5d170d34a.mp3"
+      }
+    },
+    {
+      "anchor": "buyout",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-27.html#buyout",
+      "tag": "일",
+      "color": "green",
+      "title": {
+        "text": "마이크로소프트가 직원 6만 명에게 희망퇴직을 권해요",
+        "phrases": [
+          "마이크로소프트가",
+          "직원 6만 명에게",
+          "희망퇴직을 권해요"
+        ]
+      },
+      "dek": {
+        "text": "AI에 맞춰 회사를 다시 짜고 있어요.",
+        "phrases": [
+          "AI에 맞춰",
+          "회사를",
+          "다시 짜고 있어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200209_753f6978-78e3-44ac-afa9-5221b62f9cdf.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200209_753f6978-78e3-44ac-afa9-5221b62f9cdf.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "짐 상자를 든 동그란 직원이 갈림길에 서서, 작은 흰 로봇이 문 앞에서 손을 흔드는 높은 회사 건물 쪽 길과 햇살 비치는 넓은 들판 쪽 길을 덤덤하게 번갈아 보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-27-buyout.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-27-buyout.svg",
+        "viewBox": "0 0 800 460",
+        "title": "마이크로소프트 희망퇴직 제안의 규모와 대상",
+        "desc": "마이크로소프트가 직원 약 6만 명에게 희망퇴직을 제안했다는 보도가 10월 26일 나왔다. 전체 직원 약 22만 명 가운데 4명 중 1명이 넘는 규모다. 대상은 미국, 캐나다, 인도, 영국의 일부 팀이며, 데이터센터와 영업, 마케팅 팀은 빠진다. 올해 초 나이 많은 직원 약 8,750명에게 같은 제안을 했을 때는 30% 넘게 받아들였다. 떠날지는 직원이 스스로 정한다.",
+        "caption": {
+          "text": "AI에 큰돈을 쓰는 회사들이 일하는 방식도 바꾸고 있어요.",
+          "phrases": [
+            "AI에 큰돈을 쓰는 회사들이",
+            "일하는 방식도",
+            "바꾸고 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "마이크로소프트가 직원 약 6만 명에게 희망퇴직을 제안했다는 보도가 나왔어요. 블룸버그와 비즈니스 인사이더가 10월 26일(미국 시간) 처음 전했어요. 대상은 미국, 캐나다, 인도, 영국의 일부 팀 직원이에요. 데이터센터와 영업, 마케팅 팀은 빠졌어요.",
+            "nobreak": [
+              "약 6만 명",
+              "10월 26일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "마이크로소프트는 데이터센터와 AI에 아주 큰돈을 쓰고 있어요. 그래서 다른 곳의 비용을 줄이고, AI 시대에 맞게 일하는 방식을 바꾸려 해요. 보도에 따르면 회사는 직원들에게 보낸 글에서 이렇게 설명했어요. 회사 밖의 미래를 생각하는 사람에게 새 선택지를 주는 것이래요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "희망퇴직은 떠날지 말지를 직원이 스스로 정해요. 떠나는 사람은 보통의 퇴직 보상과 비슷한 혜택을 받는대요. 올해 초 나이 많은 직원 약 8,750명에게 같은 제안을 했을 때는 30% 넘게 받아들였어요. 큰 회사들이 AI에 맞춰 일자리를 다시 짜는 흐름은 계속 눈여겨볼 만해요.",
+            "nobreak": [
+              "약 8,750명",
+              "30%"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "테크크런치",
+          "date": "10월 26일",
+          "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/"
+        },
+        {
+          "name": "엔가젯",
+          "date": "10월 26일",
+          "url": "https://www.engadget.com/2297175/microsoft-reportedly-offers-voluntary-buyouts-to-60000-employees/"
+        },
+        {
+          "name": "CNBC",
+          "date": "10월 26일",
+          "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200533_1eeb1ed3-afe7-418d-a5bc-0f8917a10aee.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261026_200533_1eeb1ed3-afe7-418d-a5bc-0f8917a10aee.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "공모",
+      "meaning": {
+        "text": "여러 사람에게 생각이나 작품을 널리 모으는 일",
+        "phrases": [
+          "여러 사람에게",
+          "생각이나 작품을",
+          "널리 모으는 일"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "AI 에이전트",
+      "meaning": {
+        "text": "맡긴 일을 스스로 판단해 해내는 AI",
+        "phrases": [
+          "맡긴 일을",
+          "스스로 판단해",
+          "해내는 AI"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "사번",
+      "meaning": {
+        "text": "회사가 직원마다 붙이는 번호",
+        "phrases": [
+          "회사가 직원마다",
+          "붙이는 번호"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "희망퇴직",
+      "meaning": {
+        "text": "회사가 조건을 내걸고, 원하는 직원만 스스로 그만두는 것",
+        "phrases": [
+          "회사가 조건을 내걸고,",
+          "원하는 직원만",
+          "스스로 그만두는 것"
+        ]
+      },
+      "color": "green"
+    }
+  ]
+}
