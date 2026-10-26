@@ -203,7 +203,7 @@ function handleToken_(action, token) {
         sh.getRange(row.index, 6).setValue('');
         alert_('새 구독자가 생겼어요', row.email + ' 님이 구독을 확인했어요.');
       }
-      return { ok: true, state: 'active' };
+      return { ok: true, state: 'active', email: maskEmail_(row.email) };
     }
     if (row.status !== 'unsubscribed') {
       sh.getRange(row.index, 2).setValue('unsubscribed');
@@ -306,6 +306,12 @@ function activeSubscribers_() {
 // 브라우저에 구글 계정이 여러 개 로그인돼 있어도 '파일을 열 수 없습니다' 화면이 뜨지 않아요.
 function unsubscribeUrl_(token) {
   return SITE + 'subscribe.html?a=unsubscribe&t=' + encodeURIComponent(token);
+}
+// 결과 화면에 보여 줄 주소는 앞 두 글자만 남기고 가려요 (예: ab***@gmail.com)
+function maskEmail_(email) {
+  var at = String(email).indexOf('@');
+  if (at < 1) return '';
+  return email.slice(0, Math.min(2, at)) + '***' + email.slice(at);
 }
 function newToken_() { return Utilities.getUuid().replace(/-/g, ''); }
 function nowIso_() { return new Date().toISOString(); }

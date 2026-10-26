@@ -21,10 +21,107 @@
 })();
 
 // 구독 폼: 구독 페이지의 입력 칸에서 신청을 받아 아이고 메일(구글 앱스 스크립트)로 보냅니다.
-// 신청하면 확인 메일이 가고, 메일 속 버튼을 눌러야 구독이 확정돼요.
+// 신청하면 확인 메일이 가고, 메일 속 '구독 확인하기'(subscribe.html?a=confirm&t=…)를 누르면 구독이 확정돼요.
+// 신청·확인·그만 받기 결과는 입력 칸 대신 큰 결과 화면(#sub-result)으로 보여 줘요.
 (function () {
+  var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  // 결과 화면 내용. title은 줄마다 나눠 적어요(한 줄은 한 구절).
+  var STATES = {
+    wait: { label: "잠시만요", title: ["확인하고", "있어요"], lede: "구독 정보를 확인하는 중이에요. 이 화면을 닫지 말고 잠깐만 기다려 주세요." },
+    mail: { label: "신청 완료", title: ["메일함을", "확인해 주세요"],
+      lede: "확인 메일을 보냈어요. 메일 속 '구독 확인하기' 버튼을 누르면 구독이 끝나요.",
+      tip: "메일이 보이지 않으면 스팸함이나 프로모션함도 봐 주세요. 버튼을 누르지 않으면 메일을 보내지 않아요." },
+    done: { label: "구독 완료", title: ["구독이", "완료됐어요"],
+      lede: "내일 아침 7시부터 오늘의 AI 소식 세 가지를 메일로 보내 드릴게요.",
+      tip: "메일이 스팸함으로 가면 '스팸 아님'을 눌러 주세요. 다음부터는 받은편지함으로 와요." },
+    already: { label: "구독 중", title: ["이미", "구독하고 계세요"],
+      lede: "이 주소로 매일 아침 7시에 오늘의 AI 소식을 보내 드리고 있어요. 따로 할 일은 없어요." },
+    bye: { label: "구독 해지", title: ["구독을", "그만두었어요"],
+      lede: "이제 메일을 보내지 않아요. 그동안 읽어 주셔서 고마워요. 블로그에서는 언제든 오늘의 소식을 볼 수 있어요." },
+    error: { label: "확인 필요", title: ["링크를 확인할 수", "없어요"],
+      lede: "링크가 잘못되었거나 오래되었어요. 아래 '다시 신청하기'를 눌러 한 번 더 신청해 주세요." },
+    offline: { label: "확인 필요", title: ["지금은", "처리가 안 돼요"],
+      lede: "잠시 뒤에 다시 해 주세요. 계속 안 되면 aigo.artricx@gmail.com으로 알려 주세요." }
+  };
+
   document.addEventListener("DOMContentLoaded", function () {
     var form = document.querySelector("form[data-subscribe]");
+    var panel = document.querySelector(".sub-panel:not(.sub-result)");
+    var result = document.getElementById("sub-result");
+    var main = document.querySelector("main.sub");
+
+    function showForm() {
+      if (!result || !panel) return;
+      result.hidden = true;
+      panel.hidden = false;
+      if (main) main.classList.remove("is-result");
+      var input = form && form.querySelector("input[name=email]");
+      if (input) input.focus();
+    }
+
+    function showResult(key, extra) {
+      if (!result || !panel) return false;
+      var st = STATES[key];
+      extra = extra || {};
+      result.setAttribute("data-state", key);
+      result.querySelector("[data-r=label]").textContent = st.label;
+      var h = result.querySelector("[data-r=title]");
+      h.textContent = "";
+      st.title.forEach(function (line) { h.appendChild(el("span", "line", line)); });
+      result.querySelector("[data-r=lede]").textContent = st.lede;
+      result.querySelector("[data-r=tip]").textContent = st.tip || "";
+
+      var facts = result.querySelector("[data-r=facts]");
+      facts.textContent = "";
+      if (key === "done" || key === "already" || key === "mail") {
+        if (extra.email) {
+          var li = el("li", "ticket-mini c-yellow");
+          li.appendChild(el("b", null, key === "mail" ? "확인 메일을 보낸 주소" : "받는 주소"));
+          li.appendChild(el("span", null, extra.email));
+          facts.appendChild(li);
+        }
+        if (key !== "mail") {
+          var t = el("li", "ticket-mini c-blue");
+          t.appendChild(el("b", null, "보내는 시간"));
+          t.appendChild(el("span", null, "매일 아침 7시"));
+          facts.appendChild(t);
+        }
+        var f = el("li", "ticket-mini c-pink");
+        f.appendChild(el("b", null, "보내는 사람"));
+        f.appendChild(el("span", null, "아이고 (aigo.artricx@gmail.com)"));
+        facts.appendChild(f);
+      }
+
+      var acts = result.querySelector("[data-r=actions]");
+      acts.textContent = "";
+      if (key !== "wait") {
+        var home = el("a", "pill pill-ink", "오늘의 소식 보러 가기");
+        home.href = "index.html";
+        acts.appendChild(home);
+      }
+      if (key === "error" || key === "bye" || key === "offline" || key === "mail") {
+        var again = el("button", "pill", key === "mail" ? "다른 주소로 신청하기" : "다시 신청하기");
+        again.type = "button";
+        again.addEventListener("click", showForm);
+        acts.appendChild(again);
+      }
+
+      panel.hidden = true;
+      result.hidden = false;
+      if (main) main.classList.add("is-result");
+      window.scrollTo(0, 0);
+      result.focus({ preventScroll: true });
+      return true;
+    }
+
     if (form) {
       var input = form.querySelector("input[name=email]");
       var button = form.querySelector("button[type=submit]");
@@ -37,7 +134,7 @@
       form.addEventListener("submit", function (e) {
         e.preventDefault();
         var email = (input.value || "").trim();
-        if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+        if (!EMAIL_RE.test(email)) {
           say("이메일 주소를 다시 확인해 주세요.", true);
           input.focus();
           return;
@@ -51,10 +148,12 @@
           .then(function (r) { return r.json(); })
           .then(function (res) {
             if (!res || !res.ok) throw new Error("bad");
-            if (res.state === "active") say("이미 구독하고 계세요. 내일 아침 7시에 만나요.");
-            else say("확인 메일을 보냈어요. 메일 속 '구독 확인하기'를 눌러야 구독이 끝나요. 메일이 안 보이면 스팸함도 봐 주세요.");
+            status.hidden = true;
             form.reset();
             if (typeof ailabEvent === "function") ailabEvent("subscribe");
+            if (!showResult(res.state === "active" ? "already" : "mail", { email: email })) {
+              say(res.state === "active" ? "이미 구독하고 계세요." : "확인 메일을 보냈어요. 메일 속 '구독 확인하기'를 눌러 주세요.");
+            }
           })
           .catch(function () {
             say("지금은 신청이 되지 않아요. 잠시 뒤에 다시 해 주세요.", true);
@@ -62,40 +161,29 @@
           .then(function () { button.disabled = false; });
       });
     }
-    // 메일 속 '구독 확인하기' · '그만 받기' 링크로 들어온 경우: 웹 앱에 대신 알려 주고 결과를 보여 줘요.
+
+    // 메일 속 '구독 확인하기' · '그만 받기' 링크로 들어온 경우
     var q = new URLSearchParams(location.search);
     var act = q.get("a"), tok = q.get("t");
     if (form && (act === "confirm" || act === "unsubscribe") && tok) {
-      var st = form.querySelector(".sub-status");
-      var show = function (msg, bad) {
-        st.textContent = msg;
-        st.hidden = false;
-        st.classList.toggle("is-error", !!bad);
-        var box = document.getElementById("sub-form");
-        if (box) { box.scrollIntoView({ block: "center" }); box.focus({ preventScroll: true }); }
-      };
-      show(act === "confirm" ? "구독을 확인하고 있어요…" : "구독을 그만두고 있어요…");
+      showResult("wait");
       var data = new URLSearchParams();
       data.set("a", act);
       data.set("t", tok);
       fetch(form.action, { method: "POST", body: data })
         .then(function (r) { return r.json(); })
         .then(function (res) {
-          if (!res || !res.ok) {
-            show("링크를 확인할 수 없어요. 링크가 잘못되었거나 오래되었어요. 위 칸에서 다시 신청해 주세요.", true);
-          } else if (res.state === "active") {
-            show("구독이 확인됐어요. 내일 아침 7시부터 오늘의 AI 소식 세 가지를 보내 드릴게요.");
+          if (!res || !res.ok) showResult("error");
+          else if (res.state === "active") {
+            showResult("done", { email: res.email });
             if (typeof ailabEvent === "function") ailabEvent("subscribe-confirm");
-          } else {
-            show("구독을 그만두었어요. 이제 메일을 보내지 않아요. 다시 받고 싶으면 위 칸에서 언제든 신청해 주세요.");
-          }
-          try { history.replaceState(null, "", location.pathname + "#sub-form"); } catch (err) {}
+          } else showResult("bye");
+          try { history.replaceState(null, "", location.pathname); } catch (err) {}
         })
-        .catch(function () {
-          show("지금은 처리가 되지 않아요. 잠시 뒤에 메일 속 링크를 다시 눌러 주세요.", true);
-        });
+        .catch(function () { showResult("offline"); });
       return;
     }
+
     // 구독 메뉴로 들어오면 입력 칸으로 바로 이동
     if (location.hash === "#sub-form") {
       var box = document.getElementById("sub-form");

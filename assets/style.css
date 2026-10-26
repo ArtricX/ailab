@@ -377,6 +377,45 @@ a.footer-cta:hover { text-decoration: underline; text-underline-offset: 0.2em; }
 .sub-status { font-size: 0.9rem; line-height: 1.6; margin: 0; }
 .sub-status.is-error { font-weight: 800; }
 
+/* 구독 결과 화면: 신청·확인·그만 받기 결과를 한눈에 크게 보여 줘요 */
+.sub-panel[hidden] { display: none; }
+.sub-result { align-content: start; }
+.sub-result:focus { outline: none; }
+.sub-mark {
+  position: relative; width: 5.5rem; height: 5.5rem; border-radius: 50%;
+  background: var(--yellow); border: 3px solid var(--ink);
+}
+.sub-mark::after {
+  content: ""; position: absolute; left: 50%; top: 46%; width: 1.5rem; height: 2.7rem;
+  border-right: 0.55rem solid var(--ink); border-bottom: 0.55rem solid var(--ink);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.sub-result[data-state="mail"] .sub-mark { background: var(--blue); }
+.sub-result[data-state="mail"] .sub-mark::after {
+  top: 50%; width: 2.6rem; height: 1.8rem; border: 0.4rem solid var(--paper); border-radius: 0.3rem;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to bottom right, transparent 47%, var(--paper) 47% 55%, transparent 55%) left / 50% 100% no-repeat,
+              linear-gradient(to bottom left, transparent 47%, var(--paper) 47% 55%, transparent 55%) right / 50% 100% no-repeat;
+}
+.sub-result[data-state="bye"] .sub-mark { background: var(--pink); }
+.sub-result[data-state="bye"] .sub-mark::after {
+  top: 50%; width: 2.6rem; height: 0; border-right: 0; border-bottom: 0.55rem solid var(--ink); transform: translate(-50%, -50%);
+}
+.sub-result[data-state="error"] .sub-mark { background: var(--paper); }
+.sub-result[data-state="error"] .sub-mark::after {
+  content: "!"; top: 50%; width: auto; height: auto; border: 0; transform: translate(-50%, -50%);
+  font-size: 3.2rem; font-weight: 900; line-height: 1;
+}
+.sub-result[data-state="wait"] .sub-mark { background: var(--ground); }
+.sub-result[data-state="wait"] .sub-mark::after { display: none; }
+.sub-tip { font-size: 0.95rem; line-height: 1.7; color: var(--grey); margin: 0; }
+.sub-tip:empty, .sub-result .sub-promise:empty { display: none; }
+.sub-result .ticket-mini span { font-size: 0.85rem; word-break: break-all; }
+.sub-result .sub-actions .pill { min-height: 3rem; font-size: 1rem; font-weight: 800; padding-inline: 1.5rem; }
+@media (max-width: 860px) {
+  .sub.is-result .sub-art { order: 2; }
+}
+
 /* ───────── 사용성: 누구나 쉽게 움직이도록 ─────────
    고정 메뉴, 지금 읽는 소식 표시, 맨 위로 버튼, 글 끝 이어보기·공유, 크게 누르는 출처 링크, 그림이 없을 때 빈자리. */
 
