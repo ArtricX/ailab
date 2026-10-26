@@ -62,6 +62,40 @@
           .then(function () { button.disabled = false; });
       });
     }
+    // 메일 속 '구독 확인하기' · '그만 받기' 링크로 들어온 경우: 웹 앱에 대신 알려 주고 결과를 보여 줘요.
+    var q = new URLSearchParams(location.search);
+    var act = q.get("a"), tok = q.get("t");
+    if (form && (act === "confirm" || act === "unsubscribe") && tok) {
+      var st = form.querySelector(".sub-status");
+      var show = function (msg, bad) {
+        st.textContent = msg;
+        st.hidden = false;
+        st.classList.toggle("is-error", !!bad);
+        var box = document.getElementById("sub-form");
+        if (box) { box.scrollIntoView({ block: "center" }); box.focus({ preventScroll: true }); }
+      };
+      show(act === "confirm" ? "구독을 확인하고 있어요…" : "구독을 그만두고 있어요…");
+      var data = new URLSearchParams();
+      data.set("a", act);
+      data.set("t", tok);
+      fetch(form.action, { method: "POST", body: data })
+        .then(function (r) { return r.json(); })
+        .then(function (res) {
+          if (!res || !res.ok) {
+            show("링크를 확인할 수 없어요. 링크가 잘못되었거나 오래되었어요. 위 칸에서 다시 신청해 주세요.", true);
+          } else if (res.state === "active") {
+            show("구독이 확인됐어요. 내일 아침 7시부터 오늘의 AI 소식 세 가지를 보내 드릴게요.");
+            if (typeof ailabEvent === "function") ailabEvent("subscribe-confirm");
+          } else {
+            show("구독을 그만두었어요. 이제 메일을 보내지 않아요. 다시 받고 싶으면 위 칸에서 언제든 신청해 주세요.");
+          }
+          try { history.replaceState(null, "", location.pathname + "#sub-form"); } catch (err) {}
+        })
+        .catch(function () {
+          show("지금은 처리가 되지 않아요. 잠시 뒤에 메일 속 링크를 다시 눌러 주세요.", true);
+        });
+      return;
+    }
     // 구독 메뉴로 들어오면 입력 칸으로 바로 이동
     if (location.hash === "#sub-form") {
       var box = document.getElementById("sub-form");
