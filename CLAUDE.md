@@ -44,26 +44,20 @@
 6. **목록 갱신**: `posts.json` 맨 앞에 그날 항목(date, title, summary, minutes, stories[tag, color, anchor, title, dek, illust], keywords[word, meaning])을 추가하고 `python3 scripts/build.py`를 실행해 `index.html`을 다시 만듭니다.
 7. **줄내림 검사**: `python3 scripts/check_lines.py`를 돌려 문제 0개가 될 때까지 구절을 다시 나눕니다. 문제가 남아 있으면 올리지 않습니다.
    이어서 `python3 scripts/extract_content.py`(필요하면 `pip install beautifulsoup4 --break-system-packages`)를 돌려 "멈춘 글"이 없는지 확인합니다. 멈춘 글이 있으면 글 구조가 틀과 다르다는 뜻이니 틀에 맞게 고칩니다. 만들어진 `content/` 파일은 함께 올려도 되고, 올리지 않아도 GitHub Actions가 다시 만듭니다.
-8. **뉴스레터 초안(beehiiv)**: PR보다 먼저 만듭니다(PR 설명에 초안 링크를 넣어야 하니까요). 출판물 `pub_24fff7ac-12bd-4f24-9339-9ef1dc54d733`(아이고, 예전 이름 AILAB)에 그날 메일 초안을 만듭니다. 발송은 사람이 beehiiv에서 **오전 7시 정각 예약**으로 겁니다(도구로는 초안까지만 가능하므로, Claude는 발송이나 예약을 걸지 않습니다). 작업은 오전 5시쯤 시작해 7시 전에 확인하고 예약할 여유를 둡니다.
-   - 그림: 힉스필드 원본 주소(`.png`) 3개를 `save_image`로 올리고, 돌려받은 `url`만 메일에 씁니다(webp는 일부 메일 앱에서 안 보여요).
-   - `save_post`: `title`은 그날 제목(구절 표시 `|` 없이), `subtitle`은 "M월 D일 X요일 아침, 오늘의 AI 소식 세 가지", `content_tags: ["아침 소식"]`, `thumbnail_image_url`은 첫 그림.
-   - 본문 맨 위에는 로고 머리 그림을 넣습니다: `imageBlock`, 주소 `https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3e1f0aa6-1f1d-4441-9429-6e1ef166b1d1/email-header.png?t=1791969965`(이미 beehiiv에 올라가 있어 다시 올리지 않아요), `data-url`은 `https://artricx.github.io/ailab/`, alt는 `아이고`.
-   - 본문 순서: 로고 머리 그림 → 인사 한 줄 → 소식마다 [그림(`imageBlock`, `data-url`은 글 페이지 앵커) → 굵은 `[태그]` → `h2` 제목 → 한 줄 요약 → **나한테는요?** 문단 → 검정 버튼 "그림과 함께 자세히 읽기"(글 페이지 앵커)] 사이에 가로줄 → `h3` 오늘의 말(3개, 목록) → 맺음말 "내일 아침 7시에 또 만나요. …전달해 주세요."
-   - 이어서 `edit_post`로 `email_settings`의 `email_subject_line`("[아이고] " + 가장 궁금증을 끄는 소식 한 구절 + " 오늘의 AI 소식 3가지"), `email_preview_text`(나머지 두 소식 한 문장), `display_byline_in_email: false`를 정합니다.
-   - 글 페이지 주소는 `https://artricx.github.io/ailab/posts/YYYY-MM-DD.html#앵커`입니다(PR 병합 뒤 1~2분이면 열려요).
-   - **보내기 전 점검**: `get_post`와 `get_post_content`로 다시 읽어 확인합니다. 제목·부제·메일 제목·미리보기 글·썸네일이 채워졌는지, 받는 사람이 무료 구독자 전체(`recipients.email.tier_ids: ["free"]`)인지, 그림 3장이 모두 beehiiv 주소인지, 버튼과 그림 링크가 모두 오늘 날짜 글 페이지를 가리키는지 봅니다. 고칠 것이 있으면 고친 뒤 다시 확인합니다. 사람은 '발행' 버튼만 누르면 되도록 완성된 상태로 둡니다.
-9. **올리기**: `main`에 바로 올리지 않습니다. `daily/YYYY-MM-DD` 브랜치에 커밋하고 Pull Request를 엽니다. 사람이 PR을 병합하면 사이트에 발행되고, 이어서 beehiiv에서 오전 7시로 예약하면 그 시각에 메일이 나갑니다. 메일 속 링크가 열리도록 PR 병합이 먼저입니다. PR 설명은 아래 틀을 그대로 씁니다(맨 위에 발행 순서).
+8. **뉴스레터(자동 발송)**: Claude가 따로 만들 것은 없습니다. 메일은 구글 앱스 스크립트(`newsletter/Code.gs`, aigo.artricx@gmail.com 계정)가 보냅니다.
+   - 오전 7시부터 5분마다 사이트에 `content/YYYY-MM-DD.json`이 있는지 보고, 있으면 '아이고 구독자' 구글 시트의 구독자에게 한 통씩 보냅니다. 하루 한 번만 보내고, 낮 12시까지 글이 없으면 그날은 보내지 않습니다. 그래서 **PR이 병합되어야 메일이 나갑니다.**
+   - 메일은 글 페이지에서 만든 `content/` 데이터로 자동으로 만들어집니다: 큰 제목(글 제목) → 소식마다 [그림, 태그, 제목, 한 줄 요약, 나한테는요?, '그림과 함께 자세히 읽기' 버튼] → 오늘의 말 3개 → 그만 받기 링크. 메일 제목은 "[아이고] " + **첫 번째 소식 제목** + " 오늘의 AI 소식 3가지"라서, 가장 궁금증을 끄는 소식을 첫 번째에 둡니다.
+   - 특이사항(7시 30분까지 글이 없음, 보내지 못한 주소, 그림 빠짐, 하루 발송 한도 초과, 새 구독자)은 스크립트가 운영자 메일로 '[아이고 알림]'을 보냅니다.
+   - 블로그 구독 칸(`subscribe.html`)은 같은 스크립트의 웹 앱으로 신청을 보내고, 확인 메일의 버튼을 눌러야 구독이 확정됩니다. 구독자 주소는 저장소에 넣지 않습니다.
+   - beehiiv는 더 쓰지 않습니다(무료 요금제는 초안을 만들 수 없어요).
+9. **올리기**: `main`에 바로 올리지 않습니다. `daily/YYYY-MM-DD` 브랜치에 커밋하고 Pull Request를 엽니다. 사람이 7시 전에 PR을 병합하면 사이트에 발행되고, 7시에 메일이 자동으로 나갑니다. PR 설명은 아래 틀을 그대로 씁니다(맨 위에 발행 순서).
 
    ```
-   ## 오늘 발행하는 법 (두 번 누르면 끝)
+   ## 오늘 발행하는 법 (한 번 누르면 끝)
    1. 이 PR 아래 **Merge pull request** → **Confirm merge** (1~2분 뒤 사이트에 올라가요)
-   2. 뉴스레터 초안 열기 → 오른쪽 위 **Continue** → 마지막 화면에서 **Schedule**(예약) → **오전 7:00** 선택 → 확인
-      <beehiiv editor_url>
-      (7시가 이미 지났으면 **Publish now**로 바로 보내요. 먼저 내 메일로만 보고 싶으면: 같은 화면 Preview → Send test email)
-   - 7시 전에 1번과 2번을 모두 마쳐 주세요. PR을 먼저 병합해야 메일 속 링크가 열려요.
+   - 7시 전에 병합하면 7시에 뉴스레터가 자동으로 나가요. 늦게 병합해도 낮 12시 전이면 병합 뒤 5분 안에 나가요.
 
-   - 메일 제목: <email_subject_line>
-   - 미리보기 글: <email_preview_text>
+   - 메일 제목(자동): [아이고] <첫 번째 소식 제목> 오늘의 AI 소식 3가지
    - 사이트 글: https://artricx.github.io/ailab/posts/YYYY-MM-DD.html
 
    ## 오늘의 소식
@@ -73,10 +67,8 @@
    - 줄내림 검사: 문제 0개
    - 힉스필드: 그림 3장, 약 N크레딧
    - 녹음: 3개, 약 N크레딧 (또는 실패한 이유)
-   - 뉴스레터 점검: 통과 (또는 무엇이 안 됐는지)
    ```
-   - 뉴스레터를 만들지 못했으면 2번 대신 그 사실과 이유를 적습니다.
-   - 마지막 알림에도 같은 두 링크(PR, 뉴스레터 초안)를 순서대로 적습니다.
+   - 마지막 알림에는 PR 링크를 적고, "7시 전에 병합하면 뉴스레터는 7시에 자동 발송돼요"라고 한 줄 덧붙입니다.
 
 ## 데이터 (앱으로 옮길 때를 위해)
 - 글 페이지가 원본이고, `content/`의 데이터는 거기서 자동으로 만들어집니다(`content/README.md`에 구조 설명). 손으로 고치지 않습니다.
@@ -93,7 +85,7 @@
 ## 로고
 - 이름은 **아이고**(AI + go, 놀랄 때 쓰는 말 '아이고'). 영문으로 쓸 때는 중국 전자 브랜드 aigo와 헷갈리지 않게 `AI-go`로 씁니다.
 - 마스코트는 안테나 달린 까치. 로고는 외치는 포즈(부리를 벌리고 날개를 입가에 댄 모습)입니다. 원본 주소는 `assets/brand/sources.json`, 파일은 GitHub Actions(`brand.yml`, `scripts/make_brand.py`)가 만듭니다. 손으로 고치지 않습니다.
-- 쓰는 곳: 상단 메뉴 로고(`assets/brand/lockup.png`: 까치 + 손글씨 '아이고!', 한 장 이미지), 홈 마스코트 띠(`symbol-512.png` + 말풍선), 파비콘·홈 화면 아이콘(`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`), 메일 머리(`email-header.png`), beehiiv 출판물 로고(`icon-1024.png`).
+- 쓰는 곳: 상단 메뉴 로고(`assets/brand/lockup.png`: 까치 + 손글씨 '아이고!', 한 장 이미지), 홈 마스코트 띠(`symbol-512.png` + 말풍선), 파비콘·홈 화면 아이콘(`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`), 메일 머리(`email-header.png`), 메일 보내는 구글 계정 프로필 사진(`icon-1024.png`).
 - 새 페이지를 만들 때도 틀 글의 `<head>` 아이콘 줄(`rel="icon"`, `apple-touch-icon`)과 `header.nav`의 로고를 그대로 둡니다.
 - 이름 뜻(AI + go)이 전해지도록 '아이고' 옆에 `AI-go`를 함께 씁니다: 상단 로고 옆 작은 회색 `AI-go`(좁은 화면에서는 숨김), 홈 마스코트 말풍선 'AI + go = 아이고!'(설명은 말풍선 안 두 줄로 짧게), 꼬리말 '아이고 AI-go', 홈 제목. 로고 이미지의 alt도 '아이고 AI-go'.
 - 꼬리말(검은 바탕)에는 까치가 묻히므로 글자 '아이고 AI-go'만 씁니다.
