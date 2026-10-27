@@ -1,0 +1,381 @@
+{
+  "schema": 1,
+  "date": "2026-10-28",
+  "weekday": "수",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-28.html",
+  "minutes": 5,
+  "title": {
+    "text": "한국어 하는 시리, AI 범죄를 막을 나라 계획, AI 수백 개를 골라 주는 곳",
+    "phrases": [
+      "한국어 하는",
+      "시리,",
+      "AI 범죄를 막을",
+      "나라 계획,",
+      "AI 수백 개를",
+      "골라 주는 곳"
+    ]
+  },
+  "share": {
+    "title": "시리가 한국어로 더 똑똑해졌어요 외 2건 · 아이고 10월 28일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 28일 수요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-28.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "siri",
+      "tag": "생활",
+      "color": "yellow",
+      "label": "한국어 하는 시리"
+    },
+    {
+      "anchor": "ai-crime",
+      "tag": "안전",
+      "color": "blue",
+      "label": "AI 범죄 대응"
+    },
+    {
+      "anchor": "token",
+      "tag": "일",
+      "color": "pink",
+      "label": "AI 골라 주는 곳"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "siri",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-28.html#siri",
+      "tag": "생활",
+      "color": "yellow",
+      "title": {
+        "text": "시리가 한국어로 더 똑똑해졌어요",
+        "phrases": [
+          "시리가",
+          "한국어로",
+          "더 똑똑해졌어요"
+        ]
+      },
+      "dek": {
+        "text": "메일 쓰기와 일정 넣기까지 도와줘요.",
+        "phrases": [
+          "메일 쓰기와",
+          "일정 넣기까지",
+          "도와줘요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261027_200928_7f3e1b92-c241-4e34-9b76-9ef735928e19.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261027_200928_7f3e1b92-c241-4e34-9b76-9ef735928e19.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 커다란 휴대폰을 들고 말을 걸자, 화면 밖으로 작은 흰 로봇이 달력 한 장과 작은 편지 봉투를 들고 기어 나와 도울 준비를 하는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-28-siri.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-28-siri.svg",
+        "viewBox": "0 0 800 460",
+        "title": "시리 AI가 새로 배운 다섯 가지 말과 할 수 있는 일",
+        "desc": "애플이 10월 26일(미국 시간) 내놓은 iOS 27.2에서 시리 AI가 다섯 가지 말을 새로 하게 됐다. 한국어, 일본어, 프랑스어, 스페인어, 포르투갈어다. 지난달에는 영어만 됐다. 시리 AI는 내 메시지와 메일, 사진 속에서 찾아 답하고, 여러 앱을 오가며 메일을 쓰거나 일정을 넣으며, 화면과 카메라에 보이는 것을 알아보고 답한다. 아이폰 15 프로와 아이폰 16 이후 모델 같은 일부 기기에서 되고, 아직 베타(시험판)다.",
+        "caption": {
+          "text": "말로 부탁하면 여러 앱을 오가며 일을 대신해요.",
+          "phrases": [
+            "말로 부탁하면",
+            "여러 앱을 오가며",
+            "일을 대신해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "애플이 10월 26일(미국 시간) 아이폰의 새 운영체제 'iOS 27.2'를 내놓았어요. 이번에 '시리 AI'가 한국어를 하게 됐어요. 시리 AI는 크게 바뀐 애플의 AI 비서예요. 일본어, 프랑스어, 스페인어, 포르투갈어도 함께 새로 생겼어요.",
+            "nobreak": [
+              "10월 26일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "시리 AI는 지난달 영어로 먼저 나왔어요. 애플은 구글과 손잡고 만든 새 AI 모델로 시리를 바꿨어요. 이제 시리가 내 메시지와 메일, 사진을 살펴 질문에 답해요. 메일을 쓰거나 일정을 넣는 일도 여러 앱을 오가며 해 줘요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "아이폰 설정에서 소프트웨어를 업데이트하면 쓸 수 있어요. 다만 아이폰 15 프로와 아이폰 16 이후 모델 같은 일부 기기에서만 돼요. 아직 베타라서 틀린 답을 할 수도 있어요. 중요한 메일이나 일정은 보내거나 넣기 전에 한 번 더 확인하세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "매일일보",
+          "date": "10월 27일",
+          "url": "https://www.m-i.kr/news/articleView.html?idxno=2010998"
+        },
+        {
+          "name": "지디넷코리아",
+          "date": "10월 27일",
+          "url": "https://zdnet.co.kr/view/?no=20261027090306"
+        },
+        {
+          "name": "9to5Mac",
+          "date": "10월 26일",
+          "url": "https://9to5mac.com/2026/10/26/apple-announces-siri-ai-will-expand-to-these-new-languages-soon/"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261027_201521_91c6b4c8-bf5d-4bf6-a579-73c565ae80ad.mp3",
+        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261027_201521_91c6b4c8-bf5d-4bf6-a579-73c565ae80ad.mp3"
+      }
+    },
+    {
+      "anchor": "ai-crime",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-28.html#ai-crime",
+      "tag": "안전",
+      "color": "blue",
+      "title": {
+        "text": "AI 범죄를 막을 나라 계획을 짜요",
+        "phrases": [
+          "AI 범죄를 막을",
+          "나라 계획을",
+          "짜요"
+        ]
+      },
+      "dek": {
+        "text": "딥페이크와 보이스피싱에 함께 맞서요.",
+        "phrases": [
+          "딥페이크와",
+          "보이스피싱에",
+          "함께 맞서요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261027_200928_cb635afd-c1d3-4140-b4bb-c722f17af5e0.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261027_200928_cb635afd-c1d3-4140-b4bb-c722f17af5e0.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람과 작은 흰 로봇이 나란히 서서 커다란 우산 하나를 방패처럼 작은 집 위에 받쳐 들고, 작은 가면을 쓴 종이비행기들이 우산에 튕겨 떨어지는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-28-ai-crime.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-28-ai-crime.svg",
+        "viewBox": "0 0 800 460",
+        "title": "AI를 쓴 해킹 사건의 규모와 정부의 대응 순서",
+        "desc": "서울경찰청은 10월 26일 생성형 AI를 써서 학원, 병원 등 90여 곳을 해킹한 7명을 붙잡았다고 밝혔다. 빠져나간 개인정보는 820만 건이 넘고, 38곳에 돈을 요구했다. 10월 27일 보도에 따르면 정부는 9월에 AI 범죄 대응 연구를 시작했고, 범죄별 피해를 살핀 뒤 2027년 2월까지 나라의 대응 전략을 만든다. 연구 과제 설명에는 어린이, 청소년, 어르신의 피해가 크다고 적혔다. 개인정보를 빌미로 돈을 요구받으면 보내지 말고 신고해야 한다.",
+        "caption": {
+          "text": "AI가 범죄를 쉽게 만들수록, 막는 쪽도 힘을 모아요.",
+          "phrases": [
+            "AI가 범죄를 쉽게 만들수록,",
+            "막는 쪽도",
+            "힘을 모아요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "정부가 AI를 나쁘게 쓰는 범죄에 맞설 나라의 전략을 짜기 시작했다는 보도가 10월 27일 나왔어요. 대통령 직속 국가과학기술자문회의가 과학기술정보통신부를 통해 연구를 맡겼대요. 연구는 9월에 시작해 2027년 2월까지 이어져요. 딥페이크, 보이스피싱, 해킹, 투자 사기 같은 범죄를 살펴요.",
+            "nobreak": [
+              "10월 27일",
+              "9월",
+              "2027년 2월"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI 때문에 범죄를 저지르기가 쉬워지고 있어요. 서울경찰청은 10월 26일 AI를 써서 학원, 병원 등 90여 곳을 해킹한 7명을 붙잡았다고 밝혔어요. 빠져나간 개인정보는 820만 건이 넘었어요. 연구 과제 설명에는 어린이, 청소년, 어르신의 피해가 크다고 적혔대요.",
+            "nobreak": [
+              "10월 26일",
+              "90여 곳",
+              "7명",
+              "820만 건"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "경찰도 AI로 만든 가짜 영상과 목소리를 찾아내는 계획을 이번 달 내놓았어요. 전국 시도경찰청에는 AI 전문 분석관을 둬요. 개인정보를 빌미로 돈을 요구받으면 돈을 보내지 말고 바로 신고하세요. 나라 전략은 아직 만드는 중이라, 무엇이 바뀔지는 더 지켜봐야 해요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "머니투데이",
+          "date": "10월 27일",
+          "url": "https://www.mt.co.kr/tech/2026/10/27/2026102610031442122"
+        },
+        {
+          "name": "KNN",
+          "date": "10월 27일",
+          "url": "https://news.knn.co.kr/news/article_sns/1851"
+        },
+        {
+          "name": "YTN",
+          "date": "10월 26일",
+          "url": "https://www.ytn.co.kr/_ln/0103_202610261641071004"
+        },
+        {
+          "name": "서울일보",
+          "date": "10월 27일",
+          "url": "https://seoulilbo.co.kr/news/articleView.html?idxno=22256"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261027_201521_8b991bf5-3ff9-4acd-a350-007ba20898ac.mp3",
+        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261027_201521_8b991bf5-3ff9-4acd-a350-007ba20898ac.mp3"
+      }
+    },
+    {
+      "anchor": "token",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-28.html#token",
+      "tag": "일",
+      "color": "pink",
+      "title": {
+        "text": "AI 수백 개 중에 알맞은 것을 골라 줘요",
+        "phrases": [
+          "AI 수백 개 중에",
+          "알맞은 것을",
+          "골라 줘요"
+        ]
+      },
+      "dek": {
+        "text": "KT가 '토큰 팩토리'를 공개했어요.",
+        "phrases": [
+          "KT가",
+          "'토큰 팩토리'를",
+          "공개했어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261027_200927_033ae0da-50d7-4b42-b8d3-c3f8ae849d6c.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261027_200927_033ae0da-50d7-4b42-b8d3-c3f8ae849d6c.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 흰 로봇이 가게 안내원처럼 높은 선반 앞에 서 있고, 선반의 작은 유리병마다 다른 작은 로봇이 들어 있으며, 로봇이 질문 카드를 든 동그란 사람에게 병 하나를 차분히 건네는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-28-token.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-28-token.svg",
+        "viewBox": "0 0 800 460",
+        "title": "KT 토큰 팩토리의 AI 모델 수와 알맞은 모델을 고르는 순서",
+        "desc": "KT가 10월 27일 공개한 토큰 팩토리는 10월 30일 AI 모델 73종으로 문을 열고, 12월까지 오픈라우터와 손잡고 500종 넘게 늘린다. 질문을 넣으면 오토 모델 라우터가 질문의 어려움과 비용을 따져 알맞은 모델을 골라 답하게 한다. 처음에는 회사와 공공기관이 쓰고, 2027년 3월에는 개발자와 일반 고객용 구독 상품을 낼 계획이다. KT는 토큰을 최대 25% 아낄 수 있다고 했다.",
+        "caption": {
+          "text": "쉬운 질문에는 가벼운 AI, 어려운 질문에는 센 AI를 써요.",
+          "phrases": [
+            "쉬운 질문에는 가벼운 AI,",
+            "어려운 질문에는",
+            "센 AI를 써요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "KT가 10월 27일 '토큰 팩토리'를 공개했어요. 여러 회사의 AI 모델을 한곳에서 골라 쓰는 곳이에요. 10월 30일 73종으로 문을 열어요. 12월까지는 해외 회사 오픈라우터와 손잡고 500종 넘게 늘릴 계획이에요.",
+            "nobreak": [
+              "10월 27일",
+              "10월 30일",
+              "73종",
+              "12월",
+              "500종"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI마다 잘하는 일과 값이 달라요. 쉬운 질문에 비싼 AI를 쓰면 돈이 아까워요. 그래서 '오토 모델 라우터'가 질문의 어려움과 비용을 따져 알맞은 AI를 골라 줘요. KT는 이렇게 하면 토큰을 최대 25% 아낄 수 있다고 했어요.",
+            "nobreak": [
+              "25%"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "처음에는 회사와 공공기관이 쓰는 서비스예요. KT는 2027년 3월에 개발자와 일반 고객을 위한 구독 상품도 낼 계획이에요. 질문은 국내 데이터센터에서 처리하고, 개인정보가 들어 있는지도 살핀대요. AI를 하나만 쓰기보다 일에 맞게 골라 쓰는 때가 오고 있어요.",
+            "nobreak": [
+              "2027년 3월"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "전자신문",
+          "date": "10월 27일",
+          "url": "https://www.etnews.com/20261027000311"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "date": "10월 27일",
+          "url": "https://www.fnnews.com/news/202610271816446265"
+        },
+        {
+          "name": "뉴스1",
+          "date": "10월 27일",
+          "url": "https://www.news1.kr/it-science/cc-newmedia/6332817"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261027_201521_f0ea5ee6-b3ff-4e08-aab5-6a29c43aa364.mp3",
+        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261027_201521_f0ea5ee6-b3ff-4e08-aab5-6a29c43aa364.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "베타",
+      "meaning": {
+        "text": "정식으로 내놓기 전에 먼저 써 보게 하는 시험판",
+        "phrases": [
+          "정식으로 내놓기 전에",
+          "먼저 써 보게 하는",
+          "시험판"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "딥페이크",
+      "meaning": {
+        "text": "AI로 진짜처럼 만든 가짜 사진이나 영상",
+        "phrases": [
+          "AI로 진짜처럼 만든",
+          "가짜 사진이나 영상"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "보이스피싱",
+      "meaning": {
+        "text": "전화로 사람을 속여 돈을 빼앗는 사기",
+        "phrases": [
+          "전화로 사람을 속여",
+          "돈을 빼앗는 사기"
+        ]
+      },
+      "color": "red"
+    },
+    {
+      "word": "토큰",
+      "meaning": {
+        "text": "AI가 글을 잘게 나눠 읽는 단위, 쓴 만큼 값을 매겨요",
+        "phrases": [
+          "AI가 글을 잘게 나눠",
+          "읽는 단위,",
+          "쓴 만큼 값을 매겨요"
+        ]
+      },
+      "color": "pink"
+    }
+  ]
+}

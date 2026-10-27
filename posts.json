@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-28",
+    "title": "한국어 하는|시리,|AI 범죄를 막을|나라 계획,|AI 수백 개를|골라 주는 곳",
+    "summary": "애플의 시리 AI가|한국어를 하게 됐어요.|정부는|AI 범죄에 맞설 전략을|짜기 시작했고,|KT는|AI 모델을 골라 주는|'토큰 팩토리'를|공개했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "생활",
+        "color": "yellow",
+        "anchor": "siri",
+        "title": "시리가|한국어로|더 똑똑해졌어요",
+        "dek": "메일 쓰기와|일정 넣기까지|도와줘요.",
+        "illust": "assets/img/hf_20261027_200928_7f3e1b92-c241-4e34-9b76-9ef735928e19.webp",
+        "thumb": "assets/img/hf_20261027_200928_7f3e1b92-c241-4e34-9b76-9ef735928e19_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "blue",
+        "anchor": "ai-crime",
+        "title": "AI 범죄를 막을|나라 계획을|짜요",
+        "dek": "딥페이크와|보이스피싱에|함께 맞서요.",
+        "illust": "assets/img/hf_20261027_200928_cb635afd-c1d3-4140-b4bb-c722f17af5e0.webp",
+        "thumb": "assets/img/hf_20261027_200928_cb635afd-c1d3-4140-b4bb-c722f17af5e0_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "pink",
+        "anchor": "token",
+        "title": "AI 수백 개 중에|알맞은 것을|골라 줘요",
+        "dek": "KT가|'토큰 팩토리'를|공개했어요.",
+        "illust": "assets/img/hf_20261027_200927_033ae0da-50d7-4b42-b8d3-c3f8ae849d6c.webp",
+        "thumb": "assets/img/hf_20261027_200927_033ae0da-50d7-4b42-b8d3-c3f8ae849d6c_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "베타",
+        "meaning": "정식으로 내놓기 전에|먼저 써 보게 하는|시험판"
+      },
+      {
+        "word": "딥페이크",
+        "meaning": "AI로 진짜처럼 만든|가짜 사진이나 영상"
+      },
+      {
+        "word": "보이스피싱",
+        "meaning": "전화로 사람을 속여|돈을 빼앗는 사기"
+      },
+      {
+        "word": "토큰",
+        "meaning": "AI가 글을 잘게 나눠|읽는 단위,|쓴 만큼 값을 매겨요"
+      }
+    ]
+  },
+  {
     "date": "2026-10-27",
     "title": "국민 AI의|이름 짓기,|AI 직원에게|주는 사번,|6만 명에게 묻는|희망퇴직",
     "summary": "정부가 무료 국민 AI의|이름을 모아요.|SK텔레콤은|AI 직원에게 사번을 주고,|마이크로소프트는|직원 약 6만 명에게|희망퇴직을 권했다는|보도가 나왔어요.",

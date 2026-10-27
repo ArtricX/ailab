@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">KT 토큰 팩토리의 AI 모델 수와 알맞은 모델을 고르는 순서</title>
+            <desc id="g3d">KT가 10월 27일 공개한 토큰 팩토리는 10월 30일 AI 모델 73종으로 문을 열고, 12월까지 오픈라우터와 손잡고 500종 넘게 늘린다. 질문을 넣으면 오토 모델 라우터가 질문의 어려움과 비용을 따져 알맞은 모델을 골라 답하게 한다. 처음에는 회사와 공공기관이 쓰고, 2027년 3월에는 개발자와 일반 고객용 구독 상품을 낼 계획이다. KT는 토큰을 최대 25% 아낄 수 있다고 했다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">500종</text>
+            <text x="34" y="170" font-size="16" font-weight="800">골라 쓸 AI 모델 (12월 목표)</text>
+            <text class="grey" x="34" y="194" font-size="13.5">KT 토큰 팩토리 · 10월 27일 공개</text>
+
+            <text x="34" y="236" font-size="14" font-weight="800">10월 30일 문 열 때 73종</text>
+            <rect class="f-pink" x="34" y="248" width="47" height="40" rx="12"/>
+            <text x="34" y="324" font-size="14" font-weight="800">12월까지 500종 넘게</text>
+            <rect class="f-pink" x="34" y="336" width="320" height="40" rx="12"/>
+            <text x="34" y="414" font-size="15" font-weight="900">해외 회사 오픈라우터와 손잡아요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">알맞은 AI를 고르는 순서</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">질문을 넣어요</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">어려움과 비용을 따져요</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-pink" x="440" y="226" width="320" height="48" rx="16"/>
+            <text x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">알맞은 AI가 답해요</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">누가 쓰나요</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">처음에는 회사와 공공기관</text>
+            <text x="440" y="370" font-size="14.5" font-weight="700">2027년 3월 일반 고객 구독</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">토큰을 최대 25% 아껴요</text>
+          </svg>
