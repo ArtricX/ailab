@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">AI를 쓴 해킹 사건의 규모와 정부의 대응 순서</title>
+            <desc id="g2d">서울경찰청은 10월 26일 생성형 AI를 써서 학원, 병원 등 90여 곳을 해킹한 7명을 붙잡았다고 밝혔다. 빠져나간 개인정보는 820만 건이 넘고, 38곳에 돈을 요구했다. 10월 27일 보도에 따르면 정부는 9월에 AI 범죄 대응 연구를 시작했고, 범죄별 피해를 살핀 뒤 2027년 2월까지 나라의 대응 전략을 만든다. 연구 과제 설명에는 어린이, 청소년, 어르신의 피해가 크다고 적혔다. 개인정보를 빌미로 돈을 요구받으면 보내지 말고 신고해야 한다.</desc>
+            <text class="num" x="30" y="128" font-size="88" letter-spacing="-3">820만 건</text>
+            <text x="34" y="170" font-size="16" font-weight="800">AI를 쓴 해킹으로 빠져나간 정보</text>
+            <text class="grey" x="34" y="194" font-size="13.5">서울경찰청 · 10월 26일 발표</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="48" rx="16"/>
+            <text x="194" y="252" font-size="14.5" font-weight="900" text-anchor="middle">붙잡힌 사람 7명</text>
+            <rect class="f-paper" x="34" y="280" width="320" height="48" rx="16"/>
+            <text x="194" y="310" font-size="14.5" font-weight="900" text-anchor="middle">해킹당한 곳 90여 곳</text>
+            <rect class="f-paper" x="34" y="338" width="320" height="48" rx="16"/>
+            <text x="194" y="368" font-size="14.5" font-weight="900" text-anchor="middle">돈을 요구받은 곳 38곳</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">나라의 대응 순서</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">9월 대응 연구 시작</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">범죄별 피해 살피기</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-blue" x="440" y="226" width="320" height="48" rx="16"/>
+            <text class="white" x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">2027년 2월 나라 전략 완성</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">피해가 큰 사람들</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">어린이, 청소년, 어르신</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">돈을 요구받으면 보내지 말고 신고</text>
+          </svg>

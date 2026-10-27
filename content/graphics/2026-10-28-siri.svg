@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">시리 AI가 새로 배운 다섯 가지 말과 할 수 있는 일</title>
+            <desc id="g1d">애플이 10월 26일(미국 시간) 내놓은 iOS 27.2에서 시리 AI가 다섯 가지 말을 새로 하게 됐다. 한국어, 일본어, 프랑스어, 스페인어, 포르투갈어다. 지난달에는 영어만 됐다. 시리 AI는 내 메시지와 메일, 사진 속에서 찾아 답하고, 여러 앱을 오가며 메일을 쓰거나 일정을 넣으며, 화면과 카메라에 보이는 것을 알아보고 답한다. 아이폰 15 프로와 아이폰 16 이후 모델 같은 일부 기기에서 되고, 아직 베타(시험판)다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">5개</text>
+            <text x="34" y="170" font-size="16" font-weight="800">시리 AI가 새로 배운 말</text>
+            <text class="grey" x="34" y="194" font-size="13.5">애플 · iOS 27.2 (10월 26일, 미국 시간)</text>
+
+            <rect class="f-yellow" x="34" y="222" width="152" height="48" rx="16"/>
+            <text x="110" y="252" font-size="14.5" font-weight="900" text-anchor="middle">한국어</text>
+            <rect class="f-paper" x="202" y="222" width="152" height="48" rx="16"/>
+            <text x="278" y="252" font-size="14.5" font-weight="900" text-anchor="middle">일본어</text>
+            <rect class="f-paper" x="34" y="280" width="152" height="48" rx="16"/>
+            <text x="110" y="310" font-size="14.5" font-weight="900" text-anchor="middle">프랑스어</text>
+            <rect class="f-paper" x="202" y="280" width="152" height="48" rx="16"/>
+            <text x="278" y="310" font-size="14.5" font-weight="900" text-anchor="middle">스페인어</text>
+            <rect class="f-paper" x="34" y="338" width="152" height="48" rx="16"/>
+            <text x="110" y="368" font-size="14.5" font-weight="900" text-anchor="middle">포르투갈어</text>
+            <text x="34" y="420" font-size="14.5" font-weight="700">지난달에는 영어만 됐어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이런 일을 도와요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">메시지·메일·사진 속에서 찾아요</text>
+            <rect class="f-paper" x="440" y="132" width="320" height="48" rx="16"/>
+            <text x="600" y="162" font-size="14.5" font-weight="900" text-anchor="middle">메일을 쓰고 일정을 넣어요</text>
+            <rect class="f-yellow" x="440" y="190" width="320" height="48" rx="16"/>
+            <text x="600" y="220" font-size="14.5" font-weight="900" text-anchor="middle">화면과 카메라 속 것을 알아봐요</text>
+
+            <text x="440" y="296" font-size="15" font-weight="800">쓸 수 있는 기기</text>
+            <text x="440" y="324" font-size="14.5" font-weight="700">아이폰 15 프로,</text>
+            <text x="440" y="348" font-size="14.5" font-weight="700">아이폰 16 이후 모델 등</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">아직 베타(시험판)예요</text>
+          </svg>

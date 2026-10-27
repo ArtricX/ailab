@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-28",
+      "title": "한국어 하는 시리, AI 범죄를 막을 나라 계획, AI 수백 개를 골라 주는 곳",
+      "file": "content/2026-10-28.json",
+      "stories": [
+        {
+          "anchor": "siri",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "시리가 한국어로 더 똑똑해졌어요"
+        },
+        {
+          "anchor": "ai-crime",
+          "tag": "안전",
+          "color": "blue",
+          "title": "AI 범죄를 막을 나라 계획을 짜요"
+        },
+        {
+          "anchor": "token",
+          "tag": "일",
+          "color": "pink",
+          "title": "AI 수백 개 중에 알맞은 것을 골라 줘요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
       "title": "국민 AI의 이름 짓기, AI 직원에게 주는 사번, 6만 명에게 묻는 희망퇴직",
       "file": "content/2026-10-27.json",
