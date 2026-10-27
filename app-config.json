@@ -1,3 +1,4 @@
 {
-  "naverLogin": "pending"
+  "naverLogin": "pending",
+  "loginErrorDetail": true
 }
