@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">AI 건강 도우미 챗봇이 배운 자료와 쓰는 순서</title>
+            <desc id="g1d">과학기술정보통신부와 질병관리청이 10월 28일 AI 대국민 건강도우미 챗봇을 열었다. 지난 20년 동안 모은 국민 건강조사 자료 500만 건 넘게를 바탕으로 한다. 누구나 무료로 24시간 쓸 수 있다. 키와 몸무게를 넣고, 짧은 생활 설문에 답하면, 성별과 나이가 비슷한 사람과 견준 내 건강을 신호등 색과 그래프로 보여 준다. 고혈압, 당뇨, 이상지질혈증, 비만을 막는 법과 잠, 운동, 식사에 대해 물어볼 수 있다. 병원의 진단을 대신하지는 않는다.</desc>
+            <text class="num" x="30" y="128" font-size="88" letter-spacing="-3">500만 건</text>
+            <text x="34" y="170" font-size="16" font-weight="800">AI가 바탕으로 삼은 건강 조사 자료</text>
+            <text class="grey" x="34" y="194" font-size="13.5">질병관리청 · 지난 20년 동안 모았어요</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="48" rx="16"/>
+            <text x="194" y="252" font-size="14.5" font-weight="900" text-anchor="middle">누구나 무료</text>
+            <rect class="f-paper" x="34" y="280" width="320" height="48" rx="16"/>
+            <text x="194" y="310" font-size="14.5" font-weight="900" text-anchor="middle">밤낮없이 24시간</text>
+            <rect class="f-green" x="34" y="338" width="320" height="48" rx="16"/>
+            <text x="194" y="368" font-size="14.5" font-weight="900" text-anchor="middle">10월 28일 문을 열었어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 써요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">키와 몸무게를 넣어요</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">짧은 생활 설문에 답해요</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-green" x="440" y="226" width="320" height="48" rx="16"/>
+            <text x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">건강 신호등으로 봐요</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">물어볼 수 있어요</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">고혈압, 당뇨, 비만 막는 법</text>
+            <text x="440" y="370" font-size="14.5" font-weight="700">잠, 운동, 식사</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">병원 진단을 대신하지는 않아요</text>
+          </svg>

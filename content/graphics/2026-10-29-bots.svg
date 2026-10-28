@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">영국 정부 의견 모으기에 들어온 답 가운데 봇이 보낸 답의 몫과 알아챈 방법</title>
+            <desc id="g2d">영국 정부가 2023년 일회용 전자담배 규제를 두고 의견을 물었을 때 들어온 답 118,756건 가운데 90,835건, 약 76%가 봇이 보낸 답이었다. 학술지 토바코 컨트롤에 10월 27일 실린 연구다. 정부는 같은 답이 여러 번, 짧은 시간에 몰려, 적은 수의 인터넷 주소에서 들어온 것을 보고 걸러 냈다. 가짜를 빼고 나니 진짜 답의 79.6%가 규제에 찬성했다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">76%</text>
+            <text x="34" y="170" font-size="16" font-weight="800">봇이 보낸 가짜 답의 몫</text>
+            <text class="grey" x="34" y="194" font-size="13.5">영국 연구진 · 10월 27일 발표</text>
+
+            <text x="34" y="236" font-size="14" font-weight="800">들어온 답 118,756건</text>
+            <rect class="f-paper" x="34" y="248" width="320" height="40" rx="12"/>
+            <text x="34" y="324" font-size="14" font-weight="800">봇이 보낸 답 90,835건</text>
+            <rect class="f-blue" x="34" y="336" width="245" height="40" rx="12"/>
+            <text x="34" y="414" font-size="15" font-weight="900">진짜 답의 79.6%는 규제 찬성</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 알아챘어요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">똑같은 답이 여러 번</text>
+            <rect class="f-paper" x="440" y="132" width="320" height="48" rx="16"/>
+            <text x="600" y="162" font-size="14.5" font-weight="900" text-anchor="middle">짧은 시간에 한꺼번에</text>
+            <rect class="f-blue" x="440" y="190" width="320" height="48" rx="16"/>
+            <text class="white" x="600" y="220" font-size="14.5" font-weight="900" text-anchor="middle">적은 수의 인터넷 주소에서</text>
+
+            <text x="440" y="296" font-size="15" font-weight="800">봇이 몰린 곳</text>
+            <text x="440" y="324" font-size="14.5" font-weight="700">일회용 전자담배 규제에</text>
+            <text x="440" y="348" font-size="14.5" font-weight="700">반대하는 질문 하나</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">누가 보냈는지는 아직 몰라요</text>
+          </svg>

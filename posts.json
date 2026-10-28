@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-29",
+    "title": "나라가 만든|AI 건강 도우미,|가짜 답을 쏟아낸|봇,|AI와 함께 찾는|희귀병 약",
+    "summary": "나라가 만든|AI 건강 도우미가|24시간 무료로|문을 열었어요.|영국에서는|의견 모으기에|봇의 가짜 답이|쏟아졌고,|AI와 함께|드문 근육병 약을 찾는|연구도|첫 결과를 냈어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "생활",
+        "color": "green",
+        "anchor": "health-bot",
+        "title": "나라가 만든|AI 건강 도우미가|문을 열었어요",
+        "dek": "24시간 무료로|내 건강을|살펴 줘요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "blue",
+        "anchor": "bots",
+        "title": "나라의 의견 모으기에|봇의 가짜 답이|쏟아졌어요",
+        "dek": "영국에서|넷 중 셋이|가짜였어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a_min.webp"
+      },
+      {
+        "tag": "건강",
+        "color": "pink",
+        "anchor": "medicine",
+        "title": "AI와 함께|드문 근육병의|약을 찾아요",
+        "dek": "생쥐 실험 결과까지|18개월이|안 걸렸어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "챗봇",
+        "meaning": "글로 묻고 답하며|대화하는|AI 프로그램"
+      },
+      {
+        "word": "봇",
+        "meaning": "사람 대신|같은 일을 자동으로|되풀이하는 프로그램"
+      },
+      {
+        "word": "임상시험",
+        "meaning": "새 약이 사람에게|안전하고 잘 듣는지|살피는 시험"
+      },
+      {
+        "word": "희귀병",
+        "meaning": "앓는 사람이|아주 적은|드문 병"
+      }
+    ]
+  },
+  {
     "date": "2026-10-28",
     "title": "한국어 하는|시리,|AI 범죄를 막을|나라 계획,|AI 수백 개를|골라 주는 곳",
     "summary": "애플의 시리 AI가|한국어를 하게 됐어요.|정부는|AI 범죄에 맞설 전략을|짜기 시작했고,|KT는|AI 모델을 골라 주는|'토큰 팩토리'를|공개했어요.",

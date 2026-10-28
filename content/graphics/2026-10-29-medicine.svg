@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">AI와 함께 약을 찾은 기간과 약이 사람에게 오기까지의 순서</title>
+            <desc id="g3d">앤트로픽은 10월 27일(미국 시간) AI 클로드로 약을 만드는 연구의 첫 결과를 공개했다. 직원 한 명인 바이오 회사 미스릴은 클로드의 도움으로 바깥 연구소 11곳과 일하며, 드문 근육병 약의 아이디어에서 생쥐 실험의 좋은 결과까지 18개월이 안 걸렸다. 제약·바이오 회사 6곳도 함께했다. 한 회사는 사람이 25시간 넘게 하던 서류 검토를 3시간 아래로 줄였다. 약은 아직 사람에게 시험하지 않았고, 사람 대상 시험은 빠르면 2028년 말에 시작할 수 있다.</desc>
+            <text class="num" x="30" y="128" font-size="84" letter-spacing="-3">18개월</text>
+            <text x="34" y="170" font-size="16" font-weight="800">아이디어에서 생쥐 실험 결과까지</text>
+            <text class="grey" x="34" y="194" font-size="13.5">앤트로픽 · 10월 27일 발표 (미국 시간)</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="48" rx="16"/>
+            <text x="194" y="252" font-size="14.5" font-weight="900" text-anchor="middle">직원 1명인 회사가</text>
+            <rect class="f-paper" x="34" y="280" width="320" height="48" rx="16"/>
+            <text x="194" y="310" font-size="14.5" font-weight="900" text-anchor="middle">바깥 연구소 11곳과 일했어요</text>
+            <rect class="f-paper" x="34" y="338" width="320" height="48" rx="16"/>
+            <text x="194" y="368" font-size="14.5" font-weight="900" text-anchor="middle">함께한 제약·바이오 회사 6곳</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">약이 사람에게 오기까지</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">약의 아이디어</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-pink" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">생쥐 실험 (지금 여기)</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="226" width="320" height="48" rx="16"/>
+            <text x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">사람 대상 시험 (빠르면 2028년 말)</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">서류 검토 시간</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">25시간 넘게에서</text>
+            <text x="440" y="370" font-size="14.5" font-weight="700">3시간 아래로</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">아직 사람에게는 시험 전이에요</text>
+          </svg>
