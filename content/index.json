@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-29",
+      "title": "나라가 만든 AI 건강 도우미, 가짜 답을 쏟아낸 봇, AI와 함께 찾는 희귀병 약",
+      "file": "content/2026-10-29.json",
+      "stories": [
+        {
+          "anchor": "health-bot",
+          "tag": "생활",
+          "color": "green",
+          "title": "나라가 만든 AI 건강 도우미가 문을 열었어요"
+        },
+        {
+          "anchor": "bots",
+          "tag": "안전",
+          "color": "blue",
+          "title": "나라의 의견 모으기에 봇의 가짜 답이 쏟아졌어요"
+        },
+        {
+          "anchor": "medicine",
+          "tag": "건강",
+          "color": "pink",
+          "title": "AI와 함께 드문 근육병의 약을 찾아요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-28",
       "title": "한국어 하는 시리, AI 범죄를 막을 나라 계획, AI 수백 개를 골라 주는 곳",
       "file": "content/2026-10-28.json",

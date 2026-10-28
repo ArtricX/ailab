@@ -1,0 +1,378 @@
+{
+  "schema": 1,
+  "date": "2026-10-29",
+  "weekday": "목",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-29.html",
+  "minutes": 5,
+  "title": {
+    "text": "나라가 만든 AI 건강 도우미, 가짜 답을 쏟아낸 봇, AI와 함께 찾는 희귀병 약",
+    "phrases": [
+      "나라가 만든",
+      "AI 건강 도우미,",
+      "가짜 답을 쏟아낸",
+      "봇,",
+      "AI와 함께 찾는",
+      "희귀병 약"
+    ]
+  },
+  "share": {
+    "title": "나라가 만든 AI 건강 도우미가 문을 열었어요 외 2건 · 아이고 10월 29일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 29일 목요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-29.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "health-bot",
+      "tag": "생활",
+      "color": "green",
+      "label": "AI 건강 도우미"
+    },
+    {
+      "anchor": "bots",
+      "tag": "안전",
+      "color": "blue",
+      "label": "가짜 답 봇"
+    },
+    {
+      "anchor": "medicine",
+      "tag": "건강",
+      "color": "pink",
+      "label": "희귀병 약 찾기"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "health-bot",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-29.html#health-bot",
+      "tag": "생활",
+      "color": "green",
+      "title": {
+        "text": "나라가 만든 AI 건강 도우미가 문을 열었어요",
+        "phrases": [
+          "나라가 만든",
+          "AI 건강 도우미가",
+          "문을 열었어요"
+        ]
+      },
+      "dek": {
+        "text": "24시간 무료로 내 건강을 살펴 줘요.",
+        "phrases": [
+          "24시간 무료로",
+          "내 건강을",
+          "살펴 줘요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "초승달이 뜬 밤, 잠옷을 입은 동그란 사람 곁에서 작은 흰 로봇이 초록 불이 켜진 커다란 신호등을 들어 보이고, 발치에 줄자와 하트가 그려진 수첩이 놓인 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-29-health-bot.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-29-health-bot.svg",
+        "viewBox": "0 0 800 460",
+        "title": "AI 건강 도우미 챗봇이 배운 자료와 쓰는 순서",
+        "desc": "과학기술정보통신부와 질병관리청이 10월 28일 AI 대국민 건강도우미 챗봇을 열었다. 지난 20년 동안 모은 국민 건강조사 자료 500만 건 넘게를 바탕으로 한다. 누구나 무료로 24시간 쓸 수 있다. 키와 몸무게를 넣고, 짧은 생활 설문에 답하면, 성별과 나이가 비슷한 사람과 견준 내 건강을 신호등 색과 그래프로 보여 준다. 고혈압, 당뇨, 이상지질혈증, 비만을 막는 법과 잠, 운동, 식사에 대해 물어볼 수 있다. 병원의 진단을 대신하지는 않는다.",
+        "caption": {
+          "text": "나와 비슷한 사람과 견줘서 내 건강을 알려 줘요.",
+          "phrases": [
+            "나와 비슷한 사람과",
+            "견줘서",
+            "내 건강을 알려 줘요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "과학기술정보통신부와 질병관리청이 10월 28일 'AI 건강도우미 챗봇'을 열었어요. 누구나 무료로 쓸 수 있어요. 밤낮없이 24시간 물어볼 수 있어요. 질병관리청의 '지역사회건강조사' 누리집에서 써요.",
+            "nobreak": [
+              "10월 28일",
+              "24시간"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "질병관리청은 지난 20년 동안 국민의 건강을 조사해 왔어요. 이 자료가 500만 건이 넘어요. 나라는 이 자료를 AI에 담아 모두가 쓰게 했어요. 의료와 AI 전문가들이 답의 바탕이 되는 자료를 살폈대요.",
+            "nobreak": [
+              "20년",
+              "500만 건"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "키와 몸무게를 넣고 짧은 설문에 답하면 돼요. 성별과 나이가 비슷한 사람과 견줘 내 건강을 신호등 색과 그래프로 보여 줘요. 고혈압과 당뇨를 막는 법이나 잠, 운동, 식사도 물어볼 수 있어요. 다만 병원의 진단을 대신하지는 않아요. 아픈 곳이 계속되면 병원에 가세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "AI타임스",
+          "date": "10월 28일",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216732"
+        },
+        {
+          "name": "열린정책뉴스",
+          "date": "10월 28일",
+          "url": "https://www.opengo.center/news/articleView.html?idxno=40670"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261028_200337_9b8c88ac-d968-4459-a98e-a1d4fa8167cc.mp3",
+        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261028_200337_9b8c88ac-d968-4459-a98e-a1d4fa8167cc.mp3"
+      }
+    },
+    {
+      "anchor": "bots",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-29.html#bots",
+      "tag": "안전",
+      "color": "blue",
+      "title": {
+        "text": "나라의 의견 모으기에 봇의 가짜 답이 쏟아졌어요",
+        "phrases": [
+          "나라의",
+          "의견 모으기에",
+          "봇의 가짜 답이",
+          "쏟아졌어요"
+        ]
+      },
+      "dek": {
+        "text": "영국에서 넷 중 셋이 가짜였어요.",
+        "phrases": [
+          "영국에서",
+          "넷 중 셋이",
+          "가짜였어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 나무 의견함에서 미끄럼틀을 타고 똑같은 종이 편지가 산더미처럼 쏟아지고, 돋보기를 든 동그란 사람과 작은 흰 로봇이 편지 더미를 살피며 색이 다른 편지 몇 장만 따로 골라 두는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-29-bots.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-29-bots.svg",
+        "viewBox": "0 0 800 460",
+        "title": "영국 정부 의견 모으기에 들어온 답 가운데 봇이 보낸 답의 몫과 알아챈 방법",
+        "desc": "영국 정부가 2023년 일회용 전자담배 규제를 두고 의견을 물었을 때 들어온 답 118,756건 가운데 90,835건, 약 76%가 봇이 보낸 답이었다. 학술지 토바코 컨트롤에 10월 27일 실린 연구다. 정부는 같은 답이 여러 번, 짧은 시간에 몰려, 적은 수의 인터넷 주소에서 들어온 것을 보고 걸러 냈다. 가짜를 빼고 나니 진짜 답의 79.6%가 규제에 찬성했다.",
+        "caption": {
+          "text": "목소리가 많다고 모두 진짜 사람은 아니에요.",
+          "phrases": [
+            "목소리가 많다고",
+            "모두 진짜",
+            "사람은 아니에요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "영국 정부는 2023년 일회용 전자담배를 막을지 국민의 의견을 물었어요. 그런데 들어온 답 118,756건 가운데 90,835건이 봇이 보낸 답이었어요. 넷 중 셋이 넘어요. 영국 에든버러대와 배스대 연구진이 10월 27일 학술지 '토바코 컨트롤'에 이 연구를 실었어요.",
+            "nobreak": [
+              "2023년",
+              "118,756건",
+              "90,835건",
+              "10월 27일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "봇의 답은 거의 모두 한 질문에 몰렸어요. 일회용 전자담배 규제에 반대한다는 답이었어요. 똑같은 답이 짧은 시간에 적은 수의 인터넷 주소에서 쏟아졌어요. 누가 왜 보냈는지는 아직 밝혀지지 않았어요. 연구진은 이렇게 큰 규모로 드러난 일은 처음이라고 했어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "영국 정부는 가짜 답을 걸러 내고 결정에 쓰지 않았어요. 가짜를 빼니 진짜 답의 79.6%가 규제에 찬성했어요. 연구진은 AI가 좋아질수록 가짜를 찾기 어려워질 거라고 걱정했어요. 인터넷에서 '모두가 그렇게 말한다'는 글을 보면, 정말 사람의 목소리인지 한 번 더 생각해 보세요.",
+            "nobreak": [
+              "79.6%"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "이스턴 아이",
+          "date": "10월 28일",
+          "url": "https://www.easterneye.biz/ai-bots-uk-disposable-vape-consultation-responses/"
+        },
+        {
+          "name": "리절트센스",
+          "date": "10월 28일",
+          "url": "https://www.resultsense.com/news/2026-10-28-guardian-vapes-consultation-ai-bots/"
+        },
+        {
+          "name": "가디언",
+          "date": "10월 27일",
+          "url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261028_200337_f638c3f1-f8eb-49f6-bc4c-2801c041b2f7.mp3",
+        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261028_200337_f638c3f1-f8eb-49f6-bc4c-2801c041b2f7.mp3"
+      }
+    },
+    {
+      "anchor": "medicine",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-29.html#medicine",
+      "tag": "건강",
+      "color": "pink",
+      "title": {
+        "text": "AI와 함께 드문 근육병의 약을 찾아요",
+        "phrases": [
+          "AI와 함께",
+          "드문 근육병의",
+          "약을 찾아요"
+        ]
+      },
+      "dek": {
+        "text": "생쥐 실험 결과까지 18개월이 안 걸렸어요.",
+        "phrases": [
+          "생쥐 실험 결과까지",
+          "18개월이",
+          "안 걸렸어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b.webp",
+        "url": "https://artricx.github.io/ailab/assets/img/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "실험 가운을 입은 동그란 사람과 작은 흰 로봇이 시험관과 현미경이 놓인 작은 실험대에서 나란히 일하고, 그 옆에서 동그란 생쥐가 작은 아령을 자랑스럽게 들어 올리는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-29-medicine.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-29-medicine.svg",
+        "viewBox": "0 0 800 460",
+        "title": "AI와 함께 약을 찾은 기간과 약이 사람에게 오기까지의 순서",
+        "desc": "앤트로픽은 10월 27일(미국 시간) AI 클로드로 약을 만드는 연구의 첫 결과를 공개했다. 직원 한 명인 바이오 회사 미스릴은 클로드의 도움으로 바깥 연구소 11곳과 일하며, 드문 근육병 약의 아이디어에서 생쥐 실험의 좋은 결과까지 18개월이 안 걸렸다. 제약·바이오 회사 6곳도 함께했다. 한 회사는 사람이 25시간 넘게 하던 서류 검토를 3시간 아래로 줄였다. 약은 아직 사람에게 시험하지 않았고, 사람 대상 시험은 빠르면 2028년 말에 시작할 수 있다.",
+        "caption": {
+          "text": "약을 찾는 길이 AI 덕분에 짧아지고 있어요.",
+          "phrases": [
+            "약을 찾는 길이",
+            "AI 덕분에",
+            "짧아지고 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "AI 회사 앤트로픽이 10월 27일(미국 시간) AI '클로드'로 약을 만드는 연구의 첫 결과를 공개했어요. 제약·바이오 회사 6곳과 함께한 연구예요. 앤트로픽은 직원이 1명뿐인 바이오 회사 '미스릴'을 사들였다고도 밝혔어요.",
+            "nobreak": [
+              "10월 27일",
+              "6곳",
+              "1명"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "미스릴은 아이들이 태어날 때부터 앓는 드문 근육병의 약을 찾고 있어요. 혼자서 클로드의 도움으로 바깥 연구소 11곳과 실험을 나눠 했어요. 그래서 아이디어에서 생쥐 실험의 좋은 결과까지 18개월이 안 걸렸어요. 다른 회사는 사람이 25시간 넘게 하던 서류 검토를 3시간 아래로 줄였어요.",
+            "nobreak": [
+              "11곳",
+              "18개월",
+              "25시간",
+              "3시간"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "새 약을 만드는 데는 보통 아주 오랜 시간이 걸려요. AI가 이 시간을 줄이면 드문 병을 앓는 사람도 더 빨리 약을 만날 수 있어요. 하지만 이 약은 아직 사람에게 시험하지 않았어요. 사람 대상 시험은 빠르면 2028년 말에 시작할 수 있대요.",
+            "nobreak": [
+              "2028년 말"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "앤트로픽",
+          "date": "10월 27일",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development"
+        },
+        {
+          "name": "테크스타트업스",
+          "date": "10월 28일",
+          "url": "https://techstartups.com/2026/10/28/anthropic-acquires-one-person-biotech-startup-that-used-claude-to-develop-promising-muscular-dystrophy-treatment-in-18-months/"
+        },
+        {
+          "name": "AI와이어",
+          "date": "10월 28일",
+          "url": "https://www.hpcwire.com/aiwire/2026/10/28/anthropic-early-progress-on-accelerating-drug-development-with-claude/"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261028_200337_f0ef9a82-87f8-4b0b-b9e0-e14425834220.mp3",
+        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261028_200337_f0ef9a82-87f8-4b0b-b9e0-e14425834220.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "챗봇",
+      "meaning": {
+        "text": "글로 묻고 답하며 대화하는 AI 프로그램",
+        "phrases": [
+          "글로 묻고 답하며",
+          "대화하는",
+          "AI 프로그램"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "봇",
+      "meaning": {
+        "text": "사람 대신 같은 일을 자동으로 되풀이하는 프로그램",
+        "phrases": [
+          "사람 대신",
+          "같은 일을 자동으로",
+          "되풀이하는 프로그램"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "임상시험",
+      "meaning": {
+        "text": "새 약이 사람에게 안전하고 잘 듣는지 살피는 시험",
+        "phrases": [
+          "새 약이 사람에게",
+          "안전하고 잘 듣는지",
+          "살피는 시험"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "희귀병",
+      "meaning": {
+        "text": "앓는 사람이 아주 적은 드문 병",
+        "phrases": [
+          "앓는 사람이",
+          "아주 적은",
+          "드문 병"
+        ]
+      },
+      "color": "yellow"
+    }
+  ]
+}
