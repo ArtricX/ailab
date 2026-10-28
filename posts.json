@@ -11,8 +11,8 @@
         "anchor": "health-bot",
         "title": "나라가 만든|AI 건강 도우미가|문을 열었어요",
         "dek": "24시간 무료로|내 건강을|살펴 줘요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da_min.webp"
+        "illust": "assets/img/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da.webp",
+        "thumb": "assets/img/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da_min.webp"
       },
       {
         "tag": "안전",
@@ -20,8 +20,8 @@
         "anchor": "bots",
         "title": "나라의 의견 모으기에|봇의 가짜 답이|쏟아졌어요",
         "dek": "영국에서|넷 중 셋이|가짜였어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a_min.webp"
+        "illust": "assets/img/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a.webp",
+        "thumb": "assets/img/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a_min.webp"
       },
       {
         "tag": "건강",
@@ -29,8 +29,8 @@
         "anchor": "medicine",
         "title": "AI와 함께|드문 근육병의|약을 찾아요",
         "dek": "생쥐 실험 결과까지|18개월이|안 걸렸어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b_min.webp"
+        "illust": "assets/img/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b.webp",
+        "thumb": "assets/img/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b_min.webp"
       }
     ],
     "keywords": [
