@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-30",
+      "title": "수능의 AI 안경 단속, 메일을 보고 빈칸 채우는 크롬, 줄어든 컴퓨터공학 학생",
+      "file": "content/2026-10-30.json",
+      "stories": [
+        {
+          "anchor": "exam-glasses",
+          "tag": "학교",
+          "color": "yellow",
+          "title": "AI 안경으로 수능 부정행위를 하면 고발해요"
+        },
+        {
+          "anchor": "autofill",
+          "tag": "안전",
+          "color": "blue",
+          "title": "크롬이 내 메일을 보고 빈칸을 채워 줘요"
+        },
+        {
+          "anchor": "coding-major",
+          "tag": "일",
+          "color": "green",
+          "title": "미국에서 컴퓨터공학을 배우는 대학생이 줄었어요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-29",
       "title": "나라가 만든 AI 건강 도우미, 가짜 답을 쏟아낸 봇, AI와 함께 찾는 희귀병 약",
       "file": "content/2026-10-29.json",

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">수능 스마트 안경 부정행위에 대한 교육부 대응 계획</title>
+            <desc id="g1d">교육부가 10월 29일 수능에서 스마트 안경으로 부정행위를 하면 형사 고발하겠다고 밝혔다. 지금은 부정행위가 드러나면 그 시험이 무효가 되고 다음 해 수능까지 1년 동안 시험을 볼 수 없다. 교육부는 이 기간을 3년으로 늘리는 것을 추진한다. 올해는 전국 시험장 1,312곳마다 스마트 안경을 살피는 감독관을 1명씩 두고, 판단이 어려우면 상황실에 물어본다. 시험장에서 쓸 전파 탐지기는 만드는 중이며 내년 수능에 쓸지 검토한다. 3년 제한은 아직 정해지지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="110" letter-spacing="-4">3년</text>
+            <text x="34" y="170" font-size="16" font-weight="800">늘리려는 수능 응시 제한 기간</text>
+            <text class="grey" x="34" y="194" font-size="13.5">교육부 · 10월 29일 발표</text>
+
+            <text x="34" y="236" font-size="14" font-weight="800">지금은 1년</text>
+            <rect class="f-paper" x="34" y="248" width="107" height="40" rx="12"/>
+            <text x="34" y="324" font-size="14" font-weight="800">앞으로 3년 (추진 중)</text>
+            <rect class="f-yellow" x="34" y="336" width="320" height="40" rx="12"/>
+            <text x="34" y="414" font-size="15" font-weight="900">형사 고발도 함께 해요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">올해 수능은 이렇게 살펴요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">전국 시험장 1,312곳</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">곳마다 안경 살피는 감독관 1명</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-yellow" x="440" y="226" width="320" height="48" rx="16"/>
+            <text x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">헷갈리면 상황실에 물어요</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">더 준비하는 것</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">전파 탐지기를 만드는 중</text>
+            <text x="440" y="370" font-size="14.5" font-weight="700">내년 수능에 쓸지 살펴봐요</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">3년 제한은 아직 정해지지 않았어요</text>
+          </svg>
