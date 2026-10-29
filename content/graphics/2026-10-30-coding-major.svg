@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">미국 대학의 전공별 학생 수 변화</title>
+            <desc id="g3d">미국 전국학생정보센터가 10월 29일 올가을 대학 입학 첫 자료를 냈다. 4년제 대학에서 컴퓨터공학을 배우는 학부생이 한 해 사이 12.4% 줄었다. 대학원생도 10% 넘게 줄었다. 같은 때 보건 분야는 6.2%, 공학은 6.1% 늘었고, 전체 학부생은 0.6% 늘었다. 이 자료는 학교 46%가 낸 첫 자료이고, 보고서는 줄어든 까닭을 밝히지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="96" letter-spacing="-4">−12.4%</text>
+            <text x="34" y="170" font-size="16" font-weight="800">4년제 대학 컴퓨터공학 학부생</text>
+            <text class="grey" x="34" y="194" font-size="13.5">미국 전국학생정보센터 · 10월 29일 발표</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="48" rx="16"/>
+            <text x="194" y="252" font-size="14.5" font-weight="900" text-anchor="middle">대학원생도 10% 넘게 줄었어요</text>
+            <rect class="f-paper" x="34" y="280" width="320" height="48" rx="16"/>
+            <text x="194" y="310" font-size="14.5" font-weight="900" text-anchor="middle">전체 학부생은 0.6% 늘었어요</text>
+            <rect class="f-green" x="34" y="338" width="320" height="48" rx="16"/>
+            <text x="194" y="368" font-size="14.5" font-weight="900" text-anchor="middle">학교 46%가 낸 첫 자료예요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">한 해 사이 바뀐 학생 수</text>
+            <line class="line-grey" x1="600" y1="80" x2="600" y2="392" stroke-width="2"/>
+            <text x="440" y="100" font-size="14" font-weight="800">컴퓨터공학 −12.4%</text>
+            <rect class="f-red" x="451" y="110" width="149" height="34" rx="8"/>
+            <text x="440" y="178" font-size="14" font-weight="800">보건 +6.2%</text>
+            <rect class="f-green" x="600" y="188" width="74" height="34" rx="8"/>
+            <text x="440" y="256" font-size="14" font-weight="800">공학 +6.1%</text>
+            <rect class="f-green" x="600" y="266" width="73" height="34" rx="8"/>
+            <text x="440" y="334" font-size="14" font-weight="800">전체 학부생 +0.6%</text>
+            <rect class="f-ink" x="600" y="344" width="7" height="34" rx="3"/>
+            <text x="440" y="424" font-size="14.5" font-weight="900">왜 줄었는지는 보고서에 없어요</text>
+          </svg>

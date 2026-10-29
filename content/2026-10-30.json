@@ -1,0 +1,376 @@
+{
+  "schema": 1,
+  "date": "2026-10-30",
+  "weekday": "금",
+  "url": "https://artricx.github.io/ailab/posts/2026-10-30.html",
+  "minutes": 5,
+  "title": {
+    "text": "수능의 AI 안경 단속, 메일을 보고 빈칸 채우는 크롬, 줄어든 컴퓨터공학 학생",
+    "phrases": [
+      "수능의",
+      "AI 안경 단속,",
+      "메일을 보고",
+      "빈칸 채우는 크롬,",
+      "줄어든",
+      "컴퓨터공학 학생"
+    ]
+  },
+  "share": {
+    "title": "AI 안경으로 수능 부정행위를 하면 고발해요 외 2건 · 아이고 10월 30일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 10월 30일 금요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-10-30.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "exam-glasses",
+      "tag": "학교",
+      "color": "yellow",
+      "label": "수능 AI 안경"
+    },
+    {
+      "anchor": "autofill",
+      "tag": "안전",
+      "color": "blue",
+      "label": "메일 보는 크롬"
+    },
+    {
+      "anchor": "coding-major",
+      "tag": "일",
+      "color": "green",
+      "label": "컴퓨터공학 학생"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "exam-glasses",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-30.html#exam-glasses",
+      "tag": "학교",
+      "color": "yellow",
+      "title": {
+        "text": "AI 안경으로 수능 부정행위를 하면 고발해요",
+        "phrases": [
+          "AI 안경으로",
+          "수능",
+          "부정행위를 하면",
+          "고발해요"
+        ]
+      },
+      "dek": {
+        "text": "시험을 못 보는 기간도 3년으로 늘리려 해요.",
+        "phrases": [
+          "시험을 못 보는 기간도",
+          "3년으로",
+          "늘리려 해요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204155_38ff2c28-b851-492e-a74f-05e621630321.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204155_38ff2c28-b851-492e-a74f-05e621630321.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "조용한 시험장에서 동그란 감독관이 테에 작은 불빛이 깜빡이는 안경을 커다란 돋보기로 살피고, 안경 속에 숨어 있던 작은 흰 로봇이 멋쩍게 고개를 내미는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-30-exam-glasses.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-30-exam-glasses.svg",
+        "viewBox": "0 0 800 460",
+        "title": "수능 스마트 안경 부정행위에 대한 교육부 대응 계획",
+        "desc": "교육부가 10월 29일 수능에서 스마트 안경으로 부정행위를 하면 형사 고발하겠다고 밝혔다. 지금은 부정행위가 드러나면 그 시험이 무효가 되고 다음 해 수능까지 1년 동안 시험을 볼 수 없다. 교육부는 이 기간을 3년으로 늘리는 것을 추진한다. 올해는 전국 시험장 1,312곳마다 스마트 안경을 살피는 감독관을 1명씩 두고, 판단이 어려우면 상황실에 물어본다. 시험장에서 쓸 전파 탐지기는 만드는 중이며 내년 수능에 쓸지 검토한다. 3년 제한은 아직 정해지지 않았다.",
+        "caption": {
+          "text": "시험장에는 AI 안경을 가져가지 마세요.",
+          "phrases": [
+            "시험장에는",
+            "AI 안경을",
+            "가져가지 마세요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "교육부가 10월 29일 수능의 스마트 안경 부정행위 대응 계획을 내놓았어요. 스마트 안경으로 부정행위를 하면 경찰과 검찰에 고발하기로 했어요. 시험을 볼 수 없는 기간도 1년에서 3년으로 늘리려 해요. 다만 3년 제한은 아직 추진하는 단계예요.",
+            "nobreak": [
+              "10월 29일",
+              "1년",
+              "3년",
+              "3년"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "스마트 안경은 겉보기에 보통 안경과 비슷해요. 그런데 사진을 찍거나 AI와 이야기할 수 있는 것도 있어요. 교육부는 이런 안경으로 하는 부정행위를 미리 꾸민 나쁜 일로 보고 엄하게 다루기로 했어요. 지금은 걸리면 그 시험이 무효가 되고, 다음 해 수능까지 시험을 볼 수 없어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "올해 수능에서는 전국 시험장 1,312곳마다 안경을 살피는 감독관이 1명씩 있어요. 판단이 어려우면 교육청과 교육부의 상황실에 바로 물어봐요. 수험생이라면 스마트 안경은 시험장에 아예 가져가지 않는 게 좋아요. 가족 중에 수험생이 있다면 꼭 알려 주세요.",
+            "nobreak": [
+              "1,312곳",
+              "1명"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "한국경제",
+          "date": "10월 29일",
+          "url": "https://www.hankyung.com/article/202610292753i"
+        },
+        {
+          "name": "YTN",
+          "date": "10월 29일",
+          "url": "https://www.ytn.co.kr/_cs/_ln_0103_202610291235507785_005.html"
+        },
+        {
+          "name": "세계일보",
+          "date": "10월 29일",
+          "url": "https://www.segye.com/newsView/20261029506736"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204430_594fc48d-0ee9-434b-8e06-3dd6d2e0a129.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204430_594fc48d-0ee9-434b-8e06-3dd6d2e0a129.mp3"
+      }
+    },
+    {
+      "anchor": "autofill",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-30.html#autofill",
+      "tag": "안전",
+      "color": "blue",
+      "title": {
+        "text": "크롬이 내 메일을 보고 빈칸을 채워 줘요",
+        "phrases": [
+          "크롬이",
+          "내 메일을 보고",
+          "빈칸을 채워 줘요"
+        ]
+      },
+      "dek": {
+        "text": "미국에서 먼저 시작했어요.",
+        "phrases": [
+          "미국에서",
+          "먼저 시작했어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204155_f4d4e77a-20d8-4420-8b32-81201adb1661.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204155_f4d4e77a-20d8-4420-8b32-81201adb1661.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 흰 로봇이 열린 편지 봉투에서 비행기 표와 택배 꼬리표를 꺼내 커다란 빈 서류에 옮겨 적으려 하고, 곁의 동그란 사람이 커다란 켜고 끄는 스위치에 손을 얹고 지켜보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-30-autofill.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-30-autofill.svg",
+        "viewBox": "0 0 800 460",
+        "title": "크롬의 제미나이 자동 완성이 메일에서 찾는 정보와 쓰는 순서",
+        "desc": "구글이 10월 28일(미국 시간) 크롬의 새 자동 완성 기능을 내놓았다. 제미나이가 지메일 속 메일에서 주문 번호, 택배 운송장 번호, 비행기 예약 정보 3가지를 찾아 인터넷 입력 칸에 제안한다. 지금은 미국에서 18살이 넘은 개인 계정으로, 크롬의 제미나이와 개인 맞춤 기능을 켠 사람만 쓸 수 있다. 회사와 학교 계정은 빠진다. 원하지 않으면 크롬 설정에서 끌 수 있다.",
+        "caption": {
+          "text": "편해지는 만큼 내 정보가 어디에 쓰이는지 살펴요.",
+          "phrases": [
+            "편해지는 만큼",
+            "내 정보가",
+            "어디에 쓰이는지 살펴요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글이 10월 28일(미국 시간) 인터넷 창 '크롬'에 새 자동 완성 기능을 넣었어요. 이름은 '제미나이가 제안'이에요. 구글의 AI 제미나이가 지메일 속 메일을 살펴요. 그리고 주문 번호, 택배 운송장 번호, 비행기 예약 정보를 찾아 입력 칸에 제안해 줘요.",
+            "nobreak": [
+              "10월 28일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "인터넷에서 빈칸을 채우는 일은 귀찮아요. 예전 자동 완성은 이름과 주소, 카드 정도만 채웠어요. 이제는 메일함을 뒤지지 않아도 필요한 번호를 바로 넣을 수 있어요. 구글은 민감한 정보는 암호로 지키고, 사용자가 직접 정할 수 있다고 밝혔어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "지금은 미국에서만 써요. 18살이 넘은 개인 계정으로 개인 맞춤 기능을 켠 사람이 대상이에요. 회사와 학교 계정은 빠져요. 한국에서 언제 쓸 수 있을지는 아직 발표가 없어요. 이런 기능이 오면 AI가 내 메일을 읽는다는 점을 알고 켜세요. 원하지 않으면 크롬 설정의 자동 완성 메뉴에서 끌 수 있어요.",
+            "nobreak": [
+              "18살"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "나인투파이브구글",
+          "date": "10월 28일",
+          "url": "https://9to5google.com/2026/10/28/chrome-autofill-gemini/"
+        },
+        {
+          "name": "노트북체크",
+          "date": "10월 29일",
+          "url": "https://www.notebookcheck.net/Google-Chrome-autofill-can-now-pull-details-from-your-Gmail.1437131.0.html"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204430_7087da8c-2073-4691-9881-d54e5641099e.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204430_7087da8c-2073-4691-9881-d54e5641099e.mp3"
+      }
+    },
+    {
+      "anchor": "coding-major",
+      "url": "https://artricx.github.io/ailab/posts/2026-10-30.html#coding-major",
+      "tag": "일",
+      "color": "green",
+      "title": {
+        "text": "미국에서 컴퓨터공학을 배우는 대학생이 줄었어요",
+        "phrases": [
+          "미국에서",
+          "컴퓨터공학을",
+          "배우는 대학생이",
+          "줄었어요"
+        ]
+      },
+      "dek": {
+        "text": "한 해 사이에 12.4%가 줄었어요.",
+        "phrases": [
+          "한 해 사이에",
+          "12.4%가",
+          "줄었어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204156_1d0830e8-7699-49c1-8fea-43901049c112.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204156_1d0830e8-7699-49c1-8fea-43901049c112.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "가방을 멘 동그란 학생이 갈림길에 서 있고, 한쪽 길 끝의 커다란 노트북에서는 작은 흰 로봇이 바쁘게 타자를 치며, 다른 길 끝의 커다란 톱니바퀴와 하트 쪽으로 여러 학생이 걸어가는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-10-30-coding-major.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-30-coding-major.svg",
+        "viewBox": "0 0 800 460",
+        "title": "미국 대학의 전공별 학생 수 변화",
+        "desc": "미국 전국학생정보센터가 10월 29일 올가을 대학 입학 첫 자료를 냈다. 4년제 대학에서 컴퓨터공학을 배우는 학부생이 한 해 사이 12.4% 줄었다. 대학원생도 10% 넘게 줄었다. 같은 때 보건 분야는 6.2%, 공학은 6.1% 늘었고, 전체 학부생은 0.6% 늘었다. 이 자료는 학교 46%가 낸 첫 자료이고, 보고서는 줄어든 까닭을 밝히지 않았다.",
+        "caption": {
+          "text": "컴퓨터공학은 줄고 보건과 공학은 늘었어요.",
+          "phrases": [
+            "컴퓨터공학은 줄고",
+            "보건과 공학은",
+            "늘었어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국 전국학생정보센터가 10월 29일 올가을 대학생 수의 첫 자료를 냈어요. 4년제 대학에서 컴퓨터공학을 배우는 학부생이 한 해 사이 12.4% 줄었어요. 대학원생도 10% 넘게 줄었어요. 오랫동안 늘던 컴퓨터공학이 작년부터 줄기 시작했대요.",
+            "nobreak": [
+              "10월 29일",
+              "12.4%",
+              "10%"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "보고서는 까닭을 밝히지 않았어요. 미국 언론들은 AI가 코딩을 잘하게 되고, 큰 기술 회사들이 사람을 줄인 영향으로 봤어요. 갓 졸업한 사람이 들어갈 일자리가 줄었다는 거예요. 같은 때 보건 분야는 6.2%, 공학은 6.1% 늘었어요.",
+            "nobreak": [
+              "6.2%",
+              "6.1%"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "AI는 학생들이 어떤 공부를 고를지에도 영향을 주고 있어요. 다만 이 자료는 학교 46%가 낸 첫 자료예요. 마지막 자료는 내년 1월에 나와요. 진로를 고민한다면 한 가지 숫자보다 내가 좋아하는 일과 여러 자료를 함께 살펴보세요.",
+            "nobreak": [
+              "46%",
+              "내년 1월"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "하이어 에드 다이브",
+          "date": "10월 29일",
+          "url": "https://www.highereddive.com/news/undergraduate-enrollment-inched-up-this-fall-while-masters-dips-37/873114/"
+        },
+        {
+          "name": "포브스",
+          "date": "10월 29일",
+          "url": "https://www.forbes.com/sites/michaeltnietzel/2026/10/29/college-enrollment-holding-steady-according-to-preliminary-report/"
+        },
+        {
+          "name": "비즈니스 스탠더드",
+          "date": "10월 29일",
+          "url": "https://www.business-standard.com/world-news/student-enrolment-in-us-computer-science-programs-falls-as-ai-takes-jobs-126102900433_1.html"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204430_40d2db97-fba1-4a1f-978b-4c2cef352586.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204430_40d2db97-fba1-4a1f-978b-4c2cef352586.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "스마트 안경",
+      "meaning": {
+        "text": "카메라나 AI가 달려 찍고 묻고 답하는 안경",
+        "phrases": [
+          "카메라나 AI가 달려",
+          "찍고 묻고 답하는",
+          "안경"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "형사 고발",
+      "meaning": {
+        "text": "잘못을 따져 달라고 경찰이나 검찰에 알리는 일",
+        "phrases": [
+          "잘못을 따져 달라고",
+          "경찰이나 검찰에",
+          "알리는 일"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "자동 완성",
+      "meaning": {
+        "text": "입력 칸에 넣을 말을 미리 채워 주는 기능",
+        "phrases": [
+          "입력 칸에 넣을 말을",
+          "미리 채워 주는",
+          "기능"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "컴퓨터공학",
+      "meaning": {
+        "text": "컴퓨터와 프로그램을 만드는 법을 배우는 공부",
+        "phrases": [
+          "컴퓨터와 프로그램을",
+          "만드는 법을",
+          "배우는 공부"
+        ]
+      },
+      "color": "green"
+    }
+  ]
+}

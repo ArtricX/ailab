@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-30",
+    "title": "수능의|AI 안경 단속,|메일을 보고|빈칸 채우는 크롬,|줄어든|컴퓨터공학 학생",
+    "summary": "수능에서|AI 안경으로|부정행위를 하면|고발하고,|크롬은|메일 속 정보로|빈칸을 채워 주기 시작했어요.|미국에서는|컴퓨터공학을 배우는|대학생이|크게 줄었어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "학교",
+        "color": "yellow",
+        "anchor": "exam-glasses",
+        "title": "AI 안경으로|수능|부정행위를 하면|고발해요",
+        "dek": "시험을 못 보는 기간도|3년으로|늘리려 해요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204155_38ff2c28-b851-492e-a74f-05e621630321.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204155_38ff2c28-b851-492e-a74f-05e621630321_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "blue",
+        "anchor": "autofill",
+        "title": "크롬이|내 메일을 보고|빈칸을 채워 줘요",
+        "dek": "미국에서|먼저 시작했어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204155_f4d4e77a-20d8-4420-8b32-81201adb1661.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204155_f4d4e77a-20d8-4420-8b32-81201adb1661_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "green",
+        "anchor": "coding-major",
+        "title": "미국에서|컴퓨터공학을|배우는 대학생이|줄었어요",
+        "dek": "한 해 사이에|12.4%가|줄었어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204156_1d0830e8-7699-49c1-8fea-43901049c112.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261029_204156_1d0830e8-7699-49c1-8fea-43901049c112_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "스마트 안경",
+        "meaning": "카메라나 AI가 달려|찍고 묻고 답하는|안경"
+      },
+      {
+        "word": "형사 고발",
+        "meaning": "잘못을 따져 달라고|경찰이나 검찰에|알리는 일"
+      },
+      {
+        "word": "자동 완성",
+        "meaning": "입력 칸에 넣을 말을|미리 채워 주는|기능"
+      },
+      {
+        "word": "컴퓨터공학",
+        "meaning": "컴퓨터와 프로그램을|만드는 법을|배우는 공부"
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "title": "나라가 만든|AI 건강 도우미,|가짜 답을 쏟아낸|봇,|AI와 함께 찾는|희귀병 약",
     "summary": "나라가 만든|AI 건강 도우미가|24시간 무료로|문을 열었어요.|영국에서는|의견 모으기에|봇의 가짜 답이|쏟아졌고,|AI와 함께|드문 근육병 약을 찾는|연구도|첫 결과를 냈어요.",
