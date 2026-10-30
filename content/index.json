@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-10-31",
+      "title": "우주에서 시를 쓴 AI, 아직 드문 AI 배달 주문, 더 길어진 일자리 찾기",
+      "file": "content/2026-10-31.json",
+      "stories": [
+        {
+          "anchor": "space-ai",
+          "tag": "창작",
+          "color": "blue",
+          "title": "구글이 우주로 보낸 AI가 첫 시를 썼어요"
+        },
+        {
+          "anchor": "agent-order",
+          "tag": "생활",
+          "color": "red",
+          "title": "AI 비서가 대신 시킨 배달은 수백 건뿐이었어요"
+        },
+        {
+          "anchor": "job-search",
+          "tag": "일",
+          "color": "yellow",
+          "title": "AI 때문에 일을 잃으면 새 일 찾기가 더 오래 걸려요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-30",
       "title": "수능의 AI 안경 단속, 메일을 보고 빈칸 채우는 크롬, 줄어든 컴퓨터공학 학생",
       "file": "content/2026-10-30.json",

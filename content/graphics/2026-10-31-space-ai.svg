@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">구글 선캐처 시험 위성이 첫 질문에 답하기까지</title>
+            <desc id="g1d">구글이 10월 30일(미국 시간) 우주 데이터 센터 시험 위성 '선캐처'가 처음으로 일을 했다고 밝혔다. 위성은 10월 초 스페이스X 로켓에 실려 올라갔고, 햇빛 판으로 약 1킬로와트의 전기를 만든다. 약 3주 동안 장치를 점검한 뒤, 땅에서 우주에 대한 시를 써 달라고 보내자 위성 안의 AI가 짧은 시로 답했다. 구글은 2027년에 위성 2개를 더 올려 서로 빛으로 이어 보려 한다. 아직은 시험 단계이다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">1kW</text>
+            <text x="34" y="170" font-size="16" font-weight="800">위성이 햇빛으로 만드는 전기</text>
+            <text class="grey" x="34" y="194" font-size="13.5">구글 · 10월 30일 발표 (미국 시간)</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="48" rx="16"/>
+            <text x="194" y="252" font-size="14.5" font-weight="900" text-anchor="middle">10월 초 로켓에 실려 우주로</text>
+            <rect class="f-paper" x="34" y="280" width="320" height="48" rx="16"/>
+            <text x="194" y="310" font-size="14.5" font-weight="900" text-anchor="middle">약 3주 동안 장치 점검</text>
+            <rect class="f-blue" x="34" y="338" width="320" height="48" rx="16"/>
+            <text class="white" x="194" y="368" font-size="14.5" font-weight="900" text-anchor="middle">2027년에 위성 2개 더</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">첫 질문은 이렇게 오갔어요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">땅: 우주에 대한 시를 써 줘</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">위성 안의 AI가 생각해요</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-blue" x="440" y="226" width="320" height="48" rx="16"/>
+            <text class="white" x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">짧은 시로 답이 내려와요</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">왜 우주에 둘까요</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">햇빛을 거의 늘 받아요</text>
+            <text x="440" y="370" font-size="14.5" font-weight="700">땅의 전기와 물을 덜 써요</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">아직은 시험 단계예요</text>
+          </svg>

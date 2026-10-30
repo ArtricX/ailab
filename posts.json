@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-31",
+    "title": "우주에서|시를 쓴 AI,|아직 드문|AI 배달 주문,|더 길어진|일자리 찾기",
+    "summary": "구글이 우주에 띄운|AI 위성이|첫 시를 썼어요.|AI 비서가 대신 시킨|배달 주문은|수백 건뿐이었고,|AI 때문에 일을 잃으면|새 일 찾기가|더 오래 걸린대요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "창작",
+        "color": "blue",
+        "anchor": "space-ai",
+        "title": "구글이|우주로 보낸 AI가|첫 시를 썼어요",
+        "dek": "우주에 AI 컴퓨터를|두는|첫 실험이에요.",
+        "illust": "assets/img/hf_20261030_200138_2793d6ab-9869-48f8-ada9-e0dd4b2550f9.webp",
+        "thumb": "assets/img/hf_20261030_200138_2793d6ab-9869-48f8-ada9-e0dd4b2550f9_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "red",
+        "anchor": "agent-order",
+        "title": "AI 비서가|대신 시킨 배달은|수백 건뿐이었어요",
+        "dek": "사람들은 아직|앱으로 직접|시켜요.",
+        "illust": "assets/img/hf_20261030_200138_ee8388fe-9e2c-45a8-9f39-969ac268e91f.webp",
+        "thumb": "assets/img/hf_20261030_200138_ee8388fe-9e2c-45a8-9f39-969ac268e91f_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "yellow",
+        "anchor": "job-search",
+        "title": "AI 때문에|일을 잃으면|새 일 찾기가|더 오래 걸려요",
+        "dek": "35살이 넘은 사람은|더 길었어요.",
+        "illust": "assets/img/hf_20261030_200138_e0215fdb-fbcd-4bde-b73e-c45b5f98d0a2.webp",
+        "thumb": "assets/img/hf_20261030_200138_e0215fdb-fbcd-4bde-b73e-c45b5f98d0a2_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "데이터 센터",
+        "meaning": "AI를 돌리는|컴퓨터를 잔뜩 모아 둔|큰 건물"
+      },
+      {
+        "word": "위성",
+        "meaning": "지구 둘레를|빙빙 도는|기계"
+      },
+      {
+        "word": "AI 비서",
+        "meaning": "사람 대신|찾고 고르고|주문까지 해 주는 AI"
+      },
+      {
+        "word": "실적 발표",
+        "meaning": "회사가 석 달 동안|얼마나 벌었는지|알리는 일"
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "title": "수능의|AI 안경 단속,|메일을 보고|빈칸 채우는 크롬,|줄어든|컴퓨터공학 학생",
     "summary": "수능에서|AI 안경으로|부정행위를 하면|고발하고,|크롬은|메일 속 정보로|빈칸을 채워 주기 시작했어요.|미국에서는|컴퓨터공학을 배우는|대학생이|크게 줄었어요.",
