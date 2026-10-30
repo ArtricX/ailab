@@ -11,8 +11,8 @@
         "anchor": "space-ai",
         "title": "구글이|우주로 보낸 AI가|첫 시를 썼어요",
         "dek": "우주에 AI 컴퓨터를|두는|첫 실험이에요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261030_200138_2793d6ab-9869-48f8-ada9-e0dd4b2550f9.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261030_200138_2793d6ab-9869-48f8-ada9-e0dd4b2550f9_min.webp"
+        "illust": "assets/img/hf_20261030_200138_2793d6ab-9869-48f8-ada9-e0dd4b2550f9.webp",
+        "thumb": "assets/img/hf_20261030_200138_2793d6ab-9869-48f8-ada9-e0dd4b2550f9_min.webp"
       },
       {
         "tag": "생활",
@@ -20,8 +20,8 @@
         "anchor": "agent-order",
         "title": "AI 비서가|대신 시킨 배달은|수백 건뿐이었어요",
         "dek": "사람들은 아직|앱으로 직접|시켜요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261030_200138_ee8388fe-9e2c-45a8-9f39-969ac268e91f.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261030_200138_ee8388fe-9e2c-45a8-9f39-969ac268e91f_min.webp"
+        "illust": "assets/img/hf_20261030_200138_ee8388fe-9e2c-45a8-9f39-969ac268e91f.webp",
+        "thumb": "assets/img/hf_20261030_200138_ee8388fe-9e2c-45a8-9f39-969ac268e91f_min.webp"
       },
       {
         "tag": "일",
@@ -29,8 +29,8 @@
         "anchor": "job-search",
         "title": "AI 때문에|일을 잃으면|새 일 찾기가|더 오래 걸려요",
         "dek": "35살이 넘은 사람은|더 길었어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261030_200138_e0215fdb-fbcd-4bde-b73e-c45b5f98d0a2.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261030_200138_e0215fdb-fbcd-4bde-b73e-c45b5f98d0a2_min.webp"
+        "illust": "assets/img/hf_20261030_200138_e0215fdb-fbcd-4bde-b73e-c45b5f98d0a2.webp",
+        "thumb": "assets/img/hf_20261030_200138_e0215fdb-fbcd-4bde-b73e-c45b5f98d0a2_min.webp"
       }
     ],
     "keywords": [
