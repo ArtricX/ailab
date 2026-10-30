@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">AI 때문에 일을 잃은 사람이 새 일을 찾는 데 더 걸린 시간</title>
+            <desc id="g3d">미국 투자은행 골드만삭스가 10월 29일(미국 시간) 낸 분석에 따르면, 2025년부터 AI 때문에 일을 잃은 것으로 보이는 미국 사람은 다른 이유로 일을 잃은 사람보다 새 일을 찾는 데 약 한 달이 더 걸렸다. 35살이 넘은 사람은 약 5주, 35살 아래는 약 3주가 더 걸렸다. 1년이 지나도 일을 못 찾은 비율은 약 10%포인트 높았다. 골드만삭스는 아직 모든 것을 판단하기는 이르다고 밝혔다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">약 1달</text>
+            <text x="34" y="170" font-size="16" font-weight="800">새 일을 찾는 데 더 걸린 시간</text>
+            <text class="grey" x="34" y="194" font-size="13.5">골드만삭스 · 10월 29일 분석 (미국 시간)</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="48" rx="16"/>
+            <text x="194" y="252" font-size="14.5" font-weight="900" text-anchor="middle">다른 이유로 일을 잃은 사람과 비교</text>
+            <rect class="f-paper" x="34" y="280" width="320" height="48" rx="16"/>
+            <text x="194" y="310" font-size="14.5" font-weight="900" text-anchor="middle">1년 뒤 못 찾은 비율 약 10%p 높아요</text>
+            <rect class="f-yellow" x="34" y="338" width="320" height="48" rx="16"/>
+            <text x="194" y="368" font-size="14.5" font-weight="900" text-anchor="middle">다른 직업으로 옮기는 일이 잦아요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">나이에 따라 더 걸린 시간</text>
+            <text x="440" y="100" font-size="14" font-weight="800">35살이 넘은 사람 약 5주</text>
+            <rect class="f-red" x="440" y="110" width="300" height="40" rx="10"/>
+            <text x="440" y="196" font-size="14" font-weight="800">35살 아래 약 3주</text>
+            <rect class="f-yellow" x="440" y="206" width="180" height="40" rx="10"/>
+            <text class="grey" x="440" y="278" font-size="13.5">막대 길이는 주 수에 맞췄어요</text>
+
+            <text x="440" y="334" font-size="15" font-weight="800">조심해서 볼 점</text>
+            <text x="440" y="362" font-size="14.5" font-weight="700">AI 때문인지는 추정이에요</text>
+            <text x="440" y="414" font-size="14.5" font-weight="900">판단하기엔 아직 일러요</text>
+          </svg>

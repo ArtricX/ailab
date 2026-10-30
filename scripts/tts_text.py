@@ -104,7 +104,7 @@ def read_numbers(t):
         raw, unit = m.group(1), m.group(2)
         word = "" if raw == "1" and unit in ("만", "천", "백") else number_word(raw)  # 1만 → 만
         return word + unit
-    t = re.sub(r"(\d+(?:\.\d+)?)\s?(조|억|만|천|백)(?=[\s가-힣]|$)", big, t)
+    t = re.sub(r"(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s?(조|억|만|천|백)(?=[\s가-힣]|$)", big, t)
 
     # 첫 번째, 두 번째
     def nth(m):
@@ -114,6 +114,8 @@ def read_numbers(t):
 
     # 고유어 단위: 3명 → 세 명, 172곳 → 백칠십이 곳, 3개월 → 삼 개월(한자어)
     t = re.sub(r"(\d+)\s?개월", lambda m: sino(int(m.group(1))) + " 개월", t)
+    # 주(기간): 5주 → 오 주 (한자어)
+    t = re.sub(r"(\d+)\s?주(?![가-힣])|(\d+)\s?주(?=[가는도간를이에의째])", lambda m: sino(int(m.group(1) or m.group(2))) + " 주", t)
     # 배: 2배 → 두 배, 10배 → 열 배 (소수 1.5배는 한자어 그대로)
     t = re.sub(r"(?<![\d.,])(\d+)\s?배", lambda m: (native(int(m.group(1))) if 1 <= int(m.group(1)) <= 10 else sino(int(m.group(1)))) + " 배", t)
     pat = r"(\d{1,3}(?:,\d{3})+|\d+)\s?(" + "|".join(NATIVE_COUNTERS) + ")"
@@ -206,6 +208,8 @@ TESTS = [
     ("10,000원", "만원"),
     ("2.5%", "이 점 오 퍼센트"),
     ("3개월", "삼 개월"),
+    ("약 9억 9,300만 건", "약 구억 구천삼백만 건"),
+    ("약 5주, 그 아래는 약 3주가", "약 오 주, 그 아래는 약 삼 주가"),
     ("2026년", "이천이십육년"),
     ("30살", "서른 살"),
     ("AI 비서", "에이아이 비서"),
