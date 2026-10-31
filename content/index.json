@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-01",
+      "title": "AI를 배우는 삼성 사장단, 청소년을 지키는 챗GPT, 오늘 열리는 개인정보 토론",
+      "file": "content/2026-11-01.json",
+      "stories": [
+        {
+          "anchor": "samsung-ai",
+          "tag": "일",
+          "color": "blue",
+          "title": "삼성 사장단이 챗GPT를 만든 올트먼과 AI를 공부했어요"
+        },
+        {
+          "anchor": "teen-safety",
+          "tag": "안전",
+          "color": "red",
+          "title": "챗GPT가 청소년에게 무기 이야기를 더 조심해요"
+        },
+        {
+          "anchor": "privacy-talk",
+          "tag": "생활",
+          "color": "green",
+          "title": "AI 시대 개인정보, 국민 200명이 오늘 토론해요"
+        }
+      ]
+    },
+    {
       "date": "2026-10-31",
       "title": "우주에서 시를 쓴 AI, 아직 드문 AI 배달 주문, 더 길어진 일자리 찾기",
       "file": "content/2026-10-31.json",

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">AI 시대 개인정보 모두의 토론회</title>
+            <desc id="g3d">행정안전부와 개인정보보호위원회가 11월 1일 서울 연세대학교에서 세 번째 모두의 토론회를 연다. 국민 약 200명이 모여 AI 시대에 개인정보를 어떻게 지키고 쓸지 이야기한다. 그 전 2주 동안 온라인 토론에는 약 1,200명이 참여했다. 지금처럼 개인정보를 쓰기 전에 먼저 동의를 받을지, 먼저 알리고 언제든 거부할 수 있게 바꿀지가 큰 주제이다. 아직 정해진 것은 없다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">200명</text>
+            <text x="34" y="170" font-size="16" font-weight="800">오늘 현장 토론에 나오는 국민 (약)</text>
+            <text class="grey" x="34" y="194" font-size="13.5">행정안전부·개인정보보호위원회 · 11월 1일</text>
+
+            <text x="34" y="236" font-size="14" font-weight="800">2주 동안 온라인 토론 약 1,200명</text>
+            <rect class="f-paper" x="34" y="248" width="320" height="40" rx="12"/>
+            <text x="34" y="324" font-size="14" font-weight="800">오늘 현장 토론 약 200명</text>
+            <rect class="f-green" x="34" y="336" width="53" height="40" rx="10"/>
+            <text class="grey" x="34" y="414" font-size="13.5">막대 길이는 사람 수에 맞췄어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">바꿀지 이야기하는 것</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">지금: 쓰기 전에 먼저 동의를 받아요</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-green" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">바꾸면: 먼저 알리고, 언제든 거부</text>
+
+            <text x="440" y="246" font-size="15" font-weight="800">토론은 이렇게 해요</text>
+            <text x="440" y="274" font-size="14.5" font-weight="700">전문가 이야기를 들어요</text>
+            <text x="440" y="298" font-size="14.5" font-weight="700">모둠으로 나눠 토론해요</text>
+            <text x="440" y="322" font-size="14.5" font-weight="700">휴대폰으로 투표도 해요</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">유튜브로 생중계해요</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">아직 정해진 것은 없어요</text>
+          </svg>

@@ -1,0 +1,375 @@
+{
+  "schema": 1,
+  "date": "2026-11-01",
+  "weekday": "일",
+  "url": "https://artricx.github.io/ailab/posts/2026-11-01.html",
+  "minutes": 5,
+  "title": {
+    "text": "AI를 배우는 삼성 사장단, 청소년을 지키는 챗GPT, 오늘 열리는 개인정보 토론",
+    "phrases": [
+      "AI를 배우는",
+      "삼성 사장단,",
+      "청소년을 지키는",
+      "챗GPT,",
+      "오늘 열리는",
+      "개인정보 토론"
+    ]
+  },
+  "share": {
+    "title": "삼성 사장단이 챗GPT를 만든 올트먼과 AI를 공부했어요 외 2건 · 아이고 11월 1일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 1일 일요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-01.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "samsung-ai",
+      "tag": "일",
+      "color": "blue",
+      "label": "삼성 AI 공부"
+    },
+    {
+      "anchor": "teen-safety",
+      "tag": "안전",
+      "color": "red",
+      "label": "챗GPT 안전장치"
+    },
+    {
+      "anchor": "privacy-talk",
+      "tag": "생활",
+      "color": "green",
+      "label": "개인정보 토론"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "samsung-ai",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-01.html#samsung-ai",
+      "tag": "일",
+      "color": "blue",
+      "title": {
+        "text": "삼성 사장단이 챗GPT를 만든 올트먼과 AI를 공부했어요",
+        "phrases": [
+          "삼성 사장단이",
+          "챗GPT를 만든",
+          "올트먼과",
+          "AI를 공부했어요"
+        ]
+      },
+      "dek": {
+        "text": "모든 직원이 AI를 배우는 것이 목표예요.",
+        "phrases": [
+          "모든 직원이",
+          "AI를 배우는 것이",
+          "목표예요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_200737_d61cb544-7bac-47e9-8bc4-f91bcef2d34a.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_200737_d61cb544-7bac-47e9-8bc4-f91bcef2d34a.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "양복을 입은 동그란 어른들이 작은 학교 책상에 학생처럼 줄지어 앉아 노트북을 펴고 한 사람은 손을 들고 있고, 앞의 빈 칠판 옆에서 작은 흰 로봇이 막대를 들고 가르치는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-01-samsung-ai.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-01-samsung-ai.svg",
+        "viewBox": "0 0 800 460",
+        "title": "삼성 임원 AI 교육과 샘 올트먼 간담회",
+        "desc": "삼성은 10월 31일 경기도 용인 삼성인력개발원에서 전자, 금융, 바이오 회사의 사장단 50여 명이 오픈AI 샘 올트먼 최고경영자와 간담회를 했다고 밝혔다. 주제는 AI가 바꿀 다음 10년이었다. 사장단은 먼저 생성형 AI를 직접 써 보며 자기 업무 자료를 정리하는 실습을 했다. 6월부터 AI 교육을 받은 임원은 약 2,300명이고, 삼성은 2027년 2월까지 모든 직원의 AI 교육을 마칠 계획이다.",
+        "caption": {
+          "text": "회사 맨 위부터 AI 공부를 시작했어요.",
+          "phrases": [
+            "회사 맨 위부터",
+            "AI 공부를",
+            "시작했어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "삼성이 10월 31일 경기도 용인에서 특별한 모임을 열었어요. 전자, 금융, 바이오 회사의 사장단 50여 명이 모였어요. 챗GPT를 만든 오픈AI의 샘 올트먼 최고경영자를 불러 이야기를 나눴어요. 주제는 AI가 바꿀 다음 10년이었어요.",
+            "nobreak": [
+              "10월 31일",
+              "50여 명",
+              "10년"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "삼성은 회사 전체가 일하는 방식을 AI로 바꾸려 해요. 사장단은 모임 전에 AI를 직접 써 보는 수업도 들었어요. 자기 업무 자료를 AI로 정리해 보는 실습이었어요. 6월부터 AI 교육을 받은 임원은 약 2,300명이에요.",
+            "nobreak": [
+              "6월",
+              "2,300명"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "큰 회사들은 이제 직원 모두가 AI를 쓰는 것을 목표로 해요. 삼성은 2027년 2월까지 모든 직원의 AI 교육을 마치려 해요. 회사에 다닌다면 내 일에 AI를 어떻게 쓸지 조금씩 익혀 두면 좋아요. 처음에는 메일 정리나 회의 기록처럼 쉬운 일부터 해 보세요.",
+            "nobreak": [
+              "2027년 2월"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "뉴스1",
+          "date": "10월 31일",
+          "url": "https://www.news1.kr/industry/general-industry/6338607"
+        },
+        {
+          "name": "뉴스웍스",
+          "date": "10월 31일",
+          "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=901521"
+        },
+        {
+          "name": "뉴스핌",
+          "date": "10월 31일",
+          "url": "https://www.newspim.com/news/view/20261031000061"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_201035_7be68b70-a0bf-43d4-b16c-10a17a5b833e.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_201035_7be68b70-a0bf-43d4-b16c-10a17a5b833e.mp3"
+      }
+    },
+    {
+      "anchor": "teen-safety",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-01.html#teen-safety",
+      "tag": "안전",
+      "color": "red",
+      "title": {
+        "text": "챗GPT가 청소년에게 무기 이야기를 더 조심해요",
+        "phrases": [
+          "챗GPT가",
+          "청소년에게",
+          "무기 이야기를",
+          "더 조심해요"
+        ]
+      },
+      "dek": {
+        "text": "남을 해치는 이야기가 이어지면 대화를 끝내기도 해요.",
+        "phrases": [
+          "남을 해치는 이야기가",
+          "이어지면",
+          "대화를",
+          "끝내기도 해요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_200737_40ddde02-94f8-458e-b346-c7dfa187f523.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_200737_40ddde02-94f8-458e-b346-c7dfa187f523.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 흰 로봇이 커다란 공구 상자를 자물쇠로 다정하게 잠그고, 그 앞에서 책가방을 멘 어린 동그란 아이가 궁금한 듯 바라보며, 뒤쪽에서 동그란 보호자가 울리는 작은 종을 들고 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-01-teen-safety.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-01-teen-safety.svg",
+        "viewBox": "0 0 800 460",
+        "title": "챗GPT의 새 안전장치",
+        "desc": "오픈AI는 10월 30일(미국 시간) 챗GPT의 새 안전장치를 밝혔다. 18살 아래 청소년에게는 질문에 나쁜 뜻이 없어 보여도 무기와 보안 장치에 대한 실제 정보를 덜 알려 준다. 모든 사람에게는 남을 해치는 이야기를 계속하면 대화를 끝낼 수 있고, 여러 번이면 계정을 잠시 멈출 수 있다. 청소년 계정이 멈추면 보호자에게 알릴 계획이다. 앞으로 몇 주 동안 차례로 적용된다.",
+        "caption": {
+          "text": "위험한 정보는 청소년에게 더 단단히 막아요.",
+          "phrases": [
+            "위험한 정보는",
+            "청소년에게",
+            "더 단단히 막아요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "오픈AI가 10월 30일(미국 시간) 챗GPT의 새 안전장치를 밝혔어요. 18살 아래 청소년에게는 무기와 보안 장치에 대한 실제 정보를 덜 알려 줘요. 질문에 나쁜 뜻이 없어 보여도 마찬가지예요.",
+            "nobreak": [
+              "10월 30일",
+              "18살"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI와 나눈 대화가 실제로 남을 해치는 일로 이어지지 않게 하려는 거예요. 그래서 어른의 대화도 함께 살펴요. 남을 해치는 이야기를 계속하면 챗GPT가 대화를 끝낼 수 있어요. 이런 일이 여러 번이면 계정을 잠시 멈출 수도 있어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "이 변화는 앞으로 몇 주 동안 차례로 적용돼요. 오픈AI는 청소년으로 보이는 사람을 더 잘 알아보도록 나이 짐작 기능도 고쳤어요. 청소년 계정이 멈추면 연결된 보호자에게 알릴 계획이에요. 아이가 챗GPT를 쓴다면 보호자 계정을 연결해 두면 좋아요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "로이터",
+          "date": "10월 30일",
+          "url": "https://www.investing.com/news/stock-market-news/openai-to-limit-weapons-information-for-teens-on-chatgpt-in-violenceprevention-push-4988471"
+        },
+        {
+          "name": "AI 티엘디알",
+          "date": "10월 30일",
+          "url": "https://ai-tldr.dev/releases/openai-chatgpt-violence-safeguards-teen-weapons/"
+        },
+        {
+          "name": "AI타임스",
+          "date": "10월 31일",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216847"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_201035_a0e3816d-bd7a-4adb-82de-cc20f896cbc2.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_201035_a0e3816d-bd7a-4adb-82de-cc20f896cbc2.mp3"
+      }
+    },
+    {
+      "anchor": "privacy-talk",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-01.html#privacy-talk",
+      "tag": "생활",
+      "color": "green",
+      "title": {
+        "text": "AI 시대 개인정보, 국민 200명이 오늘 토론해요",
+        "phrases": [
+          "AI 시대 개인정보,",
+          "국민 200명이",
+          "오늘 토론해요"
+        ]
+      },
+      "dek": {
+        "text": "동의 받는 방식을 바꿀지가 큰 주제예요.",
+        "phrases": [
+          "동의 받는 방식을",
+          "바꿀지가",
+          "큰 주제예요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_200738_0b56b8b5-3f89-4db7-8ffa-23bc8a3012b1.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_200738_0b56b8b5-3f89-4db7-8ffa-23bc8a3012b1.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "아이와 할머니, 회사원까지 여러 나이의 동그란 사람들이 커다란 둥근 탁자에 둘러앉아 이야기하며 빈 카드를 들어 투표하고, 가운데에서 작은 흰 로봇이 작은 자물쇠가 달린 서류철을 들고 얌전히 기다리는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-01-privacy-talk.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-01-privacy-talk.svg",
+        "viewBox": "0 0 800 460",
+        "title": "AI 시대 개인정보 모두의 토론회",
+        "desc": "행정안전부와 개인정보보호위원회가 11월 1일 서울 연세대학교에서 세 번째 모두의 토론회를 연다. 국민 약 200명이 모여 AI 시대에 개인정보를 어떻게 지키고 쓸지 이야기한다. 그 전 2주 동안 온라인 토론에는 약 1,200명이 참여했다. 지금처럼 개인정보를 쓰기 전에 먼저 동의를 받을지, 먼저 알리고 언제든 거부할 수 있게 바꿀지가 큰 주제이다. 아직 정해진 것은 없다.",
+        "caption": {
+          "text": "내 정보를 어떻게 쓸지 국민에게 물어요.",
+          "phrases": [
+            "내 정보를",
+            "어떻게 쓸지",
+            "국민에게 물어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "오늘 11월 1일 오후 서울 연세대학교에서 '모두의 토론회'가 열려요. 행정안전부와 개인정보보호위원회가 함께 열어요. 국민 약 200명이 모여 AI 시대의 개인정보를 이야기해요. 그 전 2주 동안 온라인 토론에도 약 1,200명이 참여했어요.",
+            "nobreak": [
+              "11월 1일",
+              "200명",
+              "2주",
+              "1,200명"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI는 많은 자료를 배워야 더 똑똑해져요. 그런데 그 자료에는 내 이름이나 기록 같은 개인정보가 들어 있을 수 있어요. 지금은 개인정보를 쓰기 전에 먼저 동의를 받아요. 이것을 먼저 알리고, 싫으면 언제든 거부하는 방식으로 바꿀지가 큰 주제예요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "아직 정해진 것은 없어요. 정부는 토론에서 나온 목소리를 제도를 고치는 데 반영하겠다고 했어요. 토론은 유튜브로 생중계되고, 현장에서는 휴대폰으로 투표도 해요. 내 정보가 어떻게 쓰이면 좋을지 한 번 생각해 보는 기회예요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "헤럴드경제",
+          "date": "10월 31일",
+          "url": "https://biz.heraldcorp.com/article/10920902"
+        },
+        {
+          "name": "데일리안",
+          "date": "10월 29일",
+          "url": "https://www.dailian.co.kr/news/view/1707910/"
+        },
+        {
+          "name": "디지털데일리",
+          "date": "10월 29일",
+          "url": "https://www.ddaily.co.kr/page/view/2026102912115447927"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_201035_85a2855f-74df-4908-a65b-eca06f16833e.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261031_201035_85a2855f-74df-4908-a65b-eca06f16833e.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "사장단",
+      "meaning": {
+        "text": "여러 회사의 사장들을 함께 부르는 말",
+        "phrases": [
+          "여러 회사의",
+          "사장들을",
+          "함께 부르는 말"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "안전장치",
+      "meaning": {
+        "text": "위험한 일이 생기지 않게 막아 두는 장치",
+        "phrases": [
+          "위험한 일이",
+          "생기지 않게",
+          "막아 두는 장치"
+        ]
+      },
+      "color": "red"
+    },
+    {
+      "word": "개인정보",
+      "meaning": {
+        "text": "이름, 전화번호처럼 나를 알아볼 수 있는 정보",
+        "phrases": [
+          "이름, 전화번호처럼",
+          "나를 알아볼 수 있는",
+          "정보"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "동의",
+      "meaning": {
+        "text": "내 것을 써도 된다고 허락하는 일",
+        "phrases": [
+          "내 것을 써도 된다고",
+          "허락하는 일"
+        ]
+      },
+      "color": "yellow"
+    }
+  ]
+}
