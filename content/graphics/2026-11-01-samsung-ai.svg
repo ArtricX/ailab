@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">삼성 임원 AI 교육과 샘 올트먼 간담회</title>
+            <desc id="g1d">삼성은 10월 31일 경기도 용인 삼성인력개발원에서 전자, 금융, 바이오 회사의 사장단 50여 명이 오픈AI 샘 올트먼 최고경영자와 간담회를 했다고 밝혔다. 주제는 AI가 바꿀 다음 10년이었다. 사장단은 먼저 생성형 AI를 직접 써 보며 자기 업무 자료를 정리하는 실습을 했다. 6월부터 AI 교육을 받은 임원은 약 2,300명이고, 삼성은 2027년 2월까지 모든 직원의 AI 교육을 마칠 계획이다.</desc>
+            <text class="num" x="30" y="132" font-size="96" letter-spacing="-4">2,300명</text>
+            <text x="34" y="170" font-size="16" font-weight="800">6월부터 AI를 배운 삼성 임원 (약)</text>
+            <text class="grey" x="34" y="194" font-size="13.5">삼성 · 10월 31일 발표</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="48" rx="16"/>
+            <text x="194" y="252" font-size="14.5" font-weight="900" text-anchor="middle">6월 첫 임원 AI 집중 교육</text>
+            <rect class="f-paper" x="34" y="280" width="320" height="48" rx="16"/>
+            <text x="194" y="310" font-size="14.5" font-weight="900" text-anchor="middle">10월 31일 사장단 50여 명 간담회</text>
+            <rect class="f-blue" x="34" y="338" width="320" height="48" rx="16"/>
+            <text class="white" x="194" y="368" font-size="14.5" font-weight="900" text-anchor="middle">2027년 2월 전 직원 교육 목표</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">간담회 날은 이렇게 했어요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="48" rx="16"/>
+            <text x="600" y="104" font-size="14.5" font-weight="900" text-anchor="middle">생성형 AI를 직접 써 봐요</text>
+            <line class="line" x1="600" y1="126" x2="600" y2="136" stroke-width="3"/>
+            <path class="f-ink" d="M600 146 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="48" rx="16"/>
+            <text x="600" y="180" font-size="14.5" font-weight="900" text-anchor="middle">내 업무 자료를 AI로 정리해요</text>
+            <line class="line" x1="600" y1="202" x2="600" y2="212" stroke-width="3"/>
+            <path class="f-ink" d="M600 222 l-8 -12 h16z"/>
+            <rect class="f-blue" x="440" y="226" width="320" height="48" rx="16"/>
+            <text class="white" x="600" y="256" font-size="14.5" font-weight="900" text-anchor="middle">올트먼과 AI의 10년을 이야기해요</text>
+
+            <text x="440" y="318" font-size="15" font-weight="800">삼성이 함께 하는 일</text>
+            <text x="440" y="346" font-size="14.5" font-weight="700">회사마다 AI 전담 팀을 만들었어요</text>
+            <text x="440" y="370" font-size="14.5" font-weight="700">오픈AI에 메모리 칩 공급도 논의해요</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">사장부터 AI를 배워요</text>
+          </svg>

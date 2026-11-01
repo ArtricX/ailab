@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-01",
+    "title": "AI를 배우는|삼성 사장단,|청소년을 지키는|챗GPT,|오늘 열리는|개인정보 토론",
+    "summary": "삼성 사장단이|오픈AI의 샘 올트먼과|AI를 공부했어요.|챗GPT는 청소년에게|무기 정보를 더 조심하고,|오늘은 국민 200명이|개인정보를 토론해요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "일",
+        "color": "blue",
+        "anchor": "samsung-ai",
+        "title": "삼성 사장단이|챗GPT를 만든|올트먼과|AI를 공부했어요",
+        "dek": "모든 직원이|AI를 배우는 것이|목표예요.",
+        "illust": "assets/img/hf_20261031_200737_d61cb544-7bac-47e9-8bc4-f91bcef2d34a.webp",
+        "thumb": "assets/img/hf_20261031_200737_d61cb544-7bac-47e9-8bc4-f91bcef2d34a_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "red",
+        "anchor": "teen-safety",
+        "title": "챗GPT가|청소년에게|무기 이야기를|더 조심해요",
+        "dek": "남을 해치는 이야기가|이어지면|대화를|끝내기도 해요.",
+        "illust": "assets/img/hf_20261031_200737_40ddde02-94f8-458e-b346-c7dfa187f523.webp",
+        "thumb": "assets/img/hf_20261031_200737_40ddde02-94f8-458e-b346-c7dfa187f523_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "green",
+        "anchor": "privacy-talk",
+        "title": "AI 시대 개인정보,|국민 200명이|오늘 토론해요",
+        "dek": "동의 받는 방식을|바꿀지가|큰 주제예요.",
+        "illust": "assets/img/hf_20261031_200738_0b56b8b5-3f89-4db7-8ffa-23bc8a3012b1.webp",
+        "thumb": "assets/img/hf_20261031_200738_0b56b8b5-3f89-4db7-8ffa-23bc8a3012b1_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "사장단",
+        "meaning": "여러 회사의|사장들을|함께 부르는 말"
+      },
+      {
+        "word": "안전장치",
+        "meaning": "위험한 일이|생기지 않게|막아 두는 장치"
+      },
+      {
+        "word": "개인정보",
+        "meaning": "이름, 전화번호처럼|나를 알아볼 수 있는|정보"
+      },
+      {
+        "word": "동의",
+        "meaning": "내 것을 써도 된다고|허락하는 일"
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "title": "우주에서|시를 쓴 AI,|아직 드문|AI 배달 주문,|더 길어진|일자리 찾기",
     "summary": "구글이 우주에 띄운|AI 위성이|첫 시를 썼어요.|AI 비서가 대신 시킨|배달 주문은|수백 건뿐이었고,|AI 때문에 일을 잃으면|새 일 찾기가|더 오래 걸린대요.",
