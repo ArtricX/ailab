@@ -11,8 +11,8 @@
         "anchor": "school-ai",
         "title": "미국 학교 AI,|학생 정보로|배우면 안 돼요",
         "dek": "마이크로소프트와|교사 노조가 정한|약속이|시작됐어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261101_200530_56453b72-6fd4-4246-b1b6-478cea59ccae.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261101_200530_56453b72-6fd4-4246-b1b6-478cea59ccae_min.webp"
+        "illust": "assets/img/hf_20261101_200530_56453b72-6fd4-4246-b1b6-478cea59ccae.webp",
+        "thumb": "assets/img/hf_20261101_200530_56453b72-6fd4-4246-b1b6-478cea59ccae_min.webp"
       },
       {
         "tag": "생활",
@@ -20,8 +20,8 @@
         "anchor": "public-ai",
         "title": "정부 AI 서비스를|만들 팀에|새 단장이 왔어요",
         "dek": "회사에서 온 개발자들이|직접 만들어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261101_200531_d0e73715-0317-48a7-bd79-db2b0e53dce6.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261101_200531_d0e73715-0317-48a7-bd79-db2b0e53dce6_min.webp"
+        "illust": "assets/img/hf_20261101_200531_d0e73715-0317-48a7-bd79-db2b0e53dce6.webp",
+        "thumb": "assets/img/hf_20261101_200531_d0e73715-0317-48a7-bd79-db2b0e53dce6_min.webp"
       },
       {
         "tag": "일",
@@ -29,8 +29,8 @@
         "anchor": "super-agent",
         "title": "여러 AI가|한꺼번에 일하는|'슈퍼 에이전트'가|나왔어요",
         "dek": "사람은 목표를 말하고|결과만|확인해요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261101_200530_71c2fbfc-d13e-45b2-9b93-aa9bd3e08a95.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261101_200530_71c2fbfc-d13e-45b2-9b93-aa9bd3e08a95_min.webp"
+        "illust": "assets/img/hf_20261101_200530_71c2fbfc-d13e-45b2-9b93-aa9bd3e08a95.webp",
+        "thumb": "assets/img/hf_20261101_200530_71c2fbfc-d13e-45b2-9b93-aa9bd3e08a95_min.webp"
       }
     ],
     "keywords": [
