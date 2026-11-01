@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">마이크로소프트와 미국 교사 노조의 학교 AI 약속</title>
+            <desc id="g1d">마이크로소프트와 미국교사연맹은 9월 9일 학교 AI 안전·개인정보 기준을 발표했고, 이 기준은 미국 시간 11월 1일부터 학교와의 계약에 쓰인다. 지켜야 할 약속은 모두 10가지이다. 학생과 교사의 정보로 AI를 가르치면 안 되고, 학생 정보를 팔거나 광고에 쓰면 안 된다. 정을 붙이게 만드는 AI 친구 기능을 넣으면 안 되고, 학생을 따라다니며 살피면 안 된다. AI가 사람의 확인 없이 혼자 결정하면 안 된다. 어기면 학교는 계약을 끊고 손해를 갚으라고 할 수 있다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">10가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">학교 AI가 지켜야 할 약속</text>
+            <text class="grey" x="34" y="194" font-size="13.5">마이크로소프트·미국 교사 노조 · 미국 학교</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="48" rx="16"/>
+            <text x="194" y="252" font-size="14.5" font-weight="900" text-anchor="middle">9월 9일 약속을 발표했어요</text>
+            <line class="line" x1="194" y1="274" x2="194" y2="284" stroke-width="3"/>
+            <path class="f-ink" d="M194 294 l-8 -12 h16z"/>
+            <rect class="f-yellow" x="34" y="298" width="320" height="48" rx="16"/>
+            <text x="194" y="328" font-size="14.5" font-weight="900" text-anchor="middle">11월 1일 학교 계약에서 시작</text>
+            <text x="34" y="384" font-size="14.5" font-weight="700">어기면 학교가 계약을 끊고</text>
+            <text x="34" y="408" font-size="14.5" font-weight="700">손해를 갚으라고 할 수 있어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이런 것은 하면 안 돼요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">학생·교사 정보로 AI 가르치기</text>
+            <rect class="f-paper" x="440" y="128" width="320" height="44" rx="14"/>
+            <text x="600" y="156" font-size="14.5" font-weight="900" text-anchor="middle">학생 정보를 팔거나 광고에 쓰기</text>
+            <rect class="f-paper" x="440" y="182" width="320" height="44" rx="14"/>
+            <text x="600" y="210" font-size="14.5" font-weight="900" text-anchor="middle">정을 붙이게 하는 AI 친구</text>
+            <rect class="f-paper" x="440" y="236" width="320" height="44" rx="14"/>
+            <text x="600" y="264" font-size="14.5" font-weight="900" text-anchor="middle">학생을 따라다니며 살피기</text>
+            <rect class="f-yellow" x="440" y="290" width="320" height="44" rx="14"/>
+            <text x="600" y="318" font-size="14.5" font-weight="900" text-anchor="middle">사람 확인 없이 AI 혼자 정하기</text>
+
+            <text x="440" y="378" font-size="14.5" font-weight="700">아직은 마이크로소프트만 약속했어요</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">정보가 새면 72시간 안에 알려야 해요</text>
+          </svg>

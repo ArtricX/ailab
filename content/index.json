@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-02",
+      "title": "학생 정보를 지키는 학교 AI 약속, 정부 AI를 만들 새 단장, 한꺼번에 일하는 여러 AI",
+      "file": "content/2026-11-02.json",
+      "stories": [
+        {
+          "anchor": "school-ai",
+          "tag": "학교",
+          "color": "yellow",
+          "title": "미국 학교 AI, 학생 정보로 배우면 안 돼요"
+        },
+        {
+          "anchor": "public-ai",
+          "tag": "생활",
+          "color": "blue",
+          "title": "정부 AI 서비스를 만들 팀에 새 단장이 왔어요"
+        },
+        {
+          "anchor": "super-agent",
+          "tag": "일",
+          "color": "pink",
+          "title": "여러 AI가 한꺼번에 일하는 '슈퍼 에이전트'가 나왔어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-01",
       "title": "AI를 배우는 삼성 사장단, 청소년을 지키는 챗GPT, 오늘 열리는 개인정보 토론",
       "file": "content/2026-11-01.json",
