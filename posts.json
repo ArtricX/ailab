@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-02",
+    "title": "학생 정보를 지키는|학교 AI 약속,|정부 AI를 만들|새 단장,|한꺼번에 일하는|여러 AI",
+    "summary": "미국 학교에서|학생 정보로 AI를|가르치지 않는 약속이|시작됐어요.|정부 AI를 만들 팀에|새 단장이 왔고,|딥시크는 여러 AI가|함께 일하는 방식을|공개했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "학교",
+        "color": "yellow",
+        "anchor": "school-ai",
+        "title": "미국 학교 AI,|학생 정보로|배우면 안 돼요",
+        "dek": "마이크로소프트와|교사 노조가 정한|약속이|시작됐어요.",
+        "illust": "assets/img/hf_20261101_200530_56453b72-6fd4-4246-b1b6-478cea59ccae.webp",
+        "thumb": "assets/img/hf_20261101_200530_56453b72-6fd4-4246-b1b6-478cea59ccae_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "blue",
+        "anchor": "public-ai",
+        "title": "정부 AI 서비스를|만들 팀에|새 단장이 왔어요",
+        "dek": "회사에서 온 개발자들이|직접 만들어요.",
+        "illust": "assets/img/hf_20261101_200531_d0e73715-0317-48a7-bd79-db2b0e53dce6.webp",
+        "thumb": "assets/img/hf_20261101_200531_d0e73715-0317-48a7-bd79-db2b0e53dce6_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "pink",
+        "anchor": "super-agent",
+        "title": "여러 AI가|한꺼번에 일하는|'슈퍼 에이전트'가|나왔어요",
+        "dek": "사람은 목표를 말하고|결과만|확인해요.",
+        "illust": "assets/img/hf_20261101_200530_71c2fbfc-d13e-45b2-9b93-aa9bd3e08a95.webp",
+        "thumb": "assets/img/hf_20261101_200530_71c2fbfc-d13e-45b2-9b93-aa9bd3e08a95_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "교사 노조",
+        "meaning": "선생님들이|함께 뜻을 모으려고|만든 모임"
+      },
+      {
+        "word": "추진단",
+        "meaning": "나라의 일 하나를|맡아 밀고 나가는|팀"
+      },
+      {
+        "word": "에이전트",
+        "meaning": "시킨 일을|스스로 차례대로|해내는 AI"
+      },
+      {
+        "word": "개발자",
+        "meaning": "프로그램과|서비스를|만드는 사람"
+      }
+    ]
+  },
+  {
     "date": "2026-11-01",
     "title": "AI를 배우는|삼성 사장단,|청소년을 지키는|챗GPT,|오늘 열리는|개인정보 토론",
     "summary": "삼성 사장단이|오픈AI의 샘 올트먼과|AI를 공부했어요.|챗GPT는 청소년에게|무기 정보를 더 조심하고,|오늘은 국민 200명이|개인정보를 토론해요.",

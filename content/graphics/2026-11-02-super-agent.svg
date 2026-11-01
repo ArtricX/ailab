@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">딥시크 슈퍼 에이전트가 일하는 방식</title>
+            <desc id="g3d">중국의 AI 회사 딥시크는 10월 31일 여러 AI가 동시에 일하는 슈퍼 에이전트를 공개했다고 중국 언론을 인용한 보도가 11월 1일 나왔다. 딥시크는 한 사람이 동시에 챙길 수 있는 대화가 3~5개 정도라고 설명했다. 슈퍼 에이전트에서는 사람이 목표를 말하면 조정자 AI가 채팅과 메일에서 모은 일을 나누고, 실행자 AI 여러 개가 코드 검토와 기능 만들기 같은 일을 동시에 한다. 사람은 결과를 확인한다. 누가 언제 쓸 수 있는지는 아직 알려지지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">3~5개</text>
+            <text x="34" y="170" font-size="16" font-weight="800">한 사람이 한 번에 챙기는 대화</text>
+            <text class="grey" x="34" y="194" font-size="13.5">딥시크의 설명 · 10월 31일 공개</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="48" rx="16"/>
+            <text x="194" y="252" font-size="14.5" font-weight="900" text-anchor="middle">지금: AI 하나와 대화창 하나</text>
+            <rect class="f-paper" x="34" y="280" width="320" height="48" rx="16"/>
+            <text x="194" y="310" font-size="14.5" font-weight="900" text-anchor="middle">사람이 여러 창을 오가며 챙겨요</text>
+            <rect class="f-pink" x="34" y="338" width="320" height="48" rx="16"/>
+            <text x="194" y="368" font-size="14.5" font-weight="900" text-anchor="middle">새 방식: 여러 AI가 함께 일해요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">슈퍼 에이전트는 이렇게 일해요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">사람이 목표를 말해요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="130" stroke-width="3"/>
+            <path class="f-ink" d="M600 140 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="144" width="320" height="44" rx="14"/>
+            <text x="600" y="172" font-size="14.5" font-weight="900" text-anchor="middle">조정자 AI가 일을 나눠요</text>
+            <line class="line" x1="600" y1="192" x2="600" y2="200" stroke-width="3"/>
+            <path class="f-ink" d="M600 210 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="214" width="320" height="44" rx="14"/>
+            <text x="600" y="242" font-size="14.5" font-weight="900" text-anchor="middle">실행자 AI 여럿이 동시에 해요</text>
+            <line class="line" x1="600" y1="262" x2="600" y2="270" stroke-width="3"/>
+            <path class="f-ink" d="M600 280 l-8 -12 h16z"/>
+            <rect class="f-pink" x="440" y="284" width="320" height="44" rx="14"/>
+            <text x="600" y="312" font-size="14.5" font-weight="900" text-anchor="middle">사람은 결과를 확인해요</text>
+
+            <text x="440" y="370" font-size="14.5" font-weight="700">채팅과 메일에서 할 일을 모아요</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">누가 언제 쓸지는 아직 몰라요</text>
+          </svg>
