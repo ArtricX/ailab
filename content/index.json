@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-03",
+      "title": "앱 속에 숨은 가짜 사진 도구, 24시간 일하는 편의점 로봇, 몸짓을 읽는 로봇 AI",
+      "file": "content/2026-11-03.json",
+      "stories": [
+        {
+          "anchor": "fake-apps",
+          "tag": "안전",
+          "color": "red",
+          "title": "귀여운 앱 속에 가짜 사진 도구가 숨어 있었어요"
+        },
+        {
+          "anchor": "robot-store",
+          "tag": "일",
+          "color": "yellow",
+          "title": "로봇 6대가 편의점에서 24시간 일해요"
+        },
+        {
+          "anchor": "robot-rudy",
+          "tag": "생활",
+          "color": "blue",
+          "title": "사람 몸짓을 알아듣는 로봇 AI가 나왔어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-02",
       "title": "학생 정보를 지키는 학교 AI 약속, 정부 AI를 만들 새 단장, 한꺼번에 일하는 여러 AI",
       "file": "content/2026-11-02.json",

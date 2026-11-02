@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">크래프톤 로봇 AI 루디가 걸어온 길</title>
+            <desc id="g3d">크래프톤은 11월 2일 로봇용 AI 루디 0.2를 공개했다. 크래프톤의 로봇 연구 회사 루도 로보틱스가 만들었고, 미국 시간 10월 30일 미국 버클리 대학의 로봇 학회에서 처음 선보였다. 지난 8월에는 루디 0.1이 나왔고, 다음 목표는 보고 말하고 움직이는 일을 한 모델로 하는 루디 1.0이다. 루디 0.2는 몸짓 알아보기, 사람의 뜻과 반응 읽기, 일이 바뀌어도 앞뒤 기억하기, 움직이며 물건 다루기를 새로 익혔다. 언제 쓸 수 있는지는 아직 정해지지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">0.2</text>
+            <text x="34" y="170" font-size="16" font-weight="800">눈치를 배우는 로봇 AI '루디'</text>
+            <text class="grey" x="34" y="194" font-size="13.5">크래프톤 · 11월 2일 발표</text>
+
+            <rect class="f-paper" x="34" y="222" width="320" height="48" rx="16"/>
+            <text x="194" y="252" font-size="14.5" font-weight="900" text-anchor="middle">8월: 루디 0.1이 나왔어요</text>
+            <line class="line" x1="194" y1="274" x2="194" y2="284" stroke-width="3"/>
+            <path class="f-ink" d="M194 294 l-8 -12 h16z"/>
+            <rect class="f-blue" x="34" y="298" width="320" height="48" rx="16"/>
+            <text class="white" x="194" y="328" font-size="14.5" font-weight="900" text-anchor="middle">10월 30일: 루디 0.2 첫선</text>
+            <line class="line" x1="194" y1="350" x2="194" y2="360" stroke-width="3"/>
+            <path class="f-ink" d="M194 370 l-8 -12 h16z"/>
+            <rect class="f-paper" x="34" y="374" width="320" height="48" rx="16"/>
+            <text x="194" y="404" font-size="14.5" font-weight="900" text-anchor="middle">다음 목표: 루디 1.0</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">루디 0.2가 새로 익힌 것</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">몸짓 알아보기</text>
+            <rect class="f-paper" x="440" y="128" width="320" height="44" rx="14"/>
+            <text x="600" y="156" font-size="14.5" font-weight="900" text-anchor="middle">사람의 뜻과 반응 읽기</text>
+            <rect class="f-paper" x="440" y="182" width="320" height="44" rx="14"/>
+            <text x="600" y="210" font-size="14.5" font-weight="900" text-anchor="middle">일이 바뀌어도 앞뒤 기억하기</text>
+            <rect class="f-blue" x="440" y="236" width="320" height="44" rx="14"/>
+            <text class="white" x="600" y="264" font-size="14.5" font-weight="900" text-anchor="middle">움직이며 물건 다루기</text>
+
+            <text x="440" y="320" font-size="14.5" font-weight="700">미국 버클리 대학의</text>
+            <text x="440" y="344" font-size="14.5" font-weight="700">로봇 학회에서 처음 보여 줬어요</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">언제 쓸 수 있을지는 아직 몰라요</text>
+          </svg>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">편의점에서 24시간 일하는 로봇 6대</title>
+            <desc id="g2d">중국 로봇 회사 애지봇은 중국 시간 11월 2일 오전 10시부터 로봇 6대를 편의점에서 24시간 동안 쉬지 않고 일하게 하고, 그 모습을 생중계했다. 로봇들은 정식 직원이 되기 전의 수습 직원으로 소개됐다. 맡은 일은 손님 맞이, 커피 만들기, 따뜻한 음식 내주기, 물건 꺼내고 채우기, 탁자 닦기 다섯 가지이다. 사람이 얼마나 도왔는지와 로봇이 얼마나 잘했는지는 아직 알려지지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">24시간</text>
+            <text x="34" y="170" font-size="16" font-weight="800">로봇 6대가 쉬지 않고 일해요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">중국 로봇 회사 애지봇 · 11월 2일 시작</text>
+
+            <circle class="f-yellow" cx="58" cy="244" r="22"/>
+            <circle class="f-yellow" cx="117" cy="244" r="22"/>
+            <circle class="f-yellow" cx="176" cy="244" r="22"/>
+            <circle class="f-yellow" cx="235" cy="244" r="22"/>
+            <circle class="f-yellow" cx="294" cy="244" r="22"/>
+            <circle class="f-yellow" cx="353" cy="244" r="22"/>
+            <text x="34" y="300" font-size="14.5" font-weight="700">6대 모두 '수습 직원'이에요</text>
+
+            <rect class="f-paper" x="34" y="320" width="320" height="48" rx="16"/>
+            <text x="194" y="350" font-size="14.5" font-weight="900" text-anchor="middle">중국 시간 11월 2일 오전 10시</text>
+            <line class="line" x1="194" y1="372" x2="194" y2="382" stroke-width="3"/>
+            <path class="f-ink" d="M194 392 l-8 -12 h16z"/>
+            <rect class="f-yellow" x="34" y="396" width="320" height="48" rx="16"/>
+            <text x="194" y="426" font-size="14.5" font-weight="900" text-anchor="middle">24시간 내내 생중계해요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">로봇이 맡은 일 다섯 가지</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">손님 맞이하기</text>
+            <rect class="f-paper" x="440" y="128" width="320" height="44" rx="14"/>
+            <text x="600" y="156" font-size="14.5" font-weight="900" text-anchor="middle">커피 만들기</text>
+            <rect class="f-paper" x="440" y="182" width="320" height="44" rx="14"/>
+            <text x="600" y="210" font-size="14.5" font-weight="900" text-anchor="middle">따뜻한 음식 내주기</text>
+            <rect class="f-paper" x="440" y="236" width="320" height="44" rx="14"/>
+            <text x="600" y="264" font-size="14.5" font-weight="900" text-anchor="middle">물건 꺼내고 채우기</text>
+            <rect class="f-yellow" x="440" y="290" width="320" height="44" rx="14"/>
+            <text x="600" y="318" font-size="14.5" font-weight="900" text-anchor="middle">탁자 닦기</text>
+
+            <text x="440" y="378" font-size="14.5" font-weight="700">사람이 얼마나 도왔는지는 안 밝혔어요</text>
+            <text class="red" x="440" y="414" font-size="14.5" font-weight="900">얼마나 잘했는지는 아직 몰라요</text>
+          </svg>
