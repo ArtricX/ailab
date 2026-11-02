@@ -11,8 +11,8 @@
         "anchor": "fake-apps",
         "title": "귀여운 앱 속에|가짜 사진 도구가|숨어 있었어요",
         "dek": "앱 400여 개가|겉모습과 다른 일을|몰래 했어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261102_195631_94d36581-e5ab-470a-8a5e-91a8bb1c73b6.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261102_195631_94d36581-e5ab-470a-8a5e-91a8bb1c73b6_min.webp"
+        "illust": "assets/img/hf_20261102_195631_94d36581-e5ab-470a-8a5e-91a8bb1c73b6.webp",
+        "thumb": "assets/img/hf_20261102_195631_94d36581-e5ab-470a-8a5e-91a8bb1c73b6_min.webp"
       },
       {
         "tag": "일",
@@ -20,8 +20,8 @@
         "anchor": "robot-store",
         "title": "로봇 6대가|편의점에서|24시간 일해요",
         "dek": "커피 만들기부터|탁자 닦기까지|맡았어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261102_195632_d4ef5d07-dd6d-494a-9326-6f98d2db2467.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261102_195632_d4ef5d07-dd6d-494a-9326-6f98d2db2467_min.webp"
+        "illust": "assets/img/hf_20261102_195632_d4ef5d07-dd6d-494a-9326-6f98d2db2467.webp",
+        "thumb": "assets/img/hf_20261102_195632_d4ef5d07-dd6d-494a-9326-6f98d2db2467_min.webp"
       },
       {
         "tag": "생활",
@@ -29,8 +29,8 @@
         "anchor": "robot-rudy",
         "title": "사람 몸짓을|알아듣는|로봇 AI가 나왔어요",
         "dek": "게임 회사|크래프톤이|'루디 0.2'를|공개했어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261102_195631_82d9a688-cc94-4538-877d-75b5200b5541.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261102_195631_82d9a688-cc94-4538-877d-75b5200b5541_min.webp"
+        "illust": "assets/img/hf_20261102_195631_82d9a688-cc94-4538-877d-75b5200b5541.webp",
+        "thumb": "assets/img/hf_20261102_195631_82d9a688-cc94-4538-877d-75b5200b5541_min.webp"
       }
     ],
     "keywords": [
