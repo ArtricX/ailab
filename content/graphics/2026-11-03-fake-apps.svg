@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">평범한 앱처럼 꾸미고 가짜 사진 도구를 숨긴 앱들</title>
+            <desc id="g1d">미국 잡지 와이어드는 미국 시간 11월 2일, 평범한 앱처럼 꾸미고 나쁜 가짜 사진 도구를 숨긴 앱과 웹사이트가 400개가 넘는다고 보도했다. 앱들은 반려동물 사진 꾸미기, 외국어 공부, 운동 코치처럼 보였지만 숨겨 둔 화면에서 허락 없이 남의 사진으로 가짜 사진을 만들 수 있었다. 취재 뒤 메타는 페이지 약 1만 5천 개와 광고 계정 약 1만 1,600개를 막았고, 애플은 앱 19개를 지웠다. 애플은 앱이 심사를 통과한 뒤 몰래 바뀌었다고 설명했다. 막대 길이는 개수에 맞췄다.</desc>
+            <text class="num" x="30" y="128" font-size="88" letter-spacing="-4">400여 개</text>
+            <text x="34" y="166" font-size="16" font-weight="800">나쁜 기능을 숨긴 앱과 사이트</text>
+            <text class="grey" x="34" y="190" font-size="13.5">와이어드 보도 · 미국 시간 11월 2일</text>
+
+            <rect class="f-paper" x="34" y="212" width="320" height="38" rx="14"/>
+            <text x="194" y="237" font-size="14.5" font-weight="900" text-anchor="middle">반려동물 사진 꾸미기</text>
+            <rect class="f-paper" x="34" y="258" width="320" height="38" rx="14"/>
+            <text x="194" y="283" font-size="14.5" font-weight="900" text-anchor="middle">외국어 공부</text>
+            <rect class="f-paper" x="34" y="304" width="320" height="38" rx="14"/>
+            <text x="194" y="329" font-size="14.5" font-weight="900" text-anchor="middle">운동 코치</text>
+            <line class="line" x1="194" y1="346" x2="194" y2="356" stroke-width="3"/>
+            <path class="f-ink" d="M194 366 l-8 -12 h16z"/>
+            <rect class="f-red" x="34" y="370" width="320" height="48" rx="16"/>
+            <text class="white" x="194" y="400" font-size="14.5" font-weight="900" text-anchor="middle">속에는 숨겨 둔 가짜 사진 도구</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">알려진 뒤 이렇게 막았어요</text>
+            <text x="440" y="92" font-size="14" font-weight="800">메타가 막은 페이지 약 1만 5천 개</text>
+            <rect class="f-ink" x="440" y="100" width="300" height="22" rx="8"/>
+            <text x="440" y="148" font-size="14" font-weight="800">메타가 막은 광고 계정 약 1만 1,600개</text>
+            <rect class="f-paper" x="440" y="156" width="232" height="22" rx="8"/>
+            <text class="grey" x="440" y="202" font-size="13.5">막대 길이는 개수에 맞췄어요</text>
+
+            <rect class="f-paper" x="440" y="222" width="320" height="48" rx="16"/>
+            <text x="600" y="252" font-size="14.5" font-weight="900" text-anchor="middle">애플은 앱 19개를 지웠어요</text>
+            <text x="440" y="306" font-size="14.5" font-weight="700">구글은 이미 대부분 지운 뒤였어요</text>
+
+            <text x="440" y="352" font-size="15" font-weight="800">애플의 설명</text>
+            <text x="440" y="380" font-size="14.5" font-weight="900">심사를 통과한 뒤에</text>
+            <text x="440" y="404" font-size="14.5" font-weight="900">앱 속 내용이 몰래 바뀌었어요</text>
+          </svg>
