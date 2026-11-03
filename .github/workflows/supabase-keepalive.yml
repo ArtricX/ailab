@@ -22,8 +22,7 @@ jobs:
         run: |
           status=$(curl -s -o /dev/null -w "%{http_code}" \
             "$SUPABASE_URL/rest/v1/$TABLE?select=*&limit=1" \
-            -H "apikey: $SUPABASE_ANON_KEY" \
-            -H "Authorization: Bearer $SUPABASE_ANON_KEY")
+            -H "apikey: $SUPABASE_ANON_KEY")
           echo "응답 코드: $status"
           # 200이면 정상. 권한 설정(RLS) 때문에 빈 결과가 와도 요청 자체는 활동으로 기록됩니다.
           if [ "$status" -ge 500 ] || [ "$status" = "000" ]; then
