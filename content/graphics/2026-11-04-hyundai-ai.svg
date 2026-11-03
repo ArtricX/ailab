@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">현대차 일부 연구 부서의 바깥 AI 사용 멈춤</title>
+            <desc id="g2d">11월 3일 보도에 따르면 현대차그룹은 10월 말부터 자율주행, 로봇, 미래 기술처럼 나라의 핵심 기술을 다루는 일부 연구 부서에서 바깥 회사의 AI 사용을 멈췄다. 멈춘 AI는 챗GPT, 클로드, 큐원, 딥시크 4가지이다. 구글의 젬마처럼 회사 안 컴퓨터에 직접 설치해 쓰는 일부 AI는 쓸 수 있다. 회사는 기술 자료가 밖으로 나가는 것을 막고 보안을 다시 살피려는 잠시 동안의 조치라고 설명했다. 언제 다시 쓸지는 정해지지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">4가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">잠시 멈춘 바깥 AI</text>
+            <text class="grey" x="34" y="194" font-size="13.5">11월 3일 보도 · 10월 말부터</text>
+
+            <rect class="f-paper" x="34" y="216" width="155" height="44" rx="14"/>
+            <text x="111" y="244" font-size="14.5" font-weight="900" text-anchor="middle">챗GPT</text>
+            <rect class="f-paper" x="199" y="216" width="155" height="44" rx="14"/>
+            <text x="276" y="244" font-size="14.5" font-weight="900" text-anchor="middle">클로드</text>
+            <rect class="f-paper" x="34" y="270" width="155" height="44" rx="14"/>
+            <text x="111" y="298" font-size="14.5" font-weight="900" text-anchor="middle">큐원</text>
+            <rect class="f-paper" x="199" y="270" width="155" height="44" rx="14"/>
+            <text x="276" y="298" font-size="14.5" font-weight="900" text-anchor="middle">딥시크</text>
+
+            <text x="34" y="352" font-size="15" font-weight="800">계속 쓸 수 있는 것</text>
+            <rect class="f-red" x="34" y="368" width="320" height="48" rx="16"/>
+            <text class="white" x="194" y="398" font-size="14.5" font-weight="900" text-anchor="middle">회사 안 컴퓨터에 설치한 AI</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">멈춘 곳</text>
+            <rect class="f-paper" x="440" y="74" width="100" height="44" rx="14"/>
+            <text x="490" y="102" font-size="14.5" font-weight="900" text-anchor="middle">자율주행</text>
+            <rect class="f-paper" x="550" y="74" width="100" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">로봇</text>
+            <rect class="f-paper" x="660" y="74" width="100" height="44" rx="14"/>
+            <text x="710" y="102" font-size="14.5" font-weight="900" text-anchor="middle">미래 기술</text>
+
+            <text x="440" y="160" font-size="15" font-weight="800">왜 멈췄을까요</text>
+            <rect class="f-paper" x="440" y="176" width="320" height="44" rx="14"/>
+            <text x="600" y="204" font-size="14.5" font-weight="900" text-anchor="middle">바깥 AI에 넣은 자료가</text>
+            <line class="line" x1="600" y1="224" x2="600" y2="232" stroke-width="3"/>
+            <path class="f-ink" d="M600 242 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="246" width="320" height="44" rx="14"/>
+            <text x="600" y="274" font-size="14.5" font-weight="900" text-anchor="middle">회사 밖에서 처리되고 남을 수 있어요</text>
+
+            <text x="440" y="336" font-size="14.5" font-weight="700">일부 직원은 비밀번호도</text>
+            <text x="440" y="360" font-size="14.5" font-weight="700">새로 바꾸게 했어요</text>
+            <text x="440" y="414" font-size="14.5" font-weight="900">다시 쓸 날은 아직 안 정했어요</text>
+          </svg>

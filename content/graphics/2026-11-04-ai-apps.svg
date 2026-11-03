@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">10월 우리나라 AI 앱 한 달 사용자 수</title>
+            <desc id="g3d">앱 분석 회사 아이지에이웍스 모바일인덱스가 11월 3일 내놓은 자료에 따르면, 10월 한 달 동안 휴대폰에서 챗GPT 앱을 쓴 사람은 약 1,876만 명으로 9월보다 77만 명 늘었다. 클로드는 약 209만 명으로 9월보다 22.6% 늘었고, 에스케이텔레콤의 에이닷은 약 107만 명으로 10.4% 줄었다. 조사한 AI 앱 사용자 10명 중 9명이 챗GPT를 썼다. 왼쪽 막대 길이는 사용자 수에, 오른쪽 막대 길이는 늘거나 준 비율에 맞췄다.</desc>
+            <text class="num" x="30" y="128" font-size="88" letter-spacing="-4">1,876만</text>
+            <text x="34" y="166" font-size="16" font-weight="800">10월에 챗GPT 앱을 쓴 사람</text>
+            <text class="grey" x="34" y="190" font-size="13.5">모바일인덱스 · 11월 3일 발표</text>
+
+            <text x="34" y="236" font-size="14" font-weight="800">챗GPT 약 1,876만 명</text>
+            <rect class="f-green" x="34" y="244" width="320" height="22" rx="8"/>
+            <text x="34" y="296" font-size="14" font-weight="800">클로드 약 209만 명</text>
+            <rect class="f-ink" x="34" y="304" width="36" height="22" rx="8"/>
+            <text x="34" y="356" font-size="14" font-weight="800">에이닷 약 107만 명</text>
+            <rect class="f-paper" x="34" y="364" width="18" height="22" rx="8"/>
+            <text class="grey" x="34" y="416" font-size="13.5">막대 길이는 사용자 수에 맞췄어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">9월과 비교하면</text>
+            <text x="440" y="92" font-size="14" font-weight="800">클로드 22.6% 늘었어요</text>
+            <rect class="f-green" x="440" y="100" width="300" height="22" rx="8"/>
+            <text x="440" y="152" font-size="14" font-weight="800">챗GPT 4.3% 늘었어요 (77만 명)</text>
+            <rect class="f-ink" x="440" y="160" width="57" height="22" rx="8"/>
+            <text x="440" y="212" font-size="14" font-weight="800">에이닷 10.4% 줄었어요</text>
+            <rect class="f-paper" x="440" y="220" width="138" height="22" rx="8"/>
+            <text class="grey" x="440" y="266" font-size="13.5">막대 길이는 늘거나 준 비율에 맞췄어요</text>
+
+            <rect class="f-paper" x="440" y="296" width="320" height="48" rx="16"/>
+            <text x="600" y="326" font-size="14.5" font-weight="900" text-anchor="middle">AI 앱 사용자 10명 중 9명은 챗GPT</text>
+            <text class="red" x="440" y="404" font-size="14.5" font-weight="900">우리나라 AI 앱은 아직 뒤처져요</text>
+          </svg>
