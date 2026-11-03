@@ -1,0 +1,32 @@
+# 아이고 Supabase 일시정지 방지
+# 위치: 저장소의 .github/workflows/supabase-keepalive.yml
+# 필요한 GitHub Secrets: SUPABASE_URL, SUPABASE_ANON_KEY
+
+name: Supabase keep-alive
+
+on:
+  schedule:
+    - cron: "17 0 * * *"   # 매일 한국시간 오전 9시 17분
+  workflow_dispatch:        # 수동 실행 버튼
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Supabase에 가벼운 요청 보내기
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          # 앱에서 쓰는 테이블 이름으로 바꿔 주세요 (예: profiles)
+          TABLE: saved_stories
+        run: |
+          status=$(curl -s -o /dev/null -w "%{http_code}" \
+            "$SUPABASE_URL/rest/v1/$TABLE?select=*&limit=1" \
+            -H "apikey: $SUPABASE_ANON_KEY" \
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY")
+          echo "응답 코드: $status"
+          # 200이면 정상. 권한 설정(RLS) 때문에 빈 결과가 와도 요청 자체는 활동으로 기록됩니다.
+          if [ "$status" -ge 500 ] || [ "$status" = "000" ]; then
+            echo "Supabase 응답 없음 — 이미 일시정지됐는지 대시보드를 확인하세요."
+            exit 1
+          fi
