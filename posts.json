@@ -11,8 +11,8 @@
         "anchor": "netflix-ai",
         "title": "넷플릭스 AI가|기분 따라|볼거리를 골라 줘요",
         "dek": "'가볍게', '무섭게' 같은|주제를 고르면|추천해 줘요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261103_200321_aa58c1a3-674f-4056-aa61-25a286a112c1.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261103_200321_aa58c1a3-674f-4056-aa61-25a286a112c1_min.webp"
+        "illust": "assets/img/hf_20261103_200321_aa58c1a3-674f-4056-aa61-25a286a112c1.webp",
+        "thumb": "assets/img/hf_20261103_200321_aa58c1a3-674f-4056-aa61-25a286a112c1_min.webp"
       },
       {
         "tag": "안전",
@@ -20,8 +20,8 @@
         "anchor": "hyundai-ai",
         "title": "현대차가|일부 연구 부서에서|바깥 AI를 멈췄어요",
         "dek": "중요한 기술이|밖으로 새지 않게|하려는 거예요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261103_200320_5543b584-87f2-4999-920f-ab81be2bc43c.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261103_200320_5543b584-87f2-4999-920f-ab81be2bc43c_min.webp"
+        "illust": "assets/img/hf_20261103_200320_5543b584-87f2-4999-920f-ab81be2bc43c.webp",
+        "thumb": "assets/img/hf_20261103_200320_5543b584-87f2-4999-920f-ab81be2bc43c_min.webp"
       },
       {
         "tag": "일",
@@ -29,8 +29,8 @@
         "anchor": "ai-apps",
         "title": "우리나라에서|AI 앱을 쓰는 사람이|또 늘었어요",
         "dek": "10월 한 달 동안|챗GPT를 쓴 사람이|1,876만 명이에요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261103_200321_b7d339e6-7d57-4a2f-9c9c-59bfe4b006ee.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261103_200321_b7d339e6-7d57-4a2f-9c9c-59bfe4b006ee_min.webp"
+        "illust": "assets/img/hf_20261103_200321_b7d339e6-7d57-4a2f-9c9c-59bfe4b006ee.webp",
+        "thumb": "assets/img/hf_20261103_200321_b7d339e6-7d57-4a2f-9c9c-59bfe4b006ee_min.webp"
       }
     ],
     "keywords": [
