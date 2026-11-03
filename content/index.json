@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-04",
+      "title": "기분 따라 골라 주는 넷플릭스 AI, 바깥 AI를 멈춘 현대차, 더 늘어난 AI 앱 사용자",
+      "file": "content/2026-11-04.json",
+      "stories": [
+        {
+          "anchor": "netflix-ai",
+          "tag": "생활",
+          "color": "pink",
+          "title": "넷플릭스 AI가 기분 따라 볼거리를 골라 줘요"
+        },
+        {
+          "anchor": "hyundai-ai",
+          "tag": "안전",
+          "color": "red",
+          "title": "현대차가 일부 연구 부서에서 바깥 AI를 멈췄어요"
+        },
+        {
+          "anchor": "ai-apps",
+          "tag": "일",
+          "color": "green",
+          "title": "우리나라에서 AI 앱을 쓰는 사람이 또 늘었어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-03",
       "title": "앱 속에 숨은 가짜 사진 도구, 24시간 일하는 편의점 로봇, 몸짓을 읽는 로봇 AI",
       "file": "content/2026-11-03.json",
