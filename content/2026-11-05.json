@@ -1,0 +1,369 @@
+{
+  "schema": 1,
+  "date": "2026-11-05",
+  "weekday": "목",
+  "url": "https://artricx.github.io/ailab/posts/2026-11-05.html",
+  "minutes": 5,
+  "title": {
+    "text": "검색도 함께 꺼지는 학교 AI, 말투로 잡는 보이스피싱, 일주일 만에 설계한 AI 기계",
+    "phrases": [
+      "검색도 함께 꺼지는",
+      "학교 AI,",
+      "말투로 잡는",
+      "보이스피싱,",
+      "일주일 만에",
+      "설계한 AI 기계"
+    ]
+  },
+  "share": {
+    "title": "학교가 구글 AI를 끄면 검색도 함께 꺼져요 외 2건 · 아이고 11월 5일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 5일 목요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-05.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "school-search",
+      "tag": "학교",
+      "color": "yellow",
+      "label": "학교 AI와 검색"
+    },
+    {
+      "anchor": "voice-phishing",
+      "tag": "안전",
+      "color": "red",
+      "label": "보이스피싱 AI"
+    },
+    {
+      "anchor": "ai-device",
+      "tag": "일",
+      "color": "blue",
+      "label": "AI가 만든 기계"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "school-search",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-05.html#school-search",
+      "tag": "학교",
+      "color": "yellow",
+      "title": {
+        "text": "학교가 구글 AI를 끄면 검색도 함께 꺼져요",
+        "phrases": [
+          "학교가",
+          "구글 AI를 끄면",
+          "검색도 함께 꺼져요"
+        ]
+      },
+      "dek": {
+        "text": "미국 초·중·고 학생 계정에 2027년부터 적용돼요.",
+        "phrases": [
+          "미국 초·중·고",
+          "학생 계정에",
+          "2027년부터 적용돼요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200246_387b63ea-91a3-4f62-8a5c-73c370ad8837.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200246_387b63ea-91a3-4f62-8a5c-73c370ad8837.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "책상에 노트북을 펴 놓은 동그란 학생 옆에서 교장 선생님이 커다란 스위치 하나를 들고 있고, 그 스위치에서 이어진 줄이 끈으로 함께 묶인 커다란 돋보기와 반짝이는 별에 닿아 있으며, 작은 흰 로봇이 별 위에 앉아 어깨를 으쓱하는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-05-school-search.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-05-school-search.svg",
+        "viewBox": "0 0 800 460",
+        "title": "구글의 새 학교용 AI 설정",
+        "desc": "구글은 미국 시간 11월 3일, 2027년부터 초·중·고 학생 계정에서 제미나이, 제미나이 노트북, 클래스룸 속 제미나이, 구글 검색 4가지를 처음에는 꺼 두고, 학교 관리자가 직접 켜야 쓸 수 있게 한다고 밝혔다. 학교는 이 서비스를 하나씩 골라 켤 수 있다. 하지만 구글 검색은 AI 기능과 떼어 놓을 수 없어서, 학교가 AI를 모두 막으면 학생은 검색도 쓸 수 없다. 검색을 켜면 답을 바로 주기보다 한 단계씩 생각하도록 돕는 '가이드 학습'을 쓸 수 있고, 이 방식은 이달 안에 미국 일부 학교에서 먼저 시험한다.",
+        "caption": {
+          "text": "검색과 AI가 한 몸처럼 묶여 있어요.",
+          "phrases": [
+            "검색과 AI가",
+            "한 몸처럼",
+            "묶여 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글이 미국 시간 11월 3일, 학교에서 쓰는 AI 설정을 바꾼다고 밝혔어요. 2027년부터 미국 초·중·고 학생 계정에서는 AI 비서 제미나이와 구글 검색이 처음에 꺼져 있어요. 학교 관리자가 직접 켜야 학생이 쓸 수 있어요. 학교는 서비스를 하나씩 골라 켤 수 있어요.",
+            "nobreak": [
+              "11월 3일",
+              "2027년"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "학생에게 AI를 쓰게 할지 학교가 더 고르고 싶다는 요청이 많았어요. 그런데 구글은 지금 검색과 AI가 깊이 묶여 있다고 설명했어요. 그래서 검색을 켜면 AI 요약 같은 기능도 함께 따라와요. 학교가 AI를 모두 막으면 학생은 구글 검색도 쓸 수 없어요. 이 점 때문에 학교에 고르기를 떠민다는 비판도 나왔어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "이번 설정은 미국 초·중·고 학생 계정에 먼저 적용돼요. 우리나라 학교에 언제 적용될지는 아직 발표가 없어요. 구글은 답을 바로 알려 주기보다 한 단계씩 생각하게 돕는 '가이드 학습' 검색을 이달 안에 미국 일부 학교에서 먼저 시험해요. 아이가 AI로 숙제를 할 때도, 답만 받기보다 풀이 과정을 함께 보는 게 좋아요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "나인투파이브구글",
+          "date": "11월 3일",
+          "url": "https://9to5google.com/2026/11/03/google-search-ai-guided-learning-changes/"
+        },
+        {
+          "name": "블룸버그·야후 파이낸스",
+          "date": "11월 3일",
+          "url": "https://finance.yahoo.com/technology/ai/articles/google-lets-schools-turn-off-202217016.html"
+        },
+        {
+          "name": "미디어나마",
+          "date": "11월 4일",
+          "url": "https://www.medianama.com/2026/11/223-google-schools-switch-off-gemini/"
+        },
+        {
+          "name": "안드로이드 센트럴",
+          "date": "11월 4일",
+          "url": "https://www.androidcentral.com/apps-software/school-google-and-ai"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200526_9e6e830f-57d6-481d-be5b-b0c86cb533fb.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200526_9e6e830f-57d6-481d-be5b-b0c86cb533fb.mp3"
+      }
+    },
+    {
+      "anchor": "voice-phishing",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-05.html#voice-phishing",
+      "tag": "안전",
+      "color": "red",
+      "title": {
+        "text": "말투와 말 빠르기까지 AI가 듣고 보이스피싱을 잡아요",
+        "phrases": [
+          "말투와 말 빠르기까지",
+          "AI가 듣고",
+          "보이스피싱을 잡아요"
+        ]
+      },
+      "dek": {
+        "text": "통화 내용은 휴대폰 밖으로 나가지 않아요.",
+        "phrases": [
+          "통화 내용은",
+          "휴대폰 밖으로",
+          "나가지 않아요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200237_b1f45178-49e3-4f46-a542-c60256c8a2b8.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200237_b1f45178-49e3-4f46-a542-c60256c8a2b8.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 할머니가 휴대폰을 귀에 대고 있는데 휴대폰에서 소리 물결과 함께 낚싯줄과 바늘이 슬그머니 나오고, 어깨에 앉은 작은 흰 로봇이 큰 헤드폰을 쓰고 귀 기울이며 작은 가위로 낚싯줄을 자르는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-05-voice-phishing.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-05-voice-phishing.svg",
+        "viewBox": "0 0 800 460",
+        "title": "KT 보이스피싱 탐지 3.0이 듣는 것",
+        "desc": "KT는 11월 4일 'AI 보이스피싱 탐지 3.0'을 내놓았다. 지금까지는 대화 내용, 범인 목소리 알아보기, AI로 만든 가짜 목소리 찾기를 했고, 이번에는 대화의 앞뒤 흐름, 말 빠르기, 말투 3가지를 더 살핀다. 분석은 통화 내용을 밖으로 보내지 않고 휴대폰 안에서 바로 하며, 위험하다고 본 까닭도 함께 알려 준다. 11월 5일부터는 내 보안 상태를 점수로 보여 주는 '안심365 리포트'도 시작한다.",
+        "caption": {
+          "text": "무슨 말을 하는지에 더해 어떻게 말하는지도 살펴요.",
+          "phrases": [
+            "무슨 말을 하는지에 더해",
+            "어떻게 말하는지도",
+            "살펴요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "통신 회사 KT가 11월 4일 'AI 보이스피싱 탐지 3.0'을 내놓았어요. 보이스피싱은 전화로 사람을 속여 돈을 빼앗는 범죄예요. 지금까지 AI는 대화 내용과 범인 목소리, AI로 만든 가짜 목소리를 살폈어요. 이번에는 대화의 앞뒤 흐름과 말 빠르기, 말투까지 함께 들어요.",
+            "nobreak": [
+              "11월 4일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "속이는 사람은 다급하게 몰아붙이거나 겁을 주는 말투를 자주 써요. 말의 내용만 보면 놓칠 수 있는 신호를 더 잡으려는 거예요. AI는 위험하다고 본 까닭도 함께 알려 줘요. 그래서 전화를 받는 사람이 더 빨리 알아채고 대처할 수 있어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "분석은 휴대폰 안에서 바로 이뤄져요. KT는 통화 내용을 밖으로 보내지 않는다고 설명했어요. 11월 5일부터는 내 보안 상태를 점수로 보여 주는 '안심365 리포트'도 시작해요. KT닷컴의 '안심365' 메뉴에서 볼 수 있어요. 어떤 서비스든 돈을 보내라는 전화를 받으면 일단 끊고, 가족이나 기관에 직접 다시 걸어 확인하세요.",
+            "nobreak": [
+              "11월 5일"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "서울경제",
+          "date": "11월 4일",
+          "url": "https://www.sedaily.com/article/20109958"
+        },
+        {
+          "name": "뉴스핌",
+          "date": "11월 4일",
+          "url": "https://www.newspim.com/news/view/20261104000201"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200525_637d5711-38d9-4673-b6af-8bd8cb6d398a.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200525_637d5711-38d9-4673-b6af-8bd8cb6d398a.mp3"
+      }
+    },
+    {
+      "anchor": "ai-device",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-05.html#ai-device",
+      "tag": "일",
+      "color": "blue",
+      "title": {
+        "text": "AI가 일주일도 안 돼 작은 기계를 설계했어요",
+        "phrases": [
+          "AI가",
+          "일주일도 안 돼",
+          "작은 기계를 설계했어요"
+        ]
+      },
+      "dek": {
+        "text": "오픈AI 직원 두 명이 AI와 함께 만든 기계예요.",
+        "phrases": [
+          "오픈AI 직원 두 명이",
+          "AI와 함께",
+          "만든 기계예요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200244_e91a2796-c8a1-4f57-bab0-fa0d52f4c2ec.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200244_e91a2796-c8a1-4f57-bab0-fa0d52f4c2ec.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 흰 로봇이 의자 위에 서서 작은 화면과 큰 버튼이 달린 동그란 기계의 설계도를 그리고, 옆에서 동그란 기술자 두 명이 완성된 동그란 기계를 뿌듯하게 들고 있으며, 벽에는 일곱 칸 달력이 걸려 있고 바닥에 구겨진 종이가 놓인 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-05-ai-device.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-05-ai-device.svg",
+        "viewBox": "0 0 800 460",
+        "title": "오픈AI가 AI로 설계한 작은 기계",
+        "desc": "오픈AI는 미국 시간 11월 3일, 하드웨어 기술자 두 명이 부업처럼 자사 AI를 써서 코덱스와 연결되는 작은 기계를 설계했다고 밝혔다. AI는 겉 틀, 회로판, 기계를 움직이는 프로그램, 화면 구성을 일주일이 안 되는 동안 설계했다. 공장은 한 달이 안 되어 시제품을 조금 만들었지만, AI가 공장에서 만들 때 지켜야 할 조건을 다 챙기지 못해 여러 번 고쳐야 했다. 오픈AI 하드웨어 팀이 AI를 쓰는 양은 2월보다 23배 늘었다. 오른쪽 막대 길이는 7일과 30일에 맞췄다.",
+        "caption": {
+          "text": "AI가 눈에 보이는 물건까지 설계하기 시작했어요.",
+          "phrases": [
+            "AI가",
+            "눈에 보이는 물건까지",
+            "설계하기 시작했어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "챗GPT를 만든 오픈AI가 미국 시간 11월 3일 재미있는 실험을 소개했어요. 기계를 만드는 기술자 두 명이 회사의 AI와 함께 작은 기계를 설계했어요. 오픈AI의 코딩 AI 코덱스와 연결되는 기계예요. 겉 틀과 회로판, 기계를 움직이는 프로그램까지 일주일이 안 되는 동안 설계했어요.",
+            "nobreak": [
+              "11월 3일",
+              "두 명"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "기계 하나를 설계하려면 보통 여러 사람이 오래 일해야 해요. 오픈AI는 AI가 글이나 프로그램을 넘어 실제 물건 설계도 도울 수 있다는 걸 보여 주려 해요. 회사 안 하드웨어 팀이 AI를 쓰는 양도 2월보다 23배 늘었어요. 공장은 한 달이 안 되어 시제품을 조금 만들었어요.",
+            "nobreak": [
+              "2월",
+              "23배"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "아직 완벽하지는 않아요. AI가 공장에서 만들 때 지켜야 할 크기 차이나 조립 방법을 다 챙기지 못했어요. 그래서 여러 번 고쳐야 했어요. 앞으로 작은 가게나 회사도 AI와 함께 새 물건을 더 빨리 만들어 볼 수 있을 거예요. 다만 마지막 확인은 여전히 사람이 해야 해요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "오픈AI",
+          "date": "11월 3일",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/"
+        },
+        {
+          "name": "인터레스팅 엔지니어링",
+          "date": "11월 3일",
+          "url": "https://interestingengineering.com/ai-robotics/openai-gpt-6-hardware-design-prototype"
+        },
+        {
+          "name": "AI 위클리",
+          "date": "11월 4일",
+          "url": "https://aiweekly.co/alerts/openai-gpt-6-astra-designed-a-codex-companion-device-in-a-week"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200526_af21a798-ea86-4a2f-8a0d-b22f852ca79e.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_200526_af21a798-ea86-4a2f-8a0d-b22f852ca79e.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "기본 설정",
+      "meaning": {
+        "text": "내가 바꾸기 전에 처음부터 정해져 있는 상태",
+        "phrases": [
+          "내가 바꾸기 전에",
+          "처음부터",
+          "정해져 있는 상태"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "보이스피싱",
+      "meaning": {
+        "text": "전화로 사람을 속여 돈이나 정보를 빼앗는 범죄",
+        "phrases": [
+          "전화로 사람을 속여",
+          "돈이나 정보를",
+          "빼앗는 범죄"
+        ]
+      },
+      "color": "red"
+    },
+    {
+      "word": "온디바이스 AI",
+      "meaning": {
+        "text": "인터넷 너머가 아니라 내 기기 안에서 바로 일하는 AI",
+        "phrases": [
+          "인터넷 너머가 아니라",
+          "내 기기 안에서",
+          "바로 일하는 AI"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "시제품",
+      "meaning": {
+        "text": "많이 만들기 전에 시험 삼아 먼저 만든 물건",
+        "phrases": [
+          "많이 만들기 전에",
+          "시험 삼아",
+          "먼저 만든 물건"
+        ]
+      },
+      "color": "blue"
+    }
+  ]
+}

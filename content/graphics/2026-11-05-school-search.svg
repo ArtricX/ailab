@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">구글의 새 학교용 AI 설정</title>
+            <desc id="g1d">구글은 미국 시간 11월 3일, 2027년부터 초·중·고 학생 계정에서 제미나이, 제미나이 노트북, 클래스룸 속 제미나이, 구글 검색 4가지를 처음에는 꺼 두고, 학교 관리자가 직접 켜야 쓸 수 있게 한다고 밝혔다. 학교는 이 서비스를 하나씩 골라 켤 수 있다. 하지만 구글 검색은 AI 기능과 떼어 놓을 수 없어서, 학교가 AI를 모두 막으면 학생은 검색도 쓸 수 없다. 검색을 켜면 답을 바로 주기보다 한 단계씩 생각하도록 돕는 '가이드 학습'을 쓸 수 있고, 이 방식은 이달 안에 미국 일부 학교에서 먼저 시험한다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">4가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">처음엔 꺼 두는 학생 서비스</text>
+            <text class="grey" x="34" y="194" font-size="13.5">구글 · 미국 시간 11월 3일 발표</text>
+
+            <rect class="f-yellow" x="34" y="216" width="155" height="44" rx="14"/>
+            <text x="111" y="244" font-size="14.5" font-weight="900" text-anchor="middle">제미나이</text>
+            <rect class="f-yellow" x="199" y="216" width="155" height="44" rx="14"/>
+            <text x="276" y="244" font-size="14.5" font-weight="900" text-anchor="middle">제미나이 노트북</text>
+            <rect class="f-yellow" x="34" y="270" width="155" height="44" rx="14"/>
+            <text x="111" y="298" font-size="14.5" font-weight="900" text-anchor="middle">클래스룸 속 AI</text>
+            <rect class="f-yellow" x="199" y="270" width="155" height="44" rx="14"/>
+            <text x="276" y="298" font-size="14.5" font-weight="900" text-anchor="middle">구글 검색</text>
+
+            <text x="34" y="352" font-size="14.5" font-weight="700">학교 관리자가 하나씩</text>
+            <text x="34" y="376" font-size="14.5" font-weight="700">골라서 켜야 쓸 수 있어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">학교가 고르는 길</text>
+            <rect class="f-yellow" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">검색을 켜면 AI 기능도 함께 켜져요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="130" stroke-width="3"/>
+            <path class="f-ink" d="M600 140 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="144" width="320" height="44" rx="14"/>
+            <text x="600" y="172" font-size="14.5" font-weight="900" text-anchor="middle">한 단계씩 돕는 '가이드 학습'</text>
+
+            <rect class="f-paper" x="440" y="224" width="320" height="44" rx="14"/>
+            <text x="600" y="252" font-size="14.5" font-weight="900" text-anchor="middle">AI를 모두 막으면</text>
+            <line class="line" x1="600" y1="272" x2="600" y2="280" stroke-width="3"/>
+            <path class="f-ink" d="M600 290 l-8 -12 h16z"/>
+            <rect class="f-red" x="440" y="294" width="320" height="44" rx="14"/>
+            <text class="white" x="600" y="322" font-size="14.5" font-weight="900" text-anchor="middle">학생은 검색도 못 써요</text>
+
+            <text x="440" y="384" font-size="14.5" font-weight="700">2027년부터 미국 초·중·고</text>
+            <text x="440" y="408" font-size="14.5" font-weight="700">학생 계정에 적용해요</text>
+          </svg>
