@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">오픈AI가 AI로 설계한 작은 기계</title>
+            <desc id="g3d">오픈AI는 미국 시간 11월 3일, 하드웨어 기술자 두 명이 부업처럼 자사 AI를 써서 코덱스와 연결되는 작은 기계를 설계했다고 밝혔다. AI는 겉 틀, 회로판, 기계를 움직이는 프로그램, 화면 구성을 일주일이 안 되는 동안 설계했다. 공장은 한 달이 안 되어 시제품을 조금 만들었지만, AI가 공장에서 만들 때 지켜야 할 조건을 다 챙기지 못해 여러 번 고쳐야 했다. 오픈AI 하드웨어 팀이 AI를 쓰는 양은 2월보다 23배 늘었다. 오른쪽 막대 길이는 7일과 30일에 맞췄다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">1주일</text>
+            <text x="34" y="170" font-size="16" font-weight="800">AI가 설계에 걸린 시간(그보다 짧게)</text>
+            <text class="grey" x="34" y="194" font-size="13.5">오픈AI · 미국 시간 11월 3일 발표</text>
+
+            <text x="34" y="236" font-size="15" font-weight="800">AI가 설계한 것</text>
+            <rect class="f-blue" x="34" y="252" width="155" height="44" rx="14"/>
+            <text x="111" y="280" font-size="14.5" font-weight="900" text-anchor="middle">겉 틀</text>
+            <rect class="f-blue" x="199" y="252" width="155" height="44" rx="14"/>
+            <text x="276" y="280" font-size="14.5" font-weight="900" text-anchor="middle">회로판</text>
+            <rect class="f-blue" x="34" y="306" width="155" height="44" rx="14"/>
+            <text x="111" y="334" font-size="14.5" font-weight="900" text-anchor="middle">움직이는 프로그램</text>
+            <rect class="f-blue" x="199" y="306" width="155" height="44" rx="14"/>
+            <text x="276" y="334" font-size="14.5" font-weight="900" text-anchor="middle">화면 구성</text>
+
+            <text x="34" y="392" font-size="14.5" font-weight="700">기술자 두 명이 부업처럼</text>
+            <text x="34" y="416" font-size="14.5" font-weight="700">AI와 함께 만들었어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">걸린 시간</text>
+            <text x="440" y="92" font-size="14" font-weight="800">설계 일주일 안</text>
+            <rect class="f-blue" x="440" y="100" width="70" height="22" rx="8"/>
+            <text x="440" y="152" font-size="14" font-weight="800">공장 시제품 한 달 안</text>
+            <rect class="f-ink" x="440" y="160" width="300" height="22" rx="8"/>
+            <text class="grey" x="440" y="206" font-size="13.5">막대 길이는 7일과 30일에 맞췄어요</text>
+
+            <text x="440" y="252" font-size="15" font-weight="800">AI를 쓰는 양</text>
+            <text x="440" y="282" font-size="14.5" font-weight="700">하드웨어 팀에서</text>
+            <text x="440" y="306" font-size="14.5" font-weight="700">2월보다 23배 늘었어요</text>
+
+            <text class="red" x="440" y="372" font-size="14.5" font-weight="900">공장에서 여러 번 고쳐야 했어요</text>
+            <text x="440" y="398" font-size="14.5" font-weight="700">만들 때 지킬 조건을</text>
+            <text x="440" y="422" font-size="14.5" font-weight="700">AI가 다 챙기지 못했어요</text>
+          </svg>

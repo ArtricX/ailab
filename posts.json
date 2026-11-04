@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-05",
+    "title": "검색도 함께 꺼지는|학교 AI,|말투로 잡는|보이스피싱,|일주일 만에|설계한 AI 기계",
+    "summary": "구글은 미국 학교가|AI를 모두 끄면|학생 검색도|함께 꺼진다고 밝혔어요.|KT는 말투까지 듣는 AI로|보이스피싱을 잡고,|오픈AI 직원 두 명은|AI와 함께|작은 기계를 설계했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "학교",
+        "color": "yellow",
+        "anchor": "school-search",
+        "title": "학교가|구글 AI를 끄면|검색도 함께 꺼져요",
+        "dek": "미국 초·중·고|학생 계정에|2027년부터 적용돼요.",
+        "illust": "assets/img/hf_20261104_200246_387b63ea-91a3-4f62-8a5c-73c370ad8837.webp",
+        "thumb": "assets/img/hf_20261104_200246_387b63ea-91a3-4f62-8a5c-73c370ad8837_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "red",
+        "anchor": "voice-phishing",
+        "title": "보이스피싱,|이제 AI가|말투로도 잡아요",
+        "dek": "통화 내용은|휴대폰 밖으로|나가지 않아요.",
+        "illust": "assets/img/hf_20261104_200237_b1f45178-49e3-4f46-a542-c60256c8a2b8.webp",
+        "thumb": "assets/img/hf_20261104_200237_b1f45178-49e3-4f46-a542-c60256c8a2b8_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "blue",
+        "anchor": "ai-device",
+        "title": "AI가|일주일도 안 돼|작은 기계를|설계했어요",
+        "dek": "오픈AI 직원 두 명이|AI와 함께|만든 기계예요.",
+        "illust": "assets/img/hf_20261104_200244_e91a2796-c8a1-4f57-bab0-fa0d52f4c2ec.webp",
+        "thumb": "assets/img/hf_20261104_200244_e91a2796-c8a1-4f57-bab0-fa0d52f4c2ec_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "기본 설정",
+        "meaning": "내가 바꾸기 전에|처음부터|정해져 있는 상태"
+      },
+      {
+        "word": "보이스피싱",
+        "meaning": "전화로 사람을 속여|돈이나 정보를|빼앗는 범죄"
+      },
+      {
+        "word": "온디바이스 AI",
+        "meaning": "인터넷 너머가 아니라|내 기기 안에서|바로 일하는 AI"
+      },
+      {
+        "word": "시제품",
+        "meaning": "많이 만들기 전에|시험 삼아|먼저 만든 물건"
+      }
+    ]
+  },
+  {
     "date": "2026-11-04",
     "title": "기분 따라|골라 주는|넷플릭스 AI,|바깥 AI를 멈춘|현대차,|더 늘어난|AI 앱 사용자",
     "summary": "넷플릭스가|기분에 맞춰|볼거리를 골라 주는|AI 화면을 시험해요.|현대차는 일부 연구 부서에서|바깥 AI를 잠시 멈췄고,|10월 챗GPT 앱 사용자는|1,876만 명이 됐어요.",

@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-05",
+      "title": "검색도 함께 꺼지는 학교 AI, 말투로 잡는 보이스피싱, 일주일 만에 설계한 AI 기계",
+      "file": "content/2026-11-05.json",
+      "stories": [
+        {
+          "anchor": "school-search",
+          "tag": "학교",
+          "color": "yellow",
+          "title": "학교가 구글 AI를 끄면 검색도 함께 꺼져요"
+        },
+        {
+          "anchor": "voice-phishing",
+          "tag": "안전",
+          "color": "red",
+          "title": "보이스피싱, 이제 AI가 말투로도 잡아요"
+        },
+        {
+          "anchor": "ai-device",
+          "tag": "일",
+          "color": "blue",
+          "title": "AI가 일주일도 안 돼 작은 기계를 설계했어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-04",
       "title": "기분 따라 골라 주는 넷플릭스 AI, 바깥 AI를 멈춘 현대차, 더 늘어난 AI 앱 사용자",
       "file": "content/2026-11-04.json",

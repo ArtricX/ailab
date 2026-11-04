@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">KT 보이스피싱 탐지 3.0이 듣는 것</title>
+            <desc id="g2d">KT는 11월 4일 'AI 보이스피싱 탐지 3.0'을 내놓았다. 지금까지는 대화 내용, 범인 목소리 알아보기, AI로 만든 가짜 목소리 찾기를 했고, 이번에는 대화의 앞뒤 흐름, 말 빠르기, 말투 3가지를 더 살핀다. 분석은 통화 내용을 밖으로 보내지 않고 휴대폰 안에서 바로 하며, 위험하다고 본 까닭도 함께 알려 준다. 11월 5일부터는 내 보안 상태를 점수로 보여 주는 '안심365 리포트'도 시작한다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">3가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">이번에 AI가 더 듣는 것</text>
+            <text class="grey" x="34" y="194" font-size="13.5">KT · 11월 4일 발표</text>
+
+            <rect class="f-red" x="34" y="216" width="100" height="44" rx="14"/>
+            <text class="white" x="84" y="244" font-size="14.5" font-weight="900" text-anchor="middle">앞뒤 흐름</text>
+            <rect class="f-pink" x="144" y="216" width="100" height="44" rx="14"/>
+            <text x="194" y="244" font-size="14.5" font-weight="900" text-anchor="middle">말 빠르기</text>
+            <rect class="f-pink" x="254" y="216" width="100" height="44" rx="14"/>
+            <text x="304" y="244" font-size="14.5" font-weight="900" text-anchor="middle">말투</text>
+
+            <text x="34" y="306" font-size="15" font-weight="800">원래 하던 것</text>
+            <rect class="f-paper" x="34" y="322" width="100" height="44" rx="14"/>
+            <text x="84" y="350" font-size="14.5" font-weight="900" text-anchor="middle">대화 내용</text>
+            <rect class="f-paper" x="144" y="322" width="100" height="44" rx="14"/>
+            <text x="194" y="350" font-size="14.5" font-weight="900" text-anchor="middle">범인 목소리</text>
+            <rect class="f-paper" x="254" y="322" width="100" height="44" rx="14"/>
+            <text x="304" y="350" font-size="14.5" font-weight="900" text-anchor="middle">가짜 목소리</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 지켜 줘요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">수상한 전화가 걸려 와요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="130" stroke-width="3"/>
+            <path class="f-ink" d="M600 140 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="144" width="320" height="44" rx="14"/>
+            <text x="600" y="172" font-size="14.5" font-weight="900" text-anchor="middle">휴대폰 안에서 AI가 바로 들어요</text>
+            <line class="line" x1="600" y1="192" x2="600" y2="200" stroke-width="3"/>
+            <path class="f-ink" d="M600 210 l-8 -12 h16z"/>
+            <rect class="f-pink" x="440" y="214" width="320" height="44" rx="14"/>
+            <text x="600" y="242" font-size="14.5" font-weight="900" text-anchor="middle">위험한 까닭과 함께 알려 줘요</text>
+
+            <text x="440" y="300" font-size="15" font-weight="800">11월 5일부터</text>
+            <text x="440" y="328" font-size="14.5" font-weight="700">'안심365 리포트'가 내 보안</text>
+            <text x="440" y="352" font-size="14.5" font-weight="700">상태를 점수로 보여 줘요</text>
+            <text class="grey" x="440" y="404" font-size="13.5">통화 내용은 밖으로 보내지 않아요</text>
+          </svg>
