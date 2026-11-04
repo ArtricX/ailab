@@ -141,11 +141,11 @@
       "tag": "안전",
       "color": "red",
       "title": {
-        "text": "말투와 말 빠르기까지 AI가 듣고 보이스피싱을 잡아요",
+        "text": "보이스피싱, 이제 AI가 말투로도 잡아요",
         "phrases": [
-          "말투와 말 빠르기까지",
-          "AI가 듣고",
-          "보이스피싱을 잡아요"
+          "보이스피싱,",
+          "이제 AI가",
+          "말투로도 잡아요"
         ]
       },
       "dek": {
@@ -161,7 +161,7 @@
         "url": "https://artricx.github.io/ailab/assets/img/hf_20261104_200237_b1f45178-49e3-4f46-a542-c60256c8a2b8.webp",
         "width": 1600,
         "height": 1195,
-        "alt": "동그란 할머니가 휴대폰을 귀에 대고 있는데 휴대폰에서 소리 물결과 함께 낚싯줄과 바늘이 슬그머니 나오고, 어깨에 앉은 작은 흰 로봇이 큰 헤드폰을 쓰고 귀 기울이며 작은 가위로 낚싯줄을 자르는 그림"
+        "alt": "동그란 할머니가 휴대폰을 귀에 대고 있는데 휴대폰에서 소리 물결과 함께 낚싯줄과 바늘이 슬그머니 나오고, 어깨에 앉은 작은 흰 로봇이 큰 헤드폰을 쓰고 귀 기울이며 작은 가위를 들고 줄을 끊으려는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-11-05-voice-phishing.svg",
@@ -217,8 +217,8 @@
         }
       ],
       "audio": {
-        "src": "assets/audio/hf_20261104_200525_637d5711-38d9-4673-b6af-8bd8cb6d398a.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261104_200525_637d5711-38d9-4673-b6af-8bd8cb6d398a.mp3"
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_202252_8c00d966-81ac-4091-b391-ce3e65f0d066.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261104_202252_8c00d966-81ac-4091-b391-ce3e65f0d066.mp3"
       }
     },
     {
@@ -231,7 +231,8 @@
         "phrases": [
           "AI가",
           "일주일도 안 돼",
-          "작은 기계를 설계했어요"
+          "작은 기계를",
+          "설계했어요"
         ]
       },
       "dek": {
