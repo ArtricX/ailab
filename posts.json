@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-06",
+    "title": "움직이는 그림|만드는 챗GPT,|불꽃축제|지키는 AI,|빵 세는|AI 계산대",
+    "summary": "이제 챗GPT로|움직이는 그림을|만들 수 있어요.|120만 명이 모이는|부산불꽃축제에서는|AI가 통신을 지키고,|빵을 알아보는|AI 계산대도|빠르게 늘고 있어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "창작",
+        "color": "pink",
+        "anchor": "gif-maker",
+        "title": "챗GPT로|움직이는 그림을|만들 수 있어요",
+        "dek": "말로 설명하거나|사진 한 장만|올리면 돼요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "blue",
+        "anchor": "fireworks-network",
+        "title": "120만 명 모이는|불꽃축제,|AI가 통신을 지켜요",
+        "dek": "11월 7일|부산 광안리 바닷가에서|열려요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "yellow",
+        "anchor": "bread-checkout",
+        "title": "빵을 올리면|AI가 1~2초 만에|알아봐요",
+        "dek": "AI 계산대를 쓰는 빵집이|1년 새|9배 가까이 늘었어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "GIF",
+        "meaning": "여러 장의 그림을|이어 붙여|움직이게 만든 그림 파일"
+      },
+      {
+        "word": "기지국",
+        "meaning": "휴대폰 전파를|주고받게 해 주는|통신 시설"
+      },
+      {
+        "word": "체감품질",
+        "meaning": "쓰는 사람이|실제로 느끼는|서비스의 좋고 나쁨"
+      },
+      {
+        "word": "비전 AI",
+        "meaning": "카메라로 본 모습을|알아보는 AI"
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "title": "검색도 함께 꺼지는|학교 AI,|말투로 잡는|보이스피싱,|일주일 만에|설계한 AI 기계",
     "summary": "구글은 미국 학교가|AI를 모두 끄면|학생 검색도|함께 꺼진다고 밝혔어요.|KT는 말투까지 듣는 AI로|보이스피싱을 잡고,|오픈AI 직원 두 명은|AI와 함께|작은 기계를 설계했어요.",

@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-06",
+      "title": "움직이는 그림 만드는 챗GPT, 불꽃축제 지키는 AI, 빵 세는 AI 계산대",
+      "file": "content/2026-11-06.json",
+      "stories": [
+        {
+          "anchor": "gif-maker",
+          "tag": "창작",
+          "color": "pink",
+          "title": "챗GPT로 움직이는 그림을 만들 수 있어요"
+        },
+        {
+          "anchor": "fireworks-network",
+          "tag": "생활",
+          "color": "blue",
+          "title": "120만 명 모이는 불꽃축제, AI가 통신을 지켜요"
+        },
+        {
+          "anchor": "bread-checkout",
+          "tag": "일",
+          "color": "yellow",
+          "title": "빵을 올리면 AI가 1~2초 만에 알아봐요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-05",
       "title": "검색도 함께 꺼지는 학교 AI, 말투로 잡는 보이스피싱, 일주일 만에 설계한 AI 기계",
       "file": "content/2026-11-05.json",

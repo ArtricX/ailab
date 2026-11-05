@@ -1,0 +1,387 @@
+{
+  "schema": 1,
+  "date": "2026-11-06",
+  "weekday": "금",
+  "url": "https://artricx.github.io/ailab/posts/2026-11-06.html",
+  "minutes": 5,
+  "title": {
+    "text": "움직이는 그림 만드는 챗GPT, 불꽃축제 지키는 AI, 빵 세는 AI 계산대",
+    "phrases": [
+      "움직이는 그림",
+      "만드는 챗GPT,",
+      "불꽃축제",
+      "지키는 AI,",
+      "빵 세는",
+      "AI 계산대"
+    ]
+  },
+  "share": {
+    "title": "챗GPT로 움직이는 그림을 만들 수 있어요 외 2건 · 아이고 11월 6일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 6일 금요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-06.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "gif-maker",
+      "tag": "창작",
+      "color": "pink",
+      "label": "움직이는 그림"
+    },
+    {
+      "anchor": "fireworks-network",
+      "tag": "생활",
+      "color": "blue",
+      "label": "불꽃축제 통신"
+    },
+    {
+      "anchor": "bread-checkout",
+      "tag": "일",
+      "color": "yellow",
+      "label": "AI 빵 계산대"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "gif-maker",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-06.html#gif-maker",
+      "tag": "창작",
+      "color": "pink",
+      "title": {
+        "text": "챗GPT로 움직이는 그림을 만들 수 있어요",
+        "phrases": [
+          "챗GPT로",
+          "움직이는 그림을",
+          "만들 수 있어요"
+        ]
+      },
+      "dek": {
+        "text": "말로 설명하거나 사진 한 장만 올리면 돼요.",
+        "phrases": [
+          "말로 설명하거나",
+          "사진 한 장만",
+          "올리면 돼요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 휴대폰을 들고 있고, 화면에서 춤추는 고양이가 한 장씩 조금씩 다르게 그려진 종이 장면들이 부채처럼 펼쳐져 나오며, 어깨에 앉은 작은 흰 로봇이 그 종이를 한 장씩 넘기는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-06-gif-maker.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-06-gif-maker.svg",
+        "viewBox": "0 0 800 460",
+        "title": "챗GPT 새 그림 기능 이미지 2.6",
+        "desc": "오픈AI는 미국 시간 11월 4일 이미지 2.6을 내놓았다. 챗GPT와 코덱스, 개발자용 서비스를 합쳐 일주일에 40억 장이 넘는 그림이 만들어지며, 9월의 30억 장보다 10억 장 늘었다. 왼쪽 막대 길이는 30억과 40억에 맞췄다. 그림을 만드는 속도는 이전 버전보다 50% 빨라졌다. 오른쪽은 GIF를 만드는 순서다. 장면을 글로 설명하거나 사진을 올리면, AI가 조금씩 다른 그림을 이어 붙여 움직이는 GIF를 만들고, 빠르기를 바꾸거나 한 장면씩 고칠 수 있다. 무료 이용자를 포함한 모든 이용자에게 차례로 열리고 있다.",
+        "caption": {
+          "text": "조금씩 다른 그림을 빠르게 넘기면 움직이는 그림이 돼요.",
+          "phrases": [
+            "조금씩 다른 그림을",
+            "빠르게 넘기면",
+            "움직이는 그림이 돼요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "챗GPT를 만든 오픈AI가 미국 시간 11월 4일 새 그림 기능 '이미지 2.6'을 내놓았어요. 이제 챗GPT에서 움직이는 그림 파일인 GIF를 만들 수 있어요. 원하는 장면을 글로 설명하거나 사진을 올리면 돼요. 춤추는 고양이를 부탁하면, 조금씩 다른 고양이 그림을 이어 붙여 움직이게 만들어 줘요.",
+            "nobreak": [
+              "11월 4일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "사람들은 이미 챗GPT로 아주 많은 그림을 만들고 있어요. 오픈AI는 일주일에 40억 장이 넘는 그림이 만들어진다고 밝혔어요. 9월보다 10억 장 늘었어요. 새 버전은 그림을 만드는 속도가 이전보다 50% 빨라졌어요. 같은 캐릭터를 여러 번 고쳐도 모습이 더 잘 유지돼요.",
+            "nobreak": [
+              "40억 장",
+              "9월",
+              "10억 장",
+              "50%"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "무료 이용자를 포함해 모든 챗GPT 이용자가 웹과 휴대폰에서 쓸 수 있어요. 다만 GIF 기능은 차례로 열리고 있어서 아직 안 보이는 사람도 있어요. 만든 GIF는 움직이는 빠르기를 바꾸거나 한 장면씩 고칠 수 있어요. 생일 축하 카드나 가게 홍보 그림에 써 볼 만해요. 다른 사람 사진으로 만들 때는 꼭 먼저 허락을 받으세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "더 디코더",
+          "date": "11월 4일",
+          "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/"
+        },
+        {
+          "name": "AI타임스",
+          "date": "11월 5일",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217038"
+        },
+        {
+          "name": "오픈AI 커뮤니티",
+          "date": "11월 4일",
+          "url": "https://community.openai.com/t/images-upgraded-introducing-chatgpt-images-2-6/1412901"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200524_5858ccb0-b93a-4ff6-97e4-4557b737c3ad.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200524_5858ccb0-b93a-4ff6-97e4-4557b737c3ad.mp3"
+      }
+    },
+    {
+      "anchor": "fireworks-network",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-06.html#fireworks-network",
+      "tag": "생활",
+      "color": "blue",
+      "title": {
+        "text": "120만 명 모이는 불꽃축제, AI가 통신을 지켜요",
+        "phrases": [
+          "120만 명 모이는",
+          "불꽃축제,",
+          "AI가 통신을 지켜요"
+        ]
+      },
+      "dek": {
+        "text": "11월 7일 부산 광안리 바닷가에서 열려요.",
+        "phrases": [
+          "11월 7일",
+          "부산 광안리 바닷가에서",
+          "열려요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "밤하늘에 동그란 불꽃이 터지는 바닷가에서 동그란 사람들이 휴대폰을 들고 있고, 휴대폰에서 올라가는 꼬불꼬불한 전파 줄을 작은 안테나 탑 위의 작은 흰 로봇이 커다란 깔때기로 엉키지 않게 모으는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-06-fireworks-network.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-06-fireworks-network.svg",
+        "viewBox": "0 0 800 460",
+        "title": "부산불꽃축제 인파와 SK텔레콤의 AI 통신 관리",
+        "desc": "부산불꽃축제를 찾은 사람은 2024년 103만 명, 지난해 117만 명이었고, 올해는 120만 명이 넘을 것으로 보인다. 왼쪽 막대 길이는 이 숫자에 맞췄다. SK텔레콤은 11월 5일, AI로 사람 수와 지난 통신 기록을 살펴 필요한 통신 양을 미리 계산하고, 광안리와 마린시티에 이동기지국과 임시 중계기를 더 세우며, 축제 날에는 AI가 몰린 통신을 고르게 나눈다고 밝혔다. 끊김이나 늦음 없이 쓴 비율인 체감품질 만족률도 처음 살핀다. 축제는 11월 7일 오후 1시부터 8시까지 열리고, 100여 명이 현장에서 대기한다.",
+        "caption": {
+          "text": "사람이 몰리는 곳에 통신 길을 미리 넓혀 둬요.",
+          "phrases": [
+            "사람이 몰리는 곳에",
+            "통신 길을",
+            "미리 넓혀 둬요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "통신 회사 SK텔레콤이 11월 5일, 부산불꽃축제를 앞두고 통신망을 미리 점검한다고 밝혔어요. 축제는 11월 7일 오후 1시부터 8시까지 광안리 바닷가 일대에서 열려요. 올해는 120만 명 넘게 모일 것으로 보여요. 사람이 한곳에 많이 모이면 휴대폰이 잘 안 터질 수 있어요.",
+            "nobreak": [
+              "11월 5일",
+              "11월 7일",
+              "오후 1시",
+              "8시",
+              "120만 명"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "축제를 찾는 사람은 해마다 늘었어요. 2024년에는 103만 명, 지난해에는 117만 명이 모였어요. 그래서 AI가 모일 사람 수와 지난 통신 기록을 보고 필요한 통신 양을 미리 계산해요. 광안리와 마린시티에는 이동기지국과 임시 중계기를 더 세워요. 축제 날에는 AI가 한곳에 몰린 통신을 실시간으로 고르게 나눠요.",
+            "nobreak": [
+              "2024년",
+              "103만 명",
+              "117만 명"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "이번에는 '체감품질 만족률'이라는 점수도 처음 살펴요. 사람들이 실제로 끊기거나 늦어지지 않고 통신을 쓴 비율이에요. 7일 아침부터 사람들이 흩어질 때까지 100여 명이 현장에서 대기해요. 그래도 사람이 아주 많으면 연락이 늦을 수 있어요. 가족과 함께 간다면 서로 놓쳤을 때 만날 곳을 미리 정해 두세요.",
+            "nobreak": [
+              "7일",
+              "100여 명"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "데일리한국",
+          "date": "11월 5일",
+          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1421958"
+        },
+        {
+          "name": "아시아경제",
+          "date": "11월 5일",
+          "url": "https://view.asiae.co.kr/article/2026110509443933442"
+        },
+        {
+          "name": "IT타임스",
+          "date": "11월 5일",
+          "url": "https://www.ittimes.com/news/articleView.html?idxno=87825"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200525_8d8a82cc-2e1a-487b-8125-6360fea2d732.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200525_8d8a82cc-2e1a-487b-8125-6360fea2d732.mp3"
+      }
+    },
+    {
+      "anchor": "bread-checkout",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-06.html#bread-checkout",
+      "tag": "일",
+      "color": "yellow",
+      "title": {
+        "text": "빵을 올리면 AI가 1~2초 만에 알아봐요",
+        "phrases": [
+          "빵을 올리면",
+          "AI가 1~2초 만에",
+          "알아봐요"
+        ]
+      },
+      "dek": {
+        "text": "AI 계산대를 쓰는 빵집이 1년 새 9배 가까이 늘었어요.",
+        "phrases": [
+          "AI 계산대를 쓰는 빵집이",
+          "1년 새",
+          "9배 가까이 늘었어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "빵집 계산대 쟁반 위에 크루아상, 동그란 빵, 식빵 조각, 프레첼이 놓여 있고, 구부러진 받침대에 달린 작은 카메라가 쟁반을 내려다보며, 옆에서 작은 흰 로봇이 손가락으로 빵을 세고 높은 모자를 쓴 동그란 제빵사가 빈 영수증이 나오는 모습을 보며 웃는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-06-bread-checkout.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-06-bread-checkout.svg",
+        "viewBox": "0 0 800 460",
+        "title": "빵을 알아보는 AI 계산대",
+        "desc": "파인더스에이아이는 11월 5일, 카메라와 AI로 빵을 알아보는 계산대를 쓰는 매장이 지난해의 4배를 넘었고, 그중 빵집은 1년 새 9배 가까이 늘었다고 밝혔다. 왼쪽 막대 길이는 4배와 9배에 맞췄다. 이 계산대를 쓰는 곳의 80% 넘게가 빵집이고, 약 30%는 수도권 밖에 있다. 오른쪽은 계산 순서다. 빵 쟁반을 계산대에 올리면 카메라와 AI가 1~2초 만에 빵의 종류와 개수를 알아보고, 바코드 없이 바로 값을 매긴다. 직원은 손님 응대와 포장을 맡는다.",
+        "caption": {
+          "text": "바코드가 없는 빵도 눈으로 보듯 알아봐요.",
+          "phrases": [
+            "바코드가 없는 빵도",
+            "눈으로 보듯",
+            "알아봐요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "AI 계산대를 만드는 회사 파인더스에이아이가 11월 5일, 이 계산대를 쓰는 매장이 지난해보다 4배 넘게 늘었다고 밝혔어요. 쟁반을 올리면 카메라와 AI가 빵의 종류와 개수를 1~2초 만에 알아봐요. 바코드를 찍지 않아도 돼요. 이 계산대를 쓰는 곳의 80% 넘게가 빵집이에요.",
+            "nobreak": [
+              "11월 5일",
+              "4배",
+              "1~2초",
+              "80%"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "빵은 바코드를 붙이기 어렵고, 모양과 크기도 제각각이에요. 그래서 직원이 빵을 하나하나 보고 값을 눌러야 했어요. 손님이 몰리는 시간에는 줄이 길어지기 쉬워요. 이런 불편 때문에 AI 계산대를 쓰는 빵집은 1년 사이 9배 가까이 늘었어요.",
+            "nobreak": [
+              "9배"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "세종, 천안, 담양, 전주, 광주처럼 수도권 밖에서도 볼 수 있어요. 지금 매장의 약 30%가 수도권 밖에 있어요. 전남 담양의 한 빵집은 사람이 있는 계산대 옆에 AI 계산대를 함께 두었어요. 직원은 손님을 맞고 빵을 포장하는 일에 더 힘을 쏟아요. 회사는 앞으로 회사 구내식당에도 더 많이 들어갈 거라고 봐요.",
+            "nobreak": [
+              "약 30%"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "뉴스핌",
+          "date": "11월 5일",
+          "url": "https://www.newspim.com/news/view/20261105000188"
+        },
+        {
+          "name": "아시아경제",
+          "date": "11월 5일",
+          "url": "https://view.asiae.co.kr/article/2026110510502294556"
+        },
+        {
+          "name": "스타트업엔",
+          "date": "11월 5일",
+          "url": "https://www.startupn.kr/news/articleView.html?idxno=60553"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200524_15da8370-a41e-4002-a15a-769145370c3b.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200524_15da8370-a41e-4002-a15a-769145370c3b.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "GIF",
+      "meaning": {
+        "text": "여러 장의 그림을 이어 붙여 움직이게 만든 그림 파일",
+        "phrases": [
+          "여러 장의 그림을",
+          "이어 붙여",
+          "움직이게 만든 그림 파일"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "기지국",
+      "meaning": {
+        "text": "휴대폰 전파를 주고받게 해 주는 통신 시설",
+        "phrases": [
+          "휴대폰 전파를",
+          "주고받게 해 주는",
+          "통신 시설"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "체감품질",
+      "meaning": {
+        "text": "쓰는 사람이 실제로 느끼는 서비스의 좋고 나쁨",
+        "phrases": [
+          "쓰는 사람이",
+          "실제로 느끼는",
+          "서비스의 좋고 나쁨"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "비전 AI",
+      "meaning": {
+        "text": "카메라로 본 모습을 알아보는 AI",
+        "phrases": [
+          "카메라로 본 모습을",
+          "알아보는 AI"
+        ]
+      },
+      "color": "yellow"
+    }
+  ]
+}

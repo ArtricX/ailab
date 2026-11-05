@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">부산불꽃축제 인파와 SK텔레콤의 AI 통신 관리</title>
+            <desc id="g2d">부산불꽃축제를 찾은 사람은 2024년 103만 명, 지난해 117만 명이었고, 올해는 120만 명이 넘을 것으로 보인다. 왼쪽 막대 길이는 이 숫자에 맞췄다. SK텔레콤은 11월 5일, AI로 사람 수와 지난 통신 기록을 살펴 필요한 통신 양을 미리 계산하고, 광안리와 마린시티에 이동기지국과 임시 중계기를 더 세우며, 축제 날에는 AI가 몰린 통신을 고르게 나눈다고 밝혔다. 끊김이나 늦음 없이 쓴 비율인 체감품질 만족률도 처음 살핀다. 축제는 11월 7일 오후 1시부터 8시까지 열리고, 100여 명이 현장에서 대기한다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">120만</text>
+            <text x="34" y="170" font-size="16" font-weight="800">올해 모일 것으로 보는 사람(명)</text>
+            <text class="grey" x="34" y="194" font-size="13.5">SK텔레콤 · 11월 5일 발표</text>
+
+            <text x="34" y="236" font-size="14" font-weight="800">2024년 103만 명</text>
+            <rect class="f-blue" x="34" y="246" width="275" height="24" rx="8"/>
+            <text x="34" y="298" font-size="14" font-weight="800">지난해 117만 명</text>
+            <rect class="f-blue" x="34" y="308" width="312" height="24" rx="8"/>
+            <text x="34" y="360" font-size="14" font-weight="800">올해 120만 명 넘게(예상)</text>
+            <rect class="f-ink" x="34" y="370" width="320" height="24" rx="8"/>
+            <text class="grey" x="34" y="422" font-size="13.5">막대 길이는 사람 수에 맞췄어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">AI가 하는 일</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">필요한 통신 양을 미리 계산해요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="130" stroke-width="3"/>
+            <path class="f-ink" d="M600 140 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="144" width="320" height="44" rx="14"/>
+            <text x="600" y="172" font-size="14.5" font-weight="900" text-anchor="middle">이동기지국과 중계기를 더 세워요</text>
+            <line class="line" x1="600" y1="192" x2="600" y2="200" stroke-width="3"/>
+            <path class="f-ink" d="M600 210 l-8 -12 h16z"/>
+            <rect class="f-blue" x="440" y="214" width="320" height="44" rx="14"/>
+            <text x="600" y="242" font-size="14.5" font-weight="900" text-anchor="middle">축제 날 몰린 통신을 고르게 나눠요</text>
+
+            <text x="440" y="300" font-size="15" font-weight="800">처음 보는 점수</text>
+            <text class="red" x="440" y="328" font-size="14.5" font-weight="900">체감품질 만족률</text>
+            <text x="440" y="352" font-size="14.5" font-weight="700">끊김 없이 쓴 비율이에요</text>
+            <text class="grey" x="440" y="404" font-size="13.5">11월 7일 오후 1시~8시 · 100여 명 대기</text>
+          </svg>

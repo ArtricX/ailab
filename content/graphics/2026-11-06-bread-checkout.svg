@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">빵을 알아보는 AI 계산대</title>
+            <desc id="g3d">파인더스에이아이는 11월 5일, 카메라와 AI로 빵을 알아보는 계산대를 쓰는 매장이 지난해의 4배를 넘었고, 그중 빵집은 1년 새 9배 가까이 늘었다고 밝혔다. 왼쪽 막대 길이는 4배와 9배에 맞췄다. 이 계산대를 쓰는 곳의 80% 넘게가 빵집이고, 약 30%는 수도권 밖에 있다. 오른쪽은 계산 순서다. 빵 쟁반을 계산대에 올리면 카메라와 AI가 1~2초 만에 빵의 종류와 개수를 알아보고, 바코드 없이 바로 값을 매긴다. 직원은 손님 응대와 포장을 맡는다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">4배</text>
+            <text x="34" y="170" font-size="16" font-weight="800">AI 계산대를 들인 매장(지난해와 비교)</text>
+            <text class="grey" x="34" y="194" font-size="13.5">파인더스에이아이 · 11월 5일 발표</text>
+
+            <text x="34" y="238" font-size="14" font-weight="800">전체 매장 4배 넘게</text>
+            <rect class="f-yellow" x="34" y="248" width="142" height="26" rx="8"/>
+            <text x="34" y="306" font-size="14" font-weight="800">빵집 9배 가까이</text>
+            <rect class="f-ink" x="34" y="316" width="320" height="26" rx="8"/>
+            <text class="grey" x="34" y="368" font-size="13.5">막대 길이는 4배와 9배에 맞췄어요</text>
+
+            <text x="34" y="404" font-size="14.5" font-weight="700">쓰는 곳의 80% 넘게가 빵집,</text>
+            <text x="34" y="428" font-size="14.5" font-weight="700">약 30%는 수도권 밖이에요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 계산해요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">빵 쟁반을 계산대에 올려요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="130" stroke-width="3"/>
+            <path class="f-ink" d="M600 140 l-8 -12 h16z"/>
+            <rect class="f-red" x="440" y="144" width="320" height="44" rx="14"/>
+            <text class="white" x="600" y="172" font-size="14.5" font-weight="900" text-anchor="middle">카메라와 AI가 1~2초 만에 알아봐요</text>
+            <line class="line" x1="600" y1="192" x2="600" y2="200" stroke-width="3"/>
+            <path class="f-ink" d="M600 210 l-8 -12 h16z"/>
+            <rect class="f-yellow" x="440" y="214" width="320" height="44" rx="14"/>
+            <text x="600" y="242" font-size="14.5" font-weight="900" text-anchor="middle">바코드 없이 바로 값을 매겨요</text>
+
+            <text x="440" y="300" font-size="15" font-weight="800">사람은 이 일을 맡아요</text>
+            <text x="440" y="328" font-size="14.5" font-weight="700">손님을 맞고</text>
+            <text x="440" y="352" font-size="14.5" font-weight="700">빵을 예쁘게 포장해요</text>
+            <text class="grey" x="440" y="404" font-size="13.5">빵 종류와 개수를 함께 알아봐요</text>
+          </svg>
