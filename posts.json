@@ -11,8 +11,8 @@
         "anchor": "gif-maker",
         "title": "챗GPT로|움직이는 그림을|만들 수 있어요",
         "dek": "말로 설명하거나|사진 한 장만|올리면 돼요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c_min.webp"
+        "illust": "assets/img/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c.webp",
+        "thumb": "assets/img/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c_min.webp"
       },
       {
         "tag": "생활",
@@ -20,8 +20,8 @@
         "anchor": "fireworks-network",
         "title": "120만 명 모이는|불꽃축제,|AI가 통신을 지켜요",
         "dek": "11월 7일|부산 광안리 바닷가에서|열려요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90_min.webp"
+        "illust": "assets/img/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90.webp",
+        "thumb": "assets/img/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90_min.webp"
       },
       {
         "tag": "일",
@@ -29,8 +29,8 @@
         "anchor": "bread-checkout",
         "title": "빵을 올리면|AI가 1~2초 만에|알아봐요",
         "dek": "AI 계산대를 쓰는 빵집이|1년 새|9배 가까이 늘었어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7_min.webp"
+        "illust": "assets/img/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7.webp",
+        "thumb": "assets/img/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7_min.webp"
       }
     ],
     "keywords": [
