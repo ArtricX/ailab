@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">챗GPT 새 그림 기능 이미지 2.6</title>
+            <desc id="g1d">오픈AI는 미국 시간 11월 4일 이미지 2.6을 내놓았다. 챗GPT와 코덱스, 개발자용 서비스를 합쳐 일주일에 40억 장이 넘는 그림이 만들어지며, 9월의 30억 장보다 10억 장 늘었다. 왼쪽 막대 길이는 30억과 40억에 맞췄다. 그림을 만드는 속도는 이전 버전보다 50% 빨라졌다. 오른쪽은 GIF를 만드는 순서다. 장면을 글로 설명하거나 사진을 올리면, AI가 조금씩 다른 그림을 이어 붙여 움직이는 GIF를 만들고, 빠르기를 바꾸거나 한 장면씩 고칠 수 있다. 무료 이용자를 포함한 모든 이용자에게 차례로 열리고 있다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">40억 장</text>
+            <text x="34" y="170" font-size="16" font-weight="800">일주일에 만들어지는 그림</text>
+            <text class="grey" x="34" y="194" font-size="13.5">오픈AI · 미국 시간 11월 4일 발표</text>
+
+            <text x="34" y="238" font-size="14" font-weight="800">9월 30억 장</text>
+            <rect class="f-pink" x="34" y="248" width="240" height="26" rx="8"/>
+            <text x="34" y="306" font-size="14" font-weight="800">지금 40억 장 넘게</text>
+            <rect class="f-ink" x="34" y="316" width="320" height="26" rx="8"/>
+            <text class="grey" x="34" y="368" font-size="13.5">막대 길이는 30억과 40억에 맞췄어요</text>
+
+            <text x="34" y="404" font-size="14.5" font-weight="700">그림 만드는 속도는</text>
+            <text x="34" y="428" font-size="14.5" font-weight="700">이전보다 50% 빨라졌어요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 만들어요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">장면을 글로 쓰거나 사진을 올려요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="130" stroke-width="3"/>
+            <path class="f-ink" d="M600 140 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="144" width="320" height="44" rx="14"/>
+            <text x="600" y="172" font-size="14.5" font-weight="900" text-anchor="middle">AI가 조금씩 다른 그림을 이어 붙여요</text>
+            <line class="line" x1="600" y1="192" x2="600" y2="200" stroke-width="3"/>
+            <path class="f-ink" d="M600 210 l-8 -12 h16z"/>
+            <rect class="f-pink" x="440" y="214" width="320" height="44" rx="14"/>
+            <text x="600" y="242" font-size="14.5" font-weight="900" text-anchor="middle">움직이는 GIF가 완성돼요</text>
+
+            <text x="440" y="300" font-size="15" font-weight="800">다 만든 뒤에도</text>
+            <text x="440" y="328" font-size="14.5" font-weight="700">움직이는 빠르기를 바꾸고</text>
+            <text x="440" y="352" font-size="14.5" font-weight="700">한 장면씩 고칠 수 있어요</text>
+            <text class="red" x="440" y="404" font-size="14.5" font-weight="900">무료 이용자에게도 차례로 열려요</text>
+          </svg>
