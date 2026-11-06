@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-07",
+    "title": "통장 읽는 AI,|표정 짓는 AI,|빨리 고르는 AI",
+    "summary": "AI 클로드가|은행 계좌를 읽기만 하며|지출을 정리해 줘요.|메타의 AI는|표정을 지으며 말로 대화하고,|카카오는|0.04초 만에 판단하는 AI를|공개했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "돈",
+        "color": "green",
+        "anchor": "money-reader",
+        "title": "AI가 통장 내역을|읽고 정리해 줘요",
+        "dek": "돈을 옮기지는 못하고|읽기만 해요.",
+        "illust": "assets/img/hf_20261106_200328_dd1ca9b3-0d22-4ee4-b1c5-676d0f33b3b1.webp",
+        "thumb": "assets/img/hf_20261106_200328_dd1ca9b3-0d22-4ee4-b1c5-676d0f33b3b1_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "blue",
+        "anchor": "talking-face",
+        "title": "얼굴 표정을 지으며|말로 대화하는 AI가|나왔어요",
+        "dek": "말하는 중간에|끼어들어도 돼요.",
+        "illust": "assets/img/hf_20261106_200329_c7867c13-fe99-403a-97a2-d5c9ddf2310c.webp",
+        "thumb": "assets/img/hf_20261106_200329_c7867c13-fe99-403a-97a2-d5c9ddf2310c_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "yellow",
+        "anchor": "quick-decide",
+        "title": "0.04초 만에|답을 고르는 AI,|카카오가|공개했어요",
+        "dek": "긴 문장 대신|점수로 답해요.",
+        "illust": "assets/img/hf_20261106_200328_6209893b-f33d-4da0-ac4e-9e50483d8e46.webp",
+        "thumb": "assets/img/hf_20261106_200328_6209893b-f33d-4da0-ac4e-9e50483d8e46_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "읽기 전용",
+        "meaning": "내용을 보기만 하고|바꾸거나 옮길 수는|없는 권한"
+      },
+      {
+        "word": "아바타",
+        "meaning": "화면 속에서|나 또는 AI를 대신하는|캐릭터 얼굴"
+      },
+      {
+        "word": "AI 에이전트",
+        "meaning": "여러 단계의 일을|스스로 이어서 하는 AI"
+      },
+      {
+        "word": "오픈소스",
+        "meaning": "만든 방법을 공개해|누구나 가져다 쓰게 한 것"
+      }
+    ]
+  },
+  {
     "date": "2026-11-06",
     "title": "움직이는 그림|만드는 챗GPT,|불꽃축제|지키는 AI,|빵 세는|AI 계산대",
     "summary": "이제 챗GPT로|움직이는 그림을|만들 수 있어요.|120만 명이 모이는|부산불꽃축제에서는|AI가 통신을 지키고,|빵을 알아보는|AI 계산대도|빠르게 늘고 있어요.",

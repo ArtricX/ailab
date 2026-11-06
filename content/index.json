@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-07",
+      "title": "통장 읽는 AI, 표정 짓는 AI, 빨리 고르는 AI",
+      "file": "content/2026-11-07.json",
+      "stories": [
+        {
+          "anchor": "money-reader",
+          "tag": "돈",
+          "color": "green",
+          "title": "AI가 통장 내역을 읽고 정리해 줘요"
+        },
+        {
+          "anchor": "talking-face",
+          "tag": "생활",
+          "color": "blue",
+          "title": "얼굴 표정을 지으며 말로 대화하는 AI가 나왔어요"
+        },
+        {
+          "anchor": "quick-decide",
+          "tag": "일",
+          "color": "yellow",
+          "title": "0.04초 만에 답을 고르는 AI, 카카오가 공개했어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-06",
       "title": "움직이는 그림 만드는 챗GPT, 불꽃축제 지키는 AI, 빵 세는 AI 계산대",
       "file": "content/2026-11-06.json",

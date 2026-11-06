@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">카카오의 판단 AI 카나나-2-v-디사이드</title>
+            <desc id="g3d">카카오는 11월 6일, AI 에이전트가 무엇을 할지 빠르게 판단하도록 돕는 AI 카나나-2-v-디사이드를 누구나 쓸 수 있게 공개했다. 카카오가 직접 잰 결과, 오픈AI의 GPT-6 루나보다 약 43배 빠르다. 왼쪽 막대 길이는 1과 43에 맞췄다. 그래픽 칩 한 장에서 평균 0.04초 안에 답한다. 오른쪽은 이 AI가 답하는 세 가지 방식이다. 조건이 맞을 확률, 여러 후보 중 가장 알맞은 것 고르기, 단계마다 매기는 점수. 글과 그림을 함께 보고 판단하며, 회사도 무료로 가져다 쓸 수 있다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">43배</text>
+            <text x="34" y="170" font-size="16" font-weight="800">판단하는 빠르기(카카오가 잰 값)</text>
+            <text class="grey" x="34" y="194" font-size="13.5">카카오 · 11월 6일 발표</text>
+
+            <text x="34" y="238" font-size="14" font-weight="800">오픈AI GPT-6 루나</text>
+            <rect class="f-ink" x="34" y="248" width="8" height="26" rx="4"/>
+            <text x="34" y="306" font-size="14" font-weight="800">카카오 카나나-2-v-디사이드</text>
+            <rect class="f-yellow" x="34" y="316" width="320" height="26" rx="8"/>
+            <text class="grey" x="34" y="368" font-size="13.5">막대 길이는 빠르기 1과 43에 맞췄어요</text>
+
+            <text x="34" y="404" font-size="14.5" font-weight="700">그래픽 칩 한 장으로</text>
+            <text class="red" x="34" y="428" font-size="14.5" font-weight="900">평균 0.04초 안에 답해요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 답해요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">확률: 이 조건이 맞을까요?</text>
+            <rect class="f-paper" x="440" y="130" width="320" height="44" rx="14"/>
+            <text x="600" y="158" font-size="14.5" font-weight="900" text-anchor="middle">선택: 어느 쪽이 가장 알맞을까요?</text>
+            <rect class="f-yellow" x="440" y="186" width="320" height="44" rx="14"/>
+            <text x="600" y="214" font-size="14.5" font-weight="900" text-anchor="middle">점수: 단계마다 몇 점일까요?</text>
+
+            <text x="440" y="280" font-size="15" font-weight="800">이런 데 써요</text>
+            <text x="440" y="308" font-size="14.5" font-weight="700">고객 문의를 종류별로 나누기</text>
+            <text x="440" y="332" font-size="14.5" font-weight="700">AI가 쓸 도구 고르기</text>
+            <text x="440" y="356" font-size="14.5" font-weight="700">상품 사진 살펴보기</text>
+            <text class="grey" x="440" y="404" font-size="13.5">글과 그림을 함께 보고 판단해요</text>
+          </svg>
