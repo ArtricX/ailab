@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-28",
   "weekday": "수",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-28.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-28.html",
   "minutes": 5,
   "title": {
     "text": "한국어 하는 시리, AI 범죄를 막을 나라 계획, AI 수백 개를 골라 주는 곳",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "siri",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-28.html#siri",
+      "url": "https://aigo.artricx.com/posts/2026-10-28.html#siri",
       "tag": "생활",
       "color": "yellow",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261027_200928_7f3e1b92-c241-4e34-9b76-9ef735928e19.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261027_200928_7f3e1b92-c241-4e34-9b76-9ef735928e19.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261027_200928_7f3e1b92-c241-4e34-9b76-9ef735928e19.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 커다란 휴대폰을 들고 말을 걸자, 화면 밖으로 작은 흰 로봇이 달력 한 장과 작은 편지 봉투를 들고 기어 나와 도울 준비를 하는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-28-siri.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-28-siri.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-28-siri.svg",
         "viewBox": "0 0 800 460",
         "title": "시리 AI가 새로 배운 다섯 가지 말과 할 수 있는 일",
         "desc": "애플이 10월 26일(미국 시간) 내놓은 iOS 27.2에서 시리 AI가 다섯 가지 말을 새로 하게 됐다. 한국어, 일본어, 프랑스어, 스페인어, 포르투갈어다. 지난달에는 영어만 됐다. 시리 AI는 내 메시지와 메일, 사진 속에서 찾아 답하고, 여러 앱을 오가며 메일을 쓰거나 일정을 넣으며, 화면과 카메라에 보이는 것을 알아보고 답한다. 아이폰 15 프로와 아이폰 16 이후 모델 같은 일부 기기에서 되고, 아직 베타(시험판)다.",
@@ -126,12 +126,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261027_201521_91c6b4c8-bf5d-4bf6-a579-73c565ae80ad.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261027_201521_91c6b4c8-bf5d-4bf6-a579-73c565ae80ad.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261027_201521_91c6b4c8-bf5d-4bf6-a579-73c565ae80ad.mp3"
       }
     },
     {
       "anchor": "ai-crime",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-28.html#ai-crime",
+      "url": "https://aigo.artricx.com/posts/2026-10-28.html#ai-crime",
       "tag": "안전",
       "color": "blue",
       "title": {
@@ -152,14 +152,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261027_200928_cb635afd-c1d3-4140-b4bb-c722f17af5e0.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261027_200928_cb635afd-c1d3-4140-b4bb-c722f17af5e0.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261027_200928_cb635afd-c1d3-4140-b4bb-c722f17af5e0.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람과 작은 흰 로봇이 나란히 서서 커다란 우산 하나를 방패처럼 작은 집 위에 받쳐 들고, 작은 가면을 쓴 종이비행기들이 우산에 튕겨 떨어지는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-28-ai-crime.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-28-ai-crime.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-28-ai-crime.svg",
         "viewBox": "0 0 800 460",
         "title": "AI를 쓴 해킹 사건의 규모와 정부의 대응 순서",
         "desc": "서울경찰청은 10월 26일 생성형 AI를 써서 학원, 병원 등 90여 곳을 해킹한 7명을 붙잡았다고 밝혔다. 빠져나간 개인정보는 820만 건이 넘고, 38곳에 돈을 요구했다. 10월 27일 보도에 따르면 정부는 9월에 AI 범죄 대응 연구를 시작했고, 범죄별 피해를 살핀 뒤 2027년 2월까지 나라의 대응 전략을 만든다. 연구 과제 설명에는 어린이, 청소년, 어르신의 피해가 크다고 적혔다. 개인정보를 빌미로 돈을 요구받으면 보내지 말고 신고해야 한다.",
@@ -227,12 +227,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261027_201521_8b991bf5-3ff9-4acd-a350-007ba20898ac.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261027_201521_8b991bf5-3ff9-4acd-a350-007ba20898ac.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261027_201521_8b991bf5-3ff9-4acd-a350-007ba20898ac.mp3"
       }
     },
     {
       "anchor": "token",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-28.html#token",
+      "url": "https://aigo.artricx.com/posts/2026-10-28.html#token",
       "tag": "일",
       "color": "pink",
       "title": {
@@ -253,14 +253,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261027_200927_033ae0da-50d7-4b42-b8d3-c3f8ae849d6c.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261027_200927_033ae0da-50d7-4b42-b8d3-c3f8ae849d6c.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261027_200927_033ae0da-50d7-4b42-b8d3-c3f8ae849d6c.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 가게 안내원처럼 높은 선반 앞에 서 있고, 선반의 작은 유리병마다 다른 작은 로봇이 들어 있으며, 로봇이 질문 카드를 든 동그란 사람에게 병 하나를 차분히 건네는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-28-token.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-28-token.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-28-token.svg",
         "viewBox": "0 0 800 460",
         "title": "KT 토큰 팩토리의 AI 모델 수와 알맞은 모델을 고르는 순서",
         "desc": "KT가 10월 27일 공개한 토큰 팩토리는 10월 30일 AI 모델 73종으로 문을 열고, 12월까지 오픈라우터와 손잡고 500종 넘게 늘린다. 질문을 넣으면 오토 모델 라우터가 질문의 어려움과 비용을 따져 알맞은 모델을 골라 답하게 한다. 처음에는 회사와 공공기관이 쓰고, 2027년 3월에는 개발자와 일반 고객용 구독 상품을 낼 계획이다. KT는 토큰을 최대 25% 아낄 수 있다고 했다.",
@@ -325,7 +325,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261027_201521_f0ea5ee6-b3ff-4e08-aab5-6a29c43aa364.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261027_201521_f0ea5ee6-b3ff-4e08-aab5-6a29c43aa364.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261027_201521_f0ea5ee6-b3ff-4e08-aab5-6a29c43aa364.mp3"
       }
     }
   ],

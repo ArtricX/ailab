@@ -122,7 +122,7 @@ def main():
     return 0
 
 
-SITE = "https://artricx.github.io/ailab/"
+SITE = "https://aigo.artricx.com/"
 OG = ROOT / "assets" / "og"
 IMG_SRC_RE = re.compile(r'(?:\.\./)?(assets/img/[^"\s]+\.webp)')
 

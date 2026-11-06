@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-11",
   "weekday": "일",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-11.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-11.html",
   "minutes": 5,
   "title": {
     "text": "전화를 대신 거는 우리 AI, 쉬는 시간을 알려 주는 공부 AI, 진료 전에 이야기를 듣는 AI",
@@ -44,7 +44,7 @@
   "stories": [
     {
       "anchor": "modu",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-11.html#modu",
+      "url": "https://aigo.artricx.com/posts/2026-10-11.html#modu",
       "tag": "생활",
       "color": "yellow",
       "title": {
@@ -66,14 +66,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261010_211958_cc263451-dd32-4175-a4fa-fb2354f88538.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261010_211958_cc263451-dd32-4175-a4fa-fb2354f88538.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261010_211958_cc263451-dd32-4175-a4fa-fb2354f88538.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 푹신한 안락의자에 앉아 차를 마시며 쉬고, 옆에 선 작은 흰 로봇이 커다란 옛날 전화기로 대신 전화를 거는 그림. 뒤로 작은 가게 차양과 달력 한 장이 떠 있어요"
       },
       "infographic": {
         "file": "content/graphics/2026-10-11-modu.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-11-modu.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-11-modu.svg",
         "viewBox": "0 0 800 460",
         "title": "'모두의 AI' 기본 기능 이용료와 세 회사의 서비스, 출시 일정",
         "desc": "기본 기능은 0원, 무료로 쓸 수 있다. SK텔레콤은 전화로 대신 예약하고, 카카오는 카카오톡 안에서 예약과 결제를 돕고, KT는 검색과 비교를 대화 한 번에 해 준다. 10월에 시험판을 열고, 12월에 정식으로 문을 열며, 내년에는 한 사람에 AI 비서 하나를 목표로 한다. 10월 시험판은 일부 사람부터 써 본다.",
@@ -140,7 +140,7 @@
     },
     {
       "anchor": "teens",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-11.html#teens",
+      "url": "https://aigo.artricx.com/posts/2026-10-11.html#teens",
       "tag": "학교",
       "color": "pink",
       "title": {
@@ -163,14 +163,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261010_211958_5fe964c4-bd08-4602-a772-39f151863aff.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261010_211958_5fe964c4-bd08-4602-a772-39f151863aff.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261010_211958_5fe964c4-bd08-4602-a772-39f151863aff.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 학생이 작은 책상에서 공부하고, 작은 흰 로봇이 낱말 카드를 들어 보여 주는 그림. 책상 위 작은 자명종이 이제 쉴 시간이라고 살짝 울리고, 옆에는 책 더미와 연필이 있어요"
       },
       "infographic": {
         "file": "content/graphics/2026-10-11-teens.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-11-teens.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-11-teens.svg",
         "viewBox": "0 0 800 460",
         "title": "쉬는 시간 알림의 효과와 청소년이 한 주에 쓴 공부 기능",
         "desc": "쉬어 가라는 알림이 나온 청소년 대화의 절반 가까이에서 5분 안에 쉬거나 대화를 끝냈다. 청소년의 하루 평균 사용 시간은 15분이 안 된다. 한 주 동안 수학과 과학 그림 설명은 약 120만 명, 단계별 공부 모드는 18만 명 넘게 썼다. 새로 생긴 것은 낱말 카드, 퀴즈, 대학 지원 계획표이고, 대학 지원 계획표는 미국 고등학생부터 시작한다.",
@@ -222,7 +222,7 @@
     },
     {
       "anchor": "amie",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-11.html#amie",
+      "url": "https://aigo.artricx.com/posts/2026-10-11.html#amie",
       "tag": "건강",
       "color": "green",
       "title": {
@@ -245,14 +245,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261011_010258_d2e24b05-7145-4fc8-9102-0364eee86051.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261011_010258_d2e24b05-7145-4fc8-9102-0364eee86051.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261011_010258_d2e24b05-7145-4fc8-9102-0364eee86051.webp",
         "width": 1600,
         "height": 1195,
         "alt": "소파에 앉은 동그란 사람이 태블릿에 대고 이야기하고, 화면 속 작은 흰 로봇이 연필로 받아 적는 그림. 문가에서는 청진기를 건 의사가 기록판을 들고 지켜봐요"
       },
       "infographic": {
         "file": "content/graphics/2026-10-11-amie.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-11-amie.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-11-amie.svg",
         "viewBox": "0 0 800 470",
         "title": "AI가 꼽은 병 후보 안에 실제 진단이 들어 있던 비율과 연구 순서",
         "desc": "AI가 꼽은 병 후보 7개 안에 실제 진단이 들어 있던 경우가 90%, 후보 3개 안에는 75%, 첫 번째 후보가 맞은 경우는 56%였다. 환자는 진료 5일 전까지 집에서 AI와 글로 대화했고, 의사가 모든 대화를 실시간으로 지켜봤으며, AI가 쓴 요약을 의사가 보고 진료했다. AI가 지어낸 내용이 한 번 있었고 지켜보던 의사가 찾아냈다. 미국 보스턴의 병원 한 곳에서 환자 98명이 참여했다.",

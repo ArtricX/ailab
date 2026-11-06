@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-31",
   "weekday": "토",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-31.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-31.html",
   "minutes": 5,
   "title": {
     "text": "우주에서 시를 쓴 AI, 아직 드문 AI 배달 주문, 더 길어진 일자리 찾기",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "space-ai",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-31.html#space-ai",
+      "url": "https://aigo.artricx.com/posts/2026-10-31.html#space-ai",
       "tag": "창작",
       "color": "blue",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261030_200138_2793d6ab-9869-48f8-ada9-e0dd4b2550f9.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261030_200138_2793d6ab-9869-48f8-ada9-e0dd4b2550f9.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261030_200138_2793d6ab-9869-48f8-ada9-e0dd4b2550f9.webp",
         "width": 1600,
         "height": 1195,
         "alt": "커다란 햇빛 판 날개를 단 작은 상자 모양 위성 안에서 작은 흰 로봇이 방금 시를 적은 듯한 종이 한 장을 들어 보이고, 저 아래 작고 둥근 지구에서 작은 접시 안테나를 든 동그란 사람이 손을 흔드는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-31-space-ai.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-31-space-ai.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-31-space-ai.svg",
         "viewBox": "0 0 800 460",
         "title": "구글 선캐처 시험 위성이 첫 질문에 답하기까지",
         "desc": "구글이 10월 30일(미국 시간) 우주 데이터 센터 시험 위성 '선캐처'가 처음으로 일을 했다고 밝혔다. 위성은 10월 초 스페이스X 로켓에 실려 올라갔고, 햇빛 판으로 약 1킬로와트의 전기를 만든다. 약 3주 동안 장치를 점검한 뒤, 땅에서 우주에 대한 시를 써 달라고 보내자 위성 안의 AI가 짧은 시로 답했다. 구글은 2027년에 위성 2개를 더 올려 서로 빛으로 이어 보려 한다. 아직은 시험 단계이다.",
@@ -131,12 +131,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261030_202614_fddc7b31-ba3b-4ab6-9203-5a938ef960ae.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261030_202614_fddc7b31-ba3b-4ab6-9203-5a938ef960ae.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261030_202614_fddc7b31-ba3b-4ab6-9203-5a938ef960ae.mp3"
       }
     },
     {
       "anchor": "agent-order",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-31.html#agent-order",
+      "url": "https://aigo.artricx.com/posts/2026-10-31.html#agent-order",
       "tag": "생활",
       "color": "red",
       "title": {
@@ -157,14 +157,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261030_200138_ee8388fe-9e2c-45a8-9f39-969ac268e91f.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261030_200138_ee8388fe-9e2c-45a8-9f39-969ac268e91f.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261030_200138_ee8388fe-9e2c-45a8-9f39-969ac268e91f.webp",
         "width": 1600,
         "height": 1195,
         "alt": "스쿠터를 탄 배달원이 사람들이 휴대폰으로 시킨 음식 상자를 아주 높이 쌓아 싣고 가고, 곁에서 작은 흰 로봇이 아주 작은 음식 상자 하나를 뿌듯하게 들어 보이는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-31-agent-order.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-31-agent-order.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-31-agent-order.svg",
         "viewBox": "0 0 800 460",
         "title": "도어대시의 석 달 주문 수와 AI 비서가 대신 낸 주문 수",
         "desc": "미국 배달 회사 도어대시는 10월 29일(미국 시간) 실적 발표에서 올해 7월부터 9월까지 석 달 동안 주문이 약 9억 9,300만 건이었다고 밝혔다. 최고경영자는 다른 회사의 AI 비서가 대신 낸 주문이 지금까지 모두 합쳐 수백 건 정도라고 말했다. 대부분의 사람은 도어대시 앱으로 직접 주문한다. 도어대시는 앞으로 AI 비서 안에 광고를 넣을 기회도 있다고 봤다.",
@@ -220,12 +220,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261030_202613_c2b414e1-7015-4818-8606-ad3b3e6b4e39.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261030_202613_c2b414e1-7015-4818-8606-ad3b3e6b4e39.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261030_202613_c2b414e1-7015-4818-8606-ad3b3e6b4e39.mp3"
       }
     },
     {
       "anchor": "job-search",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-31.html#job-search",
+      "url": "https://aigo.artricx.com/posts/2026-10-31.html#job-search",
       "tag": "일",
       "color": "yellow",
       "title": {
@@ -246,14 +246,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261030_200138_e0215fdb-fbcd-4bde-b73e-c45b5f98d0a2.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261030_200138_e0215fdb-fbcd-4bde-b73e-c45b5f98d0a2.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261030_200138_e0215fdb-fbcd-4bde-b73e-c45b5f98d0a2.webp",
         "width": 1600,
         "height": 1195,
         "alt": "사무용품이 든 작은 상자를 든 나이 든 동그란 사람이 멀리 언덕 위의 작은 문까지 이어진 길고 구불구불한 길을 걷고, 그 앞에서 젊은 사람이 먼저 걸어가며, 옆의 사무실 책상에 앉은 작은 흰 로봇이 미안한 듯 돌아보는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-31-job-search.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-31-job-search.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-31-job-search.svg",
         "viewBox": "0 0 800 460",
         "title": "AI 때문에 일을 잃은 사람이 새 일을 찾는 데 더 걸린 시간",
         "desc": "미국 투자은행 골드만삭스가 10월 29일(미국 시간) 낸 분석에 따르면, 2025년부터 AI 때문에 일을 잃은 것으로 보이는 미국 사람은 다른 이유로 일을 잃은 사람보다 새 일을 찾는 데 약 한 달이 더 걸렸다. 35살이 넘은 사람은 약 5주, 35살 아래는 약 3주가 더 걸렸다. 1년이 지나도 일을 못 찾은 비율은 약 10%포인트 높았다. 골드만삭스는 아직 모든 것을 판단하기는 이르다고 밝혔다.",
@@ -308,7 +308,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261030_202613_65381002-91ab-4662-b63d-4ab349b36f1d.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261030_202613_65381002-91ab-4662-b63d-4ab349b36f1d.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261030_202613_65381002-91ab-4662-b63d-4ab349b36f1d.mp3"
       }
     }
   ],

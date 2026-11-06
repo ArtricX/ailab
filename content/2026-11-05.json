@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-11-05",
   "weekday": "목",
-  "url": "https://artricx.github.io/ailab/posts/2026-11-05.html",
+  "url": "https://aigo.artricx.com/posts/2026-11-05.html",
   "minutes": 5,
   "title": {
     "text": "검색도 함께 꺼지는 학교 AI, 말투로 잡는 보이스피싱, 일주일 만에 설계한 AI 기계",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "school-search",
-      "url": "https://artricx.github.io/ailab/posts/2026-11-05.html#school-search",
+      "url": "https://aigo.artricx.com/posts/2026-11-05.html#school-search",
       "tag": "학교",
       "color": "yellow",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261104_200246_387b63ea-91a3-4f62-8a5c-73c370ad8837.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261104_200246_387b63ea-91a3-4f62-8a5c-73c370ad8837.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261104_200246_387b63ea-91a3-4f62-8a5c-73c370ad8837.webp",
         "width": 1600,
         "height": 1195,
         "alt": "책상에 노트북을 펴 놓은 동그란 학생 옆에서 교장 선생님이 커다란 스위치 하나를 들고 있고, 그 스위치에서 이어진 줄이 끈으로 함께 묶인 커다란 돋보기와 반짝이는 별에 닿아 있으며, 작은 흰 로봇이 별 위에 앉아 어깨를 으쓱하는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-11-05-school-search.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-05-school-search.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-05-school-search.svg",
         "viewBox": "0 0 800 460",
         "title": "구글의 새 학교용 AI 설정",
         "desc": "구글은 미국 시간 11월 3일, 2027년부터 초·중·고 학생 계정에서 제미나이, 제미나이 노트북, 클래스룸 속 제미나이, 구글 검색 4가지를 처음에는 꺼 두고, 학교 관리자가 직접 켜야 쓸 수 있게 한다고 밝혔다. 학교는 이 서비스를 하나씩 골라 켤 수 있다. 하지만 구글 검색은 AI 기능과 떼어 놓을 수 없어서, 학교가 AI를 모두 막으면 학생은 검색도 쓸 수 없다. 검색을 켜면 답을 바로 주기보다 한 단계씩 생각하도록 돕는 '가이드 학습'을 쓸 수 있고, 이 방식은 이달 안에 미국 일부 학교에서 먼저 시험한다.",
@@ -132,12 +132,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261104_200526_9e6e830f-57d6-481d-be5b-b0c86cb533fb.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261104_200526_9e6e830f-57d6-481d-be5b-b0c86cb533fb.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261104_200526_9e6e830f-57d6-481d-be5b-b0c86cb533fb.mp3"
       }
     },
     {
       "anchor": "voice-phishing",
-      "url": "https://artricx.github.io/ailab/posts/2026-11-05.html#voice-phishing",
+      "url": "https://aigo.artricx.com/posts/2026-11-05.html#voice-phishing",
       "tag": "안전",
       "color": "red",
       "title": {
@@ -158,14 +158,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261104_200237_b1f45178-49e3-4f46-a542-c60256c8a2b8.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261104_200237_b1f45178-49e3-4f46-a542-c60256c8a2b8.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261104_200237_b1f45178-49e3-4f46-a542-c60256c8a2b8.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 할머니가 휴대폰을 귀에 대고 있는데 휴대폰에서 소리 물결과 함께 낚싯줄과 바늘이 슬그머니 나오고, 어깨에 앉은 작은 흰 로봇이 큰 헤드폰을 쓰고 귀 기울이며 작은 가위를 들고 줄을 끊으려는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-11-05-voice-phishing.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-05-voice-phishing.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-05-voice-phishing.svg",
         "viewBox": "0 0 800 460",
         "title": "KT 보이스피싱 탐지 3.0이 듣는 것",
         "desc": "KT는 11월 4일 'AI 보이스피싱 탐지 3.0'을 내놓았다. 지금까지는 대화 내용, 범인 목소리 알아보기, AI로 만든 가짜 목소리 찾기를 했고, 이번에는 대화의 앞뒤 흐름, 말 빠르기, 말투 3가지를 더 살핀다. 분석은 통화 내용을 밖으로 보내지 않고 휴대폰 안에서 바로 하며, 위험하다고 본 까닭도 함께 알려 준다. 11월 5일부터는 내 보안 상태를 점수로 보여 주는 '안심365 리포트'도 시작한다.",
@@ -218,12 +218,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261104_202252_8c00d966-81ac-4091-b391-ce3e65f0d066.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261104_202252_8c00d966-81ac-4091-b391-ce3e65f0d066.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261104_202252_8c00d966-81ac-4091-b391-ce3e65f0d066.mp3"
       }
     },
     {
       "anchor": "ai-device",
-      "url": "https://artricx.github.io/ailab/posts/2026-11-05.html#ai-device",
+      "url": "https://aigo.artricx.com/posts/2026-11-05.html#ai-device",
       "tag": "일",
       "color": "blue",
       "title": {
@@ -245,14 +245,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261104_200244_e91a2796-c8a1-4f57-bab0-fa0d52f4c2ec.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261104_200244_e91a2796-c8a1-4f57-bab0-fa0d52f4c2ec.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261104_200244_e91a2796-c8a1-4f57-bab0-fa0d52f4c2ec.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 의자 위에 서서 작은 화면과 큰 버튼이 달린 동그란 기계의 설계도를 그리고, 옆에서 동그란 기술자 두 명이 완성된 동그란 기계를 뿌듯하게 들고 있으며, 벽에는 일곱 칸 달력이 걸려 있고 바닥에 구겨진 종이가 놓인 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-11-05-ai-device.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-05-ai-device.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-05-ai-device.svg",
         "viewBox": "0 0 800 460",
         "title": "오픈AI가 AI로 설계한 작은 기계",
         "desc": "오픈AI는 미국 시간 11월 3일, 하드웨어 기술자 두 명이 부업처럼 자사 AI를 써서 코덱스와 연결되는 작은 기계를 설계했다고 밝혔다. AI는 겉 틀, 회로판, 기계를 움직이는 프로그램, 화면 구성을 일주일이 안 되는 동안 설계했다. 공장은 한 달이 안 되어 시제품을 조금 만들었지만, AI가 공장에서 만들 때 지켜야 할 조건을 다 챙기지 못해 여러 번 고쳐야 했다. 오픈AI 하드웨어 팀이 AI를 쓰는 양은 2월보다 23배 늘었다. 오른쪽 막대 길이는 7일과 30일에 맞췄다.",
@@ -312,7 +312,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261104_200526_af21a798-ea86-4a2f-8a0d-b22f852ca79e.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261104_200526_af21a798-ea86-4a2f-8a0d-b22f852ca79e.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261104_200526_af21a798-ea86-4a2f-8a0d-b22f852ca79e.mp3"
       }
     }
   ],

@@ -50,7 +50,7 @@ def thumb(s):
     return s.get("thumb") or s["illust"]
 
 
-SITE = "https://artricx.github.io/ailab/"
+SITE = "https://aigo.artricx.com/"
 
 
 def art_open(s, tag, cls, attrs="", lazy=False):

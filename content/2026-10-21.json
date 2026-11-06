@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-21",
   "weekday": "수",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-21.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-21.html",
   "minutes": 5,
   "title": {
     "text": "AI 게임이 쏟아진 게임 축제, AI 회사를 산 세일즈포스, 1천만 번 받은 AI 비서 앱",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "steam",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-21.html#steam",
+      "url": "https://aigo.artricx.com/posts/2026-10-21.html#steam",
       "tag": "창작",
       "color": "yellow",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261020_200609_953f7ac9-af87-40e1-b7a2-4f38508d99cc.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261020_200609_953f7ac9-af87-40e1-b7a2-4f38508d99cc.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261020_200609_953f7ac9-af87-40e1-b7a2-4f38508d99cc.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 축제 탁자 위에서 작은 흰 로봇이 작은 컨베이어로 똑같이 생긴 게임 상자를 높이 쌓아 내보내고, 게임기를 든 동그란 사람이 그 더미를 뒤적이며 손으로 그린 작은 상자 하나를 찾는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-21-steam.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-21-steam.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-21-steam.svg",
         "viewBox": "0 0 800 460",
         "title": "스팀 넥스트 페스트 시험판 게임 가운데 AI를 썼다고 밝힌 게임의 수와 스팀의 규칙",
         "desc": "게임 가게 스팀이 10월 19일부터 26일까지 여는 무료 시험판 게임 축제 넥스트 페스트에 시험판 게임 8,202개가 나왔다. 작년보다 2배 넘게 많다. 엔가젯 집계로는 이 가운데 1,704개가 생성형 AI를 썼다고 밝혔다. 5개 중 1개꼴이다. 막대는 0부터 8,202개를 기준으로 그렸다. 스팀은 2024년부터 AI를 쓴 게임은 그 사실을 밝히게 하고, 가게 페이지 맨 아래에 표시한다. 하지만 AI를 쓴 게임만 걸러 보는 기능은 없다.",
@@ -137,12 +137,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261020_200903_af6f1fa4-f028-4a9a-babc-fb3e9ff93eb9.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261020_200903_af6f1fa4-f028-4a9a-babc-fb3e9ff93eb9.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261020_200903_af6f1fa4-f028-4a9a-babc-fb3e9ff93eb9.mp3"
       }
     },
     {
       "anchor": "braze",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-21.html#braze",
+      "url": "https://aigo.artricx.com/posts/2026-10-21.html#braze",
       "tag": "일",
       "color": "blue",
       "title": {
@@ -163,14 +163,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261020_200609_c61d41ab-efb0-474e-a30c-4f959f0cfa97.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261020_200609_c61d41ab-efb0-474e-a30c-4f959f0cfa97.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261020_200609_c61d41ab-efb0-474e-a30c-4f959f0cfa97.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇 우체부가 작은 우편함 세 개에 각각 다른 편지를 골라 넣고, 그 옆에서 양복을 입은 커다란 동그란 사람이 로봇의 작은 우체국 부스를 통째로 한 팔에 안아 들고 가는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-21-braze.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-21-braze.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-21-braze.svg",
         "viewBox": "0 0 800 460",
         "title": "브레이즈가 하는 일과 세일즈포스가 브레이즈를 사는 조건",
         "desc": "세일즈포스는 10월 20일 브레이즈를 사기로 했다고 밝혔다. 브레이즈를 쓰는 회사는 약 2,770곳이고 캔바, 인스타카트, 벤모 등이 있다. 브레이즈는 손님이 앱을 쓰는 모습을 보고, AI가 무엇을 언제 어디로 보낼지 골라, 앱 알림, 이메일, 문자 등으로 메시지를 보낸다. 사는 값은 한 주에 현금 47.5달러, 모두 약 56억 6천만 달러로 우리 돈 약 7조 5천억 원이다. 브레이즈 주주와 정부의 허락을 받아야 하며 2027년 2월부터 2028년 1월 사이에 마무리할 계획이다.",
@@ -225,12 +225,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261020_202453_eee6b3a3-02ed-40cb-9f3a-e68a151c2b87.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261020_202453_eee6b3a3-02ed-40cb-9f3a-e68a151c2b87.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261020_202453_eee6b3a3-02ed-40cb-9f3a-e68a151c2b87.mp3"
       }
     },
     {
       "anchor": "muse",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-21.html#muse",
+      "url": "https://aigo.artricx.com/posts/2026-10-21.html#muse",
       "tag": "생활",
       "color": "pink",
       "title": {
@@ -251,14 +251,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261020_200610_295d22a8-4488-4554-b450-2d16c0adbc10.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261020_200610_295d22a8-4488-4554-b450-2d16c0adbc10.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261020_200610_295d22a8-4488-4554-b450-2d16c0adbc10.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 작은 소파에 편히 기대 휴대폰을 보고, 그 옆에서 작은 흰 로봇 비서가 달력 한 장과 편지 봉투와 작은 쇼핑백을 들고 무엇을 하기 전에 사람이 좋다고 해 주기를 얌전히 기다리는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-21-muse.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-21-muse.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-21-muse.svg",
         "viewBox": "0 0 800 460",
         "title": "메타의 AI 비서 앱 뮤즈가 내려받아진 횟수와 다른 AI 앱과 견준 속도",
         "desc": "메타가 9월 8일 내놓은 AI 비서 앱 뮤즈가 약 40일 만에 1천만 번 넘게 내려받아졌다. 뮤즈는 사용자가 허락한 메일, 달력, 결제, 쇼핑, 집 안 기기와 이어져 일을 돕고, 어떤 일은 하기 전에 허락을 묻는다. 500만 번까지 걸린 시간은 뮤즈가 약 3주, 챗GPT가 56일, 클로드가 103일이었다. 막대는 0부터 103일을 기준으로 그렸고 약 3주는 21일로 그렸다. 앱마다 나온 때와 나라가 달라 단순히 견주기는 어렵고, 내려받은 횟수는 실제로 쓰는 사람 수와 다르다.",
@@ -314,7 +314,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261020_200903_36b9cac3-4742-427c-bbaf-eeecef4c2540.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261020_200903_36b9cac3-4742-427c-bbaf-eeecef4c2540.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261020_200903_36b9cac3-4742-427c-bbaf-eeecef4c2540.mp3"
       }
     }
   ],

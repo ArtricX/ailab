@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-26",
   "weekday": "월",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-26.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-26.html",
   "minutes": 5,
   "title": {
     "text": "환자 정보가 AI로 들어간 병원, AI 작품을 막은 온라인 모임, AI가 고친 광고는 가게 책임",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "hospital",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-26.html#hospital",
+      "url": "https://aigo.artricx.com/posts/2026-10-26.html#hospital",
       "tag": "안전",
       "color": "blue",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261025_200251_4bb213bf-805b-49e1-ac2b-6fc23a01f59e.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261025_200251_4bb213bf-805b-49e1-ac2b-6fc23a01f59e.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261025_200251_4bb213bf-805b-49e1-ac2b-6fc23a01f59e.webp",
         "width": 1600,
         "height": 1195,
         "alt": "병원 옷을 입은 동그란 사람이 작은 칸이 가득한 긴 종이를 커다란 말풍선 모양 상자에 무심코 밀어 넣고, 옆에서 작은 흰 로봇이 걱정스러운 얼굴로 커다란 자물쇠를 들어 올리는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-26-hospital.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-26-hospital.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-26-hospital.svg",
         "viewBox": "0 0 800 460",
         "title": "존스홉킨스 베이뷰 의료센터의 환자 정보가 AI 도구에 들어간 일의 순서와 들어간 정보",
         "desc": "미국 존스홉킨스 베이뷰 의료센터의 직원이 환자 정보가 담긴 표를 병원이 허락하지 않은 공개 AI 도구에 올렸다. 2026년 5월부터 9월까지 진료받은 환자 약 3,182명의 정보다. 병원은 9월 21일 내부 점검에서 이 일을 찾았고, 10월 22일부터 환자들에게 편지로 알렸다. 들어간 정보는 이름, 입원과 진료 날짜, 의무기록 번호, 진료 계정 번호, 받은 약, 진료과, 의사 이름이다. 사회보장번호와 금융 계좌 정보는 들어가지 않았다. 병원은 대화 기록과 파일을 지우게 하고 AI 회사에 삭제를 부탁했다.",
@@ -134,12 +134,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261025_201602_8fea8596-6b28-483c-82e4-50da2adeb9fd.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261025_201602_8fea8596-6b28-483c-82e4-50da2adeb9fd.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261025_201602_8fea8596-6b28-483c-82e4-50da2adeb9fd.mp3"
       }
     },
     {
       "anchor": "opensource",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-26.html#opensource",
+      "url": "https://aigo.artricx.com/posts/2026-10-26.html#opensource",
       "tag": "창작",
       "color": "yellow",
       "title": {
@@ -159,14 +159,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261025_200252_37e7e775-093f-4287-9880-a3fc24019cf1.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261025_200252_37e7e775-093f-4287-9880-a3fc24019cf1.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261025_200252_37e7e775-093f-4287-9880-a3fc24019cf1.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 나무 모임방 문밖에서 작은 흰 로봇이 톱니바퀴로 만든 장난감을 들고 서 있고, 문간의 동그란 사람이 손바닥을 들어 멈추라고 하며, 창문 안에서는 다른 동그란 사람들이 연장으로 무언가를 만드는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-26-opensource.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-26-opensource.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-26-opensource.svg",
         "viewBox": "0 0 800 460",
         "title": "레딧 오픈소스 모임의 새 규칙으로 올릴 수 없게 된 것과 그 뒤의 반응",
         "desc": "미국의 큰 온라인 게시판 레딧에 있는 오픈소스 모임이 10월 24일 새 규칙을 올렸다. AI가 만들었거나 AI를 눈에 띄게 쓴 작품, AI를 위해 만든 작품, 만든 지 1년이 안 된 작품과 1년이 안 된 계정의 글은 올릴 수 없다. 운영자는 AI에 들인 비용이 자랑거리가 아니라고 했다. 이용자들의 찬성과 반대가 엇갈렸고, AI 작품을 받아 주는 새 모임이 따로 생겼다.",
@@ -217,12 +217,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261025_201601_d8b6de22-27ff-4329-8116-6a1dea1bec09.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261025_201601_d8b6de22-27ff-4329-8116-6a1dea1bec09.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261025_201601_d8b6de22-27ff-4329-8116-6a1dea1bec09.mp3"
       }
     },
     {
       "anchor": "ads",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-26.html#ads",
+      "url": "https://aigo.artricx.com/posts/2026-10-26.html#ads",
       "tag": "일",
       "color": "green",
       "title": {
@@ -243,14 +243,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261025_200252_f73d6388-6b9a-47aa-a4a8-15bb8a851694.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261025_200252_f73d6388-6b9a-47aa-a4a8-15bb8a851694.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261025_200252_f73d6388-6b9a-47aa-a4a8-15bb8a851694.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 사다리에 올라 가게 벽의 빈 포스터에 반짝이와 별을 신나게 그려 넣고, 아래에서 앞치마를 두른 동그란 가게 주인이 아주 무거운 자루를 등에 진 채 덤덤하게 올려다보는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-26-ads.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-26-ads.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-26-ads.svg",
         "viewBox": "0 0 800 460",
         "title": "메타 광고 약관에서 AI 기능의 책임이 바뀌는 내용과 AI가 광고에 하는 일",
         "desc": "페이스북과 인스타그램을 운영하는 메타가 10월 30일부터 새 광고 약관을 적용한다. 전에는 광고주가 AI 도구를 직접 골랐을 때만 책임을 졌다. 새 약관에서는 메타가 스스로 켠 AI 기능이 만든 결과까지 광고주가 혼자 책임진다. 메타의 AI는 광고에 링크를 더하고, 글을 번역하고, 사진으로 새 그림을 만든다. 한 서점은 사람이 그린 광고에 AI 그림이 붙자 AI 기능을 모두 껐다. 메타는 기능을 하나씩 끌 수 있다고 밝혔다.",
@@ -301,7 +301,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261025_201601_aded362a-b846-421c-8064-e1d8797b2c0a.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261025_201601_aded362a-b846-421c-8064-e1d8797b2c0a.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261025_201601_aded362a-b846-421c-8064-e1d8797b2c0a.mp3"
       }
     }
   ],

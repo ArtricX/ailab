@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-29",
   "weekday": "목",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-29.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-29.html",
   "minutes": 5,
   "title": {
     "text": "나라가 만든 AI 건강 도우미, 가짜 답을 쏟아낸 봇, AI와 함께 찾는 희귀병 약",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "health-bot",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-29.html#health-bot",
+      "url": "https://aigo.artricx.com/posts/2026-10-29.html#health-bot",
       "tag": "생활",
       "color": "green",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261028_200120_639ad55f-c1e7-4ccc-9279-fa7343ce61da.webp",
         "width": 1600,
         "height": 1195,
         "alt": "초승달이 뜬 밤, 잠옷을 입은 동그란 사람 곁에서 작은 흰 로봇이 초록 불이 켜진 커다란 신호등을 들어 보이고, 발치에 줄자와 하트가 그려진 수첩이 놓인 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-29-health-bot.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-29-health-bot.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-29-health-bot.svg",
         "viewBox": "0 0 800 460",
         "title": "AI 건강 도우미 챗봇이 배운 자료와 쓰는 순서",
         "desc": "과학기술정보통신부와 질병관리청이 10월 28일 AI 대국민 건강도우미 챗봇을 열었다. 지난 20년 동안 모은 국민 건강조사 자료 500만 건 넘게를 바탕으로 한다. 누구나 무료로 24시간 쓸 수 있다. 키와 몸무게를 넣고, 짧은 생활 설문에 답하면, 성별과 나이가 비슷한 사람과 견준 내 건강을 신호등 색과 그래프로 보여 준다. 고혈압, 당뇨, 이상지질혈증, 비만을 막는 법과 잠, 운동, 식사에 대해 물어볼 수 있다. 병원의 진단을 대신하지는 않는다.",
@@ -126,12 +126,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261028_200337_9b8c88ac-d968-4459-a98e-a1d4fa8167cc.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261028_200337_9b8c88ac-d968-4459-a98e-a1d4fa8167cc.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261028_200337_9b8c88ac-d968-4459-a98e-a1d4fa8167cc.mp3"
       }
     },
     {
       "anchor": "bots",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-29.html#bots",
+      "url": "https://aigo.artricx.com/posts/2026-10-29.html#bots",
       "tag": "안전",
       "color": "blue",
       "title": {
@@ -153,14 +153,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261028_200120_36f08571-47e7-4ff8-b6bd-ebd145271c5a.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 나무 의견함에서 미끄럼틀을 타고 똑같은 종이 편지가 산더미처럼 쏟아지고, 돋보기를 든 동그란 사람과 작은 흰 로봇이 편지 더미를 살피며 색이 다른 편지 몇 장만 따로 골라 두는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-29-bots.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-29-bots.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-29-bots.svg",
         "viewBox": "0 0 800 460",
         "title": "영국 정부 의견 모으기에 들어온 답 가운데 봇이 보낸 답의 몫과 알아챈 방법",
         "desc": "영국 정부가 2023년 일회용 전자담배 규제를 두고 의견을 물었을 때 들어온 답 118,756건 가운데 90,835건, 약 76%가 봇이 보낸 답이었다. 학술지 토바코 컨트롤에 10월 27일 실린 연구다. 정부는 같은 답이 여러 번, 짧은 시간에 몰려, 적은 수의 인터넷 주소에서 들어온 것을 보고 걸러 냈다. 가짜를 빼고 나니 진짜 답의 79.6%가 규제에 찬성했다.",
@@ -221,12 +221,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261028_200337_f638c3f1-f8eb-49f6-bc4c-2801c041b2f7.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261028_200337_f638c3f1-f8eb-49f6-bc4c-2801c041b2f7.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261028_200337_f638c3f1-f8eb-49f6-bc4c-2801c041b2f7.mp3"
       }
     },
     {
       "anchor": "medicine",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-29.html#medicine",
+      "url": "https://aigo.artricx.com/posts/2026-10-29.html#medicine",
       "tag": "건강",
       "color": "pink",
       "title": {
@@ -247,14 +247,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261028_200121_18a62a66-a72c-41fe-94ab-9a37e76ad54b.webp",
         "width": 1600,
         "height": 1195,
         "alt": "실험 가운을 입은 동그란 사람과 작은 흰 로봇이 시험관과 현미경이 놓인 작은 실험대에서 나란히 일하고, 그 옆에서 동그란 생쥐가 작은 아령을 자랑스럽게 들어 올리는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-29-medicine.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-29-medicine.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-29-medicine.svg",
         "viewBox": "0 0 800 460",
         "title": "AI와 함께 약을 찾은 기간과 약이 사람에게 오기까지의 순서",
         "desc": "앤트로픽은 10월 27일(미국 시간) AI 클로드로 약을 만드는 연구의 첫 결과를 공개했다. 직원 한 명인 바이오 회사 미스릴은 클로드의 도움으로 바깥 연구소 11곳과 일하며, 드문 근육병 약의 아이디어에서 생쥐 실험의 좋은 결과까지 18개월이 안 걸렸다. 제약·바이오 회사 6곳도 함께했다. 한 회사는 사람이 25시간 넘게 하던 서류 검토를 3시간 아래로 줄였다. 약은 아직 사람에게 시험하지 않았고, 사람 대상 시험은 빠르면 2028년 말에 시작할 수 있다.",
@@ -320,7 +320,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261028_200337_f0ef9a82-87f8-4b0b-b9e0-e14425834220.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261028_200337_f0ef9a82-87f8-4b0b-b9e0-e14425834220.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261028_200337_f0ef9a82-87f8-4b0b-b9e0-e14425834220.mp3"
       }
     }
   ],

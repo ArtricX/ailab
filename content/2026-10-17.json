@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-17",
   "weekday": "토",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-17.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-17.html",
   "minutes": 5,
   "title": {
     "text": "시험을 시작한 모두의 AI, 나를 찾아오는 챗GPT 광고, 문서를 검사하는 구글 AI",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "modu",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-17.html#modu",
+      "url": "https://aigo.artricx.com/posts/2026-10-17.html#modu",
       "tag": "생활",
       "color": "green",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261016_212013_29773cdc-c28c-4200-bb49-df293628d503.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261016_212013_29773cdc-c28c-4200-bb49-df293628d503.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261016_212013_29773cdc-c28c-4200-bb49-df293628d503.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 나란히 선 작은 문 세 개 앞에 서 있고, 문은 각각 옛날 전화기, 돋보기, 말풍선 모양이며, 가운데 문에서 작은 흰 로봇이 기록판과 작은 가위를 들고 문 여는 날을 앞두고 미리 가게를 열어 보듯 고개를 내미는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-17-modu.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-17-modu.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-17-modu.svg",
         "viewBox": "0 0 800 460",
         "title": "'모두의 AI' 일정과 세 가지 쓰는 길",
         "desc": "과학기술정보통신부가 8월에 고른 세 팀이 10월 16일 '모두의 AI' 비공개 시험을 시작했다. 지금은 참여 회사와 공공기관 직원만 써 본다. 12월에 전 국민에게 무료로 정식으로 여는 것이 목표다. 쓰는 길은 세 가지다. SK텔레콤 팀은 전화와 문자, KT 팀은 다음 검색, 카카오 팀은 카카오톡으로 쓴다. 세 팀 모두 우리나라에서 만든 AI 모델을 쓴다.",
@@ -135,7 +135,7 @@
     },
     {
       "anchor": "ads",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-17.html#ads",
+      "url": "https://aigo.artricx.com/posts/2026-10-17.html#ads",
       "tag": "안전",
       "color": "red",
       "title": {
@@ -157,14 +157,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261016_212012_1e48e36f-fe0f-4625-84e8-fdc197a46035.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261016_212012_1e48e36f-fe0f-4625-84e8-fdc197a46035.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261016_212012_1e48e36f-fe0f-4625-84e8-fdc197a46035.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 커다란 말풍선 안에서 작은 흰 로봇과 이야기를 나누고, 말풍선 뒤에서는 길게 펼친 두루마리 위의 작은 편지 봉투와 휴대폰들이 깔때기로 맞춰지며, 사람 옆에 막대에 달린 빈 광고판이 불쑥 솟아오르는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-17-ads.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-17-ads.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-17-ads.svg",
         "viewBox": "0 0 800 460",
         "title": "챗GPT 광고가 보는 사람을 고르는 방법",
         "desc": "미국 언론 404미디어가 직접 광고를 걸어 시험해 보고 10월 15일 보도했다. 광고주가 이메일, 전화번호, 휴대폰 광고 번호 명단을 올리면 오픈AI가 챗GPT 사용자와 맞춰 보고, 맞는 사람이 광고를 볼 수 있는 대상이 된다. 명단은 2만 5천 개가 넘어야 쓸 수 있어 한 사람만 골라낼 수는 없다. 오픈AI는 올린 명단을 24시간 안에 지운다고 했다. 맞춤 광고를 끄면 지난 대화와 활동에 맞춘 광고는 꺼지지만, 지금 나누는 대화에 맞춘 광고는 나올 수 있다.",
@@ -225,7 +225,7 @@
     },
     {
       "anchor": "review",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-17.html#review",
+      "url": "https://aigo.artricx.com/posts/2026-10-17.html#review",
       "tag": "일",
       "color": "blue",
       "title": {
@@ -246,14 +246,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261016_212013_2c1d9ee6-6b86-4a83-b0b7-b70194f5c528.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261016_212013_2c1d9ee6-6b86-4a83-b0b7-b70194f5c528.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261016_212013_2c1d9ee6-6b86-4a83-b0b7-b70194f5c528.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 안경을 쓴 작은 흰 로봇이 높이 쌓인 종이 더미 위에 앉아 빨간 연필로 종이의 작은 곳에 동그라미를 치고, 아래에서 동그란 사람이 두 칸에만 동그라미가 그려진 달력을 들고 기다리는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-17-review.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-17-review.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-17-review.svg",
         "viewBox": "0 0 800 460",
         "title": "구글 딥 리뷰의 무료 사용 횟수와 하는 일",
         "desc": "구글 리서치가 10월 14일 문서 검사 AI '딥 리뷰'를 누구나 쓸 수 있게 열었다. 무료로는 일주일에 두 번 쓸 수 있다. 일주일 7칸 가운데 2칸을 칠했다. 딥 리뷰는 계산 실수, 앞뒤가 안 맞는 논리, 근거 없는 주장을 찾고, 계약서나 재무 문서는 조항과 표가 서로 맞는지, 뜻이 애매한 말이 있는지 살핀다. 처음에는 논문을 검토하려고 만들었고, 시범 운영에서 1만 5천 편이 넘는 논문을 살폈다. 올린 문서는 AI 학습에 쓰지 않지만 1년 동안 보관한다.",

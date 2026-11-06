@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-13",
   "weekday": "화",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-13.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-13.html",
   "minutes": 5,
   "title": {
     "text": "폰 없이 길 찾는 안경, 가벼워진 무료 제미나이, 세탁기보다 느슨한 AI 규칙",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "glasses",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-13.html#glasses",
+      "url": "https://aigo.artricx.com/posts/2026-10-13.html#glasses",
       "tag": "생활",
       "color": "green",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261012_212642_55110c4a-8827-4781-bccb-36309367aa82.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261012_212642_55110c4a-8827-4781-bccb-36309367aa82.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261012_212642_55110c4a-8827-4781-bccb-36309367aa82.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 안경을 쓴 동그란 사람이 휴대폰은 뒷주머니에 넣은 채 길을 걷고, 안경테 위에 앉은 작은 흰 로봇이 앞을 가리키며 길을 알려 주는 그림. 바닥의 화살표는 작은 계단으로 이어져요"
       },
       "infographic": {
         "file": "content/graphics/2026-10-13-glasses.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-13-glasses.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-13-glasses.svg",
         "viewBox": "0 0 800 460",
         "title": "네이버지도 AI 안경 길 안내가 들어가는 안경과 알려 주는 것",
         "desc": "네이버지도는 구글, 삼성, 메타 세 회사와 손잡고 AI 안경에서 걷는 길을 안내한다. 메타의 안경에 먼저 들어가고, 구글과 삼성이 함께 만든 안경은 올해 안에 나온다. 안드로이드 휴대폰부터 되고 아이폰은 차례로 지원한다. 안경은 가는 방향, 계단이나 에스컬레이터가 있는지를 말로 알려 주고, 도착 예정 시간이나 가까운 편의점을 말로 물어볼 수 있다.",
@@ -131,7 +131,7 @@
     },
     {
       "anchor": "gemini",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-13.html#gemini",
+      "url": "https://aigo.artricx.com/posts/2026-10-13.html#gemini",
       "tag": "돈",
       "color": "blue",
       "title": {
@@ -152,14 +152,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261012_212642_a2d38c37-5e4f-4c21-8e68-ea17f0ca0daf.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261012_212642_a2d38c37-5e4f-4c21-8e68-ea17f0ca0daf.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261012_212642_a2d38c37-5e4f-4c21-8e68-ea17f0ca0daf.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 계산대에서 작은 흰 로봇이 동그란 사람에게 아주 작은 컵 하나를 건네고, 더 큰 컵 두 개는 줄을 친 높은 선반 위에 놓여 있는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-13-gemini.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-13-gemini.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-13-gemini.svg",
         "viewBox": "0 0 800 460",
         "title": "제미나이 요금제별로 쓸 수 있는 AI 모델",
         "desc": "10월 9일부터 제미나이 앱의 무료 이용자는 세 가지 모델 가운데 가장 가벼운 플래시 라이트 하나만 쓸 수 있다. AI 플러스 요금제는 플래시 라이트와 플래시를 쓰고 프로는 빠진다. 바뀌는 날짜는 메일로 따로 알려 준다. AI 프로 요금제는 세 가지를 모두 쓴다.",
@@ -219,7 +219,7 @@
     },
     {
       "anchor": "rules",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-13.html#rules",
+      "url": "https://aigo.artricx.com/posts/2026-10-13.html#rules",
       "tag": "안전",
       "color": "yellow",
       "title": {
@@ -241,14 +241,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261012_212642_896c383f-163e-440e-bc43-a0708d451a0d.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261012_212642_896c383f-163e-440e-bc43-a0708d451a0d.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261012_212642_896c383f-163e-440e-bc43-a0708d451a0d.webp",
         "width": 1600,
         "height": 1195,
         "alt": "검사 꼬리표와 확인 스티커가 잔뜩 붙은 세탁기와 우유갑 옆에 꼬리표가 하나도 없는 작은 흰 로봇이 서 있고, 동그란 사람이 로봇에게 빈 꼬리표와 커다란 빨간 멈춤 버튼을 내미는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-13-rules.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-13-rules.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-13-rules.svg",
         "viewBox": "0 0 800 460",
         "title": "브래드 스미스 사장이 견준 물건들과 AI 안전을 위한 세 가지 제안",
         "desc": "마이크로소프트의 브래드 스미스 사장은 세탁기와 우유에는 지켜야 할 안전 규칙과 검사가 있지만 AI는 그보다 규칙이 적다고 말했다. 그는 세 가지를 제안했다. 첫째, AI를 내놓기 전에 바깥 전문가에게 검사받기. 둘째, AI 때문에 사고가 나면 피해를 본 곳에 알리기. 셋째, AI가 말을 듣지 않으면 멈추거나 늦출 수 있는 비상 브레이크를 달기.",

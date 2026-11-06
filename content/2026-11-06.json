@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-11-06",
   "weekday": "금",
-  "url": "https://artricx.github.io/ailab/posts/2026-11-06.html",
+  "url": "https://aigo.artricx.com/posts/2026-11-06.html",
   "minutes": 5,
   "title": {
     "text": "움직이는 그림 만드는 챗GPT, 불꽃축제 지키는 AI, 빵 세는 AI 계산대",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "gif-maker",
-      "url": "https://artricx.github.io/ailab/posts/2026-11-06.html#gif-maker",
+      "url": "https://aigo.artricx.com/posts/2026-11-06.html#gif-maker",
       "tag": "창작",
       "color": "pink",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261105_200227_a0dd2877-f1a8-4ab2-a5d0-669af2526c7c.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 휴대폰을 들고 있고, 화면에서 춤추는 고양이가 한 장씩 조금씩 다르게 그려진 종이 장면들이 부채처럼 펼쳐져 나오며, 머리 위에 올라탄 작은 흰 로봇이 그 종이를 한 장씩 넘기는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-11-06-gif-maker.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-06-gif-maker.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-06-gif-maker.svg",
         "viewBox": "0 0 800 460",
         "title": "챗GPT 새 그림 기능 이미지 2.6",
         "desc": "오픈AI는 미국 시간 11월 4일 이미지 2.6을 내놓았다. 챗GPT와 코덱스, 개발자용 서비스를 합쳐 일주일에 40억 장이 넘는 그림이 만들어지며, 9월의 30억 장보다 10억 장 늘었다. 왼쪽 막대 길이는 30억과 40억에 맞췄다. 그림을 만드는 속도는 이전 버전보다 50% 빨라졌다. 오른쪽은 GIF를 만드는 순서다. 장면을 글로 설명하거나 사진을 올리면, AI가 조금씩 다른 그림을 이어 붙여 움직이는 GIF를 만들고, 빠르기를 바꾸거나 한 장면씩 고칠 수 있다. 무료 이용자를 포함한 모든 이용자에게 차례로 열리고 있다.",
@@ -132,12 +132,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261105_205301_fe73a1c3-e002-4fcf-99aa-fdd18d578275.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261105_205301_fe73a1c3-e002-4fcf-99aa-fdd18d578275.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261105_205301_fe73a1c3-e002-4fcf-99aa-fdd18d578275.mp3"
       }
     },
     {
       "anchor": "fireworks-network",
-      "url": "https://artricx.github.io/ailab/posts/2026-11-06.html#fireworks-network",
+      "url": "https://aigo.artricx.com/posts/2026-11-06.html#fireworks-network",
       "tag": "생활",
       "color": "blue",
       "title": {
@@ -158,14 +158,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261105_200227_f6c7d4c4-1b00-441f-886d-7415a6fffe90.webp",
         "width": 1600,
         "height": 1195,
         "alt": "밤하늘에 동그란 불꽃이 터지는 바닷가에서 동그란 사람들이 휴대폰을 들고 있고, 휴대폰에서 올라가는 꼬불꼬불한 전파 줄을 작은 안테나 탑 위의 작은 흰 로봇이 커다란 깔때기로 엉키지 않게 모으는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-11-06-fireworks-network.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-06-fireworks-network.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-06-fireworks-network.svg",
         "viewBox": "0 0 800 460",
         "title": "부산불꽃축제 인파와 SK텔레콤의 AI 통신 관리",
         "desc": "부산불꽃축제를 찾은 사람은 2024년 103만 명, 지난해 117만 명이었고, 올해는 120만 명이 넘을 것으로 보인다. 왼쪽 막대 길이는 이 숫자에 맞췄다. SK텔레콤은 11월 5일, AI로 사람 수와 지난 통신 기록을 살펴 필요한 통신 양을 미리 계산하고, 광안리와 마린시티에 이동기지국과 임시 중계기를 더 세우며, 축제 날에는 AI가 몰린 통신을 고르게 나눈다고 밝혔다. 끊김이나 늦음 없이 쓴 비율인 체감품질 만족률도 처음 살핀다. 축제는 11월 7일 오후 1시부터 8시까지 열리고, 100여 명이 현장에서 대기한다.",
@@ -233,12 +233,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261105_200525_8d8a82cc-2e1a-487b-8125-6360fea2d732.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261105_200525_8d8a82cc-2e1a-487b-8125-6360fea2d732.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261105_200525_8d8a82cc-2e1a-487b-8125-6360fea2d732.mp3"
       }
     },
     {
       "anchor": "bread-checkout",
-      "url": "https://artricx.github.io/ailab/posts/2026-11-06.html#bread-checkout",
+      "url": "https://aigo.artricx.com/posts/2026-11-06.html#bread-checkout",
       "tag": "일",
       "color": "yellow",
       "title": {
@@ -259,14 +259,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261105_200226_77ea2516-ddb1-4376-84e3-7696280f09f7.webp",
         "width": 1600,
         "height": 1195,
         "alt": "빵집 계산대 쟁반 위에 크루아상, 동그란 빵, 식빵 조각, 프레첼이 놓여 있고, 구부러진 받침대에 달린 작은 카메라가 쟁반을 내려다보며, 옆에서 작은 흰 로봇이 손가락으로 빵을 세고 높은 모자를 쓴 동그란 제빵사가 빈 영수증이 나오는 모습을 보며 웃는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-11-06-bread-checkout.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-06-bread-checkout.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-06-bread-checkout.svg",
         "viewBox": "0 0 800 460",
         "title": "빵을 알아보는 AI 계산대",
         "desc": "파인더스에이아이는 11월 5일, 카메라와 AI로 빵을 알아보는 계산대를 쓰는 매장이 지난해의 4배를 넘었고, 그중 빵집은 1년 새 9배 가까이 늘었다고 밝혔다. 왼쪽 막대 길이는 4배와 9배에 맞췄다. 이 계산대를 쓰는 곳의 80% 넘게가 빵집이고, 약 30%는 수도권 밖에 있다. 오른쪽은 계산 순서다. 빵 쟁반을 계산대에 올리면 카메라와 AI가 1~2초 만에 빵의 종류와 개수를 알아보고, 바코드 없이 바로 값을 매긴다. 직원은 손님 응대와 포장을 맡는다.",
@@ -330,7 +330,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261105_200524_15da8370-a41e-4002-a15a-769145370c3b.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261105_200524_15da8370-a41e-4002-a15a-769145370c3b.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261105_200524_15da8370-a41e-4002-a15a-769145370c3b.mp3"
       }
     }
   ],

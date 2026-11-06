@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-25",
   "weekday": "일",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-25.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-25.html",
   "minutes": 5,
   "title": {
     "text": "내 메일로 광고를 고르는 AI, 해고는 사람이 정하는 나라, AI로 만든 중국 영화",
@@ -44,7 +44,7 @@
   "stories": [
     {
       "anchor": "gmail",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-25.html#gmail",
+      "url": "https://aigo.artricx.com/posts/2026-10-25.html#gmail",
       "tag": "안전",
       "color": "blue",
       "title": {
@@ -65,14 +65,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261024_200312_e565891f-a4cb-450a-8956-4081b9361fab.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261024_200312_e565891f-a4cb-450a-8956-4081b9361fab.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261024_200312_e565891f-a4cb-450a-8956-4081b9361fab.webp",
         "width": 1600,
         "height": 1195,
         "alt": "편지와 작은 사진이 가득한 열린 우체통에서 작은 흰 로봇이 빼꼼 나와 빈 팻말을 들어 보이고, 옆에 선 동그란 사람이 커다란 둥근 켜고 끄는 스위치를 한 손에 든 채 생각하는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-25-gmail.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-25-gmail.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-25-gmail.svg",
         "viewBox": "0 0 800 460",
         "title": "구글 개인정보 약속에 생긴 예외와 메일 내용이 광고에 쓰일 수 있는 길",
         "desc": "구글은 2021년 7월부터 개인정보 처리방침에 지메일, 구글 포토, 드라이브의 내용으로 맞춤 광고를 하지 않는다고 적어 왔다. 10월 16일부터 적용된 새 처리방침에는, 사용자가 이 내용을 다른 서비스에 연결하면 예외라는 말이 붙었다. 메일과 사진을 개인 맞춤 AI 기능에 연결하면, 검색이 그 내용을 살펴 맞춤 광고를 고르는 데 쓸 수 있다. 연결은 사용자가 직접 켜야 생기고, 원하지 않으면 끊을 수 있다.",
@@ -131,12 +131,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261024_200834_d50cd323-c1f9-4123-943c-cbc220b2ef27.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261024_200834_d50cd323-c1f9-4123-943c-cbc220b2ef27.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261024_200834_d50cd323-c1f9-4123-943c-cbc220b2ef27.mp3"
       }
     },
     {
       "anchor": "italy",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-25.html#italy",
+      "url": "https://aigo.artricx.com/posts/2026-10-25.html#italy",
       "tag": "일",
       "color": "green",
       "title": {
@@ -157,14 +157,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261024_200312_cf2b6e09-5513-4e34-b87c-f81d8e695f09.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261024_200312_cf2b6e09-5513-4e34-b87c-f81d8e695f09.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261024_200312_cf2b6e09-5513-4e34-b87c-f81d8e695f09.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 사무실 책상에서 작은 흰 로봇이 가지런한 종이 묶음을 공손히 건네고, 넥타이를 맨 동그란 사람이 커다란 둥근 도장을 들어 마지막 결정을 찍으려는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-25-italy.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-25-italy.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-25-italy.svg",
         "viewBox": "0 0 800 460",
         "title": "이탈리아 새 법령에서 사람이 마지막에 정해야 하는 일과 직원이 물을 수 있는 것",
         "desc": "이탈리아의 법령 179호가 10월 23일부터 시행됐다. 회사가 AI를 쓰더라도 직원을 뽑기, 평가, 징계, 해고의 마지막 결정은 진짜 판단할 힘이 있는 사람이 해야 한다. 이력서를 추리는 일에는 AI를 써도 된다. 직원은 결정에 대해 AI가 얼마나 영향을 줬는지, 무엇을 주로 봤는지, 사람은 무엇을 했는지 설명해 달라고 할 수 있다. 이 규칙을 어긴 결정은 무효가 된다.",
@@ -223,12 +223,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261024_200835_53168519-bef7-45be-9cc4-e56050f600a8.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261024_200835_53168519-bef7-45be-9cc4-e56050f600a8.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261024_200835_53168519-bef7-45be-9cc4-e56050f600a8.mp3"
       }
     },
     {
       "anchor": "movie",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-25.html#movie",
+      "url": "https://aigo.artricx.com/posts/2026-10-25.html#movie",
       "tag": "창작",
       "color": "yellow",
       "title": {
@@ -249,14 +249,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261024_200312_84a67c33-7010-4b3a-886f-877faace0a1e.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261024_200312_84a67c33-7010-4b3a-886f-877faace0a1e.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261024_200312_84a67c33-7010-4b3a-886f-877faace0a1e.webp",
         "width": 1600,
         "height": 1195,
         "alt": "자리가 몇 개뿐인 작은 극장에서 동그란 사람이 혼자 팝콘 통을 들고 빛나는 빈 화면을 보고, 뒤에서 작은 흰 로봇이 작은 그림 카드가 길게 이어진 띠를 넣으며 옛날 영사기 손잡이를 돌리는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-25-movie.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-25-movie.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-25-movie.svg",
         "viewBox": "0 0 800 460",
         "title": "AI 영화 싼싱두이에 쓰인 그림 수와 영화를 만든 순서",
         "desc": "중국 영화사 보나 필름이 만든 AI 영화 '싼싱두이: 미래의 과거'가 10월 23일 중국 전국 극장에서 개봉했다. 120만 장이 넘는 AI 그림을 썼다. 상영 시간은 100분, 만든 기간은 약 2년, 만든 사람은 약 100명이다. 사람이 이야기와 연출을 정하고, AI가 장면 그림을 만들고, 사람이 표정을 한 장면씩 다듬었다. 전체 흥행 수입은 15만 위안을 넘기 어렵다는 예상이 나와 관객 반응은 아직 미지근하다.",
@@ -320,7 +320,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261024_201857_363c122f-9c81-4ac7-87a1-810ad8109a3c.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261024_201857_363c122f-9c81-4ac7-87a1-810ad8109a3c.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261024_201857_363c122f-9c81-4ac7-87a1-810ad8109a3c.mp3"
       }
     }
   ],
