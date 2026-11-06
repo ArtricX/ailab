@@ -11,8 +11,8 @@
         "anchor": "money-reader",
         "title": "AI가 통장 내역을|읽고 정리해 줘요",
         "dek": "돈을 옮기지는 못하고|읽기만 해요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200328_dd1ca9b3-0d22-4ee4-b1c5-676d0f33b3b1.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200328_dd1ca9b3-0d22-4ee4-b1c5-676d0f33b3b1_min.webp"
+        "illust": "assets/img/hf_20261106_200328_dd1ca9b3-0d22-4ee4-b1c5-676d0f33b3b1.webp",
+        "thumb": "assets/img/hf_20261106_200328_dd1ca9b3-0d22-4ee4-b1c5-676d0f33b3b1_min.webp"
       },
       {
         "tag": "생활",
@@ -20,8 +20,8 @@
         "anchor": "talking-face",
         "title": "얼굴 표정을 지으며|말로 대화하는 AI가|나왔어요",
         "dek": "말하는 중간에|끼어들어도 돼요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200329_c7867c13-fe99-403a-97a2-d5c9ddf2310c.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200329_c7867c13-fe99-403a-97a2-d5c9ddf2310c_min.webp"
+        "illust": "assets/img/hf_20261106_200329_c7867c13-fe99-403a-97a2-d5c9ddf2310c.webp",
+        "thumb": "assets/img/hf_20261106_200329_c7867c13-fe99-403a-97a2-d5c9ddf2310c_min.webp"
       },
       {
         "tag": "일",
@@ -29,8 +29,8 @@
         "anchor": "quick-decide",
         "title": "0.04초 만에|답을 고르는 AI,|카카오가|공개했어요",
         "dek": "긴 문장 대신|점수로 답해요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200328_6209893b-f33d-4da0-ac4e-9e50483d8e46.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200328_6209893b-f33d-4da0-ac4e-9e50483d8e46_min.webp"
+        "illust": "assets/img/hf_20261106_200328_6209893b-f33d-4da0-ac4e-9e50483d8e46.webp",
+        "thumb": "assets/img/hf_20261106_200328_6209893b-f33d-4da0-ac4e-9e50483d8e46_min.webp"
       }
     ],
     "keywords": [
