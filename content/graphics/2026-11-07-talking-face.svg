@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">메타 AI 비서 뮤즈의 음성 대화와 표정 아바타</title>
+            <desc id="g2d">메타는 미국 시간 11월 5일, AI 비서 앱 뮤즈에 실시간 음성 대화와 표정을 짓는 아바타를 넣었다. 목소리는 수백 가지 가운데 고를 수 있다. 사용자는 AI가 말하는 중간에 끼어들 수 있고, 대화하는 동안에도 AI는 맡은 일을 뒤에서 계속한다. 오른쪽은 아바타를 보는 세 가지 방법이다. 화면 가득 보기, 글 옆에 작게 보기, 숨기고 목소리만 듣기. 지금은 미국에서 휴대폰, 웹, 맥으로 쓸 수 있고, 다른 나라는 시험과 안전 점검 뒤 넓힐 계획이다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">수백 개</text>
+            <text x="34" y="170" font-size="16" font-weight="800">고를 수 있는 AI 목소리</text>
+            <text class="grey" x="34" y="194" font-size="13.5">메타 · 미국 시간 11월 5일 발표</text>
+
+            <rect class="f-blue" x="34" y="222" width="320" height="44" rx="14"/>
+            <text x="54" y="250" font-size="14.5" font-weight="900">AI가 표정과 몸짓으로 대답해요</text>
+            <rect class="f-paper" x="34" y="278" width="320" height="44" rx="14"/>
+            <text class="red" x="54" y="306" font-size="14.5" font-weight="900">말하는 중간에 끼어들어도 돼요</text>
+            <rect class="f-paper" x="34" y="334" width="320" height="44" rx="14"/>
+            <text x="54" y="362" font-size="14.5" font-weight="900">대화하면서 맡긴 일도 계속해요</text>
+            <text class="grey" x="34" y="420" font-size="13.5">미국에서 휴대폰·웹·맥으로 써요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">AI 얼굴을 보는 세 가지 방법</text>
+            <rect class="f-blue" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">화면 가득 보기</text>
+            <rect class="f-paper" x="440" y="130" width="320" height="44" rx="14"/>
+            <text x="600" y="158" font-size="14.5" font-weight="900" text-anchor="middle">글 옆에 작게 보기</text>
+            <rect class="f-paper" x="440" y="186" width="320" height="44" rx="14"/>
+            <text x="600" y="214" font-size="14.5" font-weight="900" text-anchor="middle">얼굴은 숨기고 목소리만 듣기</text>
+
+            <text x="440" y="280" font-size="15" font-weight="800">다른 나라는</text>
+            <text x="440" y="308" font-size="14.5" font-weight="700">시험과 안전 점검을 마친 뒤</text>
+            <text x="440" y="332" font-size="14.5" font-weight="700">넓힐 계획이에요</text>
+            <text class="grey" x="440" y="404" font-size="13.5">AI 안경에서도 쓸 수 있게 준비 중</text>
+          </svg>

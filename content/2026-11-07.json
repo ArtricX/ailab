@@ -1,0 +1,356 @@
+{
+  "schema": 1,
+  "date": "2026-11-07",
+  "weekday": "토",
+  "url": "https://artricx.github.io/ailab/posts/2026-11-07.html",
+  "minutes": 5,
+  "title": {
+    "text": "통장 읽는 AI, 표정 짓는 AI, 빨리 고르는 AI",
+    "phrases": [
+      "통장 읽는 AI,",
+      "표정 짓는 AI,",
+      "빨리 고르는 AI"
+    ]
+  },
+  "share": {
+    "title": "AI가 통장 내역을 읽고 정리해 줘요 외 2건 · 아이고 11월 7일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 7일 토요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-07.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "money-reader",
+      "tag": "돈",
+      "color": "green",
+      "label": "통장 읽는 AI"
+    },
+    {
+      "anchor": "talking-face",
+      "tag": "생활",
+      "color": "blue",
+      "label": "표정 짓는 AI"
+    },
+    {
+      "anchor": "quick-decide",
+      "tag": "일",
+      "color": "yellow",
+      "label": "빨리 고르는 AI"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "money-reader",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-07.html#money-reader",
+      "tag": "돈",
+      "color": "green",
+      "title": {
+        "text": "AI가 통장 내역을 읽고 정리해 줘요",
+        "phrases": [
+          "AI가 통장 내역을",
+          "읽고 정리해 줘요"
+        ]
+      },
+      "dek": {
+        "text": "돈을 옮기지는 못하고 읽기만 해요.",
+        "phrases": [
+          "돈을 옮기지는 못하고",
+          "읽기만 해요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200328_dd1ca9b3-0d22-4ee4-b1c5-676d0f33b3b1.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200328_dd1ca9b3-0d22-4ee4-b1c5-676d0f33b3b1.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 바닥까지 늘어진 긴 영수증을 들고 있고, 작은 흰 로봇이 한 손은 뒤로 감춘 채 커다란 돋보기로 펼친 통장을 들여다보며, 옆에는 작은 자물쇠를 찬 돼지 저금통이 놓인 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-07-money-reader.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-07-money-reader.svg",
+        "viewBox": "0 0 800 460",
+        "title": "클로드의 새 기능 개인 금융",
+        "desc": "앤트로픽은 미국 시간 11월 5일, AI 클로드에 은행 계좌를 이어 지출을 정리해 주는 개인 금융 기능을 시험판으로 내놓았다. 클로드는 최근 2년 동안의 거래 내역을 읽을 수 있다. 할 수 있는 일은 지출 정리와 겹친 결제나 수수료 찾기이고, 돈을 옮기거나 투자하는 일은 할 수 없다. 오른쪽은 이용 순서다. 은행에 직접 로그인해 읽기만 허락하면, 클로드가 잔액과 거래 내역을 읽고, 한 달 지출을 정리하거나 질문에 답한다. 연결은 언제든 끊을 수 있다. 지금은 미국의 유료 이용자만 쓸 수 있다.",
+        "caption": {
+          "text": "AI는 통장을 들여다보기만 하고 돈에는 손대지 못해요.",
+          "phrases": [
+            "AI는 통장을",
+            "들여다보기만 하고",
+            "돈에는 손대지 못해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "AI 클로드를 만든 앤트로픽이 미국 시간 11월 5일 '개인 금융' 기능을 시험판으로 내놓았어요. 은행 계좌를 이어 두면 클로드가 잔액과 거래 내역을 읽어요. 그리고 이번 달에 어디에 돈을 많이 썼는지 정리해 줘요. 최근 2년 동안의 거래 내역까지 볼 수 있어요.",
+            "nobreak": [
+              "11월 5일",
+              "2년"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "가계부를 꾸준히 쓰기는 쉽지 않아요. 같은 결제가 두 번 나갔거나, 모르는 수수료가 빠져나가도 놓치기 쉬워요. AI가 거래 내역을 대신 읽으면 이런 일을 빨리 찾아 줄 수 있어요. 대신 이 기능은 읽기만 해요. 돈을 다른 곳으로 보내거나 투자하는 일은 할 수 없게 막아 두었어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "지금은 미국의 유료 이용자만 쓸 수 있어요. 우리나라에서는 아직 쓸 수 없어요. 은행 연결은 은행 화면에서 직접 로그인해 허락하는 방식이라, AI가 비밀번호를 보지 않아요. 연결은 언제든 끊을 수 있어요. 비슷한 서비스를 쓸 때는 무엇을 읽어 가는지, 어떻게 끊는지 먼저 꼭 확인하세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "앤트로픽 발표",
+          "date": "11월 5일",
+          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+        },
+        {
+          "name": "더 넥스트 웹",
+          "date": "11월 5일",
+          "url": "https://thenextweb.com/news/anthropic-claude-personal-finance-plaid-read-only-beta"
+        },
+        {
+          "name": "테스팅카탈로그",
+          "date": "11월 5일",
+          "url": "https://www.testingcatalog.com/claude-adds-personal-finance-with-read-only-bank-access/"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200611_fac2cde6-afc4-4764-b9ab-7065ef0d89f3.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200611_fac2cde6-afc4-4764-b9ab-7065ef0d89f3.mp3"
+      }
+    },
+    {
+      "anchor": "talking-face",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-07.html#talking-face",
+      "tag": "생활",
+      "color": "blue",
+      "title": {
+        "text": "얼굴 표정을 지으며 말로 대화하는 AI가 나왔어요",
+        "phrases": [
+          "얼굴 표정을 지으며",
+          "말로 대화하는 AI가",
+          "나왔어요"
+        ]
+      },
+      "dek": {
+        "text": "말하는 중간에 끼어들어도 돼요.",
+        "phrases": [
+          "말하는 중간에",
+          "끼어들어도 돼요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200329_c7867c13-fe99-403a-97a2-d5c9ddf2310c.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200329_c7867c13-fe99-403a-97a2-d5c9ddf2310c.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 바닥에 앉아 작은 텔레비전처럼 세워 둔 커다란 휴대폰과 이야기하고, 휴대폰 화면 속 얼굴이 눈썹을 올리며 대답하며, 휴대폰 뒤에서 작은 흰 로봇이 웃는 얼굴, 놀란 얼굴, 생각하는 얼굴 가면 세 개를 들고 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-07-talking-face.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-07-talking-face.svg",
+        "viewBox": "0 0 800 460",
+        "title": "메타 AI 비서 뮤즈의 음성 대화와 표정 아바타",
+        "desc": "메타는 미국 시간 11월 5일, AI 비서 앱 뮤즈에 실시간 음성 대화와 표정을 짓는 아바타를 넣었다. 목소리는 수백 가지 가운데 고를 수 있다. 사용자는 AI가 말하는 중간에 끼어들 수 있고, 대화하는 동안에도 AI는 맡은 일을 뒤에서 계속한다. 오른쪽은 아바타를 보는 세 가지 방법이다. 화면 가득 보기, 글 옆에 작게 보기, 숨기고 목소리만 듣기. 지금은 미국에서 휴대폰, 웹, 맥으로 쓸 수 있고, 다른 나라는 시험과 안전 점검 뒤 넓힐 계획이다.",
+        "caption": {
+          "text": "글자 대신 얼굴을 보며 AI와 이야기해요.",
+          "phrases": [
+            "글자 대신",
+            "얼굴을 보며",
+            "AI와 이야기해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "페이스북과 인스타그램을 운영하는 메타가 미국 시간 11월 5일, AI 비서 앱 '뮤즈'를 새로 바꿨어요. 이제 뮤즈와 전화하듯 말로 이야기할 수 있어요. 화면 속 AI는 얼굴 표정과 몸짓을 지으며 대답해요. 목소리는 수백 가지 가운데 고를 수 있어요.",
+            "nobreak": [
+              "11월 5일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "글자를 치는 것보다 말로 하는 게 편한 사람이 많아요. 얼굴 표정이 보이면 대화가 더 자연스럽게 느껴져요. 그래서 AI가 말하는 중간에 끼어들어 다시 물어도 되게 만들었어요. 대화를 나누는 동안에도 AI는 부탁받은 일을 뒤에서 계속해요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "지금은 미국에서만 휴대폰, 웹, 맥으로 쓸 수 있어요. 메타는 시험과 안전 점검을 마친 뒤 다른 나라로 넓힐 계획이라고 밝혔어요. AI가 사람처럼 웃고 놀라도, 사람은 아니에요. 표정이 친근해 보여도 주소나 통장 번호 같은 개인 정보는 말하지 마세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "메타 발표",
+          "date": "11월 5일",
+          "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/"
+        },
+        {
+          "name": "유나이트AI",
+          "date": "11월 5일",
+          "url": "https://www.unite.ai/meta-brings-real-time-voice-and-expressive-avatars-to-muse/"
+        },
+        {
+          "name": "안드로이드 헤드라인",
+          "date": "11월 6일",
+          "url": "https://www.androidheadlines.com/2026/11/meta-real-time-voice-mode-muse-ai.html"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200610_62c99803-73cb-47c3-b88b-d7b56ea79577.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200610_62c99803-73cb-47c3-b88b-d7b56ea79577.mp3"
+      }
+    },
+    {
+      "anchor": "quick-decide",
+      "url": "https://artricx.github.io/ailab/posts/2026-11-07.html#quick-decide",
+      "tag": "일",
+      "color": "yellow",
+      "title": {
+        "text": "0.04초 만에 답을 고르는 AI, 카카오가 공개했어요",
+        "phrases": [
+          "0.04초 만에",
+          "답을 고르는 AI,",
+          "카카오가",
+          "공개했어요"
+        ]
+      },
+      "dek": {
+        "text": "긴 문장 대신 점수로 답해요.",
+        "phrases": [
+          "긴 문장 대신",
+          "점수로 답해요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200328_6209893b-f33d-4da0-ac4e-9e50483d8e46.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200328_6209893b-f33d-4da0-ac4e-9e50483d8e46.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "글자 없는 표지판 세 개가 선 갈림길에서 작은 흰 로봇이 한 손에 초시계를 들고 다른 손으로 한쪽 길을 재빨리 가리키고, 상자를 든 동그란 사람이 그 길로 즐겁게 걸어가는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-07-quick-decide.svg",
+        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-07-quick-decide.svg",
+        "viewBox": "0 0 800 460",
+        "title": "카카오의 판단 AI 카나나-2-v-디사이드",
+        "desc": "카카오는 11월 6일, AI 에이전트가 무엇을 할지 빠르게 판단하도록 돕는 AI 카나나-2-v-디사이드를 누구나 쓸 수 있게 공개했다. 카카오가 직접 잰 결과, 오픈AI의 GPT-6 루나보다 약 43배 빠르다. 왼쪽 막대 길이는 1과 43에 맞췄다. 그래픽 칩 한 장에서 평균 0.04초 안에 답한다. 오른쪽은 이 AI가 답하는 세 가지 방식이다. 조건이 맞을 확률, 여러 후보 중 가장 알맞은 것 고르기, 단계마다 매기는 점수. 글과 그림을 함께 보고 판단하며, 회사도 무료로 가져다 쓸 수 있다.",
+        "caption": {
+          "text": "말을 길게 하지 않고 갈 길만 빠르게 정해요.",
+          "phrases": [
+            "말을 길게 하지 않고",
+            "갈 길만",
+            "빠르게 정해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "카카오가 11월 6일 판단만 빠르게 하는 AI '카나나-2-v-디사이드'를 공개했어요. 누구나 내려받아 쓸 수 있고, 회사가 사업에 써도 돼요. 이 AI는 긴 문장으로 답하지 않아요. 확률이나 점수, 또는 여러 후보 가운데 하나를 골라 답해요. 글과 그림을 함께 보고 판단할 수 있어요.",
+            "nobreak": [
+              "11월 6일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "요즘은 여러 일을 알아서 이어 하는 AI 에이전트가 늘고 있어요. 에이전트는 일하는 동안 \"다음엔 무엇을 할까?\"를 계속 정해야 해요. 그때마다 긴 문장을 만들면 시간이 오래 걸려요. 그래서 판단만 짧게 하는 AI를 따로 만든 거예요. 카카오가 직접 재어 보니 오픈AI의 GPT-6 루나보다 약 43배 빨랐다고 해요.",
+            "nobreak": [
+              "약 43배"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "예를 들어 깨진 물건 사진과 교환 요청이 들어오면, AI가 얼마나 망가졌는지와 어떤 문의인지 바로 점수를 매길 수 있어요. 그러면 고객센터 답이 더 빨라질 수 있어요. 카카오는 먼저 자기 웹 검색과 상품 분류에 써 볼 계획이에요. 다만 빠르기는 카카오가 직접 잰 값이라, 다른 곳에서도 같은 결과가 나오는지 지켜봐야 해요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "이데일리",
+          "date": "11월 6일",
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03627686645643096"
+        },
+        {
+          "name": "헤럴드경제",
+          "date": "11월 6일",
+          "url": "https://biz.heraldcorp.com/article/10927975"
+        },
+        {
+          "name": "AI타임스",
+          "date": "11월 6일",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217087"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200610_1538258f-c94b-4992-a749-8ef1e1b5779c.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261106_200610_1538258f-c94b-4992-a749-8ef1e1b5779c.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "읽기 전용",
+      "meaning": {
+        "text": "내용을 보기만 하고 바꾸거나 옮길 수는 없는 권한",
+        "phrases": [
+          "내용을 보기만 하고",
+          "바꾸거나 옮길 수는",
+          "없는 권한"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "아바타",
+      "meaning": {
+        "text": "화면 속에서 나 또는 AI를 대신하는 캐릭터 얼굴",
+        "phrases": [
+          "화면 속에서",
+          "나 또는 AI를 대신하는",
+          "캐릭터 얼굴"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "AI 에이전트",
+      "meaning": {
+        "text": "여러 단계의 일을 스스로 이어서 하는 AI",
+        "phrases": [
+          "여러 단계의 일을",
+          "스스로 이어서 하는 AI"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "오픈소스",
+      "meaning": {
+        "text": "만든 방법을 공개해 누구나 가져다 쓰게 한 것",
+        "phrases": [
+          "만든 방법을 공개해",
+          "누구나 가져다 쓰게 한 것"
+        ]
+      },
+      "color": "pink"
+    }
+  ]
+}
