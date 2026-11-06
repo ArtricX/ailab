@@ -606,3 +606,5 @@ html { scroll-padding-top: 5.5rem; }
 .legal ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.3rem; }
 .legal a { text-underline-offset: 0.2em; }
 .legal .legal-sum { background: var(--ground); border-radius: 1rem; padding: 1rem 1.2rem; font-weight: 700; }
+.footer-links { display: flex; flex-wrap: wrap; column-gap: 1.2rem; margin-top: 0.2rem; }
+.footer-links a { color: var(--paper); text-decoration: underline; text-underline-offset: 0.2em; min-height: 44px; display: inline-flex; align-items: center; }
