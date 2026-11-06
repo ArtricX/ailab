@@ -48,7 +48,7 @@ def build(date):
     for u in re.findall(r'(?:src|data-audio)="(https?://[^"]+)"', body):
         missing.append(u)
     # 사이트 안 링크는 실제 사이트 주소로 바꿔 눌러도 길을 잃지 않게 해요
-    body = re.sub(r'href="\.\./([^"#]*)', r'href="https://artricx.github.io/ailab/\1', body)
+    body = re.sub(r'href="\.\./([^"#]*)', r'href="https://aigo.artricx.com/\1', body)
 
     title = re.search(r"<title>(.*?)</title>", page).group(1)
     banner = (

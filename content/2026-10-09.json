@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-09",
   "weekday": "금",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-09.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-09.html",
   "minutes": 5,
   "title": {
     "text": "AI가 만든 사진 확인하기, AI 상담 안전 수칙, AI 쓰는 작은 회사의 채용 계획",
@@ -44,7 +44,7 @@
   "stories": [
     {
       "anchor": "synthid",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-09.html#synthid",
+      "url": "https://aigo.artricx.com/posts/2026-10-09.html#synthid",
       "tag": "안전",
       "color": "blue",
       "title": {
@@ -67,14 +67,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261008_212856_f7d9a9e8-24d0-44cf-8a00-7f6f9c05217e.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261008_212856_f7d9a9e8-24d0-44cf-8a00-7f6f9c05217e.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261008_212856_f7d9a9e8-24d0-44cf-8a00-7f6f9c05217e.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 꽃 사진이 든 액자를 들고 있고, 작은 흰 로봇이 커다란 돋보기로 사진을 들여다보는 그림. 돋보기 안에서 사진 귀퉁이에 숨어 있던 작은 반짝이 도장이 빛나고, 옆 탁자에는 도장이 없는 사진 몇 장이 놓여 있어요"
       },
       "infographic": {
         "file": "content/graphics/2026-10-09-synthid.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-09-synthid.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-09-synthid.svg",
         "viewBox": "0 0 800 460",
         "title": "AI 표시가 들어간 사진과 영상 수, 함께 확인되는 회사, 확인하는 순서",
         "desc": "구글은 2023년부터 사진과 영상 1,800억 개가 넘게 눈에 안 보이는 AI 표시를 넣었다. 구글, 오픈AI, 엔비디아, 카카오의 AI가 만든 것을 확인할 수 있고 애플은 곧 함께한다. 파일을 올리면 숨은 표시를 찾아 표시 있음 또는 표시 없음으로 알려 준다. 표시가 없어도 사람이 만들었다는 뜻은 아니다.",
@@ -135,7 +135,7 @@
     },
     {
       "anchor": "mind",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-09.html#mind",
+      "url": "https://aigo.artricx.com/posts/2026-10-09.html#mind",
       "tag": "건강",
       "color": "green",
       "title": {
@@ -159,14 +159,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261008_212855_47990f30-59cf-4790-8ac0-389d96e03f93.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261008_212855_47990f30-59cf-4790-8ac0-389d96e03f93.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261008_212855_47990f30-59cf-4790-8ac0-389d96e03f93.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 푹신한 안락의자에 앉아 작은 흰 로봇과 이야기하고, 로봇은 따뜻한 차 한 잔을 건네는 그림. 머리 위에는 작은 벽시계가 걸려 있고, 옆으로 열린 문 너머에서 동그란 친구 둘과 흰 가운을 입은 동그란 의사가 반갑게 손을 흔들어요"
       },
       "infographic": {
         "file": "content/graphics/2026-10-09-mind.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-09-mind.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-09-mind.svg",
         "viewBox": "0 0 800 480",
         "title": "AI를 마음 고민에 쓰는 사람의 비율과 정부가 정리한 안전 수칙",
         "desc": "AI를 써 본 15~79세 1,019명 중 79.9%가 AI의 답으로 도움을 받았고, 68.8%가 위로나 고민 상담 같은 마음 쓰임에도 AI를 썼고, 16.3%는 AI와 대화를 멈추기 어려웠다. 정부 수칙은 내 정보를 넣지 않기, 끝낼 때를 미리 정하기, 중요한 일은 사람과 상의하기다.",
@@ -226,7 +226,7 @@
     },
     {
       "anchor": "work",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-09.html#work",
+      "url": "https://aigo.artricx.com/posts/2026-10-09.html#work",
       "tag": "일",
       "color": "yellow",
       "title": {
@@ -250,14 +250,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261008_212856_87f3e7fe-cbcd-4cec-9702-a64d76f4299e.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261008_212856_87f3e7fe-cbcd-4cec-9702-a64d76f4299e.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261008_212856_87f3e7fe-cbcd-4cec-9702-a64d76f4299e.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 동네 빵집 안에서 작은 흰 로봇이 동그란 빵이 담긴 쟁반을 나르고, 동그란 가게 주인은 새로 함께 일하게 된 동그란 사람에게 새 앞치마를 기쁘게 건네는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-09-work.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-09-work.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-09-work.svg",
         "viewBox": "0 0 800 460",
         "title": "AI를 쓰는 작은 회사의 비율과 직원을 늘리겠다는 답의 차이",
         "desc": "직원이 있는 미국 작은 회사 5,248곳 중 46%가 AI를 쓴다. 앞으로 1년 동안 직원을 늘리겠다는 비율에서 줄이겠다는 비율을 뺀 값은 AI를 쓰는 곳이 33점, 안 쓰는 곳이 15점이다. AI를 쓰는 곳의 77%는 AI 때문에 인건비가 바뀌지 않았다고 답했다.",

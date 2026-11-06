@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-19",
   "weekday": "월",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-19.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-19.html",
   "minutes": 5,
   "title": {
     "text": "책값을 달라는 출판계, 돈은 못 옮기는 AI 비서, 몰래 찍으면 안 되는 AI 안경",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "books",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-19.html#books",
+      "url": "https://aigo.artricx.com/posts/2026-10-19.html#books",
       "tag": "창작",
       "color": "pink",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261018_212805_8d556000-7a45-4a5c-a51d-46f51904aba2.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261018_212805_8d556000-7a45-4a5c-a51d-46f51904aba2.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261018_212805_8d556000-7a45-4a5c-a51d-46f51904aba2.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 높이 쌓인 알록달록한 책 더미 위에 앉아 즐겁게 책을 읽고, 그 옆에서 동그란 사람이 한 손을 내밀고 가만히 기다리며, 발치에 텅 빈 작은 돼지 저금통이 놓인 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-19-books.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-19-books.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-19-books.svg",
         "viewBox": "0 0 800 460",
         "title": "출판계 호소문에 이름을 올린 곳과 요구 세 가지",
         "desc": "한국출판인회의가 10월 15일부터 AI 학습에 관한 호소문에 이름을 받았다. 10월 16일 오전에는 출판사와 단체 158곳, 개인 321명이었고, 오후 2시에는 169곳과 343명, 오후 4시에는 172곳과 348명으로 늘었다. 막대는 0부터 172곳을 기준으로 그렸다. 요구는 세 가지다. AI 회사가 어떤 책을 어디서 가져와 학습에 썼는지 밝히고, 권리자의 허락을 먼저 받으며, 가만히 있다고 허락으로 보지 말고, 정당한 대가를 내라는 것이다. 독일 출판계의 프랑크푸르트 호소문과 뜻을 같이했다.",
@@ -134,12 +134,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261019_054328_bf71998a-8368-4204-94c3-b581676253c4.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261019_054328_bf71998a-8368-4204-94c3-b581676253c4.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261019_054328_bf71998a-8368-4204-94c3-b581676253c4.mp3"
       }
     },
     {
       "anchor": "bank",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-19.html#bank",
+      "url": "https://aigo.artricx.com/posts/2026-10-19.html#bank",
       "tag": "돈",
       "color": "green",
       "title": {
@@ -160,14 +160,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261018_212804_f4b8f472-3538-4f40-a168-56c91745cc7b.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261018_212804_f4b8f472-3538-4f40-a168-56c91745cc7b.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261018_212804_f4b8f472-3538-4f40-a168-56c91745cc7b.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 커다란 둥근 은행 금고 문 앞에서 돋보기로 작은 창 너머 동전 더미를 들여다보고, 큰 열쇠를 든 동그란 경비원이 손바닥을 들어 로봇을 부드럽게 막는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-19-bank.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-19-bank.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-19-bank.svg",
         "viewBox": "0 0 800 460",
         "title": "미국 금융회사들이 바깥 AI에게 열어 준 일과 막은 일",
         "desc": "미국 증권회사 찰스 슈왑의 대표는 10월 16일 방송에서 고객 대신 들어오려는 허락받지 않은 바깥 AI를 일주일에 수십 번 막는다고 했다. 슈왑은 허락된 연결로 들어온 AI에게 잔액과 투자 정보를 보는 일은 열어 주지만, 고객 비밀번호로 대신 들어오는 것과 돈을 옮기는 것은 막는다. 슈왑 대표는 문제가 생기면 누가 책임질지 모른다고 했고, JP모건 대표는 아무 AI나 들이지 않겠다며 고객이 AI에게 계좌를 맡기면 책임도 고객에게 넘어간다고 했다. 슈왑은 10월부터 자기 회사 AI 비서 찰리를 차례로 내놓고 있다.",
@@ -222,12 +222,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261019_054328_3b61ddca-ba29-4934-a9c3-8e397f94bdf8.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261019_054328_3b61ddca-ba29-4934-a9c3-8e397f94bdf8.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261019_054328_3b61ddca-ba29-4934-a9c3-8e397f94bdf8.mp3"
       }
     },
     {
       "anchor": "glasses",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-19.html#glasses",
+      "url": "https://aigo.artricx.com/posts/2026-10-19.html#glasses",
       "tag": "생활",
       "color": "blue",
       "title": {
@@ -249,14 +249,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261018_212804_33d61d10-6fff-4bfa-9523-3098eb23b4c8.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261018_212804_33d61d10-6fff-4bfa-9523-3098eb23b4c8.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261018_212804_33d61d10-6fff-4bfa-9523-3098eb23b4c8.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 창 밖으로 구름이 보이는 작은 비행기 안에서, 테에 작은 카메라 렌즈가 달린 두꺼운 안경을 쓴 동그란 손님이 놀란 얼굴을 하고, 음료 수레 옆의 작은 흰 로봇 승무원이 작은 빈 메모지로 렌즈를 살짝 가리는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-19-glasses.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-19-glasses.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-19-glasses.svg",
         "viewBox": "0 0 800 460",
         "title": "영국항공에서 직원을 몰래 찍으면 받을 수 있는 조치",
         "desc": "10월 16일 보도에 따르면 영국항공은 메타 AI 안경처럼 카메라가 달린 안경으로 공항과 비행기 안에서 직원을 몰래 찍는 일을 막도록 규칙을 고쳤다. 어기면 세 가지 조치를 받을 수 있다. 비행기가 내린 뒤 내리게 하고, 돌아오는 표를 포함해 남은 비행을 취소하고, 경찰 같은 당국에 알릴 수 있다. 안경을 쓰는 것과 허락받고 찍는 것은 괜찮지만, 직원을 몰래 찍거나 허락 없이 생방송으로 내보내는 것은 안 된다. 승무원을 허락 없이 찍지 못하게 하는 규칙은 지난 4월에 먼저 생겼다.",
@@ -314,7 +314,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261019_054327_30b7b5db-21e7-4a94-a150-ed1ff30acd9e.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261019_054327_30b7b5db-21e7-4a94-a150-ed1ff30acd9e.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261019_054327_30b7b5db-21e7-4a94-a150-ed1ff30acd9e.mp3"
       }
     }
   ],

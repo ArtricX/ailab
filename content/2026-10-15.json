@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-15",
   "weekday": "목",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-15.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-15.html",
   "minutes": 5,
   "title": {
     "text": "금융회사 16곳 개인정보 유출, 다시 봐야 하는 AI 채점, 병상을 지키는 AI",
@@ -42,7 +42,7 @@
   "stories": [
     {
       "anchor": "bank",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-15.html#bank",
+      "url": "https://aigo.artricx.com/posts/2026-10-15.html#bank",
       "tag": "안전",
       "color": "blue",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261014_212553_5702b8f2-0446-4237-a391-43fa0a845d15.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261014_212553_5702b8f2-0446-4237-a391-43fa0a845d15.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261014_212553_5702b8f2-0446-4237-a391-43fa0a845d15.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 옆구리에 금이 간 커다란 금고를 끌어안고 있고, 금 사이로 작은 종이 카드 몇 장이 날아가는 사이 작은 흰 로봇이 의자에 올라서서 커다란 반창고로 금을 막는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-15-bank.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-15-bank.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-15-bank.svg",
         "viewBox": "0 0 800 460",
         "title": "해킹으로 개인정보가 빠져나간 금융회사 수와 금융권 보안 점검 결과",
         "desc": "10월 14일 기준으로 은행, 저축은행, 카드사, 코인 거래소 등 금융회사 16곳에서 개인정보 약 10만 건이 빠져나갔다. 빠져나간 정보는 이름, 연락처, 주민등록번호, 이메일 주소다. 카드 번호나 비밀번호가 빠져나갔다는 확인은 아직 없다. 금융 당국이 금융회사 555곳의 보안을 점검했더니 130곳, 약 4곳 중 1곳이 허점이 있다고 답했다. AI를 쓴 해킹으로 추정되며 당국이 조사하고 있다.",
@@ -134,7 +134,7 @@
     },
     {
       "anchor": "grading",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-15.html#grading",
+      "url": "https://aigo.artricx.com/posts/2026-10-15.html#grading",
       "tag": "학교",
       "color": "yellow",
       "title": {
@@ -155,14 +155,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261014_212554_f5abe16a-b73e-4f87-88af-3c340e0fded9.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261014_212554_f5abe16a-b73e-4f87-88af-3c340e0fded9.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261014_212554_f5abe16a-b73e-4f87-88af-3c340e0fded9.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 채점한 종이를 재빨리 건네고, 책상에 앉은 동그란 선생님이 커다란 돋보기로 한 장씩 다시 살펴보는 사이 옆에 쌓인 종이 더미가 점점 높아지는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-15-grading.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-15-grading.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-15-grading.svg",
         "viewBox": "0 0 800 460",
         "title": "서술형 평가에 AI 채점을 써 본 중고등학교 교사들의 생각",
         "desc": "전국중등교사노동조합이 9월 7일부터 30일까지 중고등학교 교사 2,427명에게 물었다. 이 가운데 734명이 서술형 평가에 AI 채점이나 평가 도움을 써 봤다. 써 본 교사 가운데 64.1%는 AI 결과를 다시 확인하느라 일이 늘었다고 답했다. 77.4%는 AI와 교사의 판단이 다른 적이 있다고 했고, 36.3%는 채점 시간이 줄었다고 했다. AI 채점 결과를 믿을 수 있다는 답은 14.6%였다.",
@@ -229,7 +229,7 @@
     },
     {
       "anchor": "ward",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-15.html#ward",
+      "url": "https://aigo.artricx.com/posts/2026-10-15.html#ward",
       "tag": "건강",
       "color": "green",
       "title": {
@@ -250,14 +250,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261014_212554_e9fa62db-2dc8-406c-8779-b68f67c76afb.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261014_212554_e9fa62db-2dc8-406c-8779-b68f67c76afb.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261014_212554_e9fa62db-2dc8-406c-8779-b68f67c76afb.webp",
         "width": 1600,
         "height": 1195,
         "alt": "손가락에 작은 집게를 낀 동그란 사람이 병원 침대에서 편히 쉬고, 침대 옆에 앉은 작은 흰 로봇이 물결치는 심장 박동 선이 뜬 작은 화면을 지켜보며 작은 종을 들고 있고, 문으로 동그란 간호사가 들어오는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-15-ward.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-15-ward.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-15-ward.svg",
         "viewBox": "0 0 800 460",
         "title": "아주대병원 입원 환자 몸 신호 지켜보기 시스템이 일하는 순서",
         "desc": "아주대병원은 7개 병동, 342개 병상에서 입원 환자의 몸 신호를 실시간으로 지켜보는 시스템을 쓰고 있다. 심박수, 맥박, 산소포화도, 호흡수, 심전도를 잰다. 의료 기기와 의료 AI가 넘어짐이나 위험한 부정맥 같은 이상을 찾으면 화면 알림과 소리로 의료진에게 알린다. 측정값은 60초마다 전자 의무 기록에 자동으로 들어간다. 9월 흉부외과와 심장내과 병동에서 시작해 10월 응급 병동 등으로 넓혔다. 실제로 환자에게 얼마나 도움이 되는지는 앞으로 확인해야 한다.",

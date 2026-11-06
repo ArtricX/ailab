@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-23",
   "weekday": "금",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-23.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-23.html",
   "minutes": 5,
   "title": {
     "text": "장보기를 맡기는 AI 비서, AI가 찾은 웹사이트 구멍, 대학 100곳에 들어간 AI",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "shop",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-23.html#shop",
+      "url": "https://aigo.artricx.com/posts/2026-10-23.html#shop",
       "tag": "돈",
       "color": "yellow",
       "title": {
@@ -63,14 +63,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261022_200153_63f1278a-2c13-4cfc-8ef0-283020ba83b7.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261022_200153_63f1278a-2c13-4cfc-8ef0-283020ba83b7.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261022_200153_63f1278a-2c13-4cfc-8ef0-283020ba83b7.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 우유와 빵, 사과가 담긴 작은 장바구니 수레를 밀고 소파에 앉은 동그란 사람에게 다가가고, 동그란 사람은 좋다는 듯 한 손을 들고 있으며, 소파 위 사람 옆에 작은 자물쇠가 달린 지갑이 로봇 손이 닿지 않는 곳에 놓여 있는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-23-shop.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-23-shop.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-23-shop.svg",
         "viewBox": "0 0 800 460",
         "title": "AI 비서가 월마트에서 장을 보는 순서와 내가 고르는 안전장치 2가지",
         "desc": "미국 월마트가 10월 21일(미국 시간) 허락받은 AI 비서가 손님 대신 물건을 찾아 살 수 있는 '에이전트 게이트웨이'를 공개했다. 순서는 AI 비서에게 장보기를 부탁하고, AI가 월마트에서 물건을 찾고, 내가 정한 규칙 안에서 산다는 것이다. 손님은 안전장치 2가지 중에서 고른다. 살 때마다 허락받기, 쓸 돈의 한도 정하기. AI 비서는 카드 정보를 볼 수 없고 결제 수단을 바꿀 수 없다.",
@@ -125,12 +125,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261022_200509_4a7c2eee-e1e4-4f47-ae83-2ce65381df3a.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261022_200509_4a7c2eee-e1e4-4f47-ae83-2ce65381df3a.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261022_200509_4a7c2eee-e1e4-4f47-ae83-2ce65381df3a.mp3"
       }
     },
     {
       "anchor": "hole",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-23.html#hole",
+      "url": "https://aigo.artricx.com/posts/2026-10-23.html#hole",
       "tag": "안전",
       "color": "blue",
       "title": {
@@ -150,14 +150,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261022_200152_aad6500a-9692-4a08-a203-b3bfce150e5d.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261022_200152_aad6500a-9692-4a08-a203-b3bfce150e5d.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261022_200152_aad6500a-9692-4a08-a203-b3bfce150e5d.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 큰 손전등으로 높은 벽돌담의 작은 구멍을 비추고, 낮은 사다리에 올라선 동그란 사람이 서둘러 커다란 반창고로 구멍을 막는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-23-hole.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-23-hole.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-23-hole.svg",
         "viewBox": "0 0 800 460",
         "title": "PHP 보안 구멍의 위험 점수와 고친 판이 나오기까지",
         "desc": "웹사이트를 움직이는 프로그램 PHP에서 큰 보안 구멍 두 개가 드러났다. 위험 점수는 10점 만점에 9.2점이다. 막대는 10점을 끝으로 그렸다. 10월 20일 소식이 미리 새어 나갔고, 10월 21일(미국 시간) 고친 판이 나왔다. 원래는 10월 22일에 알릴 예정이었다. 고친 판은 8.2, 8.3, 8.4, 8.5의 새 판이다. 8.1과 그보다 옛날 판은 공식 수리가 없다.",
@@ -226,12 +226,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261022_200509_d09e8eb8-5edc-40a4-ae2c-4d388012600c.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261022_200509_d09e8eb8-5edc-40a4-ae2c-4d388012600c.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261022_200509_d09e8eb8-5edc-40a4-ae2c-4d388012600c.mp3"
       }
     },
     {
       "anchor": "campus",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-23.html#campus",
+      "url": "https://aigo.artricx.com/posts/2026-10-23.html#campus",
       "tag": "학교",
       "color": "green",
       "title": {
@@ -252,14 +252,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261022_200152_f352a44d-b309-41dd-a5a7-55fcddc7e71f.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261022_200152_f352a44d-b309-41dd-a5a7-55fcddc7e71f.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261022_200152_f352a44d-b309-41dd-a5a7-55fcddc7e71f.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 학사모를 쓴 작은 흰 로봇이 커다란 유리병에서 동그란 이용권을 꺼내, 가방을 멘 동그란 학생들에게 하나씩 나눠 주고 학생들이 저마다 이용권 하나씩을 들고 있는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-23-campus.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-23-campus.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-23-campus.svg",
         "viewBox": "0 0 800 460",
         "title": "베이즈 엔터프라이즈를 들인 대학 수와 학교에서 쓰는 방법",
         "desc": "마인드로직이 10월 22일 밝힌 숫자다. 여러 AI를 한곳에서 쓰는 '베이즈 엔터프라이즈'(예전 이름 팩트챗)를 들인 대학이 지난해 10월 28곳에서 올해 100곳으로 늘었다. 약 3.6배다. 막대는 100곳을 끝으로 그렸다. 학교가 예산에 맞춰 이용권(크레딧)을 사고, 학생과 교직원에게 나눠 주면, 챗GPT, 클로드, 제미나이 등 80여 개 AI를 골라 쓴다. 숫자는 회사가 밝힌 것이다.",
@@ -322,7 +322,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261022_200509_36e8a1bb-2696-4c0e-b4df-9aff0585416a.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261022_200509_36e8a1bb-2696-4c0e-b4df-9aff0585416a.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261022_200509_36e8a1bb-2696-4c0e-b4df-9aff0585416a.mp3"
       }
     }
   ],

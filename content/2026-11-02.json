@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-11-02",
   "weekday": "월",
-  "url": "https://artricx.github.io/ailab/posts/2026-11-02.html",
+  "url": "https://aigo.artricx.com/posts/2026-11-02.html",
   "minutes": 5,
   "title": {
     "text": "학생 정보를 지키는 학교 AI 약속, 정부 AI를 만들 새 단장, 한꺼번에 일하는 여러 AI",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "school-ai",
-      "url": "https://artricx.github.io/ailab/posts/2026-11-02.html#school-ai",
+      "url": "https://aigo.artricx.com/posts/2026-11-02.html#school-ai",
       "tag": "학교",
       "color": "yellow",
       "title": {
@@ -65,14 +65,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261101_200530_56453b72-6fd4-4246-b1b6-478cea59ccae.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261101_200530_56453b72-6fd4-4246-b1b6-478cea59ccae.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261101_200530_56453b72-6fd4-4246-b1b6-478cea59ccae.webp",
         "width": 1600,
         "height": 1195,
         "alt": "학교 책상에 앉은 동그란 아이가 공책을 꼭 끌어안고 있고, 옆에서 동그란 선생님이 작은 자물쇠로 잠긴 커다란 규칙 책을 들어 보이며, 작은 흰 로봇은 몰래 보지 않으려고 두 손으로 눈을 가리고 얌전히 서 있는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-11-02-school-ai.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-02-school-ai.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-02-school-ai.svg",
         "viewBox": "0 0 800 460",
         "title": "마이크로소프트와 미국 교사 노조의 학교 AI 약속",
         "desc": "마이크로소프트와 미국교사연맹은 9월 9일 학교 AI 안전·개인정보 기준을 발표했고, 이 기준은 미국 시간 11월 1일부터 학교와의 계약에 쓰인다. 지켜야 할 약속은 모두 10가지이다. 학생과 교사의 정보로 AI를 가르치면 안 되고, 학생 정보를 팔거나 광고에 쓰면 안 된다. 정을 붙이게 만드는 AI 친구 기능을 넣으면 안 되고, 학생을 따라다니며 살피면 안 된다. AI가 사람의 확인 없이 혼자 결정하면 안 된다. 어기면 학교는 계약을 끊고 손해를 갚으라고 할 수 있다.",
@@ -133,12 +133,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261101_200809_aa1d4644-0f17-4154-b0bb-7a0183626db9.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261101_200809_aa1d4644-0f17-4154-b0bb-7a0183626db9.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261101_200809_aa1d4644-0f17-4154-b0bb-7a0183626db9.mp3"
       }
     },
     {
       "anchor": "public-ai",
-      "url": "https://artricx.github.io/ailab/posts/2026-11-02.html#public-ai",
+      "url": "https://aigo.artricx.com/posts/2026-11-02.html#public-ai",
       "tag": "생활",
       "color": "blue",
       "title": {
@@ -158,14 +158,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261101_200531_d0e73715-0317-48a7-bd79-db2b0e53dce6.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261101_200531_d0e73715-0317-48a7-bd79-db2b0e53dce6.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261101_200531_d0e73715-0317-48a7-bd79-db2b0e53dce6.webp",
         "width": 1600,
         "height": 1195,
         "alt": "후드티를 입고 노트북을 든 동그란 사람들과 셔츠를 입은 동그란 사람들이 함께 작은 안내 창구를 짓고, 동그란 팀장이 빈 설계도를 가리키며, 작은 흰 로봇이 공구 상자를 날라 주는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-11-02-public-ai.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-02-public-ai.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-02-public-ai.svg",
         "viewBox": "0 0 800 460",
         "title": "국민AI서비스혁신추진단의 사람들",
         "desc": "과학기술정보통신부는 11월 1일 국민AI서비스혁신추진단장으로 김세웅 전 카카오 부사장을 뽑았다고 밝혔다. 단장은 11월 2일부터 2028년 9월 30일까지 일한다. 추진단은 모두 61명이다. 회사에서 온 개발자가 26명으로 43퍼센트이고, 공공 AI 실무자가 16명, 여러 부처 공무원이 13명, 관련 기관 전문가가 6명이다. 이번 달부터 개발자를 더 뽑는다. 막대 길이는 사람 수에 맞췄다.",
@@ -226,12 +226,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261101_200809_2aa6115b-7aba-43c6-ba6d-d9e53fe10ff2.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261101_200809_2aa6115b-7aba-43c6-ba6d-d9e53fe10ff2.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261101_200809_2aa6115b-7aba-43c6-ba6d-d9e53fe10ff2.mp3"
       }
     },
     {
       "anchor": "super-agent",
-      "url": "https://artricx.github.io/ailab/posts/2026-11-02.html#super-agent",
+      "url": "https://aigo.artricx.com/posts/2026-11-02.html#super-agent",
       "tag": "일",
       "color": "pink",
       "title": {
@@ -253,14 +253,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261101_200530_71c2fbfc-d13e-45b2-9b93-aa9bd3e08a95.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261101_200530_71c2fbfc-d13e-45b2-9b93-aa9bd3e08a95.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261101_200530_71c2fbfc-d13e-45b2-9b93-aa9bd3e08a95.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 편하게 앉아 차를 마시며 작은 흰 로봇 지휘자에게 빈 쪽지 한 장을 건네고, 그 뒤에서 작은 흰 로봇 여러 대가 작은 책상에 앉아 톱니바퀴 고치기, 자판 두드리기, 편지 봉투 나누기를 한꺼번에 하는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-11-02-super-agent.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-11-02-super-agent.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-02-super-agent.svg",
         "viewBox": "0 0 800 460",
         "title": "딥시크 슈퍼 에이전트가 일하는 방식",
         "desc": "중국의 AI 회사 딥시크는 10월 31일 여러 AI가 동시에 일하는 슈퍼 에이전트를 공개했다고 중국 언론을 인용한 보도가 11월 1일 나왔다. 딥시크는 한 사람이 동시에 챙길 수 있는 대화가 3~5개 정도라고 설명했다. 슈퍼 에이전트에서는 사람이 목표를 말하면 조정자 AI가 채팅과 메일에서 모은 일을 나누고, 실행자 AI 여러 개가 코드 검토와 기능 만들기 같은 일을 동시에 한다. 사람은 결과를 확인한다. 누가 언제 쓸 수 있는지는 아직 알려지지 않았다.",
@@ -313,7 +313,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261101_200809_d327d710-9e0b-4f3d-ba6f-5271bab2dac7.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261101_200809_d327d710-9e0b-4f3d-ba6f-5271bab2dac7.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261101_200809_d327d710-9e0b-4f3d-ba6f-5271bab2dac7.mp3"
       }
     }
   ],

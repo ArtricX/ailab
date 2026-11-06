@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-14",
   "weekday": "수",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-14.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-14.html",
   "minutes": 5,
   "title": {
     "text": "말로 부르는 카톡 AI 비서, 말로 고치는 페이스북 피드, 사진 한 장으로 집 찾는 AI",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "kanana",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-14.html#kanana",
+      "url": "https://aigo.artricx.com/posts/2026-10-14.html#kanana",
       "tag": "생활",
       "color": "yellow",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261013_212607_9dfcff8e-e24b-45ce-b961-83735828e3b5.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261013_212607_9dfcff8e-e24b-45ce-b961-83735828e3b5.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261013_212607_9dfcff8e-e24b-45ce-b961-83735828e3b5.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 커다란 휴대폰 화면을 두 손가락으로 쓸어내리자, 말풍선 사이에서 작은 흰 로봇이 생수병과 달력 한 장을 들고 나와 사람만 누를 수 있는 커다란 확인 버튼 옆에서 기다리는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-14-kanana.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-14-kanana.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-14-kanana.svg",
         "viewBox": "0 0 800 460",
         "title": "카카오톡 AI 비서 카나나 스페이스를 쓰는 순서와 보여 준 일",
         "desc": "카카오는 카카오톡 AI 비서 카나나 스페이스의 사전 신청을 10월 13일부터 받고, 신청자 가운데 일부가 12월부터 차례로 써 본다. 쓰는 순서는 두 손가락으로 화면 쓸어내리기, 말로 부탁하기, 내가 확인하고 누르기다. 메시지 보내기와 결제는 이용자가 마지막에 직접 확인해야 한다. 행사에서는 가족 단톡방에서 어린이집에 데리러 갈 시간을 찾아 알려 주고, 생수 주문을 부탁하면 전에 산 생수를 고르고 쿠폰을 붙여 결제 직전까지 준비하는 모습을 보였다. 앞으로 주문, 선물, 예약, 송금까지 넓힐 계획이다.",
@@ -134,7 +134,7 @@
     },
     {
       "anchor": "feed",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-14.html#feed",
+      "url": "https://aigo.artricx.com/posts/2026-10-14.html#feed",
       "tag": "생활",
       "color": "pink",
       "title": {
@@ -155,14 +155,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261013_212606_951e7a63-a75c-4e7d-b85a-4123de66234b.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261013_212606_951e7a63-a75c-4e7d-b85a-4123de66234b.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261013_212606_951e7a63-a75c-4e7d-b85a-4123de66234b.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 종이 고깔에 대고 말하자, 사다리에 올라선 작은 흰 로봇이 높이 쌓인 그림 카드를 다시 늘어놓으며 꽃과 냄비 카드는 맨 위로 올리고 몇 장은 바구니에 넣는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-14-feed.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-14-feed.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-14-feed.svg",
         "viewBox": "0 0 800 460",
         "title": "페이스북 내 알고리즘 기능을 여는 순서와 할 수 있는 일",
         "desc": "메타는 10월 13일 페이스북의 피드와 짧은 영상 릴스 두 곳에 내 알고리즘 기능을 넣는다고 알렸다. 게시물의 점 세 개 메뉴를 누르고 내 알고리즘을 열면, 보고 싶은 주제를 넣거나 보고 싶지 않은 주제를 넣거나 바라는 것을 내 말로 쓸 수 있다. 거대 언어 모델이 이 말을 읽고 추천을 바로 바꾼다. 기능은 차례로 퍼지고 있고 어느 나라에 언제 들어오는지는 발표되지 않았다.",
@@ -220,7 +220,7 @@
     },
     {
       "anchor": "photo",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-14.html#photo",
+      "url": "https://aigo.artricx.com/posts/2026-10-14.html#photo",
       "tag": "안전",
       "color": "blue",
       "title": {
@@ -242,14 +242,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261013_212605_1816b255-7a7e-494e-9058-8f796e184f34.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261013_212605_1816b255-7a7e-494e-9058-8f796e184f34.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261013_212605_1816b255-7a7e-494e-9058-8f796e184f34.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 전등과 세탁기가 찍힌 방 사진 한 장을 들고 있고, 커다란 돋보기를 든 작은 흰 로봇이 벽을 가득 채운 작은 집 그림들과 견주자 그중 한 집이 빛나는 그림. 사람은 창문 커튼을 반쯤 치고 있어요"
       },
       "infographic": {
         "file": "content/graphics/2026-10-14-photo.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-14-photo.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-14-photo.svg",
         "viewBox": "0 0 800 460",
         "title": "집 안 사진 한 장으로 집을 찾는 AI 레이븐이 일하는 순서",
         "desc": "미국 회사 그레이라크의 AI 레이븐은 집 안 사진 한 장으로 어느 집인지 찾는다. 사진 속 가구, 가전, 방 모양을 보고, 숙박 공유와 부동산 사이트에 올라온 집 사진과 견준 뒤, 어느 집인지 찾아낸다. 사진의 위치 정보는 쓰지 않는다. 회사 대표는 직접 시험해 보니 10번 가운데 9번 도시를 맞혔다고 말했다. 독립적으로 확인된 정확도는 아니다. 미국 로스앤젤레스 경찰과 마이애미데이드 보안관실 두 곳이 이 도구를 샀다.",

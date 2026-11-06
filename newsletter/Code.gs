@@ -11,7 +11,7 @@
  * 처음 한 번: setup 실행 → '배포 > 새 배포 > 웹 앱'(실행: 나, 액세스: 모든 사용자) → 웹 앱 주소를 Claude에게 알려 주기
  */
 
-var SITE = 'https://artricx.github.io/ailab/';
+var SITE = 'https://aigo.artricx.com/';
 var HEADER_IMG = 'https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3e1f0aa6-1f1d-4441-9429-6e1ef166b1d1/email-header.png?t=1791969965';
 var OWNER_EMAIL = 'uxdjsa@gmail.com';   // 알림을 받을 주소
 var TZ = 'Asia/Seoul';

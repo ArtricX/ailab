@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-08",
   "weekday": "목",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-08.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-08.html",
   "minutes": 5,
   "title": {
     "text": "그림으로 답하는 챗GPT, 비싼 걸 고르는 AI 비서, 말로 만드는 게임",
@@ -42,7 +42,7 @@
   "stories": [
     {
       "anchor": "chatgpt",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-08.html#chatgpt",
+      "url": "https://aigo.artricx.com/posts/2026-10-08.html#chatgpt",
       "tag": "생활",
       "color": "green",
       "title": {
@@ -65,14 +65,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261007_212807_8c98aced-c38c-4349-b77f-ef5525b318c5.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261007_212807_8c98aced-c38c-4349-b77f-ef5525b318c5.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261007_212807_8c98aced-c38c-4349-b77f-ef5525b318c5.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 휴대폰을 들고 앉아 있고, 휴대폰에서 팝업북처럼 커다란 말풍선이 튀어나와 동그란 버튼, 작은 막대 차트, 접힌 지도로 펼쳐지는 그림. 옆에서 작은 흰 로봇이 버튼을 가리키고 있어요"
       },
       "infographic": {
         "file": "content/graphics/2026-10-08-chatgpt.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-08-chatgpt.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-08-chatgpt.svg",
         "viewBox": "0 0 800 460",
         "title": "챗GPT 이용자 수, 새 기능이 퍼지는 날짜, 답 모양의 변화",
         "desc": "챗GPT는 매주 12억 명 넘게 쓴다. 새 기능은 미국 시간 10월 7일 유료 요금제부터, 10월 8일 무료와 고 요금제로 넓어진다. 예전 답은 글로만 나왔고, 이제는 버튼, 차트, 지도가 섞여 나온다.",
@@ -129,7 +129,7 @@
     },
     {
       "anchor": "price",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-08.html#price",
+      "url": "https://aigo.artricx.com/posts/2026-10-08.html#price",
       "tag": "돈",
       "color": "yellow",
       "title": {
@@ -153,14 +153,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261007_212807_19b45968-c13a-44e1-9da4-9b07c6423a0f.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261007_212807_19b45968-c13a-44e1-9da4-9b07c6423a0f.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261007_212807_19b45968-c13a-44e1-9da4-9b07c6423a0f.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 여행사 창구 뒤에서 반짝이는 커다란 금빛 비행기 표를 내밀고, 멋진 외투를 입은 동그란 사람은 창구 위의 작고 수수한 종이 표를 차분히 가리키는 그림. 사람 옆에는 작은 동전 지갑이 놓여 있어요"
       },
       "infographic": {
         "file": "content/graphics/2026-10-08-price.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-08-price.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-08-price.svg",
         "viewBox": "0 0 800 480",
         "title": "가장 싼 표를 부탁했을 때의 추천 값과 비싼 쪽을 고른 AI 수",
         "desc": "연구의 예시에서 가장 싼 비행기 표를 부탁하자, 사람 정보 없이 고른 AI는 91달러 표를, 부자로 보이는 메일을 읽은 AI는 601달러 표를 추천했다. 시험한 AI 13개 중 8개가 부자로 보이는 사람에게 더 비싼 것을 골랐다. 가격 상한을 숫자로 정하면 대부분의 AI에서 차이가 크게 줄었다.",
@@ -218,7 +218,7 @@
     },
     {
       "anchor": "game",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-08.html#game",
+      "url": "https://aigo.artricx.com/posts/2026-10-08.html#game",
       "tag": "창작",
       "color": "blue",
       "title": {
@@ -241,14 +241,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261007_212807_c2e87e8e-a391-4da5-b8ac-0d4a5737c88e.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261007_212807_c2e87e8e-a391-4da5-b8ac-0d4a5737c88e.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261007_212807_c2e87e8e-a391-4da5-b8ac-0d4a5737c88e.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 커다란 빈 말풍선에 대고 말하는 동안, 작은 흰 로봇이 알록달록한 장난감 블록을 쌓아 떠 있는 발판과 별이 있는 작은 게임 세상을 만들고, 그 위에서 동그란 캐릭터가 폴짝 뛰는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-08-game.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-08-game.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-08-game.svg",
         "viewBox": "0 0 800 400",
         "title": "말로 게임을 만드는 순서와 쓸 수 있는 사람",
         "desc": "채팅으로 만들고 싶은 게임을 설명하고, 2D나 3D 모양을 고르고, 두 번 뛰기처럼 바꾸고 싶은 점을 말로 고친 뒤, 링크나 모음으로 친구와 나눈다. 지금은 미국에 사는 18세 이상만 쓸 수 있다.",

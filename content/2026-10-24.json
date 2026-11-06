@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-24",
   "weekday": "토",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-24.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-24.html",
   "minutes": 5,
   "title": {
     "text": "의사보다 더 많이 맞힌 AI, 캔바가 만든 그림 AI, 면접을 100만 번 본 AI",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "doctor",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-24.html#doctor",
+      "url": "https://aigo.artricx.com/posts/2026-10-24.html#doctor",
       "tag": "건강",
       "color": "blue",
       "title": {
@@ -63,14 +63,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261023_200608_ac20079d-84a9-4fa6-92a7-d2085bf1d171.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261023_200608_ac20079d-84a9-4fa6-92a7-d2085bf1d171.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261023_200608_ac20079d-84a9-4fa6-92a7-d2085bf1d171.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 청진기를 건 작은 흰 로봇과 흰 가운을 입은 동그란 사람이 작은 책상에 나란히 앉아 커다란 점검표 하나를 함께 들여다보고, 로봇이 연필로 다음 칸을 가리키며, 책상에 돋보기와 서류철이 놓인 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-24-doctor.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-24-doctor.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-24-doctor.svg",
         "viewBox": "0 0 800 460",
         "title": "어려운 환자 사례 시험에서 맞힌 비율과 AI가 진단하는 순서",
         "desc": "마이크로소프트가 10월 22일(미국 시간) 학술지 사이언스에 실은 연구다. 의학 학술지의 어려운 환자 사례 시험에서 진단 AI 'MAI-DxO'는 83.2%를 맞혔다. 책과 인터넷을 찾아본 일반 의사는 36.1%, 아무것도 보지 않은 일반 의사는 22.3%를 맞혔다. 막대는 100%를 끝으로 그렸다. AI는 증상을 듣고, 물을 것과 검사를 고르고, 결과를 보고 다시 생각한 뒤 진단을 내린다. 글로 된 사례로 한 시험이고, 실제 병원 시험은 아직이다.",
@@ -131,12 +131,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261023_202511_12bdd35f-c697-4d5a-8b4c-7d7981fe1768.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261023_202511_12bdd35f-c697-4d5a-8b4c-7d7981fe1768.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261023_202511_12bdd35f-c697-4d5a-8b4c-7d7981fe1768.mp3"
       }
     },
     {
       "anchor": "craft",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-24.html#craft",
+      "url": "https://aigo.artricx.com/posts/2026-10-24.html#craft",
       "tag": "창작",
       "color": "pink",
       "title": {
@@ -157,14 +157,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261023_200607_a38e427d-d372-438a-8ad2-4f72d56dea00.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261023_200607_a38e427d-d372-438a-8ad2-4f72d56dea00.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261023_200607_a38e427d-d372-438a-8ad2-4f72d56dea00.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 커다란 자를 들고 빈 포스터 종이 위에 동그라미, 네모, 세모 블록을 하나씩 놓으며 자리를 정하고, 옆에 선 동그란 사람이 큰 붓을 들고 칠할 준비를 하는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-24-craft.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-24-craft.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-24-craft.svg",
         "viewBox": "0 0 800 460",
         "title": "캔바 크래프트가 처음 받은 순위와 그림을 그리는 순서",
         "desc": "캔바가 10월 22일(미국 시간) 처음으로 직접 만든 그림 AI '캔바 크래프트'를 내놓았다. 디자인 그림 AI를 견주는 '디자인 아레나' 순위에서 4위로 시작했다고 회사가 밝혔다. 1위부터 3위는 모두 오픈AI의 모델이다. 그리는 순서는 글로 설명하면, 글자와 그림의 자리를 먼저 계획하고, 그다음 그림을 그린다. 그림은 최대 2K 크기, 30가지 비율로 만든다. 사람이 만든 디자인 틀 수백만 개로 배웠다고 회사가 밝혔다.",
@@ -222,12 +222,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261023_202511_f98a602a-72cf-42d2-80e8-26f3fea394dd.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261023_202511_f98a602a-72cf-42d2-80e8-26f3fea394dd.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261023_202511_f98a602a-72cf-42d2-80e8-26f3fea394dd.mp3"
       }
     },
     {
       "anchor": "interview",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-24.html#interview",
+      "url": "https://aigo.artricx.com/posts/2026-10-24.html#interview",
       "tag": "일",
       "color": "yellow",
       "title": {
@@ -248,14 +248,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261023_200607_94e9791d-1576-46e7-83a2-7064ae08c408.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261023_200607_94e9791d-1576-46e7-83a2-7064ae08c408.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261023_200607_94e9791d-1576-46e7-83a2-7064ae08c408.webp",
         "width": 1600,
         "height": 1195,
         "alt": "밤에 집에서 셔츠와 잠옷 바지를 입은 동그란 사람이 의자에 앉아 휴대폰에 대고 말하고, 작은 탁자 건너편에서 큰 헤드폰과 작은 마이크를 쓴 작은 흰 로봇이 귀 기울이며 점검표에 적고, 작은 창밖에 초승달이 뜬 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-24-interview.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-24-interview.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-24-interview.svg",
         "viewBox": "0 0 800 460",
         "title": "AI 면접관이 본 면접 수와 면접이 진행되는 순서",
         "desc": "인사 프로그램 회사 데이포스가 10월 23일(미국 시간) AI 면접 회사 리본 AI를 사들이기로 했다. 리본 AI의 AI 면접관은 지금까지 100만 번 넘게 면접을 봤고, 고객 회사는 수백 곳이다. 사들이는 값은 밝히지 않았다. 면접 순서는 AI가 채용 공고를 읽고 질문과 채점 기준을 만들고, 지원자가 편한 시간에 말로 답하고, 답을 글로 바꿔 점수를 매긴다. AI는 목소리, 눈길, 답하는 속도도 살핀다. 사람이 어떻게 최종 결정을 하는지는 밝히지 않았다.",
@@ -306,7 +306,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261023_202511_f6320424-061c-4c5e-a458-adf79016b019.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261023_202511_f6320424-061c-4c5e-a458-adf79016b019.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261023_202511_f6320424-061c-4c5e-a458-adf79016b019.mp3"
       }
     }
   ],

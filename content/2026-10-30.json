@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-30",
   "weekday": "금",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-30.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-30.html",
   "minutes": 5,
   "title": {
     "text": "수능의 AI 안경 단속, 메일을 보고 빈칸 채우는 크롬, 줄어든 컴퓨터공학 학생",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "exam-glasses",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-30.html#exam-glasses",
+      "url": "https://aigo.artricx.com/posts/2026-10-30.html#exam-glasses",
       "tag": "학교",
       "color": "yellow",
       "title": {
@@ -65,14 +65,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261029_204155_38ff2c28-b851-492e-a74f-05e621630321.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261029_204155_38ff2c28-b851-492e-a74f-05e621630321.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261029_204155_38ff2c28-b851-492e-a74f-05e621630321.webp",
         "width": 1600,
         "height": 1195,
         "alt": "조용한 시험장에서 동그란 감독관이 테에 작은 불빛이 깜빡이는 안경을 커다란 돋보기로 살피고, 안경 속에 숨어 있던 작은 흰 로봇이 멋쩍게 고개를 내미는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-30-exam-glasses.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-30-exam-glasses.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-30-exam-glasses.svg",
         "viewBox": "0 0 800 460",
         "title": "수능 스마트 안경 부정행위에 대한 교육부 대응 계획",
         "desc": "교육부가 10월 29일 수능에서 스마트 안경으로 부정행위를 하면 형사 고발하겠다고 밝혔다. 지금은 부정행위가 드러나면 그 시험이 무효가 되고 다음 해 수능까지 1년 동안 시험을 볼 수 없다. 교육부는 이 기간을 3년으로 늘리는 것을 추진한다. 올해는 전국 시험장 1,312곳마다 스마트 안경을 살피는 감독관을 1명씩 두고, 판단이 어려우면 상황실에 물어본다. 시험장에서 쓸 전파 탐지기는 만드는 중이며 내년 수능에 쓸지 검토한다. 3년 제한은 아직 정해지지 않았다.",
@@ -134,12 +134,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261029_204430_594fc48d-0ee9-434b-8e06-3dd6d2e0a129.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261029_204430_594fc48d-0ee9-434b-8e06-3dd6d2e0a129.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261029_204430_594fc48d-0ee9-434b-8e06-3dd6d2e0a129.mp3"
       }
     },
     {
       "anchor": "autofill",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-30.html#autofill",
+      "url": "https://aigo.artricx.com/posts/2026-10-30.html#autofill",
       "tag": "안전",
       "color": "blue",
       "title": {
@@ -159,14 +159,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261029_204155_f4d4e77a-20d8-4420-8b32-81201adb1661.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261029_204155_f4d4e77a-20d8-4420-8b32-81201adb1661.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261029_204155_f4d4e77a-20d8-4420-8b32-81201adb1661.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 흰 로봇이 열린 편지 봉투에서 비행기 표와 작은 택배 상자를 꺼내 커다란 빈 서류에 옮겨 적으려 하고, 곁의 동그란 사람이 커다란 켜고 끄는 스위치에 손을 얹고 지켜보는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-30-autofill.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-30-autofill.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-30-autofill.svg",
         "viewBox": "0 0 800 460",
         "title": "크롬의 제미나이 자동 완성이 메일에서 찾는 정보와 쓰는 순서",
         "desc": "구글이 10월 28일(미국 시간) 크롬의 새 자동 완성 기능을 내놓았다. 제미나이가 지메일 속 메일에서 주문 번호, 택배 운송장 번호, 비행기 예약 정보 3가지를 찾아 인터넷 입력 칸에 제안한다. 지금은 미국에서 18살이 넘은 개인 계정으로, 크롬의 제미나이와 개인 맞춤 기능을 켠 사람만 쓸 수 있다. 회사와 학교 계정은 빠진다. 원하지 않으면 크롬 설정에서 끌 수 있다.",
@@ -219,12 +219,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261029_204430_7087da8c-2073-4691-9881-d54e5641099e.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261029_204430_7087da8c-2073-4691-9881-d54e5641099e.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261029_204430_7087da8c-2073-4691-9881-d54e5641099e.mp3"
       }
     },
     {
       "anchor": "coding-major",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-30.html#coding-major",
+      "url": "https://aigo.artricx.com/posts/2026-10-30.html#coding-major",
       "tag": "일",
       "color": "green",
       "title": {
@@ -246,14 +246,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261029_204156_1d0830e8-7699-49c1-8fea-43901049c112.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261029_204156_1d0830e8-7699-49c1-8fea-43901049c112.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261029_204156_1d0830e8-7699-49c1-8fea-43901049c112.webp",
         "width": 1600,
         "height": 1195,
         "alt": "가방을 멘 동그란 학생이 갈림길에 서 있고, 한쪽 길 끝의 커다란 노트북에서는 작은 흰 로봇이 바쁘게 타자를 치며, 다른 길 끝의 커다란 톱니바퀴와 하트 쪽으로 여러 학생이 걸어가는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-30-coding-major.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-30-coding-major.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-30-coding-major.svg",
         "viewBox": "0 0 800 460",
         "title": "미국 대학의 전공별 학생 수 변화",
         "desc": "미국 전국학생정보센터가 10월 29일 올가을 대학 입학 첫 자료를 냈다. 4년제 대학에서 컴퓨터공학을 배우는 학부생이 한 해 사이 12.4% 줄었다. 대학원생도 10% 넘게 줄었다. 같은 때 보건 분야는 6.2%, 공학은 6.1% 늘었고, 전체 학부생은 0.6% 늘었다. 이 자료는 학교 46%가 낸 첫 자료이고, 보고서는 줄어든 까닭을 밝히지 않았다.",
@@ -318,7 +318,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261029_204430_40d2db97-fba1-4a1f-978b-4c2cef352586.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261029_204430_40d2db97-fba1-4a1f-978b-4c2cef352586.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261029_204430_40d2db97-fba1-4a1f-978b-4c2cef352586.mp3"
       }
     }
   ],

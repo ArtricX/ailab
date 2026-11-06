@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-22",
   "weekday": "목",
-  "url": "https://artricx.github.io/ailab/posts/2026-10-22.html",
+  "url": "https://aigo.artricx.com/posts/2026-10-22.html",
   "minutes": 5,
   "title": {
     "text": "대화에 자물쇠 거는 챗GPT, 전화 받는 AI 상담원, 전갈 독을 붙잡는 AI 단백질",
@@ -43,7 +43,7 @@
   "stories": [
     {
       "anchor": "lock",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-22.html#lock",
+      "url": "https://aigo.artricx.com/posts/2026-10-22.html#lock",
       "tag": "안전",
       "color": "blue",
       "title": {
@@ -64,14 +64,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261021_200051_d6a51620-2aa2-4533-ac0e-d2df9299c856.webp",
         "width": 1600,
         "height": 1195,
         "alt": "동그란 사람이 말풍선 모양의 커다란 흰 상자를 작은 금색 자물쇠로 닫고, 그 옆에서 작은 흰 로봇이 커다란 옛날 열쇠를 두 팔로 안고 경비원처럼 서 있는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-22-lock.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-22-lock.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-22-lock.svg",
         "viewBox": "0 0 800 460",
         "title": "챗GPT 채팅 잠금을 거는 순서와 잠근 대화가 보이지 않는 곳",
         "desc": "오픈AI가 10월 20일(미국 시간) 챗GPT에 채팅 잠금 기능을 넣기 시작했다. 잠금은 숫자 4자리 비밀번호나 얼굴·지문 인식으로 연다. 거는 순서는 대화의 점 세 개 메뉴를 열고, 잠금을 고르고, 비밀번호 4자리를 정하는 것이다. 잠근 대화는 대화 목록, 고정한 대화, 검색 결과에 나오지 않는다. 비밀번호를 잊어 새로 만들면 잠근 대화가 모두 지워진다. 잠금은 완전한 암호화가 아니다.",
@@ -127,12 +127,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261021_200452_03eb7ec8-4c1b-47fc-b36b-0a970c3aa1c6.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261021_200452_03eb7ec8-4c1b-47fc-b36b-0a970c3aa1c6.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261021_200452_03eb7ec8-4c1b-47fc-b36b-0a970c3aa1c6.mp3"
       }
     },
     {
       "anchor": "voice",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-22.html#voice",
+      "url": "https://aigo.artricx.com/posts/2026-10-22.html#voice",
       "tag": "일",
       "color": "yellow",
       "title": {
@@ -153,14 +153,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261021_200050_91ecc6f4-a13d-40c4-a99b-f0dd5687e72e.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 헤드셋을 쓴 작은 흰 로봇이 작은 상담 책상에서 옛날 전화기로 이야기하고, 길게 꼬인 전화선 끝에서 소파에 앉은 동그란 사람이 수화기를 들고 있으며, 책상 위 다른 전화기가 따르릉 울리는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-22-voice.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-22-voice.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-22-voice.svg",
         "viewBox": "0 0 800 460",
         "title": "채널톡 보이스 알프를 쓴 뒤 줄어든 상담 전화와 AI가 받는 전화, 거는 전화",
         "desc": "채널코퍼레이션이 10월 21일 AI 전화 상담 보이스 알프를 정식으로 내놓았다. 음식물 처리기 회사 린클은 이 AI를 쓴 뒤 상담원이 받는 전화가 39% 줄고, 통화 시간이 약 42% 줄었다고 회사가 밝혔다. 막대는 쓰기 전을 100으로 그렸고 쓴 뒤는 61이다. 받는 전화는 AI가 먼저 받고 어려운 일은 사람에게 넘긴다. 거는 전화는 홈페이지에 상담을 신청한 손님에게 AI가 먼저 전화를 건다.",
@@ -219,12 +219,12 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261021_200452_313daa77-4163-4c49-b89a-b4ec0fa7ef67.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261021_200452_313daa77-4163-4c49-b89a-b4ec0fa7ef67.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261021_200452_313daa77-4163-4c49-b89a-b4ec0fa7ef67.mp3"
       }
     },
     {
       "anchor": "scorpion",
-      "url": "https://artricx.github.io/ailab/posts/2026-10-22.html#scorpion",
+      "url": "https://aigo.artricx.com/posts/2026-10-22.html#scorpion",
       "tag": "건강",
       "color": "green",
       "title": {
@@ -246,14 +246,14 @@
       },
       "illustration": {
         "src": "assets/img/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053.webp",
-        "url": "https://artricx.github.io/ailab/assets/img/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261021_200050_c8f80558-5f27-473b-8972-bac61def0053.webp",
         "width": 1600,
         "height": 1195,
         "alt": "작은 실험복을 입은 작은 흰 로봇이 알록달록한 퍼즐 조각 더미 속에서 조각 하나를 들어 작은 전갈의 꼬리 끝에 꼭 맞춰 보고, 실험복을 입은 동그란 사람이 돋보기로 시험관들을 자세히 들여다보는 그림"
       },
       "infographic": {
         "file": "content/graphics/2026-10-22-scorpion.svg",
-        "url": "https://artricx.github.io/ailab/content/graphics/2026-10-22-scorpion.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-10-22-scorpion.svg",
         "viewBox": "0 0 800 460",
         "title": "AI 클로드가 설계한 전갈 독 단백질이 실험을 거쳐 남은 수와 약이 되기까지 남은 단계",
         "desc": "앤트로픽이 10월 20일(미국 시간) 발표한 연구다. 클로드는 64시간 동안 전갈 독 5가지에 달라붙을 단백질을 30만 개 넘게 설계했다. 그중 211개를 실험실에서 시험했고 17개가 독에 잘 달라붙었다. 전갈에 쏘이는 사람은 한 해 약 120만 명이고 해독제는 비싸거나 모자랄 때가 많다. 독에 붙는 것은 확인했지만 세포 실험과 동물 실험은 아직이다. 아직 해독제는 아니다.",
@@ -312,7 +312,7 @@
       ],
       "audio": {
         "src": "assets/audio/hf_20261021_200452_7760e6d1-7713-4ea3-a9f8-4aeec8e85316.mp3",
-        "url": "https://artricx.github.io/ailab/assets/audio/hf_20261021_200452_7760e6d1-7713-4ea3-a9f8-4aeec8e85316.mp3"
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261021_200452_7760e6d1-7713-4ea3-a9f8-4aeec8e85316.mp3"
       }
     }
   ],

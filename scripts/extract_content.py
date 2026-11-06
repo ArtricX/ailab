@@ -25,7 +25,7 @@ from bs4 import BeautifulSoup, NavigableString
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "content"
 GFX = OUT / "graphics"
-SITE = "https://artricx.github.io/ailab/"
+SITE = "https://aigo.artricx.com/"
 SCHEMA = 1
 WEEKDAYS = ["월", "화", "수", "목", "금", "토", "일"]
 COLORS = ("blue", "yellow", "pink", "green", "red")

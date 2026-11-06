@@ -1,6 +1,6 @@
 # 아이고 — 매일 발행 작업 지침
 
-이 저장소는 GitHub Pages로 운영하는 블로그 **아이고**(누구나 읽는 아침 AI 소식, 예전 이름 AILAB)입니다. 저장소와 주소(`ailab`)는 그대로 씁니다.
+이 저장소는 Cloudflare Pages(주소 https://aigo.artricx.com/, 예비로 GitHub Pages https://artricx.github.io/ailab/)로 운영하는 블로그 **아이고**(누구나 읽는 아침 AI 소식, 예전 이름 AILAB)입니다. 저장소와 주소(`ailab`)는 그대로 씁니다.
 매일 오전 7시(한국 시간)에 그날의 AI 소식을 한 장으로 정리해 올립니다.
 
 ## 독자와 톤
@@ -72,7 +72,7 @@
 
    - 메일 제목(자동): [아이고] <첫 번째 소식 제목> 오늘의 AI 소식 3가지
    - 미리보기(검수용): https://claude.ai/artifact/K3X5qSuVd29tS96JMGYU5W
-   - 사이트 글(병합 뒤 열려요): https://artricx.github.io/ailab/posts/YYYY-MM-DD.html
+   - 사이트 글(병합 뒤 열려요): https://aigo.artricx.com/posts/YYYY-MM-DD.html
 
    ## 오늘의 소식
    - [태그] 제목 — 출처 링크들 (3개)
