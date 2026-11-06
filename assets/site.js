@@ -468,3 +468,20 @@ function ailabEvent(name) {
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
   else start();
 })();
+
+// 꼬리말에 '출처와 저작권 안내'와 '개인정보처리방침' 링크를 붙여요 (모든 페이지 공통)
+(function () {
+  function add() {
+    var main = document.querySelector(".footer .footer-main");
+    if (!main || main.querySelector(".footer-links")) return;
+    var base = /\/posts\//.test(location.pathname) ? "../" : "";
+    var p = document.createElement("p");
+    p.className = "footer-links";
+    p.innerHTML =
+      '<a href="' + base + 'copyright.html">출처와 저작권 안내</a>' +
+      '<a href="' + base + 'privacy.html">개인정보처리방침</a>';
+    main.appendChild(p);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", add);
+  else add();
+})();
