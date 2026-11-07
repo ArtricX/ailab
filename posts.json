@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-08",
+    "title": "앱 만드는 AI,|주문 앞둔 AI 안경,|트럭 대신 로봇택시",
+    "summary": "메타의 AI 앱 뮤즈는|말로 설명만 하면|나만의 작은 앱을 만들어 줘요.|삼성과 구글의 AI 안경은|11월 12일부터 미리 주문을 받고,|테슬라는|운전대 없는 로봇택시를|만들기로 했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "창작",
+        "color": "pink",
+        "anchor": "muse-spaces",
+        "title": "말로 부탁하면|AI가 나만의 앱을|만들어 줘요",
+        "dek": "코딩을 몰라도|괜찮아요.",
+        "illust": "assets/img/hf_20261107_200527_9e699036-0d19-4280-a4a6-e8a78d521318.webp",
+        "thumb": "assets/img/hf_20261107_200527_9e699036-0d19-4280-a4a6-e8a78d521318_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "yellow",
+        "anchor": "ai-glasses",
+        "title": "삼성과 구글의|AI 안경,|곧 미리 주문을|받아요",
+        "dek": "보이는 것을|AI가 말로 알려 줘요.",
+        "illust": "assets/img/hf_20261107_200528_fbc1afc8-e934-42ae-8261-f4b66b19b614.webp",
+        "thumb": "assets/img/hf_20261107_200528_fbc1afc8-e934-42ae-8261-f4b66b19b614_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "green",
+        "anchor": "robotaxi",
+        "title": "테슬라가 트럭 대신|운전대 없는|로봇택시를|만들어요",
+        "dek": "공장의 자리를|AI 자동차에 내줘요.",
+        "illust": "assets/img/hf_20261107_200635_5d8a60d3-35b6-4bab-a587-5a88dd52b1b9.webp",
+        "thumb": "assets/img/hf_20261107_200635_5d8a60d3-35b6-4bab-a587-5a88dd52b1b9_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "코딩",
+        "meaning": "컴퓨터가 알아듣는 말로|프로그램을 쓰는 일"
+      },
+      {
+        "word": "사전 주문",
+        "meaning": "물건이 나오기 전에|미리 사겠다고|신청하는 것"
+      },
+      {
+        "word": "로봇택시",
+        "meaning": "운전기사 없이|AI가 스스로 모는 택시"
+      },
+      {
+        "word": "실시간 통역",
+        "meaning": "다른 나라 말을|듣는 즉시|우리말로 옮겨 주는 것"
+      }
+    ]
+  },
+  {
     "date": "2026-11-07",
     "title": "통장 읽는 AI,|표정 짓는 AI,|빨리 고르는 AI",
     "summary": "AI 클로드가|은행 계좌를 읽기만 하며|지출을 정리해 줘요.|메타의 AI는|표정을 지으며 말로 대화하고,|카카오는|0.04초 만에 판단하는 AI를|공개했어요.",

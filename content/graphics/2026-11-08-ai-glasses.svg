@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">삼성과 구글의 AI 안경 일정과 기능</title>
+            <desc id="g2d">삼성과 구글이 만든 AI 안경은 미국에서 11월 12일부터 미리 주문을 받고, 12월에 나올 예정이다. 안경테는 젠틀몬스터와 워비파커가 디자인했다. 가격은 아직 발표되지 않았다. 렌즈에 화면은 없고 목소리와 손끝으로 쓴다. 오른쪽은 할 수 있는 일이다. 보고 있는 물건과 장소 설명, 실시간 통역, 길 안내, 메시지 읽어 주기, 사진 찍기. 우리나라 판매 시기는 보도만 있고 공식 발표는 없다.</desc>
+            <text class="num" x="30" y="132" font-size="80" letter-spacing="-3">11월 12일</text>
+            <text x="34" y="170" font-size="16" font-weight="800">미국에서 미리 주문 시작</text>
+            <text class="grey" x="34" y="194" font-size="13.5">젠틀몬스터·워비파커 발표</text>
+
+            <rect class="f-yellow" x="34" y="222" width="150" height="44" rx="14"/>
+            <text x="109" y="250" font-size="14.5" font-weight="900" text-anchor="middle">11월 12일 주문</text>
+            <line class="line" x1="190" y1="244" x2="196" y2="244" stroke-width="3"/>
+            <path class="f-ink" d="M204 244 l-10 -8 v16z"/>
+            <rect class="f-paper" x="204" y="222" width="150" height="44" rx="14"/>
+            <text x="279" y="250" font-size="14.5" font-weight="900" text-anchor="middle">12월 출시</text>
+
+            <text x="34" y="306" font-size="14.5" font-weight="700">렌즈에 화면은 없어요</text>
+            <text x="34" y="330" font-size="14.5" font-weight="700">목소리와 손끝으로 써요</text>
+            <text class="red" x="34" y="370" font-size="14.5" font-weight="900">가격은 아직 발표 전이에요</text>
+            <text class="grey" x="34" y="420" font-size="13.5">우리나라 판매 시기는 공식 발표 전</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이런 걸 해 줘요</text>
+            <rect class="f-yellow" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">보고 있는 물건과 장소 설명</text>
+            <rect class="f-paper" x="440" y="130" width="320" height="44" rx="14"/>
+            <text x="600" y="158" font-size="14.5" font-weight="900" text-anchor="middle">외국어를 바로 통역</text>
+            <rect class="f-paper" x="440" y="186" width="320" height="44" rx="14"/>
+            <text x="600" y="214" font-size="14.5" font-weight="900" text-anchor="middle">길 안내</text>
+            <rect class="f-paper" x="440" y="242" width="320" height="44" rx="14"/>
+            <text x="600" y="270" font-size="14.5" font-weight="900" text-anchor="middle">메시지 읽어 주기</text>
+            <rect class="f-paper" x="440" y="298" width="320" height="44" rx="14"/>
+            <text x="600" y="326" font-size="14.5" font-weight="900" text-anchor="middle">사진 찍기</text>
+            <text class="grey" x="440" y="404" font-size="13.5">휴대폰과 이어서 써요</text>
+          </svg>
