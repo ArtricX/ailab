@@ -11,8 +11,8 @@
         "anchor": "muse-spaces",
         "title": "말로 부탁하면|AI가 나만의 앱을|만들어 줘요",
         "dek": "코딩을 몰라도|괜찮아요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200527_9e699036-0d19-4280-a4a6-e8a78d521318.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200527_9e699036-0d19-4280-a4a6-e8a78d521318_min.webp"
+        "illust": "assets/img/hf_20261107_200527_9e699036-0d19-4280-a4a6-e8a78d521318.webp",
+        "thumb": "assets/img/hf_20261107_200527_9e699036-0d19-4280-a4a6-e8a78d521318_min.webp"
       },
       {
         "tag": "생활",
@@ -20,8 +20,8 @@
         "anchor": "ai-glasses",
         "title": "삼성과 구글의|AI 안경,|곧 미리 주문을|받아요",
         "dek": "보이는 것을|AI가 말로 알려 줘요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200528_fbc1afc8-e934-42ae-8261-f4b66b19b614.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200528_fbc1afc8-e934-42ae-8261-f4b66b19b614_min.webp"
+        "illust": "assets/img/hf_20261107_200528_fbc1afc8-e934-42ae-8261-f4b66b19b614.webp",
+        "thumb": "assets/img/hf_20261107_200528_fbc1afc8-e934-42ae-8261-f4b66b19b614_min.webp"
       },
       {
         "tag": "일",
@@ -29,8 +29,8 @@
         "anchor": "robotaxi",
         "title": "테슬라가 트럭 대신|운전대 없는|로봇택시를|만들어요",
         "dek": "공장의 자리를|AI 자동차에 내줘요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200635_5d8a60d3-35b6-4bab-a587-5a88dd52b1b9.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200635_5d8a60d3-35b6-4bab-a587-5a88dd52b1b9_min.webp"
+        "illust": "assets/img/hf_20261107_200635_5d8a60d3-35b6-4bab-a587-5a88dd52b1b9.webp",
+        "thumb": "assets/img/hf_20261107_200635_5d8a60d3-35b6-4bab-a587-5a88dd52b1b9_min.webp"
       }
     ],
     "keywords": [
