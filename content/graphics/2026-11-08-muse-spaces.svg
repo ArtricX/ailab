@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">메타 뮤즈의 새 기능 스페이스</title>
+            <desc id="g1d">메타는 미국 시간 11월 6일, AI 앱 뮤즈에 스페이스 기능을 넣었다. 코딩 없이 말로 설명하면 AI가 나만의 작은 앱 화면을 만들어 준다. 예로 주간 계획표, 여행 준비, 택배 추적, 선물 목록이 있다. 오른쪽은 쓰는 순서다. 원하는 것을 말로 설명하면, 뮤즈가 스페이스를 만들고, 다른 앱을 이어 두면 내용이 저절로 새로 바뀐다. 아직 다른 사람과 함께 쓰기는 안 된다. 우리나라에서 쓸 수 있는지는 아직 공식 발표가 없다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">0줄</text>
+            <text x="34" y="170" font-size="16" font-weight="800">앱을 만드는 데 필요한 코딩</text>
+            <text class="grey" x="34" y="194" font-size="13.5">메타 · 미국 시간 11월 6일 발표</text>
+
+            <text x="34" y="238" font-size="15" font-weight="800">이런 걸 만들 수 있어요</text>
+            <rect class="f-pink" x="34" y="254" width="154" height="44" rx="14"/>
+            <text x="111" y="282" font-size="14.5" font-weight="900" text-anchor="middle">주간 계획표</text>
+            <rect class="f-paper" x="200" y="254" width="154" height="44" rx="14"/>
+            <text x="277" y="282" font-size="14.5" font-weight="900" text-anchor="middle">여행 준비</text>
+            <rect class="f-paper" x="34" y="310" width="154" height="44" rx="14"/>
+            <text x="111" y="338" font-size="14.5" font-weight="900" text-anchor="middle">택배 추적</text>
+            <rect class="f-paper" x="200" y="310" width="154" height="44" rx="14"/>
+            <text x="277" y="338" font-size="14.5" font-weight="900" text-anchor="middle">선물 목록</text>
+            <text class="grey" x="34" y="404" font-size="13.5">아직 다른 사람과 함께 쓰기는 안 돼요</text>
+
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 써요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">원하는 것을 말로 설명해요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="130" stroke-width="3"/>
+            <path class="f-ink" d="M600 140 l-8 -12 h16z"/>
+            <rect class="f-paper" x="440" y="144" width="320" height="44" rx="14"/>
+            <text x="600" y="172" font-size="14.5" font-weight="900" text-anchor="middle">뮤즈가 '스페이스'를 만들어요</text>
+            <line class="line" x1="600" y1="192" x2="600" y2="200" stroke-width="3"/>
+            <path class="f-ink" d="M600 210 l-8 -12 h16z"/>
+            <rect class="f-pink" x="440" y="214" width="320" height="44" rx="14"/>
+            <text x="600" y="242" font-size="14.5" font-weight="900" text-anchor="middle">앱을 이어 두면 저절로 새로 바뀌어요</text>
+
+            <text x="440" y="300" font-size="15" font-weight="800">알아 두세요</text>
+            <text class="red" x="440" y="328" font-size="14.5" font-weight="900">우리나라 출시는 아직 발표 전이에요</text>
+            <text x="440" y="352" font-size="14.5" font-weight="700">고정하기, 숨기기, 일정 맞추기도 돼요</text>
+          </svg>

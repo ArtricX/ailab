@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-08",
+      "title": "앱 만드는 AI, 주문 앞둔 AI 안경, 트럭 대신 로봇택시",
+      "file": "content/2026-11-08.json",
+      "stories": [
+        {
+          "anchor": "muse-spaces",
+          "tag": "창작",
+          "color": "pink",
+          "title": "말로 부탁하면 AI가 나만의 앱을 만들어 줘요"
+        },
+        {
+          "anchor": "ai-glasses",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "삼성과 구글의 AI 안경, 곧 미리 주문을 받아요"
+        },
+        {
+          "anchor": "robotaxi",
+          "tag": "일",
+          "color": "green",
+          "title": "테슬라가 트럭 대신 운전대 없는 로봇택시를 만들어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-07",
       "title": "통장 읽는 AI, 표정 짓는 AI, 빨리 고르는 AI",
       "file": "content/2026-11-07.json",

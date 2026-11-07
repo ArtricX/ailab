@@ -1,0 +1,359 @@
+{
+  "schema": 1,
+  "date": "2026-11-08",
+  "weekday": "일",
+  "url": "https://aigo.artricx.com/posts/2026-11-08.html",
+  "minutes": 5,
+  "title": {
+    "text": "앱 만드는 AI, 주문 앞둔 AI 안경, 트럭 대신 로봇택시",
+    "phrases": [
+      "앱 만드는 AI,",
+      "주문 앞둔 AI 안경,",
+      "트럭 대신 로봇택시"
+    ]
+  },
+  "share": {
+    "title": "말로 부탁하면 AI가 나만의 앱을 만들어 줘요 외 2건 · 아이고 11월 8일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 8일 일요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-08.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "muse-spaces",
+      "tag": "창작",
+      "color": "pink",
+      "label": "앱 만드는 AI"
+    },
+    {
+      "anchor": "ai-glasses",
+      "tag": "생활",
+      "color": "yellow",
+      "label": "AI 안경"
+    },
+    {
+      "anchor": "robotaxi",
+      "tag": "일",
+      "color": "green",
+      "label": "로봇택시"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "muse-spaces",
+      "url": "https://aigo.artricx.com/posts/2026-11-08.html#muse-spaces",
+      "tag": "창작",
+      "color": "pink",
+      "title": {
+        "text": "말로 부탁하면 AI가 나만의 앱을 만들어 줘요",
+        "phrases": [
+          "말로 부탁하면",
+          "AI가 나만의 앱을",
+          "만들어 줘요"
+        ]
+      },
+      "dek": {
+        "text": "코딩을 몰라도 괜찮아요.",
+        "phrases": [
+          "코딩을 몰라도",
+          "괜찮아요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200527_9e699036-0d19-4280-a4a6-e8a78d521318.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200527_9e699036-0d19-4280-a4a6-e8a78d521318.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 커다란 빈 말풍선에 대고 말하고, 작은 흰 로봇이 말풍선에서 나온 달력, 체크리스트, 선물 상자 모양의 블록을 쌓아 작은 집을 짓는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-08-muse-spaces.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-08-muse-spaces.svg",
+        "viewBox": "0 0 800 460",
+        "title": "메타 뮤즈의 새 기능 스페이스",
+        "desc": "메타는 미국 시간 11월 6일, AI 앱 뮤즈에 스페이스 기능을 넣었다. 코딩 없이 말로 설명하면 AI가 나만의 작은 앱 화면을 만들어 준다. 예로 주간 계획표, 여행 준비, 택배 추적, 선물 목록이 있다. 오른쪽은 쓰는 순서다. 원하는 것을 말로 설명하면, 뮤즈가 스페이스를 만들고, 다른 앱을 이어 두면 내용이 저절로 새로 바뀐다. 아직 다른 사람과 함께 쓰기는 안 된다. 우리나라에서 쓸 수 있는지는 아직 공식 발표가 없다.",
+        "caption": {
+          "text": "말 몇 마디로 나에게 꼭 맞는 화면이 생겨요.",
+          "phrases": [
+            "말 몇 마디로",
+            "나에게 꼭 맞는",
+            "화면이 생겨요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "메타가 미국 시간 11월 6일, AI 앱 '뮤즈'에 '스페이스'라는 기능을 넣었어요. 원하는 것을 말이나 글로 설명하면 AI가 작은 앱 화면을 만들어 줘요. 주간 계획표, 여행 준비표, 택배 추적, 선물 목록 같은 것들이에요. 코딩은 한 줄도 몰라도 돼요.",
+            "nobreak": [
+              "11월 6일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "사람마다 필요한 앱이 조금씩 달라요. 그런데 딱 맞는 앱을 찾거나 직접 만들기는 어려워요. 그래서 AI가 설명을 듣고 그 사람만을 위한 화면을 바로 만들어 주는 거예요. 다른 앱을 이어 두면 가격이 바뀌거나 저금이 늘 때 내용이 저절로 새로 바뀌어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "뮤즈를 쓸 수 있는 곳이면 이 기능도 쓸 수 있어요. 다만 뮤즈는 주로 미국에서 먼저 쓰이고 있고, 우리나라에서 쓸 수 있는지는 아직 공식 발표가 없어요. 비슷한 기능이 나오면 써 보기 전에, AI에게 이어 주는 앱이 어떤 정보를 읽는지 먼저 확인하세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "메타 발표",
+          "date": "11월 6일",
+          "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/"
+        },
+        {
+          "name": "디지털 트렌드",
+          "date": "11월 6일",
+          "url": "https://www.digitaltrends.com/phones/metas-now-lets-you-build-custom-mini-app-experiences-in-the-muse-app/"
+        },
+        {
+          "name": "유나이트AI",
+          "date": "11월 6일",
+          "url": "https://www.unite.ai/meta-adds-custom-spaces-to-personalize-the-muse-app-experience/"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200829_da7c2f78-4d96-4c79-8e42-1aa496320a8c.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200829_da7c2f78-4d96-4c79-8e42-1aa496320a8c.mp3"
+      }
+    },
+    {
+      "anchor": "ai-glasses",
+      "url": "https://aigo.artricx.com/posts/2026-11-08.html#ai-glasses",
+      "tag": "생활",
+      "color": "yellow",
+      "title": {
+        "text": "삼성과 구글의 AI 안경, 곧 미리 주문을 받아요",
+        "phrases": [
+          "삼성과 구글의",
+          "AI 안경,",
+          "곧 미리 주문을",
+          "받아요"
+        ]
+      },
+      "dek": {
+        "text": "보이는 것을 AI가 말로 알려 줘요.",
+        "phrases": [
+          "보이는 것을",
+          "AI가 말로 알려 줘요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200528_fbc1afc8-e934-42ae-8261-f4b66b19b614.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200528_fbc1afc8-e934-42ae-8261-f4b66b19b614.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "커다란 동그란 안경을 쓴 사람이 작은 나무와 글자 없는 표지판을 바라보고, 작은 흰 로봇이 안경테 위에 앉아 귀에 속삭이며 앞을 가리키는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-08-ai-glasses.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-08-ai-glasses.svg",
+        "viewBox": "0 0 800 460",
+        "title": "삼성과 구글의 AI 안경 일정과 기능",
+        "desc": "삼성과 구글이 만든 AI 안경은 미국에서 11월 12일부터 미리 주문을 받고, 12월에 나올 예정이다. 안경테는 젠틀몬스터와 워비파커가 디자인했다. 가격은 아직 발표되지 않았다. 렌즈에 화면은 없고 목소리와 손끝으로 쓴다. 오른쪽은 할 수 있는 일이다. 보고 있는 물건과 장소 설명, 실시간 통역, 길 안내, 메시지 읽어 주기, 사진 찍기. 우리나라 판매 시기는 보도만 있고 공식 발표는 없다.",
+        "caption": {
+          "text": "눈앞의 것을 보고 AI가 귀에 대고 알려 줘요.",
+          "phrases": [
+            "눈앞의 것을 보고",
+            "AI가 귀에 대고",
+            "알려 줘요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "삼성과 구글이 함께 만든 AI 안경이 미국에서 11월 12일부터 미리 주문을 받아요. 실제 판매는 12월로 예정돼 있어요. 안경테는 안경 회사 젠틀몬스터와 워비파커가 디자인했어요. 구글의 AI 제미나이가 들어 있어요.",
+            "nobreak": [
+              "11월 12일",
+              "12월"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "휴대폰을 꺼내 화면을 보지 않아도 AI의 도움을 받게 하려는 거예요. 안경에 달린 카메라가 내가 보는 것을 함께 봐요. 그리고 그게 무엇인지, 어디로 가야 하는지를 말로 알려 줘요. 렌즈에 화면은 없고, 목소리와 손끝으로 조작해요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "가격은 아직 발표되지 않았어요. 우리나라에서 12월에 함께 나온다는 보도가 있지만, 삼성의 공식 발표는 아직 없어요. 카메라가 달린 안경이라, 쓰게 되면 주변 사람이 찍히지 않도록 배려하는 습관도 함께 필요해요.",
+            "nobreak": [
+              "12월"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "AI타임스",
+          "date": "11월 7일",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217133"
+        },
+        {
+          "name": "머니투데이",
+          "date": "11월 6일",
+          "url": "https://www.mt.co.kr/tech/2026/11/06/2026110617330169632"
+        },
+        {
+          "name": "위키트리",
+          "date": "11월 2일",
+          "url": "https://www.wikitree.co.kr/articles/1170919"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200829_167de0f4-3f49-45dd-8951-b22675d2776b.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200829_167de0f4-3f49-45dd-8951-b22675d2776b.mp3"
+      }
+    },
+    {
+      "anchor": "robotaxi",
+      "url": "https://aigo.artricx.com/posts/2026-11-08.html#robotaxi",
+      "tag": "일",
+      "color": "green",
+      "title": {
+        "text": "테슬라가 트럭 대신 운전대 없는 로봇택시를 만들어요",
+        "phrases": [
+          "테슬라가 트럭 대신",
+          "운전대 없는",
+          "로봇택시를",
+          "만들어요"
+        ]
+      },
+      "dek": {
+        "text": "공장의 자리를 AI 자동차에 내줘요.",
+        "phrases": [
+          "공장의 자리를",
+          "AI 자동차에 내줘요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200635_5d8a60d3-35b6-4bab-a587-5a88dd52b1b9.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200635_5d8a60d3-35b6-4bab-a587-5a88dd52b1b9.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "공장 문 앞에서 동그란 사람이 떠나는 네모난 회색 트럭에 손을 흔들고, 작은 흰 로봇이 운전대도 운전자도 없는 작고 동그란 두 자리 자동차를 밀고 들어오는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-08-robotaxi.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-08-robotaxi.svg",
+        "viewBox": "0 0 800 460",
+        "title": "테슬라 공장의 생산 계획 변화",
+        "desc": "테슬라의 일론 머스크 대표는 미국 시간 11월 6일, 픽업트럭 사이버트럭 생산을 2027년 중반쯤 끝낸다고 밝혔다. 그 자리에서는 AI가 스스로 운전하는 로봇택시 사이버캡을 만든다. 사이버캡에는 운전대와 페달이 없다. 오른쪽은 로봇택시를 타는 순서다. 앱으로 부르면, 차가 스스로 와서, 목적지까지 데려다준다.",
+        "caption": {
+          "text": "사람이 모는 트럭이 떠난 자리에 AI가 모는 차가 와요.",
+          "phrases": [
+            "사람이 모는 트럭이",
+            "떠난 자리에",
+            "AI가 모는 차가 와요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "전기차 회사 테슬라의 일론 머스크 대표가 미국 시간 11월 6일, 네모난 픽업트럭 '사이버트럭'을 2027년 중반쯤 그만 만든다고 밝혔어요. 그 공장 자리에서는 '사이버캡'을 만들어요. 사이버캡은 AI가 스스로 운전하는 로봇택시예요.",
+            "nobreak": [
+              "11월 6일",
+              "2027년 중반"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "공장의 자리와 일손에는 한계가 있어요. 그래서 회사는 앞으로 더 중요하다고 보는 쪽에 자리를 내주기도 해요. 테슬라는 사람이 모는 트럭보다 AI가 모는 택시에 더 힘을 싣기로 한 거예요. 사이버캡에는 운전대도 페달도 없어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "우리나라에서 이 로봇택시를 탈 수 있다는 계획은 아직 없어요. 하지만 운전자 없는 택시는 여러 나라에서 조금씩 늘고 있어요. 언젠가 타게 된다면, 어디서 운행하는지와 사고가 나면 누가 책임지는지를 먼저 알아 두면 좋아요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "일렉트렉",
+          "date": "11월 6일",
+          "url": "https://electrek.co/2026/11/06/tesla-ending-cybertruck-production-sales-10-percent-plan/"
+        },
+        {
+          "name": "포춘",
+          "date": "11월 6일",
+          "url": "https://fortune.com/2026/11/06/elon-musk-tesla-cybertruck-production-wind-down-2027-sales-decline-cybercab-robotaxi-future-electric-vehicle/"
+        },
+        {
+          "name": "워싱턴 타임스",
+          "date": "11월 6일",
+          "url": "https://www.washingtontimes.com/news/2026/nov/6/tesla-shifting-cybertruck-production-cybercab-robotaxis/"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200829_009aed15-3418-44a6-b1a3-a7ec987273c7.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261107_200829_009aed15-3418-44a6-b1a3-a7ec987273c7.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "코딩",
+      "meaning": {
+        "text": "컴퓨터가 알아듣는 말로 프로그램을 쓰는 일",
+        "phrases": [
+          "컴퓨터가 알아듣는 말로",
+          "프로그램을 쓰는 일"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "사전 주문",
+      "meaning": {
+        "text": "물건이 나오기 전에 미리 사겠다고 신청하는 것",
+        "phrases": [
+          "물건이 나오기 전에",
+          "미리 사겠다고",
+          "신청하는 것"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "로봇택시",
+      "meaning": {
+        "text": "운전기사 없이 AI가 스스로 모는 택시",
+        "phrases": [
+          "운전기사 없이",
+          "AI가 스스로 모는 택시"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "실시간 통역",
+      "meaning": {
+        "text": "다른 나라 말을 듣는 즉시 우리말로 옮겨 주는 것",
+        "phrases": [
+          "다른 나라 말을",
+          "듣는 즉시",
+          "우리말로 옮겨 주는 것"
+        ]
+      },
+      "color": "blue"
+    }
+  ]
+}
