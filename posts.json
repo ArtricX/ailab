@@ -11,8 +11,8 @@
         "anchor": "heart-scan",
         "title": "심장 사진을|AI가 읽었더니|치료받는 사람이|늘었어요",
         "dek": "아직은 중간 결과예요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261108_200406_fcac7454-ef80-4cb5-8fa7-887b13ce90c7.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261108_200406_fcac7454-ef80-4cb5-8fa7-887b13ce90c7_min.webp"
+        "illust": "assets/img/hf_20261108_200406_fcac7454-ef80-4cb5-8fa7-887b13ce90c7.webp",
+        "thumb": "assets/img/hf_20261108_200406_fcac7454-ef80-4cb5-8fa7-887b13ce90c7_min.webp"
       },
       {
         "tag": "생활",
@@ -20,8 +20,8 @@
         "anchor": "siri-agent",
         "title": "아이폰 시리가|비서처럼 알아서|일할지도 몰라요",
         "dek": "아직은 보도예요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261108_200406_4032a2f8-9a30-466c-82dc-4e280e60d984.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261108_200406_4032a2f8-9a30-466c-82dc-4e280e60d984_min.webp"
+        "illust": "assets/img/hf_20261108_200406_4032a2f8-9a30-466c-82dc-4e280e60d984.webp",
+        "thumb": "assets/img/hf_20261108_200406_4032a2f8-9a30-466c-82dc-4e280e60d984_min.webp"
       },
       {
         "tag": "돈",
@@ -29,8 +29,8 @@
         "anchor": "ai-ads",
         "title": "검색 광고 문구,|이제 AI가|함께 써요",
         "dek": "네이버가 12일부터 시험해요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261108_200406_718daf48-8454-4217-9b31-52e267f65627.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261108_200406_718daf48-8454-4217-9b31-52e267f65627_min.webp"
+        "illust": "assets/img/hf_20261108_200406_718daf48-8454-4217-9b31-52e267f65627.webp",
+        "thumb": "assets/img/hf_20261108_200406_718daf48-8454-4217-9b31-52e267f65627_min.webp"
       }
     ],
     "keywords": [
