@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">네이버와 카카오의 AI 광고 일정</title>
+            <desc id="g3d">네이버는 11월 12일부터 19일까지 검색 광고 파워링크에서 AI가 문구를 만드는 기능을 시험한다. 광고주의 자료와 누리집을 읽고 검색어에 맞춘 문구를 만들어, 원래 광고에 덧붙여 보여 준다. 광고주는 AI 문구를 고칠 수는 없지만 끌 수 있다. 카카오는 12월에 광고주를 돕는 AI 크루를 일부에게 먼저 시험한다.</desc>
+            <text class="num" x="30" y="132" font-size="80" letter-spacing="-3">11월 12일</text>
+            <text x="34" y="170" font-size="16" font-weight="800">네이버 검색 광고에 AI 문구 시험 시작</text>
+            <text class="grey" x="34" y="194" font-size="13.5">19일까지 · 11월 8일 보도</text>
+            <rect class="f-yellow" x="34" y="222" width="150" height="44" rx="14"/>
+            <text x="109" y="250" font-size="14.5" font-weight="900" text-anchor="middle">11월 네이버</text>
+            <rect class="f-paper" x="204" y="222" width="150" height="44" rx="14"/>
+            <text x="279" y="250" font-size="14.5" font-weight="900" text-anchor="middle">12월 카카오</text>
+            <text x="34" y="306" font-size="14.5" font-weight="700">네이버는 광고 문구를 AI가 더 써요</text>
+            <text x="34" y="330" font-size="14.5" font-weight="700">카카오는 광고 준비를 AI가 도와요</text>
+            <text class="red" x="34" y="380" font-size="14.5" font-weight="900">AI가 써도 광고는 광고예요</text>
+            <text class="grey" x="34" y="420" font-size="13.5">두 회사의 시험 뒤 계획은 바뀔 수 있어요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">AI 문구는 이렇게 생겨요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">광고주 자료와 누리집을 읽어요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="130" stroke-width="3"/>
+            <path class="f-ink" d="M592 130L608 130L600 140Z"/>
+            <rect class="f-paper" x="440" y="144" width="320" height="44" rx="14"/>
+            <text x="600" y="172" font-size="14.5" font-weight="900" text-anchor="middle">검색어에 맞춰 문구를 만들어요</text>
+            <line class="line" x1="600" y1="192" x2="600" y2="200" stroke-width="3"/>
+            <path class="f-ink" d="M592 200L608 200L600 210Z"/>
+            <rect class="f-yellow" x="440" y="214" width="320" height="44" rx="14"/>
+            <text x="600" y="242" font-size="14.5" font-weight="900" text-anchor="middle">원래 광고에 덧붙여 보여 줘요</text>
+            <text x="440" y="300" font-size="15" font-weight="800">광고주는</text>
+            <text x="440" y="328" font-size="14.5" font-weight="700">AI 문구를 직접 고칠 수는 없어요</text>
+            <text x="440" y="352" font-size="14.5" font-weight="700">대신 기능을 끌 수 있어요</text>
+          </svg>

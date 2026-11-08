@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-09",
+      "title": "심장 사진 읽는 AI, 알아서 일할 시리, 광고 쓰는 AI",
+      "file": "content/2026-11-09.json",
+      "stories": [
+        {
+          "anchor": "heart-scan",
+          "tag": "건강",
+          "color": "pink",
+          "title": "심장 사진을 AI가 읽었더니 치료받는 사람이 늘었어요"
+        },
+        {
+          "anchor": "siri-agent",
+          "tag": "생활",
+          "color": "blue",
+          "title": "아이폰 시리가 비서처럼 알아서 일할지도 몰라요"
+        },
+        {
+          "anchor": "ai-ads",
+          "tag": "돈",
+          "color": "yellow",
+          "title": "검색 광고 문구, 이제 AI가 함께 써요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-08",
       "title": "앱 만드는 AI, 주문 앞둔 AI 안경, 트럭 대신 로봇택시",
       "file": "content/2026-11-08.json",
