@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">전 국민 무료 AI 모두의 AI 일정과 참여 회사</title>
+            <desc id="g2d">모두의 AI는 올해 12월 정식 출시를 목표로 한다. 10월 16일부터 시험 운영을 시작했다. SK텔레콤은 전화와 문자로, KT는 다음과 다나와, 직방 안에서, 카카오는 카카오톡 안에서 쓰게 하려 한다. 정부 목표는 올해 세 곳을 합쳐 월 1500만 명이 쓰는 것이다. 내년 예산은 2500억 원이다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">12월</text>
+            <text x="34" y="170" font-size="16" font-weight="800">전 국민 무료 AI 정식 출시 목표</text>
+            <text class="grey" x="34" y="194" font-size="13.5">10월 16일에 시험 운영을 시작했어요</text>
+            <rect class="f-blue" x="34" y="222" width="150" height="44" rx="14"/>
+            <text class="white" x="109" y="250" font-size="14.5" font-weight="900" text-anchor="middle">월 1,500만 명</text>
+            <rect class="f-paper" x="204" y="222" width="150" height="44" rx="14"/>
+            <text x="279" y="250" font-size="14.5" font-weight="900" text-anchor="middle">내년 2,500억 원</text>
+            <text x="34" y="306" font-size="14.5" font-weight="700">왼쪽은 올해 세 회사를 합친 목표예요</text>
+            <text x="34" y="330" font-size="14.5" font-weight="700">오른쪽은 내년에 쓸 나랏돈이에요</text>
+            <text class="red" x="34" y="380" font-size="14.5" font-weight="900">아직 시험 운영 중이에요</text>
+            <text class="grey" x="34" y="420" font-size="13.5">정확한 출시 날짜는 아직 발표되지 않았어요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">세 회사가 준비하는 모습</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">SK텔레콤: 전화와 문자로 물어봐요</text>
+            <rect class="f-paper" x="440" y="130" width="320" height="44" rx="14"/>
+            <text x="600" y="158" font-size="14.5" font-weight="900" text-anchor="middle">KT: 다음, 다나와, 직방 안에서 써요</text>
+            <rect class="f-paper" x="440" y="186" width="320" height="44" rx="14"/>
+            <text x="600" y="214" font-size="14.5" font-weight="900" text-anchor="middle">카카오: 카톡 안에서 신청, 예약해요</text>
+            <text x="440" y="280" font-size="15" font-weight="800">정부가 말한 목표</text>
+            <text x="440" y="308" font-size="14.5" font-weight="700">돈을 내는 AI를 쓰지 않아도</text>
+            <text x="440" y="332" font-size="14.5" font-weight="700">일상에서 쓰기에 충분하게 만들기</text>
+          </svg>

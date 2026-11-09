@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">인스타그램의 AI 나이 짐작을 넓히는 일정</title>
+            <desc id="g1d">메타는 인스타그램에서 AI로 나이를 짐작하는 기능을 이달부터 전 세계로 넓힌다고 밝혔다. 미국, 영국, 캐나다, 호주 4개 나라에서 먼저 시험했다. 페이스북과 스레드에는 올해 안에 적용한다. AI가 사진 속 키와 뼈대, 글 속 생일 축하나 학년 이야기를 살핀다. 13살에서 17살은 청소년 계정으로 옮겨지고 13살 아래는 쓸 수 없다. 우리나라 일정은 따로 알려지지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="96" letter-spacing="-4">전 세계</text>
+            <text x="34" y="170" font-size="16" font-weight="800">인스타그램 AI 나이 짐작을 넓혀요</text>
+            <text class="grey" x="34" y="194" font-size="13.5">메타 발표 · 11월 9일 보도</text>
+            <rect class="f-red" x="34" y="222" width="320" height="44" rx="14"/>
+            <text class="white" x="194" y="250" font-size="14.5" font-weight="900" text-anchor="middle">이달: 인스타그램부터 시작해요</text>
+            <line class="line" x1="194" y1="270" x2="194" y2="278" stroke-width="3"/>
+            <path class="f-ink" d="M186 278L202 278L194 288Z"/>
+            <rect class="f-paper" x="34" y="292" width="320" height="44" rx="14"/>
+            <text x="194" y="320" font-size="14.5" font-weight="900" text-anchor="middle">올해 안에: 페이스북과 스레드도</text>
+            <text x="34" y="380" font-size="14.5" font-weight="700">미국·영국·캐나다·호주에서 먼저 시험했어요</text>
+            <text class="grey" x="34" y="420" font-size="13.5">우리나라 일정은 따로 알려지지 않았어요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">AI가 살피는 것</text>
+            <rect class="f-paper" x="440" y="74" width="150" height="44" rx="14"/>
+            <text x="515" y="102" font-size="14.5" font-weight="900" text-anchor="middle">사진 속 키, 뼈대</text>
+            <rect class="f-paper" x="610" y="74" width="150" height="44" rx="14"/>
+            <text x="685" y="102" font-size="14.5" font-weight="900" text-anchor="middle">생일, 학년 이야기</text>
+            <text x="440" y="168" font-size="15" font-weight="800">나이에 따라 달라져요</text>
+            <rect class="f-paper" x="440" y="186" width="320" height="44" rx="14"/>
+            <text x="600" y="214" font-size="14.5" font-weight="900" text-anchor="middle">13~17살: 청소년 계정으로 옮겨요</text>
+            <rect class="f-paper" x="440" y="242" width="320" height="44" rx="14"/>
+            <text x="600" y="270" font-size="14.5" font-weight="900" text-anchor="middle">13살 아래: 쓸 수 없어요</text>
+            <text x="440" y="330" font-size="15" font-weight="800">청소년 계정이 되면</text>
+            <text x="440" y="358" font-size="14.5" font-weight="700">밤에는 알림이 꺼져요</text>
+            <text x="440" y="382" font-size="14.5" font-weight="700">60분이 지나면 그만 쓰라고 알려 줘요</text>
+          </svg>
