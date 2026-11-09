@@ -25,7 +25,7 @@ text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-se
             <text x="34" y="170" font-size="16" font-weight="800">8주 만에 오른 종합 점수</text>
             <text class="grey" x="34" y="194" font-size="13.5">24개 지표 · LG 발표 · 11월 9일</text>
             <rect class="f-green" x="34" y="222" width="320" height="44" rx="14"/>
-            <text x="194" y="250" font-size="14.5" font-weight="900" text-anchor="middle">API 무료 공개 · 끝나는 날은 아직 없어요</text>
+            <text x="194" y="250" font-size="14.5" font-weight="900" text-anchor="middle">API 무료 공개 · 끝나는 날은 미정</text>
             <text x="34" y="306" font-size="14.5" font-weight="700">개발자, 스타트업, 회사, 연구소가</text>
             <text x="34" y="330" font-size="14.5" font-weight="700">열쇠를 받아 바로 쓸 수 있어요</text>
             <text class="red" x="34" y="380" font-size="14.5" font-weight="900">점수는 LG가 직접 잰 값이에요</text>
