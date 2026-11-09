@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">LG K-엑사원 2.5의 성능과 시험 점수</title>
+            <desc id="g3d">LG는 11월 9일 K-엑사원 2.5를 API로 무료 공개했다. 8주 전 2세대 모델보다 24개 지표를 합친 점수가 70% 넘게 올랐다고 밝혔다. LG가 직접 잰 시험 점수는 업무 자동화 74.6, 웹 찾기 78.0, 프로그램 짜기 59.2, 클로 이벨 77.3이다. 중국의 딥시크 V4.1 플래시는 74.9, 75.8, 58.4, 75.8이고 GLM 5.3은 71.6, 79.0, 64.0, 77.6이다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">70%+</text>
+            <text x="34" y="170" font-size="16" font-weight="800">8주 만에 오른 종합 점수</text>
+            <text class="grey" x="34" y="194" font-size="13.5">24개 지표 · LG 발표 · 11월 9일</text>
+            <rect class="f-green" x="34" y="222" width="320" height="44" rx="14"/>
+            <text x="194" y="250" font-size="14.5" font-weight="900" text-anchor="middle">API 무료 공개 · 끝나는 날은 아직 없어요</text>
+            <text x="34" y="306" font-size="14.5" font-weight="700">개발자, 스타트업, 회사, 연구소가</text>
+            <text x="34" y="330" font-size="14.5" font-weight="700">열쇠를 받아 바로 쓸 수 있어요</text>
+            <text class="red" x="34" y="380" font-size="14.5" font-weight="900">점수는 LG가 직접 잰 값이에요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">일을 맡기는 네 가지 시험</text>
+            <text x="595" y="88" font-size="13" font-weight="800" text-anchor="middle">K-엑사원</text>
+            <text class="grey" x="662" y="88" font-size="13" text-anchor="middle">딥시크</text>
+            <text class="grey" x="728" y="88" font-size="13" text-anchor="middle">GLM</text>
+            <text x="440" y="118" font-size="14.5" font-weight="800">업무 자동화</text>
+            <rect class="f-green" x="564" y="96" width="62" height="32" rx="8"/>
+            <text x="595" y="118" font-size="14.5" font-weight="900" text-anchor="middle">74.6</text>
+            <text x="662" y="118" font-size="14.5" font-weight="700" text-anchor="middle">74.9</text>
+            <text x="728" y="118" font-size="14.5" font-weight="700" text-anchor="middle">71.6</text>
+            <text x="440" y="180" font-size="14.5" font-weight="800">웹에서 찾기</text>
+            <rect class="f-green" x="564" y="158" width="62" height="32" rx="8"/>
+            <text x="595" y="180" font-size="14.5" font-weight="900" text-anchor="middle">78.0</text>
+            <text x="662" y="180" font-size="14.5" font-weight="700" text-anchor="middle">75.8</text>
+            <text x="728" y="180" font-size="14.5" font-weight="700" text-anchor="middle">79.0</text>
+            <text x="440" y="242" font-size="14.5" font-weight="800">프로그램 짜기</text>
+            <rect class="f-green" x="564" y="220" width="62" height="32" rx="8"/>
+            <text x="595" y="242" font-size="14.5" font-weight="900" text-anchor="middle">59.2</text>
+            <text x="662" y="242" font-size="14.5" font-weight="700" text-anchor="middle">58.4</text>
+            <text x="728" y="242" font-size="14.5" font-weight="700" text-anchor="middle">64.0</text>
+            <text x="440" y="304" font-size="14.5" font-weight="800">클로 이벨 시험</text>
+            <rect class="f-green" x="564" y="282" width="62" height="32" rx="8"/>
+            <text x="595" y="304" font-size="14.5" font-weight="900" text-anchor="middle">77.3</text>
+            <text x="662" y="304" font-size="14.5" font-weight="700" text-anchor="middle">75.8</text>
+            <text x="728" y="304" font-size="14.5" font-weight="700" text-anchor="middle">77.6</text>
+          </svg>

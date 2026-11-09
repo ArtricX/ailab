@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-10",
+      "title": "나이 짐작하는 AI, 무료로 쓰는 나라 AI, 활짝 연 LG AI",
+      "file": "content/2026-11-10.json",
+      "stories": [
+        {
+          "anchor": "age-check",
+          "tag": "안전",
+          "color": "red",
+          "title": "인스타그램 AI가 내 나이를 짐작해요"
+        },
+        {
+          "anchor": "ai-for-all",
+          "tag": "생활",
+          "color": "blue",
+          "title": "전 국민 무료 AI, 올해 안에 나와요"
+        },
+        {
+          "anchor": "lg-free",
+          "tag": "일",
+          "color": "green",
+          "title": "LG가 만든 AI를 개발자에게 무료로 열었어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-09",
       "title": "심장 사진 읽는 AI, 알아서 일할 시리, 광고 쓰는 AI",
       "file": "content/2026-11-09.json",

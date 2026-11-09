@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-10",
+    "title": "나이 짐작하는 AI,|무료로 쓰는|나라 AI,|활짝 연 LG AI",
+    "summary": "인스타그램이 AI 나이 짐작을|전 세계로 넓혀요.|정부는 전 국민 무료 AI를|올해 안에 내겠다고 밝혔고,|LG는 AI를 개발자에게|무료로 열었어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "안전",
+        "color": "red",
+        "anchor": "age-check",
+        "title": "인스타그램 AI가|내 나이를|짐작해요",
+        "dek": "이달부터 전 세계로 넓혀요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261109_200241_46b9d7ee-44b9-43ed-98a1-7e9cf9535022.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261109_200241_46b9d7ee-44b9-43ed-98a1-7e9cf9535022_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "blue",
+        "anchor": "ai-for-all",
+        "title": "전 국민 무료 AI,|올해 안에|나와요",
+        "dek": "정부가 국회에서 다시 밝혔어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261109_200240_399b46fb-8bad-46b5-ab05-72c29255f581.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261109_200240_399b46fb-8bad-46b5-ab05-72c29255f581_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "green",
+        "anchor": "lg-free",
+        "title": "LG가 만든 AI를|개발자에게|무료로 열었어요",
+        "dek": "끝나는 날은 아직 정하지 않았어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261109_200241_740330df-4516-4af7-bea5-df4ad064a80a.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261109_200241_740330df-4516-4af7-bea5-df4ad064a80a_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "청소년 계정",
+        "meaning": "어린 사용자를 지키려고|설정을 제한한 계정"
+      },
+      {
+        "word": "모두의 AI",
+        "meaning": "나라가 지원해|국민 누구나 무료로|쓰게 하는 AI"
+      },
+      {
+        "word": "API",
+        "meaning": "다른 프로그램이|AI를 가져다 쓰는|연결 통로"
+      },
+      {
+        "word": "자체 측정",
+        "meaning": "만든 회사가|직접 잰 시험 결과"
+      }
+    ]
+  },
+  {
     "date": "2026-11-09",
     "title": "심장 사진 읽는 AI,|알아서 일할 시리,|광고 쓰는 AI",
     "summary": "AI가 심장 사진을 읽었더니|콜레스테롤 치료를 받는 사람이|늘었다는 중간 결과가 나왔어요.|애플은 시리를 비서처럼|바꾸려 한다는 보도가 있고,|네이버는 12일부터|AI 광고 문구를 시험해요.",
