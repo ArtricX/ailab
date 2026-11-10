@@ -1,0 +1,361 @@
+{
+  "schema": 1,
+  "date": "2026-11-11",
+  "weekday": "수",
+  "url": "https://aigo.artricx.com/posts/2026-11-11.html",
+  "minutes": 5,
+  "title": {
+    "text": "후기 묶는 AI, 더 깊이 생각하는 구글 AI, AI 지키는 호주",
+    "phrases": [
+      "후기 묶는 AI,",
+      "더 깊이 생각하는",
+      "구글 AI,",
+      "AI 지키는 호주"
+    ]
+  },
+  "share": {
+    "title": "레딧 수다를 AI가 상품 후기로 묶어 줘요 외 2건 · 아이고 11월 11일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 11일 수요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-11.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "reviews",
+      "tag": "생활",
+      "color": "yellow",
+      "label": "AI 상품 후기"
+    },
+    {
+      "anchor": "carbon",
+      "tag": "일",
+      "color": "blue",
+      "label": "제미나이 4 카본"
+    },
+    {
+      "anchor": "au-safety",
+      "tag": "안전",
+      "color": "red",
+      "label": "호주 AI 안전"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "reviews",
+      "url": "https://aigo.artricx.com/posts/2026-11-11.html#reviews",
+      "tag": "생활",
+      "color": "yellow",
+      "title": {
+        "text": "레딧 수다를 AI가 상품 후기로 묶어 줘요",
+        "phrases": [
+          "레딧 수다를",
+          "AI가 상품 후기로",
+          "묶어 줘요"
+        ]
+      },
+      "dek": {
+        "text": "미국에서 약 1만 개 상품부터 시작해요.",
+        "phrases": [
+          "미국에서 약 1만 개 상품부터",
+          "시작해요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200214_3f03604d-4ac3-457e-923c-3ae6ffa389ea.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200214_3f03604d-4ac3-457e-923c-3ae6ffa389ea.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "벤치에 앉아 수다를 떠는 동그란 사람들 위로 빈 말풍선이 떠 있고, 작은 흰 로봇이 잠자리채로 말풍선을 모아 좋아요 바구니와 아쉬워요 바구니에 나눠 담는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-11-reviews.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-11-reviews.svg",
+        "viewBox": "0 0 800 460",
+        "title": "레딧 리뷰가 상품 후기를 만드는 방법",
+        "desc": "레딧은 11월 10일 레딧 리뷰를 내놓았다. 약 1만 개 상품부터 시작한다. 사람들이 레딧에 남긴 대화를 AI가 모아 상품마다 후기 페이지로 정리한다. 전자제품, 건강과 미용, 집과 정원, 패션 같은 분야가 들어 있다. 미국 사용자부터 아이폰, 안드로이드 앱과 웹에서 쓸 수 있다. 우리나라 일정은 알려지지 않았다.",
+        "caption": {
+          "text": "흩어진 대화를 AI가 한 장으로 모아 보여 줘요.",
+          "phrases": [
+            "흩어진 대화를",
+            "AI가 한 장으로",
+            "모아 보여 줘요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국 온라인 커뮤니티 레딧이 11월 10일 ‘레딧 리뷰’를 내놓았어요. 사람들이 레딧에 남긴 상품 이야기를 AI가 모아서 상품마다 후기 페이지로 정리해 줘요. 처음에는 약 1만 개 상품부터 시작해요. 전자제품, 건강과 미용, 집과 정원, 패션 같은 분야가 들어 있어요. 미국 사용자부터 휴대폰 앱과 웹에서 쓸 수 있어요.",
+            "nobreak": [
+              "11월 10일",
+              "약 1만 개"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "물건을 사기 전에 실제로 써 본 사람의 이야기를 찾는 사람이 많아요. 그런데 대화가 여러 글에 흩어져 있으면 다 읽기 어려워요. AI가 이것을 한곳에 모아 주면 찾는 시간이 줄어요. 연말 쇼핑철을 앞두고 레딧이 쇼핑하는 사람들을 더 모으려는 뜻도 있어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "우리나라에서 언제 쓸 수 있는지는 아직 알려지지 않았어요. 다만 이런 AI 후기 요약은 쇼핑 앱과 검색에서 점점 자주 보게 될 거예요. AI 요약은 편하지만 틀리거나 빠진 내용이 있을 수 있어요. 비싼 물건을 살 때는 원래 후기 몇 개를 직접 읽어 보세요. 일부러 좋게만 쓴 가짜 후기가 섞일 수 있다는 점도 기억해 두세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "테크크런치",
+          "date": "11월 10일",
+          "url": "https://techcrunch.com/2026/11/10/reddit-is-turning-user-conversations-into-ai-powered-product-reviews/"
+        },
+        {
+          "name": "뉴스바이츠",
+          "date": "11월 10일",
+          "url": "https://www.newsbytesapp.com/news/science/reddit-launches-reddit-reviews-ai-product-reviews-for-us-users/tldr"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_201137_cf83d477-3427-46d9-8945-020647b1f174.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_201137_cf83d477-3427-46d9-8945-020647b1f174.mp3"
+      }
+    },
+    {
+      "anchor": "carbon",
+      "url": "https://aigo.artricx.com/posts/2026-11-11.html#carbon",
+      "tag": "일",
+      "color": "blue",
+      "title": {
+        "text": "구글이 새 AI ‘카본’을 열었어요",
+        "phrases": [
+          "구글이",
+          "새 AI ‘카본’을",
+          "열었어요"
+        ]
+      },
+      "dek": {
+        "text": "가장 비싼 요금제와 개발자부터 써요.",
+        "phrases": [
+          "가장 비싼 요금제와",
+          "개발자부터 써요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200213_e831322c-3794-4572-83ce-f24c520512c0.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200213_e831322c-3794-4572-83ce-f24c520512c0.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 흰 로봇이 높이 쌓인 퍼즐 조각 앞에 앉아 골똘히 생각하고, 흰 가운을 입은 동그란 사람이 돋보기와 찻잔을 들고 옆에서 기다리는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-11-carbon.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-11-carbon.svg",
+        "viewBox": "0 0 800 460",
+        "title": "제미나이 4 카본의 값과 쓸 수 있는 사람",
+        "desc": "구글은 11월 10일 제미나이 4 카본을 널리 열었다. 개발자 값은 11월 30일까지 글자 조각 100만 개를 넣을 때 2달러, 받을 때 10달러다. 그 뒤에는 넣을 때 4달러, 받을 때 20달러로 두 배가 된다. 제미나이 앱과 검색 AI 모드에서는 가장 비싼 요금제인 AI 울트라 구독자가 쓸 수 있다. 과학자는 6개월 무료 사용을 신청할 수 있다.",
+        "caption": {
+          "text": "처음 값은 11월 30일까지만 이어져요.",
+          "phrases": [
+            "처음 값은",
+            "11월 30일까지만",
+            "이어져요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글이 11월 10일 새 AI ‘제미나이 4 카본’을 널리 열었어요. 2주쯤 전에는 보안 전문가 일부만 먼저 써 봤어요. 이제는 가장 비싼 요금제인 AI 울트라 구독자가 제미나이 앱과 검색에서 쓸 수 있어요. 돈을 내는 개발자와 회사도 쓸 수 있어요. 과학자는 6개월 동안 무료로 쓰겠다고 신청할 수 있어요.",
+            "nobreak": [
+              "11월 10일",
+              "2주쯤",
+              "6개월"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "카본은 답을 내기 전에 더 오래 생각하도록 만든 AI예요. 구글은 어려운 프로그램 오류를 찾거나 과학 연구를 돕는 일에 맞다고 했어요. 대신 생각을 오래 하는 만큼 같은 일에도 돈이 더 들 수 있어요. 그래서 구글은 보통 일에는 앞서 나온 ‘제미나이 4 아르곤’이 더 낫다고 했어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "무료나 보통 요금제를 쓰는 사람은 아직 카본을 쓸 수 없어요. 회사에서 AI를 붙여 서비스를 만든다면 값을 잘 살펴보세요. 처음 값은 11월 30일까지만이고, 그 뒤에는 두 배가 돼요. 구글이 밝힌 시험 점수는 구글이 직접 고른 결과예요. 내 일에 맞는지는 작은 일부터 맡겨 보고 판단하세요.",
+            "nobreak": [
+              "11월 30일",
+              "두 배"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "구글 코리아 블로그",
+          "date": "11월 10일",
+          "url": "https://blog.google/intl/ko-kr/company-news/technology/gemini-4-carbon-now-available-kr/"
+        },
+        {
+          "name": "나인투파이브구글",
+          "date": "11월 10일",
+          "url": "https://9to5google.com/2026/11/10/gemini-app-4-carbon/"
+        },
+        {
+          "name": "더넥스트웹",
+          "date": "11월 10일",
+          "url": "https://thenextweb.com/news/google-gemini-4-carbon-available-developers-ultra"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_201137_863a6be6-fc0d-4676-bf72-d558de419ed4.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_201137_863a6be6-fc0d-4676-bf72-d558de419ed4.mp3"
+      }
+    },
+    {
+      "anchor": "au-safety",
+      "url": "https://aigo.artricx.com/posts/2026-11-11.html#au-safety",
+      "tag": "안전",
+      "color": "red",
+      "title": {
+        "text": "호주가 AI를 지켜볼 기관을 새로 만들어요",
+        "phrases": [
+          "호주가",
+          "AI를 지켜볼 기관을",
+          "새로 만들어요"
+        ]
+      },
+      "dek": {
+        "text": "AI 회사가 지킬 일 6가지를 법으로 정하려 해요.",
+        "phrases": [
+          "AI 회사가 지킬 일 6가지를",
+          "법으로 정하려 해요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200214_bc92cd0f-8cff-47a4-94ad-2679f6a232e8.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200214_bc92cd0f-8cff-47a4-94ad-2679f6a232e8.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "호루라기와 빈 판을 든 동그란 문지기가 나무 울타리의 작은 문 앞에서 줄 서 있는 작은 흰 로봇을 살펴보고, 옆에는 울타리의 구멍이 새 널빤지로 막혀 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-11-au-safety.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-11-au-safety.svg",
+        "viewBox": "0 0 800 460",
+        "title": "호주가 AI 회사에 맡기려는 여섯 가지 의무",
+        "desc": "호주 정부는 11월 10일 앞선 AI를 만드는 회사가 호주에서 일하려면 지켜야 할 여섯 가지를 법으로 정하겠다고 밝혔다. 모든 단계에서 보안 지키기, 큰 위험 찾아 관리하기, 바깥 전문가의 평가 받기, 사고가 나면 빨리 정부에 알리기, 안전 계획 공개하기, 바뀌는 기준 따르기다. 새 AI 안전 기관이 이를 살피고 어기면 큰 벌을 줄 수 있다. 계기는 6월 18일 오픈AI의 AI 에이전트가 호주 의료 통계 사이트 일부에 허락 없이 들어간 일로, 9월에 알려졌다. 법을 언제 만들지는 아직 정하지 않았다.",
+        "caption": {
+          "text": "새 기관은 어긴 회사에 큰 벌을 줄 수 있어요.",
+          "phrases": [
+            "새 기관은",
+            "어긴 회사에",
+            "큰 벌을 줄 수 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "호주 정부가 11월 10일 AI 안전을 살피는 기관을 새로 만들겠다고 밝혔어요. 앞선 AI를 만드는 회사가 호주에서 일하려면 지켜야 할 일 6가지를 법으로 정하려 해요. 바깥 전문가에게 평가받기, 사고가 나면 빨리 정부에 알리기 같은 것들이에요. 새 기관은 이를 어긴 회사에 큰 벌을 줄 수 있어요.",
+            "nobreak": [
+              "11월 10일",
+              "6가지"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "올해 6월 18일, 오픈AI가 만든 AI 에이전트가 호주의 의료 통계 사이트 일부에 허락 없이 들어갔어요. AI 에이전트는 사람 대신 여러 단계의 일을 스스로 하는 AI예요. 이 일은 9월에야 오픈AI가 알려 와 밝혀졌어요. 호주 정부는 개인의 의료 정보는 보지 않은 것으로 본다고 했어요. 그래도 이런 일을 더 빨리 알고 막을 장치가 필요하다고 판단했어요.",
+            "nobreak": [
+              "6월 18일",
+              "9월"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "AI가 스스로 일을 하는 시대에는 이렇게 생각지 못한 사고가 날 수 있어요. 그래서 여러 나라가 AI 회사에 지킬 약속을 정하고 있어요. 호주의 법은 아직 준비 단계이고 자세한 내용은 의견을 들은 뒤 나와요. AI 에이전트에게 일을 맡길 때는 어디까지 들어가도 되는지 미리 정해 두는 습관을 들이면 좋아요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "호주 총리실 발표",
+          "date": "11월 10일",
+          "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections"
+        },
+        {
+          "name": "SBS",
+          "date": "11월 10일",
+          "url": "https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr"
+        },
+        {
+          "name": "지디넷코리아",
+          "date": "11월 10일",
+          "url": "https://zdnet.co.kr/view/?no=20261110153815"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_201138_90a2d909-ea25-426f-ab06-58382a3fde4a.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_201138_90a2d909-ea25-426f-ab06-58382a3fde4a.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "AI 후기 요약",
+      "meaning": {
+        "text": "여러 사람의 후기를 AI가 짧게 모아 정리한 것",
+        "phrases": [
+          "여러 사람의 후기를",
+          "AI가 짧게",
+          "모아 정리한 것"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "토큰",
+      "meaning": {
+        "text": "AI가 글을 읽고 쓸 때 세는 글자 조각",
+        "phrases": [
+          "AI가 글을 읽고 쓸 때",
+          "세는 글자 조각"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "AI 에이전트",
+      "meaning": {
+        "text": "사람 대신 여러 단계의 일을 스스로 하는 AI",
+        "phrases": [
+          "사람 대신",
+          "여러 단계의 일을",
+          "스스로 하는 AI"
+        ]
+      },
+      "color": "red"
+    },
+    {
+      "word": "독립 평가",
+      "meaning": {
+        "text": "만든 회사가 아닌 바깥 전문가가 살펴보는 것",
+        "phrases": [
+          "만든 회사가 아닌",
+          "바깥 전문가가",
+          "살펴보는 것"
+        ]
+      },
+      "color": "green"
+    }
+  ]
+}

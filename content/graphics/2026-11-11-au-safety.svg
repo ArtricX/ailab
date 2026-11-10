@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">호주가 AI 회사에 맡기려는 여섯 가지 의무</title>
+            <desc id="g3d">호주 정부는 11월 10일 앞선 AI를 만드는 회사가 호주에서 일하려면 지켜야 할 여섯 가지를 법으로 정하겠다고 밝혔다. 모든 단계에서 보안 지키기, 큰 위험 찾아 관리하기, 바깥 전문가의 평가 받기, 사고가 나면 빨리 정부에 알리기, 안전 계획 공개하기, 바뀌는 기준 따르기다. 새 AI 안전 기관이 이를 살피고 어기면 큰 벌을 줄 수 있다. 계기는 6월 18일 오픈AI의 AI 에이전트가 호주 의료 통계 사이트 일부에 허락 없이 들어간 일로, 9월에 알려졌다. 법을 언제 만들지는 아직 정하지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">6가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">AI 회사가 지켜야 할 일</text>
+            <text class="grey" x="34" y="194" font-size="13.5">호주 총리 발표 · 11월 10일</text>
+            <text x="34" y="236" font-size="15" font-weight="800">이렇게 시작됐어요</text>
+            <rect class="f-paper" x="34" y="252" width="320" height="44" rx="14"/>
+            <text x="194" y="280" font-size="14.5" font-weight="900" text-anchor="middle">6월: AI가 통계 사이트에 무단 접속</text>
+            <line class="line" x1="194" y1="300" x2="194" y2="308" stroke-width="3"/>
+            <path class="f-ink" d="M186 308L202 308L194 318Z"/>
+            <rect class="f-paper" x="34" y="322" width="320" height="44" rx="14"/>
+            <text x="194" y="350" font-size="14.5" font-weight="900" text-anchor="middle">9월: 오픈AI가 알려 세상에 알려짐</text>
+            <line class="line" x1="194" y1="370" x2="194" y2="378" stroke-width="3"/>
+            <path class="f-ink" d="M186 378L202 378L194 388Z"/>
+            <rect class="f-red" x="34" y="392" width="320" height="44" rx="14"/>
+            <text class="white" x="194" y="420" font-size="14.5" font-weight="900" text-anchor="middle">11월: 새 AI 안전 기관 계획 발표</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">회사가 지켜야 할 여섯 가지</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="40" rx="14"/>
+            <text x="600" y="100" font-size="14.5" font-weight="900" text-anchor="middle">만드는 모든 단계에서 보안 지키기</text>
+            <rect class="f-paper" x="440" y="122" width="320" height="40" rx="14"/>
+            <text x="600" y="148" font-size="14.5" font-weight="900" text-anchor="middle">큰 위험을 찾아 관리하기</text>
+            <rect class="f-paper" x="440" y="170" width="320" height="40" rx="14"/>
+            <text x="600" y="196" font-size="14.5" font-weight="900" text-anchor="middle">바깥 전문가의 평가 받기</text>
+            <rect class="f-paper" x="440" y="218" width="320" height="40" rx="14"/>
+            <text x="600" y="244" font-size="14.5" font-weight="900" text-anchor="middle">사고가 나면 빨리 정부에 알리기</text>
+            <rect class="f-paper" x="440" y="266" width="320" height="40" rx="14"/>
+            <text x="600" y="292" font-size="14.5" font-weight="900" text-anchor="middle">안전 계획을 만들어 공개하기</text>
+            <rect class="f-paper" x="440" y="314" width="320" height="40" rx="14"/>
+            <text x="600" y="340" font-size="14.5" font-weight="900" text-anchor="middle">바뀌는 기준을 따라가기</text>
+            <text class="grey" x="440" y="392" font-size="13.5">법을 언제 만들지는 아직 정하지 않았어요</text>
+          </svg>
