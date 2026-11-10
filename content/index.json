@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-11",
+      "title": "후기 묶는 AI, 더 깊이 생각하는 구글 AI, AI 지키는 호주",
+      "file": "content/2026-11-11.json",
+      "stories": [
+        {
+          "anchor": "reviews",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "레딧 수다를 AI가 상품 후기로 묶어 줘요"
+        },
+        {
+          "anchor": "carbon",
+          "tag": "일",
+          "color": "blue",
+          "title": "구글이 새 AI ‘카본’을 열었어요"
+        },
+        {
+          "anchor": "au-safety",
+          "tag": "안전",
+          "color": "red",
+          "title": "호주가 AI를 지켜볼 기관을 새로 만들어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-10",
       "title": "나이 짐작하는 AI, 무료로 쓰는 나라 AI, 활짝 연 LG AI",
       "file": "content/2026-11-10.json",

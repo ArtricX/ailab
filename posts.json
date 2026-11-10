@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-11",
+    "title": "후기 묶는 AI,|더 깊이 생각하는|구글 AI,|AI 지키는 호주",
+    "summary": "레딧이 사람들의 대화를|AI로 묶어|상품 후기를 만들었어요.|구글은 새 AI|제미나이 4 카본을 열었고,|호주는 AI를 지켜볼|새 기관을 만들기로 했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "생활",
+        "color": "yellow",
+        "anchor": "reviews",
+        "title": "레딧 수다를|AI가 상품 후기로|묶어 줘요",
+        "dek": "미국에서 약 1만 개 상품부터|시작해요.",
+        "illust": "assets/img/hf_20261110_200214_3f03604d-4ac3-457e-923c-3ae6ffa389ea.webp",
+        "thumb": "assets/img/hf_20261110_200214_3f03604d-4ac3-457e-923c-3ae6ffa389ea_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "blue",
+        "anchor": "carbon",
+        "title": "구글이|새 AI ‘카본’을|열었어요",
+        "dek": "가장 비싼 요금제와|개발자부터 써요.",
+        "illust": "assets/img/hf_20261110_200213_e831322c-3794-4572-83ce-f24c520512c0.webp",
+        "thumb": "assets/img/hf_20261110_200213_e831322c-3794-4572-83ce-f24c520512c0_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "red",
+        "anchor": "au-safety",
+        "title": "호주가|AI를 지켜볼 기관을|새로 만들어요",
+        "dek": "AI 회사가 지킬 일 6가지를|법으로 정하려 해요.",
+        "illust": "assets/img/hf_20261110_200214_bc92cd0f-8cff-47a4-94ad-2679f6a232e8.webp",
+        "thumb": "assets/img/hf_20261110_200214_bc92cd0f-8cff-47a4-94ad-2679f6a232e8_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "AI 후기 요약",
+        "meaning": "여러 사람의 후기를|AI가 짧게|모아 정리한 것"
+      },
+      {
+        "word": "토큰",
+        "meaning": "AI가 글을 읽고 쓸 때|세는 글자 조각"
+      },
+      {
+        "word": "AI 에이전트",
+        "meaning": "사람 대신|여러 단계의 일을|스스로 하는 AI"
+      },
+      {
+        "word": "독립 평가",
+        "meaning": "만든 회사가 아닌|바깥 전문가가|살펴보는 것"
+      }
+    ]
+  },
+  {
     "date": "2026-11-10",
     "title": "나이 짐작하는 AI,|무료로 쓰는|나라 AI,|활짝 연 LG AI",
     "summary": "인스타그램이 AI 나이 짐작을|전 세계로 넓혀요.|정부는 전 국민 무료 AI를|올해 안에 내겠다고 밝혔고,|LG는 AI를 개발자에게|무료로 열었어요.",

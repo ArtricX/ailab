@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">레딧 리뷰가 상품 후기를 만드는 방법</title>
+            <desc id="g1d">레딧은 11월 10일 레딧 리뷰를 내놓았다. 약 1만 개 상품부터 시작한다. 사람들이 레딧에 남긴 대화를 AI가 모아 상품마다 후기 페이지로 정리한다. 전자제품, 건강과 미용, 집과 정원, 패션 같은 분야가 들어 있다. 미국 사용자부터 아이폰, 안드로이드 앱과 웹에서 쓸 수 있다. 우리나라 일정은 알려지지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="96" letter-spacing="-4">약 1만 개</text>
+            <text x="34" y="170" font-size="16" font-weight="800">처음 후기 페이지가 생긴 상품 수</text>
+            <text class="grey" x="34" y="194" font-size="13.5">레딧 발표 · 11월 10일 보도</text>
+            <rect class="f-paper" x="34" y="222" width="150" height="44" rx="14"/>
+            <text x="109" y="250" font-size="14.5" font-weight="900" text-anchor="middle">전자제품</text>
+            <rect class="f-paper" x="204" y="222" width="150" height="44" rx="14"/>
+            <text x="279" y="250" font-size="14.5" font-weight="900" text-anchor="middle">건강, 미용</text>
+            <rect class="f-paper" x="34" y="278" width="150" height="44" rx="14"/>
+            <text x="109" y="306" font-size="14.5" font-weight="900" text-anchor="middle">집, 정원</text>
+            <rect class="f-paper" x="204" y="278" width="150" height="44" rx="14"/>
+            <text x="279" y="306" font-size="14.5" font-weight="900" text-anchor="middle">패션</text>
+            <text x="34" y="370" font-size="14.5" font-weight="700">미국 사용자부터 앱과 웹에서 써요</text>
+            <text class="red" x="34" y="410" font-size="14.5" font-weight="900">우리나라 일정은 아직 없어요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">후기가 만들어지는 순서</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">사람들이 레딧에서 상품 이야기를 해요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="134" stroke-width="3"/>
+            <path class="f-ink" d="M592 134L608 134L600 144Z"/>
+            <rect class="f-yellow" x="440" y="150" width="320" height="44" rx="14"/>
+            <text x="600" y="178" font-size="14.5" font-weight="900" text-anchor="middle">AI가 대화를 모아 정리해요</text>
+            <line class="line" x1="600" y1="198" x2="600" y2="210" stroke-width="3"/>
+            <path class="f-ink" d="M592 210L608 210L600 220Z"/>
+            <rect class="f-paper" x="440" y="226" width="320" height="44" rx="14"/>
+            <text x="600" y="254" font-size="14.5" font-weight="900" text-anchor="middle">상품마다 후기 페이지가 생겨요</text>
+            <text x="440" y="320" font-size="15" font-weight="800">레딧이 말한 약속</text>
+            <text x="440" y="348" font-size="14.5" font-weight="700">원래 대화로 들어가 볼 수 있어요</text>
+            <text x="440" y="372" font-size="14.5" font-weight="700">가짜 후기는 규칙과 감시로 막는대요</text>
+          </svg>
