@@ -11,8 +11,8 @@
         "anchor": "reviews",
         "title": "레딧 수다를|AI가 상품 후기로|묶어 줘요",
         "dek": "미국에서 약 1만 개 상품부터|시작해요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200214_3f03604d-4ac3-457e-923c-3ae6ffa389ea.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200214_3f03604d-4ac3-457e-923c-3ae6ffa389ea_min.webp"
+        "illust": "assets/img/hf_20261110_200214_3f03604d-4ac3-457e-923c-3ae6ffa389ea.webp",
+        "thumb": "assets/img/hf_20261110_200214_3f03604d-4ac3-457e-923c-3ae6ffa389ea_min.webp"
       },
       {
         "tag": "일",
@@ -20,8 +20,8 @@
         "anchor": "carbon",
         "title": "구글이|새 AI ‘카본’을|열었어요",
         "dek": "가장 비싼 요금제와|개발자부터 써요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200213_e831322c-3794-4572-83ce-f24c520512c0.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200213_e831322c-3794-4572-83ce-f24c520512c0_min.webp"
+        "illust": "assets/img/hf_20261110_200213_e831322c-3794-4572-83ce-f24c520512c0.webp",
+        "thumb": "assets/img/hf_20261110_200213_e831322c-3794-4572-83ce-f24c520512c0_min.webp"
       },
       {
         "tag": "안전",
@@ -29,8 +29,8 @@
         "anchor": "au-safety",
         "title": "호주가|AI를 지켜볼 기관을|새로 만들어요",
         "dek": "AI 회사가 지킬 일 6가지를|법으로 정하려 해요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200214_bc92cd0f-8cff-47a4-94ad-2679f6a232e8.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261110_200214_bc92cd0f-8cff-47a4-94ad-2679f6a232e8_min.webp"
+        "illust": "assets/img/hf_20261110_200214_bc92cd0f-8cff-47a4-94ad-2679f6a232e8.webp",
+        "thumb": "assets/img/hf_20261110_200214_bc92cd0f-8cff-47a4-94ad-2679f6a232e8_min.webp"
       }
     ],
     "keywords": [
