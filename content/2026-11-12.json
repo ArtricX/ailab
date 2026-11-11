@@ -1,0 +1,362 @@
+{
+  "schema": 1,
+  "date": "2026-11-12",
+  "weekday": "목",
+  "url": "https://aigo.artricx.com/posts/2026-11-12.html",
+  "minutes": 5,
+  "title": {
+    "text": "가게 상담 AI, DNA 읽는 AI, 공장에서 일하는 로봇",
+    "phrases": [
+      "가게 상담 AI,",
+      "DNA 읽는 AI,",
+      "공장에서",
+      "일하는 로봇"
+    ]
+  },
+  "share": {
+    "title": "챗GPT 안에 가게 상담원이 생겨요 외 2건 · 아이고 11월 12일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 12일 목요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-12.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "chatgpt-shop",
+      "tag": "생활",
+      "color": "yellow",
+      "label": "챗GPT 가게"
+    },
+    {
+      "anchor": "dna-cells",
+      "tag": "건강",
+      "color": "pink",
+      "label": "DNA 읽는 AI"
+    },
+    {
+      "anchor": "factory-robot",
+      "tag": "일",
+      "color": "green",
+      "label": "공장 로봇"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "chatgpt-shop",
+      "url": "https://aigo.artricx.com/posts/2026-11-12.html#chatgpt-shop",
+      "tag": "생활",
+      "color": "yellow",
+      "title": {
+        "text": "챗GPT 안에 가게 상담원이 생겨요",
+        "phrases": [
+          "챗GPT 안에",
+          "가게 상담원이",
+          "생겨요"
+        ]
+      },
+      "dek": {
+        "text": "미국 온라인 가게부터 시험으로 시작해요.",
+        "phrases": [
+          "미국 온라인 가게부터",
+          "시험으로 시작해요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261111_200210_e48ef267-94f1-40a8-bd29-db0b5d159966.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261111_200210_e48ef267-94f1-40a8-bd29-db0b5d159966.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "커다란 말풍선이 줄무늬 차양을 단 작은 가게가 되고, 그 안의 작은 흰 로봇 점원이 상품 상자를 들어 보이며, 쇼핑백을 든 동그란 사람이 앞에서 질문하는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-12-chatgpt-shop.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-12-chatgpt-shop.svg",
+        "viewBox": "0 0 800 460",
+        "title": "챗GPT 안에서 가게가 할 수 있는 세 가지",
+        "desc": "오픈AI는 11월 10일 챗GPT에 가게를 위한 기능을 시험으로 열었다. 확인을 거친 가게는 챗GPT 속 가게 소개를 직접 고치고, 상품 값과 재고 정보를 올리고, 손님의 질문에 답하는 상담 AI를 둘 수 있다. 상담 AI는 미국의 일부 온라인 가게부터 시작한다. 손님이 물어보면 가게 상담 AI가 답하고, 가게가 돈을 내고 알리는 경우에는 광고 표시가 붙는다. 오픈AI는 손님의 대화 내용을 가게에 넘기지 않고, 가게는 여럿을 묶은 숫자만 본다고 했다. 우리나라 일정은 알려지지 않았다.",
+        "caption": {
+          "text": "가게가 직접 챗GPT 속 정보를 고칠 수 있어요.",
+          "phrases": [
+            "가게가 직접",
+            "챗GPT 속 정보를",
+            "고칠 수 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "오픈AI가 11월 10일 챗GPT 안에 가게를 위한 기능을 시험으로 열었어요. 확인을 거친 가게는 챗GPT 속 가게 소개를 직접 고칠 수 있어요. 상품 값과 재고 같은 정보도 올릴 수 있어요. 미국의 일부 온라인 가게는 손님에게 답하는 상담 AI도 둘 수 있어요. 손님은 챗GPT 안에서 이 AI에게 상품을 물어보면 돼요.",
+            "nobreak": [
+              "11월 10일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "요즘은 물건을 고를 때 챗GPT에 먼저 물어보는 사람이 많아요. 그런데 AI가 지난 값이나 틀린 정보를 말하면 가게도 손님도 곤란해요. 가게가 정보를 직접 고치면 이런 일이 줄어요. 오픈AI는 가게가 돈을 내고 상담 AI를 알릴 수 있게 해서, 광고로 돈을 벌려는 뜻도 있어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "우리나라에서 언제 쓸 수 있는지는 아직 알려지지 않았어요. 이런 기능이 오면 AI의 답 사이에 광고가 섞일 수 있어요. 오픈AI는 광고에는 표시를 붙인다고 했어요. 답 옆에 광고 표시가 있는지 살펴보는 습관을 들이세요. 오픈AI는 내 대화 내용을 가게에 넘기지 않는다고 했어요. 그래도 상담 AI에게 개인 정보는 꼭 필요한 만큼만 알려 주세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "로이터",
+          "date": "더스타 게재, 11월 10일",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/11/openai-lets-businesses-claim-chatgpt-profiles-adds-ai-agents-for-us-e-commerce-firms"
+        },
+        {
+          "name": "테크크런치",
+          "date": "11월 10일",
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261111_200524_8bcc9be0-5197-4272-ab7a-092d9922d7a9.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261111_200524_8bcc9be0-5197-4272-ab7a-092d9922d7a9.mp3"
+      }
+    },
+    {
+      "anchor": "dna-cells",
+      "url": "https://aigo.artricx.com/posts/2026-11-12.html#dna-cells",
+      "tag": "건강",
+      "color": "pink",
+      "title": {
+        "text": "DNA 한 글자가 세포를 어떻게 바꿀지 AI가 짐작해요",
+        "phrases": [
+          "DNA 한 글자가",
+          "세포를",
+          "어떻게 바꿀지",
+          "AI가 짐작해요"
+        ]
+      },
+      "dek": {
+        "text": "세포 종류마다 따로 따져 봐요.",
+        "phrases": [
+          "세포 종류마다",
+          "따로 따져 봐요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261111_200210_7fe7e6ae-8362-4831-a435-6f96529abda9.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261111_200210_7fe7e6ae-8362-4831-a435-6f96529abda9.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "흰 가운을 입은 동그란 사람이 알록달록한 긴 구슬 줄을 들고, 작은 흰 로봇이 큰 돋보기로 색이 다른 구슬 하나를 들여다보며, 선반 위의 동그란 세포들이 지켜보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-12-dna-cells.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-12-dna-cells.svg",
+        "viewBox": "0 0 800 460",
+        "title": "알파지놈 2가 찾아낸 DNA 차이의 비율",
+        "desc": "구글 딥마인드는 11월 11일 알파지놈 2를 내놓았다. 면역세포 28종으로 시험했을 때, 유전자 활동을 바꾸는 진짜 DNA 차이를 30% 찾아냈다. 세포 자료로 더 가르친 이전 알파지놈은 16%였다. 약 두 배다. 이 AI는 DNA 글자 100만 개를 한 번에 읽고, 1억 개가 넘는 세포 기록으로 배웠다. 유전자가 얼마나 일하는지, DNA가 얼마나 열려 있는지, DNA에 붙는 작은 표시를 세포 종류마다 짐작한다. 돈을 벌지 않는 연구에 먼저 열렸고, 병원 진단용은 아니다.",
+        "caption": {
+          "text": "같은 DNA 차이도 세포마다 다르게 작용할 수 있어요.",
+          "phrases": [
+            "같은 DNA 차이도",
+            "세포마다 다르게",
+            "작용할 수 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글 딥마인드가 11월 11일 새 AI ‘알파지놈 2’를 내놓았어요. DNA는 우리 몸을 만드는 설계도예요. 이 AI는 DNA 글자 하나가 바뀌면 세포 안에서 어떤 일이 생길지 짐작해요. 세포 종류마다 따로 따져 볼 수 있다는 점이 새로워요. 한 번에 DNA 글자 100만 개를 읽어요.",
+            "nobreak": [
+              "11월 11일",
+              "100만 개"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "사람마다 DNA는 조금씩 달라요. 이 작은 차이 가운데 일부는 병과 이어져요. 그런데 같은 차이라도 어떤 세포에서는 문제를 일으키고, 다른 세포에서는 아무 일이 없을 수 있어요. 그래서 세포마다 따로 보는 것이 중요해요. 딥마인드는 면역세포 28종으로 시험했더니, 영향을 주는 DNA 차이를 이전보다 약 두 배 많이 찾았다고 했어요.",
+            "nobreak": [
+              "28종",
+              "약 두 배"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "지금은 과학자를 위한 연구 도구예요. 병원에서 병을 진단하는 데 쓰라고 만든 것이 아니에요. 이런 연구가 쌓이면 병의 원인을 더 빨리 찾고 약을 만드는 데 도움이 될 수 있어요. 다만 시험 결과는 회사가 직접 밝힌 숫자예요. 다른 연구자들의 확인이 더 필요해요. 내 DNA 검사 결과를 AI로 풀어 준다는 광고를 보면 꼭 의사와 먼저 이야기해 보세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "구글 딥마인드 블로그",
+          "date": "11월 11일",
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+        },
+        {
+          "name": "실리콘앵글",
+          "date": "11월 11일",
+          "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/"
+        },
+        {
+          "name": "스타트업포춘",
+          "date": "11월 11일",
+          "url": "https://startupfortune.com/google-deepmind-launches-alphagenome-2-to-predict-dna-effects-in-single-cell-types/"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261111_200523_d3ef9fe6-4255-4255-ac77-70c63fc1a6eb.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261111_200523_d3ef9fe6-4255-4255-ac77-70c63fc1a6eb.mp3"
+      }
+    },
+    {
+      "anchor": "factory-robot",
+      "url": "https://aigo.artricx.com/posts/2026-11-12.html#factory-robot",
+      "tag": "일",
+      "color": "green",
+      "title": {
+        "text": "사람 모양 로봇이 자동차 공장에서 부품을 골라 담아요",
+        "phrases": [
+          "사람 모양 로봇이",
+          "자동차 공장에서",
+          "부품을 골라 담아요"
+        ]
+      },
+      "dek": {
+        "text": "실제 공장 시험에서 96% 해냈어요.",
+        "phrases": [
+          "실제 공장 시험에서",
+          "96% 해냈어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261111_200211_b23e8849-c54f-4018-93ec-0d2c29c65fc9.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261111_200211_b23e8849-c54f-4018-93ec-0d2c29c65fc9.webp",
+        "width": 1600,
+        "height": 1195,
+        "alt": "공장에서 키 큰 흰 사람 모양 로봇이 큰 통에 섞인 작은 쇠 부품을 골라 판에 가지런히 담고, 작은 흰 로봇이 다음 판을 들고 있으며, 작업복을 입은 동그란 사람이 기록판을 들고 지켜보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-12-factory-robot.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-12-factory-robot.svg",
+        "viewBox": "0 0 800 460",
+        "title": "자동차 공장에서 로봇이 부품을 골라 담은 성공률",
+        "desc": "구글 딥마인드는 11월 10일 로봇용 AI 제미나이 로보틱스 2.5를 내놓았다. 이 AI를 넣은 사람 모양 로봇 아폴로 2가 헝가리 케치케메트와 독일 진델핑겐의 메르세데스벤츠 공장 생산 줄에서 쇠 부품을 골라 담는 일을 했고, 성공률은 96%였다. 큰 통에 섞인 부품을 로봇이 보고 골라 집어, 차마다 쓸 순서대로 판에 담는다. 딥마인드는 200가지가 넘는 일로 시험했고, 집게로 음식 담기와 선물 상자에 리본 묶기 같은 솜씨도 보여 줬다. 아직은 딥마인드와 함께 일하는 로봇 회사들에 먼저 주어진다.",
+        "caption": {
+          "text": "공장에서는 남은 4%의 실수도 중요해요.",
+          "phrases": [
+            "공장에서는",
+            "남은 4%의 실수도",
+            "중요해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글 딥마인드가 11월 10일 로봇용 AI ‘제미나이 로보틱스 2.5’를 내놓았어요. 이 AI를 넣은 사람 모양 로봇 ‘아폴로 2’가 메르세데스벤츠 자동차 공장에서 일을 해 봤어요. 헝가리와 독일 공장의 실제 생산 줄에서였어요. 큰 통에 섞인 쇠 부품을 골라, 차마다 쓸 순서대로 판에 담는 일이었어요. 딥마인드는 성공률이 96%였다고 밝혔어요.",
+            "nobreak": [
+              "11월 10일",
+              "96%"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "공장에는 모양이 제각각인 물건을 집어 옮기는 일이 많아요. 이런 일에는 지금까지 사람 손이 꼭 필요했어요. 로봇이 눈으로 보고 손가락으로 집는 솜씨가 좋아지면서, 이런 일을 조금씩 나눠 맡게 됐어요. 딥마인드는 200가지가 넘는 일로 시험했어요. 일에 따라 이전 버전보다 30~100% 더 잘 해냈다고 했어요.",
+            "nobreak": [
+              "200가지",
+              "30~100%"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "이 AI는 아직 일반 사람이 쓸 수 있는 것이 아니에요. 딥마인드와 함께 일하는 로봇 회사들에 먼저 주어져요. 96%는 높은 숫자지만, 공장에서는 남은 4%의 실수도 큰 문제가 될 수 있어요. 그래서 당분간은 사람이 곁에서 살피며 함께 일할 거예요. 앞으로 물류 창고나 가게 뒤편에서도 이런 로봇을 보게 될지 몰라요.",
+            "nobreak": [
+              "96%",
+              "4%"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "구글 딥마인드 블로그",
+          "date": "11월 10일",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+        },
+        {
+          "name": "데이터코노미",
+          "date": "11월 11일",
+          "url": "https://dataconomy.com/2026/11/11/google-unveils-gemini-robotics-25-as-ai-nears-human-level/"
+        },
+        {
+          "name": "실리콘앵글",
+          "date": "11월 11일",
+          "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261111_200526_bb05d92c-06d1-4c2d-8e22-586747d62c41.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261111_200526_bb05d92c-06d1-4c2d-8e22-586747d62c41.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "광고 표시",
+      "meaning": {
+        "text": "돈을 받고 보여 주는 내용임을 알리는 표시",
+        "phrases": [
+          "돈을 받고 보여 주는",
+          "내용임을 알리는 표시"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "DNA",
+      "meaning": {
+        "text": "우리 몸을 만드는 방법이 글자처럼 적힌 설계도",
+        "phrases": [
+          "우리 몸을 만드는 방법이",
+          "글자처럼 적힌 설계도"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "휴머노이드",
+      "meaning": {
+        "text": "사람처럼 팔다리와 손이 있게 만든 로봇",
+        "phrases": [
+          "사람처럼",
+          "팔다리와 손이 있게",
+          "만든 로봇"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "성공률",
+      "meaning": {
+        "text": "해 본 횟수 가운데 잘 해낸 비율",
+        "phrases": [
+          "해 본 횟수 가운데",
+          "잘 해낸 비율"
+        ]
+      },
+      "color": "blue"
+    }
+  ]
+}

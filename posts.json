@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-12",
+    "title": "가게 상담 AI,|DNA 읽는 AI,|공장에서|일하는 로봇",
+    "summary": "챗GPT 안에서|가게가 상담 AI를|둘 수 있게 됐어요.|구글 딥마인드는|DNA 한 글자의 영향을|세포마다 짐작하는 AI와|공장에서 부품을 골라 담는|로봇 AI를 내놓았어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "생활",
+        "color": "yellow",
+        "anchor": "chatgpt-shop",
+        "title": "챗GPT 안에|가게 상담원이|생겨요",
+        "dek": "미국 온라인 가게부터|시험으로 시작해요.",
+        "illust": "assets/img/hf_20261111_200210_e48ef267-94f1-40a8-bd29-db0b5d159966.webp",
+        "thumb": "assets/img/hf_20261111_200210_e48ef267-94f1-40a8-bd29-db0b5d159966_min.webp"
+      },
+      {
+        "tag": "건강",
+        "color": "pink",
+        "anchor": "dna-cells",
+        "title": "DNA 한 글자가|세포를|어떻게 바꿀지|AI가 짐작해요",
+        "dek": "세포 종류마다|따로 따져 봐요.",
+        "illust": "assets/img/hf_20261111_200210_7fe7e6ae-8362-4831-a435-6f96529abda9.webp",
+        "thumb": "assets/img/hf_20261111_200210_7fe7e6ae-8362-4831-a435-6f96529abda9_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "green",
+        "anchor": "factory-robot",
+        "title": "사람 모양 로봇이|자동차 공장에서|부품을 골라 담아요",
+        "dek": "실제 공장 시험에서|96% 해냈어요.",
+        "illust": "assets/img/hf_20261111_200211_b23e8849-c54f-4018-93ec-0d2c29c65fc9.webp",
+        "thumb": "assets/img/hf_20261111_200211_b23e8849-c54f-4018-93ec-0d2c29c65fc9_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "광고 표시",
+        "meaning": "돈을 받고 보여 주는|내용임을 알리는 표시"
+      },
+      {
+        "word": "DNA",
+        "meaning": "우리 몸을 만드는 방법이|글자처럼 적힌 설계도"
+      },
+      {
+        "word": "휴머노이드",
+        "meaning": "사람처럼|팔다리와 손이 있게|만든 로봇"
+      },
+      {
+        "word": "성공률",
+        "meaning": "해 본 횟수 가운데|잘 해낸 비율"
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "title": "후기 묶는 AI,|더 깊이 생각하는|구글 AI,|AI 지키는 호주",
     "summary": "레딧이 사람들의 대화를|AI로 묶어|상품 후기를 만들었어요.|구글은 새 AI|제미나이 4 카본을 열었고,|호주는 AI를 지켜볼|새 기관을 만들기로 했어요.",
