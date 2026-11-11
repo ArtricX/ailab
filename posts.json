@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-11-12",
-    "title": "가게 상담 AI,|DNA 읽는 AI,|공장에서 일하는 로봇",
+    "title": "가게 상담 AI,|DNA 읽는 AI,|공장에서|일하는 로봇",
     "summary": "챗GPT 안에서|가게가 상담 AI를|둘 수 있게 됐어요.|구글 딥마인드는|DNA 한 글자의 영향을|세포마다 짐작하는 AI와|공장에서 부품을 골라 담는|로봇 AI를 내놓았어요.",
     "minutes": 5,
     "stories": [
@@ -18,7 +18,7 @@
         "tag": "건강",
         "color": "pink",
         "anchor": "dna-cells",
-        "title": "DNA 한 글자가|세포를 어떻게 바꿀지|AI가 짐작해요",
+        "title": "DNA 한 글자가|세포를|어떻게 바꿀지|AI가 짐작해요",
         "dek": "세포 종류마다|따로 따져 봐요.",
         "illust": "assets/img/hf_20261111_200210_7fe7e6ae-8362-4831-a435-6f96529abda9.webp",
         "thumb": "assets/img/hf_20261111_200210_7fe7e6ae-8362-4831-a435-6f96529abda9_min.webp"
