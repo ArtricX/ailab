@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-12",
+      "title": "가게 상담 AI, DNA 읽는 AI, 공장에서 일하는 로봇",
+      "file": "content/2026-11-12.json",
+      "stories": [
+        {
+          "anchor": "chatgpt-shop",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "챗GPT 안에 가게 상담원이 생겨요"
+        },
+        {
+          "anchor": "dna-cells",
+          "tag": "건강",
+          "color": "pink",
+          "title": "DNA 한 글자가 세포를 어떻게 바꿀지 AI가 짐작해요"
+        },
+        {
+          "anchor": "factory-robot",
+          "tag": "일",
+          "color": "green",
+          "title": "사람 모양 로봇이 자동차 공장에서 부품을 골라 담아요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-11",
       "title": "후기 묶는 AI, 더 깊이 생각하는 구글 AI, AI 지키는 호주",
       "file": "content/2026-11-11.json",

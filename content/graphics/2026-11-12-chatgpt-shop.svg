@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">챗GPT 안에서 가게가 할 수 있는 세 가지</title>
+            <desc id="g1d">오픈AI는 11월 10일 챗GPT에 가게를 위한 기능을 시험으로 열었다. 확인을 거친 가게는 챗GPT 속 가게 소개를 직접 고치고, 상품 값과 재고 정보를 올리고, 손님의 질문에 답하는 상담 AI를 둘 수 있다. 상담 AI는 미국의 일부 온라인 가게부터 시작한다. 손님이 물어보면 가게 상담 AI가 답하고, 가게가 돈을 내고 알리는 경우에는 광고 표시가 붙는다. 오픈AI는 손님의 대화 내용을 가게에 넘기지 않고, 가게는 여럿을 묶은 숫자만 본다고 했다. 우리나라 일정은 알려지지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">3가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">가게가 챗GPT에서 할 수 있는 일</text>
+            <text class="grey" x="34" y="194" font-size="13.5">오픈AI 발표 · 11월 10일 보도</text>
+            <rect class="f-paper" x="34" y="218" width="320" height="44" rx="14"/>
+            <text x="194" y="246" font-size="14.5" font-weight="900" text-anchor="middle">가게 소개를 직접 고쳐요</text>
+            <rect class="f-paper" x="34" y="272" width="320" height="44" rx="14"/>
+            <text x="194" y="300" font-size="14.5" font-weight="900" text-anchor="middle">상품 값과 재고를 올려요</text>
+            <rect class="f-yellow" x="34" y="326" width="320" height="44" rx="14"/>
+            <text x="194" y="354" font-size="14.5" font-weight="900" text-anchor="middle">손님에게 답할 상담 AI를 둬요</text>
+            <text x="34" y="404" font-size="14.5" font-weight="700">미국 온라인 가게부터 시험으로 시작해요</text>
+            <text class="red" x="34" y="432" font-size="14.5" font-weight="900">우리나라 일정은 아직 없어요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">손님은 이렇게 써요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">챗GPT에서 상품을 물어봐요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="134" stroke-width="3"/>
+            <path class="f-ink" d="M592 134L608 134L600 144Z"/>
+            <rect class="f-yellow" x="440" y="150" width="320" height="44" rx="14"/>
+            <text x="600" y="178" font-size="14.5" font-weight="900" text-anchor="middle">가게의 상담 AI가 답해요</text>
+            <line class="line" x1="600" y1="198" x2="600" y2="210" stroke-width="3"/>
+            <path class="f-ink" d="M592 210L608 210L600 220Z"/>
+            <rect class="f-paper" x="440" y="226" width="320" height="44" rx="14"/>
+            <text x="600" y="254" font-size="14.5" font-weight="900" text-anchor="middle">광고라면 광고 표시가 붙어요</text>
+            <text x="440" y="320" font-size="15" font-weight="800">오픈AI가 말한 약속</text>
+            <text x="440" y="348" font-size="14.5" font-weight="700">내 대화 내용은 가게에 넘기지 않아요</text>
+            <text x="440" y="372" font-size="14.5" font-weight="700">가게는 여럿을 묶은 숫자만 봐요</text>
+          </svg>

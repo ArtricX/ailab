@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">알파지놈 2가 찾아낸 DNA 차이의 비율</title>
+            <desc id="g2d">구글 딥마인드는 11월 11일 알파지놈 2를 내놓았다. 면역세포 28종으로 시험했을 때, 유전자 활동을 바꾸는 진짜 DNA 차이를 30% 찾아냈다. 세포 자료로 더 가르친 이전 알파지놈은 16%였다. 약 두 배다. 이 AI는 DNA 글자 100만 개를 한 번에 읽고, 1억 개가 넘는 세포 기록으로 배웠다. 유전자가 얼마나 일하는지, DNA가 얼마나 열려 있는지, DNA에 붙는 작은 표시를 세포 종류마다 짐작한다. 돈을 벌지 않는 연구에 먼저 열렸고, 병원 진단용은 아니다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">약 2배</text>
+            <text x="34" y="170" font-size="16" font-weight="800">영향을 주는 DNA 차이를 찾은 비율</text>
+            <text class="grey" x="34" y="194" font-size="13.5">딥마인드 발표 · 면역세포 28종 시험</text>
+            <text x="34" y="238" font-size="14.5" font-weight="800">이전 AI</text>
+            <rect class="f-ink" x="110" y="220" width="128" height="26" rx="6"/>
+            <text x="248" y="239" font-size="14.5" font-weight="900">16%</text>
+            <text x="34" y="280" font-size="14.5" font-weight="800">새 AI</text>
+            <rect class="f-pink" x="110" y="262" width="240" height="26" rx="6"/>
+            <text class="red" x="340" y="281" font-size="14.5" font-weight="900" text-anchor="end">30%</text>
+            <text x="34" y="348" font-size="14.5" font-weight="700">DNA 글자 100만 개를 한 번에 읽어요</text>
+            <text x="34" y="376" font-size="14.5" font-weight="700">1억 개 넘는 세포 기록으로 배웠어요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">세포마다 짐작하는 것</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">유전자가 얼마나 일하는지</text>
+            <rect class="f-paper" x="440" y="130" width="320" height="44" rx="14"/>
+            <text x="600" y="158" font-size="14.5" font-weight="900" text-anchor="middle">DNA가 얼마나 열려 있는지</text>
+            <rect class="f-paper" x="440" y="186" width="320" height="44" rx="14"/>
+            <text x="600" y="214" font-size="14.5" font-weight="900" text-anchor="middle">DNA에 붙는 작은 표시</text>
+            <text x="440" y="280" font-size="15" font-weight="800">누가 쓸 수 있어요?</text>
+            <text x="440" y="308" font-size="14.5" font-weight="700">돈을 벌지 않는 연구에 먼저 열렸어요</text>
+            <text x="440" y="332" font-size="14.5" font-weight="700">회사 연구는 일부만 미리 써 봐요</text>
+            <text class="grey" x="440" y="372" font-size="13.5">병원 진단용으로 만든 것은 아니에요</text>
+          </svg>
