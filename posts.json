@@ -11,8 +11,8 @@
         "anchor": "chatgpt-shop",
         "title": "챗GPT 안에|가게 상담원이|생겨요",
         "dek": "미국 온라인 가게부터|시험으로 시작해요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261111_200210_e48ef267-94f1-40a8-bd29-db0b5d159966.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261111_200210_e48ef267-94f1-40a8-bd29-db0b5d159966_min.webp"
+        "illust": "assets/img/hf_20261111_200210_e48ef267-94f1-40a8-bd29-db0b5d159966.webp",
+        "thumb": "assets/img/hf_20261111_200210_e48ef267-94f1-40a8-bd29-db0b5d159966_min.webp"
       },
       {
         "tag": "건강",
@@ -20,8 +20,8 @@
         "anchor": "dna-cells",
         "title": "DNA 한 글자가|세포를 어떻게 바꿀지|AI가 짐작해요",
         "dek": "세포 종류마다|따로 따져 봐요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261111_200210_7fe7e6ae-8362-4831-a435-6f96529abda9.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261111_200210_7fe7e6ae-8362-4831-a435-6f96529abda9_min.webp"
+        "illust": "assets/img/hf_20261111_200210_7fe7e6ae-8362-4831-a435-6f96529abda9.webp",
+        "thumb": "assets/img/hf_20261111_200210_7fe7e6ae-8362-4831-a435-6f96529abda9_min.webp"
       },
       {
         "tag": "일",
@@ -29,8 +29,8 @@
         "anchor": "factory-robot",
         "title": "사람 모양 로봇이|자동차 공장에서|부품을 골라 담아요",
         "dek": "실제 공장 시험에서|96% 해냈어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261111_200211_b23e8849-c54f-4018-93ec-0d2c29c65fc9.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261111_200211_b23e8849-c54f-4018-93ec-0d2c29c65fc9_min.webp"
+        "illust": "assets/img/hf_20261111_200211_b23e8849-c54f-4018-93ec-0d2c29c65fc9.webp",
+        "thumb": "assets/img/hf_20261111_200211_b23e8849-c54f-4018-93ec-0d2c29c65fc9_min.webp"
       }
     ],
     "keywords": [
