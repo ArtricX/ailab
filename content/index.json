@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-13",
+      "title": "표 못 사는 AI 비서, 약속 잡는 AI, AI 메모리 공장",
+      "file": "content/2026-11-13.json",
+      "stories": [
+        {
+          "anchor": "airline-agent",
+          "tag": "안전",
+          "color": "red",
+          "title": "비행기 표, AI 비서가 대신 사면 안 돼요"
+        },
+        {
+          "anchor": "group-plans",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "친구들과 약속 잡을 때 AI가 도구를 만들어 줘요"
+        },
+        {
+          "anchor": "hbm-factory",
+          "tag": "일",
+          "color": "blue",
+          "title": "AI 칩에 들어갈 메모리 공장, 첫 삽을 떴어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-12",
       "title": "가게 상담 AI, DNA 읽는 AI, 공장에서 일하는 로봇",
       "file": "content/2026-11-12.json",

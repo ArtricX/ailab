@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">삼성전자 온양 HBM 공장 투자 규모와 일정</title>
+            <desc id="g3d">삼성전자는 11월 12일 충남 아산 온양캠퍼스에서 HBM 마무리 공장 공사를 시작했다. 앞으로 오랜 기간에 걸쳐 46조 원을 들여 HBM 생산 줄 5개를 지을 계획이다. 공사가 끝나면 캠퍼스 건물 넓이가 27만 제곱미터에서 42만 제곱미터로 늘어난다. 새 공장의 깨끗한 방은 약 3만 1천 제곱미터로 축구장 약 4개 크기다. 2029년 5월 제품 생산 시작이 목표다. HBM은 얇은 메모리 칩을 여러 층 쌓은 부품으로, AI 칩 옆에서 빠르게 일한다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">46조 원</text>
+            <text x="34" y="170" font-size="16" font-weight="800">오랜 기간 나눠 들일 돈</text>
+            <text class="grey" x="34" y="194" font-size="13.5">삼성전자 · 11월 12일 공사 시작</text>
+            <text x="34" y="238" font-size="14.5" font-weight="800">지금</text>
+            <rect class="f-ink" x="110" y="220" width="154" height="26" rx="6"/>
+            <text x="274" y="239" font-size="14.5" font-weight="900">27만㎡</text>
+            <text x="34" y="280" font-size="14.5" font-weight="800">늘린 뒤</text>
+            <rect class="f-blue" x="110" y="262" width="240" height="26" rx="6"/>
+            <text class="red" x="340" y="281" font-size="14.5" font-weight="900" text-anchor="end">42만㎡</text>
+            <text class="grey" x="34" y="314" font-size="13.5">온양캠퍼스 건물 넓이</text>
+            <text x="34" y="356" font-size="14.5" font-weight="700">HBM 만드는 줄 5개를 지어요</text>
+            <text x="34" y="384" font-size="14.5" font-weight="700">깨끗한 방만 축구장 약 4개 크기</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">언제 무엇을 해요?</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">2026년 11월 첫 삽을 떴어요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="134" stroke-width="3"/>
+            <path class="f-ink" d="M592 134L608 134L600 144Z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="44" rx="14"/>
+            <text x="600" y="178" font-size="14.5" font-weight="900" text-anchor="middle">공장을 짓고 기계를 들여요</text>
+            <line class="line" x1="600" y1="198" x2="600" y2="210" stroke-width="3"/>
+            <path class="f-ink" d="M592 210L608 210L600 220Z"/>
+            <rect class="f-blue" x="440" y="226" width="320" height="44" rx="14"/>
+            <text x="600" y="254" font-size="14.5" font-weight="900" text-anchor="middle">2029년 5월 생산 시작이 목표</text>
+            <text x="440" y="320" font-size="15" font-weight="800">HBM은요?</text>
+            <text x="440" y="348" font-size="14.5" font-weight="700">얇은 메모리 칩을 층층이 쌓아요</text>
+            <text x="440" y="372" font-size="14.5" font-weight="700">AI 칩 옆에서 빠르게 일해요</text>
+          </svg>

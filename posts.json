@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-13",
+    "title": "표 못 사는|AI 비서,|약속 잡는 AI,|AI 메모리 공장",
+    "summary": "미국 유나이티드항공이|AI 비서가 대신|표를 사지 못하게 막았어요.|구글은 약속 잡을 때|도구를 만들어 주는 AI를|시험하고,|삼성전자는 AI 칩용|메모리 공장을 짓기 시작했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "안전",
+        "color": "red",
+        "anchor": "airline-agent",
+        "title": "비행기 표,|AI 비서가|대신 사면|안 돼요",
+        "dek": "미국 유나이티드항공이|규칙을 바꿨어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261112_200205_71e13330-70ba-4f45-8e33-1070c4fa3900.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261112_200205_71e13330-70ba-4f45-8e33-1070c4fa3900_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "yellow",
+        "anchor": "group-plans",
+        "title": "친구들과|약속 잡을 때|AI가 도구를|만들어 줘요",
+        "dek": "구글의 새 실험|‘테이블톱’이에요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261112_200204_da35d6fa-c8ec-4b88-bc21-c61d774b7255.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261112_200204_da35d6fa-c8ec-4b88-bc21-c61d774b7255_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "blue",
+        "anchor": "hbm-factory",
+        "title": "AI 칩에 들어갈|메모리 공장,|첫 삽을 떴어요",
+        "dek": "삼성전자가|충남 아산에 지어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261112_200205_d9548f74-d823-43e9-b443-9e6695c184a1.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261112_200205_d9548f74-d823-43e9-b443-9e6695c184a1_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "AI 비서",
+        "meaning": "사람 대신 인터넷에서|일을 처리해 주는 AI"
+      },
+      {
+        "word": "운송 약관",
+        "meaning": "항공사와 승객이|지켜야 할 약속을|적은 글"
+      },
+      {
+        "word": "대기 명단",
+        "meaning": "차례를 기다리는|사람들의 이름 목록"
+      },
+      {
+        "word": "HBM",
+        "meaning": "메모리 칩을|여러 층 쌓아|빠르게 만든 부품"
+      }
+    ]
+  },
+  {
     "date": "2026-11-12",
     "title": "가게 상담 AI,|DNA 읽는 AI,|공장에서|일하는 로봇",
     "summary": "챗GPT 안에서|가게가 상담 AI를|둘 수 있게 됐어요.|구글 딥마인드는|DNA 한 글자의 영향을|세포마다 짐작하는 AI와|공장에서 부품을 골라 담는|로봇 AI를 내놓았어요.",
