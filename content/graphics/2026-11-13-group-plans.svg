@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">구글 테이블톱이 만들어 주는 도구 네 가지와 쓰는 순서</title>
+            <desc id="g2d">구글 랩스는 11월 11일(미국 시각) 여러 사람이 함께 쓰는 AI 공간 테이블톱을 실험으로 공개했다. AI가 만들어 주는 도구의 예로 여행 일정표, 저녁 메뉴 투표, 돈 나누기 계산, 경기 대진표 네 가지를 들었다. 쓰는 순서는 함께 쓰는 공간을 열고, AI를 불러 부탁하면, 도구가 생겨 모두 같이 쓰는 것이다. 고치고 싶으면 말로 다시 부탁하면 되고, 단체 대화방을 다 읽지는 않는다. 지금은 미국의 18세 이상만 대기 명단으로 쓸 수 있고, 우리나라 일정은 알려지지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">4가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">구글이 든 도구의 예</text>
+            <text class="grey" x="34" y="194" font-size="13.5">구글 랩스 발표 · 11월 11일 미국 시각</text>
+            <rect class="f-yellow" x="34" y="218" width="155" height="44" rx="14"/>
+            <text x="111.5" y="246" font-size="14.5" font-weight="900" text-anchor="middle">여행 일정표</text>
+            <rect class="f-paper" x="199" y="218" width="155" height="44" rx="14"/>
+            <text x="276.5" y="246" font-size="14.5" font-weight="900" text-anchor="middle">저녁 메뉴 투표</text>
+            <rect class="f-paper" x="34" y="272" width="155" height="44" rx="14"/>
+            <text x="111.5" y="300" font-size="14.5" font-weight="900" text-anchor="middle">돈 나누기 계산</text>
+            <rect class="f-paper" x="199" y="272" width="155" height="44" rx="14"/>
+            <text x="276.5" y="300" font-size="14.5" font-weight="900" text-anchor="middle">경기 대진표</text>
+            <text x="34" y="360" font-size="14.5" font-weight="700">미국 18세 이상, 대기 명단으로</text>
+            <text class="red" x="34" y="388" font-size="14.5" font-weight="900">우리나라 일정은 아직 없어요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 써요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">함께 쓰는 공간을 열어요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="134" stroke-width="3"/>
+            <path class="f-ink" d="M592 134L608 134L600 144Z"/>
+            <rect class="f-yellow" x="440" y="150" width="320" height="44" rx="14"/>
+            <text x="600" y="178" font-size="14.5" font-weight="900" text-anchor="middle">AI를 불러 필요한 걸 부탁해요</text>
+            <line class="line" x1="600" y1="198" x2="600" y2="210" stroke-width="3"/>
+            <path class="f-ink" d="M592 210L608 210L600 220Z"/>
+            <rect class="f-paper" x="440" y="226" width="320" height="44" rx="14"/>
+            <text x="600" y="254" font-size="14.5" font-weight="900" text-anchor="middle">도구가 생기고 다 같이 써요</text>
+            <text x="440" y="320" font-size="15" font-weight="800">알아 두면 좋아요</text>
+            <text x="440" y="348" font-size="14.5" font-weight="700">말로 다시 부탁하면 고쳐 줘요</text>
+            <text x="440" y="372" font-size="14.5" font-weight="700">단체 대화방을 다 읽지는 않아요</text>
+          </svg>

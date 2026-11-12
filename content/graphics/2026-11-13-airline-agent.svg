@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">유나이티드항공이 AI 비서에 대해 새로 정한 규칙 두 가지와 그 까닭</title>
+            <desc id="g1d">미국 유나이티드항공은 11월 11일(미국 시각) 운송 약관에 규칙 두 가지를 넣었다고 알려졌다. 첫째, AI 비서로 표를 사거나 바꾸면 안 된다. 둘째, AI 비서가 잡은 예약은 미리 알리지 않고 취소할 수 있다. 승객이 허락해도 마찬가지이고, 사람이 직접 하면 지금처럼 쓸 수 있다. 항공사가 든 까닭은 AI에 맡긴 비밀번호가 샐 수 있고, 원치 않는 결제가 생기거나 마일리지가 뜻밖에 쓰일 수 있다는 것이다. 또 미국 규정상 승객은 짐에 위험한 물건이 없는지 직접 확인해야 해서, AI가 탑승 수속을 대신할 수 없다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">2가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">운송 약관에 새로 넣은 규칙</text>
+            <text class="grey" x="34" y="194" font-size="13.5">유나이티드항공 · 11월 11일 미국 시각</text>
+            <rect class="f-paper" x="34" y="218" width="320" height="44" rx="14"/>
+            <text x="194" y="246" font-size="14.5" font-weight="900" text-anchor="middle">AI 비서로 표를 사고 바꾸면 안 돼요</text>
+            <rect class="f-red" x="34" y="272" width="320" height="44" rx="14"/>
+            <text x="194" y="300" font-size="14.5" font-weight="900" text-anchor="middle">AI 비서가 잡은 예약은 취소될 수 있어요</text>
+            <text x="34" y="352" font-size="14.5" font-weight="700">내가 허락해도 마찬가지예요</text>
+            <text x="34" y="380" font-size="14.5" font-weight="700">사람이 직접 하면 지금처럼 돼요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">왜 막았을까요?</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">AI에 맡긴 비밀번호가 샐 수 있어요</text>
+            <rect class="f-paper" x="440" y="130" width="320" height="44" rx="14"/>
+            <text x="600" y="158" font-size="14.5" font-weight="900" text-anchor="middle">원치 않는 결제가 생길 수 있어요</text>
+            <rect class="f-paper" x="440" y="186" width="320" height="44" rx="14"/>
+            <text x="600" y="214" font-size="14.5" font-weight="900" text-anchor="middle">마일리지가 뜻밖에 쓰일 수 있어요</text>
+            <text x="440" y="280" font-size="15" font-weight="800">탑승 수속은 본인이 직접</text>
+            <text x="440" y="308" font-size="14.5" font-weight="700">위험한 짐이 없는지 내가 확인해요</text>
+            <text x="440" y="332" font-size="14.5" font-weight="700">미국 규정이라 AI가 대신 못 해요</text>
+          </svg>
