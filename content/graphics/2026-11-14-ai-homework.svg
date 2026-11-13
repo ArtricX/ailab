@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">미국 부모의 AI 사용 소득 격차와 AI로 숙제하는 청소년 비율</title>
+            <desc id="g2d">미국 랜드연구소가 11월 12일(미국 시각) 발표한 조사다. 부모 약 1천 명과 청소년 약 1,800명에게 물었다. 일이나 생활에 AI를 쓰는 부모의 비율은 한 해 소득 15만 달러 이상 집과 5만 달러 미만 집 사이에 2025년 15퍼센트포인트 차이가 났고, 2026년에는 84퍼센트와 63퍼센트로 21퍼센트포인트 차이가 났다. AI로 숙제하는 청소년은 2025년 봄 두 집단 모두 39퍼센트였지만, 2026년 봄에는 소득이 높은 집 57퍼센트, 낮은 집 43퍼센트였다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">21%p</text>
+            <text x="34" y="170" font-size="16" font-weight="800">AI 쓰는 부모, 소득에 따른 차이</text>
+            <text class="grey" x="34" y="194" font-size="13.5">랜드연구소 · 11월 12일 미국 시각</text>
+            <text x="34" y="238" font-size="14.5" font-weight="800">2025년</text>
+            <rect class="f-ink" x="110" y="220" width="171" height="26" rx="6"/>
+            <text x="291" y="239" font-size="14.5" font-weight="900">15%p</text>
+            <text x="34" y="280" font-size="14.5" font-weight="800">2026년</text>
+            <rect class="f-blue" x="110" y="262" width="240" height="26" rx="6"/>
+            <text class="red" x="340" y="281" font-size="14.5" font-weight="900" text-anchor="end">21%p</text>
+            <text x="34" y="330" font-size="14.5" font-weight="700">2026년 소득 높은 집 84%</text>
+            <text x="34" y="356" font-size="14.5" font-weight="700">2026년 소득 낮은 집 63%</text>
+            <text class="grey" x="34" y="392" font-size="13.5">부모 약 1천 명 · 청소년 약 1,800명</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">AI로 숙제하는 청소년</text>
+            <text x="440" y="92" font-size="14.5" font-weight="800">2025년 봄</text>
+            <rect class="f-blue" x="440" y="104" width="175.5" height="26" rx="6"/>
+            <text class="white" x="452" y="123" font-size="13.5" font-weight="800">소득 높은 집</text>
+            <text x="625" y="123" font-size="14.5" font-weight="900">39%</text>
+            <rect class="f-paper" x="440" y="136" width="175.5" height="26" rx="6"/>
+            <text x="452" y="155" font-size="13.5" font-weight="800">소득 낮은 집</text>
+            <text x="625" y="155" font-size="14.5" font-weight="900">39%</text>
+            <text x="440" y="208" font-size="14.5" font-weight="800">2026년 봄</text>
+            <rect class="f-blue" x="440" y="220" width="256.5" height="26" rx="6"/>
+            <text class="white" x="452" y="239" font-size="13.5" font-weight="800">소득 높은 집</text>
+            <text x="706" y="239" font-size="14.5" font-weight="900">57%</text>
+            <rect class="f-paper" x="440" y="252" width="193.5" height="26" rx="6"/>
+            <text x="452" y="271" font-size="13.5" font-weight="800">소득 낮은 집</text>
+            <text x="643" y="271" font-size="14.5" font-weight="900">43%</text>
+            <text x="440" y="330" font-size="14.5" font-weight="700">한 해 만에 차이가 생겼어요</text>
+            <text class="grey" x="440" y="356" font-size="13.5">소득 높은 집: 한 해 15만 달러 이상</text>
+            <text class="grey" x="440" y="378" font-size="13.5">소득 낮은 집: 한 해 5만 달러 미만</text>
+          </svg>

@@ -1,0 +1,363 @@
+{
+  "schema": 1,
+  "date": "2026-11-14",
+  "weekday": "토",
+  "url": "https://aigo.artricx.com/posts/2026-11-14.html",
+  "minutes": 5,
+  "title": {
+    "text": "카드 번호 모르는 AI 지갑, AI 숙제 격차, 사장님 AI 사용법",
+    "phrases": [
+      "카드 번호 모르는",
+      "AI 지갑,",
+      "AI 숙제 격차,",
+      "사장님 AI 사용법"
+    ]
+  },
+  "share": {
+    "title": "AI가 내 카드 번호 모른 채 물건을 사 줘요 외 2건 · 아이고 11월 14일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 14일 토요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-14.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "ai-wallet",
+      "tag": "돈",
+      "color": "yellow",
+      "label": "AI 지갑"
+    },
+    {
+      "anchor": "ai-homework",
+      "tag": "학교",
+      "color": "blue",
+      "label": "AI 숙제 격차"
+    },
+    {
+      "anchor": "baemin-ai",
+      "tag": "일",
+      "color": "green",
+      "label": "사장님 AI"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "ai-wallet",
+      "url": "https://aigo.artricx.com/posts/2026-11-14.html#ai-wallet",
+      "tag": "돈",
+      "color": "yellow",
+      "title": {
+        "text": "AI가 내 카드 번호를 모른 채 물건을 사 줘요",
+        "phrases": [
+          "AI가 내 카드 번호를",
+          "모른 채",
+          "물건을 사 줘요"
+        ]
+      },
+      "dek": {
+        "text": "오픈AI가 ‘챗GPT 지갑’을 열었어요.",
+        "phrases": [
+          "오픈AI가",
+          "‘챗GPT 지갑’을",
+          "열었어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200525_f414e7ed-45cf-4be0-86cb-7d86ea2b2114.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200525_f414e7ed-45cf-4be0-86cb-7d86ea2b2114.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "가게 계산대에서 작은 흰 로봇이 쇼핑백을 들고 진짜 카드 대신 빈 종이 쪽지를 내밀고, 뒤에서 동그란 사람이 휴대폰 화면에 엄지를 대어 허락하며, 그 사람의 진짜 카드는 작은 자물쇠와 함께 주머니 속에 안전하게 들어 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-14-ai-wallet.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-14-ai-wallet.svg",
+        "viewBox": "0 0 800 460",
+        "title": "챗GPT 지갑으로 AI 비서가 물건을 살 때 거치는 4단계와 쓸 수 있는 사람",
+        "desc": "오픈AI는 11월 13일(미국 시각) 챗GPT 지갑을 내놓았다. AI 비서가 물건을 살 때는 네 단계를 거친다. 카드를 한 번 등록하고, 살 물건과 값과 카드를 화면에서 확인하고, 얼굴이나 지문으로 허락하면, 그 거래에만 쓰는 일회용 카드 번호로 결제된다. 가게도 AI도 진짜 카드 번호를 보지 못하고, 카드 혜택과 분쟁 보호는 그대로다. 지금은 미국에 사는 18세 이상 챗GPT 프로 구독자만 쓸 수 있고, 카드는 아메리칸익스프레스, 마스터카드, 비자다. 우리나라 일정은 알려지지 않았다.",
+        "caption": {
+          "text": "결제할 때마다 사람이 한 번씩 허락해요.",
+          "phrases": [
+            "결제할 때마다",
+            "사람이 한 번씩",
+            "허락해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "오픈AI가 미국 시각으로 11월 13일 ‘챗GPT 지갑’을 내놓았어요. 오픈AI의 AI 비서가 사람 대신 물건값을 낼 수 있게 해 주는 기능이에요. 카드는 처음에 한 번만 등록해요. AI가 무언가를 사기 전에는 살 물건과 값, 쓸 카드를 화면에 보여 줘요. 내가 얼굴이나 지문으로 허락해야 결제가 돼요.",
+            "nobreak": [
+              "11월 13일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI 비서에게 카드 번호를 그대로 맡기면 번호가 새어 나갈까 걱정이 돼요. 그래서 결제할 때마다 카드사가 그 거래에만 쓰는 번호를 새로 만들어요. 이 번호를 ‘결제 토큰’이라고 불러요. 가게도 AI도 내 진짜 카드 번호를 볼 수 없어요. 카드 혜택이나 잘못된 결제를 바로잡아 주는 분쟁 보호는 지금처럼 받을 수 있어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "지금은 미국에 사는 18세 이상 챗GPT 프로 구독자만 쓸 수 있어요. 카드도 미국에서 만든 아메리칸익스프레스, 마스터카드, 비자만 돼요. 우리나라에서 언제 쓸 수 있는지는 알려지지 않았어요. 어제 소식처럼 AI 비서의 구매를 막는 회사도 있어요. 나중에 이런 기능을 쓰게 되면, 허락하기 전에 물건과 값을 꼭 한 번 더 살펴보세요.",
+            "nobreak": [
+              "18세 이상"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "오픈AI",
+          "date": "11월 13일",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/"
+        },
+        {
+          "name": "더디코더",
+          "date": "11월 13일",
+          "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/"
+        },
+        {
+          "name": "더넥스트웹",
+          "date": "11월 13일",
+          "url": "https://thenextweb.com/news/chatgpt-wallet-openai-dots-agents-payments"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_201015_1fae9f46-4b79-4319-a7f2-30476e376d24.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_201015_1fae9f46-4b79-4319-a7f2-30476e376d24.mp3"
+      }
+    },
+    {
+      "anchor": "ai-homework",
+      "url": "https://aigo.artricx.com/posts/2026-11-14.html#ai-homework",
+      "tag": "학교",
+      "color": "blue",
+      "title": {
+        "text": "집 소득에 따라 AI로 숙제하는 아이가 달라요",
+        "phrases": [
+          "집 소득에 따라",
+          "AI로 숙제하는",
+          "아이가 달라요"
+        ]
+      },
+      "dek": {
+        "text": "미국 랜드연구소가 부모와 청소년에게 물었어요.",
+        "phrases": [
+          "미국 랜드연구소가",
+          "부모와 청소년에게",
+          "물었어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200526_6ef2e7cc-c639-4817-83d3-368241479d7e.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200526_6ef2e7cc-c639-4817-83d3-368241479d7e.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "조금 떨어진 책상 두 개에서 동그란 아이 둘이 숙제를 하는데, 왼쪽 책상에서는 동그란 부모가 몸을 숙여 연필을 든 작은 흰 로봇을 가리키고, 오른쪽 책상의 아이는 높이 쌓인 책 옆에 혼자 앉아 궁금한 얼굴로 건너다보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-14-ai-homework.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-14-ai-homework.svg",
+        "viewBox": "0 0 800 460",
+        "title": "미국 부모의 AI 사용 소득 격차와 AI로 숙제하는 청소년 비율",
+        "desc": "미국 랜드연구소가 11월 12일(미국 시각) 발표한 조사다. 부모 약 1천 명과 청소년 약 1,800명에게 물었다. 일이나 생활에 AI를 쓰는 부모의 비율은 한 해 소득 15만 달러 이상 집과 5만 달러 미만 집 사이에 2025년 15퍼센트포인트 차이가 났고, 2026년에는 84퍼센트와 63퍼센트로 21퍼센트포인트 차이가 났다. AI로 숙제하는 청소년은 2025년 봄 두 집단 모두 39퍼센트였지만, 2026년 봄에는 소득이 높은 집 57퍼센트, 낮은 집 43퍼센트였다.",
+        "caption": {
+          "text": "부모가 AI를 쓰면 아이도 따라 쓰는 모습이 보였어요.",
+          "phrases": [
+            "부모가 AI를 쓰면",
+            "아이도 따라 쓰는",
+            "모습이 보였어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국 랜드연구소가 미국 시각으로 11월 12일 조사 결과를 냈어요. 미국 부모 약 1천 명과 청소년 약 1,800명에게 AI를 얼마나 쓰는지 물었어요. 2025년 봄에는 집 소득과 상관없이 청소년의 39%가 AI로 숙제를 했어요. 그런데 2026년 봄에는 소득이 높은 집 아이는 57%, 낮은 집 아이는 43%로 차이가 났어요.",
+            "nobreak": [
+              "11월 12일",
+              "약 1천 명",
+              "약 1,800명",
+              "2025년 봄",
+              "39%",
+              "2026년 봄",
+              "57%",
+              "43%"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "연구소는 부모의 영향을 크게 봤어요. 소득이 높은 집 부모가 AI를 더 많이 쓰고, 아이에게도 숙제에 써 보라고 더 많이 권했어요. 부모가 AI를 자주 쓰는 집 아이는 숙제에도 AI를 더 많이 썼어요. 일이나 생활에 AI를 쓰는 부모는 소득이 높은 집이 84%, 낮은 집이 63%였어요.",
+            "nobreak": [
+              "84%",
+              "63%"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "이 조사는 미국 가족을 살펴본 것이라 우리나라와는 다를 수 있어요. AI로 숙제를 하면 성적이 오르는지도 아직 분명하지 않아요. 연구소는 학교가 생각을 돕는 AI와 생각을 대신하는 AI를 나눠야 한다고 했어요. 집에서도 숙제는 먼저 스스로 해 보고, AI는 모르는 것을 묻거나 답을 점검할 때 써 보세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "랜드연구소 보도자료",
+          "date": "11월 12일",
+          "url": "https://www.rand.org/news/press/2026/11/higher-income-parents-more-likely-to-use-ai-encourage.html"
+        },
+        {
+          "name": "랜드연구소 보고서",
+          "date": "11월 12일",
+          "url": "https://www.rand.org/pubs/research_reports/RRA4742-5.html"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_201015_1de08d9e-1238-4845-8ed9-7f5c7296941b.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_201015_1de08d9e-1238-4845-8ed9-7f5c7296941b.mp3"
+      }
+    },
+    {
+      "anchor": "baemin-ai",
+      "url": "https://aigo.artricx.com/posts/2026-11-14.html#baemin-ai",
+      "tag": "일",
+      "color": "green",
+      "title": {
+        "text": "식당 사장님께 AI 사용법 27가지를 나눠요",
+        "phrases": [
+          "식당 사장님께",
+          "AI 사용법",
+          "27가지를 나눠요"
+        ]
+      },
+      "dek": {
+        "text": "배달의민족이 무료로 공개했어요.",
+        "phrases": [
+          "배달의민족이",
+          "무료로 공개했어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200526_e1883010-e9a7-4230-8874-c8ab32822ce9.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200526_e1883010-e9a7-4230-8874-c8ab32822ce9.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 부엌 조리대 앞에서 앞치마를 두른 동그란 식당 사장님이 프라이팬을 들고 있고, 작은 흰 로봇이 빈 요리 카드가 가득 든 상자에서 카드 한 장을 꺼내 건네며, 옆에 글자 없는 메뉴판과 김이 나는 그릇이 놓인 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-14-baemin-ai.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-14-baemin-ai.svg",
+        "viewBox": "0 0 800 460",
+        "title": "배민 외식업 AI 플레이북의 도구 27가지가 다루는 여섯 분야와 쓰는 순서",
+        "desc": "배달의민족을 운영하는 우아한형제들은 11월 13일 배민아카데미 누리집에 외식업 AI 플레이북을 무료로 공개했다. 도구는 27가지이고 마케팅, SNS 운영, 메뉴 개발, 손익 관리, 직원 관리, 배민 서비스의 여섯 분야를 다룬다. 쓰는 순서는 지시문을 복사해 AI 서비스에 붙여 넣고, 우리 가게 정보를 넣는 것이다. 그러면 리뷰 답글이나 홍보 문구 초안, 메뉴 아이디어를 얻을 수 있다.",
+        "caption": {
+          "text": "지시문을 직접 쓰지 않아도 따라 할 수 있어요.",
+          "phrases": [
+            "지시문을 직접",
+            "쓰지 않아도",
+            "따라 할 수 있어요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "배달의민족을 운영하는 우아한형제들이 11월 13일 ‘배민 외식업 AI 플레이북’을 공개했어요. 식당 사장님이 AI를 일에 쓰는 방법을 모은 안내서예요. 도구는 모두 27가지예요. 마케팅, SNS 운영, 메뉴 개발, 손익 관리, 직원 관리, 배민 서비스까지 여섯 분야를 다뤄요. 배민아카데미 누리집에서 무료로 볼 수 있어요.",
+            "nobreak": [
+              "11월 13일",
+              "27가지",
+              "여섯 분야"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI를 쓰면 좋다는 말은 많지만, 무엇을 어떻게 시켜야 할지 막막한 사장님이 많아요. AI에게 일을 시키는 글을 ‘프롬프트’라고 해요. 이 안내서에는 미리 써 둔 프롬프트가 들어 있어요. 복사해서 AI 서비스에 붙이고, 우리 가게 정보만 넣으면 돼요. 배민아카데미는 올해 5월부터 AI 교육을 열면서 실제 가게에서 이 도구들을 시험해 봤어요.",
+            "nobreak": [
+              "올해 5월"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "가게를 하는 분이라면 리뷰 답글이나 홍보 문구 초안을 빨리 만들 수 있어요. 가게를 하지 않아도, 미리 써 둔 프롬프트를 따라 해 보면 AI와 이야기하는 법을 익히기 좋아요. 다만 AI가 쓴 글은 초안일 뿐이에요. 가격, 재료, 영업시간처럼 중요한 내용은 손님에게 내보내기 전에 꼭 직접 확인하세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "지디넷코리아",
+          "date": "11월 13일",
+          "url": "https://zdnet.co.kr/view/?no=20261113105904"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "date": "11월 13일",
+          "url": "https://www.fnnews.com/news/202611131455514496"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_201015_d8b6e253-3ae2-420c-b0be-8c7eac9f3c1c.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_201015_d8b6e253-3ae2-420c-b0be-8c7eac9f3c1c.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "결제 토큰",
+      "meaning": {
+        "text": "진짜 카드 번호 대신 한 번만 쓰는 번호",
+        "phrases": [
+          "진짜 카드 번호 대신",
+          "한 번만 쓰는 번호"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "분쟁 보호",
+      "meaning": {
+        "text": "잘못된 결제를 카드사가 바로잡아 주는 제도",
+        "phrases": [
+          "잘못된 결제를",
+          "카드사가 바로잡아 주는",
+          "제도"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "퍼센트포인트(%p)",
+      "meaning": {
+        "text": "두 비율 사이의 차이를 세는 단위",
+        "phrases": [
+          "두 비율 사이의",
+          "차이를 세는 단위"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "프롬프트",
+      "meaning": {
+        "text": "AI에게 일을 시키는 글",
+        "phrases": [
+          "AI에게",
+          "일을 시키는 글"
+        ]
+      },
+      "color": "green"
+    }
+  ]
+}

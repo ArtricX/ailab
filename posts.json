@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-14",
+    "title": "카드 번호 모르는|AI 지갑,|AI 숙제 격차,|사장님 AI 사용법",
+    "summary": "오픈AI가 AI 비서가|진짜 카드 번호를 보지 않고|결제하는 지갑을 열었어요.|미국에서는 집 소득에 따라|AI로 숙제하는 아이 비율이|벌어졌고,|배민은 사장님용|AI 사용법을 공개했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "돈",
+        "color": "yellow",
+        "anchor": "ai-wallet",
+        "title": "AI가 내 카드 번호를|모른 채|물건을 사 줘요",
+        "dek": "오픈AI가|‘챗GPT 지갑’을|열었어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200525_f414e7ed-45cf-4be0-86cb-7d86ea2b2114.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200525_f414e7ed-45cf-4be0-86cb-7d86ea2b2114_min.webp"
+      },
+      {
+        "tag": "학교",
+        "color": "blue",
+        "anchor": "ai-homework",
+        "title": "집 소득에 따라|AI로 숙제하는|아이가 달라요",
+        "dek": "미국 랜드연구소가|부모와 청소년에게|물었어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200526_6ef2e7cc-c639-4817-83d3-368241479d7e.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200526_6ef2e7cc-c639-4817-83d3-368241479d7e_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "green",
+        "anchor": "baemin-ai",
+        "title": "식당 사장님께|AI 사용법|27가지를 나눠요",
+        "dek": "배달의민족이|무료로 공개했어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200526_e1883010-e9a7-4230-8874-c8ab32822ce9.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261113_200526_e1883010-e9a7-4230-8874-c8ab32822ce9_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "결제 토큰",
+        "meaning": "진짜 카드 번호 대신|한 번만 쓰는 번호"
+      },
+      {
+        "word": "분쟁 보호",
+        "meaning": "잘못된 결제를|카드사가 바로잡아 주는|제도"
+      },
+      {
+        "word": "퍼센트포인트(%p)",
+        "meaning": "두 비율 사이의|차이를 세는 단위"
+      },
+      {
+        "word": "프롬프트",
+        "meaning": "AI에게|일을 시키는 글"
+      }
+    ]
+  },
+  {
     "date": "2026-11-13",
     "title": "표 못 사는|AI 비서,|약속 잡는 AI,|AI 메모리 공장",
     "summary": "미국 유나이티드항공이|AI 비서가 대신|표를 사지 못하게 막았어요.|구글은 약속 잡을 때|도구를 만들어 주는 AI를|시험하고,|삼성전자는 AI 칩용|메모리 공장을 짓기 시작했어요.",
