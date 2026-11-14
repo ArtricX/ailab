@@ -1,0 +1,359 @@
+{
+  "schema": 1,
+  "date": "2026-11-15",
+  "weekday": "일",
+  "url": "https://aigo.artricx.com/posts/2026-11-15.html",
+  "minutes": 5,
+  "title": {
+    "text": "씀씀이 보는 AI, 가짜 화상회의, 15분마다 비 지도",
+    "phrases": [
+      "씀씀이 보는 AI,",
+      "가짜 화상회의,",
+      "15분마다 비 지도"
+    ]
+  },
+  "share": {
+    "title": "제미나이가 내 씀씀이를 살펴 줘요 외 2건 · 아이고 11월 15일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 15일 일요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-15.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "gemini-wallet",
+      "tag": "돈",
+      "color": "yellow",
+      "label": "AI 가계부"
+    },
+    {
+      "anchor": "fake-call",
+      "tag": "안전",
+      "color": "red",
+      "label": "가짜 화상회의"
+    },
+    {
+      "anchor": "rain-map",
+      "tag": "생활",
+      "color": "blue",
+      "label": "비 지도"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "gemini-wallet",
+      "url": "https://aigo.artricx.com/posts/2026-11-15.html#gemini-wallet",
+      "tag": "돈",
+      "color": "yellow",
+      "title": {
+        "text": "제미나이가 내 씀씀이를 살펴 줘요",
+        "phrases": [
+          "제미나이가",
+          "내 씀씀이를",
+          "살펴 줘요"
+        ]
+      },
+      "dek": {
+        "text": "구글이 AI와 구글 월렛을 이었어요.",
+        "phrases": [
+          "구글이",
+          "AI와 구글 월렛을",
+          "이었어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200408_e2ee0d28-aa0f-429d-8932-7f37daf50c7d.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200408_e2ee0d28-aa0f-429d-8932-7f37daf50c7d.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 탁자에 동그란 사람과 작은 흰 로봇이 나란히 앉아, 로봇이 열린 지갑 위에 큰 돋보기를 대고 종이에 그린 막대 그래프를 가리키며, 다른 손은 돈에 닿지 않게 등 뒤로 둔 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-15-gemini-wallet.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-15-gemini-wallet.svg",
+        "viewBox": "0 0 800 460",
+        "title": "제미나이가 구글 월렛과 이어져 할 수 있는 일 3가지와 할 수 없는 일",
+        "desc": "구글은 11월 13일(미국 시각) 미국의 제미나이 앱 이용자 누구나 구글 월렛을 연결할 수 있게 했다. 기본은 꺼져 있고 사용자가 직접 켠다. 은행과 카드 계좌 연결은 선택이다. 제미나이는 지난 지출을 돌아보며 저축 계획을 돕고, 매달 나가는 돈과 값이 오른 구독을 찾아 주고, 지난해 지출을 바탕으로 연말 예산을 제안한다. 내용을 읽기만 하며 돈을 옮기거나 투자하지는 못한다. 우리나라 일정은 알려지지 않았다.",
+        "caption": {
+          "text": "돈 관리를 돕지만, 돈을 움직이지는 못해요.",
+          "phrases": [
+            "돈 관리를",
+            "돕지만,",
+            "돈을 움직이지는",
+            "못해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글이 미국 시각으로 11월 13일 제미나이 앱에 구글 월렛을 연결하는 기능을 열었어요. 구글 월렛은 카드와 결제 내역을 담아 두는 휴대폰 지갑이에요. 연결하면 제미나이가 내가 쓴 돈을 읽고 정리해 줘요. 지난 석 달 지출을 돌아보며 저축 계획을 세우거나, 매달 빠져나가는 구독료 가운데 값이 오른 것을 찾아 줘요.",
+            "nobreak": [
+              "11월 13일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "가계부를 꼬박꼬박 쓰기는 쉽지 않아요. 결제 내역이 이미 휴대폰에 있으니, AI가 대신 묶어서 보여 주면 편해요. 원하면 은행과 카드 계좌도 이을 수 있어요. 그래도 제미나이는 내용을 읽기만 해요. 돈을 보내거나 투자하는 일은 할 수 없어요. 처음에는 꺼져 있고, 설정에서 직접 켜야 쓸 수 있어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "지금은 미국에서만 쓸 수 있고, 우리나라 일정은 알려지지 않았어요. 이런 기능은 내 돈 이야기를 AI에게 맡기는 일이에요. 구글은 일부 대화를 사람이 검토할 수 있다고 밝혔어요. 연결을 끊어도 대화 기록은 따로 지워야 해요. 나중에 쓰게 되면 무엇을 연결하는지 꼭 살펴보세요. AI의 답은 참고만 하고, 큰돈 문제는 전문가와 상의하세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "구글 블로그",
+          "date": "11월 13일",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+        },
+        {
+          "name": "유나이트AI",
+          "date": "11월 13일",
+          "url": "https://www.unite.ai/google-adds-google-wallet-spending-insights-to-gemini-app/"
+        },
+        {
+          "name": "토크안드로이드",
+          "date": "11월 14일",
+          "url": "https://www.talkandroid.com/535020-google-wallet-gemini-personal-finance/"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200705_dad4685e-d0e6-47b2-b9d9-f9ee0f83eae8.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200705_dad4685e-d0e6-47b2-b9d9-f9ee0f83eae8.mp3"
+      }
+    },
+    {
+      "anchor": "fake-call",
+      "url": "https://aigo.artricx.com/posts/2026-11-15.html#fake-call",
+      "tag": "안전",
+      "color": "red",
+      "title": {
+        "text": "화상회의 속 아는 얼굴도 가짜일 수 있어요",
+        "phrases": [
+          "화상회의 속",
+          "아는 얼굴도",
+          "가짜일 수 있어요"
+        ]
+      },
+      "dek": {
+        "text": "미국 FBI가 새 사기 수법을 알렸어요.",
+        "phrases": [
+          "미국 FBI가",
+          "새 사기 수법을",
+          "알렸어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200407_93f4f801-79a3-4c8b-8af2-e98efbe2ac8c.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200407_93f4f801-79a3-4c8b-8af2-e98efbe2ac8c.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "노트북 화상회의 화면 속 웃는 얼굴이 사실은 회색 그림자 손이 막대에 들고 있는 종이 가면이고, 그 앞에 앉은 동그란 사람 옆에서 작은 흰 로봇이 한 손에는 둥근 멈춤 판을, 다른 손에는 휴대폰을 들고 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-15-fake-call.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-15-fake-call.svg",
+        "viewBox": "0 0 800 460",
+        "title": "가짜 화상회의 사기로 빼앗긴 돈과 사기가 이어지는 4단계",
+        "desc": "미국 FBI와 법무부는 11월 12일과 13일(미국 시각)에 걸쳐 가짜 화상회의 사기를 알렸다. 이 조직은 지난 18개월 동안 가상화폐 4억 달러 넘게 훔쳤고, FBI는 몰래 녹화된 피해자 웹캠 영상 900개 넘게 찾아냈다. 사기는 네 단계로 이어진다. 아는 사람의 메신저 계정을 빼앗고, 가짜 화상회의에 초대하고, 녹화 영상이나 딥페이크로 그 사람인 척하고, 소리가 안 들린다며 고치는 명령을 실행하게 해 나쁜 프로그램을 깐다.",
+        "caption": {
+          "text": "회의 중에 무언가를 깔라고 하면 멈추세요.",
+          "phrases": [
+            "회의 중에",
+            "무언가를 깔라고 하면",
+            "멈추세요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국 FBI와 법무부가 가짜 화상회의 사기를 알렸어요. FBI는 북한과 이어진 해커 조직이 벌인 일이라고 밝혔어요. 이 조직은 지난 18개월 동안 가상화폐를 4억 달러 넘게 훔쳤어요. FBI는 사기에 쓴 서버를 압수했어요. 그 안에서 피해자 몰래 찍은 웹캠 영상이 900개 넘게 나왔어요.",
+            "nobreak": [
+              "18개월",
+              "4억 달러",
+              "900개"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "먼저 아는 사람의 메신저 계정을 빼앗아요. 그 계정으로 화상회의 링크를 보내요. 회의 화면에는 미리 찍어 둔 영상이나 AI로 만든 가짜 얼굴이 나와요. 이렇게 진짜처럼 만든 영상을 ‘딥페이크’라고 해요. 그러다 소리가 안 된다며 고치는 방법을 보내요. 그대로 따라 하면 몰래 정보를 빼 가는 나쁜 프로그램이 깔려요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "낯익은 얼굴이 나와도 가짜일 수 있어요. 회의 링크를 누르기보다, 앱을 직접 열고 회의 번호를 넣으세요. 갑자기 온 초대는 전화나 문자로 그 사람에게 따로 확인하세요. 상대를 확인하기 전에는 카메라를 꺼 두세요. 회의 중에 무언가를 깔거나 붙여 넣으라고 하면 멈추세요. 메신저에는 비밀번호와 함께 한 번 더 확인하는 ‘2단계 인증’을 켜 두세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "FBI",
+          "date": "",
+          "url": "https://www.fbi.gov/investigate/cyber/facestealer-cryptocurrency-theft-scheme"
+        },
+        {
+          "name": "더해커뉴스",
+          "date": "11월 13일",
+          "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+        },
+        {
+          "name": "패치",
+          "date": "11월 13일",
+          "url": "https://patch.com/california/los-angeles/facestealers-use-video-calls-steal-400m-900-victims-fbi-warns-californians"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200705_851e349f-e973-4d81-99d5-b523511def67.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200705_851e349f-e973-4d81-99d5-b523511def67.mp3"
+      }
+    },
+    {
+      "anchor": "rain-map",
+      "url": "https://aigo.artricx.com/posts/2026-11-15.html#rain-map",
+      "tag": "생활",
+      "color": "blue",
+      "title": {
+        "text": "AI가 위성으로 전 세계 비를 15분마다 살펴요",
+        "phrases": [
+          "AI가 위성으로",
+          "전 세계 비를",
+          "15분마다 살펴요"
+        ]
+      },
+      "dek": {
+        "text": "구글 딥마인드가 비 지도를 무료로 열었어요.",
+        "phrases": [
+          "구글 딥마인드가",
+          "비 지도를",
+          "무료로 열었어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200407_33d1aac4-d7dd-4d6f-885c-12d4b139599e.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200407_33d1aac4-d7dd-4d6f-885c-12d4b139599e.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "하늘 높이 작은 흰 로봇이 작은 인공위성을 타고 동그란 초시계를 든 채 내려다보고, 아래에서는 동그란 사람이 우산을 쓰고 작은 비구름이 곳곳에 떠 있는 지구본 옆에 서 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-15-rain-map.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-15-rain-map.svg",
+        "viewBox": "0 0 800 460",
+        "title": "딥마인드 비 지도 PARDIG가 비를 살피는 간격과 크기, 기록 기간",
+        "desc": "구글 딥마인드와 구글 리서치는 11월 13일(미국 시각) 실험용 비 지도 데이터 PARDIG를 소개했다. 위성 관측을 AI로 읽어 지구 전체에서 비가 얼마나 세게 오는지를 15분마다, 한 칸 약 10킬로미터 크기로 추정한다. 한 시간에 네 번이다. 2016년부터 지금까지 계속 쌓이는 판과 1999년부터 2023년까지의 기록판이 있다. 누구나 무료로 쓸 수 있지만 공식 날씨 예보나 경보는 아니다.",
+        "caption": {
+          "text": "비를 재는 기계가 없는 곳도 채워 줘요.",
+          "phrases": [
+            "비를 재는 기계가",
+            "없는 곳도",
+            "채워 줘요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글 딥마인드와 구글 리서치가 미국 시각으로 11월 13일 새 비 지도 ‘파디그(PARDIG)’를 소개했어요. 위성이 본 모습을 AI가 읽고, 지구 곳곳에 비가 얼마나 세게 오는지 짐작해요. 15분마다 한 번씩, 한 칸이 약 10km인 지도로 나와요. 2016년부터 지금까지의 자료가 계속 쌓이고, 누구나 무료로 쓸 수 있어요.",
+            "nobreak": [
+              "11월 13일",
+              "15분",
+              "약 10km",
+              "2016년"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "비는 보통 땅 위의 빗물 측정기나 기상 레이더로 재요. 그런데 바다나 열대 지방, 장비가 부족한 나라에는 이런 기계가 드물어요. 위성은 지구 전체를 내려다볼 수 있어요. 그래서 위성 자료를 AI로 읽으면 빈 곳을 채울 수 있어요. 딥마인드는 이 지도로 자기 날씨 AI의 비 예보도 가르쳤어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "당장 휴대폰 날씨 앱이 바뀌는 것은 아니에요. 이 지도는 연구자와 기상 전문가를 위한 실험용 자료예요. 구글은 산이나 눈, 이슬비에서는 덜 정확하고, 아주 센 비는 작게 잡힐 수 있다고 밝혔어요. 공식 예보나 경보도 아니에요. 호우나 태풍 때는 지금처럼 기상청 특보를 따르세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "구글 웨더넥스트 안내서",
+          "date": "",
+          "url": "https://developers.google.com/weathernext/guides/pardig"
+        },
+        {
+          "name": "구글 어스 엔진 자료 목록",
+          "date": "",
+          "url": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_PARDIG_1_NRT"
+        },
+        {
+          "name": "아카이브 논문",
+          "date": "",
+          "url": "https://arxiv.org/abs/2611.13941"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200705_329d134f-b722-4a70-8d30-e73e6b66730b.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261114_200705_329d134f-b722-4a70-8d30-e73e6b66730b.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "구독료",
+      "meaning": {
+        "text": "서비스를 쓰려고 매달 내는 돈",
+        "phrases": [
+          "서비스를 쓰려고",
+          "매달 내는 돈"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "딥페이크",
+      "meaning": {
+        "text": "AI로 진짜처럼 만든 가짜 얼굴이나 목소리",
+        "phrases": [
+          "AI로 진짜처럼 만든",
+          "가짜 얼굴이나 목소리"
+        ]
+      },
+      "color": "red"
+    },
+    {
+      "word": "2단계 인증",
+      "meaning": {
+        "text": "비밀번호에 더해 한 번 더 확인하는 방법",
+        "phrases": [
+          "비밀번호에 더해",
+          "한 번 더 확인하는 방법"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "기상 레이더",
+      "meaning": {
+        "text": "전파를 쏘아 비구름을 찾는 기계",
+        "phrases": [
+          "전파를 쏘아",
+          "비구름을 찾는 기계"
+        ]
+      },
+      "color": "blue"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">가짜 화상회의 사기로 빼앗긴 돈과 사기가 이어지는 4단계</title>
+            <desc id="g2d">미국 FBI와 법무부는 11월 12일과 13일(미국 시각)에 걸쳐 가짜 화상회의 사기를 알렸다. 이 조직은 지난 18개월 동안 가상화폐 4억 달러 넘게 훔쳤고, FBI는 몰래 녹화된 피해자 웹캠 영상 900개 넘게 찾아냈다. 사기는 네 단계로 이어진다. 아는 사람의 메신저 계정을 빼앗고, 가짜 화상회의에 초대하고, 녹화 영상이나 딥페이크로 그 사람인 척하고, 소리가 안 들린다며 고치는 명령을 실행하게 해 나쁜 프로그램을 깐다.</desc>
+            <text class="num" x="30" y="132" font-size="96" letter-spacing="-4">4억 달러</text>
+            <text x="34" y="170" font-size="16" font-weight="800">가짜 화상회의로 빼앗긴 돈</text>
+            <text class="grey" x="34" y="194" font-size="13.5">FBI 발표 · 11월 12~13일 미국 시각</text>
+            <rect class="f-paper" x="34" y="226" width="155" height="96" rx="14"/>
+            <text x="111.5" y="268" font-size="30" font-weight="900" text-anchor="middle">18개월</text>
+            <text x="111.5" y="298" font-size="13.5" font-weight="800" text-anchor="middle">훔친 기간</text>
+            <rect class="f-paper" x="199" y="226" width="155" height="96" rx="14"/>
+            <text x="276.5" y="268" font-size="30" font-weight="900" text-anchor="middle">900개+</text>
+            <text x="276.5" y="298" font-size="13.5" font-weight="800" text-anchor="middle">몰래 찍힌 영상</text>
+            <text x="34" y="372" font-size="14.5" font-weight="700">주로 가상화폐를 노렸어요</text>
+            <text class="grey" x="34" y="398" font-size="13.5">FBI는 사기에 쓴 서버를 압수했어요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 속여요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">아는 사람 메신저를 빼앗아요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="134" stroke-width="3"/>
+            <path class="f-ink" d="M592 134L608 134L600 144Z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="44" rx="14"/>
+            <text x="600" y="178" font-size="14.5" font-weight="900" text-anchor="middle">화상회의 링크를 보내요</text>
+            <line class="line" x1="600" y1="198" x2="600" y2="210" stroke-width="3"/>
+            <path class="f-ink" d="M592 210L608 210L600 220Z"/>
+            <rect class="f-paper" x="440" y="226" width="320" height="44" rx="14"/>
+            <text x="600" y="254" font-size="14.5" font-weight="900" text-anchor="middle">녹화 영상·딥페이크로 속여요</text>
+            <line class="line" x1="600" y1="274" x2="600" y2="286" stroke-width="3"/>
+            <path class="f-ink" d="M592 286L608 286L600 296Z"/>
+            <rect class="f-red" x="440" y="302" width="320" height="44" rx="14"/>
+            <text class="white" x="600" y="330" font-size="14.5" font-weight="900" text-anchor="middle">“고쳐 드릴게요” 하며 명령 실행</text>
+            <text x="440" y="384" font-size="14.5" font-weight="700">그 순간 나쁜 프로그램이 깔려요</text>
+          </svg>

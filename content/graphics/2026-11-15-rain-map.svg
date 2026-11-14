@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">딥마인드 비 지도 PARDIG가 비를 살피는 간격과 크기, 기록 기간</title>
+            <desc id="g3d">구글 딥마인드와 구글 리서치는 11월 13일(미국 시각) 실험용 비 지도 데이터 PARDIG를 소개했다. 위성 관측을 AI로 읽어 지구 전체에서 비가 얼마나 세게 오는지를 15분마다, 한 칸 약 10킬로미터 크기로 추정한다. 한 시간에 네 번이다. 2016년부터 지금까지 계속 쌓이는 판과 1999년부터 2023년까지의 기록판이 있다. 누구나 무료로 쓸 수 있지만 공식 날씨 예보나 경보는 아니다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">15분</text>
+            <text x="34" y="170" font-size="16" font-weight="800">전 세계 비를 살피는 간격</text>
+            <text class="grey" x="34" y="194" font-size="13.5">구글 딥마인드 · 11월 13일 미국 시각</text>
+            <text x="34" y="240" font-size="15" font-weight="800">한 시간에 네 번</text>
+            <rect class="f-blue" x="34" y="256" width="72" height="44" rx="10"/>
+            <rect class="f-blue" x="116" y="256" width="72" height="44" rx="10"/>
+            <rect class="f-blue" x="198" y="256" width="72" height="44" rx="10"/>
+            <rect class="f-blue" x="280" y="256" width="72" height="44" rx="10"/>
+            <text class="white" x="70" y="284" font-size="14.5" font-weight="900" text-anchor="middle">0분</text>
+            <text class="white" x="152" y="284" font-size="14.5" font-weight="900" text-anchor="middle">15분</text>
+            <text class="white" x="234" y="284" font-size="14.5" font-weight="900" text-anchor="middle">30분</text>
+            <text class="white" x="316" y="284" font-size="14.5" font-weight="900" text-anchor="middle">45분</text>
+            <text x="34" y="344" font-size="14.5" font-weight="700">한 칸 크기 약 10km</text>
+            <text x="34" y="370" font-size="14.5" font-weight="700">바다와 열대 지방까지 지구 전체</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 만들어요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">위성이 지구를 관측해요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="134" stroke-width="3"/>
+            <path class="f-ink" d="M592 134L608 134L600 144Z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="44" rx="14"/>
+            <text x="600" y="178" font-size="14.5" font-weight="900" text-anchor="middle">AI가 비의 세기를 짐작해요</text>
+            <line class="line" x1="600" y1="198" x2="600" y2="210" stroke-width="3"/>
+            <path class="f-ink" d="M592 210L608 210L600 220Z"/>
+            <rect class="f-blue" x="440" y="226" width="320" height="44" rx="14"/>
+            <text class="white" x="600" y="254" font-size="14.5" font-weight="900" text-anchor="middle">누구나 쓰는 비 지도가 돼요</text>
+            <text x="440" y="316" font-size="14.5" font-weight="700">2016년부터 지금까지 쌓여요</text>
+            <text class="grey" x="440" y="342" font-size="13.5">1999~2023년 기록판도 있어요</text>
+            <text class="red" x="440" y="392" font-size="14.5" font-weight="900">공식 예보나 경보는 아니에요</text>
+          </svg>

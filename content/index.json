@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-15",
+      "title": "씀씀이 보는 AI, 가짜 화상회의, 15분마다 비 지도",
+      "file": "content/2026-11-15.json",
+      "stories": [
+        {
+          "anchor": "gemini-wallet",
+          "tag": "돈",
+          "color": "yellow",
+          "title": "제미나이가 내 씀씀이를 살펴 줘요"
+        },
+        {
+          "anchor": "fake-call",
+          "tag": "안전",
+          "color": "red",
+          "title": "화상회의 속 아는 얼굴도 가짜일 수 있어요"
+        },
+        {
+          "anchor": "rain-map",
+          "tag": "생활",
+          "color": "blue",
+          "title": "AI가 위성으로 전 세계 비를 15분마다 살펴요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-14",
       "title": "카드 번호 모르는 AI 지갑, AI 숙제 격차, 사장님 AI 사용법",
       "file": "content/2026-11-14.json",
