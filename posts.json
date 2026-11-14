@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-15",
+    "title": "씀씀이 보는 AI,|가짜 화상회의,|15분마다 비 지도",
+    "summary": "구글이 제미나이와|구글 월렛을 이어|내 지출을 정리해 줘요.|FBI는 가짜 화상회의|사기를 조심하라고 했고,|딥마인드는 전 세계|비 지도를 열었어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "돈",
+        "color": "yellow",
+        "anchor": "gemini-wallet",
+        "title": "제미나이가|내 씀씀이를|살펴 줘요",
+        "dek": "구글이|AI와 구글 월렛을|이었어요.",
+        "illust": "assets/img/hf_20261114_200408_e2ee0d28-aa0f-429d-8932-7f37daf50c7d.webp",
+        "thumb": "assets/img/hf_20261114_200408_e2ee0d28-aa0f-429d-8932-7f37daf50c7d_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "red",
+        "anchor": "fake-call",
+        "title": "화상회의 속|아는 얼굴도|가짜일 수 있어요",
+        "dek": "미국 FBI가|새 사기 수법을|알렸어요.",
+        "illust": "assets/img/hf_20261114_200407_93f4f801-79a3-4c8b-8af2-e98efbe2ac8c.webp",
+        "thumb": "assets/img/hf_20261114_200407_93f4f801-79a3-4c8b-8af2-e98efbe2ac8c_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "blue",
+        "anchor": "rain-map",
+        "title": "AI가 위성으로|전 세계 비를|15분마다 살펴요",
+        "dek": "구글 딥마인드가|비 지도를|무료로 열었어요.",
+        "illust": "assets/img/hf_20261114_200407_33d1aac4-d7dd-4d6f-885c-12d4b139599e.webp",
+        "thumb": "assets/img/hf_20261114_200407_33d1aac4-d7dd-4d6f-885c-12d4b139599e_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "구독료",
+        "meaning": "서비스를 쓰려고|매달 내는 돈"
+      },
+      {
+        "word": "딥페이크",
+        "meaning": "AI로 진짜처럼 만든|가짜 얼굴이나 목소리"
+      },
+      {
+        "word": "2단계 인증",
+        "meaning": "비밀번호에 더해|한 번 더 확인하는 방법"
+      },
+      {
+        "word": "기상 레이더",
+        "meaning": "전파를 쏘아|비구름을 찾는 기계"
+      }
+    ]
+  },
+  {
     "date": "2026-11-14",
     "title": "카드 번호 모르는|AI 지갑,|AI 숙제 격차,|사장님 AI 사용법",
     "summary": "오픈AI가 AI 비서가|진짜 카드 번호를 보지 않고|결제하는 지갑을 열었어요.|미국에서는 집 소득에 따라|AI로 숙제하는 아이 비율이|벌어졌고,|배민은 사장님용|AI 사용법을 공개했어요.",

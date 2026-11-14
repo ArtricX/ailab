@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">제미나이가 구글 월렛과 이어져 할 수 있는 일 3가지와 할 수 없는 일</title>
+            <desc id="g1d">구글은 11월 13일(미국 시각) 미국의 제미나이 앱 이용자 누구나 구글 월렛을 연결할 수 있게 했다. 기본은 꺼져 있고 사용자가 직접 켠다. 은행과 카드 계좌 연결은 선택이다. 제미나이는 지난 지출을 돌아보며 저축 계획을 돕고, 매달 나가는 돈과 값이 오른 구독을 찾아 주고, 지난해 지출을 바탕으로 연말 예산을 제안한다. 내용을 읽기만 하며 돈을 옮기거나 투자하지는 못한다. 우리나라 일정은 알려지지 않았다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">3가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">월렛을 이으면 할 수 있는 일</text>
+            <text class="grey" x="34" y="194" font-size="13.5">구글 발표 · 11월 13일 미국 시각</text>
+            <text x="34" y="240" font-size="15" font-weight="800">어떻게 켜나요?</text>
+            <rect class="f-paper" x="34" y="256" width="320" height="44" rx="14"/>
+            <text x="194" y="284" font-size="14.5" font-weight="900" text-anchor="middle">처음엔 꺼져 있어요</text>
+            <rect class="f-paper" x="34" y="310" width="320" height="44" rx="14"/>
+            <text x="194" y="338" font-size="14.5" font-weight="900" text-anchor="middle">설정에서 직접 켜고 꺼요</text>
+            <text class="grey" x="34" y="380" font-size="13.5">은행·카드 계좌 연결은 골라서</text>
+            <text x="34" y="412" font-size="14.5" font-weight="900">지금은 미국에서만 돼요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">이런 걸 도와요</text>
+            <rect class="f-yellow" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">지난 지출 돌아보고 저축 계획</text>
+            <rect class="f-yellow" x="440" y="128" width="320" height="44" rx="14"/>
+            <text x="600" y="156" font-size="14.5" font-weight="900" text-anchor="middle">값이 오른 구독 찾기</text>
+            <rect class="f-yellow" x="440" y="182" width="320" height="44" rx="14"/>
+            <text x="600" y="210" font-size="14.5" font-weight="900" text-anchor="middle">지난해를 보고 연말 예산 짜기</text>
+            <text x="440" y="276" font-size="15" font-weight="800">이건 못 해요</text>
+            <rect class="f-paper" x="440" y="292" width="320" height="44" rx="14"/>
+            <text class="red" x="600" y="320" font-size="14.5" font-weight="900" text-anchor="middle">돈을 옮기거나 투자하기</text>
+            <text x="440" y="380" font-size="14.5" font-weight="700">읽고 정리만 해요</text>
+            <text class="grey" x="440" y="406" font-size="13.5">구글: 금융 조언으로 믿지 마세요</text>
+          </svg>
