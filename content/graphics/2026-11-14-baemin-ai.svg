@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">배민 외식업 AI 플레이북의 도구 27가지가 다루는 여섯 분야와 쓰는 순서</title>
+            <desc id="g3d">배달의민족을 운영하는 우아한형제들은 11월 13일 배민아카데미 누리집에 외식업 AI 플레이북을 무료로 공개했다. 도구는 27가지이고 마케팅, SNS 운영, 메뉴 개발, 손익 관리, 직원 관리, 배민 서비스의 여섯 분야를 다룬다. 쓰는 순서는 지시문을 복사해 AI 서비스에 붙여 넣고, 우리 가게 정보를 넣는 것이다. 그러면 리뷰 답글이나 홍보 문구 초안, 메뉴 아이디어를 얻을 수 있다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">27가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">식당 일에 쓰는 AI 도구</text>
+            <text class="grey" x="34" y="194" font-size="13.5">배민아카데미 · 11월 13일 공개</text>
+            <rect class="f-paper" x="34" y="218" width="155" height="44" rx="14"/>
+            <text x="111.5" y="246" font-size="14.5" font-weight="900" text-anchor="middle">마케팅</text>
+            <rect class="f-paper" x="199" y="218" width="155" height="44" rx="14"/>
+            <text x="276.5" y="246" font-size="14.5" font-weight="900" text-anchor="middle">SNS 운영</text>
+            <rect class="f-green" x="34" y="272" width="155" height="44" rx="14"/>
+            <text x="111.5" y="300" font-size="14.5" font-weight="900" text-anchor="middle">메뉴 개발</text>
+            <rect class="f-paper" x="199" y="272" width="155" height="44" rx="14"/>
+            <text x="276.5" y="300" font-size="14.5" font-weight="900" text-anchor="middle">손익 관리</text>
+            <rect class="f-paper" x="34" y="326" width="155" height="44" rx="14"/>
+            <text x="111.5" y="354" font-size="14.5" font-weight="900" text-anchor="middle">직원 관리</text>
+            <rect class="f-paper" x="199" y="326" width="155" height="44" rx="14"/>
+            <text x="276.5" y="354" font-size="14.5" font-weight="900" text-anchor="middle">배민 서비스</text>
+            <text class="red" x="34" y="412" font-size="14.5" font-weight="900">누구나 무료로 볼 수 있어요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 써요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">준비된 지시문을 복사해요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="134" stroke-width="3"/>
+            <path class="f-ink" d="M592 134L608 134L600 144Z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="44" rx="14"/>
+            <text x="600" y="178" font-size="14.5" font-weight="900" text-anchor="middle">AI 서비스에 붙여 넣어요</text>
+            <line class="line" x1="600" y1="198" x2="600" y2="210" stroke-width="3"/>
+            <path class="f-ink" d="M592 210L608 210L600 220Z"/>
+            <rect class="f-green" x="440" y="226" width="320" height="44" rx="14"/>
+            <text x="600" y="254" font-size="14.5" font-weight="900" text-anchor="middle">우리 가게 정보를 넣어요</text>
+            <text x="440" y="320" font-size="15" font-weight="800">이런 걸 얻어요</text>
+            <text x="440" y="348" font-size="14.5" font-weight="700">리뷰 답글과 홍보 문구 초안</text>
+            <text x="440" y="372" font-size="14.5" font-weight="700">새 메뉴 아이디어</text>
+          </svg>

@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-14",
+      "title": "카드 번호 모르는 AI 지갑, AI 숙제 격차, 사장님 AI 사용법",
+      "file": "content/2026-11-14.json",
+      "stories": [
+        {
+          "anchor": "ai-wallet",
+          "tag": "돈",
+          "color": "yellow",
+          "title": "AI가 내 카드 번호를 모른 채 물건을 사 줘요"
+        },
+        {
+          "anchor": "ai-homework",
+          "tag": "학교",
+          "color": "blue",
+          "title": "집 소득에 따라 AI로 숙제하는 아이가 달라요"
+        },
+        {
+          "anchor": "baemin-ai",
+          "tag": "일",
+          "color": "green",
+          "title": "식당 사장님께 AI 사용법 27가지를 나눠요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
       "title": "표 못 사는 AI 비서, 약속 잡는 AI, AI 메모리 공장",
       "file": "content/2026-11-13.json",
