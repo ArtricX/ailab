@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-16",
+      "title": "AI가 만든 홈쇼핑, 시험 부정 대책, 북극 얼음 예보",
+      "file": "content/2026-11-16.json",
+      "stories": [
+        {
+          "anchor": "ai-shopping",
+          "tag": "생활",
+          "color": "pink",
+          "title": "쇼호스트 없이 AI가 홈쇼핑 방송을 만들어요"
+        },
+        {
+          "anchor": "exam-ai",
+          "tag": "학교",
+          "color": "blue",
+          "title": "국가 자격시험, AI 부정행위를 모두 살펴봐요"
+        },
+        {
+          "anchor": "sea-ice",
+          "tag": "일",
+          "color": "green",
+          "title": "북극 바다 얼음, AI가 한 달 앞서 내다봐요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-15",
       "title": "씀씀이 보는 AI, 가짜 화상회의, 15분마다 비 지도",
       "file": "content/2026-11-15.json",

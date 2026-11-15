@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">북극 바다 얼음 예측 AI 아이스네스트가 내다보는 기간과 뱃길 예측 오차 비교</title>
+            <desc id="g3d">UNIST 임정호 교수팀은 11월 15일 북극 바다 얼음이 얼마나 덮여 있을지를 하루 단위로 최대 30일 앞서 예측하는 AI '아이스네스트'를 알렸다. 25킬로미터 칸으로 먼저 예측한 뒤 생성형 AI로 6.25킬로미터 칸까지 자세하게 다듬는다. 북동항로를 따라간 모의 항해에서 배가 지나갈 수 있게 되는 날을 맞히는 평균 오차가 영국 기상청 모델은 10.75일, 아이스네스트는 4.5일이었다. 실제 배 운항이 아닌 컴퓨터 모의 결과다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">30일</text>
+            <text x="34" y="170" font-size="16" font-weight="800">앞서 내다보는 북극 바다 얼음</text>
+            <text class="grey" x="34" y="194" font-size="13.5">UNIST 발표 · 11월 15일</text>
+            <text x="34" y="240" font-size="15" font-weight="800">어떻게 내다봐요?</text>
+            <rect class="f-paper" x="34" y="256" width="320" height="44" rx="14"/>
+            <text x="194" y="284" font-size="14.5" font-weight="900" text-anchor="middle">위성 자료로 크게 예측해요</text>
+            <line class="line" x1="194" y1="304" x2="194" y2="316" stroke-width="3"/>
+            <path class="f-ink" d="M186 316L202 316L194 326Z"/>
+            <rect class="f-green" x="34" y="332" width="320" height="44" rx="14"/>
+            <text x="194" y="360" font-size="14.5" font-weight="900" text-anchor="middle">생성형 AI로 자세히 다듬어요</text>
+            <text class="grey" x="34" y="410" font-size="13.5">한 칸 25km에서 6.25km로</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">뱃길 열리는 날 맞히기</text>
+            <text class="grey" x="440" y="80" font-size="13.5">평균 오차 · 북동항로 모의 항해</text>
+            <text x="440" y="124" font-size="13.5" font-weight="800">영국 기상청 모델</text>
+            <rect class="f-ink" x="440" y="136" width="320" height="32" rx="8"/>
+            <text x="440" y="194" font-size="14.5" font-weight="900">10.75일</text>
+            <text x="440" y="246" font-size="13.5" font-weight="800">아이스네스트</text>
+            <rect class="f-green" x="440" y="258" width="134" height="32" rx="8"/>
+            <text x="588" y="280" font-size="14.5" font-weight="900">4.5일</text>
+            <text class="red" x="440" y="340" font-size="14.5" font-weight="900">오차가 절반 넘게 줄었어요</text>
+            <text class="grey" x="440" y="392" font-size="13.5">실제 배가 아닌 컴퓨터 모의 결과예요</text>
+          </svg>

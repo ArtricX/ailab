@@ -1,0 +1,381 @@
+{
+  "schema": 1,
+  "date": "2026-11-16",
+  "weekday": "월",
+  "url": "https://aigo.artricx.com/posts/2026-11-16.html",
+  "minutes": 5,
+  "title": {
+    "text": "AI가 만든 홈쇼핑, 시험 부정 대책, 북극 얼음 예보",
+    "phrases": [
+      "AI가 만든 홈쇼핑,",
+      "시험 부정 대책,",
+      "북극 얼음 예보"
+    ]
+  },
+  "share": {
+    "title": "쇼호스트 없이 AI가 홈쇼핑 방송을 만들어요 외 2건 · 아이고 11월 16일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 16일 월요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-16.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "ai-shopping",
+      "tag": "생활",
+      "color": "pink",
+      "label": "AI 홈쇼핑"
+    },
+    {
+      "anchor": "exam-ai",
+      "tag": "학교",
+      "color": "blue",
+      "label": "시험 부정"
+    },
+    {
+      "anchor": "sea-ice",
+      "tag": "일",
+      "color": "green",
+      "label": "북극 얼음"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "ai-shopping",
+      "url": "https://aigo.artricx.com/posts/2026-11-16.html#ai-shopping",
+      "tag": "생활",
+      "color": "pink",
+      "title": {
+        "text": "쇼호스트 없이 AI가 홈쇼핑 방송을 만들어요",
+        "phrases": [
+          "쇼호스트 없이",
+          "AI가 홈쇼핑 방송을",
+          "만들어요"
+        ]
+      },
+      "dek": {
+        "text": "현대홈쇼핑이 오늘 오후 첫 방송을 해요.",
+        "phrases": [
+          "현대홈쇼핑이",
+          "오늘 오후",
+          "첫 방송을 해요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200413_e7a3ffb7-3f64-4e34-b7ed-12957c584dfb.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200413_e7a3ffb7-3f64-4e34-b7ed-12957c584dfb.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 작은 소파에 앉아 커다란 금빛 키위가 있는 작은 밭이 나오는 텔레비전을 보고, 텔레비전 뒤에서는 작은 흰 로봇이 한 손에 붓, 다른 손에 작은 마이크를 들고 화면 속 그림을 그리고 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-16-ai-shopping.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-16-ai-shopping.svg",
+        "viewBox": "0 0 800 460",
+        "title": "AI가 다 만든 홈쇼핑 방송으로 줄어든 제작비와 방송이 만들어지는 순서",
+        "desc": "현대홈쇼핑은 11월 15일 쇼호스트와 촬영 없이 AI가 목소리와 화면을 모두 만드는 방송 'AI-REAL'을 알렸다. 정식 방송 전 시험 방송에서 협력 회사가 내는 샘플 준비비와 영상 제작비가 이전보다 80% 넘게 줄었고, 판매는 목표의 120%였다. 첫 정식 방송은 11월 16일 오후 3시 20분 현대홈쇼핑 플러스샵에서 제주 골드키위를 판다. 한 달에 한 번 이상 농수산물부터 내보낼 계획이다.",
+        "caption": {
+          "text": "사람도 카메라도 없이 방송 한 편이 만들어져요.",
+          "phrases": [
+            "사람도 카메라도",
+            "없이",
+            "방송 한 편이",
+            "만들어져요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "현대홈쇼핑이 11월 15일 새 방송 방식 ‘AI-REAL’을 알렸어요. 상품을 소개하는 쇼호스트도, 따로 찍는 촬영도 없어요. 목소리와 화면을 모두 AI가 만들어요. 첫 정식 방송은 16일 오후 3시 20분, ‘현대홈쇼핑 플러스샵’에서 해요. 제주에서 기른 골드키위를 팔아요. 회사는 방송 전체를 AI로 만든 것은 업계에서 처음이라고 밝혔어요.",
+            "nobreak": [
+              "11월 15일",
+              "16일 오후 3시 20분"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "홈쇼핑 방송 한 편에는 돈이 많이 들어요. 상품 견본을 준비하고, 화면에 넣을 영상도 따로 찍어야 해요. 작은 회사나 농가에는 큰 부담이에요. 시험 방송에서는 이런 비용이 80% 넘게 줄었어요. 판매는 목표보다 많은 120%를 넘겼어요. AI는 밭의 흙이나 과일이 자라는 모습처럼 찍기 어려운 장면도 그려 보여 줄 수 있어요.",
+            "nobreak": [
+              "80%",
+              "120%"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "앞으로 TV 홈쇼핑에서 AI가 만든 방송을 더 자주 보게 될 거예요. 회사는 한 달에 한 번 넘게 농수산물부터 내보내고, 가공식품과 생활용품으로 넓힐 계획이에요. AI가 그린 장면은 실제 모습과 다를 수 있어요. 화면만 보고 고르기보다 원산지, 무게, 구성 같은 상품 정보를 꼭 확인하세요.",
+            "nobreak": [
+              "한 달에 한 번"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "디지털데일리",
+          "date": "11월 15일",
+          "url": "https://www.ddaily.co.kr/m/page/view/2026111509241819523"
+        },
+        {
+          "name": "아시아투데이",
+          "date": "11월 15일",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261115010005535"
+        },
+        {
+          "name": "머니투데이",
+          "date": "11월 15일",
+          "url": "https://www.mt.co.kr/index.php/living/2026/11/15/2026111510371825034"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_201005_606e9883-86ee-4d59-a68e-6434705d4902.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_201005_606e9883-86ee-4d59-a68e-6434705d4902.mp3"
+      }
+    },
+    {
+      "anchor": "exam-ai",
+      "url": "https://aigo.artricx.com/posts/2026-11-16.html#exam-ai",
+      "tag": "학교",
+      "color": "blue",
+      "title": {
+        "text": "국가 자격시험, AI 부정행위를 모두 살펴봐요",
+        "phrases": [
+          "국가 자격시험,",
+          "AI 부정행위를",
+          "모두 살펴봐요"
+        ]
+      },
+      "dek": {
+        "text": "세무사 시험 일로 정부가 대책을 내놨어요.",
+        "phrases": [
+          "세무사 시험 일로",
+          "정부가",
+          "대책을 내놨어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200412_92b59e8f-3621-4634-9f2f-fba827bc66cb.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200412_92b59e8f-3621-4634-9f2f-fba827bc66cb.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 작은 책상에 앉아 연필로 시험지를 풀고, 옆에서 감독 완장을 찬 작은 흰 로봇이 커다란 돋보기로 바닥에서 찾은 단추만 한 작은 카메라를 들여다보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-16-exam-ai.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-16-exam-ai.svg",
+        "viewBox": "0 0 800 460",
+        "title": "AI로 시험 부정행위를 하면 받는 벌과 정부의 대책 5가지",
+        "desc": "올해 제63회 세무사 시험에서 생성형 AI를 쓴 부정행위가 드러나자, 청와대와 고용노동부, 한국산업인력공단은 11월 15일 대책 회의를 열었다. 해당 시험은 무효로 하고 합격을 취소하며 고발하고, 5년 동안 시험을 볼 수 없게 한다. 앞으로는 올해 치른 국가자격시험을 모두 다시 살피고, 온라인과 오프라인 제보센터를 열고, 전파탐지기를 들여오고, 스마트 안경 같은 기기 금지와 처벌 안내를 강화하고, 감독관 교육을 늘린다. 연말까지 종합 대책을 낸다.",
+        "caption": {
+          "text": "작은 기기 하나로 시험의 공정함이 흔들리지 않게 해요.",
+          "phrases": [
+            "작은 기기 하나로",
+            "시험의 공정함이",
+            "흔들리지 않게 해요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "올해 제63회 세무사 시험에서 AI를 쓴 부정행위가 드러났어요. 세무사는 세금 일을 대신 처리해 주는 전문가예요. 이 일로 청와대와 고용노동부, 한국산업인력공단이 11월 15일 대책 회의를 열었어요. 정부는 올해 치른 국가자격시험을 모두 다시 살펴보기로 했어요. 이렇게 하나도 빠짐없이 살피는 일을 ‘전수조사’라고 해요.",
+            "nobreak": [
+              "제63회 세무사 시험",
+              "11월 15일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "요즘은 작은 카메라로 문제를 찍어 AI에게 보내면, 금방 답을 받아 볼 수 있어요. 이런 기기는 작아서 감독관이 눈으로 찾기 어려워요. 그래서 정부는 전파를 잡아내는 탐지기를 들여오기로 했어요. 스마트 안경 같은 기기를 더 엄격히 막고, 감독관 교육도 늘려요. 신고를 받는 제보센터를 열고, 지난 부정행위도 찾아볼 계획이에요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "자격증 시험을 앞두고 있다면, 시험장 안내를 미리 꼼꼼히 읽어 두세요. 앞으로 기기 검사가 더 깐깐해질 수 있어요. AI로 부정행위를 하면 시험이 무효가 되고, 합격도 취소돼요. 경찰에 고발되고, 5년 동안 시험을 볼 수 없어요. 정부는 연말까지 시험 제도 전체를 다듬은 종합 대책을 내놓을 예정이에요.",
+            "nobreak": [
+              "5년"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "헤럴드경제",
+          "date": "11월 15일",
+          "url": "https://biz.heraldcorp.com/article/10937700"
+        },
+        {
+          "name": "아시아경제",
+          "date": "11월 15일",
+          "url": "https://view.asiae.co.kr/article/2026111520103992065"
+        },
+        {
+          "name": "머니투데이방송",
+          "date": "11월 15일",
+          "url": "https://news.mtn.co.kr/article/2026111521311988242"
+        },
+        {
+          "name": "디지털타임스",
+          "date": "11월 15일",
+          "url": "https://www.dt.co.kr/article/12095292"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_201004_8bbc1dc3-35bc-4faf-b42f-afe343c06990.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_201004_8bbc1dc3-35bc-4faf-b42f-afe343c06990.mp3"
+      }
+    },
+    {
+      "anchor": "sea-ice",
+      "url": "https://aigo.artricx.com/posts/2026-11-16.html#sea-ice",
+      "tag": "일",
+      "color": "green",
+      "title": {
+        "text": "북극 바다 얼음, AI가 한 달 앞서 내다봐요",
+        "phrases": [
+          "북극 바다 얼음,",
+          "AI가 한 달 앞서",
+          "내다봐요"
+        ]
+      },
+      "dek": {
+        "text": "UNIST 연구팀이 배 길을 돕는 AI를 만들었어요.",
+        "phrases": [
+          "UNIST 연구팀이",
+          "배 길을 돕는",
+          "AI를 만들었어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200412_93ef5c44-c81b-42bb-8d17-5a371843bc82.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200412_93ef5c44-c81b-42bb-8d17-5a371843bc82.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 떠다니는 하얀 얼음 조각 사이로 작은 나무배를 몰고, 뱃머리에 선 작은 흰 로봇이 긴 망원경으로 먼 앞쪽을 내다보며 겨드랑이에 작은 종이 달력을 끼고 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-16-sea-ice.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-16-sea-ice.svg",
+        "viewBox": "0 0 800 460",
+        "title": "북극 바다 얼음 예측 AI 아이스네스트가 내다보는 기간과 뱃길 예측 오차 비교",
+        "desc": "UNIST 임정호 교수팀은 11월 15일 북극 바다 얼음이 얼마나 덮여 있을지를 하루 단위로 최대 30일 앞서 예측하는 AI '아이스네스트'를 알렸다. 25킬로미터 칸으로 먼저 예측한 뒤 생성형 AI로 6.25킬로미터 칸까지 자세하게 다듬는다. 북동항로를 따라간 모의 항해에서 배가 지나갈 수 있게 되는 날을 맞히는 평균 오차가 영국 기상청 모델은 10.75일, 아이스네스트는 4.5일이었다. 실제 배 운항이 아닌 컴퓨터 모의 결과다.",
+        "caption": {
+          "text": "얼음 길이 언제 열릴지 더 가깝게 맞혀요.",
+          "phrases": [
+            "얼음 길이",
+            "언제 열릴지",
+            "더 가깝게 맞혀요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "울산과학기술원(UNIST) 임정호 교수팀이 11월 15일 새 AI ‘아이스네스트’를 알렸어요. 북극 바다가 얼음으로 얼마나 덮일지 하루 단위로 내다봐요. 최대 30일 앞까지 볼 수 있어요. 한국수자원공사와 캐나다 매니토바대학교 연구진도 함께했어요. 연구는 국제 학술지에 실렸어요.",
+            "nobreak": [
+              "11월 15일",
+              "최대 30일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "북극 바다에는 러시아 북쪽을 지나 유럽으로 가는 뱃길이 있어요. 얼음이 녹는 철에만 지나갈 수 있어서, 언제 열릴지 아는 게 중요해요. 연구팀은 위성 자료로 먼저 넓게 예측한 뒤, 그림을 만드는 생성형 AI로 더 촘촘하게 다듬었어요. 컴퓨터로 배를 띄워 본 시험에서, 뱃길이 열리는 날을 맞히는 오차가 10.75일에서 4.5일로 줄었어요.",
+            "nobreak": [
+              "10.75일",
+              "4.5일"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "북극 뱃길은 아시아와 유럽을 더 짧게 잇는 길이에요. 배가 안전하게 다니면 물건을 나르는 시간이 줄 수 있어요. 다만 이번 결과는 실제 운항이 아니라 컴퓨터 모의 시험이에요. 연구팀도 실제로 배를 띄우려면 얼음 두께, 얼음이 흘러가는 방향, 파도 같은 정보가 더 필요하다고 밝혔어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "ISPRS 사진측량·원격탐사 학술지 논문",
+          "date": "",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924271626004685"
+        },
+        {
+          "name": "아이뉴스24",
+          "date": "11월 15일",
+          "url": "https://m.inews24.com/v/2026249"
+        },
+        {
+          "name": "인공지능신문",
+          "date": "11월 15일",
+          "url": "https://www.aitimes.kr/news/articleView.html?idxno=42734"
+        },
+        {
+          "name": "울산매일",
+          "date": "11월 15일",
+          "url": "https://www.iusm.co.kr/news/articleView.html?idxno=1070537"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_201004_0a609924-d7bb-47aa-b170-f0af2ec47d6f.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_201004_0a609924-d7bb-47aa-b170-f0af2ec47d6f.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "쇼호스트",
+      "meaning": {
+        "text": "홈쇼핑에서 상품을 소개하는 사람",
+        "phrases": [
+          "홈쇼핑에서",
+          "상품을 소개하는 사람"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "전수조사",
+      "meaning": {
+        "text": "하나도 빠짐없이 모두 살피는 일",
+        "phrases": [
+          "하나도 빠짐없이",
+          "모두 살피는 일"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "생성형 AI",
+      "meaning": {
+        "text": "글, 그림, 목소리를 새로 만들어 내는 AI",
+        "phrases": [
+          "글, 그림, 목소리를",
+          "새로 만들어 내는 AI"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "해빙",
+      "meaning": {
+        "text": "바닷물이 얼어서 생긴 바다 위 얼음",
+        "phrases": [
+          "바닷물이 얼어서 생긴",
+          "바다 위 얼음"
+        ]
+      },
+      "color": "green"
+    }
+  ]
+}

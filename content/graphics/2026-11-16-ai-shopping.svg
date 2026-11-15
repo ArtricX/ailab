@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g1t">AI가 다 만든 홈쇼핑 방송으로 줄어든 제작비와 방송이 만들어지는 순서</title>
+            <desc id="g1d">현대홈쇼핑은 11월 15일 쇼호스트와 촬영 없이 AI가 목소리와 화면을 모두 만드는 방송 'AI-REAL'을 알렸다. 정식 방송 전 시험 방송에서 협력 회사가 내는 샘플 준비비와 영상 제작비가 이전보다 80% 넘게 줄었고, 판매는 목표의 120%였다. 첫 정식 방송은 11월 16일 오후 3시 20분 현대홈쇼핑 플러스샵에서 제주 골드키위를 판다. 한 달에 한 번 이상 농수산물부터 내보낼 계획이다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">80%+</text>
+            <text x="34" y="170" font-size="16" font-weight="800">줄어든 협력 회사 제작비</text>
+            <text class="grey" x="34" y="194" font-size="13.5">현대홈쇼핑 발표 · 11월 15일</text>
+            <text x="34" y="240" font-size="15" font-weight="800">샘플 준비·영상 제작비</text>
+            <text x="34" y="272" font-size="13.5" font-weight="800">예전</text>
+            <rect class="f-ink" x="90" y="254" width="264" height="28" rx="8"/>
+            <text x="34" y="318" font-size="13.5" font-weight="800">AI 방송</text>
+            <rect class="f-pink" x="90" y="300" width="53" height="28" rx="8"/>
+            <text class="red" x="155" y="320" font-size="14.5" font-weight="900">20% 아래로</text>
+            <text x="34" y="372" font-size="14.5" font-weight="700">시험 방송 판매는 목표의 120%</text>
+            <text class="grey" x="34" y="398" font-size="13.5">회사가 밝힌 시험 방송 결과예요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 만들어요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">상품 정보를 모아요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="134" stroke-width="3"/>
+            <path class="f-ink" d="M592 134L608 134L600 144Z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="44" rx="14"/>
+            <text x="600" y="178" font-size="14.5" font-weight="900" text-anchor="middle">AI가 목소리를 만들어요</text>
+            <line class="line" x1="600" y1="198" x2="600" y2="210" stroke-width="3"/>
+            <path class="f-ink" d="M592 210L608 210L600 220Z"/>
+            <rect class="f-paper" x="440" y="226" width="320" height="44" rx="14"/>
+            <text x="600" y="254" font-size="14.5" font-weight="900" text-anchor="middle">AI가 화면을 만들어요</text>
+            <line class="line" x1="600" y1="274" x2="600" y2="286" stroke-width="3"/>
+            <path class="f-ink" d="M592 286L608 286L600 296Z"/>
+            <rect class="f-pink" x="440" y="302" width="320" height="44" rx="14"/>
+            <text x="600" y="330" font-size="14.5" font-weight="900" text-anchor="middle">쇼호스트·촬영 없이 방송</text>
+            <text x="440" y="384" font-size="14.5" font-weight="700">첫 방송: 16일 오후 3시 20분</text>
+            <text class="grey" x="440" y="410" font-size="13.5">현대홈쇼핑 플러스샵 · 제주 골드키위</text>
+          </svg>
