@@ -11,8 +11,8 @@
         "anchor": "ai-shopping",
         "title": "쇼호스트 없이|AI가 홈쇼핑 방송을|만들어요",
         "dek": "현대홈쇼핑이|오늘 오후|첫 방송을 해요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200413_e7a3ffb7-3f64-4e34-b7ed-12957c584dfb.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200413_e7a3ffb7-3f64-4e34-b7ed-12957c584dfb_min.webp"
+        "illust": "assets/img/hf_20261115_200413_e7a3ffb7-3f64-4e34-b7ed-12957c584dfb.webp",
+        "thumb": "assets/img/hf_20261115_200413_e7a3ffb7-3f64-4e34-b7ed-12957c584dfb_min.webp"
       },
       {
         "tag": "학교",
@@ -20,8 +20,8 @@
         "anchor": "exam-ai",
         "title": "국가 자격시험,|AI 부정행위를|모두 살펴봐요",
         "dek": "세무사 시험 일로|정부가|대책을 내놨어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200412_92b59e8f-3621-4634-9f2f-fba827bc66cb.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200412_92b59e8f-3621-4634-9f2f-fba827bc66cb_min.webp"
+        "illust": "assets/img/hf_20261115_200412_92b59e8f-3621-4634-9f2f-fba827bc66cb.webp",
+        "thumb": "assets/img/hf_20261115_200412_92b59e8f-3621-4634-9f2f-fba827bc66cb_min.webp"
       },
       {
         "tag": "일",
@@ -29,8 +29,8 @@
         "anchor": "sea-ice",
         "title": "북극 바다 얼음,|AI가 한 달 앞서|내다봐요",
         "dek": "UNIST 연구팀이|배 길을 돕는|AI를 만들었어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200412_93ef5c44-c81b-42bb-8d17-5a371843bc82.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261115_200412_93ef5c44-c81b-42bb-8d17-5a371843bc82_min.webp"
+        "illust": "assets/img/hf_20261115_200412_93ef5c44-c81b-42bb-8d17-5a371843bc82.webp",
+        "thumb": "assets/img/hf_20261115_200412_93ef5c44-c81b-42bb-8d17-5a371843bc82_min.webp"
       }
     ],
     "keywords": [
