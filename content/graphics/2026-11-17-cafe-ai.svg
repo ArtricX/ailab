@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g3t">네이버 AI 카페 에이전트를 시험하는 카페 세 곳과 답을 만드는 순서</title>
+            <desc id="g3d">네이버는 11월 16일 'AI 카페 에이전트'를 11월 9일부터 시험하고 있다고 알렸다. 일본 여행 카페 네일동, 전기차 카페 테슬라 코리아, 명품 카페 시크먼트 세 곳에서 14살 이상 회원 가운데 카페를 방문한 적 있는 일부 회원이 쓸 수 있다. 질문하면 AI가 카페 글과 댓글을 찾아 여러 회원의 경험을 정리하고, 근거가 된 원래 글을 함께 보여 준다. 회원 등급으로 볼 수 있는 글만 쓴다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">3곳</text>
+            <text x="34" y="170" font-size="16" font-weight="800">먼저 시험하는 카페</text>
+            <text class="grey" x="34" y="194" font-size="13.5">네이버 · 11월 9일부터 시험</text>
+            <rect class="f-paper" x="34" y="230" width="320" height="40" rx="14"/>
+            <text x="194" y="256" font-size="14.5" font-weight="900" text-anchor="middle">일본 여행 카페</text>
+            <rect class="f-paper" x="34" y="280" width="320" height="40" rx="14"/>
+            <text x="194" y="306" font-size="14.5" font-weight="900" text-anchor="middle">전기차 카페</text>
+            <rect class="f-paper" x="34" y="330" width="320" height="40" rx="14"/>
+            <text x="194" y="356" font-size="14.5" font-weight="900" text-anchor="middle">명품 카페</text>
+            <text class="grey" x="34" y="404" font-size="13.5">14살 이상 회원 가운데 일부만 써요</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 답해요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">카페에서 질문해요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="134" stroke-width="3"/>
+            <path class="f-ink" d="M592 134L608 134L600 144Z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="44" rx="14"/>
+            <text x="600" y="178" font-size="14.5" font-weight="900" text-anchor="middle">카페 글과 댓글을 찾아요</text>
+            <line class="line" x1="600" y1="198" x2="600" y2="210" stroke-width="3"/>
+            <path class="f-ink" d="M592 210L608 210L600 220Z"/>
+            <rect class="f-pink" x="440" y="226" width="320" height="44" rx="14"/>
+            <text x="600" y="254" font-size="14.5" font-weight="900" text-anchor="middle">여러 경험을 정리해요</text>
+            <line class="line" x1="600" y1="274" x2="600" y2="286" stroke-width="3"/>
+            <path class="f-ink" d="M592 286L608 286L600 296Z"/>
+            <rect class="f-paper" x="440" y="302" width="320" height="44" rx="14"/>
+            <text x="600" y="330" font-size="14.5" font-weight="900" text-anchor="middle">원래 글도 함께 보여 줘요</text>
+            <text class="red" x="440" y="384" font-size="14.5" font-weight="900">내 등급으로 볼 수 있는 글만 써요</text>
+            <text class="grey" x="440" y="410" font-size="13.5">결과를 보고 카페를 넓혀 가요</text>
+          </svg>
