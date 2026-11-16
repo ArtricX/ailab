@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img">
+<style>
+text { font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; fill: #000000; }
+.num { font-family: "Archivo", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+.grey { fill: #8A8A8A; }
+.white { fill: #FFFFFF; }
+.red { fill: #FF3D14; }
+.f-red { fill: #FF3D14; }
+.f-blue { fill: #1F3DFF; }
+.f-yellow { fill: #FFD21F; }
+.f-green { fill: #12A150; }
+.f-pink { fill: #FF8FC8; }
+.f-ink { fill: #000000; }
+.f-paper { fill: #FFFFFF; }
+.f-ground { fill: #DADADA; }
+.line { stroke: #000000; }
+.line-grey { stroke: #DADADA; }
+.line-red { stroke: #FF3D14; }
+</style>
+<rect x="0" y="0" width="800" height="460" fill="#EDEEF0"/>
+            <title id="g2t">우버 앱에서 죽스 로봇택시를 만날 수 있는 차 종류와 타는 순서</title>
+            <desc id="g2d">우버와 로봇택시 회사 죽스는 미국 시간 11월 16일 라스베이거스에서 우버 앱으로 죽스 로봇택시를 탈 수 있게 됐다고 알렸다. 우버의 차 종류 5가지(우버엑스, 우버 컴포트, 우버 일렉트릭, 우버 컴포트 일렉트릭, 웨이트 앤 세이브)를 부르면 죽스 차가 배정될 수 있고, 추가 요금은 없다. 앱 설정의 탑승 선호에서 로봇택시를 켜면 만날 가능성이 커진다. 라스베이거스 스트립 주변, 다운타운, 아츠 디스트릭트를 다닌다.</desc>
+            <text class="num" x="30" y="132" font-size="104" letter-spacing="-4">5가지</text>
+            <text x="34" y="170" font-size="16" font-weight="800">로봇택시가 올 수 있는 차 종류</text>
+            <text class="grey" x="34" y="194" font-size="13.5">우버·죽스 발표 · 미국 시간 11월 16일</text>
+            <text x="34" y="240" font-size="15" font-weight="800">더 내는 요금</text>
+            <text class="num" x="34" y="320" font-size="72" letter-spacing="-2">0원</text>
+            <text x="34" y="360" font-size="14.5" font-weight="700">보통 차와 같은 값이에요</text>
+            <text class="grey" x="34" y="386" font-size="13.5">다니는 곳: 스트립 주변, 다운타운 등</text>
+            <line class="line-grey" x1="400" y1="30" x2="400" y2="440" stroke-width="2"/>
+            <text x="440" y="56" font-size="15" font-weight="800">이렇게 타요</text>
+            <rect class="f-paper" x="440" y="74" width="320" height="44" rx="14"/>
+            <text x="600" y="102" font-size="14.5" font-weight="900" text-anchor="middle">우버 앱에서 차를 불러요</text>
+            <line class="line" x1="600" y1="122" x2="600" y2="134" stroke-width="3"/>
+            <path class="f-ink" d="M592 134L608 134L600 144Z"/>
+            <rect class="f-paper" x="440" y="150" width="320" height="44" rx="14"/>
+            <text x="600" y="178" font-size="14.5" font-weight="900" text-anchor="middle">설정에서 로봇택시를 켜요</text>
+            <line class="line" x1="600" y1="198" x2="600" y2="210" stroke-width="3"/>
+            <path class="f-ink" d="M592 210L608 210L600 220Z"/>
+            <rect class="f-yellow" x="440" y="226" width="320" height="44" rx="14"/>
+            <text x="600" y="254" font-size="14.5" font-weight="900" text-anchor="middle">운전석 없는 차가 와요</text>
+            <line class="line" x1="600" y1="274" x2="600" y2="286" stroke-width="3"/>
+            <path class="f-ink" d="M592 286L608 286L600 296Z"/>
+            <rect class="f-paper" x="440" y="302" width="320" height="44" rx="14"/>
+            <text x="600" y="330" font-size="14.5" font-weight="900" text-anchor="middle">마주 보는 자리에 앉아요</text>
+            <text class="red" x="440" y="384" font-size="14.5" font-weight="900">죽스가 다른 앱과 손잡은 건 처음</text>
+            <text class="grey" x="440" y="410" font-size="13.5">설정을 켜면 만날 가능성이 커져요</text>
+          </svg>

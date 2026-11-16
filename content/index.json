@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-17",
+      "title": "AI 건강 질문 실험, 우버 로봇택시, 카페 글 정리 AI",
+      "file": "content/2026-11-17.json",
+      "stories": [
+        {
+          "anchor": "ai-health",
+          "tag": "건강",
+          "color": "green",
+          "title": "아이폰 AI에게 건강을 물어보는 큰 실험을 해요"
+        },
+        {
+          "anchor": "robotaxi",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "우버 앱으로 운전석 없는 로봇택시를 불러요"
+        },
+        {
+          "anchor": "cafe-ai",
+          "tag": "생활",
+          "color": "pink",
+          "title": "네이버 카페 글, AI가 찾아서 정리해 줘요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-16",
       "title": "AI가 만든 홈쇼핑, 시험 부정 대책, 북극 얼음 예보",
       "file": "content/2026-11-16.json",

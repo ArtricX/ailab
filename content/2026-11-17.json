@@ -1,0 +1,355 @@
+{
+  "schema": 1,
+  "date": "2026-11-17",
+  "weekday": "화",
+  "url": "https://aigo.artricx.com/posts/2026-11-17.html",
+  "minutes": 5,
+  "title": {
+    "text": "AI 건강 질문 실험, 우버 로봇택시, 카페 글 정리 AI",
+    "phrases": [
+      "AI 건강 질문 실험,",
+      "우버 로봇택시,",
+      "카페 글 정리 AI"
+    ]
+  },
+  "share": {
+    "title": "아이폰 AI에게 건강을 물어보는 큰 실험을 해요 외 2건 · 아이고 11월 17일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 17일 화요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-17.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "ai-health",
+      "tag": "건강",
+      "color": "green",
+      "label": "AI 건강 질문"
+    },
+    {
+      "anchor": "robotaxi",
+      "tag": "생활",
+      "color": "yellow",
+      "label": "로봇택시"
+    },
+    {
+      "anchor": "cafe-ai",
+      "tag": "생활",
+      "color": "pink",
+      "label": "카페 AI"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "ai-health",
+      "url": "https://aigo.artricx.com/posts/2026-11-17.html#ai-health",
+      "tag": "건강",
+      "color": "green",
+      "title": {
+        "text": "아이폰 AI에게 건강을 물어보는 큰 실험을 해요",
+        "phrases": [
+          "아이폰 AI에게",
+          "건강을 물어보는",
+          "큰 실험을 해요"
+        ]
+      },
+      "dek": {
+        "text": "애플이 최대 20만 명과 함께 알아봐요.",
+        "phrases": [
+          "애플이",
+          "최대 20만 명과 함께",
+          "알아봐요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_e87a1a3e-d7d4-4fc3-ab65-dfa1e5c7f239.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_e87a1a3e-d7d4-4fc3-ab65-dfa1e5c7f239.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "동그란 사람이 소파에 앉아 커다란 휴대폰을 두 손으로 들고 보고, 위로 빨간 하트가 든 말풍선이 떠 있으며, 옆에 쌓인 두꺼운 책 세 권 위에 선 작은 흰 로봇이 청진기를 휴대폰에 대고 소리를 듣는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-17-ai-health.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-17-ai-health.svg",
+        "viewBox": "0 0 800 460",
+        "title": "애플 건강 AI 연구의 참가 인원, 참가 조건, 질문이 답이 되는 순서",
+        "desc": "애플은 미국 시간 11월 15일 의료 AI 회사 오픈에비던스와 함께 '애플 건강 AI 사용 연구'를 시작했다. 최대 20만 명이 참여할 수 있다. 미국에 살고, 21살 이상이며, 애플 인텔리전스가 되는 아이폰을 가진 사람이 전용 앱으로 참여한다. 질문은 누구인지 알 수 없게 바꾼 뒤 AI에게 가고, AI는 의학 학술지를 근거로 답하며, 참가자는 답을 평가한다. 이 AI는 병을 진단하거나 치료하지 않는다.",
+        "caption": {
+          "text": "사람들이 AI 건강 답을 믿고 이해하는지 살펴봐요.",
+          "phrases": [
+            "사람들이 AI 건강 답을",
+            "믿고 이해하는지",
+            "살펴봐요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "애플이 미국 시간 11월 15일 새 연구를 시작했어요. 이름은 ‘애플 건강 AI 사용 연구’예요. 전용 아이폰 앱에서 평소 궁금한 건강 질문을 AI에게 물어볼 수 있어요. 의사들이 쓰는 의료 AI를 만드는 회사 ‘오픈에비던스’가 함께해요. 최대 20만 명이 참여할 수 있어요.",
+            "nobreak": [
+              "11월 15일",
+              "최대 20만 명"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "요즘은 몸이 불편할 때 AI에게 먼저 묻는 사람이 많아요. 하지만 사람들이 AI의 답을 언제 믿는지, 제대로 알아듣는지는 아직 잘 몰라요. 애플은 이것을 많은 사람과 함께 살펴보려고 해요. AI의 답에는 의학 학술지 같은 근거가 함께 붙어요. 참가자가 원하면 걸음 수, 잠, 심장 박동 같은 건강 기록을 함께 쓸 수도 있어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "이번 연구는 미국에 사는 21살 이상만 참여할 수 있어요. 애플은 질문을 누구인지 알 수 없게 바꿔서 보내고, 연구 자료로 AI를 가르치지 않는다고 밝혔어요. 이 AI는 병을 진단하거나 치료하지 않아요. 걱정되는 질문에는 의사를 만나 보라고 안내해요. AI의 건강 답은 참고만 하고, 아프면 꼭 병원에 가세요.",
+            "nobreak": [
+              "21살 이상"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "애플 뉴스룸",
+          "date": "11월 15일",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
+        },
+        {
+          "name": "헬스케어다이브",
+          "date": "11월 15일",
+          "url": "https://www.healthcaredive.com/news/apple-openevidence-conversational-health-ai-study-app/874714/"
+        },
+        {
+          "name": "맥루머스",
+          "date": "11월 16일",
+          "url": "https://www.macrumors.com/2026/11/16/apple-seeks-200000-people-for-ai-health-study/"
+        },
+        {
+          "name": "맥데일리뉴스",
+          "date": "11월 16일",
+          "url": "https://macdailynews.com/2026/11/16/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200435_07fb2f28-1974-4ff9-b094-cef659029558.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200435_07fb2f28-1974-4ff9-b094-cef659029558.mp3"
+      }
+    },
+    {
+      "anchor": "robotaxi",
+      "url": "https://aigo.artricx.com/posts/2026-11-17.html#robotaxi",
+      "tag": "생활",
+      "color": "yellow",
+      "title": {
+        "text": "우버 앱으로 운전석 없는 로봇택시를 불러요",
+        "phrases": [
+          "우버 앱으로",
+          "운전석 없는",
+          "로봇택시를 불러요"
+        ]
+      },
+      "dek": {
+        "text": "미국 라스베이거스에서 시작했어요.",
+        "phrases": [
+          "미국 라스베이거스에서",
+          "시작했어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_fe2859f4-6588-47b7-848c-38032bbe4db8.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_fe2859f4-6588-47b7-848c-38032bbe4db8.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "가방을 멘 동그란 사람이 한 손에 휴대폰을 들고 길가에서 손을 흔들고, 운전석 없이 의자가 서로 마주 보는 작은 둥근 차 안에 앉은 작은 흰 로봇이 손을 흔들어 답하는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-17-robotaxi.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-17-robotaxi.svg",
+        "viewBox": "0 0 800 460",
+        "title": "우버 앱에서 죽스 로봇택시를 만날 수 있는 차 종류와 타는 순서",
+        "desc": "우버와 로봇택시 회사 죽스는 미국 시간 11월 16일 라스베이거스에서 우버 앱으로 죽스 로봇택시를 탈 수 있게 됐다고 알렸다. 우버의 차 종류 5가지(우버엑스, 우버 컴포트, 우버 일렉트릭, 우버 컴포트 일렉트릭, 웨이트 앤 세이브)를 부르면 죽스 차가 배정될 수 있고, 추가 요금은 없다. 앱 설정의 탑승 선호에서 로봇택시를 켜면 만날 가능성이 커진다. 라스베이거스 스트립 주변, 다운타운, 아츠 디스트릭트를 다닌다.",
+        "caption": {
+          "text": "늘 쓰던 앱으로 스스로 달리는 차를 불러요.",
+          "phrases": [
+            "늘 쓰던 앱으로",
+            "스스로 달리는 차를",
+            "불러요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국 시간 11월 16일, 차를 불러 주는 회사 우버와 로봇택시 회사 죽스가 새 소식을 알렸어요. 미국 라스베이거스에서 우버 앱으로 죽스의 로봇택시를 탈 수 있게 됐어요. 죽스는 아마존이 가진 회사예요. 죽스가 다른 회사의 앱과 손잡은 것은 이번이 처음이에요.",
+            "nobreak": [
+              "11월 16일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "죽스 차에는 운전석이 없어요. AI가 길과 사람을 살피며 스스로 달려요. 그동안은 죽스 앱을 따로 깔아야 탈 수 있었어요. 이제는 많은 사람이 이미 쓰는 우버 앱에서도 만날 수 있어요. 우버의 차 종류 다섯 가지 가운데 하나를 부르면, 죽스 차가 올 수도 있어요. 요금은 더 내지 않아요.",
+            "nobreak": [
+              "다섯 가지"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "한국에서는 아직 탈 수 없어요. 라스베이거스에 간다면 우버 앱 설정에서 로봇택시를 켜 둘 수 있어요. 그러면 죽스 차를 만날 가능성이 커져요. 차 안 자리는 서로 마주 보게 놓여 있어요. 우버는 다음 도시로 로스앤젤레스를 꼽았어요. 로봇택시가 점점 더 많은 도시로 퍼지고 있어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "우버·죽스 보도자료",
+          "date": "11월 16일",
+          "url": "https://stockhouse.com/news/press-releases/2026/11/16/zoox-is-now-available-on-uber-in-las-vegas"
+        },
+        {
+          "name": "FOX5 라스베이거스",
+          "date": "11월 16일",
+          "url": "https://www.fox5vegas.com/2026/11/16/zoox-robotaxis-available-uber-app-las-vegas/"
+        },
+        {
+          "name": "테크크런치",
+          "date": "11월 16일",
+          "url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/"
+        },
+        {
+          "name": "벤징가",
+          "date": "11월 16일",
+          "url": "https://benzinga.com/markets/tech/26/11/63287514/uber-riders-in-vegas-can-now-get-driverless-zoox-robotaxi"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200435_ce038511-4d5a-4973-a97c-4f54409a177a.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200435_ce038511-4d5a-4973-a97c-4f54409a177a.mp3"
+      }
+    },
+    {
+      "anchor": "cafe-ai",
+      "url": "https://aigo.artricx.com/posts/2026-11-17.html#cafe-ai",
+      "tag": "생활",
+      "color": "pink",
+      "title": {
+        "text": "네이버 카페 글, AI가 찾아서 정리해 줘요",
+        "phrases": [
+          "네이버 카페 글,",
+          "AI가 찾아서",
+          "정리해 줘요"
+        ]
+      },
+      "dek": {
+        "text": "카페 세 곳에서 먼저 시험해요.",
+        "phrases": [
+          "카페 세 곳에서",
+          "먼저 시험해요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_7023bbce-e9fe-46cb-8a1f-9d6fed3fbf70.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_7023bbce-e9fe-46cb-8a1f-9d6fed3fbf70.png",
+        "width": 1600,
+        "height": 1195,
+        "alt": "작은 메모 종이가 가득 꽂힌 커다란 나무 게시판 앞에서 작은 흰 로봇이 사다리 위에 올라 메모를 몇 장 떼어 바구니에 모으고, 아래에서 동그란 사람이 두 손을 내밀어 기다리는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-17-cafe-ai.svg",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-17-cafe-ai.svg",
+        "viewBox": "0 0 800 460",
+        "title": "네이버 AI 카페 에이전트를 시험하는 카페 세 곳과 답을 만드는 순서",
+        "desc": "네이버는 11월 16일 'AI 카페 에이전트'를 11월 9일부터 시험하고 있다고 알렸다. 일본 여행 카페 네일동, 전기차 카페 테슬라 코리아, 명품 카페 시크먼트 세 곳에서 14살 이상 회원 가운데 카페를 방문한 적 있는 일부 회원이 쓸 수 있다. 질문하면 AI가 카페 글과 댓글을 찾아 여러 회원의 경험을 정리하고, 근거가 된 원래 글을 함께 보여 준다. 회원 등급으로 볼 수 있는 글만 쓴다.",
+        "caption": {
+          "text": "흩어진 회원들의 경험을 한눈에 모아 줘요.",
+          "phrases": [
+            "흩어진 회원들의 경험을",
+            "한눈에 모아 줘요."
+          ]
+        }
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "네이버가 11월 16일 새 서비스 ‘AI 카페 에이전트’를 시험하고 있다고 알렸어요. 카페에서 질문하면, AI가 카페에 쌓인 글과 댓글을 찾아 답을 정리해 줘요. 답과 함께 근거가 된 원래 글도 보여 줘요. 시험은 11월 9일부터 일본 여행, 전기차, 명품을 다루는 카페 세 곳에서 하고 있어요.",
+            "nobreak": [
+              "11월 16일",
+              "11월 9일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "카페에는 회원들이 직접 겪은 이야기가 많이 쌓여 있어요. 하지만 원하는 글을 찾으려면 검색하고 하나씩 열어 봐야 해요. 정답이 하나가 아닌 질문도 많아요. 예를 들면 ‘겨울에 차에서 캠핑하면 배터리가 얼마나 닳을까요?’ 같은 질문이에요. AI는 이런 질문에 여러 회원의 경험을 모아 한눈에 보여 줘요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "지금은 세 카페의 14살 이상 회원 가운데, 카페를 방문한 적 있는 일부만 쓸 수 있어요. 네이버는 결과를 보고 더 많은 카페로 넓힐 계획이에요. AI는 내 회원 등급으로 볼 수 있는 글만 써요. 카페 글은 사람마다 경험이 달라요. 중요한 일은 원래 글을 열어 직접 확인하세요.",
+            "nobreak": [
+              "14살 이상"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "신아일보",
+          "date": "11월 16일",
+          "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5083712"
+        },
+        {
+          "name": "재경일보",
+          "date": "11월 16일",
+          "url": "https://news.jkn.co.kr/post/1097627"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200436_8a9166fd-e6bf-4f8d-b542-f14d5e1eb72e.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200436_8a9166fd-e6bf-4f8d-b542-f14d5e1eb72e.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "학술지",
+      "meaning": {
+        "text": "연구 결과를 모아 싣는 전문 잡지",
+        "phrases": [
+          "연구 결과를 모아 싣는",
+          "전문 잡지"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "로봇택시",
+      "meaning": {
+        "text": "운전하는 사람 없이 스스로 달리는 택시",
+        "phrases": [
+          "운전하는 사람 없이",
+          "스스로 달리는 택시"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "AI 에이전트",
+      "meaning": {
+        "text": "사람 대신 찾아보고 일을 해 주는 AI",
+        "phrases": [
+          "사람 대신 찾아보고",
+          "일을 해 주는 AI"
+        ]
+      },
+      "color": "pink"
+    }
+  ]
+}
