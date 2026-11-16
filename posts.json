@@ -11,8 +11,8 @@
         "anchor": "ai-health",
         "title": "아이폰 AI에게|건강을 물어보는|큰 실험을 해요",
         "dek": "애플이|최대 20만 명과 함께|알아봐요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_e87a1a3e-d7d4-4fc3-ab65-dfa1e5c7f239.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_e87a1a3e-d7d4-4fc3-ab65-dfa1e5c7f239_min.webp"
+        "illust": "assets/img/hf_20261116_200150_e87a1a3e-d7d4-4fc3-ab65-dfa1e5c7f239.webp",
+        "thumb": "assets/img/hf_20261116_200150_e87a1a3e-d7d4-4fc3-ab65-dfa1e5c7f239_min.webp"
       },
       {
         "tag": "생활",
@@ -20,8 +20,8 @@
         "anchor": "robotaxi",
         "title": "우버 앱으로|운전석 없는|로봇택시를 불러요",
         "dek": "미국 라스베이거스에서|시작했어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_fe2859f4-6588-47b7-848c-38032bbe4db8.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_fe2859f4-6588-47b7-848c-38032bbe4db8_min.webp"
+        "illust": "assets/img/hf_20261116_200150_fe2859f4-6588-47b7-848c-38032bbe4db8.webp",
+        "thumb": "assets/img/hf_20261116_200150_fe2859f4-6588-47b7-848c-38032bbe4db8_min.webp"
       },
       {
         "tag": "생활",
@@ -29,8 +29,8 @@
         "anchor": "cafe-ai",
         "title": "네이버 카페 글,|AI가 찾아서|정리해 줘요",
         "dek": "카페 세 곳에서|먼저 시험해요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_7023bbce-e9fe-46cb-8a1f-9d6fed3fbf70.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261116_200150_7023bbce-e9fe-46cb-8a1f-9d6fed3fbf70_min.webp"
+        "illust": "assets/img/hf_20261116_200150_7023bbce-e9fe-46cb-8a1f-9d6fed3fbf70.webp",
+        "thumb": "assets/img/hf_20261116_200150_7023bbce-e9fe-46cb-8a1f-9d6fed3fbf70_min.webp"
       }
     ],
     "keywords": [
