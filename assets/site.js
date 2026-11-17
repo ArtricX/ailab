@@ -225,8 +225,9 @@
 
 // ───────── 사용성 ─────────
 
-// 카카오톡 공유: 카카오 개발자 콘솔(앱의 '앱 키 > JavaScript 키')의 키를 넣으면 공유하기 카드에 '카카오톡' 버튼이 생겨요.
-// 콘솔의 '플랫폼 > Web > 사이트 도메인'에 https://aigo.artricx.com 을 먼저 등록해야 해요. 이 키는 웹 페이지에 넣도록 만든 공개용 키예요.
+// 카카오톡 공유: 카카오디벨로퍼스 [앱] > [플랫폼 키] > [JavaScript 키]의 키를 넣으면 공유하기 카드에 '카카오톡' 버튼이 생겨요.
+// 먼저 같은 화면의 [JavaScript SDK 도메인]과 [앱] > [제품 링크 관리] > [웹 도메인]에 https://aigo.artricx.com 을 등록해요.
+// 이 키는 웹 페이지에 넣도록 만든 공개용 키예요(등록한 도메인에서만 동작).
 var AIGO_KAKAO_KEY = "";
 var AIGO_KAKAO_SDK = "https://t1.kakaocdn.net/kakao_js_sdk/2.8.4/kakao.min.js";
 
