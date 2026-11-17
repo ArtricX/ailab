@@ -668,3 +668,148 @@ var AIGO = {
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", add);
   else add();
 })();
+
+// 소식 끝 반응 '이 소식, 어떠셨어요?' (피그마 3i·3j, C안 캐릭터)
+// 숫자는 앱과 같은 Supabase(reaction_get · reaction_set 함수)에 모여요. 표 만들기는 aigo-app 저장소 supabase/migrations/20261117000000_story_reactions.sql.
+// 주소나 키가 빈 칸이거나 서버가 답하지 않으면 반응 칸을 아예 보여 주지 않아요.
+// 키는 공개용(publishable) 키예요. 표는 직접 못 읽고 두 함수로만 써요.
+var AIGO_REACT_URL = "https://nmnkslcupmamcobxvqqm.supabase.co";
+var AIGO_REACT_KEY = "sb_publishable_B7UmfG4etyeyWBcjlEugRA_Ct9qlQUu";
+(function () {
+  if (!AIGO_REACT_URL || !AIGO_REACT_KEY) return;
+  var m = location.pathname.match(/posts\/(\d{4}-\d{2}-\d{2})(?:\.html)?\/?$/) || (window.AIGO_DATE ? [0, window.AIGO_DATE] : null);
+  if (!m) return;
+  var day = m[1];
+  var KINDS = [["help", "도움 돼요"], ["aigo", "아이고!"], ["worry", "걱정돼요"], ["curious", "궁금해요"]];
+  var SHOW_AT = 10; // 소식 하나의 합계가 이 수를 넘으면 숫자를 보여 줘요
+
+  function store(k, v) {
+    try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; }
+  }
+  function deviceId() {
+    var id = store("aigo-device");
+    if (id && /^[0-9a-f-]{36}$/.test(id)) return id;
+    if (window.crypto && crypto.randomUUID) id = crypto.randomUUID();
+    else id = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+      var r = Math.random() * 16 | 0; return (c === "x" ? r : (r & 3 | 8)).toString(16);
+    });
+    store("aigo-device", id);
+    return id;
+  }
+  function rpc(name, body) {
+    return fetch(AIGO_REACT_URL + "/rest/v1/rpc/" + name, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", apikey: AIGO_REACT_KEY },
+      body: JSON.stringify(body)
+    }).then(function (r) {
+      return r.json().then(function (j) { if (!r.ok) throw new Error((j && j.message) || "error"); return j; });
+    });
+  }
+  // 1,234 · 1.2만 · 12만
+  function fmt(n) {
+    if (n >= 100000) return Math.floor(n / 10000) + "만";
+    if (n >= 10000) { var x = Math.floor(n / 1000) / 10; return (x % 1 ? x.toFixed(1) : String(x)) + "만"; }
+    return n.toLocaleString("en-US");
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var stories = Array.prototype.filter.call(document.querySelectorAll("section.story[id]"), function (s) {
+      return s.querySelector(".qa");
+    });
+    if (!stories.length) return;
+    var device = deviceId();
+    var img = AIGO.base() + "assets/ui/react/";
+
+    rpc("reaction_get", { p_date: day, p_device: device }).then(function (data) {
+      stories.forEach(function (sec) { build(sec, (data.counts || {})[sec.id] || {}, (data.mine || {})[sec.id] || null); });
+    }).catch(function () { /* 서버가 답하지 않으면 보여 주지 않아요 */ });
+
+    function build(sec, counts, mine) {
+      var anchor = sec.id;
+      var box = AIGO.el("div", "react");
+      box.setAttribute("role", "group");
+      box.setAttribute("aria-label", "이 소식, 어떠셨어요?");
+      box.appendChild(AIGO.el("p", "react-q", "이 소식, 어떠셨어요?"));
+      var row = AIGO.el("div", "react-row");
+      var hint = AIGO.el("p", "react-hint", "다시 누르면 취소돼요.");
+      hint.setAttribute("aria-live", "polite");
+      var btns = {};
+      KINDS.forEach(function (k) {
+        var b = AIGO.el("button", "react-btn is-" + k[0]);
+        b.type = "button";
+        var face = AIGO.el("i");
+        var pic = document.createElement("img");
+        pic.src = img + k[0] + ".png";
+        pic.alt = "";
+        pic.width = 64; pic.height = 64;
+        pic.decoding = "async";
+        face.appendChild(pic);
+        var num = AIGO.el("b", "react-num");
+        face.appendChild(num);
+        b.appendChild(face);
+        b.appendChild(AIGO.el("span", "react-name", k[1]));
+        b.addEventListener("click", function () { choose(mine === k[0] ? null : k[0]); });
+        btns[k[0]] = { el: b, num: num, label: k[1] };
+        row.appendChild(b);
+      });
+      box.appendChild(row);
+      box.appendChild(hint);
+
+      function paint() {
+        var total = 0;
+        KINDS.forEach(function (k) { total += counts[k[0]] || 0; });
+        var show = total > SHOW_AT;
+        KINDS.forEach(function (k) {
+          var it = btns[k[0]], n = counts[k[0]] || 0, on = mine === k[0];
+          it.el.classList.toggle("is-on", on);
+          it.el.setAttribute("aria-pressed", on ? "true" : "false");
+          it.num.hidden = !(show && n > 0);
+          it.num.textContent = fmt(n);
+          it.num.classList.toggle("is-one", String(fmt(n)).length === 1);
+          it.el.setAttribute("aria-label", it.label + (show ? ", " + n.toLocaleString("en-US") + "명" : ""));
+        });
+        hint.hidden = !mine;
+      }
+
+      // 바로 바뀐 모습을 보여 주고, 서버에는 마지막으로 고른 것만 보내요(빠르게 여러 번 눌러도 괜찮아요).
+      var timer = null, sending = false, wanted = mine, saved = mine;
+      function choose(kind) {
+        if (mine) counts[mine] = Math.max(0, (counts[mine] || 0) - 1);
+        if (kind) counts[kind] = (counts[kind] || 0) + 1;
+        mine = kind;
+        wanted = kind;
+        hint.textContent = "다시 누르면 취소돼요.";
+        paint();
+        ailabEvent("react-" + (kind || "cancel"));
+        clearTimeout(timer);
+        timer = setTimeout(send, 400);
+      }
+      function send(retry) {
+        if (sending) { timer = setTimeout(send, 400); return; }
+        if (wanted === saved && !retry) return;
+        sending = true;
+        var kind = wanted;
+        rpc("reaction_set", { p_date: day, p_anchor: anchor, p_device: device, p_kind: kind }).then(function (res) {
+          sending = false;
+          saved = kind;
+          if (wanted === kind) { counts = res.counts || {}; mine = res.mine || null; paint(); }
+          else send();
+        }).catch(function (err) {
+          sending = false;
+          if (/too_fast/.test(err.message) && !retry) { timer = setTimeout(function () { send(true); }, 1200); return; }
+          // 반영되지 않았으면 원래대로 되돌려요
+          rpc("reaction_get", { p_date: day, p_device: device }).then(function (d) {
+            counts = (d.counts || {})[anchor] || {}; mine = (d.mine || {})[anchor] || null; saved = wanted = mine; paint();
+          }).catch(function () {});
+          hint.hidden = false;
+          hint.textContent = "지금은 반영되지 않았어요. 잠시 뒤 다시 눌러 주세요.";
+        });
+      }
+
+      paint();
+      var src = sec.querySelector(".qa > .source, .source");
+      if (src && src.parentNode) src.parentNode.insertBefore(box, src);
+      else sec.querySelector(".qa").appendChild(box);
+    }
+  });
+})();
