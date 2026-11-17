@@ -255,6 +255,38 @@ main > .story:nth-of-type(3) .story-kicker::after { content: "세 번째 소식"
 .source a { color: var(--sub); text-underline-offset: 0.2em; }
 .source a:hover { color: var(--ink); }
 
+/* 소식 끝 반응 '이 소식, 어떠셨어요?' (피그마 3i·3j, C안). site.js가 출처 바로 위에 붙여요. */
+.react { background: var(--surface2); border-radius: 20px; padding: 20px 16px; display: grid; gap: 16px; justify-items: center; max-width: 440px; width: 100%; }
+.qa .react-q { font-size: 1.0625rem; font-weight: 700; line-height: 1.2; text-align: center; }
+.react-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; width: 100%; max-width: 360px; }
+.react-btn { display: grid; justify-items: center; gap: 8px; padding: 4px 0; border: 0; background: none; cursor: pointer; font: inherit; color: var(--ink); -webkit-tap-highlight-color: transparent; }
+.react-btn i { font-style: normal; position: relative; width: 72px; height: 72px; border-radius: 50%; display: grid; place-items: center; transition: background-color .15s; }
+.react-btn img { width: 64px; height: 64px; display: block; }
+.react-name { font-size: 0.875rem; font-weight: 700; line-height: 1.2; white-space: nowrap; }
+.react-btn.is-help i { background: #FFF0C2; }
+.react-btn.is-aigo i { background: #FFE0DB; }
+.react-btn.is-worry i { background: #E2E9FB; }
+.react-btn.is-curious i { background: #DDF1E5; }
+.react-btn.is-help.is-on i { background: #F6C93B; }
+.react-btn.is-aigo.is-on i { background: #F06A5C; }
+.react-btn.is-worry.is-on i { background: #7C9CEB; }
+.react-btn.is-curious.is-on i { background: #4CB17E; }
+.react-btn.is-help.is-on .react-name { color: #8C6000; }
+.react-btn.is-aigo.is-on .react-name { color: #C23A2C; }
+.react-btn.is-worry.is-on .react-name { color: #3F63C9; }
+.react-btn.is-curious.is-on .react-name { color: #1E7A47; }
+.react-btn:focus-visible { outline: none; }
+.react-btn:focus-visible i { outline: 3px solid var(--ink); outline-offset: 2px; }
+@media (hover: hover) { .react-btn:hover i { filter: brightness(0.97); } }
+/* 숫자: 가운데를 동그라미 테두리 오른쪽 위(45°, 왼쪽 위 기준 62·10)에 맞추고 양쪽으로 길어져요 */
+.react-num { position: absolute; left: 62px; top: 10px; transform: translate(-50%, -50%); height: 20px; min-width: 20px; padding: 0 6px; border-radius: 10px; background: var(--paper); box-shadow: 0 0 0 1px var(--line2); font-size: 12px; font-weight: 700; line-height: 20px; text-align: center; color: var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.react-num.is-one { padding: 0; width: 20px; }
+.react-btn.is-on .react-num { background: var(--ink); color: #fff; box-shadow: none; }
+.react-num[hidden] { display: none; }
+.qa .react-hint { font-size: 0.875rem; line-height: 1.2; color: var(--sub); text-align: center; }
+.react-hint[hidden] { display: none; }
+@media (max-width: 359px) { .react { padding-inline: 8px; } .react-btn i { width: 64px; height: 64px; } .react-btn img { width: 56px; height: 56px; } .react-num { left: 55px; top: 9px; } }
+
 /* 예전 인포그래픽(SVG): 본문 안에 크게 */
 .figure { display: grid; gap: 10px; }
 .figure-frame { background: var(--surface); border-radius: 16px; overflow-x: auto; overscroll-behavior-x: contain; }
