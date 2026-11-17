@@ -283,8 +283,9 @@ main > .story:nth-of-type(3) .story-kicker::after { content: "세 번째 소식"
 .react-num.is-one { padding: 0; width: 20px; }
 .react-btn.is-on .react-num { background: var(--ink); color: #fff; box-shadow: none; }
 .react-num[hidden] { display: none; }
-.qa .react-hint { font-size: 0.875rem; line-height: 1.2; color: var(--sub); text-align: center; }
-.react-hint[hidden] { display: none; }
+/* 안내 글자는 늘 자리를 차지해요. 누르기 전엔 보이지 않게만 해서 카드 높이가 바뀌지 않아요(아래 글이 들썩이지 않게). */
+.qa .react-hint { font-size: 0.875rem; line-height: 1.2; color: var(--sub); text-align: center; white-space: nowrap; visibility: hidden; opacity: 0; transition: opacity .2s; }
+.qa .react-hint.is-shown { visibility: visible; opacity: 1; }
 @media (max-width: 359px) { .react { padding-inline: 8px; } .react-btn i { width: 64px; height: 64px; } .react-btn img { width: 56px; height: 56px; } .react-num { left: 55px; top: 9px; } }
 
 /* 예전 인포그래픽(SVG): 본문 안에 크게 */
