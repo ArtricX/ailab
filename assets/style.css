@@ -292,8 +292,8 @@ main > .story:nth-of-type(3) .story-kicker::after { content: "세 번째 소식"
 .g-stat span { font-size: 1rem; color: var(--sub); line-height: 1.4; }
 .g-rule { border: 0; height: 1px; background: var(--line); margin: 0; }
 .g-group { display: grid; gap: 2px; }
-.g-head { font-size: 0.9375rem; font-weight: 700; color: var(--sub); line-height: 1.2; letter-spacing: 0; }
-.g-head.is-color { color: var(--k-text); }
+.g-head { font-size: 0.9375rem; font-weight: 700; color: var(--body2); line-height: 1.2; letter-spacing: 0; }
+.g-head.is-color { color: var(--body2); } /* 예전 표시: 2026-11-18부터 묶음 제목은 모두 같은 색 */
 .g-head.is-warn { color: var(--warn-text); }
 .g-list { list-style: none; display: grid; }
 .g-list li { display: flex; align-items: center; gap: 12px; padding-block: 12px; border-bottom: 1px solid var(--line); font-size: 1.0625rem; line-height: 1.45; }
@@ -320,7 +320,7 @@ main > .story:nth-of-type(3) .story-kicker::after { content: "세 번째 소식"
 .g-bar b { font-size: 1.0625rem; font-weight: 700; }
 .g-small { font-size: 0.875rem; color: var(--sub); line-height: 1.4; }
 .g-note { display: grid; gap: 6px; padding-left: 17px; border-left: 3px solid var(--k); }
-.g-note h4 { font-size: 0.9375rem; font-weight: 700; color: var(--sub); letter-spacing: 0; }
+.g-note h4 { font-size: 0.9375rem; font-weight: 700; color: var(--body2); letter-spacing: 0; }
 .g-note p { font-size: 1.0625rem; line-height: 1.45; }
 .g-foot { font-size: 0.9375rem; color: var(--sub); line-height: 1.5; }
 
