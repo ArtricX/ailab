@@ -477,13 +477,23 @@ var AIGO = {
     AIGO.phrases(h2, "이 소식을 함께 보고 싶은|분께 보내 보세요");
     text.appendChild(h2);
     var kakaoOn = !!AIGO_KAKAO_KEY;
+    // 카카오에 등록한 도메인(대표 주소)에서만 카카오 SDK를 불러요. PR 미리보기(pages.dev)·예비 주소에서 부르면 4019 오류가 나서, 그곳에선 버튼을 누르면 링크를 복사해요.
+    var kakaoHost = location.hostname === "aigo.artricx.com";
     text.appendChild(AIGO.el("p", "share-sub", kakaoOn
       ? "카카오톡으로 바로 보내거나, 주소를 복사해 문자·메일에 붙여 넣을 수 있어요."
       : "주소를 복사해 문자·메일·메신저에 붙여 넣을 수 있어요."));
     share.appendChild(text);
     var row = AIGO.el("div", "share-to");
-    var msg = AIGO.el("p", "share-msg");
+    // 안내는 화면 아래에 잠깐 떴다 사라지는 알림으로 보여 줘요. 카드 높이가 바뀌지 않아서 아래 글이 들썩이지 않아요.
+    var msg = AIGO.el("p", "share-toast");
     msg.setAttribute("role", "status");
+    var msgTimer = null;
+    function say(text) {
+      msg.textContent = text;
+      msg.classList.add("is-shown");
+      clearTimeout(msgTimer);
+      msgTimer = setTimeout(function () { msg.classList.remove("is-shown"); }, 3000);
+    }
     function btn(kind, label, cls) {
       var b = AIGO.el(kind === "sms" ? "a" : "button", "share-btn is-" + kind + (cls ? " " + cls : ""));
       if (kind !== "sms") b.type = "button";
@@ -492,8 +502,8 @@ var AIGO = {
       row.appendChild(b);
       return b;
     }
-    function copy(say) {
-      function done() { msg.textContent = say; }
+    function copy(text) {
+      function done() { say(text); }
       if (navigator.clipboard && window.isSecureContext) {
         navigator.clipboard.writeText(url).then(done, function () { window.prompt("이 주소를 복사하세요", url); });
       } else { window.prompt("이 주소를 복사하세요", url); }
@@ -501,7 +511,7 @@ var AIGO = {
     // 피그마 시안 순서: 휴대폰 카카오톡·문자·링크 복사·더보기 / 컴퓨터 카카오톡·링크 복사
     if (kakaoOn) {
       // 검수용 미리보기(아티팩트)는 등록한 도메인이 아니라서 SDK를 불러오지 않아요(누르면 링크 복사).
-      if (!window.Kakao && !window.AIGO_DATE) {
+      if (!window.Kakao && kakaoHost) {
         var ks = document.createElement("script");
         ks.src = AIGO_KAKAO_SDK;
         ks.crossOrigin = "anonymous";
@@ -511,8 +521,8 @@ var AIGO = {
       btn("kakao", "카카오톡").addEventListener("click", function () {
         ailabEvent("share-kakao");
         var K = window.Kakao;
-        if (!K || !K.isInitialized || !K.isInitialized() || !K.Share) {
-          copy("카카오톡을 열지 못해 링크를 복사했어요. 카카오톡 대화창에 붙여 넣으세요.");
+        if (!kakaoHost || !K || !K.isInitialized || !K.isInitialized() || !K.Share) {
+          copy(kakaoHost ? "카카오톡을 열지 못해 링크를 복사했어요. 카카오톡 대화창에 붙여 넣으세요." : "미리보기 주소라 링크를 복사했어요. 카카오톡 대화창에 붙여 넣으세요.");
           return;
         }
         var og = document.querySelector('meta[property="og:image"]');
@@ -540,7 +550,7 @@ var AIGO = {
       });
     }
     share.appendChild(row);
-    share.appendChild(msg);
+    document.body.appendChild(msg);
     put(share);
 
     // 다른 날 소식
