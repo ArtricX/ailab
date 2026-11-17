@@ -12,7 +12,10 @@
  */
 
 var SITE = 'https://aigo.artricx.com/';
-var HEADER_IMG = 'https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3e1f0aa6-1f1d-4441-9429-6e1ef166b1d1/email-header.png?t=1791969965';
+var EMAIL_ASSETS = SITE + 'assets/email/';   // 메일 그림 (저장소 assets/email/, 사이트에 올라가야 보여요)
+var HEADER_IMG = EMAIL_ASSETS + 'logo.png';    // 메일 머리 로고 (169×34로 보여 줘요, 그림은 3배 크기)
+var APP_STORE_URL = 'https://apps.apple.com/kr/app/id6827768014';
+var PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.artricx.aigo';
 var OWNER_EMAIL = 'uxdjsa@gmail.com';   // 알림을 받을 주소
 var TZ = 'Asia/Seoul';
 var SEND_FROM_MIN = 7 * 60;             // 07:00부터 보내요
@@ -229,13 +232,13 @@ function doGet(e) {
 
 function sendConfirmMail_(email, token) {
   var url = SITE + 'subscribe.html?a=confirm&t=' + encodeURIComponent(token);
-  var font = "font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif;";
-  var html = '<div style="max-width:560px;margin:0 auto;padding:24px 20px;' + font + 'color:#111111;word-break:keep-all;">' +
-    '<img src="' + HEADER_IMG + '" alt="아이고" width="560" style="display:block;width:100%;max-width:560px;height:auto;border:0;">' +
-    '<p style="font-size:20px;font-weight:800;margin:24px 0 8px;">구독을 확인해 주세요</p>' +
-    '<p style="font-size:16px;line-height:1.7;margin:0 0 20px;">아이고 아침 소식을 신청해 주셔서 고마워요. 아래 버튼을 누르면 구독이 확정되고, 매일 아침 7시에 AI 소식 세 가지를 보내 드려요.</p>' +
-    '<a href="' + url + '" style="display:inline-block;background:#000000;color:#ffffff;text-decoration:none;font-size:16px;font-weight:700;padding:14px 24px;border-radius:999px;">구독 확인하기</a>' +
-    '<p style="font-size:13px;line-height:1.7;color:#777777;margin:24px 0 0;">직접 신청하지 않으셨다면 이 메일은 그냥 지우셔도 돼요. 버튼을 누르지 않으면 메일을 보내지 않아요.</p></div>';
+  var html = '<div style="max-width:552px;margin:0 auto;padding:20px 20px 40px;' + MAIL_FONT + 'color:' + INK + ';word-break:keep-all;">' +
+    '<img src="' + HEADER_IMG + '" alt="아이고 AI-go" width="169" height="34" style="display:block;width:169px;height:34px;border:0;">' +
+    '<div style="height:1px;line-height:1px;font-size:0;background:' + LINE + ';margin:16px 0 0;">&nbsp;</div>' +
+    '<p style="font-size:26px;line-height:1.3;font-weight:800;margin:28px 0 10px;">구독을 확인해 주세요</p>' +
+    '<p style="font-size:17px;line-height:1.7;margin:0 0 24px;">아이고 아침 소식을 신청해 주셔서 고마워요. 아래 버튼을 누르면 구독이 확정되고, 매일 아침 7시에 AI 소식 세 가지를 보내 드려요.</p>' +
+    '<a href="' + url + '" style="display:block;background:' + INK + ';color:#ffffff;text-decoration:none;font-size:17px;line-height:20px;font-weight:700;text-align:center;padding:16px 20px;border-radius:14px;">구독 확인하기</a>' +
+    '<p style="font-size:13px;line-height:1.7;color:' + SUB + ';margin:24px 0 0;">직접 신청하지 않으셨다면 이 메일은 그냥 지우셔도 돼요. 버튼을 누르지 않으면 메일을 보내지 않아요.</p></div>';
   GmailApp.sendEmail(email, '[아이고] 구독을 확인해 주세요', '아래 주소를 열면 구독이 확정돼요.\n' + url, { htmlBody: html, name: '아이고' });
 }
 
@@ -351,64 +354,213 @@ function esc_(s) {
 }
 
 // ───────── 메일 모양 ─────────
+// 디자인: 피그마 '메일 · 뉴스레터 (휴대폰 375 / 컴퓨터 600)'. 컴퓨터 값을 기본으로 쓰고, 좁은 화면은 아래 @media로 줄여요.
+// 메일 앱은 대부분 Pretendard를 불러오지 못해서 기기 기본 한글 글꼴로 보여요.
+
+var MAIL_FONT = "font-family:'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif;";
+var INK = '#1B1B1F';   // 먹색 (글자, 버튼)
+var SUB = '#6B6760';   // 보조 글자
+var MUTED = '#8C887F'; // 흐린 글자
+var LINE = '#E8E8E5';  // 구분선
+
+// 소식 색 (색 가이드): bg·fg = 태그, tint·ink = 오늘의 말 칸
+var MAIL_COLORS = {
+  pink:   { bg: '#F29AA6', fg: '#1B1B1F', tint: '#FDEEF0', ink: '#B83F63' },
+  yellow: { bg: '#F6C93B', fg: '#1B1B1F', tint: '#FFF7DF', ink: '#8A6400' },
+  green:  { bg: '#23794B', fg: '#FFFFFF', tint: '#E8F5EE', ink: '#23794B' },
+  blue:   { bg: '#2348D6', fg: '#FFFFFF', tint: '#EDF1FD', ink: '#2348D6' }
+};
+var MAIL_COLOR_ORDER = ['pink', 'yellow', 'green', 'blue'];
+var ORDINALS = ['첫 번째', '두 번째', '세 번째', '네 번째', '다섯 번째'];
+
+/** 빨강(예전 글)이나 모르는 색은 그날 쓰지 않은 색으로 바꿔요: 분홍 → 노랑 → 초록 → 파랑 순서 */
+function mailColors_(names) {
+  var used = {};
+  names.forEach(function (c) { if (MAIL_COLORS[c]) used[c] = true; });
+  return names.map(function (c) {
+    if (MAIL_COLORS[c]) return MAIL_COLORS[c];
+    for (var i = 0; i < MAIL_COLOR_ORDER.length; i++) {
+      var k = MAIL_COLOR_ORDER[i];
+      if (!used[k]) { used[k] = true; return MAIL_COLORS[k]; }
+    }
+    return MAIL_COLORS.pink;
+  });
+}
+
+/** 구절 묶음: 구절 안에서는 줄이 바뀌지 않아요. sep을 '<br>'로 주면 구절마다 줄을 바꿔요. */
+function phrases_(obj, sep) {
+  var list = (obj && obj.phrases && obj.phrases.length) ? obj.phrases : [obj && obj.text || ''];
+  return list.map(function (p) { return '<span style="display:inline-block;max-width:100%;">' + esc_(p) + '</span>'; }).join(sep || ' ');
+}
+
+/** 본문: 숫자·단위 묶음(nobreak)이 두 줄로 갈라지지 않게 해요 */
+function bodyText_(obj) {
+  var html = esc_(obj && obj.text || '');
+  ((obj && obj.nobreak) || []).forEach(function (w) {
+    var e = esc_(w);
+    var i = html.indexOf(e);
+    if (i >= 0) html = html.slice(0, i) + '<span style="white-space:nowrap;">' + e + '</span>' + html.slice(i + e.length);
+  });
+  return html;
+}
 
 function buildMail_(post, opts) {
   opts = opts || {};
   var stories = post.stories || [];
   var subject = opts.subject || ('[아이고] ' + stories[0].title.text + ' 오늘의 AI 소식 3가지');
   var preview = opts.preview || stories.slice(1).map(function (s) { return s.title.text; }).join(', ') + ' 소식도 있어요.';
-  var dateLabel = post.date.slice(5, 7).replace(/^0/, '') + '월 ' + post.date.slice(8, 10).replace(/^0/, '') + '일 ' + post.weekday + '요일';
+  var dateShort = post.date.slice(5, 7).replace(/^0/, '') + '월 ' + post.date.slice(8, 10).replace(/^0/, '') + '일 ' + post.weekday + '요일';
+  var minutes = post.minutes || 5;
+  var storyColors = mailColors_(stories.map(function (s) { return s.color; }));
+  var words = (post.words || []).slice(0, 3);
+  var wordColors = mailColors_(words.map(function (w) { return w.color; }));
 
-  var font = "font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif;";
+  var IB = 'display:inline-block;';
   var h = [];
-  h.push('<div style="display:none;max-height:0;overflow:hidden;">' + esc_(preview) + '</div>');
-  h.push('<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#ffffff;"><tr><td align="center">');
-  h.push('<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;' + font + 'color:#111111;word-break:keep-all;">');
-  h.push('<tr><td style="padding:16px 20px 8px;"><a href="' + SITE + '"><img src="' + HEADER_IMG + '" alt="아이고" width="560" style="display:block;width:100%;max-width:560px;height:auto;border:0;"></a></td></tr>');
-  if (opts.noticeHtml) h.push('<tr><td style="padding:12px 20px 4px;">' + opts.noticeHtml + '</td></tr>');
-  // 큰 제목: 오늘 소식 세 가지를 한 줄로 묶은 글 제목 + 부제 (구절 단위로만 줄을 바꿔요)
-  var titlePhrases = (post.title.phrases && post.title.phrases.length) ? post.title.phrases : [post.title.text];
-  var titleHtml = titlePhrases.map(function (p) { return '<span style="display:inline-block;max-width:100%;word-break:keep-all;">' + esc_(p) + '</span>'; }).join(' ');
-  h.push('<tr><td style="padding:20px 20px 0;font-size:30px;line-height:1.3;font-weight:900;letter-spacing:-0.5px;">' + titleHtml + '</td></tr>');
-  h.push('<tr><td style="padding:10px 20px 8px;font-size:15px;line-height:1.6;color:#666666;">' + esc_(dateLabel) + ' 아침, 오늘의 AI 소식 세 가지</td></tr>');
-  h.push('<tr><td style="padding:8px 20px 4px;font-size:16px;line-height:1.7;">' + (opts.greeting || '좋은 아침이에요.') + ' 오늘의 AI 소식 세 가지를 쉽게 정리했어요. 읽는 데 약 ' + (post.minutes || 5) + '분이에요.</td></tr>');
+  function row(inner, cls, style) {   // 좌우 여백(24, 휴대폰 20)이 들어간 한 줄
+    h.push('<tr><td class="px' + (cls ? ' ' + cls : '') + '" style="padding:0 24px;' + (style || '') + '">' + inner + '</td></tr>');
+  }
+  function gap(px, cls) {             // 빈 간격
+    h.push('<tr><td class="' + (cls || '') + '" style="height:' + px + 'px;line-height:' + px + 'px;font-size:0;">&nbsp;</td></tr>');
+  }
+  function rule() { row('<div style="height:1px;line-height:1px;font-size:0;background:' + LINE + ';">&nbsp;</div>'); }
 
-  stories.forEach(function (s) {
+  h.push('<!doctype html><html lang="ko"><head><meta charset="utf-8">');
+  h.push('<meta name="viewport" content="width=device-width,initial-scale=1">');
+  h.push('<meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light only">');
+  h.push('<title>' + esc_(subject) + '</title>');
+  h.push('<style>' +
+    '@media only screen and (max-width:480px){' +
+    '.px{padding-left:20px !important;padding-right:20px !important;}' +
+    '.top{height:20px !important;line-height:20px !important;}' +
+    '.g40{height:32px !important;line-height:32px !important;}' +
+    '.g32{height:24px !important;line-height:24px !important;}' +
+    '.h1{font-size:28px !important;}' +
+    '.st{font-size:25px !important;}' +
+    '.greet{font-size:17px !important;}' +
+    '}</style></head>');
+  h.push('<body style="margin:0;padding:0;background:#ffffff;">');
+  h.push('<div style="display:none;max-height:0;overflow:hidden;opacity:0;">' + esc_(preview) + '</div>');
+  h.push('<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;"><tr><td align="center">');
+  h.push('<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;' + MAIL_FONT + 'color:' + INK + ';word-break:keep-all;">');
+
+  // 머리: 로고 → 구분선
+  gap(20, 'top');
+  row('<a href="' + SITE + '" style="text-decoration:none;"><img src="' + HEADER_IMG + '" alt="아이고 AI-go" width="169" height="34" style="display:block;width:169px;height:34px;border:0;"></a>');
+  gap(16);
+  rule();
+  if (opts.noticeHtml) { gap(20); row(opts.noticeHtml); }
+  gap(32, 'g32');
+
+  // 날짜 → 큰 제목(구절마다 줄 바꿈) → 인사
+  row('<div style="font-size:15px;line-height:20px;color:' + SUB + ';">' + esc_(dateShort) + ' 아침 · 읽는 데 약 ' + minutes + '분</div>');
+  gap(12);
+  row('<div class="h1" style="font-size:34px;line-height:1.28;font-weight:800;letter-spacing:-0.5px;color:' + INK + ';">' + phrases_(post.title, '<br>') + '</div>');
+  gap(14);
+  var greeting = opts.greeting || '좋은 아침이에요.';
+  // 두 문장을 따로 묶어서, 넓은 화면은 한 줄, 좁은 화면은 '좋은 아침이에요.' 뒤에서 줄이 바뀌어요.
+  row('<div class="greet" style="font-size:18px;line-height:1.5;color:' + SUB + ';">' +
+    '<span style="' + IB + '">' + esc_(greeting) + '</span> ' +
+    '<span style="' + IB + '">오늘의 AI 소식 세 가지를 쉽게 정리했어요.</span></div>');
+  gap(40, 'g40');
+  rule();
+
+  // 소식
+  stories.forEach(function (s, i) {
+    var c = storyColors[i];
     var mine = (s.qa || []).filter(function (x) { return x.q === '나한테는요?'; })[0];
-    h.push('<tr><td style="padding:20px 20px 0;"><hr style="border:0;border-top:1px solid #dddddd;margin:0;"></td></tr>');
+    gap(40, 'g40');
     if (s.illustration && s.illustration.url) {
-      h.push('<tr><td style="padding:20px 20px 0;"><a href="' + esc_(s.url) + '"><img src="' + esc_(s.illustration.url) + '" alt="' + esc_(s.illustration.alt) + '" width="560" style="display:block;width:100%;max-width:560px;height:auto;border:0;border-radius:8px;"></a></td></tr>');
+      row('<a href="' + esc_(s.url) + '" style="text-decoration:none;"><img src="' + esc_(s.illustration.url) + '" alt="' + esc_(s.illustration.alt) + '" width="552" style="display:block;width:100%;max-width:552px;height:auto;border:0;border-radius:16px;background:' + c.tint + ';"></a>');
+      gap(16);
     }
-    h.push('<tr><td style="padding:16px 20px 0;font-size:14px;font-weight:800;">[' + esc_(s.tag) + ']</td></tr>');
-    h.push('<tr><td style="padding:6px 20px 0;font-size:22px;line-height:1.4;font-weight:800;">' + esc_(s.title.text) + '</td></tr>');
-    h.push('<tr><td style="padding:8px 20px 0;font-size:16px;line-height:1.7;color:#444444;">' + esc_(s.dek.text) + '</td></tr>');
+    row('<table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>' +
+      '<td style="background:' + c.bg + ';border-radius:999px;padding:4px 10px;font-size:14px;line-height:17px;font-weight:700;color:' + c.fg + ';white-space:nowrap;">' + esc_(s.tag) + '</td>' +
+      '<td style="padding-left:8px;font-size:14px;line-height:17px;color:' + MUTED + ';white-space:nowrap;">' + (ORDINALS[i] || (i + 1) + '번째') + ' 소식</td>' +
+      '</tr></table>');
+    gap(16);
+    row('<div class="st" style="font-size:30px;line-height:1.35;font-weight:800;letter-spacing:-0.3px;color:' + INK + ';"><a href="' + esc_(s.url) + '" style="color:' + INK + ';text-decoration:none;">' + phrases_(s.title, '<br>') + '</a></div>');
+    gap(16);
+    row('<div style="font-size:17px;line-height:1.5;color:' + SUB + ';">' + phrases_(s.dek) + '</div>');
     if (mine) {
-      h.push('<tr><td style="padding:12px 20px 0;font-size:16px;line-height:1.7;"><strong>나한테는요?</strong> ' + esc_(mine.a.text) + '</td></tr>');
+      gap(16);
+      row('<table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>' +
+        '<td width="28" style="width:28px;vertical-align:middle;"><img src="' + EMAIL_ASSETS + 'icon-me.png" alt="" width="28" height="28" style="display:block;width:28px;height:28px;border:0;"></td>' +
+        '<td style="padding-left:8px;vertical-align:middle;font-size:19px;line-height:28px;font-weight:700;color:' + INK + ';">나한테는요?</td>' +
+        '</tr></table>');
+      gap(10);
+      row('<div style="font-size:17px;line-height:1.75;color:' + INK + ';">' + bodyText_(mine.a) + '</div>');
     }
-    h.push('<tr><td style="padding:16px 20px 0;"><a href="' + esc_(s.url) + '" style="display:inline-block;background:#000000;color:#ffffff;text-decoration:none;font-size:15px;font-weight:700;padding:12px 20px;border-radius:999px;">그림과 함께 자세히 읽기</a></td></tr>');
+    gap(16);
+    row('<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>' +
+      '<td align="center" bgcolor="' + INK + '" style="background:' + INK + ';border-radius:14px;">' +
+      '<a href="' + esc_(s.url) + '" style="display:block;padding:16px 20px;font-size:17px;line-height:20px;font-weight:700;color:#ffffff;text-decoration:none;text-align:center;border-radius:14px;">그림과 함께 자세히 읽기</a>' +
+      '</td></tr></table>');
+    gap(40, i === stories.length - 1 ? '' : 'g40');
+    rule();
   });
 
-  var words = (post.words || []).slice(0, 3);
+  // 오늘의 말
   if (words.length) {
-    h.push('<tr><td style="padding:24px 20px 0;"><hr style="border:0;border-top:1px solid #dddddd;margin:0;"></td></tr>');
-    h.push('<tr><td style="padding:20px 20px 0;font-size:18px;font-weight:800;">오늘의 말</td></tr>');
-    h.push('<tr><td style="padding:8px 20px 0;font-size:16px;line-height:1.8;"><ul style="margin:0;padding-left:20px;">');
-    words.forEach(function (w) { h.push('<li><strong>' + esc_(w.word) + '</strong>: ' + esc_(w.meaning.text) + '</li>'); });
-    h.push('</ul></td></tr>');
+    gap(32);
+    row('<div style="font-size:26px;line-height:31px;font-weight:700;color:' + INK + ';">오늘의 말</div>');
+    gap(16);
+    row('<div style="font-size:15px;line-height:20px;color:' + SUB + ';">오늘 소식에 나온 말을 쉽게 풀었어요.</div>');
+    words.forEach(function (w, i) {
+      var c = wordColors[i];
+      gap(i === 0 ? 16 : 12);
+      row('<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>' +
+        '<td bgcolor="' + c.tint + '" style="background:' + c.tint + ';border-radius:20px;padding:18px 16px 20px;">' +
+        '<div style="font-size:22px;line-height:1.35;font-weight:800;color:' + c.ink + ';">' + esc_(w.word) + '</div>' +
+        '<div style="padding-top:10px;font-size:16px;line-height:1.5;color:#3A3A40;">' + phrases_(w.meaning) + '</div>' +
+        '</td></tr></table>');
+    });
+    gap(32);
+  } else {
+    gap(32);
   }
 
+  // 앱 안내
+  row('<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>' +
+    '<td bgcolor="' + INK + '" style="background:' + INK + ';border-radius:20px;padding:24px 22px;">' +
+    '<img src="' + EMAIL_ASSETS + 'app-icon.png" alt="아이고 앱 아이콘" width="56" height="56" style="display:block;width:56px;height:56px;border:0;">' +
+    '<div style="padding-top:12px;font-size:22px;line-height:1.35;font-weight:800;color:#ffffff;">아이고 앱으로 받아 보세요</div>' +
+    '<div style="padding-top:12px;font-size:16px;line-height:1.5;color:#D9D4CA;">매일 아침 정한 시간에 알림으로<br>' +
+    '<span style="' + IB + '">알려 드려요.</span> <span style="' + IB + '">읽어도 되고, 들어도 돼요.</span></div>' +
+    '<div style="padding-top:10px;font-size:0;line-height:0;">' +
+    '<a href="' + APP_STORE_URL + '" style="display:inline-block;margin:8px 8px 0 0;"><img src="' + EMAIL_ASSETS + 'badge-app-store.png" alt="App Store에서 다운로드 하기" width="156" height="48" style="display:block;width:156px;height:48px;border:0;"></a>' +
+    '<a href="' + PLAY_STORE_URL + '" style="display:inline-block;margin:8px 0 0 0;"><img src="' + EMAIL_ASSETS + 'badge-google-play.png" alt="Google Play에서 다운로드" width="163" height="48" style="display:block;width:163px;height:48px;border:0;"></a>' +
+    '</div></td></tr></table>');
+  gap(32);
+  rule();
+  gap(24);
+
+  // 맺음말 · 보낸 곳 · 그만 받기
+  row('<div style="font-size:16px;line-height:1.5;color:' + SUB + ';">내일 아침 7시에 또 만나요.<br>' +
+    '<span style="' + IB + '">주변에 AI 소식이 궁금한 분이 있다면</span> <span style="' + IB + '">이 메일을 전달해 주세요.</span></div>');
+  gap(12);
   var unsub = opts.unsubscribeUrl
-    ? '<br>더 받고 싶지 않으면 <a href="' + esc_(opts.unsubscribeUrl) + '" style="color:#777777;">여기를 눌러 그만 받기</a>'
+    ? '<br>더 받고 싶지 않으면 <a href="' + esc_(opts.unsubscribeUrl) + '" style="color:' + SUB + ';text-decoration:underline;">그만 받기</a>'
     : '';
-  h.push('<tr><td style="padding:24px 20px 32px;font-size:16px;line-height:1.7;">내일 아침 7시에 또 만나요. 주변에 AI 소식이 궁금한 분이 있다면 이 메일을 전달해 주세요.<br><span style="font-size:13px;color:#777777;">아이고 AI-go · <a href="' + SITE + '" style="color:#777777;">' + SITE + '</a>' + unsub + '</span></td></tr>');
-  h.push('</table></td></tr></table>');
+  row('<div style="font-size:13px;line-height:1.6;color:' + SUB + ';">아이고 AI-go · <a href="' + SITE + '" style="color:' + SUB + ';text-decoration:none;">aigo.artricx.com</a>' + unsub + '</div>');
+  gap(40);
+  h.push('</table></td></tr></table></body></html>');
 
   var text = opts.noticeText ? [opts.noticeText, ''] : [];
-  text.push('좋은 아침이에요. ' + dateLabel + ', 오늘의 AI 소식 세 가지예요.', '');
-  stories.forEach(function (s) {
-    text.push('[' + s.tag + '] ' + s.title.text, s.dek.text, s.url, '');
+  text.push(greeting + ' 오늘의 AI 소식 세 가지를 쉽게 정리했어요.', dateShort + ' 아침 · 읽는 데 약 ' + minutes + '분', '');
+  stories.forEach(function (s, i) {
+    var mine = (s.qa || []).filter(function (x) { return x.q === '나한테는요?'; })[0];
+    text.push((ORDINALS[i] || (i + 1) + '번째') + ' 소식 [' + s.tag + '] ' + s.title.text, s.dek.text);
+    if (mine) text.push('나한테는요? ' + mine.a.text);
+    text.push('자세히 읽기: ' + s.url, '');
   });
-  text.push('내일 아침 7시에 또 만나요.');
+  if (words.length) {
+    text.push('오늘의 말');
+    words.forEach(function (w) { text.push('- ' + w.word + ': ' + w.meaning.text); });
+    text.push('');
+  }
+  text.push('아이고 앱으로 받아 보세요', 'App Store: ' + APP_STORE_URL, 'Google Play: ' + PLAY_STORE_URL, '');
+  text.push('내일 아침 7시에 또 만나요.', '아이고 AI-go · ' + SITE);
   if (opts.unsubscribeUrl) text.push('그만 받기: ' + opts.unsubscribeUrl);
 
   return { subject: subject, html: h.join('\n'), text: text.join('\n') };
