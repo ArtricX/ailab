@@ -10,10 +10,10 @@ import datetime as dt
 import html
 import json
 import pathlib
+import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 WEEKDAYS = ["월", "화", "수", "목", "금", "토", "일"]
-TICKET_COLORS = ["c-yellow", "c-blue", "c-pink", "c-green", "c-red"]
 COLORS = {"blue", "yellow", "pink", "green", "red"}
 
 
@@ -74,21 +74,42 @@ def og_meta(posts):
     return ""
 
 
-def feature(p, s, lead=False):
-    d = dt.date.fromisoformat(p["date"])
-    cls = "feature lead" if lead else "feature"
-    dek = f'\n          <p class="feature-dek">{ph(s["dek"])}</p>' if lead else ""
-    return (
-        f'        <a class="{cls}" href="posts/{p["date"]}.html#{esc(s["anchor"])}">\n'
-        f'          {art_open(s, "div", "feature-art", lazy=True)}'
-        f'<span class="side-label">{d.month:02d}.{d.day:02d} {esc(s["tag"])}</span></div>\n'
-        f'          <span class="feature-tag">{esc(s["tag"])}</span>\n'
-        f'          <h3>{ph(s["title"])}</h3>{dek}\n'
-        f'        </a>'
-    )
+ORDER = ["pink", "yellow", "green", "blue"]
+
+
+def shown_colors(colors):
+    """예전 글의 빨강은 소식 색이 아니에요: 그날 쓰지 않은 첫 색(분홍 → 노랑 → 초록 → 파랑)으로 보여 줘요."""
+    used = {c for c in colors if c in ORDER}
+    out = []
+    for c in colors:
+        if c in ORDER:
+            out.append(c)
+            continue
+        k = next((x for x in ORDER if x not in used), "pink")
+        used.add(k)
+        out.append(k)
+    return out
+
+
+def card(p, s, color, cls, lazy=True):
+    """소식 카드: 그림 + 태그 + 제목. 그림이 없는 날은 소식 색 지면을 둬요."""
+    src = thumb(s)
+    load = ' loading="lazy"' if lazy else ""
+    art = f'<div class="art"><img src="{esc(src)}" alt=""{load}></div>' if src else '<div class="art"></div>'
+    text = f'<span class="tag">{esc(s["tag"])}</span><h3>{ph(s["title"])}</h3>'
+    if cls != "today-lead":
+        text = f"<span>{text}</span>"
+    return f'        <a class="{cls} c-{color}" href="posts/{p["date"]}.html#{esc(s["anchor"])}">{art}{text}</a>'
+
+
+def day_label(d):
+    return f"{d.month}월 {d.day}일 {WEEKDAYS[d.weekday()]}요일"
 
 
 def main():
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from migrate_design import get_section
+
     posts = json.loads((ROOT / "posts.json").read_text(encoding="utf-8"))
     posts.sort(key=lambda p: p["date"], reverse=True)
     check(posts)
@@ -97,45 +118,57 @@ def main():
     d = dt.date.fromisoformat(today["date"])
     st = today["stories"]
     href = f"posts/{today['date']}.html"
-
-    features = (
-        feature(today, st[0], lead=True)
-        + '\n        <div class="feature-stack">\n'
-        + "\n".join(feature(today, s) for s in st[1:])
-        + "\n        </div>"
-    )
-    tickets = "\n".join(
-        f'        <div class="ticket {TICKET_COLORS[i % len(TICKET_COLORS)]}"><b>{esc(k["word"])}</b><span>{ph(k["meaning"])}</span></div>'
-        for i, k in enumerate(today.get("keywords", []))
+    colors = shown_colors([s["color"] for s in st])
+    today_html = "\n".join(
+        card(today, s, colors[i], "today-lead" if i == 0 else "today-row", lazy=i > 0) for i, s in enumerate(st)
     )
 
+    # 요일 띠: 오늘까지 7일. 글이 있는 날은 그 날짜 묶음으로, 오늘은 맨 위 오늘 소식으로 가요.
+    dates = {p["date"] for p in posts}
     rest = posts[1:]
+    first_old = rest[0]["date"] if rest else ""
+    week = ['        <nav class="week" aria-label="요일별 지난 소식">']
+    for k in range(6, -1, -1):
+        day = d - dt.timedelta(days=k)
+        iso = day.isoformat()
+        inner = f'<small>{"일월화수목금토"[(day.weekday() + 1) % 7]}</small>{day.day}'
+        if iso == today["date"]:
+            week.append(f'          <a href="#today" aria-label="{day_label(day)} 오늘 소식">{inner}</a>')
+        elif iso in dates:
+            cur = ' aria-current="true"' if iso == first_old else ' aria-current="false"'
+            week.append(f'          <a href="#d-{iso}"{cur} aria-label="{day_label(day)} 소식">{inner}</a>')
+        else:
+            week.append(f'          <span aria-hidden="true">{inner}</span>')
+    week.append("        </nav>")
+
     if rest:
-        items = []
-        for p in rest:
+        groups = []
+        for n, p in enumerate(rest):
             pd = dt.date.fromisoformat(p["date"])
-            items.append(
-                f'        <a class="archive-item" href="posts/{p["date"]}.html">'
-                f'<img src="{esc(thumb(p["stories"][0]))}" alt="" loading="lazy">'
-                f'<span class="archive-date">{pd.year}.{pd.month:02d}.{pd.day:02d} {WEEKDAYS[pd.weekday()]}</span>'
-                f'<span class="archive-title">{ph(p["title"])}</span></a>'
+            cs = shown_colors([s["color"] for s in p["stories"]])
+            items = "\n".join(card(p, s, cs[i], "day-item") for i, s in enumerate(p["stories"]))
+            hidden = " hidden" if n >= 7 else ""
+            groups.append(
+                f'      <div class="day" id="d-{p["date"]}"{hidden}>\n'
+                f'        <p class="day-label">{day_label(pd)}</p>\n'
+                f'        <div class="day-list">\n{items}\n        </div>\n'
+                f'      </div>'
             )
-        archive = '      <div class="archive">\n' + "\n".join(items) + "\n      </div>"
+        archive = "\n".join(groups)
+        if len(rest) > 7:
+            archive += '\n      <button class="btn more" type="button">더 지난 소식 보기</button>'
     else:
-        archive = '      <p class="empty">오늘이 첫 소식이에요. 내일부터 지난 소식이 여기에 쌓여요.</p>'
+        archive = '      <p class="day-label">오늘이 첫 소식이에요. 내일부터 지난 소식이 여기에 쌓여요.</p>'
 
     tpl = (ROOT / "templates" / "index.template.html").read_text(encoding="utf-8")
     out = (
-        tpl.replace("{{DATE_DOTS}}", f"{d.year}.{d.month:02d}.{d.day:02d}")
-        .replace("{{WEEKDAY}}", WEEKDAYS[d.weekday()])
+        tpl.replace("{{DATE_LONG}}", f"{d.year}년 {d.month}월 {d.day}일 {WEEKDAYS[d.weekday()]}요일")
         .replace("{{HREF}}", href)
-        .replace("{{SUMMARY}}", ph(today["summary"]))
-        .replace("{{HERO_TILES}}", "\n".join(
-            "      " + art_open(s, "a", "hero-tile", f' href="{href}#{esc(s["anchor"])}"') + "</a>" for s in st[:2]))
         .replace("{{OG_META}}", og_meta(posts))
-        .replace("{{FEATURES}}", features)
-        .replace("{{TICKETS}}", tickets)
+        .replace("{{TODAY}}", today_html)
+        .replace("{{WEEK}}", "\n".join(week))
         .replace("{{ARCHIVE}}", archive)
+        .replace("{{GET}}", get_section(""))
     )
     (ROOT / "index.html").write_text(out, encoding="utf-8")
     print(f"index.html 생성 완료: 오늘 {today['date']}, 지난 소식 {len(rest)}개")

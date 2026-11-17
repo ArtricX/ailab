@@ -1,3 +1,6 @@
+// 아이고 사이트 공통 스크립트 (2026-11 새 디자인)
+// 글자 크게, 구독 폼, 상단 메뉴 표시, 맨 위로, 소식 듣기, 공유하기, 다른 날 소식, 홈의 지난 소식, 바닥글 링크.
+
 // 글자 크게 보기: 누른 상태를 이 브라우저에 기억합니다.
 (function () {
   var root = document.documentElement;
@@ -6,10 +9,15 @@
   document.addEventListener("DOMContentLoaded", function () {
     var btn = document.querySelector(".text-toggle");
     if (!btn) return;
+    // 예전 글처럼 글자만 있는 버튼이면 '가+'와 이름을 넣어 줘요
+    if (!btn.querySelector(".tt-label")) btn.innerHTML = '<span class="tt-icon" aria-hidden="true">가+</span><span class="tt-label">글자 크게</span>';
+    var icon = btn.querySelector(".tt-icon"), label = btn.querySelector(".tt-label");
     function sync() {
       var on = root.classList.contains("large-text");
       btn.setAttribute("aria-pressed", on ? "true" : "false");
-      btn.textContent = on ? "글자 작게" : "글자 크게";
+      btn.setAttribute("aria-label", on ? "글자 작게" : "글자 크게");
+      if (icon) icon.textContent = on ? "가−" : "가+";
+      if (label) label.textContent = on ? "글자 작게" : "글자 크게";
     }
     sync();
     btn.addEventListener("click", function () {
@@ -103,12 +111,12 @@
       var acts = result.querySelector("[data-r=actions]");
       acts.textContent = "";
       if (key !== "wait") {
-        var home = el("a", "pill pill-ink", "오늘의 소식 보러 가기");
+        var home = el("a", "btn btn-ink", "오늘의 소식 보러 가기");
         home.href = "index.html";
         acts.appendChild(home);
       }
       if (key === "error" || key === "bye" || key === "offline" || key === "mail") {
-        var again = el("button", "pill", key === "mail" ? "다른 주소로 신청하기" : "다시 신청하기");
+        var again = el("button", "btn", key === "mail" ? "다른 주소로 신청하기" : "다시 신청하기");
         again.type = "button";
         again.addEventListener("click", showForm);
         acts.appendChild(again);
@@ -232,13 +240,38 @@ function ailabEvent(name) {
   try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "event/" + name, title: name, event: true }); } catch (e) {}
 }
 
-// 상단 메뉴: 지금 읽고 있는 소식에 표시하고, 좁은 화면에서는 그 칩이 보이도록 옆으로 밀어 줘요.
+// 공통 도우미
+var AIGO = {
+  WEEK: "일월화수목금토",
+  base: function () { return /\/posts\//.test(location.pathname) ? "../" : ""; },
+  label: function (d) {
+    var dt = new Date(d + "T00:00:00");
+    return (dt.getMonth() + 1) + "월 " + dt.getDate() + "일 " + AIGO.WEEK.charAt(dt.getDay()) + "요일";
+  },
+  phrases: function (el, s, sep) {
+    String(s || "").split("|").map(function (x) { return x.trim(); }).filter(Boolean).forEach(function (p, i) {
+      if (i) el.appendChild(sep === "br" ? document.createElement("br") : document.createTextNode(" "));
+      var span = document.createElement("span");
+      span.className = "ph";
+      span.textContent = p;
+      el.appendChild(span);
+    });
+  },
+  el: function (tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+};
+
+// 상단 메뉴: 지금 읽고 있는 소식에 밑줄을 그어요.
 (function () {
   document.addEventListener("DOMContentLoaded", function () {
     var bar = document.querySelector(".nav-links");
     if (!bar || !("IntersectionObserver" in window)) return;
     var links = Array.prototype.filter.call(bar.querySelectorAll("a"), function (a) {
-      return a.getAttribute("href").charAt(0) === "#";
+      return (a.getAttribute("href") || "").charAt(0) === "#";
     });
     var map = {};
     links.forEach(function (a) {
@@ -259,7 +292,6 @@ function ailabEvent(name) {
       entries.forEach(function (e) { if (e.isIntersecting) mark(map[e.target.id]); });
     }, { rootMargin: "-40% 0px -55% 0px" });
     Object.keys(map).forEach(function (id) { io.observe(document.getElementById(id)); });
-    // 맨 위로 올라오면 표시를 지워요.
     window.addEventListener("scroll", function () { if (window.scrollY < 200) mark(null); }, { passive: true });
   });
 })();
@@ -291,196 +323,303 @@ function ailabEvent(name) {
   });
 })();
 
-// 글 끝: 공유하기 버튼과 이전·다음 날 소식. 글 페이지(posts/날짜.html)에서만 만들어요.
+// 예전 인포그래픽(SVG)이 화면보다 넓으면 '옆으로 밀어 보세요' 안내를 붙여요.
 (function () {
-  var m = location.pathname.match(/posts\/(\d{4}-\d{2}-\d{2})\.html$/);
-  if (!m) return;
-  var today = m[1];
-  function plain(s) { return String(s || "").split("|").map(function (x) { return x.trim(); }).filter(Boolean); }
-  function phrases(el, s) {
-    plain(s).forEach(function (p, i) {
-      if (i) el.appendChild(document.createTextNode(" "));
-      var span = document.createElement("span");
-      span.className = "ph";
-      span.textContent = p;
-      el.appendChild(span);
+  document.addEventListener("DOMContentLoaded", function () {
+    Array.prototype.forEach.call(document.querySelectorAll(".figure-frame"), function (fr) {
+      if (fr.parentNode.querySelector(".figure-hint")) return;
+      var hint = AIGO.el("p", "figure-hint", "그림이 잘리면 옆으로 밀어 보세요.");
+      fr.parentNode.insertBefore(hint, fr.nextSibling);
+      function check() { hint.hidden = fr.scrollWidth <= fr.clientWidth + 2; }
+      check();
+      window.addEventListener("resize", check);
     });
-  }
-  function label(d) {
-    var dt = new Date(d + "T00:00:00");
-    return (dt.getMonth() + 1) + "월 " + dt.getDate() + "일 " + "일월화수목금토".charAt(dt.getDay()) + "요일";
+  });
+})();
+
+// 소식 듣기: 소식마다 '이 소식 듣기', 머리에 '오늘 소식 전체 듣기'. 녹음(data-audio)이 있는 글에서만 보여요.
+(function () {
+  function fmt(s) {
+    if (!isFinite(s) || s <= 0) return "";
+    s = Math.round(s);
+    return Math.floor(s / 60) + ":" + ("0" + (s % 60)).slice(-2);
   }
   document.addEventListener("DOMContentLoaded", function () {
-    var end = document.querySelector(".post-end");
-    if (!end) return;
+    var secs = Array.prototype.filter.call(document.querySelectorAll("section.story[data-audio]"), function (s) {
+      return s.getAttribute("data-audio");
+    });
+    if (!secs.length || typeof Audio === "undefined") return;
+    var audio = new Audio();
+    audio.preload = "none";
+    var queue = [], cur = -1, mode = null; // mode: 'one' | 'all'
+    var items = [], allBtn = null;
+
+    function title(sec) {
+      var h = sec.querySelector(".story-head h2");
+      return h ? h.textContent.replace(/\s+/g, " ").trim() : "";
+    }
+    function paint() {
+      var playing = !audio.paused && cur >= 0;
+      items.forEach(function (it, i) {
+        var on = playing && cur === i;
+        it.btn.classList.toggle("is-playing", on);
+        it.btn.querySelector(".listen-label").textContent = on ? "듣는 중 · 멈추기" : "이 소식 듣기";
+        it.btn.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      if (allBtn) {
+        var allOn = playing && mode === "all";
+        allBtn.classList.toggle("is-playing", allOn);
+        allBtn.querySelector(".listen-title").textContent = allOn ? "전체 듣는 중 · 멈추기" : "오늘 소식 전체 듣기";
+        allBtn.setAttribute("aria-pressed", allOn ? "true" : "false");
+      }
+    }
+    function start(i) {
+      cur = i;
+      audio.src = items[i].src;
+      audio.play().catch(function () {});
+    }
+    function stop() { audio.pause(); paint(); }
+    audio.addEventListener("play", paint);
+    audio.addEventListener("pause", paint);
+    audio.addEventListener("ended", function () {
+      if (mode === "all" && queue.length) { start(queue.shift()); return; }
+      cur = -1; mode = null; paint();
+    });
+
+    secs.forEach(function (sec, i) {
+      var head = sec.querySelector(".story-head");
+      if (!head) return;
+      var b = AIGO.el("button", "listen");
+      b.type = "button";
+      b.innerHTML = '<span class="listen-ic" aria-hidden="true"></span><span class="listen-label">이 소식 듣기</span><span class="listen-time"></span>';
+      b.setAttribute("aria-label", "이 소식 소리로 듣기: " + title(sec));
+      head.appendChild(b);
+      var it = { btn: b, src: sec.getAttribute("data-audio"), dur: 0 };
+      items.push(it);
+      var probe = new Audio();
+      probe.preload = "metadata";
+      probe.addEventListener("loadedmetadata", function () {
+        it.dur = probe.duration;
+        b.querySelector(".listen-time").textContent = fmt(probe.duration);
+        if (allBtn) {
+          var total = items.reduce(function (a, x) { return a + (x.dur || 0); }, 0);
+          if (items.every(function (x) { return x.dur; })) allBtn.querySelector(".listen-sub").textContent = "세 소식을 이어서 읽어 드려요 · 약 " + Math.max(1, Math.round(total / 60)) + "분";
+        }
+      });
+      probe.src = it.src;
+      b.addEventListener("click", function () {
+        var idx = items.indexOf(it);
+        if (cur === idx && !audio.paused) { stop(); return; }
+        if (cur === idx && audio.paused && audio.currentTime > 0 && mode === "one") { audio.play(); return; }
+        mode = "one"; queue = [];
+        ailabEvent("listen-story");
+        start(idx);
+      });
+    });
+
+    var h1 = document.querySelector(".post-hero h1");
+    if (h1 && items.length > 1) {
+      allBtn = AIGO.el("button", "listen listen-all");
+      allBtn.type = "button";
+      allBtn.innerHTML = '<span class="listen-ic" aria-hidden="true"></span><span class="listen-label"><span class="listen-title">오늘 소식 전체 듣기</span><span class="listen-sub">세 소식을 이어서 읽어 드려요</span></span>';
+      h1.parentNode.insertBefore(allBtn, h1.nextSibling);
+      allBtn.addEventListener("click", function () {
+        if (mode === "all" && !audio.paused) { stop(); return; }
+        if (mode === "all" && audio.paused && cur >= 0) { audio.play(); return; }
+        mode = "all";
+        queue = items.map(function (_, i) { return i; });
+        ailabEvent("listen-all");
+        start(queue.shift());
+      });
+    }
+  });
+})();
+
+// 글 끝: 공유하기 카드와 다른 날 소식. 글 페이지(posts/날짜.html)에서만 만들어요.
+(function () {
+  // 미리보기 파일은 window.AIGO_DATE로 날짜를 알려 줘요
+  var m = location.pathname.match(/posts\/(\d{4}-\d{2}-\d{2})\.html$/) || (window.AIGO_DATE ? [0, window.AIGO_DATE] : null);
+  if (!m) return;
+  var today = m[1];
+  var ICON = {
+    sms: '<svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M24.5 17.5C24.5 18.1188 24.2542 18.7123 23.8166 19.1499C23.379 19.5875 22.7855 19.8333 22.1667 19.8333H8.16667L3.5 24.5V5.83333C3.5 5.21449 3.74583 4.621 4.18342 4.18342C4.621 3.74583 5.21449 3.5 5.83333 3.5H22.1667C22.7855 3.5 23.379 3.74583 23.8166 4.18342C24.2542 4.621 24.5 5.21449 24.5 5.83333V17.5Z" stroke="#fff" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    link: '<svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M11.6667 15.166C12.1677 15.8358 12.8069 16.39 13.541 16.7911C14.275 17.1921 15.0868 17.4306 15.9211 17.4904C16.7554 17.5501 17.5929 17.4297 18.3766 17.1374C19.1603 16.845 19.872 16.3876 20.4633 15.796L23.9633 12.296C25.0259 11.1958 25.6139 9.72228 25.6006 8.1928C25.5873 6.66332 24.9738 5.20025 23.8923 4.1187C22.8107 3.03715 21.3477 2.42367 19.8182 2.41038C18.2887 2.39709 16.8152 2.98505 15.715 4.04764L13.7083 6.04264" stroke="#1B1B1F" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.3333 12.8334C15.8323 12.1636 15.1931 11.6094 14.459 11.2083C13.725 10.8073 12.9132 10.5688 12.0789 10.509C11.2446 10.4493 10.4072 10.5697 9.62343 10.862C8.83972 11.1544 8.12804 11.6119 7.53667 12.2034L4.03667 15.7034C2.97408 16.8036 2.38611 18.2771 2.39941 19.8066C2.4127 21.3361 3.02618 22.7992 4.10773 23.8807C5.18928 24.9623 6.65235 25.5757 8.18183 25.589C9.71131 25.6023 11.1848 25.0144 12.285 23.9518L14.28 21.9568" stroke="#1B1B1F" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    more: '<svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="14" r="1.4" stroke="#1B1B1F" stroke-width="2.33"/><circle cx="22.17" cy="14" r="1.4" stroke="#1B1B1F" stroke-width="2.33"/><circle cx="5.83" cy="14" r="1.4" stroke="#1B1B1F" stroke-width="2.33"/></svg>'
+  };
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var main = document.querySelector("main");
+    if (!main) return;
+    var anchor = document.getElementById("subscribe");
+    function put(node) { if (anchor && anchor.parentNode === main) main.insertBefore(node, anchor); else main.appendChild(node); }
+    var base = AIGO.base();
+    var site = window.AIGO_DATE ? "https://aigo.artricx.com/" : base; // 링크가 갈 곳
+    var url = window.AIGO_DATE ? site + "posts/" + today + ".html" : location.origin + location.pathname;
+    var h1 = document.querySelector(".post-hero h1");
+    var title = h1 ? h1.textContent.replace(/\s+/g, " ").trim() : document.title;
 
     // 공유하기
-    var row = document.createElement("div");
-    row.className = "share-row gutter";
-    var share = document.createElement("button");
-    share.type = "button";
-    share.className = "pill pill-ink";
-    share.textContent = "이 소식 공유하기";
-    var msg = document.createElement("span");
-    msg.className = "share-msg";
+    var share = AIGO.el("section", "share");
+    share.setAttribute("aria-labelledby", "share-title");
+    var text = AIGO.el("div");
+    var h2 = AIGO.el("h2");
+    h2.id = "share-title";
+    AIGO.phrases(h2, "이 소식을 함께 보고 싶은|분께 보내 보세요");
+    text.appendChild(h2);
+    text.appendChild(AIGO.el("p", "share-sub", "주소를 복사해 문자·메일·메신저에 붙여 넣을 수 있어요."));
+    share.appendChild(text);
+    var row = AIGO.el("div", "share-to");
+    var msg = AIGO.el("p", "share-msg");
     msg.setAttribute("role", "status");
-    row.appendChild(share);
-    row.appendChild(msg);
-    var sub = document.getElementById("subscribe");
-    (sub || end).parentNode.insertBefore(row, sub || end);
-    var url = location.origin + location.pathname;
-    share.addEventListener("click", function () {
-      ailabEvent("share");
-      var data = { title: document.title, text: "누구나 읽는 아침 AI 소식", url: url };
-      if (navigator.share) { navigator.share(data).catch(function () {}); return; }
-      function done() { msg.textContent = "주소를 복사했어요. 카톡이나 문자에 붙여 넣으세요."; }
+    function btn(kind, label, cls) {
+      var b = AIGO.el(kind === "sms" ? "a" : "button", "share-btn is-" + kind + (cls ? " " + cls : ""));
+      if (kind !== "sms") b.type = "button";
+      b.innerHTML = "<i>" + ICON[kind] + "</i>";
+      b.appendChild(document.createTextNode(label));
+      row.appendChild(b);
+      return b;
+    }
+    var sms = btn("sms", "문자", "only-phone");
+    sms.href = "sms:?&body=" + encodeURIComponent(title + " " + url);
+    sms.addEventListener("click", function () { ailabEvent("share-sms"); });
+    btn("link", "링크 복사").addEventListener("click", function () {
+      ailabEvent("share-copy");
+      function done() { msg.textContent = "링크를 복사했어요. 카톡이나 문자에 붙여 넣으세요."; }
       if (navigator.clipboard && window.isSecureContext) {
         navigator.clipboard.writeText(url).then(done, function () { window.prompt("이 주소를 복사하세요", url); });
       } else { window.prompt("이 주소를 복사하세요", url); }
     });
+    if (navigator.share) {
+      btn("more", "더보기").addEventListener("click", function () {
+        ailabEvent("share-more");
+        navigator.share({ title: document.title, text: title, url: url }).catch(function () {});
+      });
+    }
+    share.appendChild(row);
+    share.appendChild(msg);
+    put(share);
 
-    // 이전·다음 날 소식
-    fetch("../posts.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (posts) {
+    // 다른 날 소식
+    var other = AIGO.el("section", "other");
+    other.setAttribute("aria-labelledby", "other-title");
+    var oh = AIGO.el("h2", null, "다른 날 소식");
+    oh.id = "other-title";
+    other.appendChild(oh);
+    var cards = AIGO.el("div", "other-cards");
+    other.appendChild(cards);
+    var all = AIGO.el("a", "btn", "지난 소식 모두 보기");
+    all.href = site + "index.html#archive";
+    all.addEventListener("click", function () { ailabEvent("post-nav-archive"); });
+    other.appendChild(all);
+    put(other);
+
+    function card(p, when, cls) {
+      var a = AIGO.el("a", "other-card" + (cls ? " " + cls : ""));
+      var s = p && p.stories && p.stories[0];
+      if (p) {
+        a.href = (window.AIGO_DATE ? site + "posts/" : "") + p.date + ".html";
+        var src = s && (s.thumb || s.illust);
+        if (src) {
+          var img = AIGO.el("img");
+          img.src = /^(https?:|data:)/.test(src) ? src : base + src;
+          img.alt = "";
+          a.appendChild(img);
+        } else {
+          var na = AIGO.el("i", "no-art c-" + ((s && s.color) || "yellow"));
+          a.appendChild(na);
+        }
+      }
+      var box = AIGO.el("span");
+      box.appendChild(AIGO.el("span", "other-when", when));
+      var st = AIGO.el("strong");
+      if (p) AIGO.phrases(st, p.title, "br"); else st.textContent = "내일 아침 7시에 올라와요";
+      box.appendChild(st);
+      a.appendChild(box);
+      return a;
+    }
+    // 미리보기 파일은 글 목록을 window.AIGO_POSTS로 넣어 둬요
+    (window.AIGO_POSTS ? Promise.resolve(window.AIGO_POSTS) : fetch(base + "posts.json", { cache: "no-cache" }).then(function (r) { return r.json(); })).then(function (posts) {
+      posts = posts.slice();
       posts.sort(function (a, b) { return a.date < b.date ? 1 : -1; });
       var i = posts.findIndex(function (p) { return p.date === today; });
       if (i < 0) return;
       var older = posts[i + 1], newer = posts[i - 1];
-      var nav = document.createElement("nav");
-      nav.className = "post-nav gutter";
-      nav.setAttribute("aria-label", "다른 날 소식");
-      [[older, "prev", "이전 소식"], [newer, "next", "다음 소식"]].forEach(function (x) {
-        var p = x[0];
-        if (!p) {
-          // 빈 칸 대신 안내 카드: 다음 소식이 없으면 내일 아침 안내와 메일 받기, 이전 소식이 없으면 첫 소식 안내
-          var e = document.createElement("a");
-          e.className = "post-nav-link is-empty " + x[1];
-          var eb = document.createElement("span");
-          eb.className = "bracket";
-          var et = document.createElement("strong");
-          var em = document.createElement("span");
-          em.className = "post-nav-more";
-          if (x[1] === "next") {
-            e.href = "../subscribe.html";
-            eb.textContent = "다음 소식 · 내일 아침 7시";
-            phrases(et, "다음 소식은|내일 아침 7시에|올라와요");
-            em.textContent = "아침마다 메일로 받아보기";
-          } else {
-            e.href = "../index.html";
-            eb.textContent = "이전 소식";
-            phrases(et, "아이고의|첫 소식이에요");
-            em.textContent = "처음 화면으로 가기";
-          }
-          e.appendChild(eb);
-          e.appendChild(et);
-          e.appendChild(em);
-          e.addEventListener("click", function () { ailabEvent("post-nav-" + x[1] + "-empty"); });
-          nav.appendChild(e);
-          return;
-        }
-        var a = document.createElement("a");
-        a.className = "post-nav-link " + x[1];
-        a.href = p.date + ".html";
-        var b = document.createElement("span");
-        b.className = "bracket";
-        b.textContent = x[2] + " · " + label(p.date);
-        var t = document.createElement("strong");
-        phrases(t, p.title);
-        a.appendChild(b);
-        a.appendChild(t);
-        a.addEventListener("click", function () { ailabEvent("post-nav-" + x[1]); });
-        nav.appendChild(a);
-      });
-      end.parentNode.insertBefore(nav, end);
+      if (older) {
+        var c1 = card(older, "이전 소식 · " + AIGO.label(older.date));
+        c1.addEventListener("click", function () { ailabEvent("post-nav-prev"); });
+        cards.appendChild(c1);
+      }
+      if (newer) {
+        var c2 = card(newer, "다음 소식 · " + AIGO.label(newer.date));
+        c2.addEventListener("click", function () { ailabEvent("post-nav-next"); });
+        cards.appendChild(c2);
+      } else {
+        var d = new Date(today + "T00:00:00");
+        d.setDate(d.getDate() + 1);
+        var next = d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2);
+        var soon = card(null, "다음 소식 · " + AIGO.label(next), "is-soon");
+        soon.href = site + "subscribe.html";
+        soon.setAttribute("aria-label", "다음 소식은 내일 아침 7시에 올라와요. 메일로 받아 보기");
+        cards.appendChild(soon);
+      }
     }).catch(function () {});
   });
 })();
 
-// 메뉴가 화면보다 길면 오른쪽 끝을 흐리게 해서 옆으로 더 있다는 걸 알려요. 끝까지 밀면 흐림을 없애요.
+// 홈: 지난 소식의 요일 띠와 '더 지난 소식 보기'
 (function () {
   document.addEventListener("DOMContentLoaded", function () {
-    var bar = document.querySelector(".nav-links");
-    if (!bar) return;
-    function update() {
-      bar.classList.toggle("is-more", bar.scrollLeft + bar.clientWidth < bar.scrollWidth - 4);
-      bar.classList.toggle("is-less", bar.scrollLeft > 4);
+    var archive = document.getElementById("archive");
+    if (!archive) return;
+    var more = archive.querySelector(".more");
+    var days = Array.prototype.slice.call(archive.querySelectorAll(".day"));
+    var STEP = 7;
+    function shown() { return days.filter(function (d) { return !d.hidden; }).length; }
+    function reveal(n) {
+      days.forEach(function (d, i) { if (i < n) d.hidden = false; });
+      if (more) more.hidden = shown() >= days.length;
     }
-    bar.addEventListener("scroll", update, { passive: true });
-    window.addEventListener("resize", update);
-    document.addEventListener("click", function (e) { if (e.target.closest && e.target.closest(".text-toggle")) setTimeout(update, 50); });
-    update();
+    if (more) {
+      more.hidden = shown() >= days.length;
+      more.addEventListener("click", function () {
+        ailabEvent("archive-more");
+        var first = days.filter(function (d) { return d.hidden; })[0];
+        reveal(shown() + STEP);
+        if (first) { var a = first.querySelector("a"); if (a) a.focus({ preventScroll: true }); }
+      });
+    }
+    var week = archive.querySelector(".week");
+    if (!week) return;
+    var links = Array.prototype.slice.call(week.querySelectorAll("a[href^='#d-']"));
+    function mark(id) {
+      links.forEach(function (a) { a.setAttribute("aria-current", a.getAttribute("href") === "#" + id ? "true" : "false"); });
+    }
+    links.forEach(function (a) {
+      a.addEventListener("click", function () {
+        var t = document.getElementById(a.getAttribute("href").slice(1));
+        if (t && t.hidden) reveal(days.indexOf(t) + 1);
+        mark(t ? t.id : "");
+      });
+    });
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { if (e.isIntersecting) mark(e.target.id); });
+      }, { rootMargin: "-30% 0px -60% 0px" });
+      days.forEach(function (d) { io.observe(d); });
+    }
   });
 })();
 
-// 첫 화면 그림 두 장을 옆 글 묶음 높이(날짜 위 ~ 버튼 아래)에 맞춰 정사각형으로 맞춥니다.
-// 글 칸 너비가 바뀌면 제목 크기도 바뀌므로, 크기가 멈출 때까지 몇 번 다시 잽니다.
-(function () {
-  var WIDE = window.matchMedia("(min-width: 1200px)");
-  var MIN_TEXT = 420; // 글 칸이 이보다 좁아지지 않게(px)
-  function fit() {
-    var hero = document.querySelector(".hero");
-    if (!hero) return;
-    var date = hero.querySelector(".hero-text .bracket");
-    var pill = hero.querySelector(".hero-text .pill");
-    if (!date || !pill || !WIDE.matches) {
-      hero.classList.remove("is-fit");
-      hero.style.removeProperty("--hero-tile");
-      return;
-    }
-    var cs = getComputedStyle(hero);
-    var gap = parseFloat(cs.columnGap) || 0;
-    var inner = hero.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
-    var max = Math.floor((inner - MIN_TEXT - 2 * gap) / 2);
-    var size = parseFloat(hero.style.getPropertyValue("--hero-tile")) || 0;
-    hero.classList.add("is-fit");
-    for (var i = 0; i < 8; i++) {
-      var h = Math.round(pill.getBoundingClientRect().bottom - date.getBoundingClientRect().top);
-      var next = Math.max(0, Math.min(h, max));
-      if (Math.abs(next - size) < 1) break;
-      size = next;
-      hero.style.setProperty("--hero-tile", size + "px");
-    }
-    // 글 칸이 너무 좁아져 높이를 맞출 수 없으면(창이 좁고 글자를 크게 했을 때) 원래 배치로 돌아가요
-    var left = Math.round(pill.getBoundingClientRect().bottom - date.getBoundingClientRect().top);
-    if (Math.abs(left - size) > 2) {
-      hero.classList.remove("is-fit");
-      hero.style.removeProperty("--hero-tile");
-    }
-  }
-  function start() {
-    fit();
-    var hero = document.querySelector(".hero");
-    if (hero && "ResizeObserver" in window) {
-      var text = hero.querySelector(".hero-text");
-      var busy = false;
-      var ro = new ResizeObserver(function () {
-        if (busy) return;
-        busy = true;
-        requestAnimationFrame(function () { fit(); busy = false; });
-      });
-      ro.observe(hero);
-      if (text) ro.observe(text);
-    } else {
-      window.addEventListener("resize", fit);
-    }
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
-    if (WIDE.addEventListener) WIDE.addEventListener("change", fit);
-  }
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
-  else start();
-})();
-
-// 꼬리말에 '출처와 저작권 안내'와 '개인정보처리방침' 링크를 붙여요 (모든 페이지 공통)
+// 바닥글에 '출처와 저작권 안내'와 '개인정보처리방침' 링크가 없으면 붙여요 (모든 페이지 공통)
 (function () {
   function add() {
-    var main = document.querySelector(".footer .footer-main");
-    if (!main || main.querySelector(".footer-links")) return;
-    var base = /\/posts\//.test(location.pathname) ? "../" : "";
+    var foot = document.querySelector(".footer .footer-in, .footer .footer-main");
+    if (!foot || document.querySelector(".footer .footer-links")) return;
+    var base = AIGO.base();
     var p = document.createElement("p");
     p.className = "footer-links";
-    p.innerHTML =
-      '<a href="' + base + 'copyright.html">출처와 저작권 안내</a>' +
-      '<a href="' + base + 'privacy.html">개인정보처리방침</a>';
-    main.appendChild(p);
+    p.innerHTML = '아이고 AI-go · <a href="' + base + 'copyright.html">출처와 저작권 안내</a> · <a href="' + base + 'privacy.html">개인정보처리방침</a>';
+    foot.appendChild(p);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", add);
   else add();
