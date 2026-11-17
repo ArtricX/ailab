@@ -32,12 +32,25 @@
    - '이 소식 듣기'·'오늘 소식 전체 듣기' 버튼, '첫 번째 소식' 같은 순서 표시, 공유하기 카드, 다른 날 소식 카드는 `assets/site.js`·`style.css`가 자동으로 붙이니 글에 넣지 않습니다.
    - 소식마다 색을 하나 정합니다: `pink`, `yellow`, `green`, `blue` 네 가지 중 겹치지 않게(색 가이드, 2026-11-17부터. `red`는 소식 색이 아니에요. 예전 글의 `red`는 사이트·메일이 그날 안 쓴 색으로 바꿔 보여 줘요). 그 색을 칩(`c-`), 태그(`pill-tag c-`), 섹션(`a-`), 일러스트 배경에 똑같이 씁니다.
    - 제목, `<title>`, `description`, `og:*`, 날짜를 그날에 맞게 바꿉니다.
-5. **일러스트**: 소식마다 힉스필드(Higgsfield) 커넥터로 한 장씩 만듭니다. 세 장을 `generate_image_batch` 한 번으로 보내고 `jobs_wait`로 기다립니다.
-   - 모델과 설정(고정): `gpt_image_2_5`, `quality: high`, `resolution: 2k`, `aspect_ratio: 4:3`. 장당 약 2.75크레딧, 하루 약 8크레딧.
-   - 프롬프트 형식(고정): `Cute hand-drawn indie character illustration. Thick, slightly wobbly black brush-pen outlines, simple round characters with tiny dot eyes and deadpan expressions, pink round faces, flat muted colors, visible grainy paper texture, one solid <소식 색> background, lots of empty space, warm and friendly picture-book feel. Scene: <장면>. No text, no letters, no signature.` 배경색은 소식 색에 맞춥니다(blue → cobalt blue, yellow → mustard yellow, pink → soft pink, green → soft green).
-   - 특정 작가의 이름이나 캐릭터를 프롬프트에 넣지 않습니다. 화풍의 특징만 씁니다.
-   - 장면은 소식의 핵심을 친근한 비유 하나로(예: 텅 빈 폰을 보는 사람과 칩을 끌어안은 서버, 외줄 타는 로봇과 구멍 난 안전 그물). 동그란 사람과 작은 흰 로봇을 고정 등장인물로 씁니다. 실제 인물·로고·브랜드 캐릭터·실제 작품은 넣지 않습니다.
-   - 결과의 원본 주소(`.png`)를 글 페이지의 `story-art` 이미지와 `posts.json`의 `illust`에, `_min.webp` 주소를 `thumb`에 넣습니다. 저장소에 올라가면 GitHub Actions(`fetch-images.yml`)가 그림을 `assets/img/`에 저장하고 주소를 바꿉니다. 이미지 설명(alt)은 장면을 한국어로 적습니다.
+5. **일러스트** (2026-11-18부터 새 그림체. 프로젝트 문서 '아이고-일러스트-지침'이 원본이에요): 소식마다 힉스필드(Higgsfield) 커넥터로 **2장씩** 만들어 더 나은 1장을 고릅니다. 여섯 장을 `generate_image_batch` 한 번으로 보내고 `jobs_wait`로 기다립니다.
+   - 모델과 설정(고정): `gpt_image_2_5`, `quality: high`, `resolution: 2k`, `aspect_ratio: 4:3`(기본값이 low·1k라 꼭 적어요). 장당 약 2.75크레딧, 하루 약 16.5크레딧.
+   - **참고 그림 2장(고정)**: 요청마다 `medias`에 `{"role": "image_references", "value": <job id>}` 두 개를 넣습니다. 공통 `bc17be8d-9cd5-48d9-9d90-d35187cf1350` + 실내·생활 장면이면 `8b23404b-3c13-42fa-bee9-f02f7f04305f`, 그 밖이면 `99f4f530-e6e6-417e-b5ef-bab1def12dcb`.
+   - **그림체(고정)**: 친근하고 세련된 색연필 손그림. 연필 결이 보이는 질감, 깨끗한 검은 연필 윤곽선, 단순한 둥근 얼굴과 점 눈. 그날 소식 색을 넓은 배경 면(실내면 벽)으로 쓰고 코발트 파랑·노랑·코랄·크림을 포인트로 씁니다(green #2E9E62 · blue #2348D6 · yellow #F6C93B · pink #F29AA6).
+   - **주인공**: 40~60대 한국인, 옛날 세대 느낌이 아닌 단정하고 세련된 옷차림, 허리 위로 크게. 브랜드 마스코트·까치는 넣지 않습니다. 예전의 '동그란 사람과 작은 흰 로봇' 고정 등장인물은 쓰지 않아요.
+   - **연출**: 소식의 핵심을 한 문장으로 줄여 '상황' 하나로 보여 줍니다(사물만 늘어놓지 않기). 독자가 AI 덕을 보는 생활 장면으로(AI와 겨루거나 지는 구도 ✕). 공감 웃음 포인트 하나(과장·반전·대비·시큰둥한 반응). 화면 속 기능이면 화면으로, AI가 사람처럼 움직이면 로봇으로(사람과 같은 색연필 선·크기, 반질반질한 3D 금지), 결과만으로 충분하면 사람만. 회사 힌트는 옷·소품 색 하나로만. 소식의 '단, ~해요'도 되도록 소품으로(예: AI 화면은 실제와 다를 수 있음 → 진짜 작은 키위와 비교). 제목 없이 3초 안에 무슨 소식인지 짐작되면 통과.
+   - **프롬프트 뼈대(고정)**:
+     ```
+     Colored-pencil hand-drawn editorial illustration in exactly the same style as the reference images: visible pencil grain on paper, matte crayon-like fill, clean black pencil outlines of even weight, simple rounded faces with small black dot eyes, flat bold color fields, limited palette.
+     Palette: <소식 색 이름> wall/background (<HEX>), cobalt blue, warm yellow, coral red, cream.
+
+     SCENE: <장소>. <주인공: Korean person in their 40s-60s, neat modern clothes, position, large from the waist up>. <행동과 표정>. <소품>.
+     Humor: <웃음 포인트 한 줄>.
+
+     Rules: 4:3 landscape, characters large, uncluttered. Correct natural anatomy: exactly five fingers on each hand, natural joints, no extra limbs or hands, objects with correct shapes. No text, letters, numbers or logos anywhere.
+     ```
+   - 특정 작가의 이름이나 캐릭터를 프롬프트에 넣지 않습니다. 실제 인물·실제 로고·글자·회사 캐릭터·실제 작품은 넣지 않습니다(그림 안 글자는 깨져요. 달력은 빈 칸 + 동그라미 하나).
+   - **고르기 전에 직접 확인**: 두 장을 모두 열어 손가락 다섯 개·팔다리 개수·관절, 사물 모양, 글자·숫자·로고, 그림체 이탈(3D·사진풍), 인물 나이를 봅니다. 통과한 것 중 3초 테스트가 더 잘 되는 1장을 고르고, 둘 다 탈락이면 그 소식만 장면을 새로 써서 한 번 더 2장 만듭니다(그래도 안 되면 덜 나쁜 것을 쓰고 PR 설명에 적어요). 결함 있는 그림을 참고 그림으로 넣어 고치지 않습니다.
+   - 고른 결과의 원본 주소(`.png`)를 글 페이지의 `story-art` 이미지와 `posts.json`의 `illust`에, `_min.webp` 주소를 `thumb`에 넣습니다. 저장소에 올라가면 GitHub Actions(`fetch-images.yml`)가 그림을 `assets/img/`에 저장하고 주소를 바꿉니다. 이미지 설명(alt)은 장면을 한국어로 적습니다. PR 설명 점검 결과에 소식마다 고른 그림과 고른 까닭을 한 줄씩 적어요.
    - 크레딧이 부족하거나 생성이 실패하면 올리지 말고 PR 설명에 그 사실을 적습니다.
    **인포그래픽 = '한눈에 보기' 카드** (2026-11-18부터. 피그마 '아이고 시안' ⑤ 인포그래픽 v2): 소식마다 `aside.glance` 카드 하나를 `story-top` 다음, `story-body` 앞에 둡니다(예전 `figure.figure` 자리). SVG로 그리지 않습니다. 틀로 삼은 글에 SVG 인포그래픽이 있어도 따라 그리지 않고, 예약 작업 지시문의 '인라인 SVG 인포그래픽을 그린다'도 2026-11-18부터는 이 카드를 만든다는 뜻이에요.
    - **`templates/glance.example.html`의 칸을 그대로 골라 씁니다.** 칸 종류: 핵심 숫자(`g-key`, 꼭 하나), 숫자 줄(`g-stat`, 하나까지), 나눔 줄(`g-rule`), 묶음(`g-group`: 제목 `h4.g-head` + ✓ 목록 `g-list is-check` / ✕ 목록 `g-list is-x` / 점 목록 `g-list is-dot` / 이름표 줄 `g-facts` / 순서 `g-steps` / 막대 비교 `g-bars` 중 하나), 알아 두세요(`g-note`), 끝 줄(`g-foot`). 다른 태그·클래스·style을 새로 만들지 않습니다(앱 데이터가 멈춰요).
@@ -88,7 +101,7 @@
 
    ## 점검 결과
    - 줄내림 검사: 문제 0개
-   - 힉스필드: 그림 3장, 약 N크레딧
+   - 힉스필드: 그림 6장(소식마다 2장 중 1장), 약 N크레딧
    - 녹음: 3개, 약 N크레딧 (또는 실패한 이유)
    - 미리보기: 올림 (또는 못 올린 이유)
    ```
@@ -107,7 +120,7 @@
 
 ## 디자인 규칙 (2026-11 새 디자인, 피그마 '아이고 시안' ⑥ 블로그)
 - 스타일은 `assets/style.css` 하나만 씁니다. 글 페이지에 새 CSS를 넣지 않습니다.
-- 콘셉트: 흰 지면, 먹색 글자(#1B1B1F), 둥근 카드와 알약 버튼. 그림은 손으로 그린 듯한 친근한 캐릭터 일러스트.
+- 콘셉트: 흰 지면, 먹색 글자(#1B1B1F), 둥근 카드와 알약 버튼. 그림은 색연필로 그린 친근한 손그림 일러스트(2026-11-18부터, 40~60대 한국인 주인공).
 - 글꼴: Pretendard(jsdelivr), 숫자만 DM Sans(`assets/fonts/dm-sans-digits.woff2`, 저절로 적용). 예전 인포그래픽(SVG) 안의 글자만 Gothic A1·Archivo를 그대로 써요.
 - 색 가이드: 소식 색 네 가지(분홍·노랑·초록·파랑)마다 기본·태그·글자용·연한 면 색이 정해져 있어요(`style.css` 맨 위). 글자는 먹색과 회색, 색 글자는 '글자용' 색만. 빨강은 경고 표시에만, 산호(#F06A5C)는 로고 느낌표·단락 아이콘 같은 브랜드 포인트에만.
 - 배치: 휴대폰은 한 줄. 컴퓨터(900px 이상)에서 예전 글(SVG 인포그래픽)은 720px 한 줄로 그림이 읽히게, 새 인포그래픽(글로 된 '한눈에 보기' 카드, `aside.glance`)이 있는 글은 왼쪽 글 + 오른쪽 카드(카드는 제자리에 있고 화면을 따라다니지 않아요). 배치는 카드가 있는지로 저절로 정해져요.
