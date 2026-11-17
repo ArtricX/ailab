@@ -350,6 +350,7 @@ main > .story:nth-of-type(3) .story-kicker::after { content: "세 번째 소식"
 .share-btn i { width: 60px; height: 60px; border-radius: 50%; background: var(--paper); display: grid; place-items: center; }
 .share-btn svg { width: 28px; height: 28px; }
 .share-btn.is-sms i { background: #34C759; }
+.share-btn.is-kakao i { background: #FEE500; }
 .share-btn:hover i { filter: brightness(0.96); }
 .share-msg { font-size: 0.9375rem; font-weight: 700; min-height: 1.4em; }
 .share-msg:empty { display: none; }
@@ -403,13 +404,13 @@ main > .story:nth-of-type(3) .story-kicker::after { content: "세 번째 소식"
   /* 예전 글(SVG 인포그래픽): 한 줄 배치, 인포그래픽이 읽히는 너비 */
   .story:not(:has(> .glance)) { max-width: 720px; }
   .story:not(:has(> .glance)) .story-top { gap: 36px; }
-  /* 새 글('한눈에 보기' 카드): 왼쪽 글, 오른쪽 카드가 스크롤을 따라와요 */
+  /* 새 글('한눈에 보기' 카드): 왼쪽 글, 오른쪽 카드. 카드는 제자리에 있어요(화면을 따라다니지 않아요) */
   .story:has(> .glance) { grid-template-columns: minmax(0, 1fr) 360px; column-gap: 60px; row-gap: 36px; }
   .story:has(> .glance) .story-top { display: contents; }
   .story:has(> .glance) .story-art { grid-column: 1; grid-row: 1; }
   .story:has(> .glance) .story-head { grid-column: 1; grid-row: 2; }
   .story:has(> .glance) .story-body { grid-column: 1; grid-row: 3; }
-  .story:has(> .glance) > .glance { grid-column: 2; grid-row: 1 / span 3; align-self: start; position: sticky; top: 88px; }
+  .story:has(> .glance) > .glance { grid-column: 2; grid-row: 1 / span 3; align-self: start; }
   .soon { max-width: 720px; }
   .glossary { padding-top: 0; border-top: 0; }
   .glossary h2 { font-size: 2rem; }
