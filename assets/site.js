@@ -461,7 +461,10 @@ var AIGO = {
     function put(node) { if (anchor && anchor.parentNode === main) main.insertBefore(node, anchor); else main.appendChild(node); }
     var base = AIGO.base();
     var site = window.AIGO_DATE ? "https://aigo.artricx.com/" : base; // 링크가 갈 곳
-    var url = window.AIGO_DATE ? site + "posts/" + today + ".html" : location.origin + location.pathname;
+    // 예비 주소(artricx.github.io/ailab)에서 열어도 공유하는 링크는 늘 대표 주소(aigo.artricx.com)로 보내요.
+    var url = window.AIGO_DATE ? site + "posts/" + today + ".html"
+      : location.hostname === "artricx.github.io" ? "https://aigo.artricx.com" + location.pathname.replace(/^\/ailab/, "")
+      : location.origin + location.pathname;
     var h1 = document.querySelector(".post-hero h1");
     var title = h1 ? h1.textContent.replace(/\s+/g, " ").trim() : document.title;
 
