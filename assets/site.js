@@ -225,6 +225,11 @@
 
 // ───────── 사용성 ─────────
 
+// 카카오톡 공유: 카카오 개발자 콘솔(앱의 '앱 키 > JavaScript 키')의 키를 넣으면 공유하기 카드에 '카카오톡' 버튼이 생겨요.
+// 콘솔의 '플랫폼 > Web > 사이트 도메인'에 https://aigo.artricx.com 을 먼저 등록해야 해요. 이 키는 웹 페이지에 넣도록 만든 공개용 키예요.
+var AIGO_KAKAO_KEY = "";
+var AIGO_KAKAO_SDK = "https://t1.kakaocdn.net/kakao_js_sdk/2.8.4/kakao.min.js";
+
 // 방문자 집계(GoatCounter, 쿠키 없음). goatcounter.com에서 만든 코드를 넣으면 켜져요. 비어 있으면 아무것도 하지 않아요.
 var AILAB_GOATCOUNTER = "";
 (function () {
@@ -444,6 +449,7 @@ var AIGO = {
   var ICON = {
     sms: '<svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M24.5 17.5C24.5 18.1188 24.2542 18.7123 23.8166 19.1499C23.379 19.5875 22.7855 19.8333 22.1667 19.8333H8.16667L3.5 24.5V5.83333C3.5 5.21449 3.74583 4.621 4.18342 4.18342C4.621 3.74583 5.21449 3.5 5.83333 3.5H22.1667C22.7855 3.5 23.379 3.74583 23.8166 4.18342C24.2542 4.621 24.5 5.21449 24.5 5.83333V17.5Z" stroke="#fff" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     link: '<svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M11.6667 15.166C12.1677 15.8358 12.8069 16.39 13.541 16.7911C14.275 17.1921 15.0868 17.4306 15.9211 17.4904C16.7554 17.5501 17.5929 17.4297 18.3766 17.1374C19.1603 16.845 19.872 16.3876 20.4633 15.796L23.9633 12.296C25.0259 11.1958 25.6139 9.72228 25.6006 8.1928C25.5873 6.66332 24.9738 5.20025 23.8923 4.1187C22.8107 3.03715 21.3477 2.42367 19.8182 2.41038C18.2887 2.39709 16.8152 2.98505 15.715 4.04764L13.7083 6.04264" stroke="#1B1B1F" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.3333 12.8334C15.8323 12.1636 15.1931 11.6094 14.459 11.2083C13.725 10.8073 12.9132 10.5688 12.0789 10.509C11.2446 10.4493 10.4072 10.5697 9.62343 10.862C8.83972 11.1544 8.12804 11.6119 7.53667 12.2034L4.03667 15.7034C2.97408 16.8036 2.38611 18.2771 2.39941 19.8066C2.4127 21.3361 3.02618 22.7992 4.10773 23.8807C5.18928 24.9623 6.65235 25.5757 8.18183 25.589C9.71131 25.6023 11.1848 25.0144 12.285 23.9518L14.28 21.9568" stroke="#1B1B1F" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    kakao: '<svg viewBox="16 16 28 28" fill="none" aria-hidden="true"><path d="M40.5 29.4167C40.504 30.9565 40.1442 32.4756 39.45 33.85C38.6268 35.4971 37.3614 36.8824 35.7954 37.8509C34.2293 38.8193 32.4246 39.3327 30.5833 39.3334C29.0435 39.3374 27.5245 38.9776 26.15 38.2834L19.5 40.5L21.7167 33.85C21.0224 32.4756 20.6627 30.9565 20.6667 29.4167C20.6674 27.5754 21.1807 25.7707 22.1492 24.2047C23.1176 22.6387 24.503 21.3732 26.15 20.55C27.5245 19.8558 29.0435 19.496 30.5833 19.5H31.1667C33.5984 19.6342 35.8952 20.6606 37.6173 22.3827C39.3394 24.1048 40.3658 26.4016 40.5 28.8334V29.4167Z" stroke="#1B1B1F" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     more: '<svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="14" r="1.4" stroke="#1B1B1F" stroke-width="2.33"/><circle cx="22.17" cy="14" r="1.4" stroke="#1B1B1F" stroke-width="2.33"/><circle cx="5.83" cy="14" r="1.4" stroke="#1B1B1F" stroke-width="2.33"/></svg>'
   };
 
@@ -466,7 +472,10 @@ var AIGO = {
     h2.id = "share-title";
     AIGO.phrases(h2, "이 소식을 함께 보고 싶은|분께 보내 보세요");
     text.appendChild(h2);
-    text.appendChild(AIGO.el("p", "share-sub", "주소를 복사해 문자·메일·메신저에 붙여 넣을 수 있어요."));
+    var kakaoOn = !!AIGO_KAKAO_KEY;
+    text.appendChild(AIGO.el("p", "share-sub", kakaoOn
+      ? "카카오톡으로 바로 보내거나, 주소를 복사해 문자·메일에 붙여 넣을 수 있어요."
+      : "주소를 복사해 문자·메일·메신저에 붙여 넣을 수 있어요."));
     share.appendChild(text);
     var row = AIGO.el("div", "share-to");
     var msg = AIGO.el("p", "share-msg");
@@ -479,18 +488,48 @@ var AIGO = {
       row.appendChild(b);
       return b;
     }
+    function copy(say) {
+      function done() { msg.textContent = say; }
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(url).then(done, function () { window.prompt("이 주소를 복사하세요", url); });
+      } else { window.prompt("이 주소를 복사하세요", url); }
+    }
+    // 피그마 시안 순서: 휴대폰 카카오톡·문자·링크 복사·더보기 / 컴퓨터 카카오톡·링크 복사
+    if (kakaoOn) {
+      if (!window.Kakao) {
+        var ks = document.createElement("script");
+        ks.src = AIGO_KAKAO_SDK;
+        ks.crossOrigin = "anonymous";
+        ks.onload = function () { try { if (!window.Kakao.isInitialized()) window.Kakao.init(AIGO_KAKAO_KEY); } catch (e) {} };
+        document.head.appendChild(ks);
+      }
+      btn("kakao", "카카오톡").addEventListener("click", function () {
+        ailabEvent("share-kakao");
+        var K = window.Kakao;
+        if (!K || !K.isInitialized || !K.isInitialized() || !K.Share) {
+          copy("카카오톡을 열지 못해 링크를 복사했어요. 카카오톡 대화창에 붙여 넣으세요.");
+          return;
+        }
+        var og = document.querySelector('meta[property="og:image"]');
+        var img = og ? og.content.replace(/^https:\/\/artricx\.github\.io\/ailab\//, "https://aigo.artricx.com/") : "";
+        var dsc = document.querySelector('meta[property="og:description"]');
+        var link = { mobileWebUrl: url, webUrl: url };
+        var content = { title: title, description: dsc ? dsc.content : "누구나 읽는 아침 AI 소식", link: link };
+        if (img) { content.imageUrl = img; content.imageWidth = 1200; content.imageHeight = 630; }
+        try {
+          K.Share.sendDefault({ objectType: "feed", content: content, buttons: [{ title: "소식 보기", link: link }] });
+        } catch (e) { copy("카카오톡을 열지 못해 링크를 복사했어요. 카카오톡 대화창에 붙여 넣으세요."); }
+      });
+    }
     var sms = btn("sms", "문자", "only-phone");
     sms.href = "sms:?&body=" + encodeURIComponent(title + " " + url);
     sms.addEventListener("click", function () { ailabEvent("share-sms"); });
     btn("link", "링크 복사").addEventListener("click", function () {
       ailabEvent("share-copy");
-      function done() { msg.textContent = "링크를 복사했어요. 카톡이나 문자에 붙여 넣으세요."; }
-      if (navigator.clipboard && window.isSecureContext) {
-        navigator.clipboard.writeText(url).then(done, function () { window.prompt("이 주소를 복사하세요", url); });
-      } else { window.prompt("이 주소를 복사하세요", url); }
+      copy("링크를 복사했어요. 카톡이나 문자에 붙여 넣으세요.");
     });
     if (navigator.share) {
-      btn("more", "더보기").addEventListener("click", function () {
+      btn("more", "더보기", "only-phone").addEventListener("click", function () {
         ailabEvent("share-more");
         navigator.share({ title: document.title, text: title, url: url }).catch(function () {});
       });

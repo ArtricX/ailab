@@ -350,6 +350,7 @@ main > .story:nth-of-type(3) .story-kicker::after { content: "세 번째 소식"
 .share-btn i { width: 60px; height: 60px; border-radius: 50%; background: var(--paper); display: grid; place-items: center; }
 .share-btn svg { width: 28px; height: 28px; }
 .share-btn.is-sms i { background: #34C759; }
+.share-btn.is-kakao i { background: #FEE500; }
 .share-btn:hover i { filter: brightness(0.96); }
 .share-msg { font-size: 0.9375rem; font-weight: 700; min-height: 1.4em; }
 .share-msg:empty { display: none; }
