@@ -228,7 +228,7 @@
 // 카카오톡 공유: 카카오디벨로퍼스 [앱] > [플랫폼 키] > [JavaScript 키]의 키를 넣으면 공유하기 카드에 '카카오톡' 버튼이 생겨요.
 // 먼저 같은 화면의 [JavaScript SDK 도메인]과 [앱] > [제품 링크 관리] > [웹 도메인]에 https://aigo.artricx.com 을 등록해요.
 // 이 키는 웹 페이지에 넣도록 만든 공개용 키예요(등록한 도메인에서만 동작).
-var AIGO_KAKAO_KEY = "";
+var AIGO_KAKAO_KEY = "aa274e87a72ff661d65475c4bb4b05a5";
 var AIGO_KAKAO_SDK = "https://t1.kakaocdn.net/kakao_js_sdk/2.8.4/kakao.min.js";
 
 // 방문자 집계(GoatCounter, 쿠키 없음). goatcounter.com에서 만든 코드를 넣으면 켜져요. 비어 있으면 아무것도 하지 않아요.
@@ -497,7 +497,8 @@ var AIGO = {
     }
     // 피그마 시안 순서: 휴대폰 카카오톡·문자·링크 복사·더보기 / 컴퓨터 카카오톡·링크 복사
     if (kakaoOn) {
-      if (!window.Kakao) {
+      // 검수용 미리보기(아티팩트)는 등록한 도메인이 아니라서 SDK를 불러오지 않아요(누르면 링크 복사).
+      if (!window.Kakao && !window.AIGO_DATE) {
         var ks = document.createElement("script");
         ks.src = AIGO_KAKAO_SDK;
         ks.crossOrigin = "anonymous";
