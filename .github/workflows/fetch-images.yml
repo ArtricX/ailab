@@ -11,6 +11,7 @@ on:
       - "assets/site.js"
       - "scripts/build.py"
       - "scripts/extract_content.py"
+      - "scripts/migrate_design.py"
   workflow_dispatch:
 
 permissions:
@@ -32,6 +33,9 @@ jobs:
         run: pip install pillow beautifulsoup4
       - name: 그림 내려받기
         run: python3 scripts/fetch_images.py
+      - name: 예전 모양 글을 새 디자인 머리·끝으로 맞추기
+        # 새 디자인(2026-11) 전 틀로 만든 글이 들어와도 상단 메뉴·받아 보기·바닥글을 맞춰요. 이미 맞는 글은 그대로 둬요.
+        run: python3 scripts/migrate_design.py || echo "::warning::새 디자인으로 맞추지 못한 글이 있어요. 위 기록을 확인하세요."
       - name: 홈 화면 다시 만들기
         run: python3 scripts/build.py
       - name: 앱용 데이터 만들기

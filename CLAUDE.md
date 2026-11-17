@@ -28,12 +28,13 @@
      - 소식마다 `p.source`에 원문 링크를 꼭 답니다.
      - 저작권 문의나 게시 중단 요청이 오면, 해당 부분을 먼저 내리고 운영자에게 알립니다.
 4. **글 쓰기**: `posts/2026-10-07.html`을 틀로 삼아 `posts/YYYY-MM-DD.html`을 만듭니다.
-   - 구조: 머리(날짜 대괄호 라벨, 큰 제목, 소식 3개 칩) → 소식 3개(각각 일러스트, 태그, 제목, 한 줄 요약, 인포그래픽, 쉽게 알아보기: 무슨 일이에요? / 왜 그래요? / 나한테는요?, 출처) → 곧 만날지도 몰라요(선택) → 오늘의 말(꼬리표 3~5개) → 구독 칸(`id="subscribe"` 섹션, 틀 글에서 그대로 복사. 버튼은 `../subscribe.html` 구독 페이지로 연결) → 끝.
-   - 소식마다 색을 하나 정합니다: `blue`, `yellow`, `pink`, `green`, `red` 중 겹치지 않게. 그 색을 칩(`c-`), 태그(`pill-tag c-`), 섹션(`a-`), 일러스트 배경에 똑같이 씁니다.
+   - 구조: 상단 메뉴(`header.nav`, 소식 바로 가기 링크를 그날 앵커로) → 머리(`post-hero`: '홈 › M월 D일 소식' 길 표시, 날짜 줄 `YYYY년 M월 D일 X요일 · 읽는 데 약 N분`, 큰 제목, 소식 3개 칩) → 소식 3개(각각 일러스트, 태그, 제목, 한 줄 요약, 인포그래픽, 쉽게 알아보기: 무슨 일이에요? / 왜 그래요? / 나한테는요?, 출처) → 곧 만날지도 몰라요(선택) → 오늘의 말(꼬리표 3~5개) → 받아 보기(`section.get#subscribe`, 앱 안내 + 메일 안내, 틀 글에서 그대로 복사) → 바닥글.
+   - '이 소식 듣기'·'오늘 소식 전체 듣기' 버튼, '첫 번째 소식' 같은 순서 표시, 공유하기 카드, 다른 날 소식 카드는 `assets/site.js`·`style.css`가 자동으로 붙이니 글에 넣지 않습니다.
+   - 소식마다 색을 하나 정합니다: `pink`, `yellow`, `green`, `blue` 네 가지 중 겹치지 않게(색 가이드, 2026-11-17부터. `red`는 소식 색이 아니에요. 예전 글의 `red`는 사이트·메일이 그날 안 쓴 색으로 바꿔 보여 줘요). 그 색을 칩(`c-`), 태그(`pill-tag c-`), 섹션(`a-`), 일러스트 배경에 똑같이 씁니다.
    - 제목, `<title>`, `description`, `og:*`, 날짜를 그날에 맞게 바꿉니다.
 5. **일러스트**: 소식마다 힉스필드(Higgsfield) 커넥터로 한 장씩 만듭니다. 세 장을 `generate_image_batch` 한 번으로 보내고 `jobs_wait`로 기다립니다.
    - 모델과 설정(고정): `gpt_image_2_5`, `quality: high`, `resolution: 2k`, `aspect_ratio: 4:3`. 장당 약 2.75크레딧, 하루 약 8크레딧.
-   - 프롬프트 형식(고정): `Cute hand-drawn indie character illustration. Thick, slightly wobbly black brush-pen outlines, simple round characters with tiny dot eyes and deadpan expressions, pink round faces, flat muted colors, visible grainy paper texture, one solid <소식 색> background, lots of empty space, warm and friendly picture-book feel. Scene: <장면>. No text, no letters, no signature.` 배경색은 소식 색에 맞춥니다(blue → cobalt blue, yellow → mustard yellow, pink → soft pink, green → soft green, red → tomato red).
+   - 프롬프트 형식(고정): `Cute hand-drawn indie character illustration. Thick, slightly wobbly black brush-pen outlines, simple round characters with tiny dot eyes and deadpan expressions, pink round faces, flat muted colors, visible grainy paper texture, one solid <소식 색> background, lots of empty space, warm and friendly picture-book feel. Scene: <장면>. No text, no letters, no signature.` 배경색은 소식 색에 맞춥니다(blue → cobalt blue, yellow → mustard yellow, pink → soft pink, green → soft green).
    - 특정 작가의 이름이나 캐릭터를 프롬프트에 넣지 않습니다. 화풍의 특징만 씁니다.
    - 장면은 소식의 핵심을 친근한 비유 하나로(예: 텅 빈 폰을 보는 사람과 칩을 끌어안은 서버, 외줄 타는 로봇과 구멍 난 안전 그물). 동그란 사람과 작은 흰 로봇을 고정 등장인물로 씁니다. 실제 인물·로고·브랜드 캐릭터·실제 작품은 넣지 않습니다.
    - 결과의 원본 주소(`.png`)를 글 페이지의 `story-art` 이미지와 `posts.json`의 `illust`에, `_min.webp` 주소를 `thumb`에 넣습니다. 저장소에 올라가면 GitHub Actions(`fetch-images.yml`)가 그림을 `assets/img/`에 저장하고 주소를 바꿉니다. 이미지 설명(alt)은 장면을 한국어로 적습니다.
@@ -96,27 +97,33 @@
 - 앱 '아이고'(저장소 ArtricX/aigo-app)는 `posts.json`과 `content/날짜.json`을 그대로 읽습니다. 앱 개인정보처리방침은 `privacy.html`입니다.
 - 그래서 **글 구조를 틀과 똑같이 지킵니다**: 소식은 `section.story`(id = 앵커, 녹음이 있으면 `data-audio`) 3개, 각 소식에 `story-head`(태그·h2·dek), `figure.figure` 안 인라인 SVG 하나, `.qa` 안에 질문 3개(h3+p), `p.source` 출처. 오늘의 말은 `section#words`의 `.ticket`. 새 구획을 만들고 싶으면 먼저 `extract_content.py`도 함께 고칩니다.
 
-## 디자인 규칙
+## 디자인 규칙 (2026-11 새 디자인, 피그마 '아이고 시안' ⑥ 블로그)
 - 스타일은 `assets/style.css` 하나만 씁니다. 글 페이지에 새 CSS를 넣지 않습니다.
-- 콘셉트: 흰 지면 위 잡지·진(zine). 그림은 손으로 그린 듯한 친근한 캐릭터 일러스트(굵게 떨리는 선, 동그란 얼굴, 단색 배경, 종이 질감). 홈의 마스코트 띠(외치는 까치 + 노란 말풍선), 대괄호 라벨, 원색 다섯 가지, 꼬리표 스티커, 그림 왼쪽 위의 날짜·분야 태그(검은 바탕 흰 글자, 가로 한 줄).
-- 글자는 검정과 회색만. 색은 일러스트, 인포그래픽, 칩과 스티커가 담당합니다.
+- 콘셉트: 흰 지면, 먹색 글자(#1B1B1F), 둥근 카드와 알약 버튼. 그림은 손으로 그린 듯한 친근한 캐릭터 일러스트.
+- 글꼴: Pretendard(jsdelivr), 숫자만 DM Sans(`assets/fonts/dm-sans-digits.woff2`, 저절로 적용). 예전 인포그래픽(SVG) 안의 글자만 Gothic A1·Archivo를 그대로 써요.
+- 색 가이드: 소식 색 네 가지(분홍·노랑·초록·파랑)마다 기본·태그·글자용·연한 면 색이 정해져 있어요(`style.css` 맨 위). 글자는 먹색과 회색, 색 글자는 '글자용' 색만. 빨강은 경고 표시에만, 산호(#F06A5C)는 로고 느낌표·단락 아이콘 같은 브랜드 포인트에만.
+- 배치: 휴대폰은 한 줄. 컴퓨터(900px 이상)에서 예전 글(SVG 인포그래픽)은 720px 한 줄로 그림이 읽히게, 새 인포그래픽(글로 된 '한눈에 보기' 카드, `aside.glance`)이 있는 글은 왼쪽 글 + 오른쪽 카드(스크롤을 따라와요). 배치는 카드가 있는지로 저절로 정해져요.
 - 밝은 지면 하나로만 디자인했습니다(다크 모드 없음).
-- 이모지와 01/02 같은 번호 매기기는 쓰지 않습니다(순서도처럼 진짜 순서일 때만 화살표로).
+- 이모지와 01/02 같은 번호 매기기는 쓰지 않습니다(순서도처럼 진짜 순서일 때만).
+- 머리·끝(상단 메뉴, 받아 보기, 바닥글)을 고칠 일이 생기면 `scripts/migrate_design.py`를 고치고 모든 글에 다시 적용합니다.
 
 ## 로고
 - 이름은 **아이고**(AI + go, 놀랄 때 쓰는 말 '아이고'). 영문으로 쓸 때는 중국 전자 브랜드 aigo와 헷갈리지 않게 `AI-go`로 씁니다.
 - 마스코트는 안테나 달린 까치. 로고는 외치는 포즈(부리를 벌리고 날개를 입가에 댄 모습)입니다. 원본 주소는 `assets/brand/sources.json`, 파일은 GitHub Actions(`brand.yml`, `scripts/make_brand.py`)가 만듭니다. 손으로 고치지 않습니다.
-- 쓰는 곳: 상단 메뉴 로고(`assets/brand/lockup.png`: 까치 + 손글씨 '아이고!', 한 장 이미지), 홈 마스코트 띠(`symbol-512.png` + 말풍선), 파비콘·홈 화면 아이콘(`favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`), 메일 보내는 구글 계정 프로필 사진(`icon-1024.png`). 메일 머리 로고만 새 디자인 로고(`assets/email/logo.png`, 피그마에서 내보낸 그림)를 먼저 씁니다.
+- 새 디자인 로고(2026-11): 두 얼굴 심볼 + 배민 도현 '아이고!'(느낌표만 산호). 피그마에서 내보낸 그림이라 손으로 고치지 않고, 바꿀 때는 피그마에서 다시 내보냅니다.
+  - 상단 메뉴 로고 `assets/ui/logo.png`(130×34로 보여 줌) + 옆에 작은 회색 `AI-go` 글자, 파비콘·홈 화면 아이콘 `assets/ui/favicon.ico`·`favicon-32.png`·`apple-touch-icon.png`(앱 아이콘 B-2), 메일 머리 `assets/email/logo.png`, 받아 보기의 앱 아이콘 `assets/email/app-icon.png`.
+- 예전 까치 로고(`assets/brand/`)는 메일 보내는 구글 계정 프로필 사진(`icon-1024.png`) 등에 남아 있어요.
 - 새 페이지를 만들 때도 틀 글의 `<head>` 아이콘 줄(`rel="icon"`, `apple-touch-icon`)과 `header.nav`의 로고를 그대로 둡니다.
-- 이름 뜻(AI + go)이 전해지도록 '아이고' 옆에 `AI-go`를 함께 씁니다: 상단 로고 옆 작은 회색 `AI-go`(좁은 화면에서는 숨김), 홈 마스코트 말풍선 'AI + go = 아이고!'(설명은 말풍선 안 두 줄로 짧게), 꼬리말 '아이고 AI-go', 홈 제목. 로고 이미지의 alt도 '아이고 AI-go'.
-- 꼬리말(검은 바탕)에는 까치가 묻히므로 글자 '아이고 AI-go'만 씁니다.
+- 이름 뜻(AI + go)이 전해지도록 '아이고' 옆에 `AI-go`를 함께 씁니다: 상단 로고 옆 작은 회색 `AI-go`, 바닥글 '아이고 AI-go'. 로고 이미지의 alt도 '아이고 AI-go'.
 
 ## 사용성 규칙 (예쁜 것보다 먼저)
-누구나 편하게 쓰는 것이 가장 중요합니다. 아래 기능은 `assets/site.js`와 `assets/style.css`가 모든 페이지에 자동으로 붙이므로, 글 페이지에 따로 넣지 않습니다. 틀 글의 머리(`header.nav`)와 끝(`.post-end`, `#subscribe`)만 그대로 두면 됩니다.
-- **상단 메뉴**: 늘 화면 위에 붙어 있고, 휴대폰에서도 로고 · 글자 메뉴 · 글자 크게가 한 줄에 놓입니다. 메뉴가 넘치면 옆으로 밀어 보고 오른쪽 끝이 흐려집니다. 지금 읽는 소식에 밑줄이 생깁니다. '글자 크게'는 테두리 없는 회색 버튼으로 메뉴와 구분합니다. 메뉴 링크는 `#앵커`로 각 소식 섹션 `id`와 맞춥니다.
+누구나 편하게 쓰는 것이 가장 중요합니다. 아래 기능은 `assets/site.js`와 `assets/style.css`가 모든 페이지에 자동으로 붙이므로, 글 페이지에 따로 넣지 않습니다. 틀 글의 머리(`header.nav`, `post-hero`)와 끝(`#subscribe`, `footer`)만 그대로 두면 됩니다.
+- **상단 메뉴**: 늘 화면 위에 붙어 있어요. 휴대폰에서는 로고 · 지난 소식 · 가+(글자 크게), 컴퓨터에서는 소식 바로 가기 · 오늘의 말 · 지난 소식 · 글자 크게 · 앱으로 받기. 지금 읽는 소식에 밑줄이 생깁니다. 메뉴 링크는 `#앵커`로 각 소식 섹션 `id`와 맞춥니다.
+- **듣기**: 녹음(`data-audio`)이 있는 글은 소식마다 '이 소식 듣기'(길이 표시), 머리에 '오늘 소식 전체 듣기'(세 소식을 이어서)가 저절로 생겨요.
 - **맨 위로 버튼**: 한 화면쯤 내려가면 오른쪽 아래에 '맨 위로'가 나타납니다.
-- **글 끝**: '이 소식 공유하기' 버튼과 이전·다음 날 소식 카드가 `posts.json`을 읽어 자동으로 붙습니다.
+- **글 끝**: 공유하기 카드(문자·링크 복사·더보기)와 '다른 날 소식'(이전·다음 날 카드 + 지난 소식 모두 보기)이 `posts.json`을 읽어 받아 보기 앞에 자동으로 붙습니다. 카카오톡 공유는 카카오 앱 키가 생기면 넣어요.
+- **홈**: `scripts/build.py`가 `templates/index.template.html`로 만들어요. 위에 오늘 소식(대표 소식 + 나머지 둘 + '오늘 소식 전체 읽기'), 아래 지난 소식(요일 띠, 날짜별 묶음, '더 지난 소식 보기'로 한 주씩 더 보여 줌), 받아 보기.
 - **공유 미리보기 그림**: GitHub Actions(`fetch_images.py`)가 글마다 첫 그림으로 `assets/og/날짜.jpg`(1200×630)를 만들고 `og:image`를 넣습니다. 손으로 넣지 않아도 됩니다.
-- **그림이 빠진 날**: `story-art`에 img가 없으면 소식 색 지면으로 채워집니다. 홈은 `posts.json`의 `illust`가 빈 값이면 같은 방식으로 그립니다. 그래도 그림 누락은 발행 전 경고 대상입니다.
+- **그림이 빠진 날**: `story-art`에 img가 없으면 소식 색 지면으로 채워집니다. 홈은 `posts.json`의 `illust`·`thumb`가 빈 값이면 같은 방식으로 그립니다. 그래도 그림 누락은 발행 전 경고 대상입니다.
 - **누르는 곳의 크기**: 링크와 버튼은 손가락으로 누르기 쉽게 높이 44px 안팎을 지킵니다. 새로 만드는 버튼도 같습니다.
 - **방문자 집계**: `assets/site.js`의 `AILAB_GOATCOUNTER`에 GoatCounter 코드를 넣으면 켜집니다(쿠키 없음). 맨 위로·공유·이전/다음 누름도 함께 집계됩니다.

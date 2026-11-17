@@ -17,7 +17,8 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-MIME = {".webp": "image/webp", ".png": "image/png", ".jpg": "image/jpeg", ".mp3": "audio/mpeg", ".ico": "image/x-icon"}
+MIME = {".webp": "image/webp", ".png": "image/png", ".jpg": "image/jpeg", ".mp3": "audio/mpeg", ".ico": "image/x-icon",
+        ".svg": "image/svg+xml", ".woff2": "font/woff2"}
 
 
 def data_uri(path):
@@ -25,11 +26,46 @@ def data_uri(path):
     return f"data:{mime};base64," + base64.b64encode(path.read_bytes()).decode()
 
 
+def pretendard():
+    """Pretendard 글꼴 파일. 아티팩트는 jsdelivr 글꼴을 못 불러와서 파일 안에 넣어요(npm 레지스트리에서 받아요)."""
+    import subprocess, tempfile
+    d = pathlib.Path(tempfile.gettempdir()) / "ailab-fonts"
+    f = d / "pretendard/package/dist/web/variable/woff2/PretendardVariable.woff2"
+    if not f.exists():
+        d.mkdir(exist_ok=True)
+        tgz = subprocess.run(["npm", "pack", "pretendard@1.3.9", "--silent"], cwd=d, capture_output=True, text=True, check=True).stdout.strip().splitlines()[-1]
+        (d / "pretendard").mkdir(exist_ok=True)
+        subprocess.run(["tar", "xzf", tgz, "-C", "pretendard"], cwd=d, check=True)
+    return f
+
+
+def neighbors(date):
+    """'다른 날 소식' 카드용 글 목록(오늘·이전·다음 글만, 그림은 파일 안에)."""
+    import json
+    posts = sorted(json.loads((ROOT / "posts.json").read_text(encoding="utf-8")), key=lambda p: p["date"], reverse=True)
+    i = next((k for k, p in enumerate(posts) if p["date"] == date), None)
+    if i is None:
+        return []
+    keep = [posts[k] for k in (i - 1, i, i + 1) if 0 <= k < len(posts)]
+    for p in keep:
+        s = p["stories"][0]
+        f = ROOT / (s.get("thumb") or s.get("illust") or "")
+        if s.get("thumb") or s.get("illust"):
+            s["thumb"] = data_uri(f) if f.is_file() else ""
+    return keep
+
+
 def build(date):
+    import json
     page = (ROOT / "posts" / f"{date}.html").read_text(encoding="utf-8")
     css = (ROOT / "assets/style.css").read_text(encoding="utf-8")
     js = (ROOT / "assets/site.js").read_text(encoding="utf-8")
-    fonts = re.search(r'<link rel="stylesheet" href="(https://fonts\.googleapis\.com[^"]+)">', page).group(1)
+    m = re.search(r'<link rel="stylesheet" href="(https://fonts\.googleapis\.com[^"]+)">', page)
+    fonts = f'<link rel="stylesheet" href="{m.group(1)}">' if m else ""
+    # 스타일 안의 그림·글꼴 주소(ui/…, fonts/…)도 파일 안에 넣어요
+    css = re.sub(r'url\("((?:ui|fonts)/[^"]+)"\)', lambda u: f'url("{data_uri(ROOT / "assets" / u.group(1))}")', css)
+    css = f"@font-face{{font-family:'Pretendard Variable';font-weight:45 920;font-display:swap;src:url('{data_uri(pretendard())}') format('woff2-variations');}}\n" + css
+    posts_js = "window.AIGO_DATE = " + json.dumps(date) + ";\nwindow.AIGO_POSTS = " + json.dumps(neighbors(date), ensure_ascii=False) + ";"
 
     body = re.search(r"<body>(.*)</body>", page, re.S).group(1)
     missing = []
@@ -56,17 +92,15 @@ def build(date):
         f'<span>{date} · 아직 사이트에 올라가지 않은 글이에요. PR을 병합하면 이대로 발행돼요.</span></div>'
     )
     html = f"""<title>아이고 미리보기</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="{fonts}">
+{fonts}
 <style>
 {css}
 /* 미리보기 전용: 사이트는 밝은 지면 하나로만 디자인했어요(다크 모드 없음) */
 :root {{ color-scheme: light; }}
-html, body {{ background: #FFFFFF; color: #111111; }}
+html, body {{ background: #FFFFFF; color: #1B1B1F; }}
 .preview-band {{ display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline;
   padding: 10px max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px));
-  background: #111111; color: #FFFFFF; font: 500 14px/1.5 "Gothic A1", system-ui, sans-serif; }}
+  background: #111111; color: #FFFFFF; font: 500 14px/1.5 "Pretendard Variable", system-ui, sans-serif; }}
 .preview-band b {{ font-weight: 900; }}
 .preview-band span {{ color: #D6D6D6; }}
 </style>
@@ -74,6 +108,7 @@ html, body {{ background: #FFFFFF; color: #111111; }}
 {banner}
 {body}
 <script>
+{posts_js}
 {js}
 </script>
 """

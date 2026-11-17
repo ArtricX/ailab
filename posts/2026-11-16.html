@@ -11,36 +11,40 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="../assets/brand/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" href="../assets/brand/favicon-32.png">
-<link rel="apple-touch-icon" href="../assets/brand/apple-touch-icon.png">
+<link rel="icon" href="../assets/ui/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="../assets/ui/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/ui/apple-touch-icon.png">
 <meta name="theme-color" content="#FFFFFF">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Gothic+A1:wght@400;500;700;800;900&display=swap">
-<link rel="stylesheet" href="../assets/style.css?v=a7171ef572">
-<script src="../assets/site.js?v=ecce9d8f3b"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="../assets/style.css?v=6b7432beab">
+<script src="../assets/site.js?v=7e3fcd814c"></script>
 </head>
 <body>
 <div class="page">
-  <header class="nav gutter">
-    <a class="logo" href="../index.html"><img class="logo-lockup" src="../assets/brand/lockup.png" alt="아이고 AI-go" width="1200" height="530"><span class="logo-en" aria-hidden="true">AI-go</span></a>
-        <nav class="nav-links" aria-label="이 글의 소식">
-      <a href="#ai-shopping">AI 홈쇼핑</a>
-      <a href="#exam-ai">시험 부정</a>
-      <a href="#sea-ice">북극 얼음</a>
-      <a href="#words">오늘의 말</a>
-      <a href="../subscribe.html#sub-form">구독</a>
-    </nav>
-    <button class="text-toggle" type="button" id="text-toggle" aria-pressed="false">글자 크게</button>
+  <header class="nav">
+    <div class="nav-in">
+      <a class="logo" href="../index.html"><img src="../assets/ui/logo.png" alt="아이고 AI-go" width="130" height="34"><span class="logo-en" aria-hidden="true">AI-go</span></a>
+      <nav class="nav-links" aria-label="바로 가기">
+        <a href="#ai-shopping">AI 홈쇼핑</a>
+        <a href="#exam-ai">시험 부정</a>
+        <a href="#sea-ice">북극 얼음</a>
+        <a href="#words">오늘의 말</a>
+        <span class="nav-sep" aria-hidden="true"></span>
+        <a href="../index.html#archive">지난 소식</a>
+      </nav>
+      <a class="nav-archive" href="../index.html#archive">지난 소식</a>
+      <button class="text-toggle" type="button" id="text-toggle" aria-pressed="false"><span class="tt-icon" aria-hidden="true">가+</span><span class="tt-label">글자 크게</span></button>
+      <a class="nav-app" href="#subscribe">앱으로 받기</a>
+    </div>
   </header>
 
-    <main>
-    <header class="post-hero gutter">
-      <div class="post-meta">
-        <span class="bracket">2026.11.16 월</span>
-        <span class="muted">읽는 데 약 5분</span>
-      </div>
+    <main class="post-main">
+    <header class="post-hero">
+      <nav class="crumb" aria-label="지금 있는 곳"><a href="../index.html">홈</a><span aria-hidden="true">›</span><span>11월 16일 소식</span></nav>
+      <p class="post-date">2026년 11월 16일 월요일 · 읽는 데 약 5분</p>
       <h1><span class="ph">AI가 만든 홈쇼핑,</span> <span class="ph">시험 부정 대책,</span> <span class="ph">북극 얼음 예보</span></h1>
       <div class="chips">
         <a class="chip c-pink" href="#ai-shopping"><em>생활</em>AI 홈쇼핑</a>
@@ -262,6 +266,7 @@
 
     <section class="glossary gutter" id="words" aria-labelledby="words-title">
       <h2 id="words-title">오늘의 말</h2>
+      <p class="glossary-sub">오늘 소식에 나온 말을 쉽게 풀었어요.</p>
       <div class="tags">
         <div class="ticket c-pink"><b>쇼호스트</b><span><span class="ph">홈쇼핑에서</span> <span class="ph">상품을 소개하는 사람</span></span></div>
         <div class="ticket c-blue"><b>전수조사</b><span><span class="ph">하나도 빠짐없이</span> <span class="ph">모두 살피는 일</span></span></div>
@@ -270,32 +275,30 @@
       </div>
     </section>
 
-    <section class="subscribe subscribe-post gutter" id="subscribe" aria-labelledby="subscribe-title">
-      <div class="subscribe-box">
-        <div class="subscribe-head">
-          <span class="bracket">구독</span>
-          <h2 id="subscribe-title"><span class="line">AI 소식을</span><span class="line">메일함으로</span></h2>
-        </div>
-        <div class="subscribe-body">
-          <p><span class="ph">매일 아침 7시,</span> <span class="ph">오늘의 AI 소식 세 가지를</span> <span class="ph">메일 한 통으로 보내 드려요.</span></p>
-          <a class="pill pill-ink subscribe-cta" href="../subscribe.html#sub-form">메일로 받아보기</a>
-          <p class="subscribe-note"><span class="ph">하루 한 통만 보내요.</span> <span class="ph">그만 받고 싶으면</span> <span class="ph">메일 맨 아래에서</span> <span class="ph">언제든 끊을 수 있어요.</span></p>
+    <section class="get" id="subscribe" aria-label="아이고 받아 보기">
+      <div class="get-app">
+        <img class="get-icon" src="../assets/email/app-icon.png" alt="" width="56" height="56">
+        <h2><span class="ph">아이고 앱으로</span> <span class="ph">받아 보세요</span></h2>
+        <p><span class="ph">매일 아침 정한 시간에</span> <span class="ph">알림으로 알려 드려요.</span> <span class="ph">읽어도 되고,</span> <span class="ph">들어도 돼요.</span></p>
+        <div class="stores">
+          <a href="https://apps.apple.com/kr/app/id6827768014"><img src="../assets/email/badge-app-store.png" alt="App Store에서 다운로드 하기" width="156" height="48"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.artricx.aigo"><img src="../assets/email/badge-google-play.png" alt="Google Play에서 다운로드" width="163" height="48"></a>
         </div>
       </div>
+      <div class="get-mail">
+        <h2><span class="ph">메일로</span> <span class="ph">받아 보기</span></h2>
+        <p><span class="ph">매일 아침 7시,</span> <span class="ph">오늘의 AI 소식 세 가지를</span> <span class="ph">메일 한 통으로 보내 드려요.</span> <span class="ph">하루 한 통만 보내고,</span> <span class="ph">언제든 끊을 수 있어요.</span></p>
+        <a class="btn btn-yellow" href="../subscribe.html#sub-form">메일로 받아보기</a>
+      </div>
     </section>
-
-    <div class="post-end gutter">
-      <a class="pill" href="../index.html">처음으로</a>
-      <span class="bracket">내일 아침 7시에 다음 소식</span>
-    </div>
   </main>
 
   <footer class="footer">
-    <div class="footer-main">
-      <strong>아이고 <span class="footer-en">AI-go</span></strong>
-      <p>글은 AI가 쓰고 사람이 확인한 뒤 올려요. 숫자와 내용은 출처의 보도를 바탕으로 해요.</p>
+    <div class="footer-in">
+      <p class="footer-next">내일 아침 7시에 다음 소식이 올라와요.</p>
+      <p class="footer-about">글은 AI가 쓰고 사람이 확인한 뒤 올려요. 숫자와 내용은 출처의 보도를 바탕으로 해요.</p>
+      <p class="footer-links">아이고 AI-go · <a href="../copyright.html">출처와 저작권 안내</a> · <a href="../privacy.html">개인정보처리방침</a></p>
     </div>
-    <a class="footer-cta" href="../subscribe.html#sub-form">아침 소식 메일로 받기</a>
   </footer>
 </div>
 </body>
