@@ -1,0 +1,57 @@
+<!--
+  '한눈에 보기' 카드 예시 틀 (인포그래픽, 2026-11-18부터)
+  - 소식 섹션(section.story) 바로 아래, story-top 다음 · story-body 앞에 둡니다(예전 figure.figure 자리).
+  - 색은 소식 섹션의 a-색 클래스를 저절로 따라가요. 카드 안에 색·글꼴·style 속성을 넣지 않습니다(막대의 --v만 예외).
+  - 아래에서 필요한 칸만 골라 씁니다. 맨 위 라벨과 핵심 숫자(g-key)는 꼭, 나머지는 2~3칸.
+  - 한 줄을 넘을 수 있는 글은 구절로 나눕니다. 목록·순서·이름표 칸 안에서는
+    <span><span class="ph">…</span> <span class="ph">…</span></span> 처럼 한 번 감싸요(칸이 가로로 놓이는 구조라서).
+  - ✓ ✕ 점 · 순서 숫자 · 막대는 CSS가 그려요. 글에 기호를 쓰지 않습니다.
+  - 앱용 그림은 GitHub Actions(render_glance.py)가 이 카드를 찍어 만들어요.
+-->
+<aside class="glance" aria-label="한눈에 보기">
+  <p class="glance-label">한눈에 보기</p>
+
+  <!-- 핵심 숫자 (꼭 하나): 출처의 실제 값을 짧게. 그 숫자가 뜻하는 것 한 줄, 누가 · 언제 · 기준 -->
+  <div class="g-key">
+    <p class="g-num">80%</p>
+    <p class="g-what"><span class="ph">넘게 줄어든</span> <span class="ph">방송 준비 비용</span></p>
+    <p class="g-src">현대홈쇼핑 · 11월 15일 발표 · 시험 방송 기준</p>
+  </div>
+
+  <!-- 숫자 줄 (선택, 하나까지): 두 번째로 중요한 숫자 -->
+  <div class="g-stat"><b>120%</b><span><span class="ph">판매 목표보다</span> <span class="ph">더 많이 팔렸어요</span></span></div>
+
+  <!-- 나눔 줄 (선택): 핵심 숫자와 아래 묶음 사이, 묶음과 묶음 사이 -->
+  <hr class="g-rule">
+
+  <!-- 묶음: 제목(h4.g-head) + 아래 네 가지 중 하나 -->
+  <!-- ① 할 수 있어요 / 새로 생겨요: 제목 is-color, 목록 is-check -->
+  <div class="g-group"><h4 class="g-head is-color">AI가 대신 만들어요</h4>
+    <ul class="g-list is-check"><li>쇼호스트 목소리</li><li>방송 화면</li><li><span><span class="ph">찍기 어려운 장면</span> <span class="ph">(밭의 흙, 과일이 자라는 모습)</span></span></li></ul></div>
+
+  <!-- ② 안 돼요 / 벌칙 · 위험: 제목 is-warn, 목록 is-x. 정말 경고일 때만 -->
+  <div class="g-group"><h4 class="g-head is-warn">AI로 부정행위를 하면</h4>
+    <ul class="g-list is-x"><li>그 시험은 무효, 합격도 취소</li><li>경찰에 고발돼요</li></ul></div>
+
+  <!-- ③ 그 밖의 목록: 제목 기본(회색), 목록 is-dot -->
+  <div class="g-group"><h4 class="g-head">이렇게 막아요</h4>
+    <ul class="g-list is-dot"><li>전파 탐지기를 들여와요</li><li>감독관 교육을 늘려요</li></ul></div>
+
+  <!-- ④ 이름표 줄: 언제 · 어디서 · 무엇을 · 누가 · 얼마 (이름표는 2~3글자) -->
+  <div class="g-group"><h4 class="g-head">첫 정식 방송</h4>
+    <dl class="g-facts"><div><dt>언제</dt><dd>11월 16일 오후 3시 20분</dd></div><div><dt>어디서</dt><dd>현대홈쇼핑 플러스샵</dd></div></dl></div>
+
+  <!-- ⑤ 순서: 진짜 차례가 있을 때만, 3~4단계 -->
+  <div class="g-group"><h4 class="g-head">이렇게 내다봐요</h4>
+    <ol class="g-steps"><li><span><span class="ph">위성 자료로 25km 칸씩</span> <span class="ph">넓게 예측해요</span></span></li><li><span><span class="ph">생성형 AI가 6.25km 칸으로</span> <span class="ph">촘촘하게 다듬어요</span></span></li><li>30일 앞까지 보여 줘요</li></ol></div>
+
+  <!-- ⑥ 막대 비교: --v = 값 ÷ 가장 큰 값(가장 큰 막대가 1). 이 소식의 주인공 막대 하나만 is-main. 읽는 법·단위는 g-small에 -->
+  <div class="g-group"><h4 class="g-head">뱃길 열리는 날, 얼마나 빗나갔나요</h4>
+    <div class="g-bars"><div class="g-bar" style="--v:1"><span>영국 기상청 모델</span><i><b>10.75일</b></i></div><div class="g-bar is-main" style="--v:0.42"><span>UNIST 아이스네스트</span><i><b>4.5일</b></i></div><p class="g-small">막대가 짧을수록 더 잘 맞혔어요. 평균 오차예요.</p></div></div>
+
+  <!-- 알아 두세요 (거의 늘): 독자가 조심하거나 확인할 것 1~2문장 -->
+  <div class="g-note"><h4>알아 두세요</h4><p><span class="ph">AI가 그린 장면은</span> <span class="ph">실제 모습과 다를 수 있어요.</span></p></div>
+
+  <!-- 끝 줄 (선택): 앞으로 일어날 일이나 함께한 곳 한 줄 -->
+  <p class="g-foot"><span class="ph">한 달에 한 번 넘게</span> <span class="ph">농수산물부터</span> <span class="ph">내보낼 계획이에요.</span></p>
+</aside>

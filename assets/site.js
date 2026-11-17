@@ -323,6 +323,28 @@ var AIGO = {
   });
 })();
 
+// '한눈에 보기' 카드(컴퓨터에서 오른쪽 칸에 붙어 따라와요): 카드가 화면보다 길면
+// 카드 끝('알아 두세요')이 화면 아래에 보일 때까지 함께 올라가다가 거기서 붙어요.
+(function () {
+  document.addEventListener("DOMContentLoaded", function () {
+    var cards = document.querySelectorAll(".story > .glance");
+    if (!cards.length) return;
+    function fit() {
+      Array.prototype.forEach.call(cards, function (c) {
+        var room = window.innerHeight - c.offsetHeight - 24;
+        c.style.top = room < 88 ? room + "px" : "";
+      });
+    }
+    window.addEventListener("resize", fit);
+    window.addEventListener("load", fit);
+    if (window.ResizeObserver) {
+      var ro = new ResizeObserver(fit);
+      Array.prototype.forEach.call(cards, function (c) { ro.observe(c); });
+    }
+    fit();
+  });
+})();
+
 // 예전 인포그래픽(SVG)이 화면보다 넓으면 '옆으로 밀어 보세요' 안내를 붙여요.
 (function () {
   document.addEventListener("DOMContentLoaded", function () {

@@ -4,6 +4,8 @@
 만드는 것
 - content/날짜.json        : 제목, 소식 3개(그림, 쉽게 알아보기, 출처), 곧 만날지도 몰라요, 오늘의 말
 - content/graphics/날짜-앵커.svg : 인포그래픽을 사이트 스타일 없이도 똑같이 보이는 독립 SVG로
+- '한눈에 보기' 카드(aside.glance, 2026-11-18부터의 인포그래픽)는 카드 글을 glance로 옮기고,
+  render_glance.py가 찍어 둔 카드 그림(content/graphics/날짜-앵커.png)을 infographic에 넣어요(앱은 그림을 보여 줘요)
 - 소식마다 녹음이 있으면(section.story의 data-audio) audio 필드로
 
 규칙
@@ -18,6 +20,7 @@ import datetime as dt
 import json
 import pathlib
 import re
+import struct
 import sys
 
 from bs4 import BeautifulSoup, NavigableString
@@ -189,8 +192,13 @@ def extract(page, style):
             }
 
         fig = sec.find("figure", class_="figure")
+        card = sec.find("aside", class_="glance", recursive=False)
         graphic = None
-        if fig is not None and fig.find("svg") is not None:
+        glance = None
+        if card is not None:
+            glance = glance_data(card, anchor)
+            graphic = glance_graphic(date, anchor, glance)
+        elif fig is not None and fig.find("svg") is not None:
             svg = fig.find("svg")
             name = f"{date}-{anchor}.svg"
             GFX.mkdir(parents=True, exist_ok=True)
@@ -228,6 +236,7 @@ def extract(page, style):
             "dek": phrased(head.find(class_="dek")),
             "illustration": illust,
             "infographic": graphic,
+            **({"glance": glance} if glance else {}),
             "qa": qa,
             "sources": sources(sec.find(class_="source")),
             "audio": audio,
@@ -275,6 +284,110 @@ def extract(page, style):
     }
 
 
+# ── '한눈에 보기' 카드: 카드 글을 데이터로, 앱에는 render_glance.py가 찍은 카드 그림을 ──
+
+def ratio_of(el):
+    m = re.search(r"--v\s*:\s*([0-9.]+)", el.get("style", ""))
+    return float(m.group(1)) if m else None
+
+
+def glance_data(card, anchor):
+    """카드 하나를 칸 목록으로. 모르는 칸이 있으면 멈춰요(사이트에는 보여도 앱 데이터에서 빠지지 않게)."""
+    key = card.find(class_="g-key")
+    num = key.find(class_="g-num") if key else None
+    what = key.find(class_="g-what") if key else None
+    need(num is not None and what is not None, f"{anchor}: 한눈에 보기 카드에 핵심 숫자(g-key 안 g-num·g-what)가 없어요")
+    src = key.find(class_="g-src")
+    out = {"key": {"num": clean(num.get_text()), "what": phrased(what), "source": clean(src.get_text()) if src else ""}, "blocks": []}
+    for el in card.find_all(recursive=False):
+        cls = el.get("class") or []
+        if {"glance-label", "g-key", "g-rule"} & set(cls):
+            continue
+        if "g-stat" in cls:
+            b = el.find("b")
+            need(b is not None, f"{anchor}: 숫자 줄(g-stat)에 숫자(b)가 없어요")
+            out["blocks"].append({"type": "stat", "num": clean(b.get_text()), "text": phrased(b.find_next_sibling("span"))})
+        elif "g-group" in cls:
+            head = el.find(class_="g-head")
+            hc = (head.get("class") or []) if head else []
+            block = {"head": clean(head.get_text()) if head else "",
+                     "head_style": "warn" if "is-warn" in hc else "color" if "is-color" in hc else ""}
+            lst, facts, steps, bars = el.find("ul", class_="g-list"), el.find("dl", class_="g-facts"), el.find("ol", class_="g-steps"), el.find(class_="g-bars")
+            if lst is not None:
+                lc = lst.get("class") or []
+                block.update(type="list", style="check" if "is-check" in lc else "x" if "is-x" in lc else "dot",
+                             items=[phrased(li) for li in lst.find_all("li", recursive=False)])
+            elif facts is not None:
+                block.update(type="facts", items=[{"label": clean(d.find("dt").get_text()), "text": phrased(d.find("dd"))}
+                                                  for d in facts.find_all("div", recursive=False) if d.find("dt") and d.find("dd")])
+            elif steps is not None:
+                block.update(type="steps", items=[phrased(li) for li in steps.find_all("li", recursive=False)])
+            elif bars is not None:
+                items = []
+                for bar in bars.find_all(class_="g-bar", recursive=False):
+                    lab, val = bar.find("span", recursive=False), bar.find("b")
+                    need(lab is not None and val is not None and ratio_of(bar) is not None, f"{anchor}: 막대(g-bar)에 이름·값·--v가 다 있어야 해요")
+                    items.append({"label": clean(lab.get_text()), "value": clean(val.get_text()), "ratio": ratio_of(bar),
+                                  "main": "is-main" in (bar.get("class") or [])})
+                small = bars.find(class_="g-small")
+                block.update(type="bars", items=items, note=clean(small.get_text()) if small else "")
+            else:
+                need(False, f"{anchor}: 한눈에 보기 묶음(g-group)에 목록·이름표·순서·막대 중 하나가 없어요")
+            need(block["items"], f"{anchor}: 한눈에 보기 묶음 '{block['head']}'이 비어 있어요")
+            out["blocks"].append(block)
+        elif "g-note" in cls:
+            h = el.find("h4")
+            out["blocks"].append({"type": "note", "head": clean(h.get_text()) if h else "알아 두세요",
+                                  "items": [phrased(p) for p in el.find_all("p", recursive=False)]})
+        elif "g-foot" in cls:
+            out["blocks"].append({"type": "foot", "text": phrased(el)})
+        else:
+            need(False, f"{anchor}: 한눈에 보기 카드에 모르는 칸이 있어요({' '.join(cls) or el.name})")
+    return out
+
+
+def glance_text(g):
+    """화면 읽기 프로그램용으로 카드 내용을 글 한 덩어리로."""
+    parts = [f"{g['key']['num']} {g['key']['what']['text']}", g["key"]["source"]]
+    for b in g["blocks"]:
+        if b["type"] == "stat":
+            parts.append(f"{b['num']} {b['text']['text'] if b['text'] else ''}")
+        elif b["type"] in ("list", "steps"):
+            parts.append(f"{b['head']}: " + ", ".join(x["text"] for x in b["items"]))
+        elif b["type"] == "facts":
+            parts.append(f"{b['head']}: " + ", ".join(f"{x['label']} {x['text']['text']}" for x in b["items"]))
+        elif b["type"] == "bars":
+            parts.append(f"{b['head']}: " + ", ".join(f"{x['label']} {x['value']}" for x in b["items"]) + (f". {b['note']}" if b["note"] else ""))
+        elif b["type"] == "note":
+            parts.append(f"{b['head']}: " + " ".join(x["text"] for x in b["items"]))
+        elif b["type"] == "foot":
+            parts.append(b["text"]["text"])
+    return ". ".join(clean(p).rstrip(".") for p in parts if clean(p)) + "."
+
+
+MISSING_CARDS = []
+
+
+def glance_graphic(date, anchor, g):
+    """render_glance.py가 찍은 카드 그림. 아직 없으면 null(앱은 인포그래픽 칸을 빼고 보여 줘요)."""
+    name = f"{date}-{anchor}.png"
+    path = GFX / name
+    if not path.exists():
+        MISSING_CARDS.append(name)
+        return None
+    with open(path, "rb") as f:
+        w, h = struct.unpack(">II", f.read(24)[16:24])
+    return {
+        "file": f"content/graphics/{name}",
+        "url": f"{SITE}content/graphics/{name}",
+        "viewBox": f"0 0 {w} {h}",
+        "title": f"한눈에 보기: {g['key']['num']} {g['key']['what']['text']}",
+        "desc": glance_text(g),
+        "caption": None,
+        "kind": "card",
+    }
+
+
 GROUND = "#EDEEF0"
 
 
@@ -301,7 +414,10 @@ def main():
         })
     index.sort(key=lambda x: x["date"], reverse=True)
     (OUT / "index.json").write_text(json.dumps({"schema": SCHEMA, "posts": index}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"데이터 만들기: 글 {len(index)}편, 인포그래픽 {len(list(GFX.glob('*.svg')))}개")
+    cards = len(list(GFX.glob("*.png"))) if GFX.exists() else 0
+    print(f"데이터 만들기: 글 {len(index)}편, 인포그래픽 {len(list(GFX.glob('*.svg')))}개, 한눈에 보기 카드 그림 {cards}장")
+    if MISSING_CARDS:
+        print("카드 그림이 아직 없는 소식(python3 scripts/render_glance.py로 만들어요. Actions는 저절로 해요):\n  " + "\n  ".join(MISSING_CARDS))
     if failed:
         print("구조가 틀과 달라 멈춘 글:\n  " + "\n  ".join(failed))
         return 1
