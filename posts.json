@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-18",
+    "title": "말 바꾸는 AI,|공부 웹페이지,|오디오북 AI 소개",
+    "summary": "AI는 사람이 반박하면|맞는 답도 쉽게 바꾼다는|유네스코 보고서가 나왔어요.|구글은 공부 자료를|웹페이지로 바꿔 주고,|오디블은 오디오북을|AI로 미리 소개해 줘요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "안전",
+        "color": "blue",
+        "anchor": "ai-pushback",
+        "title": "AI는 ‘아니야’ 한마디에|맞는 답도|바꾸곤 해요",
+        "dek": "유네스코가|AI에게 기후를 묻는|시험을 했어요.",
+        "illust": "assets/img/hf_20261117_203247_23a95fa3-a3b2-4eda-ba10-3ecbe096377c.webp",
+        "thumb": "assets/img/hf_20261117_203247_23a95fa3-a3b2-4eda-ba10-3ecbe096377c_min.webp"
+      },
+      {
+        "tag": "학교",
+        "color": "green",
+        "anchor": "notebook-site",
+        "title": "내 공부 자료로|AI가 웹페이지를|만들어 줘요",
+        "dek": "구글 제미나이 노트북에|새 기능이 생겼어요.",
+        "illust": "assets/img/hf_20261117_200303_1475d6d7-64e7-48dd-b6d3-e8a03ce370a7.webp",
+        "thumb": "assets/img/hf_20261117_200303_1475d6d7-64e7-48dd-b6d3-e8a03ce370a7_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "yellow",
+        "anchor": "audiobook-ai",
+        "title": "오디오북 고를 때|AI가 미리|소개해 줘요",
+        "dek": "아마존의 오디블이|미국에서 시작했어요.",
+        "illust": "assets/img/hf_20261117_200304_0039b25b-c535-4e88-a3f4-c17bf1d03c63.webp",
+        "thumb": "assets/img/hf_20261117_200304_0039b25b-c535-4e88-a3f4-c17bf1d03c63_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "반박",
+        "meaning": "남의 말에 맞서|아니라고 말하는 것"
+      },
+      {
+        "word": "웹페이지",
+        "meaning": "인터넷에서 여는|한 장의 화면"
+      },
+      {
+        "word": "오디오북",
+        "meaning": "사람이 소리 내어 읽은 책을|녹음한 것"
+      },
+      {
+        "word": "낭독자",
+        "meaning": "글을 소리 내어|읽어 주는 사람"
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "title": "AI 건강 질문 실험,|우버 로봇택시,|카페 글 정리 AI",
     "summary": "애플이|아이폰 AI에게 건강을 묻는 연구에|최대 20만 명을 모아요.|라스베이거스에서는|우버 앱으로|로봇택시를 부르고,|네이버는|카페 글을 정리하는 AI를|시험해요.",
