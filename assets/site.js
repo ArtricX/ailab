@@ -681,7 +681,7 @@ var AIGO_REACT_KEY = "sb_publishable_B7UmfG4etyeyWBcjlEugRA_Ct9qlQUu";
   if (!m) return;
   var day = m[1];
   var KINDS = [["help", "도움 돼요"], ["aigo", "아이고!"], ["worry", "걱정돼요"], ["curious", "궁금해요"]];
-  var SHOW_AT = 10; // 소식 하나의 합계가 이 수를 넘으면 숫자를 보여 줘요
+  var SHOW_AT = 0; // 소식 하나의 합계가 이 수를 넘으면 숫자를 보여 줘요(11/17 Sa: 1부터 바로)
 
   function store(k, v) {
     try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; }
@@ -768,7 +768,7 @@ var AIGO_REACT_KEY = "sb_publishable_B7UmfG4etyeyWBcjlEugRA_Ct9qlQUu";
           it.num.classList.toggle("is-one", String(fmt(n)).length === 1);
           it.el.setAttribute("aria-label", it.label + (show ? ", " + n.toLocaleString("en-US") + "명" : ""));
         });
-        hint.hidden = !mine;
+        hint.classList.toggle("is-shown", !!mine);
       }
 
       // 바로 바뀐 모습을 보여 주고, 서버에는 마지막으로 고른 것만 보내요(빠르게 여러 번 눌러도 괜찮아요).
@@ -801,8 +801,8 @@ var AIGO_REACT_KEY = "sb_publishable_B7UmfG4etyeyWBcjlEugRA_Ct9qlQUu";
           rpc("reaction_get", { p_date: day, p_device: device }).then(function (d) {
             counts = (d.counts || {})[anchor] || {}; mine = (d.mine || {})[anchor] || null; saved = wanted = mine; paint();
           }).catch(function () {});
-          hint.hidden = false;
-          hint.textContent = "지금은 반영되지 않았어요. 잠시 뒤 다시 눌러 주세요.";
+          hint.classList.add("is-shown");
+          hint.textContent = "반영되지 않았어요. 다시 눌러 주세요.";
         });
       }
 
