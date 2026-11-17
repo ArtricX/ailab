@@ -444,7 +444,8 @@ var AIGO = {
 // 글 끝: 공유하기 카드와 다른 날 소식. 글 페이지(posts/날짜.html)에서만 만들어요.
 (function () {
   // 미리보기 파일은 window.AIGO_DATE로 날짜를 알려 줘요
-  var m = location.pathname.match(/posts\/(\d{4}-\d{2}-\d{2})\.html$/) || (window.AIGO_DATE ? [0, window.AIGO_DATE] : null);
+  // 대표 주소(Cloudflare Pages)는 주소 끝의 .html을 떼고 보여 줘요(/posts/2026-11-17). 그래서 .html은 있어도 없어도 돼요.
+  var m = location.pathname.match(/posts\/(\d{4}-\d{2}-\d{2})(?:\.html)?\/?$/) || (window.AIGO_DATE ? [0, window.AIGO_DATE] : null);
   if (!m) return;
   var today = m[1];
   var ICON = {
@@ -461,10 +462,9 @@ var AIGO = {
     function put(node) { if (anchor && anchor.parentNode === main) main.insertBefore(node, anchor); else main.appendChild(node); }
     var base = AIGO.base();
     var site = window.AIGO_DATE ? "https://aigo.artricx.com/" : base; // 링크가 갈 곳
-    // 예비 주소(artricx.github.io/ailab)에서 열어도 공유하는 링크는 늘 대표 주소(aigo.artricx.com)로 보내요.
-    var url = window.AIGO_DATE ? site + "posts/" + today + ".html"
-      : location.hostname === "artricx.github.io" ? "https://aigo.artricx.com" + location.pathname.replace(/^\/ailab/, "")
-      : location.origin + location.pathname;
+    // 대표 주소든 예비 주소(artricx.github.io/ailab)든, 공유하는 링크는 늘 대표 주소의 글 주소로 보내요.
+    var onSite = /(^|\.)artricx\.(com|github\.io)$/.test(location.hostname);
+    var url = (window.AIGO_DATE || onSite) ? "https://aigo.artricx.com/posts/" + today + ".html" : location.origin + location.pathname;
     var h1 = document.querySelector(".post-hero h1");
     var title = h1 ? h1.textContent.replace(/\s+/g, " ").trim() : document.title;
 
