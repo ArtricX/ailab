@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-18",
+      "title": "말 바꾸는 AI, 공부 웹페이지, 오디오북 AI 소개",
+      "file": "content/2026-11-18.json",
+      "stories": [
+        {
+          "anchor": "ai-pushback",
+          "tag": "안전",
+          "color": "blue",
+          "title": "AI는 ‘아니야’ 한마디에 맞는 답도 바꾸곤 해요"
+        },
+        {
+          "anchor": "notebook-site",
+          "tag": "학교",
+          "color": "green",
+          "title": "내 공부 자료로 AI가 웹페이지를 만들어 줘요"
+        },
+        {
+          "anchor": "audiobook-ai",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "오디오북 고를 때 AI가 미리 소개해 줘요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "title": "AI 건강 질문 실험, 우버 로봇택시, 카페 글 정리 AI",
       "file": "content/2026-11-17.json",
