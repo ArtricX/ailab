@@ -1,0 +1,657 @@
+{
+  "schema": 1,
+  "date": "2026-11-19",
+  "weekday": "목",
+  "url": "https://aigo.artricx.com/posts/2026-11-19.html",
+  "minutes": 5,
+  "title": {
+    "text": "할 일 맡는 제미나이, 수능 AI 커닝 막기, 어린이 병원 로봇",
+    "phrases": [
+      "할 일 맡는 제미나이,",
+      "수능 AI 커닝 막기,",
+      "어린이 병원 로봇"
+    ]
+  },
+  "share": {
+    "title": "제미나이에게 할 일을 맡겨요, 한국도 무료 외 2건 · 아이고 11월 19일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 19일 목요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-19.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "gemini-tasks",
+      "tag": "생활",
+      "color": "blue",
+      "label": "제미나이 태스크"
+    },
+    {
+      "anchor": "exam-ai",
+      "tag": "학교",
+      "color": "yellow",
+      "label": "수능 AI 커닝"
+    },
+    {
+      "anchor": "care-robot",
+      "tag": "건강",
+      "color": "pink",
+      "label": "병원 로봇"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "gemini-tasks",
+      "url": "https://aigo.artricx.com/posts/2026-11-19.html#gemini-tasks",
+      "tag": "생활",
+      "color": "blue",
+      "title": {
+        "text": "제미나이에게 할 일을 맡겨요, 한국도 무료",
+        "phrases": [
+          "제미나이에게",
+          "할 일을 맡겨요,",
+          "한국도 무료"
+        ]
+      },
+      "dek": {
+        "text": "구글이 6개 나라에서 문을 열었어요.",
+        "phrases": [
+          "구글이",
+          "6개 나라에서",
+          "문을 열었어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_b790c398-af42-444a-9ab4-b605c5ee6da6.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_b790c398-af42-444a-9ab4-b605c5ee6da6.png",
+        "width": 1600,
+        "height": 1200,
+        "alt": "안경 쓴 흰머리 남자가 부엌 식탁에서 커피잔을 들고 느긋하게 웃으며, 세워 둔 휴대폰 화면 속 달력·장바구니·자동차 칸에 체크가 된 목록의 마지막 동그라미를 손가락으로 누르려 하고, 옆에서 아내가 바닥까지 늘어진 긴 종이 할 일 목록을 든 채 놀라 입을 가린 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-19-gemini-tasks.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-19-gemini-tasks.png",
+        "viewBox": "0 0 1080 2418",
+        "title": "한눈에 보기: 6개국 무료로 쓸 수 있는 나라 (한국 포함)",
+        "desc": "6개국 무료로 쓸 수 있는 나라 (한국 포함). 구글 · 11월 17일(미국 시간) 발표 · 차례로 열려요. 60개 넘는 앱과 이어져요. 이렇게 써요: 제미나이 첫 화면을 열어요, ‘챗’을 ‘태스크’로 바꿔요, 맡길 일을 적어요. 미국에서 먼저 해요: 가게에 전화해 예약하기, 허락받고 결제하기, 문자·메일로 일 맡기기. 알아 두세요: AI가 일을 끝내지 못하거나 다르게 할 수 있어요. 결과는 꼭 확인하세요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "6개국",
+          "what": {
+            "text": "무료로 쓸 수 있는 나라 (한국 포함)",
+            "phrases": [
+              "무료로 쓸 수 있는",
+              "나라 (한국 포함)"
+            ]
+          },
+          "source": "구글 · 11월 17일(미국 시간) 발표 · 차례로 열려요"
+        },
+        "blocks": [
+          {
+            "type": "stat",
+            "num": "60개",
+            "text": {
+              "text": "넘는 앱과 이어져요",
+              "phrases": [
+                "넘는 앱과",
+                "이어져요"
+              ]
+            }
+          },
+          {
+            "head": "이렇게 써요",
+            "head_style": "",
+            "type": "steps",
+            "items": [
+              {
+                "text": "제미나이 첫 화면을 열어요",
+                "phrases": [
+                  "제미나이 첫 화면을",
+                  "열어요"
+                ]
+              },
+              {
+                "text": "‘챗’을 ‘태스크’로 바꿔요",
+                "phrases": [
+                  "‘챗’을",
+                  "‘태스크’로 바꿔요"
+                ]
+              },
+              {
+                "text": "맡길 일을 적어요",
+                "phrases": [
+                  "맡길 일을",
+                  "적어요"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "미국에서 먼저 해요",
+            "head_style": "",
+            "type": "list",
+            "style": "dot",
+            "items": [
+              {
+                "text": "가게에 전화해 예약하기",
+                "phrases": [
+                  "가게에 전화해",
+                  "예약하기"
+                ]
+              },
+              {
+                "text": "허락받고 결제하기",
+                "phrases": [
+                  "허락받고",
+                  "결제하기"
+                ]
+              },
+              {
+                "text": "문자·메일로 일 맡기기",
+                "phrases": [
+                  "문자·메일로",
+                  "일 맡기기"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "AI가 일을 끝내지 못하거나 다르게 할 수 있어요. 결과는 꼭 확인하세요.",
+                "phrases": [
+                  "AI가 일을 끝내지 못하거나",
+                  "다르게 할 수 있어요.",
+                  "결과는 꼭 확인하세요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글이 미국 시간 11월 17일, 제미나이의 ‘태스크’ 기능을 무료로 열었어요. 태스크는 여러 단계로 된 일을 AI가 알아서 처리해 주는 기능이에요. 여행 계획을 짜거나, 자료를 찾아 정리하거나, 일정을 캘린더에 넣는 일을 맡길 수 있어요. 한국, 미국, 일본, 캐나다, 호주, 인도에서 차례로 쓸 수 있어요.",
+            "nobreak": [
+              "11월 17일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "이 기능은 5월에 ‘스파크’라는 이름으로 처음 나왔어요. 그때는 돈을 내는 사람만 쓸 수 있었어요. 이번에 이름을 바꾸고 무료로 넓혔어요. AI에게 묻고 답을 듣는 것을 넘어, 일을 대신 해 주는 쪽으로 바뀌고 있어요. 제미나이는 지금 60개가 넘는 앱과 이어져 있어요.",
+            "nobreak": [
+              "5월",
+              "60개"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "제미나이 첫 화면에서 ‘챗’을 ‘태스크’로 바꾸고, 맡길 일을 적으면 돼요. 가게에 전화를 거는 일과 결제는 미국에서 먼저 시작해요. 구글은 돈을 쓰기 전에 꼭 허락을 받고, 쓸 돈의 한도도 미리 정할 수 있다고 밝혔어요. 그래도 AI가 일을 끝내지 못하거나 다르게 할 수 있어요. 맡긴 일은 결과를 꼭 확인하세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "PPC 랜드",
+          "date": "11월 17일",
+          "url": "https://ppc.land/geminis-19-99-task-mode-goes-free-in-6-countries/"
+        },
+        {
+          "name": "지디넷코리아",
+          "date": "11월 18일",
+          "url": "https://zdnet.co.kr/view/?no=20261118095958"
+        },
+        {
+          "name": "인공지능신문",
+          "date": "11월 18일",
+          "url": "https://www.aitimes.kr/news/articleView.html?idxno=42779"
+        },
+        {
+          "name": "안드로이드센트럴",
+          "date": "11월 18일",
+          "url": "https://www.androidcentral.com/apps-software/ai/google-just-made-its-best-gemini-agent-free-heres-where-you-can-get-it"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200815_fdc5e37c-f025-4dca-8fef-0cf48b6fb84c.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200815_fdc5e37c-f025-4dca-8fef-0cf48b6fb84c.mp3"
+      }
+    },
+    {
+      "anchor": "exam-ai",
+      "url": "https://aigo.artricx.com/posts/2026-11-19.html#exam-ai",
+      "tag": "학교",
+      "color": "yellow",
+      "title": {
+        "text": "오늘 수능, AI 커닝을 이렇게 막아요",
+        "phrases": [
+          "오늘 수능,",
+          "AI 커닝을",
+          "이렇게 막아요"
+        ]
+      },
+      "dek": {
+        "text": "감독하는 사람을 크게 늘렸어요.",
+        "phrases": [
+          "감독하는 사람을",
+          "크게 늘렸어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200522_bb52ffe1-ae5a-405e-ad94-ba3e162937f0.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200522_bb52ffe1-ae5a-405e-ad94-ba3e162937f0.png",
+        "width": 1600,
+        "height": 1200,
+        "alt": "교실에서 회색 머리의 감독관이 돋보기로 평범한 안경을 탐정처럼 진지하게 살펴보고, 책상 위 쟁반에는 스마트워치·무선 이어폰·반지가 놓여 있으며, 후드티를 입은 학생은 검은 연필 한 자루만 들고 태연하게 웃는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-19-exam-ai.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-19-exam-ai.png",
+        "viewBox": "0 0 1080 2439",
+        "title": "한눈에 보기: 8,400명 더 늘어난 감독 인력",
+        "desc": "8,400명 더 늘어난 감독 인력. 정부 · 11월 17일 발표 · 원래 약 7만 5천 명에 더해요. 1,312곳 전국 수능 시험장. 시험장에 가져가면 안 돼요: 휴대폰, 스마트워치, 스마트안경, 스마트링, 아주 작은 카메라, 무선 이어폰. 이렇게 살펴봐요: 1교시 전 모든 안경 검사, 옷 단추에 스티커 붙이기, 시험 전 재난 문자로 알리기. 알아 두세요: 가져온 기기는 1교시 전에 꺼서 내야 해요. 응시 제한을 최대 10년으로 늘리는 법도 추진해요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "8,400명",
+          "what": {
+            "text": "더 늘어난 감독 인력",
+            "phrases": [
+              "더 늘어난",
+              "감독 인력"
+            ]
+          },
+          "source": "정부 · 11월 17일 발표 · 원래 약 7만 5천 명에 더해요"
+        },
+        "blocks": [
+          {
+            "type": "stat",
+            "num": "1,312곳",
+            "text": {
+              "text": "전국 수능 시험장",
+              "phrases": [
+                "전국",
+                "수능 시험장"
+              ]
+            }
+          },
+          {
+            "head": "시험장에 가져가면 안 돼요",
+            "head_style": "warn",
+            "type": "list",
+            "style": "x",
+            "items": [
+              {
+                "text": "휴대폰, 스마트워치",
+                "phrases": [
+                  "휴대폰,",
+                  "스마트워치"
+                ]
+              },
+              {
+                "text": "스마트안경, 스마트링",
+                "phrases": [
+                  "스마트안경,",
+                  "스마트링"
+                ]
+              },
+              {
+                "text": "아주 작은 카메라, 무선 이어폰",
+                "phrases": [
+                  "아주 작은 카메라,",
+                  "무선 이어폰"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "이렇게 살펴봐요",
+            "head_style": "",
+            "type": "list",
+            "style": "dot",
+            "items": [
+              {
+                "text": "1교시 전 모든 안경 검사",
+                "phrases": [
+                  "1교시 전",
+                  "모든 안경 검사"
+                ]
+              },
+              {
+                "text": "옷 단추에 스티커 붙이기",
+                "phrases": [
+                  "옷 단추에",
+                  "스티커 붙이기"
+                ]
+              },
+              {
+                "text": "시험 전 재난 문자로 알리기",
+                "phrases": [
+                  "시험 전",
+                  "재난 문자로 알리기"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "가져온 기기는 1교시 전에 꺼서 내야 해요.",
+                "phrases": [
+                  "가져온 기기는",
+                  "1교시 전에 꺼서",
+                  "내야 해요."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "foot",
+            "text": {
+              "text": "응시 제한을 최대 10년으로 늘리는 법도 추진해요.",
+              "phrases": [
+                "응시 제한을 최대 10년으로",
+                "늘리는 법도 추진해요."
+              ]
+            }
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "오늘 11월 19일은 대학수학능력시험, 수능 날이에요. 정부는 11월 17일, AI를 쓴 부정행위를 막는 방법을 내놨어요. 감독 인력을 8,400여 명 더 두어요. 스마트기기만 살피는 사람과 복도에서 지켜보는 사람이에요. 11월 18일에는 정부와 여당이 모여 처벌을 더 무겁게 하는 방안을 이야기했어요.",
+            "nobreak": [
+              "11월 19일",
+              "11월 17일",
+              "8,400여 명",
+              "11월 18일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "요즘은 작은 카메라가 달린 안경이나 반지 같은 기기가 있어요. 문제를 몰래 찍어 AI에게 보내면 답을 금방 받을 수 있어요. 그래서 안경을 하나하나 살피고, 단추에 스티커를 붙여 카메라를 숨기지 못하게 해요. 시험장 근처 와이파이도 막거나 비밀번호를 바꿔요. 큰 정보기술 회사 4곳은 시험 문제가 AI에 올라왔는지 확인하는 일을 돕겠다고 했어요.",
+            "nobreak": [
+              "4곳"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "수험생은 휴대폰과 스마트기기를 집에 두는 게 가장 좋아요. 가져왔다면 1교시 전에 꺼서 내야 해요. 장신구나 모자, 단추가 많은 옷은 피하라고 해요. AI로 부정행위를 하면 지금은 1년 동안 수능을 못 봐요. 이 기간을 최대 10년으로 늘리려면 법을 고쳐야 해서, 아직 정해지지는 않았어요.",
+            "nobreak": [
+              "1교시",
+              "1년",
+              "10년"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "date": "11월 17일",
+          "url": "https://www.fnnews.com/news/202611171513371007"
+        },
+        {
+          "name": "포커스경제",
+          "date": "11월 18일",
+          "url": "https://www.gungsireong.com/news/articleView.html?idxno=55307"
+        },
+        {
+          "name": "폴리뉴스",
+          "date": "11월 18일",
+          "url": "https://www.polinews.co.kr/news/articleView.html?idxno=748686"
+        },
+        {
+          "name": "시사저널",
+          "date": "11월 18일",
+          "url": "https://www.sisajournal.com/news/articleView.html?idxno=394441"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200815_e3326ba4-877b-4cc3-8436-324f040488aa.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200815_e3326ba4-877b-4cc3-8436-324f040488aa.mp3"
+      }
+    },
+    {
+      "anchor": "care-robot",
+      "url": "https://aigo.artricx.com/posts/2026-11-19.html#care-robot",
+      "tag": "건강",
+      "color": "pink",
+      "title": {
+        "text": "어린이 환자 곁에 AI 로봇 친구가 와요",
+        "phrases": [
+          "어린이 환자 곁에",
+          "AI 로봇 친구가",
+          "와요"
+        ]
+      },
+      "dek": {
+        "text": "KT와 서울대병원이 시험 운영을 시작했어요.",
+        "phrases": [
+          "KT와 서울대병원이",
+          "시험 운영을 시작했어요."
+        ]
+      },
+      "illustration": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_7d46a16d-a73a-4033-9510-a0efced0b2a0.png",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_7d46a16d-a73a-4033-9510-a0efced0b2a0.png",
+        "width": 1600,
+        "height": 1200,
+        "alt": "분홍 벽의 병원 복도에서 엄마가 쪼그려 앉아 아이 손을 잡고, 토끼 인형을 안은 환자복 차림 아이가 웃으며, 몸을 숙여 아이 눈높이를 맞춘 로봇이 청진기 그림 카드를 보여 주는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-19-care-robot.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-19-care-robot.png",
+        "viewBox": "0 0 1080 2163",
+        "title": "한눈에 보기: 3가지 로봇이 어린이를 돕는 일",
+        "desc": "3가지 로봇이 어린이를 돕는 일. KT·서울대병원 · 11월 18일 발표 · 시험 운영 기준. 로봇이 하는 일: 치료 앞뒤로 말벗 되기, 놀아 주기, 검사와 치료를 눈높이로 알려 주기, 병원 안에서 길 안내하기. 이렇게 지켜요: 참여 보호자가 먼저 동의해요, 기록 진료 기록을 보지 않아요, 정보 개인정보를 저장하지 않아요. 알아 두세요: 로봇은 진료를 하지 않아요. 치료는 의료진이 해요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "3가지",
+          "what": {
+            "text": "로봇이 어린이를 돕는 일",
+            "phrases": [
+              "로봇이",
+              "어린이를 돕는 일"
+            ]
+          },
+          "source": "KT·서울대병원 · 11월 18일 발표 · 시험 운영 기준"
+        },
+        "blocks": [
+          {
+            "head": "로봇이 하는 일",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "치료 앞뒤로 말벗 되기, 놀아 주기",
+                "phrases": [
+                  "치료 앞뒤로",
+                  "말벗 되기, 놀아 주기"
+                ]
+              },
+              {
+                "text": "검사와 치료를 눈높이로 알려 주기",
+                "phrases": [
+                  "검사와 치료를",
+                  "눈높이로 알려 주기"
+                ]
+              },
+              {
+                "text": "병원 안에서 길 안내하기",
+                "phrases": [
+                  "병원 안에서",
+                  "길 안내하기"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "이렇게 지켜요",
+            "head_style": "",
+            "type": "facts",
+            "items": [
+              {
+                "label": "참여",
+                "text": {
+                  "text": "보호자가 먼저 동의해요",
+                  "phrases": [
+                    "보호자가",
+                    "먼저 동의해요"
+                  ]
+                }
+              },
+              {
+                "label": "기록",
+                "text": {
+                  "text": "진료 기록을 보지 않아요",
+                  "phrases": [
+                    "진료 기록을",
+                    "보지 않아요"
+                  ]
+                }
+              },
+              {
+                "label": "정보",
+                "text": {
+                  "text": "개인정보를 저장하지 않아요",
+                  "phrases": [
+                    "개인정보를",
+                    "저장하지 않아요"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "로봇은 진료를 하지 않아요. 치료는 의료진이 해요.",
+                "phrases": [
+                  "로봇은 진료를 하지 않아요.",
+                  "치료는 의료진이 해요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "통신 회사 KT와 서울대병원이 11월 18일, 어린이 환자를 돕는 AI 로봇을 시험해 보기로 했어요. 로봇은 치료 앞뒤로 아이와 이야기하고 놀아 줘요. 검사와 치료를 아이 눈높이에 맞춰 설명하고, 병원 안에서 길도 안내해요. 이날 서울대병원에서 시작을 알리는 자리가 열렸어요.",
+            "nobreak": [
+              "11월 18일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "병원에 온 아이들은 낯선 검사와 치료를 무서워하기 쉬워요. 의료진은 바빠서 아이 곁에 오래 있기 어려워요. 로봇이 아이의 마음을 달래고 같은 설명을 되풀이해 주면, 의료진의 일도 덜 수 있어요. KT는 한국어 대화 기술과 로봇 운영을 맡고, 서울대병원은 의료 내용을 살피고 감염 관리를 맡아요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "참여는 원하는 사람만 하고, 보호자가 먼저 동의해야 해요. 로봇은 개인정보를 저장하지 않고, 진료 기록도 보지 않아요. 나눈 대화는 AI 학습에 쓰지 않는다고 밝혔어요. 로봇은 진료를 하지 않으니, 아이의 몸 상태는 꼭 의료진에게 물어보세요. 환자와 보호자의 만족도를 보고 다음 단계를 정해요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "뉴스핌",
+          "date": "11월 18일",
+          "url": "https://www.newspim.com/news/view/20261118000447"
+        },
+        {
+          "name": "더피알",
+          "date": "11월 18일",
+          "url": "https://the-pr.co.kr/news/articleView.html?idxno=63391"
+        },
+        {
+          "name": "뉴스웍스",
+          "date": "11월 18일",
+          "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=903434"
+        }
+      ],
+      "audio": {
+        "src": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200815_ef661029-57b0-423b-95b3-c16dffc3bce0.mp3",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200815_ef661029-57b0-423b-95b3-c16dffc3bce0.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "태스크",
+      "meaning": {
+        "text": "맡아서 해야 할 일. 영어로 ‘일’이라는 뜻",
+        "phrases": [
+          "맡아서 해야 할 일.",
+          "영어로 ‘일’이라는 뜻"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "스마트안경",
+      "meaning": {
+        "text": "카메라나 화면이 달린 컴퓨터 안경",
+        "phrases": [
+          "카메라나 화면이 달린",
+          "컴퓨터 안경"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "응시 제한",
+      "meaning": {
+        "text": "정해진 기간 동안 시험을 못 보게 하는 것",
+        "phrases": [
+          "정해진 기간 동안",
+          "시험을 못 보게 하는 것"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "말벗",
+      "meaning": {
+        "text": "곁에서 이야기를 나누는 친구",
+        "phrases": [
+          "곁에서 이야기를",
+          "나누는 친구"
+        ]
+      },
+      "color": "pink"
+    }
+  ]
+}

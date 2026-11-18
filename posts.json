@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-19",
+    "title": "할 일 맡는 제미나이,|수능 AI 커닝 막기,|어린이 병원 로봇",
+    "summary": "구글 제미나이의|할 일 맡기기 기능이|한국에서도 무료가 됐어요.|오늘 수능은|AI 커닝을 막으려고|감독을 크게 늘렸고,|어린이 환자 곁에는|AI 로봇이 와요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "생활",
+        "color": "blue",
+        "anchor": "gemini-tasks",
+        "title": "제미나이에게|할 일을 맡겨요,|한국도 무료",
+        "dek": "구글이|6개 나라에서|문을 열었어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_b790c398-af42-444a-9ab4-b605c5ee6da6.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_b790c398-af42-444a-9ab4-b605c5ee6da6_min.webp"
+      },
+      {
+        "tag": "학교",
+        "color": "yellow",
+        "anchor": "exam-ai",
+        "title": "오늘 수능,|AI 커닝을|이렇게 막아요",
+        "dek": "감독하는 사람을|크게 늘렸어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200522_bb52ffe1-ae5a-405e-ad94-ba3e162937f0.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200522_bb52ffe1-ae5a-405e-ad94-ba3e162937f0_min.webp"
+      },
+      {
+        "tag": "건강",
+        "color": "pink",
+        "anchor": "care-robot",
+        "title": "어린이 환자 곁에|AI 로봇 친구가|와요",
+        "dek": "KT와 서울대병원이|시험 운영을 시작했어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_7d46a16d-a73a-4033-9510-a0efced0b2a0.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_7d46a16d-a73a-4033-9510-a0efced0b2a0_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "태스크",
+        "meaning": "맡아서 해야 할 일.|영어로 ‘일’이라는 뜻"
+      },
+      {
+        "word": "스마트안경",
+        "meaning": "카메라나 화면이 달린|컴퓨터 안경"
+      },
+      {
+        "word": "응시 제한",
+        "meaning": "정해진 기간 동안|시험을 못 보게 하는 것"
+      },
+      {
+        "word": "말벗",
+        "meaning": "곁에서 이야기를|나누는 친구"
+      }
+    ]
+  },
+  {
     "date": "2026-11-18",
     "title": "말 바꾸는 AI,|공부 웹페이지,|오디오북 AI 소개",
     "summary": "AI는 사람이 반박하면|맞는 답도 쉽게 바꾼다는|유네스코 보고서가 나왔어요.|구글은 공부 자료를|웹페이지로 바꿔 주고,|오디블은 오디오북을|AI로 미리 소개해 줘요.",

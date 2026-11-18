@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-19",
+      "title": "할 일 맡는 제미나이, 수능 AI 커닝 막기, 어린이 병원 로봇",
+      "file": "content/2026-11-19.json",
+      "stories": [
+        {
+          "anchor": "gemini-tasks",
+          "tag": "생활",
+          "color": "blue",
+          "title": "제미나이에게 할 일을 맡겨요, 한국도 무료"
+        },
+        {
+          "anchor": "exam-ai",
+          "tag": "학교",
+          "color": "yellow",
+          "title": "오늘 수능, AI 커닝을 이렇게 막아요"
+        },
+        {
+          "anchor": "care-robot",
+          "tag": "건강",
+          "color": "pink",
+          "title": "어린이 환자 곁에 AI 로봇 친구가 와요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-18",
       "title": "말 바꾸는 AI, 공부 웹페이지, 오디오북 AI 소개",
       "file": "content/2026-11-18.json",
