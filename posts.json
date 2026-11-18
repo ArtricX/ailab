@@ -11,8 +11,8 @@
         "anchor": "gemini-tasks",
         "title": "제미나이에게|할 일을 맡겨요,|한국도 무료",
         "dek": "구글이|6개 나라에서|문을 열었어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_b790c398-af42-444a-9ab4-b605c5ee6da6.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_b790c398-af42-444a-9ab4-b605c5ee6da6_min.webp"
+        "illust": "assets/img/hf_20261118_200523_b790c398-af42-444a-9ab4-b605c5ee6da6.webp",
+        "thumb": "assets/img/hf_20261118_200523_b790c398-af42-444a-9ab4-b605c5ee6da6_min.webp"
       },
       {
         "tag": "학교",
@@ -20,8 +20,8 @@
         "anchor": "exam-ai",
         "title": "오늘 수능,|AI 커닝을|이렇게 막아요",
         "dek": "감독하는 사람을|크게 늘렸어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200522_bb52ffe1-ae5a-405e-ad94-ba3e162937f0.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200522_bb52ffe1-ae5a-405e-ad94-ba3e162937f0_min.webp"
+        "illust": "assets/img/hf_20261118_200522_bb52ffe1-ae5a-405e-ad94-ba3e162937f0.webp",
+        "thumb": "assets/img/hf_20261118_200522_bb52ffe1-ae5a-405e-ad94-ba3e162937f0_min.webp"
       },
       {
         "tag": "건강",
@@ -29,8 +29,8 @@
         "anchor": "care-robot",
         "title": "어린이 환자 곁에|AI 로봇 친구가|와요",
         "dek": "KT와 서울대병원이|시험 운영을 시작했어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_7d46a16d-a73a-4033-9510-a0efced0b2a0.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261118_200523_7d46a16d-a73a-4033-9510-a0efced0b2a0_min.webp"
+        "illust": "assets/img/hf_20261118_200523_7d46a16d-a73a-4033-9510-a0efced0b2a0.webp",
+        "thumb": "assets/img/hf_20261118_200523_7d46a16d-a73a-4033-9510-a0efced0b2a0_min.webp"
       }
     ],
     "keywords": [
