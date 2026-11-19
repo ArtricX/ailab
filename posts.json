@@ -11,8 +11,8 @@
         "anchor": "kakao-translate",
         "title": "카톡에 외국어가 오면|AI가 바로|번역해 줘요",
         "dek": "카카오톡이|새 기능을 내놨어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261119_200458_17b095f3-3f09-4a8a-81eb-33ee268a6485.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261119_200458_17b095f3-3f09-4a8a-81eb-33ee268a6485_min.webp"
+        "illust": "assets/img/hf_20261119_200458_17b095f3-3f09-4a8a-81eb-33ee268a6485.webp",
+        "thumb": "assets/img/hf_20261119_200458_17b095f3-3f09-4a8a-81eb-33ee268a6485_min.webp"
       },
       {
         "tag": "돈",
@@ -20,8 +20,8 @@
         "anchor": "export-chip",
         "title": "한국 수출,|처음으로|1조 달러 넘었어요",
         "dek": "AI에 쓰는 반도체가|많이 팔렸어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261119_200459_246f3caf-6185-4368-8cf3-025b061d8491.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261119_200459_246f3caf-6185-4368-8cf3-025b061d8491_min.webp"
+        "illust": "assets/img/hf_20261119_200459_246f3caf-6185-4368-8cf3-025b061d8491.webp",
+        "thumb": "assets/img/hf_20261119_200459_246f3caf-6185-4368-8cf3-025b061d8491_min.webp"
       },
       {
         "tag": "생활",
@@ -29,8 +29,8 @@
         "anchor": "datacenter-power",
         "title": "AI 때문에|데이터센터 전기가|2배로 늘어요",
         "dek": "국제에너지기구가|내다봤어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261119_200458_18db4ee6-64d3-4b9b-a14b-029935e5338a.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261119_200458_18db4ee6-64d3-4b9b-a14b-029935e5338a_min.webp"
+        "illust": "assets/img/hf_20261119_200458_18db4ee6-64d3-4b9b-a14b-029935e5338a.webp",
+        "thumb": "assets/img/hf_20261119_200458_18db4ee6-64d3-4b9b-a14b-029935e5338a_min.webp"
       }
     ],
     "keywords": [
