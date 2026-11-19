@@ -1,0 +1,590 @@
+{
+  "schema": 1,
+  "date": "2026-11-20",
+  "weekday": "금",
+  "url": "https://aigo.artricx.com/posts/2026-11-20.html",
+  "minutes": 5,
+  "title": {
+    "text": "카톡 자동 번역, 수출 1조 달러, 데이터센터 전기",
+    "phrases": [
+      "카톡 자동 번역,",
+      "수출 1조 달러,",
+      "데이터센터 전기"
+    ]
+  },
+  "share": {
+    "title": "카톡에 외국어가 오면 AI가 바로 번역해 줘요 외 2건 · 아이고 11월 20일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 20일 금요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-20.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "kakao-translate",
+      "tag": "생활",
+      "color": "yellow",
+      "label": "카톡 자동 번역"
+    },
+    {
+      "anchor": "export-chip",
+      "tag": "돈",
+      "color": "blue",
+      "label": "수출 1조 달러"
+    },
+    {
+      "anchor": "datacenter-power",
+      "tag": "생활",
+      "color": "green",
+      "label": "데이터센터 전기"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "kakao-translate",
+      "url": "https://aigo.artricx.com/posts/2026-11-20.html#kakao-translate",
+      "tag": "생활",
+      "color": "yellow",
+      "title": {
+        "text": "카톡에 외국어가 오면 AI가 바로 번역해 줘요",
+        "phrases": [
+          "카톡에 외국어가 오면",
+          "AI가 바로",
+          "번역해 줘요"
+        ]
+      },
+      "dek": {
+        "text": "카카오톡이 새 기능을 내놨어요.",
+        "phrases": [
+          "카카오톡이",
+          "새 기능을 내놨어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261119_202333_1cd78c12-6f48-41c8-b771-1e0ca09acfcb.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261119_202333_1cd78c12-6f48-41c8-b771-1e0ca09acfcb.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "노란 벽 거실 소파에서 카디건을 입은 여자가 말풍선마다 아래에 작은 번역 말풍선이 붙은 휴대폰 화면을 옆에 앉은 남편 쪽으로 돌려 보여 주며 웃고, 남편은 땀을 흘리며 쪽지가 잔뜩 붙은 두꺼운 사전을 펼쳐 든 채 놀라 휴대폰을 곁눈질하는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-20-kakao-translate.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-20-kakao-translate.png",
+        "viewBox": "0 0 1080 2202",
+        "title": "한눈에 보기: 26.10.0 자동 번역이 되는 카카오톡 버전 (이상)",
+        "desc": "26.10.0 자동 번역이 되는 카카오톡 버전 (이상). 카카오 · 11월 19일 발표 · 10번째 정기 업데이트. 이렇게 켜요: 카카오톡을 새 버전으로 올려요, 설정 ‘카나나 연구소’에서 자동 번역을 켜요, 채팅방 설정에서 자동 번역을 켜요. 함께 바뀌었어요: 채팅방 공지 최대 10개, 메시지 하나에 반응 최대 6개, ‘톡게시판’이 ‘톡보드’로. 알아 두세요: AI 번역은 틀릴 수 있어요. 중요한 내용은 다시 확인하세요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "26.10.0",
+          "what": {
+            "text": "자동 번역이 되는 카카오톡 버전 (이상)",
+            "phrases": [
+              "자동 번역이 되는",
+              "카카오톡 버전 (이상)"
+            ]
+          },
+          "source": "카카오 · 11월 19일 발표 · 10번째 정기 업데이트"
+        },
+        "blocks": [
+          {
+            "head": "이렇게 켜요",
+            "head_style": "",
+            "type": "steps",
+            "items": [
+              {
+                "text": "카카오톡을 새 버전으로 올려요",
+                "phrases": [
+                  "카카오톡을",
+                  "새 버전으로 올려요"
+                ]
+              },
+              {
+                "text": "설정 ‘카나나 연구소’에서 자동 번역을 켜요",
+                "phrases": [
+                  "설정 ‘카나나 연구소’에서",
+                  "자동 번역을 켜요"
+                ]
+              },
+              {
+                "text": "채팅방 설정에서 자동 번역을 켜요",
+                "phrases": [
+                  "채팅방 설정에서",
+                  "자동 번역을 켜요"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "함께 바뀌었어요",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "채팅방 공지 최대 10개",
+                "phrases": [
+                  "채팅방 공지",
+                  "최대 10개"
+                ]
+              },
+              {
+                "text": "메시지 하나에 반응 최대 6개",
+                "phrases": [
+                  "메시지 하나에",
+                  "반응 최대 6개"
+                ]
+              },
+              {
+                "text": "‘톡게시판’이 ‘톡보드’로",
+                "phrases": [
+                  "‘톡게시판’이",
+                  "‘톡보드’로"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "AI 번역은 틀릴 수 있어요. 중요한 내용은 다시 확인하세요.",
+                "phrases": [
+                  "AI 번역은 틀릴 수 있어요.",
+                  "중요한 내용은",
+                  "다시 확인하세요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "카카오가 11월 19일, 카카오톡의 10번째 정기 업데이트를 내놨어요. 가장 눈에 띄는 것은 자동 번역이에요. 채팅방에 외국어 메시지가 오면, 카카오의 AI ‘카나나’가 내가 정한 말로 바꿔 줘요. 번역한 글은 원래 메시지 바로 아래에 함께 보여요.",
+            "nobreak": [
+              "11월 19일",
+              "10번째"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "외국에 사는 가족이나 외국인 친구, 일로 만난 사람과 카톡을 주고받는 일이 많아졌어요. 지금까지는 글을 복사해 번역 앱에 붙여 넣어야 했어요. 이제는 채팅방 안에서 바로 읽을 수 있어요. 이번 업데이트에서는 채팅방 공지를 10개까지 올릴 수 있고, 메시지 하나에 반응을 6개까지 달 수 있게 됐어요.",
+            "nobreak": [
+              "10개",
+              "6개"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "먼저 카카오톡을 새 버전으로 업데이트해요. 그다음 설정의 ‘카나나 연구소’에서 자동 번역을 켜요. 번역을 원하는 채팅방에 들어가 ‘채팅방 설정’에서 한 번 더 켜면 돼요. AI 번역은 뜻을 잘못 옮길 때도 있어요. 돈이나 약속처럼 중요한 내용은 상대에게 다시 물어보세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "한국경제",
+          "date": "11월 19일",
+          "url": "https://www.hankyung.com/article/202611197092g"
+        },
+        {
+          "name": "헤럴드경제",
+          "date": "11월 19일",
+          "url": "https://biz.heraldcorp.com/article/10942204"
+        },
+        {
+          "name": "아이티데일리",
+          "date": "11월 19일",
+          "url": "https://www.itdaily.kr/news/articleView.html?idxno=243049"
+        },
+        {
+          "name": "중앙이코노미뉴스",
+          "date": "11월 19일",
+          "url": "https://www.joongangenews.com/news/articleView.html?idxno=565017"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261119_201013_ec491d3e-7cc5-41d9-8609-9b56a49004f3.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261119_201013_ec491d3e-7cc5-41d9-8609-9b56a49004f3.mp3"
+      }
+    },
+    {
+      "anchor": "export-chip",
+      "url": "https://aigo.artricx.com/posts/2026-11-20.html#export-chip",
+      "tag": "돈",
+      "color": "blue",
+      "title": {
+        "text": "한국 수출, 처음으로 1조 달러 넘었어요",
+        "phrases": [
+          "한국 수출,",
+          "처음으로",
+          "1조 달러 넘었어요"
+        ]
+      },
+      "dek": {
+        "text": "AI에 쓰는 반도체가 많이 팔렸어요.",
+        "phrases": [
+          "AI에 쓰는 반도체가",
+          "많이 팔렸어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261119_200459_246f3caf-6185-4368-8cf3-025b061d8491.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261119_200459_246f3caf-6185-4368-8cf3-025b061d8491.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "파란 하늘 아래 항구에서 안경 쓴 회색 머리 남자가 커다란 메모리 반도체 기판을 트로피처럼 들고 활짝 웃고, 기판 위에는 갈매기가 시큰둥하게 앉아 있으며, 뒤로는 컨테이너를 높이 쌓은 화물선과 컨테이너를 하나 더 내리는 크레인이 보이는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-20-export-chip.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-20-export-chip.png",
+        "viewBox": "0 0 1080 1872",
+        "title": "한눈에 보기: 1조 달러 처음 넘은 한 해 수출액",
+        "desc": "1조 달러 처음 넘은 한 해 수출액. 산업통상부·관세청 · 11월 19일 발표 · 잠정 집계. 4번째 1조 달러를 넘은 나라 (미국·독일·중국 다음). 수출에서 반도체가 차지하는 몫: 2016년 12.6%, 2026년 1~10월 42.7%. 막대가 길수록 반도체 몫이 커요. 전체 수출 중 비율이에요. 알아 두세요: 아직 잠정 숫자예요. 최종 숫자는 조금 달라질 수 있어요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "1조 달러",
+          "what": {
+            "text": "처음 넘은 한 해 수출액",
+            "phrases": [
+              "처음 넘은",
+              "한 해 수출액"
+            ]
+          },
+          "source": "산업통상부·관세청 · 11월 19일 발표 · 잠정 집계"
+        },
+        "blocks": [
+          {
+            "type": "stat",
+            "num": "4번째",
+            "text": {
+              "text": "1조 달러를 넘은 나라 (미국·독일·중국 다음)",
+              "phrases": [
+                "1조 달러를 넘은 나라",
+                "(미국·독일·중국 다음)"
+              ]
+            }
+          },
+          {
+            "head": "수출에서 반도체가 차지하는 몫",
+            "head_style": "",
+            "type": "bars",
+            "items": [
+              {
+                "label": "2016년",
+                "value": "12.6%",
+                "ratio": 0.3,
+                "main": false
+              },
+              {
+                "label": "2026년 1~10월",
+                "value": "42.7%",
+                "ratio": 1.0,
+                "main": true
+              }
+            ],
+            "note": "막대가 길수록 반도체 몫이 커요. 전체 수출 중 비율이에요."
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "아직 잠정 숫자예요. 최종 숫자는 조금 달라질 수 있어요.",
+                "phrases": [
+                  "아직 잠정 숫자예요.",
+                  "최종 숫자는",
+                  "조금 달라질 수 있어요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "정부가 11월 19일, 올해 한국 수출이 1조 달러를 넘었다고 밝혔어요. 수출은 다른 나라에 물건을 팔고 받은 돈이에요. 한 해 수출이 1조 달러를 넘은 나라는 미국, 독일, 중국에 이어 한국이 네 번째예요. 아직 연말이 오지 않아 잠정 숫자로 센 거예요.",
+            "nobreak": [
+              "11월 19일",
+              "1조 달러",
+              "1조 달러",
+              "네 번째"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "가장 큰 힘은 반도체였어요. 세계의 큰 회사들이 AI를 돌리는 데이터센터를 많이 짓고 있어요. 여기에는 정보를 기억하는 메모리 반도체가 아주 많이 들어가요. 그래서 한국 반도체가 많이 팔리고 값도 올랐어요. 올해 1월부터 10월까지 반도체 수출은 1년 전보다 약 3배로 늘었고, 반도체를 뺀 수출도 20%쯤 늘었어요.",
+            "nobreak": [
+              "1월부터 10월까지",
+              "1년 전",
+              "약 3배",
+              "20%쯤"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "AI는 우리 휴대폰 속에만 있는 게 아니에요. 한국 공장에서 만든 반도체가 세계의 AI를 움직이고 있어요. 다만 수출의 40%가 넘는 몫이 반도체 하나에 몰려 있어요. 반도체 값이 내려가면 수출도 함께 흔들릴 수 있어요. 이 소식은 나라 경제 이야기이고, 특정 회사에 투자하라는 뜻은 아니에요.",
+            "nobreak": [
+              "40%"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "헤럴드경제",
+          "date": "11월 19일",
+          "url": "https://biz.heraldcorp.com/article/10942813"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "date": "11월 19일",
+          "url": "https://fnnews.com/news/202611191833462995"
+        },
+        {
+          "name": "서울신문",
+          "date": "11월 19일",
+          "url": "https://www.seoul.co.kr/news/economy/2026/11/19/20261119500342"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261119_201012_aec92018-da1a-44eb-8edd-07de0c479da8.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261119_201012_aec92018-da1a-44eb-8edd-07de0c479da8.mp3"
+      }
+    },
+    {
+      "anchor": "datacenter-power",
+      "url": "https://aigo.artricx.com/posts/2026-11-20.html#datacenter-power",
+      "tag": "생활",
+      "color": "green",
+      "title": {
+        "text": "AI 때문에 데이터센터 전기가 2배로 늘어요",
+        "phrases": [
+          "AI 때문에",
+          "데이터센터 전기가",
+          "2배로 늘어요"
+        ]
+      },
+      "dek": {
+        "text": "국제에너지기구가 내다봤어요.",
+        "phrases": [
+          "국제에너지기구가",
+          "내다봤어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261119_200458_18db4ee6-64d3-4b9b-a14b-029935e5338a.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261119_200458_18db4ee6-64d3-4b9b-a14b-029935e5338a.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "초록 벽 데이터센터에서 산호색 조끼를 입은 여자 기술자가 서류판을 안고 손에 든 작은 장난감 풍차를 보며 머쓱하게 웃고, 옆에는 파란 서버 장들이 굵은 전선으로 벽 콘센트에 이어져 전기를 잔뜩 끌어 쓰는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-20-datacenter-power.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-20-datacenter-power.png",
+        "viewBox": "0 0 1080 1794",
+        "title": "한눈에 보기: 70% 2030년까지 늘 수 있는 데이터센터 탄소 배출",
+        "desc": "70% 2030년까지 늘 수 있는 데이터센터 탄소 배출. 국제에너지기구 · 11월 19일 보고서 · 전망. 2배 2030년 데이터센터가 쓸 전기. 어디서 전기를 얻을까요: 미국 약 60%를 가스로, 중국 약 절반을 석탄으로. 알아 두세요: 앞날을 내다본 숫자라 실제와 다를 수 있어요. 늘어나는 전기의 약 4분의 3이 AI 몫이에요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "70%",
+          "what": {
+            "text": "2030년까지 늘 수 있는 데이터센터 탄소 배출",
+            "phrases": [
+              "2030년까지 늘 수 있는",
+              "데이터센터 탄소 배출"
+            ]
+          },
+          "source": "국제에너지기구 · 11월 19일 보고서 · 전망"
+        },
+        "blocks": [
+          {
+            "type": "stat",
+            "num": "2배",
+            "text": {
+              "text": "2030년 데이터센터가 쓸 전기",
+              "phrases": [
+                "2030년 데이터센터가",
+                "쓸 전기"
+              ]
+            }
+          },
+          {
+            "head": "어디서 전기를 얻을까요",
+            "head_style": "",
+            "type": "facts",
+            "items": [
+              {
+                "label": "미국",
+                "text": {
+                  "text": "약 60%를 가스로",
+                  "phrases": [
+                    "약 60%를",
+                    "가스로"
+                  ]
+                }
+              },
+              {
+                "label": "중국",
+                "text": {
+                  "text": "약 절반을 석탄으로",
+                  "phrases": [
+                    "약 절반을",
+                    "석탄으로"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "앞날을 내다본 숫자라 실제와 다를 수 있어요.",
+                "phrases": [
+                  "앞날을 내다본 숫자라",
+                  "실제와 다를 수 있어요."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "foot",
+            "text": {
+              "text": "늘어나는 전기의 약 4분의 3이 AI 몫이에요.",
+              "phrases": [
+                "늘어나는 전기의",
+                "약 4분의 3이",
+                "AI 몫이에요."
+              ]
+            }
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "세계 에너지를 살피는 국제에너지기구가 11월 19일 한 해 에너지 전망 보고서를 냈어요. 데이터센터가 쓰는 전기가 2030년까지 약 2배로 늘 거라고 내다봤어요. 이 때문에 데이터센터에서 나오는 탄소도 70%쯤 늘 수 있다고 했어요.",
+            "nobreak": [
+              "11월 19일",
+              "2030년",
+              "약 2배",
+              "70%쯤"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "데이터센터는 컴퓨터 수만 대가 모인 커다란 건물이에요. AI에게 질문하면 이런 곳의 컴퓨터가 쉬지 않고 계산해요. 늘어나는 전기의 약 4분의 3이 AI 몫이에요. 미국은 이 전기의 약 60%를 가스로, 중국은 약 절반을 석탄으로 만들 것으로 보여요. 그래서 탄소가 함께 늘어요.",
+            "nobreak": [
+              "약 4분의 3",
+              "약 60%",
+              "약 절반"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "AI에게 묻는 한 번 한 번에도 전기가 들어요. 그렇다고 AI를 쓰지 말라는 뜻은 아니에요. 같은 질문을 여러 번 되풀이하기보다, 한 번에 또렷하게 묻는 습관이 도움이 돼요. 이 숫자는 앞날을 내다본 전망이라, 나라들이 깨끗한 전기를 얼마나 늘리느냐에 따라 달라질 수 있어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "블룸버그·프리말레이시아투데이",
+          "date": "11월 19일",
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/11/19/iea-sees-data-centre-boom-pushing-power-grids-to-the-limit"
+        },
+        {
+          "name": "커먼드림스",
+          "date": "11월 19일",
+          "url": "https://www.commondreams.org/news/data-centers-emissions"
+        },
+        {
+          "name": "스타트업포천",
+          "date": "11월 19일",
+          "url": "https://startupfortune.com/iea-warns-data-centre-emissions-will-jump-70-by-2030-as-ai-demand-grows/"
+        },
+        {
+          "name": "가디언",
+          "date": "11월 19일",
+          "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261119_201012_cb5d63bf-4815-4a4e-9f6d-8d648bef5a84.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261119_201012_cb5d63bf-4815-4a4e-9f6d-8d648bef5a84.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "카나나",
+      "meaning": {
+        "text": "카카오가 만든 AI의 이름",
+        "phrases": [
+          "카카오가 만든",
+          "AI의 이름"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "잠정 집계",
+      "meaning": {
+        "text": "최종 숫자가 나오기 전에 먼저 세어 본 것",
+        "phrases": [
+          "최종 숫자가 나오기 전에",
+          "먼저 세어 본 것"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "메모리 반도체",
+      "meaning": {
+        "text": "컴퓨터에서 정보를 기억하는 부품",
+        "phrases": [
+          "컴퓨터에서 정보를",
+          "기억하는 부품"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "데이터센터",
+      "meaning": {
+        "text": "컴퓨터 수만 대가 모여 쉬지 않고 일하는 건물",
+        "phrases": [
+          "컴퓨터 수만 대가 모여",
+          "쉬지 않고 일하는 건물"
+        ]
+      },
+      "color": "green"
+    }
+  ]
+}

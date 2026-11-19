@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-20",
+    "title": "카톡 자동 번역,|수출 1조 달러,|데이터센터 전기",
+    "summary": "카카오톡에|외국어 메시지를|AI가 바로 번역해 주는|기능이 생겼어요.|AI 반도체 덕분에|한국 수출이|처음 1조 달러를 넘었고,|데이터센터 전기는|2배로 늘 전망이에요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "생활",
+        "color": "yellow",
+        "anchor": "kakao-translate",
+        "title": "카톡에 외국어가 오면|AI가 바로|번역해 줘요",
+        "dek": "카카오톡이|새 기능을 내놨어요.",
+        "illust": "assets/img/hf_20261119_202333_1cd78c12-6f48-41c8-b771-1e0ca09acfcb.webp",
+        "thumb": "assets/img/hf_20261119_202333_1cd78c12-6f48-41c8-b771-1e0ca09acfcb_min.webp"
+      },
+      {
+        "tag": "돈",
+        "color": "blue",
+        "anchor": "export-chip",
+        "title": "한국 수출,|처음으로|1조 달러 넘었어요",
+        "dek": "AI에 쓰는 반도체가|많이 팔렸어요.",
+        "illust": "assets/img/hf_20261119_200459_246f3caf-6185-4368-8cf3-025b061d8491.webp",
+        "thumb": "assets/img/hf_20261119_200459_246f3caf-6185-4368-8cf3-025b061d8491_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "green",
+        "anchor": "datacenter-power",
+        "title": "AI 때문에|데이터센터 전기가|2배로 늘어요",
+        "dek": "국제에너지기구가|내다봤어요.",
+        "illust": "assets/img/hf_20261119_200458_18db4ee6-64d3-4b9b-a14b-029935e5338a.webp",
+        "thumb": "assets/img/hf_20261119_200458_18db4ee6-64d3-4b9b-a14b-029935e5338a_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "카나나",
+        "meaning": "카카오가 만든|AI의 이름"
+      },
+      {
+        "word": "잠정 집계",
+        "meaning": "최종 숫자가 나오기 전에|먼저 세어 본 것"
+      },
+      {
+        "word": "메모리 반도체",
+        "meaning": "컴퓨터에서 정보를|기억하는 부품"
+      },
+      {
+        "word": "데이터센터",
+        "meaning": "컴퓨터 수만 대가 모여|쉬지 않고 일하는 건물"
+      }
+    ]
+  },
+  {
     "date": "2026-11-19",
     "title": "할 일 맡는 제미나이,|수능 AI 커닝 막기,|어린이 병원 로봇",
     "summary": "구글 제미나이의|할 일 맡기기 기능이|한국에서도 무료가 됐어요.|오늘 수능은|AI 커닝을 막으려고|감독을 크게 늘렸고,|어린이 환자 곁에는|AI 로봇이 와요.",

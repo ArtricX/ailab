@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-20",
+      "title": "카톡 자동 번역, 수출 1조 달러, 데이터센터 전기",
+      "file": "content/2026-11-20.json",
+      "stories": [
+        {
+          "anchor": "kakao-translate",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "카톡에 외국어가 오면 AI가 바로 번역해 줘요"
+        },
+        {
+          "anchor": "export-chip",
+          "tag": "돈",
+          "color": "blue",
+          "title": "한국 수출, 처음으로 1조 달러 넘었어요"
+        },
+        {
+          "anchor": "datacenter-power",
+          "tag": "생활",
+          "color": "green",
+          "title": "AI 때문에 데이터센터 전기가 2배로 늘어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "title": "할 일 맡는 제미나이, 수능 AI 커닝 막기, 어린이 병원 로봇",
       "file": "content/2026-11-19.json",
