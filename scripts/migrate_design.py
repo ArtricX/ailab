@@ -4,7 +4,7 @@
 사용법: python3 scripts/migrate_design.py
 - 글(posts/*.html): head의 아이콘·글꼴 줄, 상단 메뉴, '홈 › 날짜 소식' 길 표시, 날짜 줄, 오늘의 말 안내 문장,
   받아 보기(앱 + 메일), 바닥글을 바꿔요. 소식 본문(section.story)과 인포그래픽, 오늘의 말 칸은 그대로 둬요.
-- 안내 페이지(subscribe.html, copyright.html, privacy.html): head와 상단 메뉴, 바닥글만 바꿔요.
+- 안내 페이지(subscribe.html, copyright.html, privacy.html, terms.html): head와 상단 메뉴, 바닥글만 바꿔요.
 """
 import datetime as dt
 import pathlib
@@ -57,7 +57,7 @@ def footer(base, next_line="내일 아침 7시에 다음 소식이 올라와요.
         '    <div class="footer-in">',
         f'      <p class="footer-next">{next_line}</p>',
         '      <p class="footer-about">글은 AI가 쓰고 사람이 확인한 뒤 올려요. 숫자와 내용은 출처의 보도를 바탕으로 해요.</p>',
-        f'      <p class="footer-links">아이고 AI-go · <a href="{base}copyright.html">출처와 저작권 안내</a> · <a href="{base}privacy.html">개인정보처리방침</a></p>',
+        f'      <p class="footer-links">아이고 AI-go · <a href="{base}copyright.html">출처와 저작권 안내</a> · <a href="{base}privacy.html">개인정보처리방침</a> · <a href="{base}terms.html">이용약관</a></p>',
         '    </div>',
         '  </footer>',
     ])
@@ -176,7 +176,8 @@ def main():
             skipped.append(f"{p.name}: {e}")
     for name, line in (("subscribe.html", "매일 아침 7시, 오늘의 AI 소식 세 가지를 보내 드려요."),
                        ("copyright.html", "아이고는 소식마다 출처를 밝혀요."),
-                       ("privacy.html", "아이고는 꼭 필요한 정보만 받아요.")):
+                       ("privacy.html", "아이고는 꼭 필요한 정보만 받아요."),
+                       ("terms.html", "아이고는 누구나 무료로 볼 수 있어요.")):
         try:
             changed += migrate_page(ROOT / name, line)
         except Skip as e:

@@ -664,7 +664,7 @@ var AIGO = {
   });
 })();
 
-// 바닥글에 '출처와 저작권 안내'와 '개인정보처리방침' 링크가 없으면 붙여요 (모든 페이지 공통)
+// 바닥글에 '출처와 저작권 안내'·'개인정보처리방침'·'이용약관' 링크가 없으면 붙여요 (모든 페이지 공통)
 (function () {
   function add() {
     var foot = document.querySelector(".footer .footer-in, .footer .footer-main");
@@ -672,7 +672,7 @@ var AIGO = {
     var base = AIGO.base();
     var p = document.createElement("p");
     p.className = "footer-links";
-    p.innerHTML = '아이고 AI-go · <a href="' + base + 'copyright.html">출처와 저작권 안내</a> · <a href="' + base + 'privacy.html">개인정보처리방침</a>';
+    p.innerHTML = '아이고 AI-go · <a href="' + base + 'copyright.html">출처와 저작권 안내</a> · <a href="' + base + 'privacy.html">개인정보처리방침</a> · <a href="' + base + 'terms.html">이용약관</a>';
     foot.appendChild(p);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", add);
