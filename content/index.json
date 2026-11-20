@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-21",
+      "title": "말로 만든 앱, 챗GPT 건강 기능, 선생님 AI 연수",
+      "file": "content/2026-11-21.json",
+      "stories": [
+        {
+          "anchor": "vibe-apps",
+          "tag": "창작",
+          "color": "yellow",
+          "title": "고등학생들이 말로 앱을 1000개나 만들었어요"
+        },
+        {
+          "anchor": "chatgpt-health",
+          "tag": "건강",
+          "color": "green",
+          "title": "챗GPT 건강 기능, 컴퓨터와 안드로이드에서도 써요"
+        },
+        {
+          "anchor": "teacher-ai",
+          "tag": "학교",
+          "color": "blue",
+          "title": "선생님 240명, AI 회사에 가서 수업을 배워요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-20",
       "title": "카톡 자동 번역, 수출 1조 달러, 데이터센터 전기",
       "file": "content/2026-11-20.json",
