@@ -2,7 +2,7 @@
 """아이고 인스타툰 〈엄마와 딸〉 조립기.
 네 칸 그림 한 장(toon/sheets/*.webp, 2x2) + 아래 EPS의 대사 -> 편마다 1080x1350 다섯 장(PNG).
 
-사용법: python3 toon/make_toon.py <출력 폴더> [편 열쇠: ep1 | ep2 | ep3]
+사용법: python3 toon/make_toon.py <출력 폴더> [편 열쇠: ep1 … ep7]
 필요한 것: pip install pillow playwright && playwright install chromium
 
 말풍선 위치는 칸(1000x1270) 안의 비율(0~1)로 적어요. 그림을 보고 빈 곳과 얼굴 위치에 맞춥니다.
@@ -33,19 +33,43 @@ EPS = [
         [("msg", "AI가 건강 기록 보고\n운동하라고 챙겨 준대.", .5, .14), ("sfx", "톡톡", .15, .43, -8)],
         [("msg", "근데 아직 미국만 된대.", .38, .05), ("msg", "그래서 한국은 엄마가 해.\n밥 먹었니. 좀 걸어라.", .56, .185)],
         [("cap", "한국 서비스는\n엄마가 이미 운영 중.", .05, .04), ("say", "네네,\n걸을게요.", .20, .33, .5, .44)],
-    ], news="챗GPT 건강 기능이\n컴퓨터와 안드로이드에서도\n된대요.", note="아직은 미국에서만 쓸 수 있어요.", no=1, band="#FFC9CF", pop="#F06A5C", faceof=1, face=(47, 50, 190)),
+    ], news="챗GPT 건강 기능이\n컴퓨터와 안드로이드에서도\n된대요.", note="아직은 미국에서만 쓸 수 있어요.", no=1, date="11월 21일", band="#FFC9CF", pop="#F06A5C", faceof=1, face=(47, 50, 190)),
     dict(key="ep2", sheet="ep2.webp", title="원조", panels=[
         [("say", "앱 하나 만드는 데\n석 달째야…", .5, .14, .5, .36)],
         [("say", "요즘 고등학생들은\n말로 앱 만든다던데?", .42, .12, .46, .36), ("say", "일주일에\n천 개.", .83, .325, .62, .44)],
         [("say", "엄마가 그걸\n어떻게 알아?!", .28, .11, .27, .30), ("say", "너만\n모르더라.", .76, .11, .76, .28)],
         [("say", "우리 딸한테\n잔소리해 주는\n앱 만들어 줘.", .29, .13, .30, .32), ("say", "그건 엄마가\n원조잖아.", .76, .17, .78, .34)],
-    ], news="고등학생들이 말로 설명해서\n일주일 만에 앱을\n1000개쯤 만들었대요.", note="숫자는 서비스 회사가 밝힌 거예요.", no=2, band="#FFE27A", pop="#2348D6", faceof=3, face=(22, 52, 210)),
+    ], news="고등학생들이 말로 설명해서\n일주일 만에 앱을\n1000개쯤 만들었대요.", note="숫자는 서비스 회사가 밝힌 거예요.", no=2, date="11월 21일", band="#FFE27A", pop="#2348D6", faceof=3, face=(22, 52, 210)),
     dict(key="ep3", sheet="ep3.webp", title="맨 앞자리", panels=[
         [("say", "엄마,\n어디 가?", .27, .19, .25, .40), ("say", "수업!", .72, .21, .68, .38)],
         [("say", "선생님 240명도\nAI 회사 가서 배운대.", .5, .14, .45, .34)],
         [("say", "…엄마는\n선생님 아니잖아.", .5, .11, .5, .28)],
         [("cap", "경로당 스마트폰 교실\n3년 차 강사.", .04, .035), ("say", "자, 어제 배운 거\n복습합니다!", .73, .235, .56, .40)],
-    ], news="선생님 240명쯤이\nAI 회사에 가서\n수업에 쓸 AI를 배워요.", note="교육부가 11월 20일에 발표했어요.", no=3, band="#BBD7FF", pop="#F6C93B", faceof=1, face=(42, 52, 190)),
+    ], news="선생님 240명쯤이\nAI 회사에 가서\n수업에 쓸 AI를 배워요.", note="교육부가 11월 20일에 발표했어요.", no=3, date="11월 21일", band="#BBD7FF", pop="#F6C93B", faceof=1, face=(42, 52, 190)),
+    dict(key="ep4", sheet="ep4.webp", title="삼십 년 전부터", panels=[
+        [("say", "이제 AI한테 할 일을\n통째로 맡길 수 있대.", .5, .14, .28, .40)],
+        [("say", "나는 삼십 년 전부터\n썼다.", .5, .13, .48, .33)],
+        [("say", "…뭘?", .5, .12, .47, .28)],
+        [("say", "너.", .58, .15, .80, .34, 1.9)],
+    ], news="구글 제미나이에게\n할 일을 통째로 맡길 수\n있게 됐어요.", note="한국에서도 무료로 쓸 수 있어요.", no=4, date="11월 19일", band="#FFC9CF", pop="#F06A5C", faceof=3, face=(100, 44, 200)),
+    dict(key="ep5", sheet="ep5.webp", title="번역 불가", panels=[
+        [("say", "카톡에 외국어 오면\nAI가 바로 번역해 준대.", .5, .14, .30, .37)],
+        [("say", "그래? 그럼\n이것 좀 해 봐라.", .5, .13, .50, .33)],
+        [("cap", "딸이 보낸 카톡", .05, .04), ("msg", "ㅇㅇ", .45, .40), ("msg", "ㄴㄴ", .45, .54), ("msg", "ㅇㅋ", .45, .68)],
+        [("say", "네 건 왜\n번역이 안 되니.", .34, .14, .27, .34), ("say", "ㅇㅋ…", .82, .21, .74, .34)],
+    ], news="카카오톡에\n외국어가 오면 AI가\n바로 번역해 줘요.", note="중요한 내용은 상대에게 다시 물어보세요.", no=5, date="11월 20일", band="#FFE27A", pop="#2348D6", faceof=3, face=(0, 40, 200)),
+    dict(key="ep6", sheet="ep6.webp", title="안 바꾼다", panels=[
+        [("say", "AI는 아니라고 하면\n맞는 답도 바꾼대.\n열에 여덟 번.", .5, .145, .45, .36)],
+        [("say", "줏대 없기는.", .46, .19, .45, .34)],
+        [("say", "엄마,\n이 옷 어때?", .28, .10, .27, .25), ("say", "별로다.", .77, .12, .78, .27)],
+        [("say", "아니야,\n예쁜데?", .27, .14, .25, .32), ("say", "별로라니까.", .73, .13, .75, .29), ("cap", "우리 집 AI는 안 바꾼다.", .07, .88)],
+    ], news="AI는 '아니야' 한마디에\n맞는 답도 바꾸곤 해요.", note="유네스코 시험에서 열에 여덟 번 그랬어요.", no=6, date="11월 18일", band="#BBD7FF", pop="#F6C93B", faceof=1, face=(37, 44, 190)),
+    dict(key="ep7", sheet="ep7.webp", title="밥심", panels=[
+        [("say", "전기 아껴라.", .58, .30, .53, .52), ("sfx", "딸깍", .15, .57, -8)],
+        [("say", "AI한테 한 번 물을\n때마다 전기가 든대.", .5, .14, .52, .37)],
+        [("say", "그럼\n나한테 물어.", .5, .095, .5, .22)],
+        [("say", "나는 밥만 먹으면\n돌아간다.", .38, .14, .28, .33)],
+    ], news="AI 때문에 데이터센터가\n쓰는 전기가 2배로\n늘 수 있대요.", note="국제에너지기구가 내다본 숫자예요.", no=7, date="11월 20일", band="#C9EBCF", pop="#F06A5C", faceof=2, face=(48, 25, 190)),
 ]
 
 
@@ -138,6 +162,7 @@ body{background:#FFF6E3 """ + DOTS + """ 0 0/22px 22px}
 #memo .ep{position:absolute;left:-26px;top:-64px;zoom:.86}
 #memo .n{font-size:74px;line-height:1.5;white-space:pre}
 #memo .m{margin-top:44px;font-size:46px;line-height:1.4;color:#555;max-width:470px;word-break:keep-all}
+#memo .dt{margin-top:22px;font-size:34px;color:#8a8a8a}
 #memo .e{position:absolute;left:60px;bottom:58px;font-size:44px;background:#FFE27A;border:7px solid #111;box-shadow:5px 5px 0 #111;padding:10px 22px 6px;transform:rotate(-2deg)}
 #face{position:absolute;right:-40px;bottom:-64px;width:400px;height:400px;border-radius:50%;border:11px solid #111;box-shadow:9px 9px 0 #111;background-size:var(--fs);background-position:var(--fx) var(--fy);transform:rotate(6deg)}
 .burst.big b{font-size:74px;padding-top:8px}
@@ -211,7 +236,8 @@ def bubbles(ep, i):
         else:
             cy = b[3] * PH - (34 if kind == "say" and b[3] <= .145 else 0)   # 위쪽 말풍선은 칸 밖으로 살짝 튀어나오게
             extra = f' data-tx="{b[4]*PW}" data-ty="{b[5]*PH}"' if kind in ("say", "think") else ""
-            items.append(f'<div class="b {kind}" data-kind="{kind}" data-cx="{b[2]*PW}" data-cy="{cy}"{extra} style="left:{b[2]*PW}px;top:{cy}px">{text}</div>')
+            big = f";font-size:{int(62 * b[6])}px" if kind == "say" and len(b) > 6 else ""   # 웃음이 터지는 대사는 크게
+            items.append(f'<div class="b {kind}" data-kind="{kind}" data-cx="{b[2]*PW}" data-cy="{cy}"{extra} style="left:{b[2]*PW}px;top:{cy}px{big}">{text}</div>')
     return "".join(items)
 
 
@@ -243,7 +269,7 @@ def after(ep, img):
     fx, fy, fs = ep["face"]
     return f"""<style>:root{{--band:{ep['band']};--pop:{ep['pop']};--fx:{fx}%;--fy:{fy}%;--fs:{fs}%}}</style>
     <div id="band" class="short"></div><div id="cover" class="small"><img src="{LOGOIMG}"></div>{burst('끝!').replace('class="burst"', 'class="burst big"')}
-    <div id="memo">{eptag(ep, '오늘의 진짜 소식', no=False)}<div class="n">{html.escape(ep['news'])}</div><div class="m">{html.escape(ep['note'])}</div>
+    <div id="memo">{eptag(ep, '이 만화의 진짜 소식', no=False)}<div class="n">{html.escape(ep['news'])}</div><div class="m">{html.escape(ep['note'])}</div><div class="dt">아이고 {ep['date']} 소식</div>
     <div class="e">다음 화에 또 만나요!</div><div id="face" style="background-image:url('{img.as_uri()}')"></div></div>{foot(ep)}"""
 
 async def main():

@@ -12,7 +12,7 @@
 ```
 pip install pillow playwright && playwright install chromium
 python3 toon/make_toon.py 출력폴더        # 세 편 모두
-python3 toon/make_toon.py 출력폴더 ep2    # 한 편만
+python3 toon/make_toon.py 출력폴더 ep5    # 한 편만
 ```
 
 ## 새 편을 더할 때
