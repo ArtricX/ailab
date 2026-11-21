@@ -1,0 +1,644 @@
+{
+  "schema": 1,
+  "date": "2026-11-22",
+  "weekday": "일",
+  "url": "https://aigo.artricx.com/posts/2026-11-22.html",
+  "minutes": 5,
+  "title": {
+    "text": "논술장 앞치마, 구글 스피커 비서, 시그널 화면 보호",
+    "phrases": [
+      "논술장 앞치마,",
+      "구글 스피커 비서,",
+      "시그널 화면 보호"
+    ]
+  },
+  "share": {
+    "title": "논술 시험장에 일회용 앞치마가 등장했어요 외 2건 · 아이고 11월 22일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 22일 일요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-22.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "essay-exam",
+      "tag": "학교",
+      "color": "blue",
+      "label": "논술 앞치마"
+    },
+    {
+      "anchor": "google-speaker",
+      "tag": "생활",
+      "color": "yellow",
+      "label": "구글 스피커"
+    },
+    {
+      "anchor": "signal-screen",
+      "tag": "안전",
+      "color": "green",
+      "label": "시그널 화면 보호"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "essay-exam",
+      "url": "https://aigo.artricx.com/posts/2026-11-22.html#essay-exam",
+      "tag": "학교",
+      "color": "blue",
+      "title": {
+        "text": "논술 시험장에 일회용 앞치마가 등장했어요",
+        "phrases": [
+          "논술 시험장에",
+          "일회용 앞치마가",
+          "등장했어요"
+        ]
+      },
+      "dek": {
+        "text": "AI 부정행위를 막으려고 대학들이 나섰어요.",
+        "phrases": [
+          "AI 부정행위를 막으려고",
+          "대학들이 나섰어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261121_200624_c3f28f20-7f6b-469b-9a7b-ad748efe57c2.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261121_200624_c3f28f20-7f6b-469b-9a7b-ad748efe57c2.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "파란 벽 시험장에서 후드티 위에 하얀 일회용 앞치마를 두르고 머리를 묶어 귀가 보이는 학생이 연필을 쥔 채 어리둥절하게 앞치마를 내려다보고, 남색 재킷을 입은 감독관이 접은 앞치마를 활짝 웃으며 내미는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-22-essay-exam.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-22-essay-exam.png",
+        "viewBox": "0 0 1080 2730",
+        "title": "한눈에 보기: 46곳 교육부가 대응책을 살펴본 대학",
+        "desc": "46곳 교육부가 대응책을 살펴본 대학. 교육부·대교협 · 11월 20일 · 대학별고사를 치르는 대학. 14곳 이번 주말(21~22일) 논술을 치르는 대학. 대학마다 이렇게 막아요: 일회용 앞치마나 가운 입기, 귀가 보이게 머리 묶기, 학교가 준 필기구만 쓰기, 옷 단추에 스티커 붙이기, 스마트 안경·단추형 카메라 가져오지 않기. 이러면 안 돼요: 켜진 휴대폰을 몸에 지니기, 앞치마 입기를 거부하기 (퇴실될 수 있어요). 알아 두세요: 대학마다 규칙이 달라요. 시험 전에 학교 안내문을 꼭 읽어 보세요. 대학별 시험이 모두 끝날 때까지 긴급대응반이 움직여요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "46곳",
+          "what": {
+            "text": "교육부가 대응책을 살펴본 대학",
+            "phrases": [
+              "교육부가 대응책을",
+              "살펴본 대학"
+            ]
+          },
+          "source": "교육부·대교협 · 11월 20일 · 대학별고사를 치르는 대학"
+        },
+        "blocks": [
+          {
+            "type": "stat",
+            "num": "14곳",
+            "text": {
+              "text": "이번 주말(21~22일) 논술을 치르는 대학",
+              "phrases": [
+                "이번 주말(21~22일)",
+                "논술을 치르는 대학"
+              ]
+            }
+          },
+          {
+            "head": "대학마다 이렇게 막아요",
+            "head_style": "",
+            "type": "list",
+            "style": "dot",
+            "items": [
+              {
+                "text": "일회용 앞치마나 가운 입기",
+                "phrases": [
+                  "일회용 앞치마나",
+                  "가운 입기"
+                ]
+              },
+              {
+                "text": "귀가 보이게 머리 묶기",
+                "phrases": [
+                  "귀가 보이게",
+                  "머리 묶기"
+                ]
+              },
+              {
+                "text": "학교가 준 필기구만 쓰기",
+                "phrases": [
+                  "학교가 준",
+                  "필기구만 쓰기"
+                ]
+              },
+              {
+                "text": "옷 단추에 스티커 붙이기",
+                "phrases": [
+                  "옷 단추에",
+                  "스티커 붙이기"
+                ]
+              },
+              {
+                "text": "스마트 안경·단추형 카메라 가져오지 않기",
+                "phrases": [
+                  "스마트 안경·단추형 카메라",
+                  "가져오지 않기"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "이러면 안 돼요",
+            "head_style": "warn",
+            "type": "list",
+            "style": "x",
+            "items": [
+              {
+                "text": "켜진 휴대폰을 몸에 지니기",
+                "phrases": [
+                  "켜진 휴대폰을",
+                  "몸에 지니기"
+                ]
+              },
+              {
+                "text": "앞치마 입기를 거부하기 (퇴실될 수 있어요)",
+                "phrases": [
+                  "앞치마 입기를",
+                  "거부하기 (퇴실될 수 있어요)"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "대학마다 규칙이 달라요. 시험 전에 학교 안내문을 꼭 읽어 보세요.",
+                "phrases": [
+                  "대학마다 규칙이 달라요.",
+                  "시험 전에 학교 안내문을",
+                  "꼭 읽어 보세요."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "foot",
+            "text": {
+              "text": "대학별 시험이 모두 끝날 때까지 긴급대응반이 움직여요.",
+              "phrases": [
+                "대학별 시험이 모두 끝날 때까지",
+                "긴급대응반이 움직여요."
+              ]
+            }
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "수능이 끝나고 첫 주말인 11월 21일부터 대학별 논술 시험이 시작됐어요. 논술은 주제를 받고 생각을 글로 쓰는 시험이에요. 대학들은 AI를 몰래 쓰는 부정행위를 막으려고 새 규칙을 내놓았어요. 경희대는 올해 처음으로 시험 보는 학생 모두에게 일회용 앞치마를 입게 했어요.",
+            "nobreak": [
+              "11월 21일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "요즘은 안경이나 옷 단추처럼 보이는 아주 작은 카메라가 있어요. 문제를 몰래 찍어 AI에게 보내고 답을 받을 수 있어요. 그래서 옷을 앞치마로 가리고, 귀에 무언가를 꽂았는지 보이게 머리를 묶게 해요. 교육부도 11월 20일 대학들과 회의를 열어 엄하게 대응해 달라고 했어요.",
+            "nobreak": [
+              "11월 20일"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "집에 시험을 앞둔 학생이 있다면, 지원한 대학의 안내문을 함께 읽어 보세요. 지우개나 필기구도 학교 것만 써야 하는 곳이 있어요. 휴대폰은 꼭 끄고 가방에 넣어야 해요. 켜진 기기를 몸에 지니기만 해도 부정행위가 될 수 있어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "date": "11월 21일",
+          "url": "https://www.fnnews.com/news/202611211431040418"
+        },
+        {
+          "name": "중앙일보",
+          "date": "11월 20일",
+          "url": "https://www.koreadaily.com/article/20261120003347949"
+        },
+        {
+          "name": "이투데이",
+          "date": "11월 21일",
+          "url": "https://supple.kr/news/cmwpylbfg8z36kwp8sm66xfbq"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261121_202318_8c8f8eb6-a2ff-420b-8faf-8bd6f9cca158.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261121_202318_8c8f8eb6-a2ff-420b-8faf-8bd6f9cca158.mp3"
+      }
+    },
+    {
+      "anchor": "google-speaker",
+      "url": "https://aigo.artricx.com/posts/2026-11-22.html#google-speaker",
+      "tag": "생활",
+      "color": "yellow",
+      "title": {
+        "text": "구글 스피커 속 비서, 내년 8월에 제미나이로 바뀌어요",
+        "phrases": [
+          "구글 스피커 속 비서,",
+          "내년 8월에",
+          "제미나이로 바뀌어요"
+        ]
+      },
+      "dek": {
+        "text": "네스트 앱은 1월에 문을 닫아요.",
+        "phrases": [
+          "네스트 앱은",
+          "1월에 문을 닫아요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261121_200623_b12c5885-3271-4fe5-9fdc-2ab6ddb5a17c.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261121_200623_b12c5885-3271-4fe5-9fdc-2ab6ddb5a17c.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "노란 벽 거실에서 회색 머리에 산호색 니트를 입은 여성이 선반 위 작은 여행 가방을 옆에 둔 회색 스피커에게 정답게 손을 흔들고, 그 옆 파란 새 스피커는 반짝이는 별과 함께 빛나며, 벽 달력에는 동그라미 하나가 쳐진 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-22-google-speaker.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-22-google-speaker.png",
+        "viewBox": "0 0 1080 2280",
+        "title": "한눈에 보기: 8월 2일 스피커와 화면 기기에서 구글 어시스턴트가 끝나는 날",
+        "desc": "8월 2일 스피커와 화면 기기에서 구글 어시스턴트가 끝나는 날. 구글 · 미국 시간 11월 20일 발표 · 2027년. 이렇게 바뀌어요: 2027년 1월 25일 네스트 앱이 문을 닫아요, 3월 25일까지 네스트 계정을 옮겨요, 8월 2일 스피커 비서가 제미나이로. 구글 홈 앱으로 옮겨 가요: 온도 조절기·카메라· 초인종, 연기 경보기와 도어록, 기기 설정과 일정. 알아 두세요: 한국에서 제미나이 스피커를 언제 쓸 수 있는지는 아직 발표되지 않았어요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "8월 2일",
+          "what": {
+            "text": "스피커와 화면 기기에서 구글 어시스턴트가 끝나는 날",
+            "phrases": [
+              "스피커와 화면 기기에서",
+              "구글 어시스턴트가 끝나는 날"
+            ]
+          },
+          "source": "구글 · 미국 시간 11월 20일 발표 · 2027년"
+        },
+        "blocks": [
+          {
+            "head": "이렇게 바뀌어요",
+            "head_style": "",
+            "type": "steps",
+            "items": [
+              {
+                "text": "2027년 1월 25일 네스트 앱이 문을 닫아요",
+                "phrases": [
+                  "2027년 1월 25일",
+                  "네스트 앱이 문을 닫아요"
+                ]
+              },
+              {
+                "text": "3월 25일까지 네스트 계정을 옮겨요",
+                "phrases": [
+                  "3월 25일까지",
+                  "네스트 계정을 옮겨요"
+                ]
+              },
+              {
+                "text": "8월 2일 스피커 비서가 제미나이로",
+                "phrases": [
+                  "8월 2일",
+                  "스피커 비서가 제미나이로"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "구글 홈 앱으로 옮겨 가요",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "온도 조절기·카메라· 초인종",
+                "phrases": [
+                  "온도 조절기·카메라·",
+                  "초인종"
+                ]
+              },
+              {
+                "text": "연기 경보기와 도어록",
+                "phrases": [
+                  "연기 경보기와",
+                  "도어록"
+                ]
+              },
+              {
+                "text": "기기 설정과 일정",
+                "phrases": [
+                  "기기 설정과",
+                  "일정"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "한국에서 제미나이 스피커를 언제 쓸 수 있는지는 아직 발표되지 않았어요.",
+                "phrases": [
+                  "한국에서 제미나이 스피커를",
+                  "언제 쓸 수 있는지는",
+                  "아직 발표되지 않았어요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글이 미국 시간 11월 20일, 스피커와 화면 달린 기기에 들어 있던 ‘구글 어시스턴트’를 끝낸다고 밝혔어요. 끝나는 날은 2027년 8월 2일이에요. 그 자리는 구글의 새 AI ‘제미나이’가 이어받아요. 집 기기를 다루던 ‘네스트’ 앱도 2027년 1월 25일에 문을 닫아요.",
+            "nobreak": [
+              "11월 20일",
+              "2027년 8월 2일",
+              "2027년 1월 25일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "구글 어시스턴트는 말로 부리는 비서예요. 구글 스피커는 십 년도 더 전에 처음 나왔어요. 요즘 AI는 더 길고 자연스러운 대화를 알아들어요. 구글은 휴대폰에서도 올해 이미 어시스턴트를 제미나이로 바꿨어요. 이제 집 안 기기까지 한 가지 AI로 모으려는 거예요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "집에 구글 스피커나 네스트 기기가 있다면 ‘구글 홈’ 앱을 미리 깔아 두세요. 오래된 네스트 계정을 쓴다면 2027년 3월 25일까지 구글 계정으로 옮겨야 해요. 옮기지 않으면 기록이 지워질 수 있어요. 한국에서 바뀌는 시기는 아직 정해지지 않았어요.",
+            "nobreak": [
+              "2027년 3월 25일"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "구글 홈 공식 블로그",
+          "date": "11월 20일",
+          "url": "https://support.google.com/googlehome/blog/478236207/a-modern-foundation-for-your-smart-home-changes-coming-to-google-assistant-and-nest-app"
+        },
+        {
+          "name": "안드로이드 센트럴",
+          "date": "11월 20일",
+          "url": "https://www.androidcentral.com/accessories/smart-home/google-sets-hard-deadline-for-the-nest-app-and-smart-display-assistant"
+        },
+        {
+          "name": "하우투긱",
+          "date": "11월 20일",
+          "url": "https://www.howtogeek.com/google-shutting-down-nest-app-assistant/"
+        },
+        {
+          "name": "안드로이드 헤드라인",
+          "date": "11월 21일",
+          "url": "https://www.androidheadlines.com/2026/11/google-assistant-nest-app-shutdown-2027.html"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261121_202317_532d8b09-963d-44d6-bc59-c96794e88597.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261121_202317_532d8b09-963d-44d6-bc59-c96794e88597.mp3"
+      }
+    },
+    {
+      "anchor": "signal-screen",
+      "url": "https://aigo.artricx.com/posts/2026-11-22.html#signal-screen",
+      "tag": "안전",
+      "color": "green",
+      "title": {
+        "text": "AI 비서가 대화를 못 엿보게 시그널이 화면을 막아요",
+        "phrases": [
+          "AI 비서가",
+          "대화를 못 엿보게",
+          "시그널이 화면을 막아요"
+        ]
+      },
+      "dek": {
+        "text": "비밀 메신저 시그널이 새 보호 기능을 켰어요.",
+        "phrases": [
+          "비밀 메신저 시그널이",
+          "새 보호 기능을 켰어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261121_200624_09a79060-5e7f-4dd8-89aa-8e1282e68368.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261121_200624_09a79060-5e7f-4dd8-89aa-8e1282e68368.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "초록 벽 거실 소파에서 회색 카디건을 입은 안경 쓴 남자가 방패 무늬 가림막이 내려온 휴대폰을 보며 웃고, 어깨 뒤에서 수첩을 든 작은 로봇이 대화를 엿보려다 막혀 머쓱한 얼굴을 하는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-22-signal-screen.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-22-signal-screen.png",
+        "viewBox": "0 0 1080 2088",
+        "title": "한눈에 보기: 2가지 새로 보호하는 휴대폰 (아이폰·안드로이드)",
+        "desc": "2가지 새로 보호하는 휴대폰 (아이폰·안드로이드). 시그널 · 미국 시간 11월 20일 발표. 이렇게 막아요: 아이폰: 앱 안 화면 캡처를 처음부터 막아요, 안드로이드: AI가 화면을 읽으면 화면 보호가 켜져요. 아직 못 막는 것: 맥 컴퓨터 화면, 상대방이 보호를 끈 경우, 휴대폰에 이미 저장된 내용. 알아 두세요: 설정에서 끌 수 있어요. 끄면 AI 비서가 대화를 읽을 수 있어요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "2가지",
+          "what": {
+            "text": "새로 보호하는 휴대폰 (아이폰·안드로이드)",
+            "phrases": [
+              "새로 보호하는 휴대폰",
+              "(아이폰·안드로이드)"
+            ]
+          },
+          "source": "시그널 · 미국 시간 11월 20일 발표"
+        },
+        "blocks": [
+          {
+            "head": "이렇게 막아요",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "아이폰: 앱 안 화면 캡처를 처음부터 막아요",
+                "phrases": [
+                  "아이폰:",
+                  "앱 안 화면 캡처를",
+                  "처음부터 막아요"
+                ]
+              },
+              {
+                "text": "안드로이드: AI가 화면을 읽으면 화면 보호가 켜져요",
+                "phrases": [
+                  "안드로이드:",
+                  "AI가 화면을 읽으면",
+                  "화면 보호가 켜져요"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "아직 못 막는 것",
+            "head_style": "",
+            "type": "list",
+            "style": "dot",
+            "items": [
+              {
+                "text": "맥 컴퓨터 화면",
+                "phrases": [
+                  "맥 컴퓨터",
+                  "화면"
+                ]
+              },
+              {
+                "text": "상대방이 보호를 끈 경우",
+                "phrases": [
+                  "상대방이",
+                  "보호를 끈 경우"
+                ]
+              },
+              {
+                "text": "휴대폰에 이미 저장된 내용",
+                "phrases": [
+                  "휴대폰에 이미",
+                  "저장된 내용"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "설정에서 끌 수 있어요. 끄면 AI 비서가 대화를 읽을 수 있어요.",
+                "phrases": [
+                  "설정에서 끌 수 있어요.",
+                  "끄면 AI 비서가",
+                  "대화를 읽을 수 있어요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "비밀 대화로 이름난 메신저 ‘시그널’이 미국 시간 11월 20일, AI 비서가 대화를 엿보지 못하게 막는 기능을 내놓았어요. 새 아이폰 운영 프로그램에서는 시그널 화면을 캡처할 수 없게 처음부터 막아요. 안드로이드에서는 AI 비서가 화면을 읽으려 하면 화면 보호가 저절로 켜져요.",
+            "nobreak": [
+              "11월 20일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "요즘 휴대폰 AI 비서는 화면에 뜬 글을 읽고 질문에 답해 줘요. 애플의 시리와 구글의 제미나이도 이런 기능이 있어요. 그런데 대화가 화면에 뜨는 순간, AI가 그 내용을 앱 밖으로 가져가 보관할 수도 있어요. 시그널은 이 점이 사용자의 비밀을 지키는 데 큰 걱정거리라고 했어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "AI 비서는 편하지만, 화면 속 내용을 볼 수 있다는 점도 기억해 두세요. 은행 문자나 가족과 나눈 비밀 이야기를 볼 때는 AI 비서가 무엇을 볼 수 있는지 설정을 살펴보면 좋아요. 시그널도 이 보호가 완벽하지 않다고 밝혔어요. 그래서 애플과 구글에 앱이 AI를 막을 수 있는 공식 방법을 만들어 달라고 했어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "시그널 공식 블로그",
+          "date": "11월 20일",
+          "url": "https://signal.org/blog/protecting-your-privacy/"
+        },
+        {
+          "name": "엔가젯",
+          "date": "11월 20일",
+          "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/"
+        },
+        {
+          "name": "사이버인사이더",
+          "date": "11월 20일",
+          "url": "https://cyberinsider.com/signal-blocks-screenshots-ios-27-android-ai-assistants/"
+        },
+        {
+          "name": "디지털트렌드",
+          "date": "11월 20일",
+          "url": "https://www.digitaltrends.com/phones/signal-adds-screenshot-protections-to-stop-ai-agents-reading-chats/"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261121_202318_94da96fc-af05-4329-850b-5511793aec51.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261121_202318_94da96fc-af05-4329-850b-5511793aec51.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "논술",
+      "meaning": {
+        "text": "주제를 받고 생각을 글로 쓰는 시험",
+        "phrases": [
+          "주제를 받고",
+          "생각을 글로 쓰는 시험"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "부정행위",
+      "meaning": {
+        "text": "시험에서 규칙을 어기고 몰래 답을 얻는 것",
+        "phrases": [
+          "시험에서 규칙을 어기고",
+          "몰래 답을 얻는 것"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "스마트 스피커",
+      "meaning": {
+        "text": "말로 부르면 대답하고 일을 해 주는 스피커",
+        "phrases": [
+          "말로 부르면",
+          "대답하고 일을 해 주는 스피커"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "화면 캡처",
+      "meaning": {
+        "text": "휴대폰 화면을 그대로 사진으로 찍어 두는 것",
+        "phrases": [
+          "휴대폰 화면을",
+          "그대로 사진으로 찍어 두는 것"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "AI 비서",
+      "meaning": {
+        "text": "말이나 글로 부탁하면 대신 찾아 주고 해 주는 AI",
+        "phrases": [
+          "말이나 글로 부탁하면",
+          "대신 찾아 주고 해 주는 AI"
+        ]
+      },
+      "color": "green"
+    }
+  ]
+}

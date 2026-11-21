@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-22",
+      "title": "논술장 앞치마, 구글 스피커 비서, 시그널 화면 보호",
+      "file": "content/2026-11-22.json",
+      "stories": [
+        {
+          "anchor": "essay-exam",
+          "tag": "학교",
+          "color": "blue",
+          "title": "논술 시험장에 일회용 앞치마가 등장했어요"
+        },
+        {
+          "anchor": "google-speaker",
+          "tag": "생활",
+          "color": "yellow",
+          "title": "구글 스피커 속 비서, 내년 8월에 제미나이로 바뀌어요"
+        },
+        {
+          "anchor": "signal-screen",
+          "tag": "안전",
+          "color": "green",
+          "title": "AI 비서가 대화를 못 엿보게 시그널이 화면을 막아요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-21",
       "title": "말로 만든 앱, 챗GPT 건강 기능, 선생님 AI 연수",
       "file": "content/2026-11-21.json",

@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-22",
+    "title": "논술장 앞치마,|구글 스피커 비서,|시그널 화면 보호",
+    "summary": "대학들이|AI 부정행위를 막으려고|논술 시험에 앞치마를 나눠 줘요.|구글 스피커 속 비서는|내년 8월 제미나이로 바뀌고,|시그널은|AI 비서가 대화를 못 보게 막아요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "학교",
+        "color": "blue",
+        "anchor": "essay-exam",
+        "title": "논술 시험장에|일회용 앞치마가|등장했어요",
+        "dek": "AI 부정행위를 막으려고|대학들이 나섰어요.",
+        "illust": "assets/img/hf_20261121_200624_c3f28f20-7f6b-469b-9a7b-ad748efe57c2.webp",
+        "thumb": "assets/img/hf_20261121_200624_c3f28f20-7f6b-469b-9a7b-ad748efe57c2_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "yellow",
+        "anchor": "google-speaker",
+        "title": "구글 스피커 속 비서,|내년 8월에|제미나이로 바뀌어요",
+        "dek": "네스트 앱은|1월에 문을 닫아요.",
+        "illust": "assets/img/hf_20261121_200623_b12c5885-3271-4fe5-9fdc-2ab6ddb5a17c.webp",
+        "thumb": "assets/img/hf_20261121_200623_b12c5885-3271-4fe5-9fdc-2ab6ddb5a17c_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "green",
+        "anchor": "signal-screen",
+        "title": "AI 비서가|대화를 못 엿보게|시그널이 화면을 막아요",
+        "dek": "비밀 메신저 시그널이|새 보호 기능을 켰어요.",
+        "illust": "assets/img/hf_20261121_200624_09a79060-5e7f-4dd8-89aa-8e1282e68368.webp",
+        "thumb": "assets/img/hf_20261121_200624_09a79060-5e7f-4dd8-89aa-8e1282e68368_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "논술",
+        "meaning": "주제를 받고|생각을 글로 쓰는 시험"
+      },
+      {
+        "word": "부정행위",
+        "meaning": "시험에서 규칙을 어기고|몰래 답을 얻는 것"
+      },
+      {
+        "word": "스마트 스피커",
+        "meaning": "말로 부르면|대답하고 일을 해 주는 스피커"
+      },
+      {
+        "word": "화면 캡처",
+        "meaning": "휴대폰 화면을|그대로 사진으로 찍어 두는 것"
+      },
+      {
+        "word": "AI 비서",
+        "meaning": "말이나 글로 부탁하면|대신 찾아 주고 해 주는 AI"
+      }
+    ]
+  },
+  {
     "date": "2026-11-21",
     "title": "말로 만든 앱,|챗GPT 건강 기능,|선생님 AI 연수",
     "summary": "고등학생들이|말로 설명만 해서|앱을 1000개쯤 만들었어요.|챗GPT 건강 기능은|컴퓨터와 안드로이드로 넓어졌고,|선생님 240명이|AI 회사에서 수업을 배워요.",
