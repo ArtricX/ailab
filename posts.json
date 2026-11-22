@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-23",
+    "title": "불법 사채 AI 심사,|농사 AI 이삭이,|엣시의 AI 약속",
+    "summary": "금감원이|불법 사채 피해 서류를|AI로 먼저 살펴요.|농사 AI 이삭이는|이번 주 박람회에서 써 볼 수 있고,|엣시는|작품을 베끼는 AI에는 쓰지 않겠대요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "돈",
+        "color": "pink",
+        "anchor": "loan-check",
+        "title": "불법 사채 피해 서류,|이제 AI가|먼저 살펴봐요",
+        "dek": "이자가 너무 높은 빚은|갚지 않아도 될 수 있어요.",
+        "illust": "assets/img/hf_20261122_200529_cc1d0d8c-a898-426a-9b42-786921813669.webp",
+        "thumb": "assets/img/hf_20261122_200529_cc1d0d8c-a898-426a-9b42-786921813669_min.webp"
+      },
+      {
+        "tag": "일",
+        "color": "green",
+        "anchor": "isaki",
+        "title": "농사 고민,|AI 이삭이에게|물어봐요",
+        "dek": "이번 주 박람회에서|누구나 써 볼 수 있어요.",
+        "illust": "assets/img/hf_20261122_200529_630cb2ff-d252-420f-958e-a20f085dcde6.webp",
+        "thumb": "assets/img/hf_20261122_200529_630cb2ff-d252-420f-958e-a20f085dcde6_min.webp"
+      },
+      {
+        "tag": "창작",
+        "color": "yellow",
+        "anchor": "etsy-ai",
+        "title": "손으로 만든 작품,|베끼는 AI에는|쓰지 않는대요",
+        "dek": "수공예 장터 엣시가|판매자들의 걱정에 답했어요.",
+        "illust": "assets/img/hf_20261122_200530_52d87733-d2f9-47cf-9ab9-5d822b7ffa71.webp",
+        "thumb": "assets/img/hf_20261122_200530_52d87733-d2f9-47cf-9ab9-5d822b7ffa71_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "불법 사채",
+        "meaning": "법보다 훨씬 높은|이자를 받는 빚"
+      },
+      {
+        "word": "무효",
+        "meaning": "처음부터|없었던 것으로 치는 것"
+      },
+      {
+        "word": "병해충",
+        "meaning": "작물을 아프게 하는|병과 벌레"
+      },
+      {
+        "word": "약관",
+        "meaning": "서비스를 쓸 때|지키기로 하는 약속 글"
+      },
+      {
+        "word": "AI 학습",
+        "meaning": "AI가 많은 자료를 보고|익히는 것"
+      }
+    ]
+  },
+  {
     "date": "2026-11-22",
     "title": "논술장 앞치마,|구글 스피커 비서,|시그널 화면 보호",
     "summary": "대학들이|AI 부정행위를 막으려고|논술 시험에 앞치마를 나눠 줘요.|구글 스피커 속 비서는|내년 8월 제미나이로 바뀌고,|시그널은|AI 비서가 대화를 못 보게 막아요.",

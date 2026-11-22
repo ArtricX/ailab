@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-23",
+      "title": "불법 사채 AI 심사, 농사 AI 이삭이, 엣시의 AI 약속",
+      "file": "content/2026-11-23.json",
+      "stories": [
+        {
+          "anchor": "loan-check",
+          "tag": "돈",
+          "color": "pink",
+          "title": "불법 사채 피해 서류, 이제 AI가 먼저 살펴봐요"
+        },
+        {
+          "anchor": "isaki",
+          "tag": "일",
+          "color": "green",
+          "title": "농사 고민, AI 이삭이에게 물어봐요"
+        },
+        {
+          "anchor": "etsy-ai",
+          "tag": "창작",
+          "color": "yellow",
+          "title": "손으로 만든 작품, 베끼는 AI에는 쓰지 않는대요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-22",
       "title": "논술장 앞치마, 구글 스피커 비서, 시그널 화면 보호",
       "file": "content/2026-11-22.json",

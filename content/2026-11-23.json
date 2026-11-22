@@ -1,0 +1,690 @@
+{
+  "schema": 1,
+  "date": "2026-11-23",
+  "weekday": "월",
+  "url": "https://aigo.artricx.com/posts/2026-11-23.html",
+  "minutes": 5,
+  "title": {
+    "text": "불법 사채 AI 심사, 농사 AI 이삭이, 엣시의 AI 약속",
+    "phrases": [
+      "불법 사채 AI 심사,",
+      "농사 AI 이삭이,",
+      "엣시의 AI 약속"
+    ]
+  },
+  "share": {
+    "title": "불법 사채 피해 서류, 이제 AI가 먼저 살펴봐요 외 2건 · 아이고 11월 23일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 23일 월요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-23.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "loan-check",
+      "tag": "돈",
+      "color": "pink",
+      "label": "불법 사채 확인"
+    },
+    {
+      "anchor": "isaki",
+      "tag": "일",
+      "color": "green",
+      "label": "AI 이삭이"
+    },
+    {
+      "anchor": "etsy-ai",
+      "tag": "창작",
+      "color": "yellow",
+      "label": "엣시 약속"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "loan-check",
+      "url": "https://aigo.artricx.com/posts/2026-11-23.html#loan-check",
+      "tag": "돈",
+      "color": "pink",
+      "title": {
+        "text": "불법 사채 피해 서류, 이제 AI가 먼저 살펴봐요",
+        "phrases": [
+          "불법 사채 피해 서류,",
+          "이제 AI가",
+          "먼저 살펴봐요"
+        ]
+      },
+      "dek": {
+        "text": "이자가 너무 높은 빚은 갚지 않아도 될 수 있어요.",
+        "phrases": [
+          "이자가 너무 높은 빚은",
+          "갚지 않아도 될 수 있어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261122_200529_cc1d0d8c-a898-426a-9b42-786921813669.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261122_200529_cc1d0d8c-a898-426a-9b42-786921813669.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "분홍 벽 사무실 책상에서 남색 카디건을 입은 남성 직원이 한 손에 도장을, 다른 손에 김이 나는 커피잔을 들고 놀란 얼굴로 옆을 보고, 옆자리 작은 로봇이 돋보기로 높이 쌓인 서류를 벌써 다 살펴본 채 웃고 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-23-loan-check.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-23-loan-check.png",
+        "viewBox": "0 0 1080 2670",
+        "title": "한눈에 보기: 60% 연이자가 이보다 높으면 원금과 이자 모두 무효",
+        "desc": "60% 연이자가 이보다 높으면 원금과 이자 모두 무효. 금융감독원 · 11월 22일 발표 · 연이자율 기준. 10배 서류 확인이 이만큼 넘게 빨라질 거라고 봐요. AI가 먼저 해요: 캡처 화면 속 글자 읽기, 빌린 돈과 이자율 계산하기, 계약 조건 정리하기. 함께 내면 좋은 자료: 날짜가 보이는 대화 화면, 은행 앱의 입금 내역, 갚기로 한 돈과 날짜가 담긴 자료. 알아 두세요: 마지막 판단은 담당 직원이 해요. 자료는 바깥과 끊긴 금감원 안의 서버에서만 다뤄요. 신청은 금융감독원 누리집에서 해요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "60%",
+          "what": {
+            "text": "연이자가 이보다 높으면 원금과 이자 모두 무효",
+            "phrases": [
+              "연이자가 이보다 높으면",
+              "원금과 이자 모두 무효"
+            ]
+          },
+          "source": "금융감독원 · 11월 22일 발표 · 연이자율 기준"
+        },
+        "blocks": [
+          {
+            "type": "stat",
+            "num": "10배",
+            "text": {
+              "text": "서류 확인이 이만큼 넘게 빨라질 거라고 봐요",
+              "phrases": [
+                "서류 확인이 이만큼 넘게",
+                "빨라질 거라고 봐요"
+              ]
+            }
+          },
+          {
+            "head": "AI가 먼저 해요",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "캡처 화면 속 글자 읽기",
+                "phrases": [
+                  "캡처 화면 속",
+                  "글자 읽기"
+                ]
+              },
+              {
+                "text": "빌린 돈과 이자율 계산하기",
+                "phrases": [
+                  "빌린 돈과",
+                  "이자율 계산하기"
+                ]
+              },
+              {
+                "text": "계약 조건 정리하기",
+                "phrases": [
+                  "계약 조건",
+                  "정리하기"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "함께 내면 좋은 자료",
+            "head_style": "",
+            "type": "list",
+            "style": "dot",
+            "items": [
+              {
+                "text": "날짜가 보이는 대화 화면",
+                "phrases": [
+                  "날짜가 보이는",
+                  "대화 화면"
+                ]
+              },
+              {
+                "text": "은행 앱의 입금 내역",
+                "phrases": [
+                  "은행 앱의",
+                  "입금 내역"
+                ]
+              },
+              {
+                "text": "갚기로 한 돈과 날짜가 담긴 자료",
+                "phrases": [
+                  "갚기로 한 돈과",
+                  "날짜가 담긴 자료"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "마지막 판단은 담당 직원이 해요. 자료는 바깥과 끊긴 금감원 안의 서버에서만 다뤄요.",
+                "phrases": [
+                  "마지막 판단은",
+                  "담당 직원이 해요.",
+                  "자료는 바깥과 끊긴",
+                  "금감원 안의 서버에서만 다뤄요."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "foot",
+            "text": {
+              "text": "신청은 금융감독원 누리집에서 해요.",
+              "phrases": [
+                "신청은",
+                "금융감독원 누리집에서 해요."
+              ]
+            }
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "금융감독원이 불법 사채 피해를 확인하는 일에 AI를 쓰기 시작했다고 11월 22일 밝혔어요. 불법 사채는 법보다 훨씬 높은 이자를 받는 빚이에요. 연이자가 60%를 넘는 계약은 원금과 이자가 모두 무효예요. 피해자가 신청하면 금감원이 '무효확인서'를 내 줘요.",
+            "nobreak": [
+              "11월 22일",
+              "60%"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "무효확인서가 재판에서 증거로 쓰인 뒤로 신청이 크게 늘었어요. 신청 한 건에 대화 캡처나 입금 내역 같은 자료가 평균 수십 장씩 들어와요. 직원이 하나하나 맞춰 보느라 시간이 오래 걸렸어요. 이제 AI가 화면 속 글자를 읽고 이자율을 먼저 계산해요. 금감원은 확인 속도가 10배 넘게 빨라질 것으로 보고 있어요.",
+            "nobreak": [
+              "10배"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "주변에 높은 이자 빚으로 힘든 사람이 있다면 이 제도를 알려 주세요. 신청할 때는 날짜가 보이는 대화 화면과 은행 앱 입금 내역을 함께 내면 좋아요. 마지막 판단은 사람이 해요. 생활이 어려운 사정이 확인되면, 본인이 동의할 때 지자체 복지 지원과도 이어 준대요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "아시아투데이",
+          "date": "11월 22일",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261122010008397"
+        },
+        {
+          "name": "서울경제TV",
+          "date": "11월 22일",
+          "url": "https://www.sentv.co.kr/article/view/sentv202611220013"
+        },
+        {
+          "name": "재경일보",
+          "date": "11월 22일",
+          "url": "https://news.jkn.co.kr/post/1114293"
+        },
+        {
+          "name": "알파경제",
+          "date": "11월 22일",
+          "url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=199468"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261122_200837_d3a975dd-c912-436f-b324-65711e3a2ae3.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261122_200837_d3a975dd-c912-436f-b324-65711e3a2ae3.mp3"
+      }
+    },
+    {
+      "anchor": "isaki",
+      "url": "https://aigo.artricx.com/posts/2026-11-23.html#isaki",
+      "tag": "일",
+      "color": "green",
+      "title": {
+        "text": "농사 고민, AI 이삭이에게 물어봐요",
+        "phrases": [
+          "농사 고민,",
+          "AI 이삭이에게",
+          "물어봐요"
+        ]
+      },
+      "dek": {
+        "text": "이번 주 박람회에서 누구나 써 볼 수 있어요.",
+        "phrases": [
+          "이번 주 박람회에서",
+          "누구나 써 볼 수 있어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261122_200529_630cb2ff-d252-420f-958e-a20f085dcde6.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261122_200529_630cb2ff-d252-420f-958e-a20f085dcde6.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "파란 하늘 아래 고추밭에서 노란 모자와 파란 조끼를 입은 안경 쓴 농부가 쪼그려 앉아 갈색 점이 생긴 잎을 휴대폰으로 찍고, 화면에는 잎 그림과 체크 표시가 뜨며, 잎 위의 작은 무당벌레가 들킨 듯 땀을 흘리는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-23-isaki.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-23-isaki.png",
+        "viewBox": "0 0 1080 2529",
+        "title": "한눈에 보기: 56만 건 이삭이가 바탕으로 삼는 농업 기술 자료",
+        "desc": "56만 건 이삭이가 바탕으로 삼는 농업 기술 자료. 농촌진흥청 · 9월 29일 발표 · 이삭이 2.0 기준. 30만 건 함께 익힌 병해충 영상. 이삭이가 도와줘요: 사진으로 병해충 진단, 말로 묻고 답 듣기, 비료·농약 추천, 영농일지 기록. 박람회에서 써 봐요: 언제 11월 25~27일, 어디서 일산 킨텍스 정부혁신 박람회, 무엇을 앱 설치, 질문, 병해충 진단 체험. 알아 두세요: AI 진단은 참고만 하세요. 피해가 크면 지역 농업기술센터에 물어보세요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "56만 건",
+          "what": {
+            "text": "이삭이가 바탕으로 삼는 농업 기술 자료",
+            "phrases": [
+              "이삭이가 바탕으로 삼는",
+              "농업 기술 자료"
+            ]
+          },
+          "source": "농촌진흥청 · 9월 29일 발표 · 이삭이 2.0 기준"
+        },
+        "blocks": [
+          {
+            "type": "stat",
+            "num": "30만 건",
+            "text": {
+              "text": "함께 익힌 병해충 영상",
+              "phrases": [
+                "함께 익힌",
+                "병해충 영상"
+              ]
+            }
+          },
+          {
+            "head": "이삭이가 도와줘요",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "사진으로 병해충 진단",
+                "phrases": [
+                  "사진으로",
+                  "병해충 진단"
+                ]
+              },
+              {
+                "text": "말로 묻고 답 듣기",
+                "phrases": [
+                  "말로 묻고",
+                  "답 듣기"
+                ]
+              },
+              {
+                "text": "비료·농약 추천",
+                "phrases": [
+                  "비료·농약",
+                  "추천"
+                ]
+              },
+              {
+                "text": "영농일지 기록",
+                "phrases": [
+                  "영농일지",
+                  "기록"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "박람회에서 써 봐요",
+            "head_style": "",
+            "type": "facts",
+            "items": [
+              {
+                "label": "언제",
+                "text": {
+                  "text": "11월 25~27일",
+                  "phrases": [
+                    "11월 25~27일"
+                  ]
+                }
+              },
+              {
+                "label": "어디서",
+                "text": {
+                  "text": "일산 킨텍스 정부혁신 박람회",
+                  "phrases": [
+                    "일산 킨텍스",
+                    "정부혁신 박람회"
+                  ]
+                }
+              },
+              {
+                "label": "무엇을",
+                "text": {
+                  "text": "앱 설치, 질문, 병해충 진단 체험",
+                  "phrases": [
+                    "앱 설치, 질문,",
+                    "병해충 진단 체험"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "AI 진단은 참고만 하세요. 피해가 크면 지역 농업기술센터에 물어보세요.",
+                "phrases": [
+                  "AI 진단은 참고만 하세요.",
+                  "피해가 크면",
+                  "지역 농업기술센터에",
+                  "물어보세요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "농촌진흥청이 농사 도우미 AI '이삭이'를 이번 주 정부혁신 박람회에서 선보인다고 11월 22일 밝혔어요. 박람회는 11월 25일부터 27일까지 일산 킨텍스에서 열려요. 찾아온 사람은 누구나 QR코드로 앱을 깔고 농사 질문을 해 볼 수 있어요. 병든 작물 사진으로 진단도 받아 볼 수 있어요.",
+            "nobreak": [
+              "11월 22일",
+              "11월 25일",
+              "27일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "농사를 짓다 보면 잎에 생긴 점 하나에도 무슨 병인지 궁금해져요. 이삭이는 농업 기술 자료 56만 건과 병해충 영상 30만 건을 바탕으로 답해요. 흙 묻은 손으로 휴대폰을 만지기 어려울 때는 말로 물어볼 수 있어요. 어르신도 보기 쉽게 글씨를 키웠어요.",
+            "nobreak": [
+              "56만 건",
+              "30만 건"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "앱은 구글 플레이, 앱스토어, 원스토어에서 'AI 이삭이'로 찾을 수 있어요. 지금 쓰는 새 판은 9월 말에 나왔어요. 텃밭을 가꾸거나 부모님이 농사를 지으신다면 함께 깔아 보세요. 다만 AI 진단은 참고만 하고, 피해가 크면 지역 농업기술센터에 물어보세요.",
+            "nobreak": [
+              "9월 말"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "데일리안",
+          "date": "11월 22일",
+          "url": "https://www.dailian.co.kr/news/view/1718054/%EB%86%8D%EC%97%85-%EB%AA%A8%EB%93%A0-%EC%A7%88%EB%AC%B8-AI-%EC%9D%B4%EC%82%AD%EC%9D%B4%EC%97%90%EA%B2%8C%EC%A0%95%EB%B6%80%ED%98%81-2026"
+        },
+        {
+          "name": "전북제일신문",
+          "date": "11월 22일",
+          "url": "https://www.jbjnews.com/news/articleView.html?idxno=331888"
+        },
+        {
+          "name": "이투데이",
+          "date": "9월 29일",
+          "url": "https://www.etoday.co.kr/news/view/2630103"
+        },
+        {
+          "name": "인공지능신문",
+          "date": "9월 29일",
+          "url": "https://www.aitimes.kr/news/articleView.html?idxno=42095"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261122_200838_291c431a-cae0-42e2-949a-2f406073598d.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261122_200838_291c431a-cae0-42e2-949a-2f406073598d.mp3"
+      }
+    },
+    {
+      "anchor": "etsy-ai",
+      "url": "https://aigo.artricx.com/posts/2026-11-23.html#etsy-ai",
+      "tag": "창작",
+      "color": "yellow",
+      "title": {
+        "text": "손으로 만든 작품, 베끼는 AI에는 쓰지 않는대요",
+        "phrases": [
+          "손으로 만든 작품,",
+          "베끼는 AI에는",
+          "쓰지 않는대요"
+        ]
+      },
+      "dek": {
+        "text": "수공예 장터 엣시가 판매자들의 걱정에 답했어요.",
+        "phrases": [
+          "수공예 장터 엣시가",
+          "판매자들의 걱정에 답했어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261122_200530_52d87733-d2f9-47cf-9ab9-5d822b7ffa71.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261122_200530_52d87733-d2f9-47cf-9ab9-5d822b7ffa71.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "노란 벽 공방에서 산호색 앞치마를 두른 여성이 파란 꽃무늬 머그잔 위에 유리 덮개를 씌우며 미소 짓고, 옆의 작은 로봇이 아무것도 그려지지 않은 빈 종이와 지구본을 들고 머쓱하게 서 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-23-etsy-ai.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-23-etsy-ai.png",
+        "viewBox": "0 0 1080 2166",
+        "title": "한눈에 보기: 12월 16일 엣시의 새 이용 약관이 적용되는 날",
+        "desc": "12월 16일 엣시의 새 이용 약관이 적용되는 날. 엣시 · 10월 26일 공지 · 2026년. 엣시가 약속했어요: 작품을 베끼는 AI 학습에 안 써요, 창작을 대신하는 AI에도 안 써요, 바깥 업체가 긁어 가 학습하는 건 막아요. AI를 계속 쓰는 곳: 상품 설명 번역, 광고와 마케팅, 가게 통계 요약. 알아 두세요: 고친 약관 문장은 아직 공개되지 않았어요. 학습을 끄는 버튼도 아직 없어요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "12월 16일",
+          "what": {
+            "text": "엣시의 새 이용 약관이 적용되는 날",
+            "phrases": [
+              "엣시의 새 이용 약관이",
+              "적용되는 날"
+            ]
+          },
+          "source": "엣시 · 10월 26일 공지 · 2026년"
+        },
+        "blocks": [
+          {
+            "head": "엣시가 약속했어요",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "작품을 베끼는 AI 학습에 안 써요",
+                "phrases": [
+                  "작품을 베끼는",
+                  "AI 학습에 안 써요"
+                ]
+              },
+              {
+                "text": "창작을 대신하는 AI에도 안 써요",
+                "phrases": [
+                  "창작을 대신하는",
+                  "AI에도 안 써요"
+                ]
+              },
+              {
+                "text": "바깥 업체가 긁어 가 학습하는 건 막아요",
+                "phrases": [
+                  "바깥 업체가 긁어 가",
+                  "학습하는 건 막아요"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "AI를 계속 쓰는 곳",
+            "head_style": "",
+            "type": "list",
+            "style": "dot",
+            "items": [
+              {
+                "text": "상품 설명 번역",
+                "phrases": [
+                  "상품 설명",
+                  "번역"
+                ]
+              },
+              {
+                "text": "광고와 마케팅",
+                "phrases": [
+                  "광고와",
+                  "마케팅"
+                ]
+              },
+              {
+                "text": "가게 통계 요약",
+                "phrases": [
+                  "가게 통계",
+                  "요약"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "고친 약관 문장은 아직 공개되지 않았어요. 학습을 끄는 버튼도 아직 없어요.",
+                "phrases": [
+                  "고친 약관 문장은",
+                  "아직 공개되지 않았어요.",
+                  "학습을 끄는 버튼도",
+                  "아직 없어요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "엣시는 손으로 만든 물건을 사고파는 미국의 온라인 장터예요. 엣시는 10월 말, 판매자의 사진과 글을 AI 학습에 쓸 수 있다는 새 약관을 알렸어요. 그러자 오래 장사하던 판매자 가운데 가게를 닫는 사람이 나왔어요. 엣시는 작품을 베끼거나 창작을 대신하는 AI에는 쓰지 않는다고 밝혔고, 이 설명이 미국 시간 11월 21일 여러 매체에 실렸어요.",
+            "nobreak": [
+              "10월 말",
+              "11월 21일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI는 많은 그림과 글을 보고 배워요. 작가들은 자기 작품으로 배운 AI가 비슷한 물건을 쏟아낼까 걱정해요. 엣시는 이번 설명이 원래 하던 일을 분명히 한 것이지, 정책을 바꾼 게 아니라고 해요. 상품 설명 번역이나 광고에는 계속 AI를 쓴다고 했어요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "온라인에 그림이나 작품을 올린다면, 그곳 약관에 'AI 학습' 이야기가 있는지 한번 살펴보세요. 엣시의 새 약관은 12월 16일부터 적용돼요. 엣시는 고친 약관 문장을 곧 판매자에게 보내겠다고 했어요. 내 작품이 어디에 쓰이는지 미리 알아 두면 마음이 놓여요.",
+            "nobreak": [
+              "12월 16일"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "엣시 커뮤니티 공지",
+          "date": "",
+          "url": "https://community.etsy.com/forum/announcements-290/topic/our-recent-terms-of-use-update-192097/"
+        },
+        {
+          "name": "엔가젯",
+          "date": "11월 21일",
+          "url": "https://www.engadget.com/2324090/etsy-not-use-seller-content-train-ai/"
+        },
+        {
+          "name": "스타트업 포천",
+          "date": "11월 21일",
+          "url": "https://startupfortune.com/etsy-backs-off-ai-training-on-seller-work-after-shop-owners-walk-out/"
+        },
+        {
+          "name": "슈퍼파워 데일리",
+          "date": "11월 21일",
+          "url": "https://superpowerdaily.com/posts/etsy-promises-revised-ai-terms-after-sellers-leave-over-training-rights"
+        },
+        {
+          "name": "밸류 애디드 리소스",
+          "date": "11월 17일",
+          "url": "https://www.valueaddedresource.net/etsy-expands-ai-training-rights/"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261122_200837_c081dad1-b309-4597-b586-719e870c9702.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261122_200837_c081dad1-b309-4597-b586-719e870c9702.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "불법 사채",
+      "meaning": {
+        "text": "법보다 훨씬 높은 이자를 받는 빚",
+        "phrases": [
+          "법보다 훨씬 높은",
+          "이자를 받는 빚"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "무효",
+      "meaning": {
+        "text": "처음부터 없었던 것으로 치는 것",
+        "phrases": [
+          "처음부터",
+          "없었던 것으로 치는 것"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "병해충",
+      "meaning": {
+        "text": "작물을 아프게 하는 병과 벌레",
+        "phrases": [
+          "작물을 아프게 하는",
+          "병과 벌레"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "약관",
+      "meaning": {
+        "text": "서비스를 쓸 때 지키기로 하는 약속 글",
+        "phrases": [
+          "서비스를 쓸 때",
+          "지키기로 하는 약속 글"
+        ]
+      },
+      "color": "yellow"
+    },
+    {
+      "word": "AI 학습",
+      "meaning": {
+        "text": "AI가 많은 자료를 보고 익히는 것",
+        "phrases": [
+          "AI가 많은 자료를 보고",
+          "익히는 것"
+        ]
+      },
+      "color": "yellow"
+    }
+  ]
+}
