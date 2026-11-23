@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-24",
+      "title": "구글 AI와 카드 내역, AI 복지 상담, 경북대 크누아이",
+      "file": "content/2026-11-24.json",
+      "stories": [
+        {
+          "anchor": "google-wallet",
+          "tag": "돈",
+          "color": "blue",
+          "title": "내가 허락하면 구글 AI가 카드 쓴 내역을 봐요"
+        },
+        {
+          "anchor": "bokjibom",
+          "tag": "생활",
+          "color": "pink",
+          "title": "받을 수 있는 복지, AI가 쉬운 말로 알려 줘요"
+        },
+        {
+          "anchor": "knuai",
+          "tag": "학교",
+          "color": "green",
+          "title": "경북대 사람이면 국산 AI를 마음껏 써요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-23",
       "title": "불법 사채 AI 심사, 농사 AI 이삭이, 엣시의 AI 약속",
       "file": "content/2026-11-23.json",
