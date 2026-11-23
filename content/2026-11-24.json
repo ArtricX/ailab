@@ -1,0 +1,624 @@
+{
+  "schema": 1,
+  "date": "2026-11-24",
+  "weekday": "화",
+  "url": "https://aigo.artricx.com/posts/2026-11-24.html",
+  "minutes": 5,
+  "title": {
+    "text": "구글 AI와 카드 내역, AI 복지 상담, 경북대 크누아이",
+    "phrases": [
+      "구글 AI와 카드 내역,",
+      "AI 복지 상담,",
+      "경북대 크누아이"
+    ]
+  },
+  "share": {
+    "title": "내가 허락하면 구글 AI가 카드 쓴 내역을 봐요 외 2건 · 아이고 11월 24일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 24일 화요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-24.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "google-wallet",
+      "tag": "돈",
+      "color": "blue",
+      "label": "구글 지갑 연결"
+    },
+    {
+      "anchor": "bokjibom",
+      "tag": "생활",
+      "color": "pink",
+      "label": "AI 복지 상담"
+    },
+    {
+      "anchor": "knuai",
+      "tag": "학교",
+      "color": "green",
+      "label": "경북대 크누아이"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "google-wallet",
+      "url": "https://aigo.artricx.com/posts/2026-11-24.html#google-wallet",
+      "tag": "돈",
+      "color": "blue",
+      "title": {
+        "text": "내가 허락하면 구글 AI가 카드 쓴 내역을 봐요",
+        "phrases": [
+          "내가 허락하면",
+          "구글 AI가",
+          "카드 쓴 내역을 봐요"
+        ]
+      },
+      "dek": {
+        "text": "돈을 옮기지는 못하고, 읽기만 해요.",
+        "phrases": [
+          "돈을 옮기지는 못하고,",
+          "읽기만 해요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261123_200254_84441b98-f4fd-486c-8af2-f9b4bb5fe6bc.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261123_200254_84441b98-f4fd-486c-8af2-f9b4bb5fe6bc.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "파란 벽 거실에서 노란 목도리를 두른 단발머리 여성이 휴대폰을 내밀어 보이고, 화면 속 지출 원그래프의 대부분이 커피잔 표시인데, 다른 손으로는 등 뒤에 테이크아웃 커피를 숨긴 채 멋쩍게 웃고, 탁자 위에는 자물쇠 달린 지갑이 놓인 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-24-google-wallet.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-24-google-wallet.png",
+        "viewBox": "0 0 1080 2088",
+        "title": "한눈에 보기: 11월 23일 구글 지갑을 AI 검색에 잇기 시작한 날",
+        "desc": "11월 23일 구글 지갑을 AI 검색에 잇기 시작한 날. 구글 · 미국 시간 · 차례로 퍼져요. AI가 도와줘요: 쓴 돈과 카드 살펴보기, 아낄 곳 찾기, 카드 혜택 더 잘 쓰기. 이을 수 있는 구글 앱: 지금 지메일, 캘린더, 구글 포토, 지갑, 곧 드라이브 문서, 제미나이 대화. 알아 두세요: 연결은 내가 직접 켜야 하고, 언제든 끌 수 있어요. 한국에서 언제 되는지는 아직 발표가 없어요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "11월 23일",
+          "what": {
+            "text": "구글 지갑을 AI 검색에 잇기 시작한 날",
+            "phrases": [
+              "구글 지갑을 AI 검색에",
+              "잇기 시작한 날"
+            ]
+          },
+          "source": "구글 · 미국 시간 · 차례로 퍼져요"
+        },
+        "blocks": [
+          {
+            "head": "AI가 도와줘요",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "쓴 돈과 카드 살펴보기",
+                "phrases": [
+                  "쓴 돈과 카드",
+                  "살펴보기"
+                ]
+              },
+              {
+                "text": "아낄 곳 찾기",
+                "phrases": [
+                  "아낄 곳",
+                  "찾기"
+                ]
+              },
+              {
+                "text": "카드 혜택 더 잘 쓰기",
+                "phrases": [
+                  "카드 혜택",
+                  "더 잘 쓰기"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "이을 수 있는 구글 앱",
+            "head_style": "",
+            "type": "facts",
+            "items": [
+              {
+                "label": "지금",
+                "text": {
+                  "text": "지메일, 캘린더, 구글 포토, 지갑",
+                  "phrases": [
+                    "지메일, 캘린더,",
+                    "구글 포토, 지갑"
+                  ]
+                }
+              },
+              {
+                "label": "곧",
+                "text": {
+                  "text": "드라이브 문서, 제미나이 대화",
+                  "phrases": [
+                    "드라이브 문서,",
+                    "제미나이 대화"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "연결은 내가 직접 켜야 하고, 언제든 끌 수 있어요. 한국에서 언제 되는지는 아직 발표가 없어요.",
+                "phrases": [
+                  "연결은 내가 직접 켜야 하고,",
+                  "언제든 끌 수 있어요.",
+                  "한국에서 언제 되는지는",
+                  "아직 발표가 없어요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "구글이 검색의 'AI 모드'에 구글 지갑을 이을 수 있게 했다고 미국 시간 11월 23일 밝혔어요. 구글 지갑은 휴대폰에 카드를 넣어 두고 쓰는 앱이에요. 내가 연결을 켜면, AI가 지갑에 담긴 카드와 쓴 돈 내역을 읽고 질문에 답해요. 구글 드라이브의 문서와 제미나이 대화도 몇 주 안에 이을 수 있게 된대요.",
+            "nobreak": [
+              "11월 23일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "AI는 내 사정을 알수록 더 꼭 맞는 답을 줄 수 있어요. \"이번 달 어디에 돈을 많이 썼지?\"처럼 물으면 내 내역을 보고 답하는 식이에요. 구글은 생활비 줄이기, 카드 혜택 챙기기 같은 쓰임을 예로 들었어요. 다만 AI는 내역을 읽기만 하고, 돈을 옮기거나 투자하지는 못해요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "돈 쓴 기록은 아주 개인적인 정보예요. 이런 연결은 늘 '내가 켤 때만' 작동하는지 먼저 확인하세요. 구글은 연결마다 따로 켜고 끌 수 있다고 했어요. 어느 나라부터 쓸 수 있는지는 아직 분명하지 않아요. 제미나이 앱에 지갑을 잇는 기능은 미국에서 먼저 열렸어요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "구글 공식 블로그",
+          "date": "",
+          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+        },
+        {
+          "name": "PPC 랜드",
+          "date": "11월 23일",
+          "url": "https://ppc.land/google-search-asks-for-the-wallet-after-the-inbox-and-the-photo-album/"
+        },
+        {
+          "name": "슈퍼파워 데일리",
+          "date": "11월 23일",
+          "url": "https://superpowerdaily.com/posts/google-adds-wallet-data-to-ai-search-with-drive-and-gemini-chats-to-follow"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261123_200856_b915db09-9014-45f8-bbd3-6f7588b3043a.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261123_200856_b915db09-9014-45f8-bbd3-6f7588b3043a.mp3"
+      }
+    },
+    {
+      "anchor": "bokjibom",
+      "url": "https://aigo.artricx.com/posts/2026-11-24.html#bokjibom",
+      "tag": "생활",
+      "color": "pink",
+      "title": {
+        "text": "받을 수 있는 복지, AI가 쉬운 말로 알려 줘요",
+        "phrases": [
+          "받을 수 있는 복지,",
+          "AI가 쉬운 말로",
+          "알려 줘요"
+        ]
+      },
+      "dek": {
+        "text": "화성시와 양평군에서 먼저 시작했어요.",
+        "phrases": [
+          "화성시와 양평군에서",
+          "먼저 시작했어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261123_200253_cee60567-9d5d-4c67-8355-97ece7339f6b.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261123_200253_cee60567-9d5d-4c67-8355-97ece7339f6b.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "분홍 벽 복지 상담실 책상에서 남색 카디건을 입은 안경 쓴 어르신이 낙서처럼 복잡한 서류 더미를 한 손으로 밀어내고, 집·하트·동전 그림이 뜬 태블릿 말풍선을 보며 반갑게 웃는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-24-bokjibom.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-24-bokjibom.png",
+        "viewBox": "0 0 1080 2670",
+        "title": "한눈에 보기: 3가지 복지봄을 만나는 길",
+        "desc": "3가지 복지봄을 만나는 길. 세종디엑스 · 11월 23일 발표 · 시범 서비스 기준. 1년 6개월 화성시와 양평군에서 해 보는 기간. 이렇게 도와줘요: 나이와 사는 곳으로 맞는 복지 찾기, 어려운 말을 쉬운 말로 바꾸기, 신청 기간과 방법 요약, 새 복지 알림. 어디서 만나요: 누리집, 휴대폰 앱, 행정복지센터와 복지관의 AI 스피커. 알아 두세요: AI 안내는 참고예요. 신청은 연결된 공식 신청 화면에서 해요. 내년에는 전화로 안내하는 AI도 준비한대요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "3가지",
+          "what": {
+            "text": "복지봄을 만나는 길",
+            "phrases": [
+              "복지봄을",
+              "만나는 길"
+            ]
+          },
+          "source": "세종디엑스 · 11월 23일 발표 · 시범 서비스 기준"
+        },
+        "blocks": [
+          {
+            "type": "stat",
+            "num": "1년 6개월",
+            "text": {
+              "text": "화성시와 양평군에서 해 보는 기간",
+              "phrases": [
+                "화성시와",
+                "양평군에서",
+                "해 보는 기간"
+              ]
+            }
+          },
+          {
+            "head": "이렇게 도와줘요",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "나이와 사는 곳으로 맞는 복지 찾기",
+                "phrases": [
+                  "나이와 사는 곳으로",
+                  "맞는 복지 찾기"
+                ]
+              },
+              {
+                "text": "어려운 말을 쉬운 말로 바꾸기",
+                "phrases": [
+                  "어려운 말을",
+                  "쉬운 말로 바꾸기"
+                ]
+              },
+              {
+                "text": "신청 기간과 방법 요약",
+                "phrases": [
+                  "신청 기간과 방법",
+                  "요약"
+                ]
+              },
+              {
+                "text": "새 복지 알림",
+                "phrases": [
+                  "새 복지",
+                  "알림"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "어디서 만나요",
+            "head_style": "",
+            "type": "list",
+            "style": "dot",
+            "items": [
+              {
+                "text": "누리집",
+                "phrases": [
+                  "누리집"
+                ]
+              },
+              {
+                "text": "휴대폰 앱",
+                "phrases": [
+                  "휴대폰 앱"
+                ]
+              },
+              {
+                "text": "행정복지센터와 복지관의 AI 스피커",
+                "phrases": [
+                  "행정복지센터와 복지관의",
+                  "AI 스피커"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "AI 안내는 참고예요. 신청은 연결된 공식 신청 화면에서 해요.",
+                "phrases": [
+                  "AI 안내는 참고예요.",
+                  "신청은 연결된",
+                  "공식 신청 화면에서 해요."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "foot",
+            "text": {
+              "text": "내년에는 전화로 안내하는 AI도 준비한대요.",
+              "phrases": [
+                "내년에는 전화로 안내하는",
+                "AI도 준비한대요."
+              ]
+            }
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "세종디엑스라는 회사가 AI 복지 상담 서비스 '복지봄'을 내놓았다고 11월 23일 밝혔어요. 경기도 화성시와 양평군에서 약 1년 6개월 동안 먼저 해 봐요. 누리집과 앱으로 쓸 수 있어요. 행정복지센터와 복지관에는 말로 묻는 AI 스피커도 놓여요.",
+            "nobreak": [
+              "11월 23일",
+              "1년 6개월"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "복지 제도는 많은데, 이름을 몰라서 못 받는 사람이 많아요. 복지봄은 제도 이름을 몰라도 나이와 사는 곳만으로 맞는 혜택을 찾아 줘요. '쉬운말' 버튼을 누르면 '세금 감면'을 '세금을 깎아 준다'처럼 바꿔 보여 줘요. 정부와 경기도, 두 시·군의 공식 문서를 바탕으로 답해서 틀린 말을 줄였대요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "화성시나 양평군에 산다면 가까운 행정복지센터에서 AI 스피커에 말을 걸어 보세요. 상담한 내용은 QR코드로 휴대폰에 옮길 수 있어요. 어르신이 많은 양평군에서는 어르신들이 소리 안내를 어떻게 쓰는지 살펴본대요. 회사는 나중에 다른 지역으로도 넓힐 계획이에요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "머니투데이",
+          "date": "11월 23일",
+          "url": "https://www.mt.co.kr/tech/2026/11/23/2026112308330818206"
+        },
+        {
+          "name": "한국경제TV",
+          "date": "11월 23일",
+          "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611230095"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261123_200856_3c1d609e-d592-4dc4-b0f9-45ba6d4236c7.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261123_200856_3c1d609e-d592-4dc4-b0f9-45ba6d4236c7.mp3"
+      }
+    },
+    {
+      "anchor": "knuai",
+      "url": "https://aigo.artricx.com/posts/2026-11-24.html#knuai",
+      "tag": "학교",
+      "color": "green",
+      "title": {
+        "text": "경북대 사람이면 국산 AI를 마음껏 써요",
+        "phrases": [
+          "경북대 사람이면",
+          "국산 AI를",
+          "마음껏 써요"
+        ]
+      },
+      "dek": {
+        "text": "학교 로그인 하나로 여러 AI를 한곳에서 써요.",
+        "phrases": [
+          "학교 로그인 하나로",
+          "여러 AI를 한곳에서 써요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261123_200251_6b6ee412-ede1-46ab-a033-2447bbb7bd4f.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261123_200251_6b6ee412-ede1-46ab-a033-2447bbb7bd4f.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "초록 벽 연구실에서 파란 재킷을 입은 중년 교수가 노란 머그잔을 들고 말풍선이 가득한 노트북을 치다가, 옆에 높이 쌓인 다 쓴 서류에도 벽의 연료 눈금이 아직 가득 찬 것을 보고 놀라 웃는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-24-knuai.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-24-knuai.png",
+        "viewBox": "0 0 1080 1926",
+        "title": "한눈에 보기: 4가지 크누아이에서 고를 수 있는 AI",
+        "desc": "4가지 크누아이에서 고를 수 있는 AI. 경북대 · 11월 23일 발표. 누가, 어떻게 써요: 누가 학생, 교수, 직원 모두, 어떻게 학교 통합 로그인, 따로 가입 없이. 쓸 수 있는 만큼: 솔라 프로 4: 제한 없이, 챗GPT, 제미나이, 클로드: 학교가 정한 만큼. 알아 두세요: AI가 쓴 글과 계산은 꼭 다시 확인하세요. 학교 자료로 답하는 챗봇도 차례로 더할 계획이에요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "4가지",
+          "what": {
+            "text": "크누아이에서 고를 수 있는 AI",
+            "phrases": [
+              "크누아이에서",
+              "고를 수 있는 AI"
+            ]
+          },
+          "source": "경북대 · 11월 23일 발표"
+        },
+        "blocks": [
+          {
+            "head": "누가, 어떻게 써요",
+            "head_style": "",
+            "type": "facts",
+            "items": [
+              {
+                "label": "누가",
+                "text": {
+                  "text": "학생, 교수, 직원 모두",
+                  "phrases": [
+                    "학생, 교수,",
+                    "직원 모두"
+                  ]
+                }
+              },
+              {
+                "label": "어떻게",
+                "text": {
+                  "text": "학교 통합 로그인, 따로 가입 없이",
+                  "phrases": [
+                    "학교 통합 로그인,",
+                    "따로 가입 없이"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "head": "쓸 수 있는 만큼",
+            "head_style": "",
+            "type": "list",
+            "style": "dot",
+            "items": [
+              {
+                "text": "솔라 프로 4: 제한 없이",
+                "phrases": [
+                  "솔라 프로 4:",
+                  "제한 없이"
+                ]
+              },
+              {
+                "text": "챗GPT, 제미나이, 클로드: 학교가 정한 만큼",
+                "phrases": [
+                  "챗GPT, 제미나이, 클로드:",
+                  "학교가 정한 만큼"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "AI가 쓴 글과 계산은 꼭 다시 확인하세요.",
+                "phrases": [
+                  "AI가 쓴 글과 계산은",
+                  "꼭 다시 확인하세요."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "foot",
+            "text": {
+              "text": "학교 자료로 답하는 챗봇도 차례로 더할 계획이에요.",
+              "phrases": [
+                "학교 자료로 답하는 챗봇도",
+                "차례로 더할 계획이에요."
+              ]
+            }
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "경북대학교가 AI 서비스 '크누아이'를 열었다고 11월 23일 밝혔어요. 학생과 교수, 직원 모두 학교 로그인만으로 쓸 수 있어요. 기본 AI는 국내 회사 업스테이지가 만든 '솔라 프로 4'이고, 쓰는 양에 제한이 없어요. 챗GPT, 제미나이, 클로드도 학교가 정한 만큼 골라 쓸 수 있어요.",
+            "nobreak": [
+              "11월 23일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "요즘은 보고서를 쓰거나 자료를 정리할 때 AI를 많이 써요. 하지만 여러 AI를 따로 돈 내고 쓰기는 부담이 커요. 경북대는 5월에 업스테이지와 손잡고 이번 서비스를 준비했어요. 학교는 공부와 연구, 학교 일을 돕고 우리나라 AI도 함께 키우려는 뜻이라고 설명했어요.",
+            "nobreak": [
+              "5월"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "경북대 학생이나 교직원이라면 오늘부터 학교 계정으로 써 볼 수 있어요. 다른 대학에 다닌다면 우리 학교에도 이런 서비스가 있는지 알아보세요. 다만 AI가 쓴 글을 그대로 내면 안 되는 수업도 있어요. 수업마다 AI를 써도 되는지 먼저 살펴보세요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "매일신문",
+          "date": "11월 23일",
+          "url": "https://www.imaeil.com/page/view/2026112314475562149"
+        },
+        {
+          "name": "경북도민일보",
+          "date": "11월 23일",
+          "url": "https://www.hidomin.com/news/articleView.html?idxno=730646"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261123_200856_b75ab1e9-e0d2-4e1f-81a6-91712c5dc661.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261123_200856_b75ab1e9-e0d2-4e1f-81a6-91712c5dc661.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "AI 모드",
+      "meaning": {
+        "text": "구글 검색에서 AI와 묻고 답하는 화면",
+        "phrases": [
+          "구글 검색에서",
+          "AI와 묻고 답하는 화면"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "연결",
+      "meaning": {
+        "text": "다른 앱의 정보를 AI가 보게 허락하는 것",
+        "phrases": [
+          "다른 앱의 정보를",
+          "AI가 보게 허락하는 것"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "복지",
+      "meaning": {
+        "text": "나라와 지역이 돕는 여러 가지 지원",
+        "phrases": [
+          "나라와 지역이 돕는",
+          "여러 가지 지원"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "국산 AI",
+      "meaning": {
+        "text": "우리나라 회사가 만든 AI",
+        "phrases": [
+          "우리나라 회사가",
+          "만든 AI"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "통합 로그인",
+      "meaning": {
+        "text": "계정 하나로 여러 서비스에 들어가는 것",
+        "phrases": [
+          "계정 하나로",
+          "여러 서비스에 들어가는 것"
+        ]
+      },
+      "color": "green"
+    }
+  ]
+}

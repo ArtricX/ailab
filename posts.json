@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-24",
+    "title": "구글 AI와 카드 내역,|AI 복지 상담,|경북대 크누아이",
+    "summary": "허락하면|구글 AI 검색이|카드 쓴 내역을 읽고 답해요.|화성·양평에서는|AI가 복지를 쉬운 말로 알려 주고,|경북대는|국산 AI를 마음껏 쓰게 했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "돈",
+        "color": "blue",
+        "anchor": "google-wallet",
+        "title": "내가 허락하면|구글 AI가|카드 쓴 내역을 봐요",
+        "dek": "돈을 옮기지는 못하고,|읽기만 해요.",
+        "illust": "assets/img/hf_20261123_200254_84441b98-f4fd-486c-8af2-f9b4bb5fe6bc.webp",
+        "thumb": "assets/img/hf_20261123_200254_84441b98-f4fd-486c-8af2-f9b4bb5fe6bc_min.webp"
+      },
+      {
+        "tag": "생활",
+        "color": "pink",
+        "anchor": "bokjibom",
+        "title": "받을 수 있는 복지,|AI가 쉬운 말로|알려 줘요",
+        "dek": "화성시와 양평군에서|먼저 시작했어요.",
+        "illust": "assets/img/hf_20261123_200253_cee60567-9d5d-4c67-8355-97ece7339f6b.webp",
+        "thumb": "assets/img/hf_20261123_200253_cee60567-9d5d-4c67-8355-97ece7339f6b_min.webp"
+      },
+      {
+        "tag": "학교",
+        "color": "green",
+        "anchor": "knuai",
+        "title": "경북대 사람이면|국산 AI를|마음껏 써요",
+        "dek": "학교 로그인 하나로|여러 AI를 한곳에서 써요.",
+        "illust": "assets/img/hf_20261123_200251_6b6ee412-ede1-46ab-a033-2447bbb7bd4f.webp",
+        "thumb": "assets/img/hf_20261123_200251_6b6ee412-ede1-46ab-a033-2447bbb7bd4f_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "AI 모드",
+        "meaning": "구글 검색에서|AI와 묻고 답하는 화면"
+      },
+      {
+        "word": "연결",
+        "meaning": "다른 앱의 정보를|AI가 보게 허락하는 것"
+      },
+      {
+        "word": "복지",
+        "meaning": "나라와 지역이 돕는|여러 가지 지원"
+      },
+      {
+        "word": "국산 AI",
+        "meaning": "우리나라 회사가|만든 AI"
+      },
+      {
+        "word": "통합 로그인",
+        "meaning": "계정 하나로|여러 서비스에 들어가는 것"
+      }
+    ]
+  },
+  {
     "date": "2026-11-23",
     "title": "불법 사채 AI 심사,|농사 AI 이삭이,|엣시의 AI 약속",
     "summary": "금감원이|불법 사채 피해 서류를|AI로 먼저 살펴요.|농사 AI 이삭이는|이번 주 박람회에서 써 볼 수 있고,|엣시는|작품을 베끼는 AI에는 쓰지 않겠대요.",
