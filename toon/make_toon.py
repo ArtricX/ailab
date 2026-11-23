@@ -11,13 +11,13 @@
   ("msg", 글, cx, cy)                           문자 메시지
   ("cap", 글, x, y)                             지문 딱지(왼쪽 위 기준)
   ("sfx", 글, cx, cy, 기울기)                    효과음
-  ("print", 글, cx, cy, 기울기, 글자 크기)        물건에 인쇄된 글자(봉투 등, 그림 주름이 비쳐요)
+  ("note", 글, cx, cy, 기울기, [화살표 점들])      손글씨 쪽지 + 화살표(점은 칸 비율, 마지막 점이 화살촉)
 face=(가로 위치%, 세로 위치%, 확대%), faceof=칸 번호(0부터): 마지막 장 동그란 얼굴 딱지.
 
 디자인 규칙은 프로젝트 문서 '아이고-홍보-자동화'에 있어요(그림체는 스티커 그림체로 고정,
 꾸밈은 로고 그림에만, 그 밖의 글자는 밝은 바탕에 검은 글자, 글꼴은 주아 하나).
 """
-import asyncio, json, pathlib, sys, html
+import asyncio, json, pathlib, sys, html, math
 from PIL import Image
 from playwright.async_api import async_playwright
 
@@ -51,7 +51,7 @@ EPS = [
         [("say", "이제 AI한테 할 일을\n통째로 맡길 수 있대.", .5, .14, .28, .40)],
         [("say", "나는 삼십 년 전부터\n썼다.", .5, .13, .48, .33)],
         [("say", "…뭘?", .5, .12, .47, .28)],
-        [("say", "너.", .58, .15, .80, .34, 1.9), ("print", "쓰레기\n종량제 봉투", .45, .818, -4, 45)],
+        [("say", "너.", .58, .15, .80, .34, 1.9), ("note", "쓰레기봉투", .40, .405, -4, [(.50, .445), (.56, .49), (.50, .545)])],
     ], news="구글 제미나이에게\n할 일을 통째로 맡길 수\n있게 됐어요.", note="한국에서도 무료로 쓸 수 있어요.", no=4, date="11월 19일", band="#FFC9CF", pop="#F06A5C", faceof=3, face=(100, 44, 200)),
     dict(key="ep5", sheet="ep5.webp", title="번역 불가", panels=[
         [("say", "카톡에 외국어 오면\nAI가 바로 번역해 준대.", .5, .14, .30, .37)],
@@ -133,7 +133,7 @@ body{background:#FFF6E3 """ + DOTS + """ 0 0/22px 22px}
 .cap{font-size:48px;text-align:left;transform:rotate(-1.5deg);background:#FFE27A;border:10px solid #111;padding:14px 26px 10px;line-height:1.25;box-shadow:7px 7px 0 #111}
 .sfx{font-family:'Jua';font-size:84px;color:#111;-webkit-text-stroke:14px #fff;paint-order:stroke fill;letter-spacing:.02em}
 .sfx i{display:none}
-.print{color:#2348D6;border:7px solid #2348D6;border-radius:16px;padding:13px 18px 6px;line-height:1.16;mix-blend-mode:multiply;opacity:.92}
+.note{font-size:50px;color:#111;-webkit-text-stroke:12px #fff;paint-order:stroke fill}
 /* 칸 번호 딱지 */
 .num{position:absolute;left:-44px;top:-44px;width:96px;height:96px;border-radius:50%;background:#fff;border:9px solid #111;display:flex;align-items:center;justify-content:center;font-family:'Jua';font-size:60px;color:#111;padding-top:6px;transform:rotate(-8deg);box-shadow:5px 5px 0 #111}
 /* 글자 로고 */
@@ -233,8 +233,14 @@ def bubbles(ep, i):
         kind, text = b[0], html.escape(b[1])
         if kind == "cap":
             items.append(f'<div class="b cap" data-kind="cap" style="left:{b[2]*PW}px;top:{b[3]*PH}px">{text}</div>')
-        elif kind == "print":
-            items.append(f'<div class="b print" data-kind="print" style="left:{b[2]*PW}px;top:{b[3]*PH}px;font-size:{b[5]}px;transform:translate(-50%,-50%) rotate({b[4]}deg)">{text}</div>')
+        elif kind == "note":
+            pts = [(x * PW, y * PH) for x, y in b[5]]
+            (x0, y0), (qx, qy), (x1, y1) = pts
+            d = f"M{x0:.0f} {y0:.0f} Q{qx:.0f} {qy:.0f} {x1:.0f} {y1:.0f}"
+            ang = math.degrees(math.atan2(y1 - qy, x1 - qx))
+            head = f'<path d="M-30 -20 L0 0 L-30 20" transform="translate({x1:.0f} {y1:.0f}) rotate({ang:.1f})"/>'
+            arrow = "".join(f'<g fill="none" stroke="{c}" stroke-width="{w}" stroke-linecap="round" stroke-linejoin="round"><path d="{d}"/>{head}</g>' for c, w in (("#fff", 24), ("#111", 9)))
+            items.append(f'<svg width="{PW}" height="{PH}">{arrow}</svg><div class="b note" data-kind="note" style="left:{b[2]*PW}px;top:{b[3]*PH}px;transform:translate(-50%,-50%) rotate({b[4]}deg)">{text}</div>')
         elif kind == "sfx":
             items.append(f'<div class="b sfx" data-kind="sfx" style="left:{b[2]*PW}px;top:{b[3]*PH}px;transform:translate(-50%,-50%) rotate({b[4]}deg)">{text}<i>{text}</i></div>')
         else:
