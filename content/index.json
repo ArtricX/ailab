@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-25",
+      "title": "AI 커닝 잡는 시험장, 경찰 AI 상담, AI가 지키는 병실",
+      "file": "content/2026-11-25.json",
+      "stories": [
+        {
+          "anchor": "lion-eyes",
+          "tag": "학교",
+          "color": "yellow",
+          "title": "시험장 'AI 커닝', 무선 신호로 잡아내요"
+        },
+        {
+          "anchor": "police-ai",
+          "tag": "안전",
+          "color": "blue",
+          "title": "헷갈리는 경찰 민원, AI와 이야기하며 풀어요"
+        },
+        {
+          "anchor": "thync",
+          "tag": "건강",
+          "color": "green",
+          "title": "병실 환자의 맥박과 숨, AI가 쉬지 않고 살펴요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-24",
       "title": "구글 AI와 카드 내역, AI 복지 상담, 경북대 크누아이",
       "file": "content/2026-11-24.json",
