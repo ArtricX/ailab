@@ -38,6 +38,7 @@
    - **그림체(고정)**: 친근하고 세련된 색연필 손그림. 연필 결이 보이는 질감, 깨끗한 검은 연필 윤곽선, 단순한 둥근 얼굴과 점 눈. 그날 소식 색을 넓은 배경 면(실내면 벽)으로 쓰고 코발트 파랑·노랑·코랄·크림을 포인트로 씁니다(green #2E9E62 · blue #2348D6 · yellow #F6C93B · pink #F29AA6).
    - **주인공**: 40~60대 한국인, 옛날 세대 느낌이 아닌 단정하고 세련된 옷차림, 허리 위로 크게. 브랜드 마스코트·까치는 넣지 않습니다. 예전의 '동그란 사람과 작은 흰 로봇' 고정 등장인물은 쓰지 않아요.
    - **연출**: 소식의 핵심을 한 문장으로 줄여 '상황' 하나로 보여 줍니다(사물만 늘어놓지 않기). 독자가 AI 덕을 보는 생활 장면으로(AI와 겨루거나 지는 구도 ✕). 공감 웃음 포인트 하나(과장·반전·대비·시큰둥한 반응). 화면 속 기능이면 화면으로, AI가 사람처럼 움직이면 로봇으로(사람과 같은 색연필 선·크기, 반질반질한 3D 금지), 결과만으로 충분하면 사람만. 회사 힌트는 옷·소품 색 하나로만. 소식의 '단, ~해요'도 되도록 소품으로(예: AI 화면은 실제와 다를 수 있음 → 진짜 작은 키위와 비교). 제목 없이 3초 안에 무슨 소식인지 짐작되면 통과.
+   - **화면 방향(2026-11-25, 여러 번 지적된 문제)**: 휴대폰·태블릿·모니터 화면은 반드시 그 기기를 보는 사람 쪽을 향해야 해요. 사람이 기기를 보는데 화면이 독자 쪽을 향하면(= 사람에게는 뒷면) 탈락이에요. 화면 내용을 보여 주려면 **어깨 너머 시점**(사람 등 뒤에서 화면을 함께 보는 구도)으로 쓰고, 프롬프트에 'the screen faces her face … we look over her shoulder', 'The back of the device faces away from the viewer'처럼 적어요. 옆모습 시점은 화면이 독자 쪽으로 돌아가기 쉬우니 피해요. 통화하듯 귀에 댄 휴대폰에는 화면 그림을 넣지 않아요.
    - **프롬프트 뼈대(고정)**:
      ```
      Colored-pencil hand-drawn editorial illustration in exactly the same style as the reference images: visible pencil grain on paper, matte crayon-like fill, clean black pencil outlines of even weight, simple rounded faces with small black dot eyes, flat bold color fields, limited palette.
@@ -46,10 +47,10 @@
      SCENE: <장소>. <주인공: Korean person in their 40s-60s, neat modern clothes, position, large from the waist up>. <행동과 표정>. <소품>.
      Humor: <웃음 포인트 한 줄>.
 
-     Rules: 4:3 landscape, characters large, uncluttered. Correct natural anatomy: exactly five fingers on each hand, natural joints, no extra limbs or hands, objects with correct shapes. No text, letters, numbers or logos anywhere.
+     Rules: 4:3 landscape, characters large, uncluttered. Any phone, tablet or monitor screen must face the person using it, never the viewer from behind the device; the user sees the screen side, the device back faces away from the user. Correct natural anatomy: exactly five fingers on each hand, natural joints, no extra limbs or hands, objects with correct shapes. No text, letters, numbers or logos anywhere.
      ```
    - 특정 작가의 이름이나 캐릭터를 프롬프트에 넣지 않습니다. 실제 인물·실제 로고·글자·회사 캐릭터·실제 작품은 넣지 않습니다(그림 안 글자는 깨져요. 달력은 빈 칸 + 동그라미 하나).
-   - **고르기 전에 직접 확인**: 두 장을 모두 열어 손가락 다섯 개·팔다리 개수·관절, 사물 모양, 글자·숫자·로고, 그림체 이탈(3D·사진풍), 인물 나이를 봅니다. 통과한 것 중 3초 테스트가 더 잘 되는 1장을 고르고, 둘 다 탈락이면 그 소식만 장면을 새로 써서 한 번 더 2장 만듭니다(그래도 안 되면 덜 나쁜 것을 쓰고 PR 설명에 적어요). 결함 있는 그림을 참고 그림으로 넣어 고치지 않습니다.
+   - **고르기 전에 직접 확인**: 두 장을 모두 열어 손가락 다섯 개·팔다리 개수·관절, 사물 모양, 화면 방향(기기 화면이 보는 사람 쪽인지), 글자·숫자·로고, 그림체 이탈(3D·사진풍), 인물 나이를 봅니다. 통과한 것 중 3초 테스트가 더 잘 되는 1장을 고르고, 둘 다 탈락이면 그 소식만 장면을 새로 써서 한 번 더 2장 만듭니다(그래도 안 되면 덜 나쁜 것을 쓰고 PR 설명에 적어요). 결함 있는 그림을 참고 그림으로 넣어 고치지 않습니다.
    - 고른 결과의 원본 주소(`.png`)를 글 페이지의 `story-art` 이미지와 `posts.json`의 `illust`에, `_min.webp` 주소를 `thumb`에 넣습니다. 저장소에 올라가면 GitHub Actions(`fetch-images.yml`)가 그림을 `assets/img/`에 저장하고 주소를 바꿉니다. 이미지 설명(alt)은 장면을 한국어로 적습니다. PR 설명 점검 결과에 소식마다 고른 그림과 고른 까닭을 한 줄씩 적어요.
    - 크레딧이 부족하거나 생성이 실패하면 올리지 말고 PR 설명에 그 사실을 적습니다.
    **인포그래픽 = '한눈에 보기' 카드** (2026-11-18부터. 피그마 '아이고 시안' ⑤ 인포그래픽 v2): 소식마다 `aside.glance` 카드 하나를 `story-top` 다음, `story-body` 앞에 둡니다(예전 `figure.figure` 자리). SVG로 그리지 않습니다. 틀로 삼은 글에 SVG 인포그래픽이 있어도 따라 그리지 않고, 예약 작업 지시문의 '인라인 SVG 인포그래픽을 그린다'도 2026-11-18부터는 이 카드를 만든다는 뜻이에요.
