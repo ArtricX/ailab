@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-26",
+      "title": "말하는 AI 인형 금지, AI가 만든 노래 정리, 부모가 줄이는 AI 그림",
+      "file": "content/2026-11-26.json",
+      "stories": [
+        {
+          "anchor": "ai-toys",
+          "tag": "안전",
+          "color": "pink",
+          "title": "말하는 AI 인형, 뉴욕에서 5년 동안 못 팔아요"
+        },
+        {
+          "anchor": "tidal",
+          "tag": "창작",
+          "color": "blue",
+          "title": "AI가 혼자 만든 노래, 음악 앱 타이달이 지워요"
+        },
+        {
+          "anchor": "teen-feed",
+          "tag": "생활",
+          "color": "green",
+          "title": "아이 화면 속 AI 그림, 부모가 줄일 수 있어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-25",
       "title": "AI 커닝 잡는 시험장, 경찰 AI 상담, AI가 지키는 병실",
       "file": "content/2026-11-25.json",

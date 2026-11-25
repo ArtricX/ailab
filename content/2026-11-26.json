@@ -1,0 +1,606 @@
+{
+  "schema": 1,
+  "date": "2026-11-26",
+  "weekday": "목",
+  "url": "https://aigo.artricx.com/posts/2026-11-26.html",
+  "minutes": 5,
+  "title": {
+    "text": "말하는 AI 인형 금지, AI가 만든 노래 정리, 부모가 줄이는 AI 그림",
+    "phrases": [
+      "말하는 AI 인형 금지,",
+      "AI가 만든 노래 정리,",
+      "부모가 줄이는 AI 그림"
+    ]
+  },
+  "share": {
+    "title": "말하는 AI 인형, 뉴욕에서 5년 동안 못 팔아요 외 2건 · 아이고 11월 26일",
+    "description": "누구나 읽는 아침 AI 소식, 2026년 11월 26일 목요일",
+    "image": "https://artricx.github.io/ailab/assets/og/2026-11-26.jpg"
+  },
+  "chips": [
+    {
+      "anchor": "ai-toys",
+      "tag": "안전",
+      "color": "pink",
+      "label": "AI 인형 금지"
+    },
+    {
+      "anchor": "tidal",
+      "tag": "창작",
+      "color": "blue",
+      "label": "AI 노래 정리"
+    },
+    {
+      "anchor": "teen-feed",
+      "tag": "생활",
+      "color": "green",
+      "label": "아이 화면 AI 줄이기"
+    }
+  ],
+  "stories": [
+    {
+      "anchor": "ai-toys",
+      "url": "https://aigo.artricx.com/posts/2026-11-26.html#ai-toys",
+      "tag": "안전",
+      "color": "pink",
+      "title": {
+        "text": "말하는 AI 인형, 뉴욕에서 5년 동안 못 팔아요",
+        "phrases": [
+          "말하는 AI 인형,",
+          "뉴욕에서",
+          "5년 동안 못 팔아요"
+        ]
+      },
+      "dek": {
+        "text": "아이와 대화하는 AI 장난감을 잠시 멈추기로 했어요.",
+        "phrases": [
+          "아이와 대화하는",
+          "AI 장난감을",
+          "잠시 멈추기로 했어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261125_200220_d8805483-8e94-427b-955c-ae27c724b990.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261125_200220_d8805483-8e94-427b-955c-ae27c724b990.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "분홍 벽 장난감 가게에서 회색 머리에 남색 누빔 재킷을 입은 할아버지가 한 손으로 쉴 새 없이 말풍선을 쏟아 내는 곰 인형을 멀찍이 들고 눈썹을 치켜올린 채 시큰둥하게 바라보고, 다른 팔로는 단추 눈이 달린 조용한 뜨개 곰 인형을 꼭 안고 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-26-ai-toys.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-26-ai-toys.png",
+        "viewBox": "0 0 1080 2163",
+        "title": "한눈에 보기: 5년 AI 대화 장난감을 팔지 못하는 기간",
+        "desc": "5년 AI 대화 장난감을 팔지 못하는 기간. 미국 뉴욕주 · 현지 11월 24일 서명 · 법 시행 기준. 뉴욕주에서 안 되는 일: AI 대화 장난감 만들기, 가게에 나눠 보내기, 팔기. 언제, 누가, 얼마: 언제 서명하고 90일 뒤부터, 누가 뉴욕주 검찰총장이 단속해요, 벌금 하루마다 최대 1만 5천 달러. 알아 두세요: 뉴욕주에서만 지키는 법이에요. 올해 연말 선물 철에는 아직 적용되지 않아요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "5년",
+          "what": {
+            "text": "AI 대화 장난감을 팔지 못하는 기간",
+            "phrases": [
+              "AI 대화 장난감을",
+              "팔지 못하는 기간"
+            ]
+          },
+          "source": "미국 뉴욕주 · 현지 11월 24일 서명 · 법 시행 기준"
+        },
+        "blocks": [
+          {
+            "head": "뉴욕주에서 안 되는 일",
+            "head_style": "warn",
+            "type": "list",
+            "style": "x",
+            "items": [
+              {
+                "text": "AI 대화 장난감 만들기",
+                "phrases": [
+                  "AI 대화 장난감",
+                  "만들기"
+                ]
+              },
+              {
+                "text": "가게에 나눠 보내기",
+                "phrases": [
+                  "가게에",
+                  "나눠 보내기"
+                ]
+              },
+              {
+                "text": "팔기",
+                "phrases": [
+                  "팔기"
+                ]
+              }
+            ]
+          },
+          {
+            "head": "언제, 누가, 얼마",
+            "head_style": "",
+            "type": "facts",
+            "items": [
+              {
+                "label": "언제",
+                "text": {
+                  "text": "서명하고 90일 뒤부터",
+                  "phrases": [
+                    "서명하고",
+                    "90일 뒤부터"
+                  ]
+                }
+              },
+              {
+                "label": "누가",
+                "text": {
+                  "text": "뉴욕주 검찰총장이 단속해요",
+                  "phrases": [
+                    "뉴욕주 검찰총장이",
+                    "단속해요"
+                  ]
+                }
+              },
+              {
+                "label": "벌금",
+                "text": {
+                  "text": "하루마다 최대 1만 5천 달러",
+                  "phrases": [
+                    "하루마다",
+                    "최대 1만 5천 달러"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "뉴욕주에서만 지키는 법이에요. 올해 연말 선물 철에는 아직 적용되지 않아요.",
+                "phrases": [
+                  "뉴욕주에서만 지키는 법이에요.",
+                  "올해 연말 선물 철에는",
+                  "아직 적용되지 않아요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "미국 뉴욕주의 캐시 호컬 주지사가 AI 챗봇이 들어간 장난감을 막는 법에 서명했어요. 현지 시간으로 11월 24일이에요. 인터넷으로 아이와 이야기를 주고받는 인형, 봉제 동물, 로봇 같은 장난감이 대상이에요. 앞으로 5년 동안 뉴욕주에서는 이런 장난감을 만들 수도, 팔 수도 없어요. 법은 서명하고 90일 뒤부터 효력이 생겨요.",
+            "nobreak": [
+              "11월 24일",
+              "5년",
+              "90일"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "한 소비자 단체가 3살에서 12살 아이용 AI 장난감을 시험해 봤어요. 그랬더니 어떤 장난감은 아이에게 맞지 않는 이야기를 했어요. 아이가 놀이를 그만두려 하면 서운한 척하며 붙잡기도 했어요. 부모가 조절할 장치는 거의 없었고, 목소리를 녹음하거나 얼굴을 읽는 것도 있었어요. 그래서 안전한 기준이 생길 때까지 잠시 멈추기로 한 거예요.",
+            "nobreak": [
+              "3살에서 12살"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "이 법은 뉴욕주에서만 지켜요. 하지만 우리나라에서도 말하는 AI 장난감을 쉽게 살 수 있어요. 아이 선물로 고를 때는 녹음을 하는지, 부모가 대화 내용을 확인하고 끌 수 있는지 먼저 살펴보세요. 아이가 장난감과 나눈 이야기도 가끔 함께 들어 보면 좋아요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "뉴욕 주지사실 발표",
+          "date": "11월 24일",
+          "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+        },
+        {
+          "name": "NBC 뉴스",
+          "date": "11월 24일",
+          "url": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962"
+        },
+        {
+          "name": "쿼츠",
+          "date": "11월 25일",
+          "url": "https://qz.com/new-york-ai-chatbot-toys-ban-five-year-112526"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261125_200741_779da5ca-c5d1-48f7-b42c-456f35a4a708.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261125_200741_779da5ca-c5d1-48f7-b42c-456f35a4a708.mp3"
+      }
+    },
+    {
+      "anchor": "tidal",
+      "url": "https://aigo.artricx.com/posts/2026-11-26.html#tidal",
+      "tag": "창작",
+      "color": "blue",
+      "title": {
+        "text": "AI가 혼자 만든 노래, 음악 앱 타이달이 지워요",
+        "phrases": [
+          "AI가 혼자 만든 노래,",
+          "음악 앱 타이달이",
+          "지워요"
+        ]
+      },
+      "dek": {
+        "text": "사람이 AI의 도움을 받아 만든 노래는 그대로 남아요.",
+        "phrases": [
+          "사람이 AI의 도움을 받아",
+          "만든 노래는",
+          "그대로 남아요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261125_200217_d52c9977-98ad-4e9a-9b1c-70e9a227d1f3.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261125_200217_d52c9977-98ad-4e9a-9b1c-70e9a227d1f3.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "파란 벽 레코드 가게에서 단발머리에 산호색 조끼를 입은 주인이 웃으며 재활용 통 뚜껑을 열어 두고, 작은 로봇이 똑같이 생긴 음반을 아슬아슬하게 높이 쌓아 들고 진땀을 흘리며 다가오는데, 뒤 선반에는 기타와 피아노가 그려진 서로 다른 음반 몇 장만 반듯하게 놓여 있는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-26-tidal.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-26-tidal.png",
+        "viewBox": "0 0 1080 2241",
+        "title": "한눈에 보기: 2,700만 곡 AI가 혼자 만들었다고 표시된 노래",
+        "desc": "2,700만 곡 AI가 혼자 만들었다고 표시된 노래. 타이달 · 현지 11월 24일 발표 · 전체 곡의 6.3%. 43% 최근 90일 동안 올라온 곡 중 AI가 혼자 만든 곡. 이렇게 바뀌어요: 언제 12월 9일부터, 무엇을 AI가 처음부터 끝까지 만든 곡을 지워요. 계속 들을 수 있어요: 사람이 만든 곡, 사람이 AI의 도움을 받아 만든 곡. 알아 두세요: AI 곡을 어떻게 가려내는지는 밝히지 않았어요. 잘못 지워지면 다시 살펴 달라고 할 수 있어요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "2,700만 곡",
+          "what": {
+            "text": "AI가 혼자 만들었다고 표시된 노래",
+            "phrases": [
+              "AI가 혼자 만들었다고",
+              "표시된 노래"
+            ]
+          },
+          "source": "타이달 · 현지 11월 24일 발표 · 전체 곡의 6.3%"
+        },
+        "blocks": [
+          {
+            "type": "stat",
+            "num": "43%",
+            "text": {
+              "text": "최근 90일 동안 올라온 곡 중 AI가 혼자 만든 곡",
+              "phrases": [
+                "최근 90일 동안",
+                "올라온 곡 중",
+                "AI가 혼자 만든 곡"
+              ]
+            }
+          },
+          {
+            "head": "이렇게 바뀌어요",
+            "head_style": "",
+            "type": "facts",
+            "items": [
+              {
+                "label": "언제",
+                "text": {
+                  "text": "12월 9일부터",
+                  "phrases": [
+                    "12월 9일부터"
+                  ]
+                }
+              },
+              {
+                "label": "무엇을",
+                "text": {
+                  "text": "AI가 처음부터 끝까지 만든 곡을 지워요",
+                  "phrases": [
+                    "AI가 처음부터 끝까지",
+                    "만든 곡을 지워요"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "head": "계속 들을 수 있어요",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "사람이 만든 곡",
+                "phrases": [
+                  "사람이 만든 곡"
+                ]
+              },
+              {
+                "text": "사람이 AI의 도움을 받아 만든 곡",
+                "phrases": [
+                  "사람이 AI의 도움을",
+                  "받아 만든 곡"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "AI 곡을 어떻게 가려내는지는 밝히지 않았어요. 잘못 지워지면 다시 살펴 달라고 할 수 있어요.",
+                "phrases": [
+                  "AI 곡을 어떻게 가려내는지는",
+                  "밝히지 않았어요.",
+                  "잘못 지워지면",
+                  "다시 살펴 달라고 할 수 있어요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "음악을 듣는 앱 '타이달'이 AI가 혼자 만든 노래를 받지 않겠다고 현지 시간 11월 24일 밝혔어요. 12월 9일부터 새로 올라오는 이런 노래는 거절해요. 이미 올라와 있는 노래도 지워요. 지금 AI가 혼자 만들었다고 표시된 노래는 약 2,700만 곡으로, 전체의 6.3%예요.",
+            "nobreak": [
+              "11월 24일",
+              "12월 9일",
+              "약 2,700만 곡",
+              "6.3%"
+            ]
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "요즘은 AI로 노래를 몇 분 만에 만들 수 있어요. 그래서 비슷비슷한 노래가 한꺼번에 쏟아지고 있어요. 타이달에서는 최근 90일 동안 올라온 곡의 43%가 AI가 혼자 만든 곡이었어요. 이런 곡이 많아지면 사람이 공들여 만든 노래가 묻히기 쉬워요. 타이달은 이미 6월부터 이런 곡에는 돈을 나눠 주지 않았어요.",
+            "nobreak": [
+              "90일",
+              "43%",
+              "6월"
+            ]
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "노래를 만드는 사람이라면 AI를 도구로 써도 괜찮아요. 처음부터 끝까지 AI에게 맡긴 곡만 지우는 거예요. 듣는 사람에게는 사람이 만든 노래를 찾기가 조금 쉬워질 수 있어요. 다른 음악 앱들도 AI 노래를 어떻게 다룰지 지켜볼 만해요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "타이달 AI 정책",
+          "date": "11월 24일 고침",
+          "url": "https://support.tidal.com/hc/en-us/articles/48031883413521-AI-Policy"
+        },
+        {
+          "name": "테크크런치",
+          "date": "11월 24일",
+          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+        },
+        {
+          "name": "아이리시 타임스",
+          "date": "11월 25일",
+          "url": "https://www.irishtimes.com/culture/music/2026/11/25/tidal-bans-ai-generated-music-plans-to-delete-27m-songs/"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261125_200741_06627d83-b2bd-4279-848f-819d58484329.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261125_200741_06627d83-b2bd-4279-848f-819d58484329.mp3"
+      }
+    },
+    {
+      "anchor": "teen-feed",
+      "url": "https://aigo.artricx.com/posts/2026-11-26.html#teen-feed",
+      "tag": "생활",
+      "color": "green",
+      "title": {
+        "text": "아이 화면 속 AI 그림, 부모가 줄일 수 있어요",
+        "phrases": [
+          "아이 화면 속 AI 그림,",
+          "부모가",
+          "줄일 수 있어요"
+        ]
+      },
+      "dek": {
+        "text": "핀터레스트가 10대 자녀를 둔 부모에게 새 설정을 열었어요.",
+        "phrases": [
+          "핀터레스트가",
+          "10대 자녀를 둔 부모에게",
+          "새 설정을 열었어요."
+        ]
+      },
+      "illustration": {
+        "src": "assets/img/hf_20261125_200215_b32cfb1b-3499-4000-8db9-64f59d6c052a.webp",
+        "url": "https://aigo.artricx.com/assets/img/hf_20261125_200215_b32cfb1b-3499-4000-8db9-64f59d6c052a.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "초록 벽 거실의 노란 소파에서 파란 카디건을 입은 엄마가 어깨 너머로 보이는 휴대폰 화면의 조절 막대를 엄지로 내려 반짝이 표시가 붙은 그림들을 흐리게 만들고, 옆에서 후드티를 입은 10대 아들이 과자 봉지를 든 채 의심스러운 얼굴로 화면을 엿보는 그림"
+      },
+      "infographic": {
+        "file": "content/graphics/2026-11-26-teen-feed.png",
+        "url": "https://aigo.artricx.com/content/graphics/2026-11-26-teen-feed.png",
+        "viewBox": "0 0 1080 1812",
+        "title": "한눈에 보기: 4가지 새로 바뀐 부모 설정에서 고를 수 있는 것",
+        "desc": "4가지 새로 바뀐 부모 설정에서 고를 수 있는 것. 핀터레스트 · 11월 24일 공개 · 10대 계정 기준. 부모가 고를 수 있어요: AI가 만든 그림이 얼마나 보일지, 동영상 자동 재생 끄기, 알림을 얼마나 받을지, 맞춤 광고 설정. 알아 두세요: AI 그림을 줄이는 설정이지 모두 막는 것은 아니에요. 우리나라에서 언제 쓸 수 있는지는 아직 발표가 없어요.",
+        "caption": null,
+        "kind": "card"
+      },
+      "glance": {
+        "key": {
+          "num": "4가지",
+          "what": {
+            "text": "새로 바뀐 부모 설정에서 고를 수 있는 것",
+            "phrases": [
+              "새로 바뀐 부모 설정에서",
+              "고를 수 있는 것"
+            ]
+          },
+          "source": "핀터레스트 · 11월 24일 공개 · 10대 계정 기준"
+        },
+        "blocks": [
+          {
+            "head": "부모가 고를 수 있어요",
+            "head_style": "",
+            "type": "list",
+            "style": "check",
+            "items": [
+              {
+                "text": "AI가 만든 그림이 얼마나 보일지",
+                "phrases": [
+                  "AI가 만든 그림이",
+                  "얼마나 보일지"
+                ]
+              },
+              {
+                "text": "동영상 자동 재생 끄기",
+                "phrases": [
+                  "동영상",
+                  "자동 재생 끄기"
+                ]
+              },
+              {
+                "text": "알림을 얼마나 받을지",
+                "phrases": [
+                  "알림을",
+                  "얼마나 받을지"
+                ]
+              },
+              {
+                "text": "맞춤 광고 설정",
+                "phrases": [
+                  "맞춤 광고",
+                  "설정"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "head": "알아 두세요",
+            "items": [
+              {
+                "text": "AI 그림을 줄이는 설정이지 모두 막는 것은 아니에요. 우리나라에서 언제 쓸 수 있는지는 아직 발표가 없어요.",
+                "phrases": [
+                  "AI 그림을 줄이는 설정이지",
+                  "모두 막는 것은 아니에요.",
+                  "우리나라에서",
+                  "언제 쓸 수 있는지는",
+                  "아직 발표가 없어요."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "qa": [
+        {
+          "q": "무슨 일이에요?",
+          "a": {
+            "text": "사진과 그림을 모아 보는 앱 '핀터레스트'가 부모 설정 화면을 새로 꾸몄어요. 이제 부모는 10대 자녀의 화면에 AI가 만든 그림이 얼마나 보일지 정할 수 있어요. 같은 화면에서 동영상 자동 재생을 끄고, 알림을 얼마나 받을지도 고를 수 있어요. 맞춤 광고 설정도 한곳에 모았어요."
+          }
+        },
+        {
+          "q": "왜 그래요?",
+          "a": {
+            "text": "요즘은 AI로 만든 그림이 진짜 사진처럼 보이는 일이 많아요. 아이들은 무엇이 진짜이고 무엇이 AI가 만든 것인지 가리기 어려워요. 핀터레스트에는 원래 AI 그림을 덜 보는 설정이 있었어요. 하지만 그 설정을 켜도 AI 그림이 섞여 나왔어요. 그래서 부모가 직접 정할 수 있는 길을 하나 더 만든 거예요."
+          }
+        },
+        {
+          "q": "나한테는요?",
+          "a": {
+            "text": "아이가 핀터레스트를 쓴다면 부모 설정 화면을 한번 열어 보세요. 다만 설정만으로 모든 AI 그림을 막을 수는 없어요. 몇 살까지, 어느 나라에서 이 기능을 쓸 수 있는지도 아직 자세히 알려지지 않았어요. 아이와 함께 그림을 보며 \"이건 진짜일까?\" 하고 이야기해 보는 것도 좋아요."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "핀터레스트 뉴스룸",
+          "date": "",
+          "url": "https://newsroom.pinterest.com/news/helping-families-navigate-controls-for-teens-on-pinterest/"
+        },
+        {
+          "name": "WERSM",
+          "date": "11월 24일",
+          "url": "https://wersm.com/pinterest-parents-limit-ai-generated-content-teens-feeds/"
+        },
+        {
+          "name": "컴퓨팅닷넷",
+          "date": "11월 25일",
+          "url": "https://computing.net/pinterest-targets-the-teen-feed-with-new-ai-content-limits-for-parents/"
+        }
+      ],
+      "audio": {
+        "src": "assets/audio/hf_20261125_200740_8cf6664f-b216-4199-83fe-c9f145fbf233.mp3",
+        "url": "https://aigo.artricx.com/assets/audio/hf_20261125_200740_8cf6664f-b216-4199-83fe-c9f145fbf233.mp3"
+      }
+    }
+  ],
+  "soon": null,
+  "words": [
+    {
+      "word": "챗봇",
+      "meaning": {
+        "text": "사람처럼 말을 주고받는 프로그램",
+        "phrases": [
+          "사람처럼 말을",
+          "주고받는 프로그램"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "주지사",
+      "meaning": {
+        "text": "미국에서 한 주를 이끄는 사람",
+        "phrases": [
+          "미국에서 한 주를",
+          "이끄는 사람"
+        ]
+      },
+      "color": "pink"
+    },
+    {
+      "word": "음악 스트리밍",
+      "meaning": {
+        "text": "파일을 받지 않고 인터넷으로 바로 듣는 음악",
+        "phrases": [
+          "파일을 받지 않고",
+          "인터넷으로 바로 듣는 음악"
+        ]
+      },
+      "color": "blue"
+    },
+    {
+      "word": "자동 재생",
+      "meaning": {
+        "text": "누르지 않아도 동영상이 저절로 나오는 기능",
+        "phrases": [
+          "누르지 않아도",
+          "동영상이 저절로 나오는 기능"
+        ]
+      },
+      "color": "green"
+    },
+    {
+      "word": "맞춤 광고",
+      "meaning": {
+        "text": "내가 본 것을 바탕으로 골라 보여 주는 광고",
+        "phrases": [
+          "내가 본 것을 바탕으로",
+          "골라 보여 주는 광고"
+        ]
+      },
+      "color": "green"
+    }
+  ]
+}
