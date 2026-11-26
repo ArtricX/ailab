@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-27",
+    "title": "AI가 끊는 기차표,|EBS 무료 AI 배움터,|광고와 다른 AI 장터",
+    "summary": "정부의 무료 AI '모두의 AI'가|다음 달 문을 열고,|내년엔 KTX 예매도 맡아요.|EBS는 무료 AI 강좌를 열었고,|영국에선 AI 광고와 다른 장터가|예약을 취소했어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "생활",
+        "color": "blue",
+        "anchor": "modu-ai",
+        "title": "KTX 기차표,|내년엔 AI가|대신 끊어 줘요",
+        "dek": "정부의 무료 AI 서비스|'모두의 AI'가|다음 달 문을 열어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261126_200217_31449733-ede5-4ec9-a9a4-57677c6a2e70.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261126_200217_31449733-ede5-4ec9-a9a4-57677c6a2e70_min.webp"
+      },
+      {
+        "tag": "학교",
+        "color": "green",
+        "anchor": "ai-esop",
+        "title": "유치원생부터 어르신까지,|EBS가|무료 AI 배움터를 열었어요",
+        "dek": "나이에 맞춘|AI 강좌 400편을|차례로 채워요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261126_200217_9fafb0d0-7ad1-4c12-809f-46749436facc.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261126_200217_9fafb0d0-7ad1-4c12-809f-46749436facc_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "yellow",
+        "anchor": "xmas-market",
+        "title": "AI로 그린|크리스마스 장터 광고,|가 보니 텅 빈 창고",
+        "dek": "영국의 한 장터가|올해 예약을|모두 취소했어요.",
+        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261126_200218_aa0188cc-5ce1-4b2b-867f-c3c94e259224.png",
+        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261126_200218_aa0188cc-5ce1-4b2b-867f-c3c94e259224_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "AI 에이전트",
+        "meaning": "말에 답하는 것을 넘어|일을 대신 해 주는 AI"
+      },
+      {
+        "word": "개인정보",
+        "meaning": "이름, 전화번호처럼|나를 알아볼 수 있는 정보"
+      },
+      {
+        "word": "블록 코딩",
+        "meaning": "글자 대신 블록을 끼워|프로그램을 만드는 방법"
+      },
+      {
+        "word": "생성형 AI",
+        "meaning": "글이나 그림을|새로 만들어 내는 AI"
+      },
+      {
+        "word": "후기",
+        "meaning": "직접 써 보거나 다녀온 사람이|남긴 이야기"
+      }
+    ]
+  },
+  {
     "date": "2026-11-26",
     "title": "말하는 AI 인형 금지,|AI가 만든 노래 정리,|부모가 줄이는 AI 그림",
     "summary": "뉴욕주는|말하는 AI 장난감을|5년 동안 멈추고,|타이달은|AI가 혼자 만든 노래를 지워요.|핀터레스트는|부모가 AI 그림을|줄이게 했어요.",

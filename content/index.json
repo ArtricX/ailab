@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-27",
+      "title": "AI가 끊는 기차표, EBS 무료 AI 배움터, 광고와 다른 AI 장터",
+      "file": "content/2026-11-27.json",
+      "stories": [
+        {
+          "anchor": "modu-ai",
+          "tag": "생활",
+          "color": "blue",
+          "title": "KTX 기차표, 내년엔 AI가 대신 끊어 줘요"
+        },
+        {
+          "anchor": "ai-esop",
+          "tag": "학교",
+          "color": "green",
+          "title": "유치원생부터 어르신까지, EBS가 무료 AI 배움터를 열었어요"
+        },
+        {
+          "anchor": "xmas-market",
+          "tag": "안전",
+          "color": "yellow",
+          "title": "AI로 그린 크리스마스 장터 광고, 가 보니 텅 빈 창고"
+        }
+      ]
+    },
+    {
       "date": "2026-11-26",
       "title": "말하는 AI 인형 금지, AI가 만든 노래 정리, 부모가 줄이는 AI 그림",
       "file": "content/2026-11-26.json",
