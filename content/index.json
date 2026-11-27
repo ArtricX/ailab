@@ -2,6 +2,31 @@
   "schema": 1,
   "posts": [
     {
+      "date": "2026-11-28",
+      "title": "가짜 AI 치과의사, 사기범 목소리 잡는 AI, AI 타고 온 쇼핑 손님",
+      "file": "content/2026-11-28.json",
+      "stories": [
+        {
+          "anchor": "fake-dentist",
+          "tag": "건강",
+          "color": "blue",
+          "title": "AI가 만든 가짜 치과의사 광고, 60대 이상 절반이 못 가려요"
+        },
+        {
+          "anchor": "voice-phishing",
+          "tag": "안전",
+          "color": "green",
+          "title": "보이스피싱범 목소리, 전화하는 동안 AI가 알아채요"
+        },
+        {
+          "anchor": "ai-shopping",
+          "tag": "돈",
+          "color": "yellow",
+          "title": "미국 추수감사절 쇼핑, AI 타고 온 손님이 2.6배로 늘었어요"
+        }
+      ]
+    },
+    {
       "date": "2026-11-27",
       "title": "AI가 끊는 기차표, EBS 무료 AI 배움터, 광고와 다른 AI 장터",
       "file": "content/2026-11-27.json",

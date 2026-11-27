@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-28",
+    "title": "가짜 AI 치과의사,|사기범 목소리|잡는 AI,|AI 타고 온 쇼핑 손님",
+    "summary": "AI로 만든 가짜 치과의사 광고를|60대 이상은 절반쯤만 가려냈어요.|보이스피싱범 목소리를 잡는 AI는|대통령상을 받았고,|미국에선 AI에게 묻고 온|쇼핑 손님이 크게 늘었어요.",
+    "minutes": 5,
+    "stories": [
+      {
+        "tag": "건강",
+        "color": "blue",
+        "anchor": "fake-dentist",
+        "title": "AI가 만든|가짜 치과의사 광고,|60대 이상 절반이|못 가려요",
+        "dek": "치과 광고 그림 넷 중|AI 그림 하나를|골라 보게 했어요.",
+        "illust": "assets/img/hf_20261127_200616_296cb272-8d2f-4e50-83a0-950c15f964d4.webp",
+        "thumb": "assets/img/hf_20261127_200616_296cb272-8d2f-4e50-83a0-950c15f964d4_min.webp"
+      },
+      {
+        "tag": "안전",
+        "color": "green",
+        "anchor": "voice-phishing",
+        "title": "보이스피싱범 목소리,|전화하는 동안|AI가 알아채요",
+        "dek": "이 기능이|정부 일 잘하기 대회에서|대통령상을 받았어요.",
+        "illust": "assets/img/hf_20261127_200614_a219e96e-120a-4945-89e0-a91ea0881086.webp",
+        "thumb": "assets/img/hf_20261127_200614_a219e96e-120a-4945-89e0-a91ea0881086_min.webp"
+      },
+      {
+        "tag": "돈",
+        "color": "yellow",
+        "anchor": "ai-shopping",
+        "title": "미국 추수감사절 쇼핑,|AI 타고 온 손님이|2.6배로 늘었어요",
+        "dek": "AI에게 묻고 온 손님은|물건도 더 잘 샀어요.",
+        "illust": "assets/img/hf_20261127_200617_765a0bf9-a7f3-4ce7-8e3f-958ce51d55cd.webp",
+        "thumb": "assets/img/hf_20261127_200617_765a0bf9-a7f3-4ce7-8e3f-958ce51d55cd_min.webp"
+      }
+    ],
+    "keywords": [
+      {
+        "word": "임플란트",
+        "meaning": "빠진 이 자리에 심는|인공 치아"
+      },
+      {
+        "word": "보이스피싱",
+        "meaning": "전화로 사람을 속여|돈을 빼앗는 사기"
+      },
+      {
+        "word": "개인정보",
+        "meaning": "얼굴, 목소리처럼|나를 알아볼 수 있는 정보"
+      },
+      {
+        "word": "추수감사절",
+        "meaning": "한 해 거둔 것에 감사하는|미국의 큰 명절"
+      },
+      {
+        "word": "블랙프라이데이",
+        "meaning": "추수감사절 다음 날 열리는|미국의 큰 할인 날"
+      }
+    ]
+  },
+  {
     "date": "2026-11-27",
     "title": "AI가 끊는 기차표,|EBS 무료 AI 배움터,|광고와 다른 AI 장터",
     "summary": "정부의 무료 AI '모두의 AI'가|다음 달 문을 열고,|내년엔 KTX 예매도 맡아요.|EBS는 무료 AI 강좌를 열었고,|영국에선 AI 광고와 다른 장터가|예약을 취소했어요.",
