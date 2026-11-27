@@ -11,8 +11,8 @@
         "anchor": "fake-dentist",
         "title": "AI가 만든|가짜 치과의사 광고,|60대 이상 절반이|못 가려요",
         "dek": "치과 광고 그림 넷 중|AI 그림 하나를|골라 보게 했어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261127_200616_296cb272-8d2f-4e50-83a0-950c15f964d4.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261127_200616_296cb272-8d2f-4e50-83a0-950c15f964d4_min.webp"
+        "illust": "assets/img/hf_20261127_200616_296cb272-8d2f-4e50-83a0-950c15f964d4.webp",
+        "thumb": "assets/img/hf_20261127_200616_296cb272-8d2f-4e50-83a0-950c15f964d4_min.webp"
       },
       {
         "tag": "안전",
@@ -20,8 +20,8 @@
         "anchor": "voice-phishing",
         "title": "보이스피싱범 목소리,|전화하는 동안|AI가 알아채요",
         "dek": "이 기능이|정부 일 잘하기 대회에서|대통령상을 받았어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261127_200614_a219e96e-120a-4945-89e0-a91ea0881086.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261127_200614_a219e96e-120a-4945-89e0-a91ea0881086_min.webp"
+        "illust": "assets/img/hf_20261127_200614_a219e96e-120a-4945-89e0-a91ea0881086.webp",
+        "thumb": "assets/img/hf_20261127_200614_a219e96e-120a-4945-89e0-a91ea0881086_min.webp"
       },
       {
         "tag": "돈",
@@ -29,8 +29,8 @@
         "anchor": "ai-shopping",
         "title": "미국 추수감사절 쇼핑,|AI 타고 온 손님이|2.6배로 늘었어요",
         "dek": "AI에게 묻고 온 손님은|물건도 더 잘 샀어요.",
-        "illust": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261127_200617_765a0bf9-a7f3-4ce7-8e3f-958ce51d55cd.png",
-        "thumb": "https://d8j0ntlcm91z4.cloudfront.net/user_2ygbcttAm6drSvnnNj3z0QohSs0/hf_20261127_200617_765a0bf9-a7f3-4ce7-8e3f-958ce51d55cd_min.webp"
+        "illust": "assets/img/hf_20261127_200617_765a0bf9-a7f3-4ce7-8e3f-958ce51d55cd.webp",
+        "thumb": "assets/img/hf_20261127_200617_765a0bf9-a7f3-4ce7-8e3f-958ce51d55cd_min.webp"
       }
     ],
     "keywords": [
